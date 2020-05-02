@@ -3,7 +3,7 @@
     <!-- Page Content -->
     <div class="content">
       <!-- Hero -->
-      <base-background image="img/photos/photo33@2x.jpg" inner-class="bg-white-90">
+      <base-background image="images/photos/photo33@2x.jpg" inner-class="bg-white-90">
         <base-block rounded content-full transparent>
           <div class="py-4 text-center">
             <h1 class="mb-2">

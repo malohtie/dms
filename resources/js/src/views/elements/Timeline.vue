@@ -61,7 +61,7 @@
             <b-media class="font-size-sm">
               <template #aside>
                 <a class="img-link" href="javascript:void(0)">
-                  <img class="img-avatar img-avatar48" src="img/avatars/avatar2.jpg" alt="Avatar">
+                  <img class="img-avatar img-avatar48" src="images/avatars/avatar2.jpg" alt="Avatar">
                 </a>
               </template>
               <p>
@@ -101,7 +101,7 @@
                   <li v-for="(user, index) in userList.slice(0,3)" :key="`userlist1-${index}`">
                     <a class="media py-2" :href="`${user.href}`">
                       <div class="mr-3 ml-2 overlay-container overlay-left">
-                        <img class="img-avatar img-avatar48" :src="`img/avatars/${user.avatar}`" alt="Avatar">
+                        <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}`" alt="Avatar">
                         <span :class="`overlay-item item item-tiny item-circle border border-2x border-white bg-${user.statusColor}`"></span>
                       </div>
                       <div class="media-body">
@@ -119,7 +119,7 @@
                   <li v-for="(user, index) in userList.slice(3,6)" :key="`userlist2-${index}`">
                     <a class="media py-2" :href="`${user.href}`">
                       <div class="mr-3 ml-2 overlay-container overlay-left">
-                        <img class="img-avatar img-avatar48" :src="`img/avatars/${user.avatar}`" alt="Avatar">
+                        <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}`" alt="Avatar">
                         <span :class="`overlay-item item item-tiny item-circle border border-2x border-white bg-${user.statusColor}`"></span>
                       </div>
                       <div class="media-body">
@@ -174,7 +174,7 @@
             </template>
             <div class="alert alert-success d-flex align-items-center justify-content-between" role="alert">
               <div class="flex-fill mr-3">
-                <p class="mb-0">OneUI was successfully <a class="alert-link" href="javascript:void(0)">updated</a> to v{{ $store.getters.appVersion }}!</p>
+                <p class="mb-0">dms was successfully <a class="alert-link" href="javascript:void(0)">updated</a> to v{{ $store.getters.appVersion }}!</p>
               </div>
               <div class="flex-00-auto">
                 <i class="fa fa-fw fa-check-circle"></i>
@@ -227,14 +227,14 @@ export default {
       timelineCentered: true,
       index: null,
       photos: [
-        'img/photos/photo11@2x.jpg',
-        'img/photos/photo12@2x.jpg',
-        'img/photos/photo13@2x.jpg',
-        'img/photos/photo14@2x.jpg',
-        'img/photos/photo15@2x.jpg',
-        'img/photos/photo16@2x.jpg',
-        'img/photos/photo17@2x.jpg',
-        'img/photos/photo18@2x.jpg'
+        'images/photos/photo11@2x.jpg',
+        'images/photos/photo12@2x.jpg',
+        'images/photos/photo13@2x.jpg',
+        'images/photos/photo14@2x.jpg',
+        'images/photos/photo15@2x.jpg',
+        'images/photos/photo16@2x.jpg',
+        'images/photos/photo17@2x.jpg',
+        'images/photos/photo18@2x.jpg'
       ],
       userList: [
         {

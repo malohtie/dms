@@ -154,7 +154,7 @@
                     {{ customer.id }}
                   </b-td>
                   <b-td class="d-none d-sm-table-cell text-center">
-                    <img class="img-avatar img-avatar32" :src="`img/avatars/${customer.avatar}.jpg`" alt="Avatar">
+                    <img class="img-avatar img-avatar32" :src="`images/avatars/${customer.avatar}.jpg`" alt="Avatar">
                   </b-td>
                   <b-td>
                     <a class="link-fx font-w600" href="javascript:void(0)">{{ customer.name }}</a>

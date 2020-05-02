@@ -39,7 +39,7 @@
           <b-tbody>
             <b-tr v-for="user in users" :key="user.id">
               <b-td class="text-center">
-                <img class="img-avatar img-avatar48" :src="`img/avatars/${user.avatar}.jpg`" alt="Avatar">
+                <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}.jpg`" alt="Avatar">
               </b-td>
               <b-td class="font-w600 font-size-sm">
                 <a :href="`${user.href}`">
@@ -92,7 +92,7 @@
           <b-tbody>
             <b-tr v-for="user in users" :key="user.id">
               <b-td class="text-center">
-                <img class="img-avatar img-avatar48" :src="`img/avatars/${user.avatar}.jpg`" alt="Avatar">
+                <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}.jpg`" alt="Avatar">
               </b-td>
               <b-td class="font-w600 font-size-sm">
                 <a :href="`${user.href}`">

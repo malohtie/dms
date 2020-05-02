@@ -126,7 +126,7 @@
         </b-col>
         <b-col md="6">
           <!-- Glass on Background Image -->
-          <base-background image="/img/photos/photo25.jpg">
+          <base-background image="/images/photos/photo25.jpg">
             <base-block class="bg-black-50" ribbon ribbon-variant="glass">
               <template #ribbon>
                 <i class="fa fa-check"></i>
@@ -278,7 +278,7 @@
         </b-col>
         <b-col md="6">
           <!-- Glass on Background Image -->
-          <base-background image="/img/photos/photo25.jpg">
+          <base-background image="/images/photos/photo25.jpg">
             <base-block class="bg-black-50" ribbon ribbon-bookmark ribbon-variant="glass">
               <template #ribbon>
                 <i class="fa fa-check"></i>
@@ -430,7 +430,7 @@
         </b-col>
         <b-col md="6">
           <!-- Glass on Background Image -->
-          <base-background image="/img/photos/photo25.jpg">
+          <base-background image="/images/photos/photo25.jpg">
             <base-block class="bg-black-50" ribbon ribbon-bottom ribbon-modern ribbon-variant="glass">
               <template #ribbon>
                 <i class="fa fa-check"></i>

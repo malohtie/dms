@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero -->
-    <base-background image="img/photos/photo33@2x.jpg" inner-class="bg-white-90">
+    <base-background image="images/photos/photo33@2x.jpg" inner-class="bg-white-90">
       <div class="content content-full">
         <div class="py-3 text-center">
           <h1 class="mb-2">
@@ -14,7 +14,7 @@
       </div>
     </base-background>
     <!-- END Hero -->
-    
+
     <!-- Page Content -->
     <div class="content">
       <!-- Dummy content -->

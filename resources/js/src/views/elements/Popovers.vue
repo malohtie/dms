@@ -86,16 +86,16 @@
         </p>
         <b-row class="items-push text-center">
           <b-col sm="6" xl="3">
-            <b-button size="sm" variant="secondary" block v-b-popover.hover.html.nofade.top="'<img class=\'img-avatar\' src=\'img/avatars/avatar10.jpg\' alt=\'\'>'" title="Popover Title">Top</b-button>
+            <b-button size="sm" variant="secondary" block v-b-popover.hover.html.nofade.top="'<img class=\'img-avatar\' src=\'images/avatars/avatar10.jpg\' alt=\'\'>'" title="Popover Title">Top</b-button>
           </b-col>
           <b-col sm="6" xl="3">
-            <b-button size="sm" variant="secondary" block v-b-popover.hover.html.nofade.right="'<img class=\'img-avatar\' src=\'img/avatars/avatar10.jpg\' alt=\'\'>'" title="Popover Title">Right</b-button>
+            <b-button size="sm" variant="secondary" block v-b-popover.hover.html.nofade.right="'<img class=\'img-avatar\' src=\'images/avatars/avatar10.jpg\' alt=\'\'>'" title="Popover Title">Right</b-button>
           </b-col>
           <b-col sm="6" xl="3">
-            <b-button size="sm" variant="secondary" block v-b-popover.hover.html.nofade.bottom="'<img class=\'img-avatar\' src=\'img/avatars/avatar10.jpg\' alt=\'\'>'" title="Popover Title">Bottom</b-button>
+            <b-button size="sm" variant="secondary" block v-b-popover.hover.html.nofade.bottom="'<img class=\'img-avatar\' src=\'images/avatars/avatar10.jpg\' alt=\'\'>'" title="Popover Title">Bottom</b-button>
           </b-col>
           <b-col sm="6" xl="3">
-            <b-button size="sm" variant="secondary" block v-b-popover.hover.html.nofade.left="'<img class=\'img-avatar\' src=\'img/avatars/avatar10.jpg\' alt=\'\'>'" title="Popover Title">Left</b-button>
+            <b-button size="sm" variant="secondary" block v-b-popover.hover.html.nofade.left="'<img class=\'img-avatar\' src=\'images/avatars/avatar10.jpg\' alt=\'\'>'" title="Popover Title">Left</b-button>
           </b-col>
         </b-row>
       </base-block>

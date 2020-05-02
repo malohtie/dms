@@ -49,7 +49,7 @@
               </router-link>
             </template>
             <div class="p-sm-3 px-lg-4 py-lg-5">
-              <h1 class="mb-2">OneUI</h1>
+              <h1 class="mb-2">dms</h1>
               <p>Please fill the following details to create a new account.</p>
 
               <!-- Sign Up Form -->

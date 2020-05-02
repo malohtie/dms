@@ -1,10 +1,10 @@
 <template>
   <div>
     <!-- Hero -->
-    <base-background image="img/photos/photo8@2x.jpg" inner-class="bg-black-50">
+    <base-background image="images/photos/photo8@2x.jpg" inner-class="bg-black-50">
       <div class="content content-full text-center">
         <div class="my-3">
-            <img class="img-avatar img-avatar-thumb" src="img/avatars/avatar13.jpg" alt="Avatar">
+            <img class="img-avatar img-avatar-thumb" src="images/avatars/avatar13.jpg" alt="Avatar">
         </div>
         <h1 class="h2 text-white mb-0">John Parker</h1>
         <span class="text-white-75">UI Designer</span>
@@ -284,7 +284,7 @@
               <li v-for="(user, index) in userList" :key="`userlist-${index}`">
                 <a class="media py-2" :href="`${user.href}`">
                   <div class="mr-3 ml-2 overlay-container overlay-left">
-                    <img class="img-avatar img-avatar48" :src="`img/avatars/${user.avatar}`" alt="Avatar">
+                    <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}`" alt="Avatar">
                     <span :class="`overlay-item item item-tiny item-circle border border-2x border-white bg-${user.statusColor}`"></span>
                   </div>
                   <div class="media-body">

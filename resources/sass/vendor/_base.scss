@@ -9,7 +9,7 @@
 @import '../custom/variables';
 
 // Custom Bootstrap variables overrides
-@import '../oneui/variables-bootstrap';
+@import '../dms/variables-bootstrap';
 
 // Bootstrap variables
 @import '~bootstrap/scss/variables';
@@ -18,8 +18,8 @@
 @import '~bootstrap/scss/mixins';
 
 // Custom mixins and Bootstrap overrides
-@import '../oneui/mixins';
+@import '../dms/mixins';
 
 // Custom variables
-@import '../oneui/variables';
-@import '../oneui/variables-themes';
+@import '../dms/variables';
+@import '../dms/variables-themes';

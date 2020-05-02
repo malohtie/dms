@@ -52,7 +52,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('attentionSeekers')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -89,7 +89,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('bouncingEntrances')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -126,7 +126,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('bouncingExits')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -175,7 +175,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('fadingEntrances')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -224,7 +224,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('fadingExits')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -261,7 +261,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('flippers')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -289,7 +289,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('lightspeed')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -326,7 +326,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('rotatingEntrances')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -363,7 +363,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('rotatingExits')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -397,7 +397,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('slidingEntrances')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -431,7 +431,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('slidingExits')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -468,7 +468,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('zoomEntrances')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -505,7 +505,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('zoomExits')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>
@@ -536,7 +536,7 @@
           </b-col>
           <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
             <div :class="classContainer('specials')">
-              <img class="img-fluid" src="img/various/little-monster.png" alt="Cartoon" width="200">
+              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
             </div>
           </b-col>
         </b-row>

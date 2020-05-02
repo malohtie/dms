@@ -91,12 +91,12 @@
             </div>
             <h4 class="border-bottom pb-2">Crop Data</h4>
             <div class="mx-md-6">
-              <b-textarea v-model="cropData" rows="6"></b-textarea>  
+              <b-textarea v-model="cropData" rows="6"></b-textarea>
             </div>
           </b-col>
         </b-row>
       </base-block>
-      <!-- END Image Cropper -->      
+      <!-- END Image Cropper -->
     </div>
     <!-- END Page Content -->
   </div>
@@ -117,7 +117,7 @@ export default {
   },
   data () {
     return {
-      imgSrc: '/img/photos/photo30@2x.jpg',
+      imgSrc: '/images/photos/photo30@2x.jpg',
       cropData: null
     };
   },

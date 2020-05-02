@@ -1,6 +1,6 @@
 <template>
   <!-- Page Content -->
-  <base-background image="img/photos/photo6@2x.jpg" inner-class="bg-white-95">
+  <base-background image="images/photos/photo6@2x.jpg" inner-class="bg-white-95">
     <div class="hero-static">
       <div class="content">
         <b-row class="justify-content-center">
@@ -13,7 +13,7 @@
                 </router-link>
               </template>
               <div class="p-sm-3 px-lg-4 py-lg-5">
-                <h1 class="mb-2">OneUI</h1>
+                <h1 class="mb-2">dms</h1>
                 <p>Please provide your account’s email and we will send you your password.</p>
 
                 <!-- Reminder Form -->

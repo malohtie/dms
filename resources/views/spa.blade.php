@@ -16,6 +16,7 @@
     <!-- END Icons -->
     <!-- Web Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+    <link rel="stylesheet" href="{{ mix('css/main.css') }}">
 </head>
 <body>
 <noscript>

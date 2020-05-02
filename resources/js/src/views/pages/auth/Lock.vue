@@ -1,6 +1,6 @@
 <template>
   <!-- Page Content -->
-  <base-background image="img/photos/photo34@2x.jpg" inner-class="bg-black-50">
+  <base-background image="images/photos/photo34@2x.jpg" inner-class="bg-black-50">
     <div class="hero-static">
       <div class="content">
         <b-row class="justify-content-center">
@@ -13,7 +13,7 @@
                 </router-link>
               </template>
               <div class="p-sm-3 px-lg-4 py-lg-5 text-center">
-                <img class="img-avatar img-avatar96" src="img/avatars/avatar10.jpg" alt="Avatar">
+                <img class="img-avatar img-avatar96" src="images/avatars/avatar10.jpg" alt="Avatar">
                 <p class="font-w600 my-2">
                   user@example.com
                 </p>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero -->
-    <base-background image="img/photos/photo3@2x.jpg" inner-class="bg-primary-dark-op">
+    <base-background image="images/photos/photo3@2x.jpg" inner-class="bg-primary-dark-op">
       <div class="content content-narrow content-full">
         <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center mt-5 mb-2 text-center text-sm-left">
           <div class="flex-sm-fill">
@@ -173,7 +173,7 @@
                     {{ customer.id }}
                   </b-td>
                   <b-td class="d-none d-sm-table-cell text-center">
-                    <img class="img-avatar img-avatar32" :src="`img/avatars/${customer.avatar}.jpg`" alt="Avatar">
+                    <img class="img-avatar img-avatar32" :src="`images/avatars/${customer.avatar}.jpg`" alt="Avatar">
                   </b-td>
                   <b-td>
                     <a class="link-fx font-w600" href="javascript:void(0)">{{ customer.name }}</a>

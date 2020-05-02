@@ -153,13 +153,13 @@
                 <b-th class="text-center" style="width: 110px;">Actions</b-th>
               </b-tr>
             </b-thead>
-            <b-tbody>                        
+            <b-tbody>
               <b-tr v-for="user in users" :key="user.id">
                 <b-td class="d-none d-sm-table-cell text-center">
                   <b-badge variant="primary" pill>{{ user.id }}</b-badge>
                 </b-td>
                 <b-td class="text-center">
-                  <img class="img-avatar img-avatar48" :src="`img/avatars/${user.avatar}.jpg`" alt="Avatar">
+                  <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}.jpg`" alt="Avatar">
                 </b-td>
                 <b-td class="font-w600">
                   <a :href="`${user.href}`">{{ user.name }}</a>
@@ -187,12 +187,12 @@
         <b-tab title="Classic">
           <!-- Classic -->
           <div class="font-size-h4 font-w600 p-2 mb-4 border-left border-4x border-primary bg-body-light">
-            <span class="text-primary font-w700">280</span> websites found for <mark class="text-danger">OneUI</mark>
+            <span class="text-primary font-w700">280</span> websites found for <mark class="text-danger">dms</mark>
           </div>
           <b-row class="row py-3">
             <b-col lg="6" v-for="index in 12" :key="index">
               <h4 class="h5 mb-1">
-                <a href="javascript:void(0)">OneUI - Vue Edition</a>
+                <a href="javascript:void(0)">dms - Vue Edition</a>
               </h4>
               <div class="font-size-sm text-success mb-1">https://pixelcave.com/</div>
               <p class="font-size-sm text-muted">Donec lacinia venenatis metus at bibendum? In hac habitasse platea
@@ -210,40 +210,40 @@
           </div>
           <b-row class="gutters-tiny items-push push">
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo1.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo1.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo2.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo2.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo6.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo6.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo21.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo21.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo22.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo22.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo9.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo9.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo23.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo23.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo24.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo24.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo25.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo25.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo27.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo27.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo28.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo28.jpg" alt="Photo">
             </b-col>
             <b-col md="6" lg="4" xl="3">
-              <img class="img-fluid" src=" img/photos/photo30.jpg" alt="Photo">
+              <img class="img-fluid" src=" images/photos/photo30.jpg" alt="Photo">
             </b-col>
           </b-row>
           <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage" size="sm"></b-pagination>

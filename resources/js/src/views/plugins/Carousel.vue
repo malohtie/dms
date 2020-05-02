@@ -17,60 +17,60 @@
         <b-col md="6">
           <base-block title="Default with Indicators" content-full>
             <b-carousel controls indicators :interval="4000">
-              <b-carousel-slide img-src="img/photos/photo29.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo30.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo31.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo32.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo29.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo30.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo31.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo32.jpg"></b-carousel-slide>
             </b-carousel>
           </base-block>
         </b-col>
         <b-col md="6">
           <base-block title="Fade with Indicators" content-full>
             <b-carousel fade controls indicators :interval="4000">
-              <b-carousel-slide img-src="img/photos/photo32.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo30.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo29.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo31.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo32.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo30.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo29.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo31.jpg"></b-carousel-slide>
             </b-carousel>
           </base-block>
         </b-col>
         <b-col md="6">
           <base-block title="No animation with Indicators" content-full>
             <b-carousel no-animation controls indicators :interval="4000">
-              <b-carousel-slide img-src="img/photos/photo30.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo32.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo31.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo29.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo30.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo32.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo31.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo29.jpg"></b-carousel-slide>
             </b-carousel>
           </base-block>
         </b-col>
         <b-col md="6">
           <base-block title="Only Arrows" content-full>
             <b-carousel controls :interval="4000">
-              <b-carousel-slide img-src="img/photos/photo30.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo29.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo32.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo31.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo30.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo29.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo32.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo31.jpg"></b-carousel-slide>
             </b-carousel>
           </base-block>
         </b-col>
         <b-col md="6">
           <base-block title="Simple with No Pause on Hover" content-full>
             <b-carousel no-hover-pause :interval="4000">
-              <b-carousel-slide img-src="img/photos/photo31.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo30.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo32.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo29.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo31.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo30.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo32.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo29.jpg"></b-carousel-slide>
             </b-carousel>
           </base-block>
         </b-col>
         <b-col md="6">
           <base-block title="No autoplay" content-full>
             <b-carousel controls indicators :interval="0">
-              <b-carousel-slide img-src="img/photos/photo31.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo29.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo30.jpg"></b-carousel-slide>
-              <b-carousel-slide img-src="img/photos/photo32.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo31.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo29.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo30.jpg"></b-carousel-slide>
+              <b-carousel-slide img-src="images/photos/photo32.jpg"></b-carousel-slide>
             </b-carousel>
           </base-block>
         </b-col>

@@ -11,10 +11,10 @@
             <b-col lg="6" class="text-center text-lg-left d-flex align-items-center bg-landing-left">
               <div class="w-100">
                 <h1 class="display-4 font-w700 mb-3">
-                  OneUI <span class="font-w300">Vue Edition</span>
+                  dms <span class="font-w300">Vue Edition</span>
                 </h1>
                 <p class="font-size-lg text-muted mb-3">
-                  Build all your projects with one super flexible UI framework.<br>Now rebuilt from scratch with Vue.js. Based on<br><a href="https://1.envato.market/AVD6j">OneUI Remastered</a> design!
+                  Build all your projects with one super flexible UI framework.<br>Now rebuilt from scratch with Vue.js. Based on<br><a href="https://1.envato.market/AVD6j">dms Remastered</a> design!
                 </p>
                 <b-button variant="alt-success" class="px-4 py-2 mr-2 mt-2" href="https://1.envato.market/5Noyb" v-click-ripple>
                   <i class="fa fa-fw fa-shopping-cart mr-1"></i> Purchase
@@ -29,18 +29,18 @@
                 <b-row no-gutters>
                   <b-col lg="7">
                     <div>
-                      <img class="promo-image" src="img/various/promo-dashboard.png" alt="OneUI Vue Promo Dashboard Image">
+                      <img class="promo-image" src="images/various/promo-dashboard.png" alt="dms Vue Promo Dashboard Image">
                     </div>
                     <div class="ml-4 mt-4">
-                      <img class="promo-image" src="img/various/promo-search.png" alt="OneUI Vue Promo Search Image">
+                      <img class="promo-image" src="images/various/promo-search.png" alt="dms Vue Promo Search Image">
                     </div>
                   </b-col>
                   <b-col lg="5">
                     <div class="ml-4 mt-5">
-                      <img class="promo-image" src="img/various/promo-side.png" alt="OneUI Vue Promo Side Image">
+                      <img class="promo-image" src="images/various/promo-side.png" alt="dms Vue Promo Side Image">
                     </div>
                     <div class=" ml-5 mt-4">
-                      <img class="promo-image" src="img/various/promo-code-vue.png" alt="OneUI Vue Promo Code Image">
+                      <img class="promo-image" src="images/various/promo-code-vue.png" alt="dms Vue Promo Code Image">
                     </div>
                   </b-col>
                 </b-row>
@@ -65,7 +65,7 @@
             Vue Edition
           </h2>
           <p class="font-size-lg text-muted mb-6 text-center mx-sm-6 mx-lg-10">
-            OneUI Vue Edition was carefully crafted for all your projects using the latest and greatest technology.
+            dms Vue Edition was carefully crafted for all your projects using the latest and greatest technology.
           </p>
           <b-row>
             <b-col order-md="1" md="6" offset-lg="1" class="d-flex align-items-center">
@@ -93,7 +93,7 @@
                 Amazing tools under the hood
               </h4>
               <p class="font-size-lg text-muted mb-5">
-                We used the best toolkits, built by passionate people, to recreate OneUI from scratch and craft a pure Vue.js based version.
+                We used the best toolkits, built by passionate people, to recreate dms from scratch and craft a pure Vue.js based version.
               </p>
               <div class="d-flex push">
                 <div class="item item-rounded bg-success-light flex-shrink-0">
@@ -149,7 +149,7 @@
             Sophisticated Features
           </h2>
           <p class="font-size-lg text-muted mb-6 text-center mx-sm-6 mx-lg-10">
-            Comes packed with great features and development tools, based on OneUI Remastered design
+            Comes packed with great features and development tools, based on dms Remastered design
           </p>
           <b-row class="row-deck">
             <b-col sm="6" md="4" xl="3">
@@ -277,7 +277,7 @@
                 </div>
                 <h4 class="mb-2">Remastered Design</h4>
                 <p class="font-size-sm text-muted text-left">
-                  Using the latest styles from OneUI Remastered version, you can be sure that all design elements are available in the Vue Edition as well.
+                  Using the latest styles from dms Remastered version, you can be sure that all design elements are available in the Vue Edition as well.
                 </p>
               </base-block>
               <!-- END Remastered  Design -->
@@ -322,7 +322,7 @@
             Trusted by over 3.900 developers and teams
           </h2>
           <p class="font-size-lg text-white-75 mb-6 mx-sm-6 mx-lg-9">
-            <a class="text-primary-light" href="https://1.envato.market/AVD6j">OneUI</a> is one of the Best Seller and Best Rated admin templates on Themeforest. Its success made possible the development of Vue Edition.
+            <a class="text-primary-light" href="https://1.envato.market/AVD6j">dms</a> is one of the Best Seller and Best Rated admin templates on Themeforest. Its success made possible the development of Vue Edition.
           </p>
           <b-row no-gutters class="mx-lg-8">
             <b-col sm="4" class="p-3">

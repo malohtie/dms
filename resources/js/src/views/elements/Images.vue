@@ -18,7 +18,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container">
-            <img class="img-fluid options-item" src="img/photos/photo1.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo1.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -35,7 +35,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container">
-            <img class="img-fluid options-item" src="img/photos/photo1.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo1.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -52,7 +52,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container">
-            <img class="img-fluid options-item" src="img/photos/photo1.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo1.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -75,7 +75,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container fx-item-zoom-in">
-            <img class="img-fluid options-item" src="img/photos/photo2.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo2.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -92,7 +92,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in">
-            <img class="img-fluid options-item" src="img/photos/photo2.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo2.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -109,7 +109,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in">
-            <img class="img-fluid options-item" src="img/photos/photo2.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo2.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -132,7 +132,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container fx-item-rotate-r">
-            <img class="img-fluid options-item" src="img/photos/photo3.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo3.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -149,7 +149,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-rotate-r">
-            <img class="img-fluid options-item" src="img/photos/photo3.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo3.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -166,7 +166,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-rotate-r">
-            <img class="img-fluid options-item" src="img/photos/photo3.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo3.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -189,7 +189,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container fx-item-rotate-l">
-            <img class="img-fluid options-item" src="img/photos/photo4.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo4.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -206,7 +206,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-rotate-l">
-            <img class="img-fluid options-item" src="img/photos/photo4.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo4.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -223,7 +223,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-rotate-l">
-            <img class="img-fluid options-item" src="img/photos/photo4.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo4.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -246,7 +246,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-left">
-            <img class="img-fluid options-item" src="img/photos/photo12.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo12.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -263,7 +263,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-left">
-            <img class="img-fluid options-item" src="img/photos/photo12.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo12.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -280,7 +280,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-left">
-            <img class="img-fluid options-item" src="img/photos/photo12.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo12.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -303,7 +303,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-right">
-            <img class="img-fluid options-item" src="img/photos/photo16.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo16.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -320,7 +320,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-right">
-            <img class="img-fluid options-item" src="img/photos/photo16.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo16.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -337,7 +337,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-right">
-            <img class="img-fluid options-item" src="img/photos/photo16.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo16.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -360,7 +360,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
-            <img class="img-fluid options-item" src="img/photos/photo7.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo7.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -377,7 +377,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
-            <img class="img-fluid options-item" src="img/photos/photo7.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo7.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -394,7 +394,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-down">
-            <img class="img-fluid options-item" src="img/photos/photo7.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo7.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -417,7 +417,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-top">
-            <img class="img-fluid options-item" src="img/photos/photo8.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo8.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -434,7 +434,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-top">
-            <img class="img-fluid options-item" src="img/photos/photo8.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo8.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -451,7 +451,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-slide-top">
-            <img class="img-fluid options-item" src="img/photos/photo8.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo8.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -474,7 +474,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-zoom-in">
-            <img class="img-fluid options-item" src="img/photos/photo21.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo21.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -491,7 +491,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-zoom-in">
-            <img class="img-fluid options-item" src="img/photos/photo21.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo21.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -508,7 +508,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-zoom-in">
-            <img class="img-fluid options-item" src="img/photos/photo21.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo21.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -531,7 +531,7 @@
       <b-row class="items-push">
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-zoom-out">
-            <img class="img-fluid options-item" src="img/photos/photo10.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo10.jpg" alt="Image">
             <div class="options-overlay bg-black-75">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>
@@ -548,7 +548,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-zoom-out">
-            <img class="img-fluid options-item" src="img/photos/photo10.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo10.jpg" alt="Image">
             <div class="options-overlay bg-white-90">
               <div class="options-overlay-content">
                 <h3 class="h4 mb-2">Image Caption</h3>
@@ -565,7 +565,7 @@
         </b-col>
         <b-col md="4">
           <div class="options-container fx-item-zoom-in fx-overlay-zoom-out">
-            <img class="img-fluid options-item" src="img/photos/photo10.jpg" alt="Image">
+            <img class="img-fluid options-item" src="images/photos/photo10.jpg" alt="Image">
             <div class="options-overlay bg-primary-dark-op">
               <div class="options-overlay-content">
                 <h3 class="h4 text-white mb-2">Image Caption</h3>

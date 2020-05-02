@@ -7,7 +7,7 @@
           <i class="fa fa-2x fa-circle-notch text-primary"></i>
         </div>
         <h1 class="display-4 font-w700 mb-3">
-          OneUI <span class="font-w300">Vue Edition</span>
+          dms <span class="font-w300">Vue Edition</span>
         </h1>
         <p>
           This is a simple layout based page which you can use as a base for your landing, authentication, status or error pages.

@@ -1,6 +1,6 @@
 <template>
   <!-- Page Content -->
-  <base-background image="img/photos/photo6@2x.jpg" inner-class="bg-primary-dark-op">
+  <base-background image="images/photos/photo6@2x.jpg" inner-class="bg-primary-dark-op">
     <div class="hero">
       <div class="hero-inner bg-black-50">
         <div class="content content-full">
@@ -9,7 +9,7 @@
               <!-- Header -->
               <div class="push">
                 <router-link class="link-fx font-w700 font-size-h1" to="/">
-                  <span class="text-white">OneUI</span>
+                  <span class="text-white">dms</span>
                 </router-link>
                 <p class="font-size-sm text-white-75">Stay tuned! We are working on it and it is coming soon!</p>
               </div>
@@ -97,7 +97,7 @@ export default {
 
       // Alert with form input values
       //window.console.log(JSON.stringify(this.form))
-      
+
       this.form.success = 'Thank you for subscribing!'
       this.form.email = ''
     }

@@ -38,22 +38,22 @@ export default {
     return {
       index: null,
       photos: [
-        'img/photos/photo2@2x.jpg',
-        'img/photos/photo3@2x.jpg',
-        'img/photos/photo4@2x.jpg',
-        'img/photos/photo5@2x.jpg',
-        'img/photos/photo6@2x.jpg',
-        'img/photos/photo7@2x.jpg',
-        'img/photos/photo8@2x.jpg',
-        'img/photos/photo9@2x.jpg',
-        'img/photos/photo10@2x.jpg',
-        'img/photos/photo11@2x.jpg',
-        'img/photos/photo12@2x.jpg',
-        'img/photos/photo13@2x.jpg',
-        'img/photos/photo14@2x.jpg',
-        'img/photos/photo15@2x.jpg',
-        'img/photos/photo16@2x.jpg',
-        'img/photos/photo17@2x.jpg'
+        'images/photos/photo2@2x.jpg',
+        'images/photos/photo3@2x.jpg',
+        'images/photos/photo4@2x.jpg',
+        'images/photos/photo5@2x.jpg',
+        'images/photos/photo6@2x.jpg',
+        'images/photos/photo7@2x.jpg',
+        'images/photos/photo8@2x.jpg',
+        'images/photos/photo9@2x.jpg',
+        'images/photos/photo10@2x.jpg',
+        'images/photos/photo11@2x.jpg',
+        'images/photos/photo12@2x.jpg',
+        'images/photos/photo13@2x.jpg',
+        'images/photos/photo14@2x.jpg',
+        'images/photos/photo15@2x.jpg',
+        'images/photos/photo16@2x.jpg',
+        'images/photos/photo17@2x.jpg'
       ]
     }
   }

@@ -413,22 +413,22 @@
 <style lang="scss">
 // Flatpickr + Custom overrides
 @import '~flatpickr/dist/flatpickr.css';
-@import './resources/sass/vendor/flatpickr';
+@import '~@sass/vendor/flatpickr';
 
 // Vue Color Custom overrides
-@import './resources/sass/vendor/vue-color';
+@import '~@sass/vendor/vue-color';
 
 // Vue Select + Custom overrides
 @import '~vue-select/src/scss/vue-select';
-@import './resources/sass/vendor/vue-select';
+@import '~@sass/vendor/vue-select';
 
 // Vue Slider + Custom overrides
 @import '~vue-slider-component/theme/default.css';
-@import './resources/sass/vendor/vue-slider';
+@import '~@sass/vendor/vue-slider';
 
 // Vue2 Dropzone + Custom overrides
 @import '~vue2-dropzone/dist/vue2Dropzone.min.css';
-@import './resources/sass/vendor/dropzone';
+@import '~@sass/vendor/dropzone';
 </style>
 
 <script>

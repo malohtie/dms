@@ -300,9 +300,9 @@
           </base-block>
         </b-col>
         <b-col md="6">
-          <base-block title="OneUI" ref="blockLoadingOneUI" class="block-mode-loading-oneui">
+          <base-block title="dms" ref="blockLoadingdms" class="block-mode-loading-dms">
             <template #options>
-               <button type="button" class="btn-block-option" @click="loadData('blockLoadingOneUI')">
+               <button type="button" class="btn-block-option" @click="loadData('blockLoadingdms')">
                 <i class="si si-refresh"></i>
               </button>
             </template>
