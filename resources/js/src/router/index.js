@@ -1,7 +1,6 @@
 /*
  * Default Router
  */
-
 // Vue and Vue Router
 import Vue from 'vue'
 import Router from 'vue-router'

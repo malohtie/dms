@@ -1,5 +1,5 @@
 /*
- * Toggle Class fuctionality
+ * Toggle Class functionality
  */
 
 export default {

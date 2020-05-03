@@ -11,7 +11,7 @@ export default {
     },
     // Sets sidebar visibility (open, close, toggle)
     sidebar(state, payload) {
-        if (config.WindowWidth() > 991) {
+        if (config.WindowWidth > 991) {
             if (payload.mode === 'open') {
                 state.settings.sidebarVisibleDesktop = true
             } else if (payload.mode === 'close') {
@@ -31,7 +31,7 @@ export default {
     },
     // Sets sidebar mini mode (on, off, toggle)
     sidebarMini(state, payload) {
-        if (config.WindowWidth() > 991) {
+        if (config.WindowWidth > 991) {
             if (payload.mode === 'on') {
                 state.settings.sidebarMini = true
             } else if (payload.mode === 'off') {

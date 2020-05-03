@@ -1,5 +1,5 @@
 /*
- * Ripple effect fuctionality
+ * Ripple effect functionality
  */
 
 export default {
