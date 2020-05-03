@@ -8,7 +8,232 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", { staticClass: \"hero-static d-flex align-items-center\" }, [\n    _c(\"div\", { staticClass: \"w-100\" }, [\n      _c(\"div\", { staticClass: \"bg-white\" }, [\n        _c(\n          \"div\",\n          { staticClass: \"content content-full\" },\n          [\n            _c(\n              \"b-row\",\n              { staticClass: \"justify-content-center\" },\n              [\n                _c(\n                  \"b-col\",\n                  { staticClass: \"py-4\", attrs: { md: \"8\", lg: \"6\", xl: \"4\" } },\n                  [\n                    _c(\"div\", { staticClass: \"text-center mb-5\" }, [\n                      _c(\"p\", { staticClass: \"mb-2\" }, [\n                        _c(\"i\", {\n                          staticClass: \"fa fa-2x fa-circle-notch text-primary\"\n                        })\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"h1\", { staticClass: \"h4 mb-1\" }, [\n                        _vm._v(\"\\n                Status Page\\n              \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"h2\",\n                        { staticClass: \"h6 font-w400 text-muted mb-3\" },\n                        [\n                          _vm._v(\n                            \"\\n                Check out how we are doing\\n              \"\n                          )\n                        ]\n                      )\n                    ]),\n                    _vm._v(\" \"),\n                    _c(\n                      \"div\",\n                      { staticClass: \"d-flex justify-content-between\" },\n                      [\n                        _c(\n                          \"b-button\",\n                          {\n                            attrs: {\n                              size: \"lg\",\n                              variant: \"alt-secondary\",\n                              to: \"/backend/pages/generic/blank\"\n                            }\n                          },\n                          [\n                            _c(\"i\", { staticClass: \"fa fa-arrow-left mr-1\" }),\n                            _vm._v(\" Dashboard\\n              \")\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\n                          \"b-button\",\n                          {\n                            attrs: {\n                              size: \"lg\",\n                              variant: \"alt-success\",\n                              href: \"javascript:void(0)\"\n                            }\n                          },\n                          [\n                            _c(\"i\", { staticClass: \"fa fa-rss\" }),\n                            _vm._v(\" \"),\n                            _c(\n                              \"span\",\n                              { staticClass: \"d-none d-sm-inline-block ml-1\" },\n                              [_vm._v(\"Subscribe\")]\n                            )\n                          ]\n                        )\n                      ],\n                      1\n                    ),\n                    _vm._v(\" \"),\n                    _c(\"hr\"),\n                    _vm._v(\" \"),\n                    _c(\"b-alert\", { attrs: { variant: \"warning\", show: \"\" } }, [\n                      _c(\"p\", { staticClass: \"mb-0\" }, [\n                        _vm._v(\n                          \"Payments are currently under maintenance, please stay tuned.\"\n                        )\n                      ])\n                    ]),\n                    _vm._v(\" \"),\n                    _c(\"b-alert\", { attrs: { variant: \"danger\", show: \"\" } }, [\n                      _c(\"p\", { staticClass: \"mb-0\" }, [\n                        _vm._v(\n                          \"Our frontend is experiencing some issues but we are on it!\"\n                        )\n                      ])\n                    ]),\n                    _vm._v(\" \"),\n                    _c(\n                      \"b-list-group\",\n                      { staticClass: \"push\" },\n                      [\n                        _c(\n                          \"b-list-group-item\",\n                          {\n                            staticClass:\n                              \"d-flex justify-content-between align-items-center\"\n                          },\n                          [\n                            _vm._v(\n                              \"\\n                Backend\\n                \"\n                            ),\n                            _c(\n                              \"span\",\n                              { staticClass: \"badge badge-pill badge-success\" },\n                              [_vm._v(\"Operational\")]\n                            )\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\n                          \"b-list-group-item\",\n                          {\n                            staticClass:\n                              \"d-flex justify-content-between align-items-center\"\n                          },\n                          [\n                            _vm._v(\n                              \"\\n                Frontend\\n                \"\n                            ),\n                            _c(\n                              \"span\",\n                              { staticClass: \"badge badge-pill badge-danger\" },\n                              [_vm._v(\"Down\")]\n                            )\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\n                          \"b-list-group-item\",\n                          {\n                            staticClass:\n                              \"d-flex justify-content-between align-items-center\"\n                          },\n                          [\n                            _vm._v(\"\\n                API\\n                \"),\n                            _c(\n                              \"span\",\n                              { staticClass: \"badge badge-pill badge-success\" },\n                              [_vm._v(\"Operational\")]\n                            )\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\n                          \"b-list-group-item\",\n                          {\n                            staticClass:\n                              \"d-flex justify-content-between align-items-center\"\n                          },\n                          [\n                            _vm._v(\n                              \"\\n                Payments\\n                \"\n                            ),\n                            _c(\n                              \"span\",\n                              { staticClass: \"badge badge-pill badge-warning\" },\n                              [_vm._v(\"Maintenance\")]\n                            )\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\n                          \"b-list-group-item\",\n                          {\n                            staticClass:\n                              \"d-flex justify-content-between align-items-center\"\n                          },\n                          [\n                            _vm._v(\n                              \"\\n                Helpdesk\\n                \"\n                            ),\n                            _c(\n                              \"span\",\n                              { staticClass: \"badge badge-pill badge-success\" },\n                              [_vm._v(\"Operational\")]\n                            )\n                          ]\n                        )\n                      ],\n                      1\n                    )\n                  ],\n                  1\n                )\n              ],\n              1\n            )\n          ],\n          1\n        )\n      ]),\n      _vm._v(\" \"),\n      _c(\"div\", { staticClass: \"font-size-sm text-center text-muted py-3\" }, [\n        _c(\"strong\", [\n          _vm._v(\n            _vm._s(\n              _vm.$store.getters.appName + \" \" + _vm.$store.getters.appVersion\n            )\n          )\n        ]),\n        _vm._v(\" © \" + _vm._s(_vm.$store.getters.appCopyright) + \"\\n    \")\n      ])\n    ])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL3ZhcmlvdXMvU3RhdHVzLnZ1ZT84YzQ2Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esb0JBQW9CLHVEQUF1RDtBQUMzRSxlQUFlLHVCQUF1QjtBQUN0QyxpQkFBaUIsMEJBQTBCO0FBQzNDO0FBQ0E7QUFDQSxXQUFXLHNDQUFzQztBQUNqRDtBQUNBO0FBQ0E7QUFDQSxlQUFlLHdDQUF3QztBQUN2RDtBQUNBO0FBQ0E7QUFDQSxtQkFBbUIsOEJBQThCLDRCQUE0QixFQUFFO0FBQy9FO0FBQ0EsK0JBQStCLGtDQUFrQztBQUNqRSwrQkFBK0Isc0JBQXNCO0FBQ3JEO0FBQ0E7QUFDQSx5QkFBeUI7QUFDekI7QUFDQTtBQUNBLGdDQUFnQyx5QkFBeUI7QUFDekQ7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHlCQUF5Qiw4Q0FBOEM7QUFDdkU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx1QkFBdUIsZ0RBQWdEO0FBQ3ZFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDJCQUEyQjtBQUMzQjtBQUNBLHFDQUFxQyx1Q0FBdUM7QUFDNUU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMkJBQTJCO0FBQzNCO0FBQ0EscUNBQXFDLDJCQUEyQjtBQUNoRTtBQUNBO0FBQ0E7QUFDQSwrQkFBK0IsK0NBQStDO0FBQzlFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsbUNBQW1DLFNBQVMsK0JBQStCLEVBQUU7QUFDN0UsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxtQ0FBbUMsU0FBUyw4QkFBOEIsRUFBRTtBQUM1RSwrQkFBK0Isc0JBQXNCO0FBQ3JEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx1QkFBdUIsc0JBQXNCO0FBQzdDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDJCQUEyQjtBQUMzQjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwrQkFBK0IsZ0RBQWdEO0FBQy9FO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMkJBQTJCO0FBQzNCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLCtCQUErQiwrQ0FBK0M7QUFDOUU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwyQkFBMkI7QUFDM0I7QUFDQTtBQUNBO0FBQ0E7QUFDQSwrQkFBK0IsZ0RBQWdEO0FBQy9FO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMkJBQTJCO0FBQzNCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnREFBZ0Q7QUFDL0U7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwyQkFBMkI7QUFDM0I7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLGdEQUFnRDtBQUMvRTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFBaUIsMERBQTBEO0FBQzNFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy90ZW1wbGF0ZUxvYWRlci5qcz8hLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/IS4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9wYWdlcy92YXJpb3VzL1N0YXR1cy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9MWVjOGQ1ZWImLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIHJlbmRlciA9IGZ1bmN0aW9uKCkge1xuICB2YXIgX3ZtID0gdGhpc1xuICB2YXIgX2ggPSBfdm0uJGNyZWF0ZUVsZW1lbnRcbiAgdmFyIF9jID0gX3ZtLl9zZWxmLl9jIHx8IF9oXG4gIHJldHVybiBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImhlcm8tc3RhdGljIGQtZmxleCBhbGlnbi1pdGVtcy1jZW50ZXJcIiB9LCBbXG4gICAgX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCJ3LTEwMFwiIH0sIFtcbiAgICAgIF9jKFwiZGl2XCIsIHsgc3RhdGljQ2xhc3M6IFwiYmctd2hpdGVcIiB9LCBbXG4gICAgICAgIF9jKFxuICAgICAgICAgIFwiZGl2XCIsXG4gICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJjb250ZW50IGNvbnRlbnQtZnVsbFwiIH0sXG4gICAgICAgICAgW1xuICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgIFwiYi1yb3dcIixcbiAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJqdXN0aWZ5LWNvbnRlbnQtY2VudGVyXCIgfSxcbiAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJweS00XCIsIGF0dHJzOiB7IG1kOiBcIjhcIiwgbGc6IFwiNlwiLCB4bDogXCI0XCIgfSB9LFxuICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyIG1iLTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwibWItMlwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImZhIGZhLTJ4IGZhLWNpcmNsZS1ub3RjaCB0ZXh0LXByaW1hcnlcIlxuICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDFcIiwgeyBzdGF0aWNDbGFzczogXCJoNCBtYi0xXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiXFxuICAgICAgICAgICAgICAgIFN0YXR1cyBQYWdlXFxuICAgICAgICAgICAgICBcIilcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJoMlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJoNiBmb250LXc0MDAgdGV4dC1tdXRlZCBtYi0zXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIENoZWNrIG91dCBob3cgd2UgYXJlIGRvaW5nXFxuICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImQtZmxleCBqdXN0aWZ5LWNvbnRlbnQtYmV0d2VlblwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcImxnXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImFsdC1zZWNvbmRhcnlcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvOiBcIi9iYWNrZW5kL3BhZ2VzL2dlbmVyaWMvYmxhbmtcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7IHN0YXRpY0NsYXNzOiBcImZhIGZhLWFycm93LWxlZnQgbXItMVwiIH0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBEYXNoYm9hcmRcXG4gICAgICAgICAgICAgIFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJsZ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJhbHQtc3VjY2Vzc1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaHJlZjogXCJqYXZhc2NyaXB0OnZvaWQoMClcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7IHN0YXRpY0NsYXNzOiBcImZhIGZhLXJzc1wiIH0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInNwYW5cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZC1ub25lIGQtc20taW5saW5lLWJsb2NrIG1sLTFcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlN1YnNjcmliZVwiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgX2MoXCJoclwiKSxcbiAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgX2MoXCJiLWFsZXJ0XCIsIHsgYXR0cnM6IHsgdmFyaWFudDogXCJ3YXJuaW5nXCIsIHNob3c6IFwiXCIgfSB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwibWItMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJQYXltZW50cyBhcmUgY3VycmVudGx5IHVuZGVyIG1haW50ZW5hbmNlLCBwbGVhc2Ugc3RheSB0dW5lZC5cIlxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICBfYyhcImItYWxlcnRcIiwgeyBhdHRyczogeyB2YXJpYW50OiBcImRhbmdlclwiLCBzaG93OiBcIlwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiT3VyIGZyb250ZW5kIGlzIGV4cGVyaWVuY2luZyBzb21lIGlzc3VlcyBidXQgd2UgYXJlIG9uIGl0IVwiXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgIFwiYi1saXN0LWdyb3VwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJwdXNoXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWxpc3QtZ3JvdXAtaXRlbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImQtZmxleCBqdXN0aWZ5LWNvbnRlbnQtYmV0d2VlbiBhbGlnbi1pdGVtcy1jZW50ZXJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgQmFja2VuZFxcbiAgICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInNwYW5cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiYmFkZ2UgYmFkZ2UtcGlsbCBiYWRnZS1zdWNjZXNzXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJPcGVyYXRpb25hbFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1saXN0LWdyb3VwLWl0ZW1cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkLWZsZXgganVzdGlmeS1jb250ZW50LWJldHdlZW4gYWxpZ24taXRlbXMtY2VudGVyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIEZyb250ZW5kXFxuICAgICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwic3BhblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJiYWRnZSBiYWRnZS1waWxsIGJhZGdlLWRhbmdlclwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiRG93blwiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1saXN0LWdyb3VwLWl0ZW1cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkLWZsZXgganVzdGlmeS1jb250ZW50LWJldHdlZW4gYWxpZ24taXRlbXMtY2VudGVyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlxcbiAgICAgICAgICAgICAgICBBUElcXG4gICAgICAgICAgICAgICAgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJzcGFuXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImJhZGdlIGJhZGdlLXBpbGwgYmFkZ2Utc3VjY2Vzc1wiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiT3BlcmF0aW9uYWxcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcImItbGlzdC1ncm91cC1pdGVtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiZC1mbGV4IGp1c3RpZnktY29udGVudC1iZXR3ZWVuIGFsaWduLWl0ZW1zLWNlbnRlclwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBQYXltZW50c1xcbiAgICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInNwYW5cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiYmFkZ2UgYmFkZ2UtcGlsbCBiYWRnZS13YXJuaW5nXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJNYWludGVuYW5jZVwiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1saXN0LWdyb3VwLWl0ZW1cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkLWZsZXgganVzdGlmeS1jb250ZW50LWJldHdlZW4gYWxpZ24taXRlbXMtY2VudGVyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIEhlbHBkZXNrXFxuICAgICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwic3BhblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJiYWRnZSBiYWRnZS1waWxsIGJhZGdlLXN1Y2Nlc3NcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIk9wZXJhdGlvbmFsXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgKVxuICAgICAgICAgIF0sXG4gICAgICAgICAgMVxuICAgICAgICApXG4gICAgICBdKSxcbiAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1zbSB0ZXh0LWNlbnRlciB0ZXh0LW11dGVkIHB5LTNcIiB9LCBbXG4gICAgICAgIF9jKFwic3Ryb25nXCIsIFtcbiAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICBfdm0uX3MoXG4gICAgICAgICAgICAgIF92bS4kc3RvcmUuZ2V0dGVycy5hcHBOYW1lICsgXCIgXCIgKyBfdm0uJHN0b3JlLmdldHRlcnMuYXBwVmVyc2lvblxuICAgICAgICAgICAgKVxuICAgICAgICAgIClcbiAgICAgICAgXSksXG4gICAgICAgIF92bS5fdihcIiDCqSBcIiArIF92bS5fcyhfdm0uJHN0b3JlLmdldHRlcnMuYXBwQ29weXJpZ2h0KSArIFwiXFxuICAgIFwiKVxuICAgICAgXSlcbiAgICBdKVxuICBdKVxufVxudmFyIHN0YXRpY1JlbmRlckZucyA9IFtdXG5yZW5kZXIuX3dpdGhTdHJpcHBlZCA9IHRydWVcblxuZXhwb3J0IHsgcmVuZGVyLCBzdGF0aWNSZW5kZXJGbnMgfSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/various/Status.vue?vue&type=template&id=1ec8d5eb&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "hero-static d-flex align-items-center" }, [
+    _c("div", { staticClass: "w-100" }, [
+      _c("div", { staticClass: "bg-white" }, [
+        _c(
+          "div",
+          { staticClass: "content content-full" },
+          [
+            _c(
+              "b-row",
+              { staticClass: "justify-content-center" },
+              [
+                _c(
+                  "b-col",
+                  { staticClass: "py-4", attrs: { md: "8", lg: "6", xl: "4" } },
+                  [
+                    _c("div", { staticClass: "text-center mb-5" }, [
+                      _c("p", { staticClass: "mb-2" }, [
+                        _c("i", {
+                          staticClass: "fa fa-2x fa-circle-notch text-primary"
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("h1", { staticClass: "h4 mb-1" }, [
+                        _vm._v("\n                Status Page\n              ")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "h2",
+                        { staticClass: "h6 font-w400 text-muted mb-3" },
+                        [
+                          _vm._v(
+                            "\n                Check out how we are doing\n              "
+                          )
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "d-flex justify-content-between" },
+                      [
+                        _c(
+                          "b-button",
+                          {
+                            attrs: {
+                              size: "lg",
+                              variant: "alt-secondary",
+                              to: "/backend/pages/generic/blank"
+                            }
+                          },
+                          [
+                            _c("i", { staticClass: "fa fa-arrow-left mr-1" }),
+                            _vm._v(" Dashboard\n              ")
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-button",
+                          {
+                            attrs: {
+                              size: "lg",
+                              variant: "alt-success",
+                              href: "javascript:void(0)"
+                            }
+                          },
+                          [
+                            _c("i", { staticClass: "fa fa-rss" }),
+                            _vm._v(" "),
+                            _c(
+                              "span",
+                              { staticClass: "d-none d-sm-inline-block ml-1" },
+                              [_vm._v("Subscribe")]
+                            )
+                          ]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("b-alert", { attrs: { variant: "warning", show: "" } }, [
+                      _c("p", { staticClass: "mb-0" }, [
+                        _vm._v(
+                          "Payments are currently under maintenance, please stay tuned."
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("b-alert", { attrs: { variant: "danger", show: "" } }, [
+                      _c("p", { staticClass: "mb-0" }, [
+                        _vm._v(
+                          "Our frontend is experiencing some issues but we are on it!"
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "b-list-group",
+                      { staticClass: "push" },
+                      [
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\n                Backend\n                "
+                            ),
+                            _c(
+                              "span",
+                              { staticClass: "badge badge-pill badge-success" },
+                              [_vm._v("Operational")]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\n                Frontend\n                "
+                            ),
+                            _c(
+                              "span",
+                              { staticClass: "badge badge-pill badge-danger" },
+                              [_vm._v("Down")]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v("\n                API\n                "),
+                            _c(
+                              "span",
+                              { staticClass: "badge badge-pill badge-success" },
+                              [_vm._v("Operational")]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\n                Payments\n                "
+                            ),
+                            _c(
+                              "span",
+                              { staticClass: "badge badge-pill badge-warning" },
+                              [_vm._v("Maintenance")]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-list-group-item",
+                          {
+                            staticClass:
+                              "d-flex justify-content-between align-items-center"
+                          },
+                          [
+                            _vm._v(
+                              "\n                Helpdesk\n                "
+                            ),
+                            _c(
+                              "span",
+                              { staticClass: "badge badge-pill badge-success" },
+                              [_vm._v("Operational")]
+                            )
+                          ]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "font-size-sm text-center text-muted py-3" }, [
+        _c("strong", [
+          _vm._v(
+            _vm._s(
+              _vm.$store.getters.appName + " " + _vm.$store.getters.appVersion
+            )
+          )
+        ]),
+        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n    ")
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -20,7 +245,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Status.vue?vue&type=template&id=1ec8d5eb& */ \"./resources/js/src/views/pages/various/Status.vue?vue&type=template&id=1ec8d5eb&\");\n/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\nvar script = {}\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(\n  script,\n  _Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/js/src/views/pages/various/Status.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL3ZhcmlvdXMvU3RhdHVzLnZ1ZT81M2QyIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFxRjtBQUNyRjs7O0FBR0E7QUFDc0c7QUFDdEcsZ0JBQWdCLDJHQUFVO0FBQzFCO0FBQ0EsRUFBRSxpRkFBTTtBQUNSLEVBQUUsMEZBQWU7QUFDakI7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQSxJQUFJLEtBQVUsRUFBRSxZQWlCZjtBQUNEO0FBQ2UsZ0YiLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL3ZhcmlvdXMvU3RhdHVzLnZ1ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHJlbmRlciwgc3RhdGljUmVuZGVyRm5zIH0gZnJvbSBcIi4vU3RhdHVzLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD0xZWM4ZDVlYiZcIlxudmFyIHNjcmlwdCA9IHt9XG5cblxuLyogbm9ybWFsaXplIGNvbXBvbmVudCAqL1xuaW1wb3J0IG5vcm1hbGl6ZXIgZnJvbSBcIiEuLi8uLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvcnVudGltZS9jb21wb25lbnROb3JtYWxpemVyLmpzXCJcbnZhciBjb21wb25lbnQgPSBub3JtYWxpemVyKFxuICBzY3JpcHQsXG4gIHJlbmRlcixcbiAgc3RhdGljUmVuZGVyRm5zLFxuICBmYWxzZSxcbiAgbnVsbCxcbiAgbnVsbCxcbiAgbnVsbFxuICBcbilcblxuLyogaG90IHJlbG9hZCAqL1xuaWYgKG1vZHVsZS5ob3QpIHtcbiAgdmFyIGFwaSA9IHJlcXVpcmUoXCJDOlxcXFxVc2Vyc1xcXFxtYWxvaFxcXFxEZXNrdG9wXFxcXERtc1YyXFxcXG5vZGVfbW9kdWxlc1xcXFx2dWUtaG90LXJlbG9hZC1hcGlcXFxcZGlzdFxcXFxpbmRleC5qc1wiKVxuICBhcGkuaW5zdGFsbChyZXF1aXJlKCd2dWUnKSlcbiAgaWYgKGFwaS5jb21wYXRpYmxlKSB7XG4gICAgbW9kdWxlLmhvdC5hY2NlcHQoKVxuICAgIGlmICghYXBpLmlzUmVjb3JkZWQoJzFlYzhkNWViJykpIHtcbiAgICAgIGFwaS5jcmVhdGVSZWNvcmQoJzFlYzhkNWViJywgY29tcG9uZW50Lm9wdGlvbnMpXG4gICAgfSBlbHNlIHtcbiAgICAgIGFwaS5yZWxvYWQoJzFlYzhkNWViJywgY29tcG9uZW50Lm9wdGlvbnMpXG4gICAgfVxuICAgIG1vZHVsZS5ob3QuYWNjZXB0KFwiLi9TdGF0dXMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTFlYzhkNWViJlwiLCBmdW5jdGlvbiAoKSB7XG4gICAgICBhcGkucmVyZW5kZXIoJzFlYzhkNWViJywge1xuICAgICAgICByZW5kZXI6IHJlbmRlcixcbiAgICAgICAgc3RhdGljUmVuZGVyRm5zOiBzdGF0aWNSZW5kZXJGbnNcbiAgICAgIH0pXG4gICAgfSlcbiAgfVxufVxuY29tcG9uZW50Lm9wdGlvbnMuX19maWxlID0gXCJyZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL3ZhcmlvdXMvU3RhdHVzLnZ1ZVwiXG5leHBvcnQgZGVmYXVsdCBjb21wb25lbnQuZXhwb3J0cyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/src/views/pages/various/Status.vue\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Status.vue?vue&type=template&id=1ec8d5eb& */ "./resources/js/src/views/pages/various/Status.vue?vue&type=template&id=1ec8d5eb&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/pages/various/Status.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -32,7 +280,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Sta
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Status.vue?vue&type=template&id=1ec8d5eb& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/various/Status.vue?vue&type=template&id=1ec8d5eb&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL3ZhcmlvdXMvU3RhdHVzLnZ1ZT85NWRhIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9zcmMvdmlld3MvcGFnZXMvdmFyaW91cy9TdGF0dXMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTFlYzhkNWViJi5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCAqIGZyb20gXCItIS4uLy4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9sb2FkZXJzL3RlbXBsYXRlTG9hZGVyLmpzPz92dWUtbG9hZGVyLW9wdGlvbnMhLi4vLi4vLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPz92dWUtbG9hZGVyLW9wdGlvbnMhLi9TdGF0dXMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTFlYzhkNWViJlwiIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/src/views/pages/various/Status.vue?vue&type=template&id=1ec8d5eb&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Status.vue?vue&type=template&id=1ec8d5eb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/various/Status.vue?vue&type=template&id=1ec8d5eb&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Status_vue_vue_type_template_id_1ec8d5eb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 

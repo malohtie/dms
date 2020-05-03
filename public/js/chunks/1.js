@@ -7,7 +7,15 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".bg-landing-left[data-v-fd350346],\\n.bg-landing-right[data-v-fd350346] {\\n  position: relative;\\n  z-index: 0;\\n}\\n.bg-landing-left > div[data-v-fd350346],\\n.bg-landing-right > div[data-v-fd350346] {\\n  z-index: 1;\\n}\\n.bg-landing-left[data-v-fd350346]::before,\\n.bg-landing-right[data-v-fd350346]::before {\\n  position: absolute;\\n  z-index: 0;\\n  content: \\\"\\\";\\n}\\n.bg-landing-left[data-v-fd350346]::before {\\n  top: -10%;\\n  right: -35%;\\n  width: 336px;\\n  height: 264px;\\n  background-image: url(\\\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%232C4E9B' fill-opacity='0.05'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E\\\");\\n}\\n.bg-landing-right[data-v-fd350346]::before {\\n  bottom: -10%;\\n  right: -10%;\\n  width: 440px;\\n  height: 280px;\\n  background-image: url(\\\"data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%232C4E9B' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E\\\");\\n}\\n.promo-image[data-v-fd350346] {\\n  max-width: 100%;\\n  height: auto;\\n  border-radius: 0.375rem;\\n  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);\\n}\", \"\"]);\n\n// exports\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL0xhbmRpbmcudnVlPzE1YjUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsMkJBQTJCLG1CQUFPLENBQUMsc0dBQXFEO0FBQ3hGOzs7QUFHQTtBQUNBLGNBQWMsUUFBUywyRUFBMkUsdUJBQXVCLGVBQWUsR0FBRyxzRkFBc0YsZUFBZSxHQUFHLDBGQUEwRix1QkFBdUIsZUFBZSxrQkFBa0IsR0FBRyw2Q0FBNkMsY0FBYyxnQkFBZ0IsaUJBQWlCLGtCQUFrQix5UkFBeVIsR0FBRyw4Q0FBOEMsaUJBQWlCLGdCQUFnQixpQkFBaUIsa0JBQWtCLG11QkFBbXVCLEdBQUcsaUNBQWlDLG9CQUFvQixpQkFBaUIsNEJBQTRCLGdEQUFnRCxHQUFHOztBQUUvdkQiLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvY3NzLWxvYWRlci9pbmRleC5qcyEuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9sb2FkZXJzL3N0eWxlUG9zdExvYWRlci5qcyEuL25vZGVfbW9kdWxlcy9wb3N0Y3NzLWxvYWRlci9zcmMvaW5kZXguanM/IS4vbm9kZV9tb2R1bGVzL3Nhc3MtbG9hZGVyL2Rpc3QvY2pzLmpzPyEuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8hLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL0xhbmRpbmcudnVlP3Z1ZSZ0eXBlPXN0eWxlJmluZGV4PTAmaWQ9ZmQzNTAzNDYmbGFuZz1zY3NzJnNjb3BlZD10cnVlJi5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydHMgPSBtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCIuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvY3NzLWxvYWRlci9saWIvY3NzLWJhc2UuanNcIikoZmFsc2UpO1xuLy8gaW1wb3J0c1xuXG5cbi8vIG1vZHVsZVxuZXhwb3J0cy5wdXNoKFttb2R1bGUuaWQsIFwiLmJnLWxhbmRpbmctbGVmdFtkYXRhLXYtZmQzNTAzNDZdLFxcbi5iZy1sYW5kaW5nLXJpZ2h0W2RhdGEtdi1mZDM1MDM0Nl0ge1xcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xcbiAgei1pbmRleDogMDtcXG59XFxuLmJnLWxhbmRpbmctbGVmdCA+IGRpdltkYXRhLXYtZmQzNTAzNDZdLFxcbi5iZy1sYW5kaW5nLXJpZ2h0ID4gZGl2W2RhdGEtdi1mZDM1MDM0Nl0ge1xcbiAgei1pbmRleDogMTtcXG59XFxuLmJnLWxhbmRpbmctbGVmdFtkYXRhLXYtZmQzNTAzNDZdOjpiZWZvcmUsXFxuLmJnLWxhbmRpbmctcmlnaHRbZGF0YS12LWZkMzUwMzQ2XTo6YmVmb3JlIHtcXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcXG4gIHotaW5kZXg6IDA7XFxuICBjb250ZW50OiBcXFwiXFxcIjtcXG59XFxuLmJnLWxhbmRpbmctbGVmdFtkYXRhLXYtZmQzNTAzNDZdOjpiZWZvcmUge1xcbiAgdG9wOiAtMTAlO1xcbiAgcmlnaHQ6IC0zNSU7XFxuICB3aWR0aDogMzM2cHg7XFxuICBoZWlnaHQ6IDI2NHB4O1xcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFxcXCJkYXRhOmltYWdlL3N2Zyt4bWwsJTNDc3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgd2lkdGg9JzI0JyBoZWlnaHQ9JzI0JyB2aWV3Qm94PScwIDAgMjQgMjQnJTNFJTNDZyBmaWxsPSclMjMyQzRFOUInIGZpbGwtb3BhY2l0eT0nMC4wNSclM0UlM0Nwb2x5Z29uIGZpbGwtcnVsZT0nZXZlbm9kZCcgcG9pbnRzPSc4IDQgMTIgNiA4IDggNiAxMiA0IDggMCA2IDQgNCA2IDAgOCA0Jy8lM0UlM0MvZyUzRSUzQy9zdmclM0VcXFwiKTtcXG59XFxuLmJnLWxhbmRpbmctcmlnaHRbZGF0YS12LWZkMzUwMzQ2XTo6YmVmb3JlIHtcXG4gIGJvdHRvbTogLTEwJTtcXG4gIHJpZ2h0OiAtMTAlO1xcbiAgd2lkdGg6IDQ0MHB4O1xcbiAgaGVpZ2h0OiAyODBweDtcXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybChcXFwiZGF0YTppbWFnZS9zdmcreG1sLCUzQ3N2ZyB3aWR0aD0nNjQnIGhlaWdodD0nNjQnIHZpZXdCb3g9JzAgMCA2NCA2NCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyUzRSUzQ3BhdGggZD0nTTggMTZjNC40MTggMCA4LTMuNTgyIDgtOHMtMy41ODItOC04LTgtOCAzLjU4Mi04IDggMy41ODIgOCA4IDh6bTAtMmMzLjMxNCAwIDYtMi42ODYgNi02cy0yLjY4Ni02LTYtNi02IDIuNjg2LTYgNiAyLjY4NiA2IDYgNnptMzMuNDE0LTZsNS45NS01Ljk1TDQ1Ljk1LjYzNiA0MCA2LjU4NiAzNC4wNS42MzYgMzIuNjM2IDIuMDUgMzguNTg2IDhsLTUuOTUgNS45NSAxLjQxNCAxLjQxNEw0MCA5LjQxNGw1Ljk1IDUuOTUgMS40MTQtMS40MTRMNDEuNDE0IDh6TTQwIDQ4YzQuNDE4IDAgOC0zLjU4MiA4LThzLTMuNTgyLTgtOC04LTggMy41ODItOCA4IDMuNTgyIDggOCA4em0wLTJjMy4zMTQgMCA2LTIuNjg2IDYtNnMtMi42ODYtNi02LTYtNiAyLjY4Ni02IDYgMi42ODYgNiA2IDZ6TTkuNDE0IDQwbDUuOTUtNS45NS0xLjQxNC0xLjQxNEw4IDM4LjU4NmwtNS45NS01Ljk1TC42MzYgMzQuMDUgNi41ODYgNDBsLTUuOTUgNS45NSAxLjQxNCAxLjQxNEw4IDQxLjQxNGw1Ljk1IDUuOTUgMS40MTQtMS40MTRMOS40MTQgNDB6JyBmaWxsPSclMjMyQzRFOUInIGZpbGwtb3BhY2l0eT0nMC4xJyBmaWxsLXJ1bGU9J2V2ZW5vZGQnLyUzRSUzQy9zdmclM0VcXFwiKTtcXG59XFxuLnByb21vLWltYWdlW2RhdGEtdi1mZDM1MDM0Nl0ge1xcbiAgbWF4LXdpZHRoOiAxMDAlO1xcbiAgaGVpZ2h0OiBhdXRvO1xcbiAgYm9yZGVyLXJhZGl1czogMC4zNzVyZW07XFxuICBib3gtc2hhZG93OiAwIDFyZW0gM3JlbSByZ2JhKDAsIDAsIDAsIDAuMTUpO1xcbn1cIiwgXCJcIl0pO1xuXG4vLyBleHBvcnRzXG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&\n");
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".bg-landing-left[data-v-fd350346],\n.bg-landing-right[data-v-fd350346] {\n  position: relative;\n  z-index: 0;\n}\n.bg-landing-left > div[data-v-fd350346],\n.bg-landing-right > div[data-v-fd350346] {\n  z-index: 1;\n}\n.bg-landing-left[data-v-fd350346]::before,\n.bg-landing-right[data-v-fd350346]::before {\n  position: absolute;\n  z-index: 0;\n  content: \"\";\n}\n.bg-landing-left[data-v-fd350346]::before {\n  top: -10%;\n  right: -35%;\n  width: 336px;\n  height: 264px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%232C4E9B' fill-opacity='0.05'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.bg-landing-right[data-v-fd350346]::before {\n  bottom: -10%;\n  right: -10%;\n  width: 440px;\n  height: 280px;\n  background-image: url(\"data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%232C4E9B' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E\");\n}\n.promo-image[data-v-fd350346] {\n  max-width: 100%;\n  height: auto;\n  border-radius: 0.375rem;\n  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);\n}", ""]);
+
+// exports
+
 
 /***/ }),
 
@@ -18,7 +26,26 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../../node_module
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true& */ \"./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL0xhbmRpbmcudnVlPzQyNzgiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLGNBQWMsbUJBQU8sQ0FBQyw0cEJBQTBYOztBQUVoWiw0Q0FBNEMsUUFBUzs7QUFFckQ7QUFDQTs7OztBQUlBLGVBQWU7O0FBRWY7QUFDQTs7QUFFQSxhQUFhLG1CQUFPLENBQUMsNEdBQXlEOztBQUU5RTs7QUFFQSxHQUFHLEtBQVUsRUFBRSIsImZpbGUiOiIuL25vZGVfbW9kdWxlcy9zdHlsZS1sb2FkZXIvaW5kZXguanMhLi9ub2RlX21vZHVsZXMvY3NzLWxvYWRlci9pbmRleC5qcyEuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9sb2FkZXJzL3N0eWxlUG9zdExvYWRlci5qcyEuL25vZGVfbW9kdWxlcy9wb3N0Y3NzLWxvYWRlci9zcmMvaW5kZXguanM/IS4vbm9kZV9tb2R1bGVzL3Nhc3MtbG9hZGVyL2Rpc3QvY2pzLmpzPyEuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8hLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL0xhbmRpbmcudnVlP3Z1ZSZ0eXBlPXN0eWxlJmluZGV4PTAmaWQ9ZmQzNTAzNDYmbGFuZz1zY3NzJnNjb3BlZD10cnVlJi5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxudmFyIGNvbnRlbnQgPSByZXF1aXJlKFwiISEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvY3NzLWxvYWRlci9pbmRleC5qcyEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy9zdHlsZVBvc3RMb2FkZXIuanMhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Bvc3Rjc3MtbG9hZGVyL3NyYy9pbmRleC5qcz8/cmVmLS03LTIhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Nhc3MtbG9hZGVyL2Rpc3QvY2pzLmpzPz9yZWYtLTctMyEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuL0xhbmRpbmcudnVlP3Z1ZSZ0eXBlPXN0eWxlJmluZGV4PTAmaWQ9ZmQzNTAzNDYmbGFuZz1zY3NzJnNjb3BlZD10cnVlJlwiKTtcblxuaWYodHlwZW9mIGNvbnRlbnQgPT09ICdzdHJpbmcnKSBjb250ZW50ID0gW1ttb2R1bGUuaWQsIGNvbnRlbnQsICcnXV07XG5cbnZhciB0cmFuc2Zvcm07XG52YXIgaW5zZXJ0SW50bztcblxuXG5cbnZhciBvcHRpb25zID0ge1wiaG1yXCI6dHJ1ZX1cblxub3B0aW9ucy50cmFuc2Zvcm0gPSB0cmFuc2Zvcm1cbm9wdGlvbnMuaW5zZXJ0SW50byA9IHVuZGVmaW5lZDtcblxudmFyIHVwZGF0ZSA9IHJlcXVpcmUoXCIhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3N0eWxlLWxvYWRlci9saWIvYWRkU3R5bGVzLmpzXCIpKGNvbnRlbnQsIG9wdGlvbnMpO1xuXG5pZihjb250ZW50LmxvY2FscykgbW9kdWxlLmV4cG9ydHMgPSBjb250ZW50LmxvY2FscztcblxuaWYobW9kdWxlLmhvdCkge1xuXHRtb2R1bGUuaG90LmFjY2VwdChcIiEhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL2Nzcy1sb2FkZXIvaW5kZXguanMhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2xvYWRlcnMvc3R5bGVQb3N0TG9hZGVyLmpzIS4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy9wb3N0Y3NzLWxvYWRlci9zcmMvaW5kZXguanM/P3JlZi0tNy0yIS4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy9zYXNzLWxvYWRlci9kaXN0L2Nqcy5qcz8/cmVmLS03LTMhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPz92dWUtbG9hZGVyLW9wdGlvbnMhLi9MYW5kaW5nLnZ1ZT92dWUmdHlwZT1zdHlsZSZpbmRleD0wJmlkPWZkMzUwMzQ2Jmxhbmc9c2NzcyZzY29wZWQ9dHJ1ZSZcIiwgZnVuY3Rpb24oKSB7XG5cdFx0dmFyIG5ld0NvbnRlbnQgPSByZXF1aXJlKFwiISEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvY3NzLWxvYWRlci9pbmRleC5qcyEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy9zdHlsZVBvc3RMb2FkZXIuanMhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Bvc3Rjc3MtbG9hZGVyL3NyYy9pbmRleC5qcz8/cmVmLS03LTIhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Nhc3MtbG9hZGVyL2Rpc3QvY2pzLmpzPz9yZWYtLTctMyEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuL0xhbmRpbmcudnVlP3Z1ZSZ0eXBlPXN0eWxlJmluZGV4PTAmaWQ9ZmQzNTAzNDYmbGFuZz1zY3NzJnNjb3BlZD10cnVlJlwiKTtcblxuXHRcdGlmKHR5cGVvZiBuZXdDb250ZW50ID09PSAnc3RyaW5nJykgbmV3Q29udGVudCA9IFtbbW9kdWxlLmlkLCBuZXdDb250ZW50LCAnJ11dO1xuXG5cdFx0dmFyIGxvY2FscyA9IChmdW5jdGlvbihhLCBiKSB7XG5cdFx0XHR2YXIga2V5LCBpZHggPSAwO1xuXG5cdFx0XHRmb3Ioa2V5IGluIGEpIHtcblx0XHRcdFx0aWYoIWIgfHwgYVtrZXldICE9PSBiW2tleV0pIHJldHVybiBmYWxzZTtcblx0XHRcdFx0aWR4Kys7XG5cdFx0XHR9XG5cblx0XHRcdGZvcihrZXkgaW4gYikgaWR4LS07XG5cblx0XHRcdHJldHVybiBpZHggPT09IDA7XG5cdFx0fShjb250ZW50LmxvY2FscywgbmV3Q29udGVudC5sb2NhbHMpKTtcblxuXHRcdGlmKCFsb2NhbHMpIHRocm93IG5ldyBFcnJvcignQWJvcnRpbmcgQ1NTIEhNUiBkdWUgdG8gY2hhbmdlZCBjc3MtbW9kdWxlcyBsb2NhbHMuJyk7XG5cblx0XHR1cGRhdGUobmV3Q29udGVudCk7XG5cdH0pO1xuXG5cdG1vZHVsZS5ob3QuZGlzcG9zZShmdW5jdGlvbigpIHsgdXBkYXRlKCk7IH0pO1xufSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&\n");
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
@@ -30,7 +57,1370 @@ eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-load
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [\n    _c(\"div\", { staticClass: \"hero bg-white overflow-hidden\" }, [\n      _c(\n        \"div\",\n        { staticClass: \"hero-inner align-self-stretch d-flex flex-column\" },\n        [\n          _vm._m(0),\n          _vm._v(\" \"),\n          _c(\n            \"div\",\n            {\n              staticClass:\n                \"content content-full flex-fill d-flex align-items-center px-0 px-md-4 px-lg-6 px-xl-8 overflow-hidden\"\n            },\n            [\n              _c(\n                \"b-row\",\n                { staticClass: \"w-100\" },\n                [\n                  _c(\n                    \"b-col\",\n                    {\n                      staticClass:\n                        \"text-center text-lg-left d-flex align-items-center bg-landing-left\",\n                      attrs: { lg: \"6\" }\n                    },\n                    [\n                      _c(\n                        \"div\",\n                        { staticClass: \"w-100\" },\n                        [\n                          _c(\n                            \"h1\",\n                            { staticClass: \"display-4 font-w700 mb-3\" },\n                            [\n                              _vm._v(\"\\n                dms \"),\n                              _c(\"span\", { staticClass: \"font-w300\" }, [\n                                _vm._v(\"Vue Edition\")\n                              ])\n                            ]\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"p\",\n                            { staticClass: \"font-size-lg text-muted mb-3\" },\n                            [\n                              _vm._v(\n                                \"\\n                Build all your projects with one super flexible UI framework.\"\n                              ),\n                              _c(\"br\"),\n                              _vm._v(\n                                \"Now rebuilt from scratch with Vue.js. Based on\"\n                              ),\n                              _c(\"br\"),\n                              _c(\n                                \"a\",\n                                {\n                                  attrs: {\n                                    href: \"https://1.envato.market/AVD6j\"\n                                  }\n                                },\n                                [_vm._v(\"dms Remastered\")]\n                              ),\n                              _vm._v(\" design!\\n              \")\n                            ]\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-button\",\n                            {\n                              directives: [\n                                {\n                                  name: \"click-ripple\",\n                                  rawName: \"v-click-ripple\"\n                                }\n                              ],\n                              staticClass: \"px-4 py-2 mr-2 mt-2\",\n                              attrs: {\n                                variant: \"alt-success\",\n                                href: \"https://1.envato.market/5Noyb\"\n                              }\n                            },\n                            [\n                              _c(\"i\", {\n                                staticClass: \"fa fa-fw fa-shopping-cart mr-1\"\n                              }),\n                              _vm._v(\" Purchase\\n              \")\n                            ]\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-button\",\n                            {\n                              directives: [\n                                {\n                                  name: \"click-ripple\",\n                                  rawName: \"v-click-ripple\"\n                                }\n                              ],\n                              staticClass: \"px-4 py-2 mr-2 mt-2\",\n                              attrs: {\n                                variant: \"alt-primary\",\n                                to: \"/backend/dashboard\"\n                              }\n                            },\n                            [\n                              _c(\"i\", {\n                                staticClass: \"fa fa-fw fa-rocket mr-1\"\n                              }),\n                              _vm._v(\" Live Preview\\n              \")\n                            ]\n                          )\n                        ],\n                        1\n                      )\n                    ]\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    {\n                      staticClass: \"d-none d-lg-block py-6\",\n                      attrs: { lg: \"6\" }\n                    },\n                    [\n                      _c(\n                        \"div\",\n                        {\n                          staticClass:\n                            \"w-100 d-flex align-items-center position-relative bg-landing-right\"\n                        },\n                        [\n                          _c(\n                            \"b-row\",\n                            { attrs: { \"no-gutters\": \"\" } },\n                            [\n                              _c(\"b-col\", { attrs: { lg: \"7\" } }, [\n                                _c(\"div\", [\n                                  _c(\"img\", {\n                                    staticClass: \"promo-image\",\n                                    attrs: {\n                                      src: \"images/various/promo-dashboard.png\",\n                                      alt: \"dms Vue Promo Dashboard Image\"\n                                    }\n                                  })\n                                ]),\n                                _vm._v(\" \"),\n                                _c(\"div\", { staticClass: \"ml-4 mt-4\" }, [\n                                  _c(\"img\", {\n                                    staticClass: \"promo-image\",\n                                    attrs: {\n                                      src: \"images/various/promo-search.png\",\n                                      alt: \"dms Vue Promo Search Image\"\n                                    }\n                                  })\n                                ])\n                              ]),\n                              _vm._v(\" \"),\n                              _c(\"b-col\", { attrs: { lg: \"5\" } }, [\n                                _c(\"div\", { staticClass: \"ml-4 mt-5\" }, [\n                                  _c(\"img\", {\n                                    staticClass: \"promo-image\",\n                                    attrs: {\n                                      src: \"images/various/promo-side.png\",\n                                      alt: \"dms Vue Promo Side Image\"\n                                    }\n                                  })\n                                ]),\n                                _vm._v(\" \"),\n                                _c(\"div\", { staticClass: \" ml-5 mt-4\" }, [\n                                  _c(\"img\", {\n                                    staticClass: \"promo-image\",\n                                    attrs: {\n                                      src: \"images/various/promo-code-vue.png\",\n                                      alt: \"dms Vue Promo Code Image\"\n                                    }\n                                  })\n                                ])\n                              ])\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ]\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          )\n        ]\n      ),\n      _vm._v(\" \"),\n      _vm._m(1)\n    ]),\n    _vm._v(\" \"),\n    _c(\"div\", { staticClass: \"bg-body-light\" }, [\n      _c(\n        \"div\",\n        { staticClass: \"content content-full content-boxed overflow-hidden\" },\n        [\n          _c(\n            \"div\",\n            { staticClass: \"py-5\" },\n            [\n              _c(\"h2\", { staticClass: \"h1 font-w700 mb-3 text-center\" }, [\n                _vm._v(\"\\n          Vue Edition\\n        \")\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"p\",\n                {\n                  staticClass:\n                    \"font-size-lg text-muted mb-6 text-center mx-sm-6 mx-lg-10\"\n                },\n                [\n                  _vm._v(\n                    \"\\n          dms Vue Edition was carefully crafted for all your projects using the latest and greatest technology.\\n        \"\n                  )\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                [\n                  _c(\n                    \"b-col\",\n                    {\n                      staticClass: \"d-flex align-items-center\",\n                      attrs: { \"order-md\": \"1\", md: \"6\", \"offset-lg\": \"1\" }\n                    },\n                    [\n                      _c(\n                        \"div\",\n                        {\n                          staticClass:\n                            \"w-100 mb-5 mb-md-0 px-lg-6 position-relative bg-landing-right\"\n                        },\n                        [\n                          _c(\n                            \"b-row\",\n                            [\n                              _c(\n                                \"b-col\",\n                                { attrs: { cols: \"6\", md: \"12\" } },\n                                [\n                                  _c(\n                                    \"base-block\",\n                                    {\n                                      attrs: {\n                                        rounded: \"\",\n                                        \"fx-shadow\": \"\",\n                                        \"content-full\": \"\"\n                                      }\n                                    },\n                                    [\n                                      _c(\n                                        \"div\",\n                                        {\n                                          staticClass:\n                                            \"py-4 py-md-6 text-center\"\n                                        },\n                                        [\n                                          _c(\n                                            \"svg\",\n                                            {\n                                              attrs: {\n                                                version: \"1.1\",\n                                                width: \"8em\",\n                                                height: \"8em\",\n                                                viewBox: \"0 0 261.76 226.69\",\n                                                xmlns:\n                                                  \"http://www.w3.org/2000/svg\"\n                                              }\n                                            },\n                                            [\n                                              _c(\n                                                \"g\",\n                                                {\n                                                  attrs: {\n                                                    transform:\n                                                      \"matrix(1.3333 0 0 -1.3333 -76.311 313.34)\"\n                                                  }\n                                                },\n                                                [\n                                                  _c(\n                                                    \"g\",\n                                                    {\n                                                      attrs: {\n                                                        transform:\n                                                          \"translate(178.06 235.01)\"\n                                                      }\n                                                    },\n                                                    [\n                                                      _c(\"path\", {\n                                                        attrs: {\n                                                          d:\n                                                            \"m0 0-22.669-39.264-22.669 39.264h-75.491l98.16-170.02 98.16 170.02z\",\n                                                          fill: \"#41b883\"\n                                                        }\n                                                      })\n                                                    ]\n                                                  ),\n                                                  _c(\n                                                    \"g\",\n                                                    {\n                                                      attrs: {\n                                                        transform:\n                                                          \"translate(178.06 235.01)\"\n                                                      }\n                                                    },\n                                                    [\n                                                      _c(\"path\", {\n                                                        attrs: {\n                                                          d:\n                                                            \"m0 0-22.669-39.264-22.669 39.264h-36.227l58.896-102.01 58.896 102.01z\",\n                                                          fill: \"#34495e\"\n                                                        }\n                                                      })\n                                                    ]\n                                                  )\n                                                ]\n                                              )\n                                            ]\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  )\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-col\",\n                                { attrs: { cols: \"6\", md: \"12\" } },\n                                [\n                                  _c(\n                                    \"base-block\",\n                                    {\n                                      attrs: {\n                                        rounded: \"\",\n                                        \"fx-shadow\": \"\",\n                                        \"content-full\": \"\"\n                                      }\n                                    },\n                                    [\n                                      _c(\n                                        \"div\",\n                                        {\n                                          staticClass:\n                                            \"py-4 py-md-6 text-center\"\n                                        },\n                                        [\n                                          _c(\n                                            \"svg\",\n                                            {\n                                              attrs: {\n                                                xmlns:\n                                                  \"http://www.w3.org/2000/svg\",\n                                                width: \"8em\",\n                                                height: \"8em\",\n                                                viewBox: \"0 0 2041 2160\",\n                                                \"clip-rule\": \"evenodd\",\n                                                \"fill-rule\": \"evenodd\"\n                                              }\n                                            },\n                                            [\n                                              _c(\n                                                \"title\",\n                                                {\n                                                  attrs: {\n                                                    \"data-v-555a030c\": \"\"\n                                                  }\n                                                },\n                                                [_vm._v(\"BootstrapVue logo\")]\n                                              ),\n                                              _vm._v(\" \"),\n                                              _c(\"path\", {\n                                                attrs: {\n                                                  \"data-v-555a030c\": \"\",\n                                                  d:\n                                                    \"m1397 271-370 642-371-642h-592l963 1667 962-1667z\",\n                                                  fill: \"#34495e\"\n                                                }\n                                              }),\n                                              _vm._v(\" \"),\n                                              _c(\"path\", {\n                                                attrs: {\n                                                  \"data-v-555a030c\": \"\",\n                                                  d: \"m44 0h1952l-979 1696z\",\n                                                  fill: \"#563d7c\",\n                                                  \"fill-rule\": \"nonzero\"\n                                                }\n                                              }),\n                                              _vm._v(\" \"),\n                                              _c(\"path\", {\n                                                attrs: {\n                                                  \"data-v-555a030c\": \"\",\n                                                  d:\n                                                    \"m1633 392-612 1061-613-1061h-408l1021 1768 1020-1768z\",\n                                                  fill: \"#41b883\"\n                                                }\n                                              }),\n                                              _vm._v(\" \"),\n                                              _c(\"path\", {\n                                                attrs: {\n                                                  \"data-v-555a030c\": \"\",\n                                                  d:\n                                                    \"m767 196h339c62 0 112 14 150 43 38 28 56 71 56 129 0 36-8 66-25 91s-42 44-74 58v2c43 9 75 29 98 61 22 31 33 71 33 118 0 28-5 53-15 77s-25 44-46 61c-21 18-47 31-80 41-32 11-71 16-116 16h-320zm122 292h199c29 0 54-9 73-25 20-17 29-41 29-72 0-35-8-60-26-75-17-14-43-21-76-21h-199zm0 305h216c37 0 66-10 86-29s31-46 31-81-10-61-31-80-49-28-86-28h-216z\",\n                                                  fill: \"#fff\"\n                                                }\n                                              })\n                                            ]\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ]\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { \"order-md\": \"0\", md: \"6\", lg: \"5\" } },\n                    [\n                      _c(\"h4\", { staticClass: \"h2 font-w700 mb-3\" }, [\n                        _vm._v(\n                          \"\\n              Amazing tools under the hood\\n            \"\n                        )\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-size-lg text-muted mb-5\" }, [\n                        _vm._v(\n                          \"\\n              We used the best toolkits, built by passionate people, to recreate dms from scratch and craft a pure Vue.js based version.\\n            \"\n                        )\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"div\", { staticClass: \"d-flex push\" }, [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-success-light flex-shrink-0\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-tools text-success\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"div\", { staticClass: \"ml-4\" }, [\n                          _c(\"h5\", { staticClass: \"h4 mb-2\" }, [\n                            _vm._v(\n                              \"\\n                  Vue CLI\\n                \"\n                            )\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", { staticClass: \"text-muted\" }, [\n                            _vm._v(\n                              \"\\n                  Standard tooling for Vue.js development. Out-of-the-box support for Babel, TypeScript, ESLint, PostCSS, PWA, Unit Testing & End-to-end Testing.\\n                \"\n                            )\n                          ])\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"div\", { staticClass: \"d-flex push\" }, [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-danger-light flex-shrink-0\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-table text-danger\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"div\", { staticClass: \"ml-4\" }, [\n                          _c(\"h5\", { staticClass: \"h4 mb-2\" }, [\n                            _vm._v(\"\\n                  Vuex\\n                \")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", { staticClass: \"text-muted\" }, [\n                            _vm._v(\n                              \"\\n                  A state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion.\\n                \"\n                            )\n                          ])\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"div\", { staticClass: \"d-flex push\" }, [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-amethyst-lighter flex-shrink-0\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-fire text-amethyst\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"div\", { staticClass: \"ml-4\" }, [\n                          _c(\"h5\", { staticClass: \"h4 mb-2\" }, [\n                            _vm._v(\n                              \"\\n                  BootstrapVue\\n                \"\n                            )\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", { staticClass: \"text-muted\" }, [\n                            _vm._v(\n                              \"\\n                  You can build responsive, mobile-first, and ARIA accessible projects on the web using Vue.js and the world's most popular front-end CSS library — Bootstrap 4.\\n                \"\n                            )\n                          ])\n                        ])\n                      ])\n                    ]\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          )\n        ]\n      )\n    ]),\n    _vm._v(\" \"),\n    _c(\"div\", { staticClass: \"bg-white\" }, [\n      _c(\"div\", { staticClass: \"content content-full content-boxed\" }, [\n        _c(\n          \"div\",\n          { staticClass: \"py-5 text-center\" },\n          [\n            _c(\"h2\", { staticClass: \"h1 font-w700 mb-3 text-center\" }, [\n              _vm._v(\"\\n          Sophisticated Features\\n        \")\n            ]),\n            _vm._v(\" \"),\n            _c(\n              \"p\",\n              {\n                staticClass:\n                  \"font-size-lg text-muted mb-6 text-center mx-sm-6 mx-lg-10\"\n              },\n              [\n                _vm._v(\n                  \"\\n          Comes packed with great features and development tools, based on dms Remastered design\\n        \"\n                )\n              ]\n            ),\n            _vm._v(\" \"),\n            _c(\n              \"b-row\",\n              { staticClass: \"row-deck\" },\n              [\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-amethyst-lighter mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-fire text-amethyst\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"Bootstrap 4\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                The latest Bootstrap version powers the framework. Flexbox support and tons of new features are ready for you to use.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-danger-light mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fab fa-2x fa-sass text-danger\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [_vm._v(\"Sass\")]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                Sass is used to override and extent Bootstrap in an intelligent way to ensure a perfect and modular workflow.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-warning-light mx-auto my-4\"\n                          },\n                          [\n                            _c(\n                              \"span\",\n                              { staticClass: \"font-w700 text-warning\" },\n                              [_vm._v(\"ES6\")]\n                            )\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"ECMAScript 6\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                ES6, the new major JavaScript release, is used, which enables us writing cleaner and better code.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-flat-lighter mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fab fa-2x fa-font-awesome text-flat\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"FontAwesome 5\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                The latest Font Awesome version is available, bringing you over 1300 freshly made icons to be used in your projects.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-default-lighter mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-boxes text-default\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"webpack + Babel\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                Babel makes your JS code compatible with older browsers and webpack bundles your asset files together. Works out-of-the-box with Vue CLI.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-modern-lighter mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-columns text-modern\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"User Interface\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                Develop and manage your projects through an accompanying graphical user interface. Perfect for managing your tasks & dependencies.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-city-lighter mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-sync-alt text-city\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"Hot Reload\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                When you edit a .vue file, all instances of that component will be swapped in without reloading the page. It also preserves current state.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-smooth-lighter mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass:\n                                \"fab fa-2x fa-autoprefixer text-smooth\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"Autoprefixer\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                Peace of mind when working with Sass. Use the latest CSS syntax and Autoprefixer will auto add any required prefixes for older browsers.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-gray-light mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-truck-loading text-dark\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"Components\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                Custom vital components are available to be used in your Vue.js templates, making it easier to structure your page content.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-info-light mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-brush text-info\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"Remastered Design\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                Using the latest styles from dms Remastered version, you can be sure that all design elements are available in the Vue Edition as well.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-success-light mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-smile-wink text-success\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [\n                          _vm._v(\"Layout Features\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                Dark header, light sidebar, flexbox based layout, page overlay, header search and even more layout features are all available.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"b-col\",\n                  { attrs: { sm: \"6\", md: \"4\", xl: \"3\" } },\n                  [\n                    _c(\n                      \"base-block\",\n                      {\n                        attrs: { rounded: \"\", \"fx-pop\": \"\", \"content-full\": \"\" }\n                      },\n                      [\n                        _c(\n                          \"div\",\n                          {\n                            staticClass:\n                              \"item item-rounded bg-warning-light mx-auto my-4\"\n                          },\n                          [\n                            _c(\"i\", {\n                              staticClass: \"fa fa-2x fa-wrench text-warning\"\n                            })\n                          ]\n                        ),\n                        _vm._v(\" \"),\n                        _c(\"h4\", { staticClass: \"mb-2\" }, [_vm._v(\"APIs\")]),\n                        _vm._v(\" \"),\n                        _c(\n                          \"p\",\n                          { staticClass: \"font-size-sm text-muted text-left\" },\n                          [\n                            _vm._v(\n                              \"\\n                Easily manipulate blocks and layout features on the fly from any component in your application. Either with buttons or JS code.\\n              \"\n                            )\n                          ]\n                        )\n                      ]\n                    )\n                  ],\n                  1\n                )\n              ],\n              1\n            )\n          ],\n          1\n        )\n      ])\n    ]),\n    _vm._v(\" \"),\n    _c(\n      \"div\",\n      { staticClass: \"bg-primary-darker border-top border-bottom border-5x\" },\n      [\n        _c(\"div\", { staticClass: \"content content-full content-boxed\" }, [\n          _c(\n            \"div\",\n            { staticClass: \"py-5 text-center\" },\n            [\n              _c(\"h2\", { staticClass: \"h1 font-w700 mb-3 text-white\" }, [\n                _vm._v(\n                  \"\\n          Trusted by over 3.900 developers and teams\\n        \"\n                )\n              ]),\n              _vm._v(\" \"),\n              _vm._m(2),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                { staticClass: \"mx-lg-8\", attrs: { \"no-gutters\": \"\" } },\n                [\n                  _c(\"b-col\", { staticClass: \"p-3\", attrs: { sm: \"4\" } }, [\n                    _c(\n                      \"p\",\n                      {\n                        staticClass:\n                          \"display-4 font-w700 text-primary-light mb-0\"\n                      },\n                      [_vm._v(\"\\n              3.900+\\n            \")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\n                      \"p\",\n                      { staticClass: \"font-size-lg text-white-75 mb-0\" },\n                      [_vm._v(\"\\n              Purchases\\n            \")]\n                    )\n                  ]),\n                  _vm._v(\" \"),\n                  _c(\"b-col\", { staticClass: \"p-3\", attrs: { sm: \"4\" } }, [\n                    _c(\n                      \"p\",\n                      {\n                        staticClass:\n                          \"display-4 font-w700 text-primary-light mb-0\"\n                      },\n                      [_vm._v(\"\\n              250+\\n            \")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\n                      \"p\",\n                      { staticClass: \"font-size-lg text-white-75 mb-0\" },\n                      [_vm._v(\"\\n              5 Star Ratings\\n            \")]\n                    )\n                  ]),\n                  _vm._v(\" \"),\n                  _c(\"b-col\", { staticClass: \"p-3\", attrs: { sm: \"4\" } }, [\n                    _c(\n                      \"p\",\n                      {\n                        staticClass:\n                          \"display-4 font-w700 text-primary-light mb-0\"\n                      },\n                      [_vm._v(\"\\n              20\\n            \")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\n                      \"p\",\n                      { staticClass: \"font-size-lg text-white-75 mb-0\" },\n                      [_vm._v(\"\\n              Free Updates\\n            \")]\n                    )\n                  ])\n                ],\n                1\n              )\n            ],\n            1\n          )\n        ])\n      ]\n    ),\n    _vm._v(\" \"),\n    _c(\"div\", { staticClass: \"bg-white\" }, [\n      _c(\"div\", { staticClass: \"content content-full content-boxed\" }, [\n        _c(\n          \"div\",\n          { staticClass: \"py-5 py-md-8 text-center\" },\n          [\n            _vm._m(3),\n            _vm._v(\" \"),\n            _vm._m(4),\n            _vm._v(\" \"),\n            _c(\n              \"b-button\",\n              {\n                directives: [\n                  { name: \"click-ripple\", rawName: \"v-click-ripple\" }\n                ],\n                staticClass: \"px-4 py-2 mr-2 mt-2\",\n                attrs: {\n                  variant: \"alt-success\",\n                  href: \"https://1.envato.market/5Noyb\"\n                }\n              },\n              [\n                _c(\"i\", { staticClass: \"fa fa-fw fa-shopping-cart mr-1\" }),\n                _vm._v(\" Purchase\\n        \")\n              ]\n            ),\n            _vm._v(\" \"),\n            _c(\n              \"b-button\",\n              {\n                directives: [\n                  { name: \"click-ripple\", rawName: \"v-click-ripple\" }\n                ],\n                staticClass: \"px-4 py-2 mr-2 mt-2\",\n                attrs: { variant: \"alt-primary\", to: \"/backend/dashboard\" }\n              },\n              [\n                _c(\"i\", { staticClass: \"fa fa-fw fa-rocket mr-1\" }),\n                _vm._v(\" Live Preview\\n        \")\n              ]\n            )\n          ],\n          1\n        )\n      ])\n    ]),\n    _vm._v(\" \"),\n    _c(\"footer\", { staticClass: \"bg-body-light\" }, [\n      _c(\n        \"div\",\n        { staticClass: \"content content-boxed py-5\" },\n        [\n          _c(\n            \"b-row\",\n            { staticClass: \"font-size-sm\" },\n            [\n              _c(\n                \"b-col\",\n                {\n                  staticClass: \"py-1 text-center text-sm-right\",\n                  attrs: { sm: \"6\", \"order-sm\": \"2\" }\n                },\n                [\n                  _vm._v(\"\\n          Crafted with \"),\n                  _c(\"i\", { staticClass: \"fa fa-heart text-danger\" }),\n                  _vm._v(\" by \"),\n                  _c(\n                    \"a\",\n                    {\n                      staticClass: \"font-w600\",\n                      attrs: { href: \"https://1.envato.market/5Noyb\" }\n                    },\n                    [_vm._v(\"pixelcave\")]\n                  )\n                ]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                {\n                  staticClass: \"py-1 text-center text-sm-left\",\n                  attrs: { sm: \"6\", \"order-sm\": \"1\" }\n                },\n                [\n                  _c(\n                    \"a\",\n                    {\n                      staticClass: \"font-w600\",\n                      attrs: { href: \"https://1.envato.market/5Noyb\" }\n                    },\n                    [\n                      _vm._v(\n                        _vm._s(\n                          _vm.$store.getters.appName +\n                            \" \" +\n                            _vm.$store.getters.appVersion\n                        )\n                      )\n                    ]\n                  ),\n                  _vm._v(\n                    \" © \" +\n                      _vm._s(_vm.$store.getters.appCopyright) +\n                      \"\\n        \"\n                  )\n                ]\n              )\n            ],\n            1\n          )\n        ],\n        1\n      )\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"pt-5 pb-3 text-center\" }, [\n      _c(\"i\", { staticClass: \"fa fa-2x fa-circle-notch text-primary\" })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"hero-meta\" }, [\n      _c(\"div\", { staticClass: \"animated slideInDown infinite\" }, [\n        _c(\"i\", { staticClass: \"fa fa-chevron-down text-black-50\" })\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"p\",\n      { staticClass: \"font-size-lg text-white-75 mb-6 mx-sm-6 mx-lg-9\" },\n      [\n        _c(\n          \"a\",\n          {\n            staticClass: \"text-primary-light\",\n            attrs: { href: \"https://1.envato.market/AVD6j\" }\n          },\n          [_vm._v(\"dms\")]\n        ),\n        _vm._v(\n          \" is one of the Best Seller and Best Rated admin templates on Themeforest. Its success made possible the development of Vue Edition.\\n        \"\n        )\n      ]\n    )\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"h2\", { staticClass: \"h1 font-w700 mb-3\" }, [\n      _vm._v(\"\\n          Crafted with \"),\n      _c(\"i\", { staticClass: \"fa fa-fw fa-heart text-city\" }),\n      _vm._v(\" by \"),\n      _c(\n        \"a\",\n        {\n          staticClass: \"link-fx\",\n          attrs: { href: \"https://1.envato.market/5Noyb\" }\n        },\n        [_vm._v(\"pixelcave\")]\n      )\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"p\", { staticClass: \"font-size-lg mb-6 mx-sm-6 mx-lg-9\" }, [\n      _vm._v(\"\\n          Elite author on Themeforest.\"),\n      _c(\"br\"),\n      _vm._v(\n        \"Passionate web design and development with over 13.000 customers worldwide.\\n        \"\n      )\n    ])\n  }\n]\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL0xhbmRpbmcudnVlPzcxNmUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGVBQWUsK0NBQStDO0FBQzlEO0FBQ0E7QUFDQSxTQUFTLGtFQUFrRTtBQUMzRTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsYUFBYTtBQUNiO0FBQ0E7QUFDQTtBQUNBLGlCQUFpQix1QkFBdUI7QUFDeEM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsOEJBQThCO0FBQzlCLHFCQUFxQjtBQUNyQjtBQUNBO0FBQ0E7QUFDQSx5QkFBeUIsdUJBQXVCO0FBQ2hEO0FBQ0E7QUFDQTtBQUNBLDZCQUE2QiwwQ0FBMEM7QUFDdkU7QUFDQTtBQUNBLDBDQUEwQywyQkFBMkI7QUFDckU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSw2QkFBNkIsOENBQThDO0FBQzNFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlDQUFpQztBQUNqQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsNkJBQTZCO0FBQzdCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQjtBQUMvQjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSw2QkFBNkI7QUFDN0I7QUFDQTtBQUNBO0FBQ0EsK0JBQStCO0FBQy9CO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7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O0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esc0JBQXNCLHVDQUF1QztBQUM3RCxlQUFlLHVEQUF1RDtBQUN0RTtBQUNBLEdBQUc7QUFDSDtBQUNBO0FBQ0E7QUFDQTtBQUNBLHNCQUFzQiwyQkFBMkI7QUFDakQsaUJBQWlCLCtDQUErQztBQUNoRSxpQkFBaUIsa0RBQWtEO0FBQ25FO0FBQ0E7QUFDQSxHQUFHO0FBQ0g7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsT0FBTyxpRUFBaUU7QUFDeEU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG9CQUFvQjtBQUNwQixXQUFXO0FBQ1g7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxHQUFHO0FBQ0g7QUFDQTtBQUNBO0FBQ0E7QUFDQSxxQkFBcUIsbUNBQW1DO0FBQ3hEO0FBQ0EsZUFBZSw2Q0FBNkM7QUFDNUQ7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGtCQUFrQjtBQUNsQixTQUFTO0FBQ1Q7QUFDQTtBQUNBO0FBQ0EsR0FBRztBQUNIO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esb0JBQW9CLG1EQUFtRDtBQUN2RTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy90ZW1wbGF0ZUxvYWRlci5qcz8hLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/IS4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9MYW5kaW5nLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD1mZDM1MDM0NiZzY29wZWQ9dHJ1ZSYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgcmVuZGVyID0gZnVuY3Rpb24oKSB7XG4gIHZhciBfdm0gPSB0aGlzXG4gIHZhciBfaCA9IF92bS4kY3JlYXRlRWxlbWVudFxuICB2YXIgX2MgPSBfdm0uX3NlbGYuX2MgfHwgX2hcbiAgcmV0dXJuIF9jKFwiZGl2XCIsIFtcbiAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImhlcm8gYmctd2hpdGUgb3ZlcmZsb3ctaGlkZGVuXCIgfSwgW1xuICAgICAgX2MoXG4gICAgICAgIFwiZGl2XCIsXG4gICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiaGVyby1pbm5lciBhbGlnbi1zZWxmLXN0cmV0Y2ggZC1mbGV4IGZsZXgtY29sdW1uXCIgfSxcbiAgICAgICAgW1xuICAgICAgICAgIF92bS5fbSgwKSxcbiAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgXCJjb250ZW50IGNvbnRlbnQtZnVsbCBmbGV4LWZpbGwgZC1mbGV4IGFsaWduLWl0ZW1zLWNlbnRlciBweC0wIHB4LW1kLTQgcHgtbGctNiBweC14bC04IG92ZXJmbG93LWhpZGRlblwiXG4gICAgICAgICAgICB9LFxuICAgICAgICAgICAgW1xuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJ3LTEwMFwiIH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgXCJ0ZXh0LWNlbnRlciB0ZXh0LWxnLWxlZnQgZC1mbGV4IGFsaWduLWl0ZW1zLWNlbnRlciBiZy1sYW5kaW5nLWxlZnRcIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBsZzogXCI2XCIgfVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImRpdlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJ3LTEwMFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiaDFcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImRpc3BsYXktNCBmb250LXc3MDAgbWItM1wiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiXFxuICAgICAgICAgICAgICAgIGRtcyBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInNwYW5cIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXczMDBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlZ1ZSBFZGl0aW9uXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXNpemUtbGcgdGV4dC1tdXRlZCBtYi0zXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIEJ1aWxkIGFsbCB5b3VyIHByb2plY3RzIHdpdGggb25lIHN1cGVyIGZsZXhpYmxlIFVJIGZyYW1ld29yay5cIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYnJcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiTm93IHJlYnVpbHQgZnJvbSBzY3JhdGNoIHdpdGggVnVlLmpzLiBCYXNlZCBvblwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiclwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBocmVmOiBcImh0dHBzOi8vMS5lbnZhdG8ubWFya2V0L0FWRDZqXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJkbXMgUmVtYXN0ZXJlZFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgZGVzaWduIVxcbiAgICAgICAgICAgICAgXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlyZWN0aXZlczogW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZTogXCJjbGljay1yaXBwbGVcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdOYW1lOiBcInYtY2xpY2stcmlwcGxlXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInB4LTQgcHktMiBtci0yIG10LTJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6IFwiYWx0LXN1Y2Nlc3NcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaHJlZjogXCJodHRwczovLzEuZW52YXRvLm1hcmtldC81Tm95YlwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS1mdyBmYS1zaG9wcGluZy1jYXJ0IG1yLTFcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgUHVyY2hhc2VcXG4gICAgICAgICAgICAgIFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpcmVjdGl2ZXM6IFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU6IFwiY2xpY2stcmlwcGxlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF3TmFtZTogXCJ2LWNsaWNrLXJpcHBsZVwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJweC00IHB5LTIgbXItMiBtdC0yXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImFsdC1wcmltYXJ5XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvOiBcIi9iYWNrZW5kL2Rhc2hib2FyZFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS1mdyBmYS1yb2NrZXQgbXItMVwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBMaXZlIFByZXZpZXdcXG4gICAgICAgICAgICAgIFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImQtbm9uZSBkLWxnLWJsb2NrIHB5LTZcIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBsZzogXCI2XCIgfVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImRpdlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInctMTAwIGQtZmxleCBhbGlnbi1pdGVtcy1jZW50ZXIgcG9zaXRpb24tcmVsYXRpdmUgYmctbGFuZGluZy1yaWdodFwiXG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBcIm5vLWd1dHRlcnNcIjogXCJcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLWNvbFwiLCB7IGF0dHJzOiB7IGxnOiBcIjdcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJkaXZcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaW1nXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInByb21vLWltYWdlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcmM6IFwiaW1hZ2VzL3ZhcmlvdXMvcHJvbW8tZGFzaGJvYXJkLnBuZ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbHQ6IFwiZG1zIFZ1ZSBQcm9tbyBEYXNoYm9hcmQgSW1hZ2VcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcIm1sLTQgbXQtNFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImltZ1wiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJwcm9tby1pbWFnZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3JjOiBcImltYWdlcy92YXJpb3VzL3Byb21vLXNlYXJjaC5wbmdcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWx0OiBcImRtcyBWdWUgUHJvbW8gU2VhcmNoIEltYWdlXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLWNvbFwiLCB7IGF0dHJzOiB7IGxnOiBcIjVcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCJtbC00IG10LTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpbWdcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwicHJvbW8taW1hZ2VcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNyYzogXCJpbWFnZXMvdmFyaW91cy9wcm9tby1zaWRlLnBuZ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbHQ6IFwiZG1zIFZ1ZSBQcm9tbyBTaWRlIEltYWdlXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCIgbWwtNSBtdC00XCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaW1nXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInByb21vLWltYWdlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcmM6IFwiaW1hZ2VzL3ZhcmlvdXMvcHJvbW8tY29kZS12dWUucG5nXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsdDogXCJkbXMgVnVlIFByb21vIENvZGUgSW1hZ2VcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApXG4gICAgICAgICAgICBdLFxuICAgICAgICAgICAgMVxuICAgICAgICAgIClcbiAgICAgICAgXVxuICAgICAgKSxcbiAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICBfdm0uX20oMSlcbiAgICBdKSxcbiAgICBfdm0uX3YoXCIgXCIpLFxuICAgIF9jKFwiZGl2XCIsIHsgc3RhdGljQ2xhc3M6IFwiYmctYm9keS1saWdodFwiIH0sIFtcbiAgICAgIF9jKFxuICAgICAgICBcImRpdlwiLFxuICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImNvbnRlbnQgY29udGVudC1mdWxsIGNvbnRlbnQtYm94ZWQgb3ZlcmZsb3ctaGlkZGVuXCIgfSxcbiAgICAgICAgW1xuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwicHktNVwiIH0sXG4gICAgICAgICAgICBbXG4gICAgICAgICAgICAgIF9jKFwiaDJcIiwgeyBzdGF0aWNDbGFzczogXCJoMSBmb250LXc3MDAgbWItMyB0ZXh0LWNlbnRlclwiIH0sIFtcbiAgICAgICAgICAgICAgICBfdm0uX3YoXCJcXG4gICAgICAgICAgVnVlIEVkaXRpb25cXG4gICAgICAgIFwiKVxuICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgIFwiZm9udC1zaXplLWxnIHRleHQtbXV0ZWQgbWItNiB0ZXh0LWNlbnRlciBteC1zbS02IG14LWxnLTEwXCJcbiAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgZG1zIFZ1ZSBFZGl0aW9uIHdhcyBjYXJlZnVsbHkgY3JhZnRlZCBmb3IgYWxsIHlvdXIgcHJvamVjdHMgdXNpbmcgdGhlIGxhdGVzdCBhbmQgZ3JlYXRlc3QgdGVjaG5vbG9neS5cXG4gICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImQtZmxleCBhbGlnbi1pdGVtcy1jZW50ZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBcIm9yZGVyLW1kXCI6IFwiMVwiLCBtZDogXCI2XCIsIFwib2Zmc2V0LWxnXCI6IFwiMVwiIH1cbiAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ3LTEwMCBtYi01IG1iLW1kLTAgcHgtbGctNiBwb3NpdGlvbi1yZWxhdGl2ZSBiZy1sYW5kaW5nLXJpZ2h0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1yb3dcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IGNvbHM6IFwiNlwiLCBtZDogXCIxMlwiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcm91bmRlZDogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImZ4LXNoYWRvd1wiOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiY29udGVudC1mdWxsXCI6IFwiXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJweS00IHB5LW1kLTYgdGV4dC1jZW50ZXJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwic3ZnXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmVyc2lvbjogXCIxLjFcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiBcIjhlbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiBcIjhlbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlld0JveDogXCIwIDAgMjYxLjc2IDIyNi42OVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeG1sbnM6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJnXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJtYXRyaXgoMS4zMzMzIDAgMCAtMS4zMzMzIC03Ni4zMTEgMzEzLjM0KVwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiZ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInRyYW5zbGF0ZSgxNzguMDYgMjM1LjAxKVwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBhdGhcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGQ6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIm0wIDAtMjIuNjY5LTM5LjI2NC0yMi42NjkgMzkuMjY0aC03NS40OTFsOTguMTYtMTcwLjAyIDk4LjE2IDE3MC4wMnpcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaWxsOiBcIiM0MWI4ODNcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJnXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwidHJhbnNsYXRlKDE3OC4wNiAyMzUuMDEpXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicGF0aFwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZDpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwibTAgMC0yMi42NjktMzkuMjY0LTIyLjY2OSAzOS4yNjRoLTM2LjIyN2w1OC44OTYtMTAyLjAxIDU4Ljg5NiAxMDIuMDF6XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmlsbDogXCIjMzQ0OTVlXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBjb2xzOiBcIjZcIiwgbWQ6IFwiMTJcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJvdW5kZWQ6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJmeC1zaGFkb3dcIjogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImNvbnRlbnQtZnVsbFwiOiBcIlwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGl2XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwicHktNCBweS1tZC02IHRleHQtY2VudGVyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInN2Z1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHhtbG5zOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogXCI4ZW1cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogXCI4ZW1cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZpZXdCb3g6IFwiMCAwIDIwNDEgMjE2MFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJjbGlwLXJ1bGVcIjogXCJldmVub2RkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImZpbGwtcnVsZVwiOiBcImV2ZW5vZGRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ0aXRsZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGF0YS12LTU1NWEwMzBjXCI6IFwiXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJCb290c3RyYXBWdWUgbG9nb1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJwYXRoXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGF0YS12LTU1NWEwMzBjXCI6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGQ6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJtMTM5NyAyNzEtMzcwIDY0Mi0zNzEtNjQyaC01OTJsOTYzIDE2NjcgOTYyLTE2Njd6XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbGw6IFwiIzM0NDk1ZVwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBhdGhcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkYXRhLXYtNTU1YTAzMGNcIjogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZDogXCJtNDQgMGgxOTUybC05NzkgMTY5NnpcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmlsbDogXCIjNTYzZDdjXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiZmlsbC1ydWxlXCI6IFwibm9uemVyb1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBhdGhcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkYXRhLXYtNTU1YTAzMGNcIjogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZDpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIm0xNjMzIDM5Mi02MTIgMTA2MS02MTMtMTA2MWgtNDA4bDEwMjEgMTc2OCAxMDIwLTE3Njh6XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbGw6IFwiIzQxYjg4M1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBhdGhcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkYXRhLXYtNTU1YTAzMGNcIjogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZDpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIm03NjcgMTk2aDMzOWM2MiAwIDExMiAxNCAxNTAgNDMgMzggMjggNTYgNzEgNTYgMTI5IDAgMzYtOCA2Ni0yNSA5MXMtNDIgNDQtNzQgNTh2MmM0MyA5IDc1IDI5IDk4IDYxIDIyIDMxIDMzIDcxIDMzIDExOCAwIDI4LTUgNTMtMTUgNzdzLTI1IDQ0LTQ2IDYxYy0yMSAxOC00NyAzMS04MCA0MS0zMiAxMS03MSAxNi0xMTYgMTZoLTMyMHptMTIyIDI5MmgxOTljMjkgMCA1NC05IDczLTI1IDIwLTE3IDI5LTQxIDI5LTcyIDAtMzUtOC02MC0yNi03NS0xNy0xNC00My0yMS03Ni0yMWgtMTk5em0wIDMwNWgyMTZjMzcgMCA2Ni0xMCA4Ni0yOXMzMS00NiAzMS04MS0xMC02MS0zMS04MC00OS0yOC04Ni0yOGgtMjE2elwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaWxsOiBcIiNmZmZcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBcIm9yZGVyLW1kXCI6IFwiMFwiLCBtZDogXCI2XCIsIGxnOiBcIjVcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwiaDIgZm9udC13NzAwIG1iLTNcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICBBbWF6aW5nIHRvb2xzIHVuZGVyIHRoZSBob29kXFxuICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1sZyB0ZXh0LW11dGVkIG1iLTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICBXZSB1c2VkIHRoZSBiZXN0IHRvb2xraXRzLCBidWlsdCBieSBwYXNzaW9uYXRlIHBlb3BsZSwgdG8gcmVjcmVhdGUgZG1zIGZyb20gc2NyYXRjaCBhbmQgY3JhZnQgYSBwdXJlIFZ1ZS5qcyBiYXNlZCB2ZXJzaW9uLlxcbiAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImQtZmxleCBwdXNoXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGl2XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiaXRlbSBpdGVtLXJvdW5kZWQgYmctc3VjY2Vzcy1saWdodCBmbGV4LXNocmluay0wXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS0yeCBmYS10b29scyB0ZXh0LXN1Y2Nlc3NcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCJtbC00XCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg1XCIsIHsgc3RhdGljQ2xhc3M6IFwiaDQgbWItMlwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgIFZ1ZSBDTElcXG4gICAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJ0ZXh0LW11dGVkXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgU3RhbmRhcmQgdG9vbGluZyBmb3IgVnVlLmpzIGRldmVsb3BtZW50LiBPdXQtb2YtdGhlLWJveCBzdXBwb3J0IGZvciBCYWJlbCwgVHlwZVNjcmlwdCwgRVNMaW50LCBQb3N0Q1NTLCBQV0EsIFVuaXQgVGVzdGluZyAmIEVuZC10by1lbmQgVGVzdGluZy5cXG4gICAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCJkLWZsZXggcHVzaFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcImRpdlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIml0ZW0gaXRlbS1yb3VuZGVkIGJnLWRhbmdlci1saWdodCBmbGV4LXNocmluay0wXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS0yeCBmYS10YWJsZSB0ZXh0LWRhbmdlclwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcIm1sLTRcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDVcIiwgeyBzdGF0aWNDbGFzczogXCJoNCBtYi0yXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlxcbiAgICAgICAgICAgICAgICAgIFZ1ZXhcXG4gICAgICAgICAgICAgICAgXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJ0ZXh0LW11dGVkXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgQSBzdGF0ZSBtYW5hZ2VtZW50IHBhdHRlcm4gKyBsaWJyYXJ5IGZvciBWdWUuanMgYXBwbGljYXRpb25zLiBJdCBzZXJ2ZXMgYXMgYSBjZW50cmFsaXplZCBzdG9yZSBmb3IgYWxsIHRoZSBjb21wb25lbnRzIGluIGFuIGFwcGxpY2F0aW9uLCB3aXRoIHJ1bGVzIGVuc3VyaW5nIHRoYXQgdGhlIHN0YXRlIGNhbiBvbmx5IGJlIG11dGF0ZWQgaW4gYSBwcmVkaWN0YWJsZSBmYXNoaW9uLlxcbiAgICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImQtZmxleCBwdXNoXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGl2XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiaXRlbSBpdGVtLXJvdW5kZWQgYmctYW1ldGh5c3QtbGlnaHRlciBmbGV4LXNocmluay0wXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS0yeCBmYS1maXJlIHRleHQtYW1ldGh5c3RcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCJtbC00XCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg1XCIsIHsgc3RhdGljQ2xhc3M6IFwiaDQgbWItMlwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgIEJvb3RzdHJhcFZ1ZVxcbiAgICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcInRleHQtbXV0ZWRcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgICBZb3UgY2FuIGJ1aWxkIHJlc3BvbnNpdmUsIG1vYmlsZS1maXJzdCwgYW5kIEFSSUEgYWNjZXNzaWJsZSBwcm9qZWN0cyBvbiB0aGUgd2ViIHVzaW5nIFZ1ZS5qcyBhbmQgdGhlIHdvcmxkJ3MgbW9zdCBwb3B1bGFyIGZyb250LWVuZCBDU1MgbGlicmFyeSDigJQgQm9vdHN0cmFwIDQuXFxuICAgICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAxXG4gICAgICAgICAgKVxuICAgICAgICBdXG4gICAgICApXG4gICAgXSksXG4gICAgX3ZtLl92KFwiIFwiKSxcbiAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImJnLXdoaXRlXCIgfSwgW1xuICAgICAgX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCJjb250ZW50IGNvbnRlbnQtZnVsbCBjb250ZW50LWJveGVkXCIgfSwgW1xuICAgICAgICBfYyhcbiAgICAgICAgICBcImRpdlwiLFxuICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwicHktNSB0ZXh0LWNlbnRlclwiIH0sXG4gICAgICAgICAgW1xuICAgICAgICAgICAgX2MoXCJoMlwiLCB7IHN0YXRpY0NsYXNzOiBcImgxIGZvbnQtdzcwMCBtYi0zIHRleHQtY2VudGVyXCIgfSwgW1xuICAgICAgICAgICAgICBfdm0uX3YoXCJcXG4gICAgICAgICAgU29waGlzdGljYXRlZCBGZWF0dXJlc1xcbiAgICAgICAgXCIpXG4gICAgICAgICAgICBdKSxcbiAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgIFwiZm9udC1zaXplLWxnIHRleHQtbXV0ZWQgbWItNiB0ZXh0LWNlbnRlciBteC1zbS02IG14LWxnLTEwXCJcbiAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgIENvbWVzIHBhY2tlZCB3aXRoIGdyZWF0IGZlYXR1cmVzIGFuZCBkZXZlbG9wbWVudCB0b29scywgYmFzZWQgb24gZG1zIFJlbWFzdGVyZWQgZGVzaWduXFxuICAgICAgICBcIlxuICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgKSxcbiAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgXCJiLXJvd1wiLFxuICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcInJvdy1kZWNrXCIgfSxcbiAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIG1kOiBcIjRcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgcm91bmRlZDogXCJcIiwgXCJmeC1wb3BcIjogXCJcIiwgXCJjb250ZW50LWZ1bGxcIjogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJpdGVtIGl0ZW0tcm91bmRlZCBiZy1hbWV0aHlzdC1saWdodGVyIG14LWF1dG8gbXktNFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmEgZmEtMnggZmEtZmlyZSB0ZXh0LWFtZXRoeXN0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJtYi0yXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJCb290c3RyYXAgNFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwicFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1zbSB0ZXh0LW11dGVkIHRleHQtbGVmdFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBUaGUgbGF0ZXN0IEJvb3RzdHJhcCB2ZXJzaW9uIHBvd2VycyB0aGUgZnJhbWV3b3JrLiBGbGV4Ym94IHN1cHBvcnQgYW5kIHRvbnMgb2YgbmV3IGZlYXR1cmVzIGFyZSByZWFkeSBmb3IgeW91IHRvIHVzZS5cXG4gICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiLCBtZDogXCI0XCIsIHhsOiBcIjNcIiB9IH0sXG4gICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHJvdW5kZWQ6IFwiXCIsIFwiZngtcG9wXCI6IFwiXCIsIFwiY29udGVudC1mdWxsXCI6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGl2XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiaXRlbSBpdGVtLXJvdW5kZWQgYmctZGFuZ2VyLWxpZ2h0IG14LWF1dG8gbXktNFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmFiIGZhLTJ4IGZhLXNhc3MgdGV4dC1kYW5nZXJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTJcIiB9LCBbX3ZtLl92KFwiU2Fzc1wiKV0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcInBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXNpemUtc20gdGV4dC1tdXRlZCB0ZXh0LWxlZnRcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgU2FzcyBpcyB1c2VkIHRvIG92ZXJyaWRlIGFuZCBleHRlbnQgQm9vdHN0cmFwIGluIGFuIGludGVsbGlnZW50IHdheSB0byBlbnN1cmUgYSBwZXJmZWN0IGFuZCBtb2R1bGFyIHdvcmtmbG93LlxcbiAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIG1kOiBcIjRcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgcm91bmRlZDogXCJcIiwgXCJmeC1wb3BcIjogXCJcIiwgXCJjb250ZW50LWZ1bGxcIjogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJpdGVtIGl0ZW0tcm91bmRlZCBiZy13YXJuaW5nLWxpZ2h0IG14LWF1dG8gbXktNFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwic3BhblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXc3MDAgdGV4dC13YXJuaW5nXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJFUzZcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJtYi0yXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJFQ01BU2NyaXB0IDZcIilcbiAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcInBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXNpemUtc20gdGV4dC1tdXRlZCB0ZXh0LWxlZnRcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgRVM2LCB0aGUgbmV3IG1ham9yIEphdmFTY3JpcHQgcmVsZWFzZSwgaXMgdXNlZCwgd2hpY2ggZW5hYmxlcyB1cyB3cml0aW5nIGNsZWFuZXIgYW5kIGJldHRlciBjb2RlLlxcbiAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIG1kOiBcIjRcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgcm91bmRlZDogXCJcIiwgXCJmeC1wb3BcIjogXCJcIiwgXCJjb250ZW50LWZ1bGxcIjogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJpdGVtIGl0ZW0tcm91bmRlZCBiZy1mbGF0LWxpZ2h0ZXIgbXgtYXV0byBteS00XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYWIgZmEtMnggZmEtZm9udC1hd2Vzb21lIHRleHQtZmxhdFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwibWItMlwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiRm9udEF3ZXNvbWUgNVwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwicFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1zbSB0ZXh0LW11dGVkIHRleHQtbGVmdFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBUaGUgbGF0ZXN0IEZvbnQgQXdlc29tZSB2ZXJzaW9uIGlzIGF2YWlsYWJsZSwgYnJpbmdpbmcgeW91IG92ZXIgMTMwMCBmcmVzaGx5IG1hZGUgaWNvbnMgdG8gYmUgdXNlZCBpbiB5b3VyIHByb2plY3RzLlxcbiAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIG1kOiBcIjRcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgcm91bmRlZDogXCJcIiwgXCJmeC1wb3BcIjogXCJcIiwgXCJjb250ZW50LWZ1bGxcIjogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJpdGVtIGl0ZW0tcm91bmRlZCBiZy1kZWZhdWx0LWxpZ2h0ZXIgbXgtYXV0byBteS00XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS0yeCBmYS1ib3hlcyB0ZXh0LWRlZmF1bHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTJcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIndlYnBhY2sgKyBCYWJlbFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwicFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1zbSB0ZXh0LW11dGVkIHRleHQtbGVmdFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBCYWJlbCBtYWtlcyB5b3VyIEpTIGNvZGUgY29tcGF0aWJsZSB3aXRoIG9sZGVyIGJyb3dzZXJzIGFuZCB3ZWJwYWNrIGJ1bmRsZXMgeW91ciBhc3NldCBmaWxlcyB0b2dldGhlci4gV29ya3Mgb3V0LW9mLXRoZS1ib3ggd2l0aCBWdWUgQ0xJLlxcbiAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIG1kOiBcIjRcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgcm91bmRlZDogXCJcIiwgXCJmeC1wb3BcIjogXCJcIiwgXCJjb250ZW50LWZ1bGxcIjogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJpdGVtIGl0ZW0tcm91bmRlZCBiZy1tb2Rlcm4tbGlnaHRlciBteC1hdXRvIG15LTRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImZhIGZhLTJ4IGZhLWNvbHVtbnMgdGV4dC1tb2Rlcm5cIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTJcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlVzZXIgSW50ZXJmYWNlXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLXNtIHRleHQtbXV0ZWQgdGV4dC1sZWZ0XCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIERldmVsb3AgYW5kIG1hbmFnZSB5b3VyIHByb2plY3RzIHRocm91Z2ggYW4gYWNjb21wYW55aW5nIGdyYXBoaWNhbCB1c2VyIGludGVyZmFjZS4gUGVyZmVjdCBmb3IgbWFuYWdpbmcgeW91ciB0YXNrcyAmIGRlcGVuZGVuY2llcy5cXG4gICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiLCBtZDogXCI0XCIsIHhsOiBcIjNcIiB9IH0sXG4gICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHJvdW5kZWQ6IFwiXCIsIFwiZngtcG9wXCI6IFwiXCIsIFwiY29udGVudC1mdWxsXCI6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGl2XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiaXRlbSBpdGVtLXJvdW5kZWQgYmctY2l0eS1saWdodGVyIG14LWF1dG8gbXktNFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmEgZmEtMnggZmEtc3luYy1hbHQgdGV4dC1jaXR5XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJtYi0yXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJIb3QgUmVsb2FkXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLXNtIHRleHQtbXV0ZWQgdGV4dC1sZWZ0XCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIFdoZW4geW91IGVkaXQgYSAudnVlIGZpbGUsIGFsbCBpbnN0YW5jZXMgb2YgdGhhdCBjb21wb25lbnQgd2lsbCBiZSBzd2FwcGVkIGluIHdpdGhvdXQgcmVsb2FkaW5nIHRoZSBwYWdlLiBJdCBhbHNvIHByZXNlcnZlcyBjdXJyZW50IHN0YXRlLlxcbiAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIG1kOiBcIjRcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgcm91bmRlZDogXCJcIiwgXCJmeC1wb3BcIjogXCJcIiwgXCJjb250ZW50LWZ1bGxcIjogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJpdGVtIGl0ZW0tcm91bmRlZCBiZy1zbW9vdGgtbGlnaHRlciBteC1hdXRvIG15LTRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImZhYiBmYS0yeCBmYS1hdXRvcHJlZml4ZXIgdGV4dC1zbW9vdGhcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTJcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIkF1dG9wcmVmaXhlclwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwicFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1zbSB0ZXh0LW11dGVkIHRleHQtbGVmdFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBQZWFjZSBvZiBtaW5kIHdoZW4gd29ya2luZyB3aXRoIFNhc3MuIFVzZSB0aGUgbGF0ZXN0IENTUyBzeW50YXggYW5kIEF1dG9wcmVmaXhlciB3aWxsIGF1dG8gYWRkIGFueSByZXF1aXJlZCBwcmVmaXhlcyBmb3Igb2xkZXIgYnJvd3NlcnMuXFxuICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHNtOiBcIjZcIiwgbWQ6IFwiNFwiLCB4bDogXCIzXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyByb3VuZGVkOiBcIlwiLCBcImZ4LXBvcFwiOiBcIlwiLCBcImNvbnRlbnQtZnVsbFwiOiBcIlwiIH1cbiAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcImRpdlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIml0ZW0gaXRlbS1yb3VuZGVkIGJnLWdyYXktbGlnaHQgbXgtYXV0byBteS00XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS0yeCBmYS10cnVjay1sb2FkaW5nIHRleHQtZGFya1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwibWItMlwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiQ29tcG9uZW50c1wiKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwicFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1zbSB0ZXh0LW11dGVkIHRleHQtbGVmdFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBDdXN0b20gdml0YWwgY29tcG9uZW50cyBhcmUgYXZhaWxhYmxlIHRvIGJlIHVzZWQgaW4geW91ciBWdWUuanMgdGVtcGxhdGVzLCBtYWtpbmcgaXQgZWFzaWVyIHRvIHN0cnVjdHVyZSB5b3VyIHBhZ2UgY29udGVudC5cXG4gICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiLCBtZDogXCI0XCIsIHhsOiBcIjNcIiB9IH0sXG4gICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHJvdW5kZWQ6IFwiXCIsIFwiZngtcG9wXCI6IFwiXCIsIFwiY29udGVudC1mdWxsXCI6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGl2XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiaXRlbSBpdGVtLXJvdW5kZWQgYmctaW5mby1saWdodCBteC1hdXRvIG15LTRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImZhIGZhLTJ4IGZhLWJydXNoIHRleHQtaW5mb1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwibWItMlwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiUmVtYXN0ZXJlZCBEZXNpZ25cIilcbiAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcInBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXNpemUtc20gdGV4dC1tdXRlZCB0ZXh0LWxlZnRcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgVXNpbmcgdGhlIGxhdGVzdCBzdHlsZXMgZnJvbSBkbXMgUmVtYXN0ZXJlZCB2ZXJzaW9uLCB5b3UgY2FuIGJlIHN1cmUgdGhhdCBhbGwgZGVzaWduIGVsZW1lbnRzIGFyZSBhdmFpbGFibGUgaW4gdGhlIFZ1ZSBFZGl0aW9uIGFzIHdlbGwuXFxuICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHNtOiBcIjZcIiwgbWQ6IFwiNFwiLCB4bDogXCIzXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyByb3VuZGVkOiBcIlwiLCBcImZ4LXBvcFwiOiBcIlwiLCBcImNvbnRlbnQtZnVsbFwiOiBcIlwiIH1cbiAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcImRpdlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIml0ZW0gaXRlbS1yb3VuZGVkIGJnLXN1Y2Nlc3MtbGlnaHQgbXgtYXV0byBteS00XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS0yeCBmYS1zbWlsZS13aW5rIHRleHQtc3VjY2Vzc1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwibWItMlwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiTGF5b3V0IEZlYXR1cmVzXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLXNtIHRleHQtbXV0ZWQgdGV4dC1sZWZ0XCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIERhcmsgaGVhZGVyLCBsaWdodCBzaWRlYmFyLCBmbGV4Ym94IGJhc2VkIGxheW91dCwgcGFnZSBvdmVybGF5LCBoZWFkZXIgc2VhcmNoIGFuZCBldmVuIG1vcmUgbGF5b3V0IGZlYXR1cmVzIGFyZSBhbGwgYXZhaWxhYmxlLlxcbiAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIG1kOiBcIjRcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgcm91bmRlZDogXCJcIiwgXCJmeC1wb3BcIjogXCJcIiwgXCJjb250ZW50LWZ1bGxcIjogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJpdGVtIGl0ZW0tcm91bmRlZCBiZy13YXJuaW5nLWxpZ2h0IG14LWF1dG8gbXktNFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmEgZmEtMnggZmEtd3JlbmNoIHRleHQtd2FybmluZ1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwibWItMlwiIH0sIFtfdm0uX3YoXCJBUElzXCIpXSksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwicFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1zbSB0ZXh0LW11dGVkIHRleHQtbGVmdFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBFYXNpbHkgbWFuaXB1bGF0ZSBibG9ja3MgYW5kIGxheW91dCBmZWF0dXJlcyBvbiB0aGUgZmx5IGZyb20gYW55IGNvbXBvbmVudCBpbiB5b3VyIGFwcGxpY2F0aW9uLiBFaXRoZXIgd2l0aCBidXR0b25zIG9yIEpTIGNvZGUuXFxuICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgIDFcbiAgICAgICAgICAgIClcbiAgICAgICAgICBdLFxuICAgICAgICAgIDFcbiAgICAgICAgKVxuICAgICAgXSlcbiAgICBdKSxcbiAgICBfdm0uX3YoXCIgXCIpLFxuICAgIF9jKFxuICAgICAgXCJkaXZcIixcbiAgICAgIHsgc3RhdGljQ2xhc3M6IFwiYmctcHJpbWFyeS1kYXJrZXIgYm9yZGVyLXRvcCBib3JkZXItYm90dG9tIGJvcmRlci01eFwiIH0sXG4gICAgICBbXG4gICAgICAgIF9jKFwiZGl2XCIsIHsgc3RhdGljQ2xhc3M6IFwiY29udGVudCBjb250ZW50LWZ1bGwgY29udGVudC1ib3hlZFwiIH0sIFtcbiAgICAgICAgICBfYyhcbiAgICAgICAgICAgIFwiZGl2XCIsXG4gICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcInB5LTUgdGV4dC1jZW50ZXJcIiB9LFxuICAgICAgICAgICAgW1xuICAgICAgICAgICAgICBfYyhcImgyXCIsIHsgc3RhdGljQ2xhc3M6IFwiaDEgZm9udC13NzAwIG1iLTMgdGV4dC13aGl0ZVwiIH0sIFtcbiAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICBUcnVzdGVkIGJ5IG92ZXIgMy45MDAgZGV2ZWxvcGVycyBhbmQgdGVhbXNcXG4gICAgICAgIFwiXG4gICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX3ZtLl9tKDIpLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJteC1sZy04XCIsIGF0dHJzOiB7IFwibm8tZ3V0dGVyc1wiOiBcIlwiIH0gfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcImItY29sXCIsIHsgc3RhdGljQ2xhc3M6IFwicC0zXCIsIGF0dHJzOiB7IHNtOiBcIjRcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGlzcGxheS00IGZvbnQtdzcwMCB0ZXh0LXByaW1hcnktbGlnaHQgbWItMFwiXG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiXFxuICAgICAgICAgICAgICAzLjkwMCtcXG4gICAgICAgICAgICBcIildXG4gICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgIFwicFwiLFxuICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLWxnIHRleHQtd2hpdGUtNzUgbWItMFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlxcbiAgICAgICAgICAgICAgUHVyY2hhc2VzXFxuICAgICAgICAgICAgXCIpXVxuICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICBfYyhcImItY29sXCIsIHsgc3RhdGljQ2xhc3M6IFwicC0zXCIsIGF0dHJzOiB7IHNtOiBcIjRcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGlzcGxheS00IGZvbnQtdzcwMCB0ZXh0LXByaW1hcnktbGlnaHQgbWItMFwiXG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiXFxuICAgICAgICAgICAgICAyNTArXFxuICAgICAgICAgICAgXCIpXVxuICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICBcInBcIixcbiAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1sZyB0ZXh0LXdoaXRlLTc1IG1iLTBcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJcXG4gICAgICAgICAgICAgIDUgU3RhciBSYXRpbmdzXFxuICAgICAgICAgICAgXCIpXVxuICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICBfYyhcImItY29sXCIsIHsgc3RhdGljQ2xhc3M6IFwicC0zXCIsIGF0dHJzOiB7IHNtOiBcIjRcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGlzcGxheS00IGZvbnQtdzcwMCB0ZXh0LXByaW1hcnktbGlnaHQgbWItMFwiXG4gICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiXFxuICAgICAgICAgICAgICAyMFxcbiAgICAgICAgICAgIFwiKV1cbiAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXNpemUtbGcgdGV4dC13aGl0ZS03NSBtYi0wXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiXFxuICAgICAgICAgICAgICBGcmVlIFVwZGF0ZXNcXG4gICAgICAgICAgICBcIildXG4gICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAxXG4gICAgICAgICAgKVxuICAgICAgICBdKVxuICAgICAgXVxuICAgICksXG4gICAgX3ZtLl92KFwiIFwiKSxcbiAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImJnLXdoaXRlXCIgfSwgW1xuICAgICAgX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCJjb250ZW50IGNvbnRlbnQtZnVsbCBjb250ZW50LWJveGVkXCIgfSwgW1xuICAgICAgICBfYyhcbiAgICAgICAgICBcImRpdlwiLFxuICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwicHktNSBweS1tZC04IHRleHQtY2VudGVyXCIgfSxcbiAgICAgICAgICBbXG4gICAgICAgICAgICBfdm0uX20oMyksXG4gICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgX3ZtLl9tKDQpLFxuICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICBkaXJlY3RpdmVzOiBbXG4gICAgICAgICAgICAgICAgICB7IG5hbWU6IFwiY2xpY2stcmlwcGxlXCIsIHJhd05hbWU6IFwidi1jbGljay1yaXBwbGVcIiB9XG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJweC00IHB5LTIgbXItMiBtdC0yXCIsXG4gICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6IFwiYWx0LXN1Y2Nlc3NcIixcbiAgICAgICAgICAgICAgICAgIGhyZWY6IFwiaHR0cHM6Ly8xLmVudmF0by5tYXJrZXQvNU5veWJcIlxuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7IHN0YXRpY0NsYXNzOiBcImZhIGZhLWZ3IGZhLXNob3BwaW5nLWNhcnQgbXItMVwiIH0pLFxuICAgICAgICAgICAgICAgIF92bS5fdihcIiBQdXJjaGFzZVxcbiAgICAgICAgXCIpXG4gICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICksXG4gICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIGRpcmVjdGl2ZXM6IFtcbiAgICAgICAgICAgICAgICAgIHsgbmFtZTogXCJjbGljay1yaXBwbGVcIiwgcmF3TmFtZTogXCJ2LWNsaWNrLXJpcHBsZVwiIH1cbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInB4LTQgcHktMiBtci0yIG10LTJcIixcbiAgICAgICAgICAgICAgICBhdHRyczogeyB2YXJpYW50OiBcImFsdC1wcmltYXJ5XCIsIHRvOiBcIi9iYWNrZW5kL2Rhc2hib2FyZFwiIH1cbiAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7IHN0YXRpY0NsYXNzOiBcImZhIGZhLWZ3IGZhLXJvY2tldCBtci0xXCIgfSksXG4gICAgICAgICAgICAgICAgX3ZtLl92KFwiIExpdmUgUHJldmlld1xcbiAgICAgICAgXCIpXG4gICAgICAgICAgICAgIF1cbiAgICAgICAgICAgIClcbiAgICAgICAgICBdLFxuICAgICAgICAgIDFcbiAgICAgICAgKVxuICAgICAgXSlcbiAgICBdKSxcbiAgICBfdm0uX3YoXCIgXCIpLFxuICAgIF9jKFwiZm9vdGVyXCIsIHsgc3RhdGljQ2xhc3M6IFwiYmctYm9keS1saWdodFwiIH0sIFtcbiAgICAgIF9jKFxuICAgICAgICBcImRpdlwiLFxuICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImNvbnRlbnQgY29udGVudC1ib3hlZCBweS01XCIgfSxcbiAgICAgICAgW1xuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJiLXJvd1wiLFxuICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXNpemUtc21cIiB9LFxuICAgICAgICAgICAgW1xuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwicHktMSB0ZXh0LWNlbnRlciB0ZXh0LXNtLXJpZ2h0XCIsXG4gICAgICAgICAgICAgICAgICBhdHRyczogeyBzbTogXCI2XCIsIFwib3JkZXItc21cIjogXCIyXCIgfVxuICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiXFxuICAgICAgICAgIENyYWZ0ZWQgd2l0aCBcIiksXG4gICAgICAgICAgICAgICAgICBfYyhcImlcIiwgeyBzdGF0aWNDbGFzczogXCJmYSBmYS1oZWFydCB0ZXh0LWRhbmdlclwiIH0pLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIGJ5IFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImFcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImZvbnQtdzYwMFwiLFxuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IGhyZWY6IFwiaHR0cHM6Ly8xLmVudmF0by5tYXJrZXQvNU5veWJcIiB9XG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJwaXhlbGNhdmVcIildXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwicHktMSB0ZXh0LWNlbnRlciB0ZXh0LXNtLWxlZnRcIixcbiAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHNtOiBcIjZcIiwgXCJvcmRlci1zbVwiOiBcIjFcIiB9XG4gICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJhXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmb250LXc2MDBcIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBocmVmOiBcImh0dHBzOi8vMS5lbnZhdG8ubWFya2V0LzVOb3liXCIgfVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9zKFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uJHN0b3JlLmdldHRlcnMuYXBwTmFtZSArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCIgXCIgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS4kc3RvcmUuZ2V0dGVycy5hcHBWZXJzaW9uXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICBcIiDCqSBcIiArXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl9zKF92bS4kc3RvcmUuZ2V0dGVycy5hcHBDb3B5cmlnaHQpICtcbiAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAxXG4gICAgICAgICAgKVxuICAgICAgICBdLFxuICAgICAgICAxXG4gICAgICApXG4gICAgXSlcbiAgXSlcbn1cbnZhciBzdGF0aWNSZW5kZXJGbnMgPSBbXG4gIGZ1bmN0aW9uKCkge1xuICAgIHZhciBfdm0gPSB0aGlzXG4gICAgdmFyIF9oID0gX3ZtLiRjcmVhdGVFbGVtZW50XG4gICAgdmFyIF9jID0gX3ZtLl9zZWxmLl9jIHx8IF9oXG4gICAgcmV0dXJuIF9jKFwiZGl2XCIsIHsgc3RhdGljQ2xhc3M6IFwicHQtNSBwYi0zIHRleHQtY2VudGVyXCIgfSwgW1xuICAgICAgX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwiZmEgZmEtMnggZmEtY2lyY2xlLW5vdGNoIHRleHQtcHJpbWFyeVwiIH0pXG4gICAgXSlcbiAgfSxcbiAgZnVuY3Rpb24oKSB7XG4gICAgdmFyIF92bSA9IHRoaXNcbiAgICB2YXIgX2ggPSBfdm0uJGNyZWF0ZUVsZW1lbnRcbiAgICB2YXIgX2MgPSBfdm0uX3NlbGYuX2MgfHwgX2hcbiAgICByZXR1cm4gX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCJoZXJvLW1ldGFcIiB9LCBbXG4gICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImFuaW1hdGVkIHNsaWRlSW5Eb3duIGluZmluaXRlXCIgfSwgW1xuICAgICAgICBfYyhcImlcIiwgeyBzdGF0aWNDbGFzczogXCJmYSBmYS1jaGV2cm9uLWRvd24gdGV4dC1ibGFjay01MFwiIH0pXG4gICAgICBdKVxuICAgIF0pXG4gIH0sXG4gIGZ1bmN0aW9uKCkge1xuICAgIHZhciBfdm0gPSB0aGlzXG4gICAgdmFyIF9oID0gX3ZtLiRjcmVhdGVFbGVtZW50XG4gICAgdmFyIF9jID0gX3ZtLl9zZWxmLl9jIHx8IF9oXG4gICAgcmV0dXJuIF9jKFxuICAgICAgXCJwXCIsXG4gICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1sZyB0ZXh0LXdoaXRlLTc1IG1iLTYgbXgtc20tNiBteC1sZy05XCIgfSxcbiAgICAgIFtcbiAgICAgICAgX2MoXG4gICAgICAgICAgXCJhXCIsXG4gICAgICAgICAge1xuICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwidGV4dC1wcmltYXJ5LWxpZ2h0XCIsXG4gICAgICAgICAgICBhdHRyczogeyBocmVmOiBcImh0dHBzOi8vMS5lbnZhdG8ubWFya2V0L0FWRDZqXCIgfVxuICAgICAgICAgIH0sXG4gICAgICAgICAgW192bS5fdihcImRtc1wiKV1cbiAgICAgICAgKSxcbiAgICAgICAgX3ZtLl92KFxuICAgICAgICAgIFwiIGlzIG9uZSBvZiB0aGUgQmVzdCBTZWxsZXIgYW5kIEJlc3QgUmF0ZWQgYWRtaW4gdGVtcGxhdGVzIG9uIFRoZW1lZm9yZXN0LiBJdHMgc3VjY2VzcyBtYWRlIHBvc3NpYmxlIHRoZSBkZXZlbG9wbWVudCBvZiBWdWUgRWRpdGlvbi5cXG4gICAgICAgIFwiXG4gICAgICAgIClcbiAgICAgIF1cbiAgICApXG4gIH0sXG4gIGZ1bmN0aW9uKCkge1xuICAgIHZhciBfdm0gPSB0aGlzXG4gICAgdmFyIF9oID0gX3ZtLiRjcmVhdGVFbGVtZW50XG4gICAgdmFyIF9jID0gX3ZtLl9zZWxmLl9jIHx8IF9oXG4gICAgcmV0dXJuIF9jKFwiaDJcIiwgeyBzdGF0aWNDbGFzczogXCJoMSBmb250LXc3MDAgbWItM1wiIH0sIFtcbiAgICAgIF92bS5fdihcIlxcbiAgICAgICAgICBDcmFmdGVkIHdpdGggXCIpLFxuICAgICAgX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwiZmEgZmEtZncgZmEtaGVhcnQgdGV4dC1jaXR5XCIgfSksXG4gICAgICBfdm0uX3YoXCIgYnkgXCIpLFxuICAgICAgX2MoXG4gICAgICAgIFwiYVwiLFxuICAgICAgICB7XG4gICAgICAgICAgc3RhdGljQ2xhc3M6IFwibGluay1meFwiLFxuICAgICAgICAgIGF0dHJzOiB7IGhyZWY6IFwiaHR0cHM6Ly8xLmVudmF0by5tYXJrZXQvNU5veWJcIiB9XG4gICAgICAgIH0sXG4gICAgICAgIFtfdm0uX3YoXCJwaXhlbGNhdmVcIildXG4gICAgICApXG4gICAgXSlcbiAgfSxcbiAgZnVuY3Rpb24oKSB7XG4gICAgdmFyIF92bSA9IHRoaXNcbiAgICB2YXIgX2ggPSBfdm0uJGNyZWF0ZUVsZW1lbnRcbiAgICB2YXIgX2MgPSBfdm0uX3NlbGYuX2MgfHwgX2hcbiAgICByZXR1cm4gX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLWxnIG1iLTYgbXgtc20tNiBteC1sZy05XCIgfSwgW1xuICAgICAgX3ZtLl92KFwiXFxuICAgICAgICAgIEVsaXRlIGF1dGhvciBvbiBUaGVtZWZvcmVzdC5cIiksXG4gICAgICBfYyhcImJyXCIpLFxuICAgICAgX3ZtLl92KFxuICAgICAgICBcIlBhc3Npb25hdGUgd2ViIGRlc2lnbiBhbmQgZGV2ZWxvcG1lbnQgd2l0aCBvdmVyIDEzLjAwMCBjdXN0b21lcnMgd29ybGR3aWRlLlxcbiAgICAgICAgXCJcbiAgICAgIClcbiAgICBdKVxuICB9XG5dXG5yZW5kZXIuX3dpdGhTdHJpcHBlZCA9IHRydWVcblxuZXhwb3J0IHsgcmVuZGVyLCBzdGF0aWNSZW5kZXJGbnMgfSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "hero bg-white overflow-hidden" }, [
+      _c(
+        "div",
+        { staticClass: "hero-inner align-self-stretch d-flex flex-column" },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "content content-full flex-fill d-flex align-items-center px-0 px-md-4 px-lg-6 px-xl-8 overflow-hidden"
+            },
+            [
+              _c(
+                "b-row",
+                { staticClass: "w-100" },
+                [
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "text-center text-lg-left d-flex align-items-center bg-landing-left",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { staticClass: "w-100" },
+                        [
+                          _c(
+                            "h1",
+                            { staticClass: "display-4 font-w700 mb-3" },
+                            [
+                              _vm._v("\n                dms "),
+                              _c("span", { staticClass: "font-w300" }, [
+                                _vm._v("Vue Edition")
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "p",
+                            { staticClass: "font-size-lg text-muted mb-3" },
+                            [
+                              _vm._v(
+                                "\n                Build all your projects with one super flexible UI framework."
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "Now rebuilt from scratch with Vue.js. Based on"
+                              ),
+                              _c("br"),
+                              _c(
+                                "a",
+                                {
+                                  attrs: {
+                                    href: "https://1.envato.market/AVD6j"
+                                  }
+                                },
+                                [_vm._v("dms Remastered")]
+                              ),
+                              _vm._v(" design!\n              ")
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-button",
+                            {
+                              directives: [
+                                {
+                                  name: "click-ripple",
+                                  rawName: "v-click-ripple"
+                                }
+                              ],
+                              staticClass: "px-4 py-2 mr-2 mt-2",
+                              attrs: {
+                                variant: "alt-success",
+                                href: "https://1.envato.market/5Noyb"
+                              }
+                            },
+                            [
+                              _c("i", {
+                                staticClass: "fa fa-fw fa-shopping-cart mr-1"
+                              }),
+                              _vm._v(" Purchase\n              ")
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-button",
+                            {
+                              directives: [
+                                {
+                                  name: "click-ripple",
+                                  rawName: "v-click-ripple"
+                                }
+                              ],
+                              staticClass: "px-4 py-2 mr-2 mt-2",
+                              attrs: {
+                                variant: "alt-primary",
+                                to: "/backend/dashboard"
+                              }
+                            },
+                            [
+                              _c("i", {
+                                staticClass: "fa fa-fw fa-rocket mr-1"
+                              }),
+                              _vm._v(" Live Preview\n              ")
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass: "d-none d-lg-block py-6",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "w-100 d-flex align-items-center position-relative bg-landing-right"
+                        },
+                        [
+                          _c(
+                            "b-row",
+                            { attrs: { "no-gutters": "" } },
+                            [
+                              _c("b-col", { attrs: { lg: "7" } }, [
+                                _c("div", [
+                                  _c("img", {
+                                    staticClass: "promo-image",
+                                    attrs: {
+                                      src: "images/various/promo-dashboard.png",
+                                      alt: "dms Vue Promo Dashboard Image"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "ml-4 mt-4" }, [
+                                  _c("img", {
+                                    staticClass: "promo-image",
+                                    attrs: {
+                                      src: "images/various/promo-search.png",
+                                      alt: "dms Vue Promo Search Image"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("b-col", { attrs: { lg: "5" } }, [
+                                _c("div", { staticClass: "ml-4 mt-5" }, [
+                                  _c("img", {
+                                    staticClass: "promo-image",
+                                    attrs: {
+                                      src: "images/various/promo-side.png",
+                                      alt: "dms Vue Promo Side Image"
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: " ml-5 mt-4" }, [
+                                  _c("img", {
+                                    staticClass: "promo-image",
+                                    attrs: {
+                                      src: "images/various/promo-code-vue.png",
+                                      alt: "dms Vue Promo Code Image"
+                                    }
+                                  })
+                                ])
+                              ])
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _vm._m(1)
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "bg-body-light" }, [
+      _c(
+        "div",
+        { staticClass: "content content-full content-boxed overflow-hidden" },
+        [
+          _c(
+            "div",
+            { staticClass: "py-5" },
+            [
+              _c("h2", { staticClass: "h1 font-w700 mb-3 text-center" }, [
+                _vm._v("\n          Vue Edition\n        ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "p",
+                {
+                  staticClass:
+                    "font-size-lg text-muted mb-6 text-center mx-sm-6 mx-lg-10"
+                },
+                [
+                  _vm._v(
+                    "\n          dms Vue Edition was carefully crafted for all your projects using the latest and greatest technology.\n        "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    {
+                      staticClass: "d-flex align-items-center",
+                      attrs: { "order-md": "1", md: "6", "offset-lg": "1" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "w-100 mb-5 mb-md-0 px-lg-6 position-relative bg-landing-right"
+                        },
+                        [
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "6", md: "12" } },
+                                [
+                                  _c(
+                                    "base-block",
+                                    {
+                                      attrs: {
+                                        rounded: "",
+                                        "fx-shadow": "",
+                                        "content-full": ""
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "py-4 py-md-6 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "svg",
+                                            {
+                                              attrs: {
+                                                version: "1.1",
+                                                width: "8em",
+                                                height: "8em",
+                                                viewBox: "0 0 261.76 226.69",
+                                                xmlns:
+                                                  "http://www.w3.org/2000/svg"
+                                              }
+                                            },
+                                            [
+                                              _c(
+                                                "g",
+                                                {
+                                                  attrs: {
+                                                    transform:
+                                                      "matrix(1.3333 0 0 -1.3333 -76.311 313.34)"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "g",
+                                                    {
+                                                      attrs: {
+                                                        transform:
+                                                          "translate(178.06 235.01)"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          d:
+                                                            "m0 0-22.669-39.264-22.669 39.264h-75.491l98.16-170.02 98.16 170.02z",
+                                                          fill: "#41b883"
+                                                        }
+                                                      })
+                                                    ]
+                                                  ),
+                                                  _c(
+                                                    "g",
+                                                    {
+                                                      attrs: {
+                                                        transform:
+                                                          "translate(178.06 235.01)"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("path", {
+                                                        attrs: {
+                                                          d:
+                                                            "m0 0-22.669-39.264-22.669 39.264h-36.227l58.896-102.01 58.896 102.01z",
+                                                          fill: "#34495e"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "6", md: "12" } },
+                                [
+                                  _c(
+                                    "base-block",
+                                    {
+                                      attrs: {
+                                        rounded: "",
+                                        "fx-shadow": "",
+                                        "content-full": ""
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "py-4 py-md-6 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "svg",
+                                            {
+                                              attrs: {
+                                                xmlns:
+                                                  "http://www.w3.org/2000/svg",
+                                                width: "8em",
+                                                height: "8em",
+                                                viewBox: "0 0 2041 2160",
+                                                "clip-rule": "evenodd",
+                                                "fill-rule": "evenodd"
+                                              }
+                                            },
+                                            [
+                                              _c(
+                                                "title",
+                                                {
+                                                  attrs: {
+                                                    "data-v-555a030c": ""
+                                                  }
+                                                },
+                                                [_vm._v("BootstrapVue logo")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("path", {
+                                                attrs: {
+                                                  "data-v-555a030c": "",
+                                                  d:
+                                                    "m1397 271-370 642-371-642h-592l963 1667 962-1667z",
+                                                  fill: "#34495e"
+                                                }
+                                              }),
+                                              _vm._v(" "),
+                                              _c("path", {
+                                                attrs: {
+                                                  "data-v-555a030c": "",
+                                                  d: "m44 0h1952l-979 1696z",
+                                                  fill: "#563d7c",
+                                                  "fill-rule": "nonzero"
+                                                }
+                                              }),
+                                              _vm._v(" "),
+                                              _c("path", {
+                                                attrs: {
+                                                  "data-v-555a030c": "",
+                                                  d:
+                                                    "m1633 392-612 1061-613-1061h-408l1021 1768 1020-1768z",
+                                                  fill: "#41b883"
+                                                }
+                                              }),
+                                              _vm._v(" "),
+                                              _c("path", {
+                                                attrs: {
+                                                  "data-v-555a030c": "",
+                                                  d:
+                                                    "m767 196h339c62 0 112 14 150 43 38 28 56 71 56 129 0 36-8 66-25 91s-42 44-74 58v2c43 9 75 29 98 61 22 31 33 71 33 118 0 28-5 53-15 77s-25 44-46 61c-21 18-47 31-80 41-32 11-71 16-116 16h-320zm122 292h199c29 0 54-9 73-25 20-17 29-41 29-72 0-35-8-60-26-75-17-14-43-21-76-21h-199zm0 305h216c37 0 66-10 86-29s31-46 31-81-10-61-31-80-49-28-86-28h-216z",
+                                                  fill: "#fff"
+                                                }
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { "order-md": "0", md: "6", lg: "5" } },
+                    [
+                      _c("h4", { staticClass: "h2 font-w700 mb-3" }, [
+                        _vm._v(
+                          "\n              Amazing tools under the hood\n            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-size-lg text-muted mb-5" }, [
+                        _vm._v(
+                          "\n              We used the best toolkits, built by passionate people, to recreate dms from scratch and craft a pure Vue.js based version.\n            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "d-flex push" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-success-light flex-shrink-0"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-tools text-success"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "ml-4" }, [
+                          _c("h5", { staticClass: "h4 mb-2" }, [
+                            _vm._v(
+                              "\n                  Vue CLI\n                "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("p", { staticClass: "text-muted" }, [
+                            _vm._v(
+                              "\n                  Standard tooling for Vue.js development. Out-of-the-box support for Babel, TypeScript, ESLint, PostCSS, PWA, Unit Testing & End-to-end Testing.\n                "
+                            )
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "d-flex push" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-danger-light flex-shrink-0"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-table text-danger"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "ml-4" }, [
+                          _c("h5", { staticClass: "h4 mb-2" }, [
+                            _vm._v("\n                  Vuex\n                ")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", { staticClass: "text-muted" }, [
+                            _vm._v(
+                              "\n                  A state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion.\n                "
+                            )
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "d-flex push" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-amethyst-lighter flex-shrink-0"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-fire text-amethyst"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "ml-4" }, [
+                          _c("h5", { staticClass: "h4 mb-2" }, [
+                            _vm._v(
+                              "\n                  BootstrapVue\n                "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("p", { staticClass: "text-muted" }, [
+                            _vm._v(
+                              "\n                  You can build responsive, mobile-first, and ARIA accessible projects on the web using Vue.js and the world's most popular front-end CSS library — Bootstrap 4.\n                "
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ]
+      )
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "bg-white" }, [
+      _c("div", { staticClass: "content content-full content-boxed" }, [
+        _c(
+          "div",
+          { staticClass: "py-5 text-center" },
+          [
+            _c("h2", { staticClass: "h1 font-w700 mb-3 text-center" }, [
+              _vm._v("\n          Sophisticated Features\n        ")
+            ]),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass:
+                  "font-size-lg text-muted mb-6 text-center mx-sm-6 mx-lg-10"
+              },
+              [
+                _vm._v(
+                  "\n          Comes packed with great features and development tools, based on dms Remastered design\n        "
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "b-row",
+              { staticClass: "row-deck" },
+              [
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-amethyst-lighter mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-fire text-amethyst"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("Bootstrap 4")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                The latest Bootstrap version powers the framework. Flexbox support and tons of new features are ready for you to use.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-danger-light mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fab fa-2x fa-sass text-danger"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [_vm._v("Sass")]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                Sass is used to override and extent Bootstrap in an intelligent way to ensure a perfect and modular workflow.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-warning-light mx-auto my-4"
+                          },
+                          [
+                            _c(
+                              "span",
+                              { staticClass: "font-w700 text-warning" },
+                              [_vm._v("ES6")]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("ECMAScript 6")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                ES6, the new major JavaScript release, is used, which enables us writing cleaner and better code.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-flat-lighter mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fab fa-2x fa-font-awesome text-flat"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("FontAwesome 5")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                The latest Font Awesome version is available, bringing you over 1300 freshly made icons to be used in your projects.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-default-lighter mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-boxes text-default"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("webpack + Babel")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                Babel makes your JS code compatible with older browsers and webpack bundles your asset files together. Works out-of-the-box with Vue CLI.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-modern-lighter mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-columns text-modern"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("User Interface")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                Develop and manage your projects through an accompanying graphical user interface. Perfect for managing your tasks & dependencies.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-city-lighter mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-sync-alt text-city"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("Hot Reload")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                When you edit a .vue file, all instances of that component will be swapped in without reloading the page. It also preserves current state.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-smooth-lighter mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass:
+                                "fab fa-2x fa-autoprefixer text-smooth"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("Autoprefixer")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                Peace of mind when working with Sass. Use the latest CSS syntax and Autoprefixer will auto add any required prefixes for older browsers.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-gray-light mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-truck-loading text-dark"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("Components")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                Custom vital components are available to be used in your Vue.js templates, making it easier to structure your page content.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-info-light mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-brush text-info"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("Remastered Design")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                Using the latest styles from dms Remastered version, you can be sure that all design elements are available in the Vue Edition as well.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-success-light mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-smile-wink text-success"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [
+                          _vm._v("Layout Features")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                Dark header, light sidebar, flexbox based layout, page overlay, header search and even more layout features are all available.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  [
+                    _c(
+                      "base-block",
+                      {
+                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "item item-rounded bg-warning-light mx-auto my-4"
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-2x fa-wrench text-warning"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-2" }, [_vm._v("APIs")]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          { staticClass: "font-size-sm text-muted text-left" },
+                          [
+                            _vm._v(
+                              "\n                Easily manipulate blocks and layout features on the fly from any component in your application. Either with buttons or JS code.\n              "
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "bg-primary-darker border-top border-bottom border-5x" },
+      [
+        _c("div", { staticClass: "content content-full content-boxed" }, [
+          _c(
+            "div",
+            { staticClass: "py-5 text-center" },
+            [
+              _c("h2", { staticClass: "h1 font-w700 mb-3 text-white" }, [
+                _vm._v(
+                  "\n          Trusted by over 3.900 developers and teams\n        "
+                )
+              ]),
+              _vm._v(" "),
+              _vm._m(2),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "mx-lg-8", attrs: { "no-gutters": "" } },
+                [
+                  _c("b-col", { staticClass: "p-3", attrs: { sm: "4" } }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "display-4 font-w700 text-primary-light mb-0"
+                      },
+                      [_vm._v("\n              3.900+\n            ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      { staticClass: "font-size-lg text-white-75 mb-0" },
+                      [_vm._v("\n              Purchases\n            ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { staticClass: "p-3", attrs: { sm: "4" } }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "display-4 font-w700 text-primary-light mb-0"
+                      },
+                      [_vm._v("\n              250+\n            ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      { staticClass: "font-size-lg text-white-75 mb-0" },
+                      [_vm._v("\n              5 Star Ratings\n            ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { staticClass: "p-3", attrs: { sm: "4" } }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "display-4 font-w700 text-primary-light mb-0"
+                      },
+                      [_vm._v("\n              20\n            ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      { staticClass: "font-size-lg text-white-75 mb-0" },
+                      [_vm._v("\n              Free Updates\n            ")]
+                    )
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "bg-white" }, [
+      _c("div", { staticClass: "content content-full content-boxed" }, [
+        _c(
+          "div",
+          { staticClass: "py-5 py-md-8 text-center" },
+          [
+            _vm._m(3),
+            _vm._v(" "),
+            _vm._m(4),
+            _vm._v(" "),
+            _c(
+              "b-button",
+              {
+                directives: [
+                  { name: "click-ripple", rawName: "v-click-ripple" }
+                ],
+                staticClass: "px-4 py-2 mr-2 mt-2",
+                attrs: {
+                  variant: "alt-success",
+                  href: "https://1.envato.market/5Noyb"
+                }
+              },
+              [
+                _c("i", { staticClass: "fa fa-fw fa-shopping-cart mr-1" }),
+                _vm._v(" Purchase\n        ")
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "b-button",
+              {
+                directives: [
+                  { name: "click-ripple", rawName: "v-click-ripple" }
+                ],
+                staticClass: "px-4 py-2 mr-2 mt-2",
+                attrs: { variant: "alt-primary", to: "/backend/dashboard" }
+              },
+              [
+                _c("i", { staticClass: "fa fa-fw fa-rocket mr-1" }),
+                _vm._v(" Live Preview\n        ")
+              ]
+            )
+          ],
+          1
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("footer", { staticClass: "bg-body-light" }, [
+      _c(
+        "div",
+        { staticClass: "content content-boxed py-5" },
+        [
+          _c(
+            "b-row",
+            { staticClass: "font-size-sm" },
+            [
+              _c(
+                "b-col",
+                {
+                  staticClass: "py-1 text-center text-sm-right",
+                  attrs: { sm: "6", "order-sm": "2" }
+                },
+                [
+                  _vm._v("\n          Crafted with "),
+                  _c("i", { staticClass: "fa fa-heart text-danger" }),
+                  _vm._v(" by "),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "font-w600",
+                      attrs: { href: "https://1.envato.market/5Noyb" }
+                    },
+                    [_vm._v("pixelcave")]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                {
+                  staticClass: "py-1 text-center text-sm-left",
+                  attrs: { sm: "6", "order-sm": "1" }
+                },
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "font-w600",
+                      attrs: { href: "https://1.envato.market/5Noyb" }
+                    },
+                    [
+                      _vm._v(
+                        _vm._s(
+                          _vm.$store.getters.appName +
+                            " " +
+                            _vm.$store.getters.appVersion
+                        )
+                      )
+                    ]
+                  ),
+                  _vm._v(
+                    " © " +
+                      _vm._s(_vm.$store.getters.appCopyright) +
+                      "\n        "
+                  )
+                ]
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5 pb-3 text-center" }, [
+      _c("i", { staticClass: "fa fa-2x fa-circle-notch text-primary" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "hero-meta" }, [
+      _c("div", { staticClass: "animated slideInDown infinite" }, [
+        _c("i", { staticClass: "fa fa-chevron-down text-black-50" })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "p",
+      { staticClass: "font-size-lg text-white-75 mb-6 mx-sm-6 mx-lg-9" },
+      [
+        _c(
+          "a",
+          {
+            staticClass: "text-primary-light",
+            attrs: { href: "https://1.envato.market/AVD6j" }
+          },
+          [_vm._v("dms")]
+        ),
+        _vm._v(
+          " is one of the Best Seller and Best Rated admin templates on Themeforest. Its success made possible the development of Vue Edition.\n        "
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "h1 font-w700 mb-3" }, [
+      _vm._v("\n          Crafted with "),
+      _c("i", { staticClass: "fa fa-fw fa-heart text-city" }),
+      _vm._v(" by "),
+      _c(
+        "a",
+        {
+          staticClass: "link-fx",
+          attrs: { href: "https://1.envato.market/5Noyb" }
+        },
+        [_vm._v("pixelcave")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "font-size-lg mb-6 mx-sm-6 mx-lg-9" }, [
+      _vm._v("\n          Elite author on Themeforest."),
+      _c("br"),
+      _vm._v(
+        "Passionate web design and development with over 13.000 customers worldwide.\n        "
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -42,7 +1432,32 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Landing.vue?vue&type=template&id=fd350346&scoped=true& */ \"./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&\");\n/* harmony import */ var _Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true& */ \"./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&\");\n/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\nvar script = {}\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  script,\n  _Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  \"fd350346\",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/js/src/views/Landing.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL0xhbmRpbmcudnVlPzk5MTUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBa0c7QUFDbEc7QUFDNEY7OztBQUc1RjtBQUNnRztBQUNoRyxnQkFBZ0IsMkdBQVU7QUFDMUI7QUFDQSxFQUFFLDhGQUFNO0FBQ1IsRUFBRSx1R0FBZTtBQUNqQjtBQUNBO0FBQ0E7QUFDQTs7QUFFQTs7QUFFQTtBQUNBLElBQUksS0FBVSxFQUFFLFlBaUJmO0FBQ0Q7QUFDZSxnRiIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9zcmMvdmlld3MvTGFuZGluZy52dWUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZW5kZXIsIHN0YXRpY1JlbmRlckZucyB9IGZyb20gXCIuL0xhbmRpbmcudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPWZkMzUwMzQ2JnNjb3BlZD10cnVlJlwiXG52YXIgc2NyaXB0ID0ge31cbmltcG9ydCBzdHlsZTAgZnJvbSBcIi4vTGFuZGluZy52dWU/dnVlJnR5cGU9c3R5bGUmaW5kZXg9MCZpZD1mZDM1MDM0NiZsYW5nPXNjc3Mmc2NvcGVkPXRydWUmXCJcblxuXG4vKiBub3JtYWxpemUgY29tcG9uZW50ICovXG5pbXBvcnQgbm9ybWFsaXplciBmcm9tIFwiIS4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9ydW50aW1lL2NvbXBvbmVudE5vcm1hbGl6ZXIuanNcIlxudmFyIGNvbXBvbmVudCA9IG5vcm1hbGl6ZXIoXG4gIHNjcmlwdCxcbiAgcmVuZGVyLFxuICBzdGF0aWNSZW5kZXJGbnMsXG4gIGZhbHNlLFxuICBudWxsLFxuICBcImZkMzUwMzQ2XCIsXG4gIG51bGxcbiAgXG4pXG5cbi8qIGhvdCByZWxvYWQgKi9cbmlmIChtb2R1bGUuaG90KSB7XG4gIHZhciBhcGkgPSByZXF1aXJlKFwiQzpcXFxcVXNlcnNcXFxcbWFsb2hcXFxcRGVza3RvcFxcXFxEbXNWMlxcXFxub2RlX21vZHVsZXNcXFxcdnVlLWhvdC1yZWxvYWQtYXBpXFxcXGRpc3RcXFxcaW5kZXguanNcIilcbiAgYXBpLmluc3RhbGwocmVxdWlyZSgndnVlJykpXG4gIGlmIChhcGkuY29tcGF0aWJsZSkge1xuICAgIG1vZHVsZS5ob3QuYWNjZXB0KClcbiAgICBpZiAoIWFwaS5pc1JlY29yZGVkKCdmZDM1MDM0NicpKSB7XG4gICAgICBhcGkuY3JlYXRlUmVjb3JkKCdmZDM1MDM0NicsIGNvbXBvbmVudC5vcHRpb25zKVxuICAgIH0gZWxzZSB7XG4gICAgICBhcGkucmVsb2FkKCdmZDM1MDM0NicsIGNvbXBvbmVudC5vcHRpb25zKVxuICAgIH1cbiAgICBtb2R1bGUuaG90LmFjY2VwdChcIi4vTGFuZGluZy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9ZmQzNTAzNDYmc2NvcGVkPXRydWUmXCIsIGZ1bmN0aW9uICgpIHtcbiAgICAgIGFwaS5yZXJlbmRlcignZmQzNTAzNDYnLCB7XG4gICAgICAgIHJlbmRlcjogcmVuZGVyLFxuICAgICAgICBzdGF0aWNSZW5kZXJGbnM6IHN0YXRpY1JlbmRlckZuc1xuICAgICAgfSlcbiAgICB9KVxuICB9XG59XG5jb21wb25lbnQub3B0aW9ucy5fX2ZpbGUgPSBcInJlc291cmNlcy9qcy9zcmMvdmlld3MvTGFuZGluZy52dWVcIlxuZXhwb3J0IGRlZmF1bHQgY29tcG9uZW50LmV4cG9ydHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/src/views/Landing.vue\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Landing.vue?vue&type=template&id=fd350346&scoped=true& */ "./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&");
+/* harmony import */ var _Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true& */ "./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  script,
+  _Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "fd350346",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/Landing.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -54,7 +1469,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Lan
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true& */ \"./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&\");\n/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); //# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL0xhbmRpbmcudnVlP2ZiN2YiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBMGIsQ0FBZ0IsNmJBQUcsRUFBQyIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9zcmMvdmlld3MvTGFuZGluZy52dWU/dnVlJnR5cGU9c3R5bGUmaW5kZXg9MCZpZD1mZDM1MDM0NiZsYW5nPXNjc3Mmc2NvcGVkPXRydWUmLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IG1vZCBmcm9tIFwiLSEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvc3R5bGUtbG9hZGVyL2luZGV4LmpzIS4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy9jc3MtbG9hZGVyL2luZGV4LmpzIS4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9sb2FkZXJzL3N0eWxlUG9zdExvYWRlci5qcyEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvcG9zdGNzcy1sb2FkZXIvc3JjL2luZGV4LmpzPz9yZWYtLTctMiEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvc2Fzcy1sb2FkZXIvZGlzdC9janMuanM/P3JlZi0tNy0zIS4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4vTGFuZGluZy52dWU/dnVlJnR5cGU9c3R5bGUmaW5kZXg9MCZpZD1mZDM1MDM0NiZsYW5nPXNjc3Mmc2NvcGVkPXRydWUmXCI7IGV4cG9ydCBkZWZhdWx0IG1vZDsgZXhwb3J0ICogZnJvbSBcIi0hLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3N0eWxlLWxvYWRlci9pbmRleC5qcyEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvY3NzLWxvYWRlci9pbmRleC5qcyEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy9zdHlsZVBvc3RMb2FkZXIuanMhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Bvc3Rjc3MtbG9hZGVyL3NyYy9pbmRleC5qcz8/cmVmLS03LTIhLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Nhc3MtbG9hZGVyL2Rpc3QvY2pzLmpzPz9yZWYtLTctMyEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuL0xhbmRpbmcudnVlP3Z1ZSZ0eXBlPXN0eWxlJmluZGV4PTAmaWQ9ZmQzNTAzNDYmbGFuZz1zY3NzJnNjb3BlZD10cnVlJlwiIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_style_index_0_id_fd350346_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -66,7 +1485,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Landing.vue?vue&type=template&id=fd350346&scoped=true& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL0xhbmRpbmcudnVlPzRhZTYiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9MYW5kaW5nLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD1mZDM1MDM0NiZzY29wZWQ9dHJ1ZSYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tIFwiLSEuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy90ZW1wbGF0ZUxvYWRlci5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4vTGFuZGluZy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9ZmQzNTAzNDYmc2NvcGVkPXRydWUmXCIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Landing.vue?vue&type=template&id=fd350346&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Landing_vue_vue_type_template_id_fd350346_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 

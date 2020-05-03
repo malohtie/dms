@@ -130,32 +130,32 @@
             <b-row class="text-center">
               <b-col cols="6" md="4" class="py-3">
                 <vue-easy-pie-chart :percent="pieChartAvatar[0]" :line-width="3" :size="100" bar-color="#abe37d" track-color="#eeeeee" scale-color="#dddddd">
-                  <img class="img-avatar" :src="`images/avatars/avatar1.jpg`" alt="Avatar">
+                  <img class="img-avatar" :src="`/images/avatars/avatar1.jpg`" alt="Avatar">
                 </vue-easy-pie-chart>
               </b-col>
               <b-col cols="6" md="4" class="py-3">
                 <vue-easy-pie-chart :percent="pieChartAvatar[1]" :line-width="3" :size="100" bar-color="#fadb7d" track-color="#eeeeee" scale-color="#dddddd">
-                  <img class="img-avatar" :src="`images/avatars/avatar2.jpg`" alt="Avatar">
+                  <img class="img-avatar" :src="`/images/avatars/avatar2.jpg`" alt="Avatar">
                 </vue-easy-pie-chart>
               </b-col>
               <b-col cols="6" md="4" class="py-3">
                 <vue-easy-pie-chart :percent="pieChartAvatar[2]" :line-width="3" :size="100" bar-color="#faad7d" track-color="#eeeeee" scale-color="#dddddd">
-                  <img class="img-avatar" :src="`images/avatars/avatar3.jpg`" alt="Avatar">
+                  <img class="img-avatar" :src="`/images/avatars/avatar3.jpg`" alt="Avatar">
                 </vue-easy-pie-chart>
               </b-col>
               <b-col cols="6" md="4" class="py-3">
                 <vue-easy-pie-chart :percent="pieChartAvatar[3]" :line-width="3" :size="100" bar-color="#abe37d" track-color="#eeeeee" :scale-length="0">
-                  <img class="img-avatar" :src="`images/avatars/avatar10.jpg`" alt="Avatar">
+                  <img class="img-avatar" :src="`/images/avatars/avatar10.jpg`" alt="Avatar">
                 </vue-easy-pie-chart>
               </b-col>
               <b-col cols="6" md="4" class="py-3">
                 <vue-easy-pie-chart :percent="pieChartAvatar[4]" :line-width="3" :size="100" bar-color="#fadb7d" track-color="#eeeeee" :scale-length="0">
-                  <img class="img-avatar" :src="`images/avatars/avatar11.jpg`" alt="Avatar">
+                  <img class="img-avatar" :src="`/images/avatars/avatar11.jpg`" alt="Avatar">
                 </vue-easy-pie-chart>
               </b-col>
               <b-col cols="6" md="4" class="py-3">
                 <vue-easy-pie-chart :percent="pieChartAvatar[5]" :line-width="3" :size="100" bar-color="#faad7d" track-color="#eeeeee" :scale-length="0">
-                  <img class="img-avatar" :src="`images/avatars/avatar12.jpg`" alt="Avatar">
+                  <img class="img-avatar" :src="`/images/avatars/avatar12.jpg`" alt="Avatar">
                 </vue-easy-pie-chart>
               </b-col>
             </b-row>

@@ -8,7 +8,591 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\"base-page-heading\", {\n        attrs: {\n          title: \"Tabs\",\n          subtitle: \"Generate tabbed interfaces with ease.\"\n        },\n        scopedSlots: _vm._u([\n          {\n            key: \"extra\",\n            fn: function() {\n              return [\n                _c(\n                  \"b-breadcrumb\",\n                  { staticClass: \"breadcrumb-alt\" },\n                  [\n                    _c(\n                      \"b-breadcrumb-item\",\n                      { attrs: { href: \"javascript:void(0)\" } },\n                      [_vm._v(\"Elements\")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\"b-breadcrumb-item\", { attrs: { active: \"\" } }, [\n                      _vm._v(\"Tabs\")\n                    ])\n                  ],\n                  1\n                )\n              ]\n            },\n            proxy: true\n          }\n        ])\n      }),\n      _vm._v(\" \"),\n      _c(\n        \"div\",\n        { staticClass: \"content\" },\n        [\n          _c(\"h2\", { staticClass: \"content-heading\" }, [_vm._v(\"Block Tabs\")]),\n          _vm._v(\" \"),\n          _c(\n            \"b-row\",\n            [\n              _c(\n                \"b-col\",\n                { attrs: { lg: \"6\" } },\n                [\n                  _c(\n                    \"b-tabs\",\n                    {\n                      staticClass: \"block\",\n                      attrs: {\n                        \"nav-class\": \"nav-tabs-block\",\n                        \"content-class\": \"block-content\"\n                      }\n                    },\n                    [\n                      _c(\"b-tab\", { attrs: { title: \"Home\", active: \"\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Home Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"...\")])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"b-tab\", { attrs: { title: \"Profile\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Profile Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"...\")])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-tab\",\n                        {\n                          attrs: { \"title-item-class\": \"ml-auto\" },\n                          scopedSlots: _vm._u([\n                            {\n                              key: \"title\",\n                              fn: function() {\n                                return [\n                                  _c(\"i\", { staticClass: \"si si-settings\" })\n                                ]\n                              },\n                              proxy: true\n                            }\n                          ])\n                        },\n                        [\n                          _vm._v(\" \"),\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Settings Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"...\")])\n                        ]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-tabs\",\n                    {\n                      staticClass: \"block\",\n                      attrs: {\n                        \"nav-class\": \"nav-tabs-alt\",\n                        \"content-class\": \"block-content\"\n                      }\n                    },\n                    [\n                      _c(\"b-tab\", { attrs: { title: \"Home\", active: \"\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Home Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"...\")])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"b-tab\", { attrs: { title: \"Profile\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Profile Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"...\")])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-tab\",\n                        {\n                          attrs: { \"title-item-class\": \"ml-auto\" },\n                          scopedSlots: _vm._u([\n                            {\n                              key: \"title\",\n                              fn: function() {\n                                return [\n                                  _c(\"i\", { staticClass: \"si si-settings\" })\n                                ]\n                              },\n                              proxy: true\n                            }\n                          ])\n                        },\n                        [\n                          _vm._v(\" \"),\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Settings Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"...\")])\n                        ]\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { lg: \"6\" } },\n                [\n                  _c(\n                    \"b-tabs\",\n                    {\n                      staticClass: \"block\",\n                      attrs: {\n                        \"nav-class\": \"nav-tabs-block justify-content-end\",\n                        \"content-class\": \"block-content\"\n                      }\n                    },\n                    [\n                      _c(\n                        \"b-tab\",\n                        {\n                          attrs: { \"title-item-class\": \"mr-auto\" },\n                          scopedSlots: _vm._u([\n                            {\n                              key: \"title\",\n                              fn: function() {\n                                return [\n                                  _c(\"i\", { staticClass: \"si si-settings\" })\n                                ]\n                              },\n                              proxy: true\n                            }\n                          ])\n                        },\n                        [\n                          _vm._v(\" \"),\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Settings Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"...\")])\n                        ]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"b-tab\", { attrs: { title: \"Profile\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Profile Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"...\")])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"b-tab\", { attrs: { title: \"Home\", active: \"\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Home Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"...\")])\n                      ])\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-tabs\",\n                    {\n                      staticClass: \"block\",\n                      attrs: {\n                        \"nav-class\": \"nav-tabs-alt justify-content-end\",\n                        \"content-class\": \"block-content\"\n                      }\n                    },\n                    [\n                      _c(\n                        \"b-tab\",\n                        {\n                          attrs: { \"title-item-class\": \"mr-auto\" },\n                          scopedSlots: _vm._u([\n                            {\n                              key: \"title\",\n                              fn: function() {\n                                return [\n                                  _c(\"i\", { staticClass: \"si si-settings\" })\n                                ]\n                              },\n                              proxy: true\n                            }\n                          ])\n                        },\n                        [\n                          _vm._v(\" \"),\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Settings Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"...\")])\n                        ]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"b-tab\", { attrs: { title: \"Profile\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Profile Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"...\")])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"b-tab\", { attrs: { title: \"Home\", active: \"\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Home Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"...\")])\n                      ])\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\"h2\", { staticClass: \"content-heading\" }, [\n            _vm._v(\"Tabs with Animation\")\n          ]),\n          _vm._v(\" \"),\n          _c(\n            \"b-row\",\n            [\n              _c(\n                \"b-col\",\n                { attrs: { lg: \"6\" } },\n                [\n                  _c(\n                    \"b-tabs\",\n                    {\n                      staticClass: \"block\",\n                      attrs: {\n                        \"nav-class\": \"nav-tabs-block\",\n                        \"content-class\": \"block-content overflow-hidden\"\n                      }\n                    },\n                    [\n                      _c(\"b-tab\", { attrs: { title: \"Home\", active: \"\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Home Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"Content fades in..\")])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"b-tab\", { attrs: { title: \"Profile\" } }, [\n                        _c(\"h4\", { staticClass: \"font-w400\" }, [\n                          _vm._v(\"Profile Content\")\n                        ]),\n                        _vm._v(\" \"),\n                        _c(\"p\", [_vm._v(\"Content fades in..\")])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-tab\",\n                        {\n                          attrs: { \"title-item-class\": \"ml-auto\" },\n                          scopedSlots: _vm._u([\n                            {\n                              key: \"title\",\n                              fn: function() {\n                                return [\n                                  _c(\"i\", { staticClass: \"si si-settings\" })\n                                ]\n                              },\n                              proxy: true\n                            }\n                          ])\n                        },\n                        [\n                          _vm._v(\" \"),\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Settings Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content fades in..\")])\n                        ]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-tabs\",\n                    {\n                      staticClass: \"block\",\n                      attrs: {\n                        \"nav-class\": \"nav-tabs-block\",\n                        \"content-class\": \"block-content overflow-hidden\"\n                      }\n                    },\n                    [\n                      _c(\n                        \"b-tab\",\n                        {\n                          staticClass: \"fade-left\",\n                          attrs: { title: \"Home\", active: \"\" }\n                        },\n                        [\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Home Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content slides in to the left..\")])\n                        ]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-tab\",\n                        {\n                          staticClass: \"fade-left\",\n                          attrs: { title: \"Profile\" }\n                        },\n                        [\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Profile Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content slides in to the left..\")])\n                        ]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-tab\",\n                        {\n                          staticClass: \"fade-left\",\n                          attrs: { \"title-item-class\": \"ml-auto\" },\n                          scopedSlots: _vm._u([\n                            {\n                              key: \"title\",\n                              fn: function() {\n                                return [\n                                  _c(\"i\", { staticClass: \"si si-settings\" })\n                                ]\n                              },\n                              proxy: true\n                            }\n                          ])\n                        },\n                        [\n                          _vm._v(\" \"),\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Settings Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content slides in to the left..\")])\n                        ]\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { lg: \"6\" } },\n                [\n                  _c(\n                    \"b-tabs\",\n                    {\n                      staticClass: \"block\",\n                      attrs: {\n                        \"nav-class\": \"nav-tabs-block\",\n                        \"content-class\": \"block-content overflow-hidden\"\n                      }\n                    },\n                    [\n                      _c(\n                        \"b-tab\",\n                        {\n                          staticClass: \"fade-up\",\n                          attrs: { title: \"Home\", active: \"\" }\n                        },\n                        [\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Home Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content slides up..\")])\n                        ]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-tab\",\n                        { staticClass: \"fade-up\", attrs: { title: \"Profile\" } },\n                        [\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Profile Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content slides up..\")])\n                        ]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-tab\",\n                        {\n                          staticClass: \"fade-up\",\n                          attrs: { \"title-item-class\": \"ml-auto\" },\n                          scopedSlots: _vm._u([\n                            {\n                              key: \"title\",\n                              fn: function() {\n                                return [\n                                  _c(\"i\", { staticClass: \"si si-settings\" })\n                                ]\n                              },\n                              proxy: true\n                            }\n                          ])\n                        },\n                        [\n                          _vm._v(\" \"),\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Settings Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content slides up..\")])\n                        ]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-tabs\",\n                    {\n                      staticClass: \"block\",\n                      attrs: {\n                        \"nav-class\": \"nav-tabs-block\",\n                        \"content-class\": \"block-content overflow-hidden\"\n                      }\n                    },\n                    [\n                      _c(\n                        \"b-tab\",\n                        {\n                          staticClass: \"fade-right\",\n                          attrs: { title: \"Home\", active: \"\" }\n                        },\n                        [\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Home Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content slides in to the right..\")])\n                        ]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-tab\",\n                        {\n                          staticClass: \"fade-right\",\n                          attrs: { title: \"Profile\" }\n                        },\n                        [\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Profile Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content slides in to the right..\")])\n                        ]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-tab\",\n                        {\n                          staticClass: \"fade-right\",\n                          attrs: { \"title-item-class\": \"ml-auto\" },\n                          scopedSlots: _vm._u([\n                            {\n                              key: \"title\",\n                              fn: function() {\n                                return [\n                                  _c(\"i\", { staticClass: \"si si-settings\" })\n                                ]\n                              },\n                              proxy: true\n                            }\n                          ])\n                        },\n                        [\n                          _vm._v(\" \"),\n                          _c(\"h4\", { staticClass: \"font-w400\" }, [\n                            _vm._v(\"Settings Content\")\n                          ]),\n                          _vm._v(\" \"),\n                          _c(\"p\", [_vm._v(\"Content slides in to the right..\")])\n                        ]\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          )\n        ],\n        1\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2VsZW1lbnRzL1RhYnMudnVlPzA2YjAiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLFNBQVM7QUFDVDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG1CQUFtQixnQ0FBZ0M7QUFDbkQ7QUFDQTtBQUNBO0FBQ0EsdUJBQXVCLFNBQVMsNkJBQTZCLEVBQUU7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsNkNBQTZDLFNBQVMsYUFBYSxFQUFFO0FBQ3JFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGFBQWE7QUFDYjtBQUNBO0FBQ0E7QUFDQSxPQUFPO0FBQ1A7QUFDQTtBQUNBO0FBQ0EsU0FBUyx5QkFBeUI7QUFDbEM7QUFDQSxvQkFBb0IsaUNBQWlDO0FBQ3JEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlCQUFpQixTQUFTLFVBQVUsRUFBRTtBQUN0QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxxQkFBcUI7QUFDckI7QUFDQSxtQ0FBbUMsU0FBUyw0QkFBNEIsRUFBRTtBQUMxRSxrQ0FBa0MsMkJBQTJCO0FBQzdEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG1DQUFtQyxTQUFTLG1CQUFtQixFQUFFO0FBQ2pFLGtDQUFrQywyQkFBMkI7QUFDN0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLGdDQUFnQztBQUNsRTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMkNBQTJDLGdDQUFnQztBQUMzRTtBQUNBLCtCQUErQjtBQUMvQjtBQUNBO0FBQ0E7QUFDQSx5QkFBeUI7QUFDekI7QUFDQTtBQUNBLG9DQUFvQywyQkFBMkI7QUFDL0Q7QUFD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QUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGtDQUFrQyxnQ0FBZ0M7QUFDbEU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDJDQUEyQyxnQ0FBZ0M7QUFDM0U7QUFDQSwrQkFBK0I7QUFDL0I7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQSxvQ0FBb0MsMkJBQTJCO0FBQy9EO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQjtBQUNyQjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDO0FBQ2xDLHlCQUF5QjtBQUN6QjtBQUNBLG9DQUFvQywyQkFBMkI7QUFDL0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGtDQUFrQztBQUNsQyx5QkFBeUI7QUFDekI7QUFDQSxvQ0FBb0MsMkJBQTJCO0FBQy9EO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxrQ0FBa0MsZ0NBQWdDO0FBQ2xFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwyQ0FBMkMsZ0NBQWdDO0FBQzNFO0FBQ0EsK0JBQStCO0FBQy9CO0FBQ0E7QUFDQTtBQUNBLHlCQUF5QjtBQUN6QjtBQUNBO0FBQ0Esb0NBQW9DLDJCQUEyQjtBQUMvRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy90ZW1wbGF0ZUxvYWRlci5qcz8hLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/IS4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9lbGVtZW50cy9UYWJzLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD0wOGNiM2MxYyYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgcmVuZGVyID0gZnVuY3Rpb24oKSB7XG4gIHZhciBfdm0gPSB0aGlzXG4gIHZhciBfaCA9IF92bS4kY3JlYXRlRWxlbWVudFxuICB2YXIgX2MgPSBfdm0uX3NlbGYuX2MgfHwgX2hcbiAgcmV0dXJuIF9jKFxuICAgIFwiZGl2XCIsXG4gICAgW1xuICAgICAgX2MoXCJiYXNlLXBhZ2UtaGVhZGluZ1wiLCB7XG4gICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgdGl0bGU6IFwiVGFic1wiLFxuICAgICAgICAgIHN1YnRpdGxlOiBcIkdlbmVyYXRlIHRhYmJlZCBpbnRlcmZhY2VzIHdpdGggZWFzZS5cIlxuICAgICAgICB9LFxuICAgICAgICBzY29wZWRTbG90czogX3ZtLl91KFtcbiAgICAgICAgICB7XG4gICAgICAgICAgICBrZXk6IFwiZXh0cmFcIixcbiAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgIFwiYi1icmVhZGNydW1iXCIsXG4gICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImJyZWFkY3J1bWItYWx0XCIgfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiLWJyZWFkY3J1bWItaXRlbVwiLFxuICAgICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgaHJlZjogXCJqYXZhc2NyaXB0OnZvaWQoMClcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkVsZW1lbnRzXCIpXVxuICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICBfYyhcImItYnJlYWRjcnVtYi1pdGVtXCIsIHsgYXR0cnM6IHsgYWN0aXZlOiBcIlwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlRhYnNcIilcbiAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICBdXG4gICAgICAgICAgICB9LFxuICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICB9XG4gICAgICAgIF0pXG4gICAgICB9KSxcbiAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICBfYyhcbiAgICAgICAgXCJkaXZcIixcbiAgICAgICAgeyBzdGF0aWNDbGFzczogXCJjb250ZW50XCIgfSxcbiAgICAgICAgW1xuICAgICAgICAgIF9jKFwiaDJcIiwgeyBzdGF0aWNDbGFzczogXCJjb250ZW50LWhlYWRpbmdcIiB9LCBbX3ZtLl92KFwiQmxvY2sgVGFic1wiKV0pLFxuICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgX2MoXG4gICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICBbXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IGxnOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi10YWJzXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBcIm5hdi1jbGFzc1wiOiBcIm5hdi10YWJzLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICBcImNvbnRlbnQtY2xhc3NcIjogXCJibG9jay1jb250ZW50XCJcbiAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGFiXCIsIHsgYXR0cnM6IHsgdGl0bGU6IFwiSG9tZVwiLCBhY3RpdmU6IFwiXCIgfSB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NDAwXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJIb21lIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiLi4uXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10YWJcIiwgeyBhdHRyczogeyB0aXRsZTogXCJQcm9maWxlXCIgfSB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NDAwXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJQcm9maWxlIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiLi4uXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBcInRpdGxlLWl0ZW0tY2xhc3NcIjogXCJtbC1hdXRvXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5OiBcInRpdGxlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktc2V0dGluZ3NcIiB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NDAwXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlNldHRpbmdzIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiLi4uXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi10YWJzXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBcIm5hdi1jbGFzc1wiOiBcIm5hdi10YWJzLWFsdFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJjb250ZW50LWNsYXNzXCI6IFwiYmxvY2stY29udGVudFwiXG4gICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRhYlwiLCB7IGF0dHJzOiB7IHRpdGxlOiBcIkhvbWVcIiwgYWN0aXZlOiBcIlwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiSG9tZSBDb250ZW50XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW192bS5fdihcIi4uLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGFiXCIsIHsgYXR0cnM6IHsgdGl0bGU6IFwiUHJvZmlsZVwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiUHJvZmlsZSBDb250ZW50XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW192bS5fdihcIi4uLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10YWJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgXCJ0aXRsZS1pdGVtLWNsYXNzXCI6IFwibWwtYXV0b1wiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHNjb3BlZFNsb3RzOiBfdm0uX3UoW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleTogXCJ0aXRsZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm46IGZ1bmN0aW9uKCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7IHN0YXRpY0NsYXNzOiBcInNpIHNpLXNldHRpbmdzXCIgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb3h5OiB0cnVlXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJTZXR0aW5ncyBDb250ZW50XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW192bS5fdihcIi4uLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IGxnOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi10YWJzXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBcIm5hdi1jbGFzc1wiOiBcIm5hdi10YWJzLWJsb2NrIGp1c3RpZnktY29udGVudC1lbmRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiY29udGVudC1jbGFzc1wiOiBcImJsb2NrLWNvbnRlbnRcIlxuICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBcInRpdGxlLWl0ZW0tY2xhc3NcIjogXCJtci1hdXRvXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5OiBcInRpdGxlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktc2V0dGluZ3NcIiB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NDAwXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlNldHRpbmdzIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiLi4uXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRhYlwiLCB7IGF0dHJzOiB7IHRpdGxlOiBcIlByb2ZpbGVcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXc0MDBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlByb2ZpbGUgQ29udGVudFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIFtfdm0uX3YoXCIuLi5cIildKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRhYlwiLCB7IGF0dHJzOiB7IHRpdGxlOiBcIkhvbWVcIiwgYWN0aXZlOiBcIlwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiSG9tZSBDb250ZW50XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW192bS5fdihcIi4uLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiLXRhYnNcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgIFwibmF2LWNsYXNzXCI6IFwibmF2LXRhYnMtYWx0IGp1c3RpZnktY29udGVudC1lbmRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiY29udGVudC1jbGFzc1wiOiBcImJsb2NrLWNvbnRlbnRcIlxuICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBcInRpdGxlLWl0ZW0tY2xhc3NcIjogXCJtci1hdXRvXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5OiBcInRpdGxlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktc2V0dGluZ3NcIiB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NDAwXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlNldHRpbmdzIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiLi4uXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRhYlwiLCB7IGF0dHJzOiB7IHRpdGxlOiBcIlByb2ZpbGVcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXc0MDBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlByb2ZpbGUgQ29udGVudFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIFtfdm0uX3YoXCIuLi5cIildKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRhYlwiLCB7IGF0dHJzOiB7IHRpdGxlOiBcIkhvbWVcIiwgYWN0aXZlOiBcIlwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiSG9tZSBDb250ZW50XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW192bS5fdihcIi4uLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApXG4gICAgICAgICAgICBdLFxuICAgICAgICAgICAgMVxuICAgICAgICAgICksXG4gICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICBfYyhcImgyXCIsIHsgc3RhdGljQ2xhc3M6IFwiY29udGVudC1oZWFkaW5nXCIgfSwgW1xuICAgICAgICAgICAgX3ZtLl92KFwiVGFicyB3aXRoIEFuaW1hdGlvblwiKVxuICAgICAgICAgIF0pLFxuICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgX2MoXG4gICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICBbXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IGxnOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi10YWJzXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBcIm5hdi1jbGFzc1wiOiBcIm5hdi10YWJzLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICBcImNvbnRlbnQtY2xhc3NcIjogXCJibG9jay1jb250ZW50IG92ZXJmbG93LWhpZGRlblwiXG4gICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRhYlwiLCB7IGF0dHJzOiB7IHRpdGxlOiBcIkhvbWVcIiwgYWN0aXZlOiBcIlwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiSG9tZSBDb250ZW50XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW192bS5fdihcIkNvbnRlbnQgZmFkZXMgaW4uLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGFiXCIsIHsgYXR0cnM6IHsgdGl0bGU6IFwiUHJvZmlsZVwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiUHJvZmlsZSBDb250ZW50XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW192bS5fdihcIkNvbnRlbnQgZmFkZXMgaW4uLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10YWJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgXCJ0aXRsZS1pdGVtLWNsYXNzXCI6IFwibWwtYXV0b1wiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHNjb3BlZFNsb3RzOiBfdm0uX3UoW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleTogXCJ0aXRsZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm46IGZ1bmN0aW9uKCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7IHN0YXRpY0NsYXNzOiBcInNpIHNpLXNldHRpbmdzXCIgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb3h5OiB0cnVlXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJTZXR0aW5ncyBDb250ZW50XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW192bS5fdihcIkNvbnRlbnQgZmFkZXMgaW4uLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImItdGFic1wiLFxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgXCJuYXYtY2xhc3NcIjogXCJuYXYtdGFicy1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJjb250ZW50LWNsYXNzXCI6IFwiYmxvY2stY29udGVudCBvdmVyZmxvdy1oaWRkZW5cIlxuICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYWRlLWxlZnRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdGl0bGU6IFwiSG9tZVwiLCBhY3RpdmU6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJIb21lIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiQ29udGVudCBzbGlkZXMgaW4gdG8gdGhlIGxlZnQuLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYWRlLWxlZnRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdGl0bGU6IFwiUHJvZmlsZVwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXc0MDBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiUHJvZmlsZSBDb250ZW50XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW192bS5fdihcIkNvbnRlbnQgc2xpZGVzIGluIHRvIHRoZSBsZWZ0Li5cIildKVxuICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10YWJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmFkZS1sZWZ0XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IFwidGl0bGUtaXRlbS1jbGFzc1wiOiBcIm1sLWF1dG9cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBzY29wZWRTbG90czogX3ZtLl91KFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IFwidGl0bGVcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwgeyBzdGF0aWNDbGFzczogXCJzaSBzaS1zZXR0aW5nc1wiIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXc0MDBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiU2V0dGluZ3MgQ29udGVudFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIFtfdm0uX3YoXCJDb250ZW50IHNsaWRlcyBpbiB0byB0aGUgbGVmdC4uXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgbGc6IFwiNlwiIH0gfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiLXRhYnNcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgIFwibmF2LWNsYXNzXCI6IFwibmF2LXRhYnMtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiY29udGVudC1jbGFzc1wiOiBcImJsb2NrLWNvbnRlbnQgb3ZlcmZsb3ctaGlkZGVuXCJcbiAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10YWJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmFkZS11cFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB0aXRsZTogXCJIb21lXCIsIGFjdGl2ZTogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NDAwXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIkhvbWUgQ29udGVudFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIFtfdm0uX3YoXCJDb250ZW50IHNsaWRlcyB1cC4uXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItdGFiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZhZGUtdXBcIiwgYXR0cnM6IHsgdGl0bGU6IFwiUHJvZmlsZVwiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJQcm9maWxlIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiQ29udGVudCBzbGlkZXMgdXAuLlwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYWRlLXVwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IFwidGl0bGUtaXRlbS1jbGFzc1wiOiBcIm1sLWF1dG9cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBzY29wZWRTbG90czogX3ZtLl91KFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IFwidGl0bGVcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwgeyBzdGF0aWNDbGFzczogXCJzaSBzaS1zZXR0aW5nc1wiIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXc0MDBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiU2V0dGluZ3MgQ29udGVudFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIFtfdm0uX3YoXCJDb250ZW50IHNsaWRlcyB1cC4uXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi10YWJzXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBcIm5hdi1jbGFzc1wiOiBcIm5hdi10YWJzLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICBcImNvbnRlbnQtY2xhc3NcIjogXCJibG9jay1jb250ZW50IG92ZXJmbG93LWhpZGRlblwiXG4gICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItdGFiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImZhZGUtcmlnaHRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdGl0bGU6IFwiSG9tZVwiLCBhY3RpdmU6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJIb21lIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiQ29udGVudCBzbGlkZXMgaW4gdG8gdGhlIHJpZ2h0Li5cIildKVxuICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10YWJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmFkZS1yaWdodFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB0aXRsZTogXCJQcm9maWxlXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzQwMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJQcm9maWxlIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiQ29udGVudCBzbGlkZXMgaW4gdG8gdGhlIHJpZ2h0Li5cIildKVxuICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10YWJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmFkZS1yaWdodFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBcInRpdGxlLWl0ZW0tY2xhc3NcIjogXCJtbC1hdXRvXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5OiBcInRpdGxlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktc2V0dGluZ3NcIiB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImg0XCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NDAwXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlNldHRpbmdzIENvbnRlbnRcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbX3ZtLl92KFwiQ29udGVudCBzbGlkZXMgaW4gdG8gdGhlIHJpZ2h0Li5cIildKVxuICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApXG4gICAgICAgICAgICBdLFxuICAgICAgICAgICAgMVxuICAgICAgICAgIClcbiAgICAgICAgXSxcbiAgICAgICAgMVxuICAgICAgKVxuICAgIF0sXG4gICAgMVxuICApXG59XG52YXIgc3RhdGljUmVuZGVyRm5zID0gW11cbnJlbmRlci5fd2l0aFN0cmlwcGVkID0gdHJ1ZVxuXG5leHBvcnQgeyByZW5kZXIsIHN0YXRpY1JlbmRlckZucyB9Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          title: "Tabs",
+          subtitle: "Generate tabbed interfaces with ease."
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Tabs")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Block Tabs")]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "nav-class": "nav-tabs-block",
+                        "content-class": "block-content"
+                      }
+                    },
+                    [
+                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("...")])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "nav-class": "nav-tabs-alt",
+                        "content-class": "block-content"
+                      }
+                    },
+                    [
+                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("...")])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "nav-class": "nav-tabs-block justify-content-end",
+                        "content-class": "block-content"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "mr-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("...")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "nav-class": "nav-tabs-alt justify-content-end",
+                        "content-class": "block-content"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "mr-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("...")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Tabs with Animation")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "nav-class": "nav-tabs-block",
+                        "content-class": "block-content overflow-hidden"
+                      }
+                    },
+                    [
+                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Content fades in..")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Content fades in..")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content fades in..")])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "nav-class": "nav-tabs-block",
+                        "content-class": "block-content overflow-hidden"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-left",
+                          attrs: { title: "Home", active: "" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Home Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the left..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-left",
+                          attrs: { title: "Profile" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Profile Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the left..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-left",
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the left..")])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "nav-class": "nav-tabs-block",
+                        "content-class": "block-content overflow-hidden"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-up",
+                          attrs: { title: "Home", active: "" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Home Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides up..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        { staticClass: "fade-up", attrs: { title: "Profile" } },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Profile Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides up..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-up",
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides up..")])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "nav-class": "nav-tabs-block",
+                        "content-class": "block-content overflow-hidden"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-right",
+                          attrs: { title: "Home", active: "" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Home Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the right..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-right",
+                          attrs: { title: "Profile" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Profile Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the right..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-right",
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the right..")])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -20,7 +604,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tabs.vue?vue&type=template&id=08cb3c1c& */ \"./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&\");\n/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\nvar script = {}\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(\n  script,\n  _Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/js/src/views/elements/Tabs.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2VsZW1lbnRzL1RhYnMudnVlPzI1ZDQiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQW1GO0FBQ25GOzs7QUFHQTtBQUNtRztBQUNuRyxnQkFBZ0IsMkdBQVU7QUFDMUI7QUFDQSxFQUFFLCtFQUFNO0FBQ1IsRUFBRSx3RkFBZTtBQUNqQjtBQUNBO0FBQ0E7QUFDQTs7QUFFQTs7QUFFQTtBQUNBLElBQUksS0FBVSxFQUFFLFlBaUJmO0FBQ0Q7QUFDZSxnRiIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9zcmMvdmlld3MvZWxlbWVudHMvVGFicy52dWUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZW5kZXIsIHN0YXRpY1JlbmRlckZucyB9IGZyb20gXCIuL1RhYnMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTA4Y2IzYzFjJlwiXG52YXIgc2NyaXB0ID0ge31cblxuXG4vKiBub3JtYWxpemUgY29tcG9uZW50ICovXG5pbXBvcnQgbm9ybWFsaXplciBmcm9tIFwiIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9ydW50aW1lL2NvbXBvbmVudE5vcm1hbGl6ZXIuanNcIlxudmFyIGNvbXBvbmVudCA9IG5vcm1hbGl6ZXIoXG4gIHNjcmlwdCxcbiAgcmVuZGVyLFxuICBzdGF0aWNSZW5kZXJGbnMsXG4gIGZhbHNlLFxuICBudWxsLFxuICBudWxsLFxuICBudWxsXG4gIFxuKVxuXG4vKiBob3QgcmVsb2FkICovXG5pZiAobW9kdWxlLmhvdCkge1xuICB2YXIgYXBpID0gcmVxdWlyZShcIkM6XFxcXFVzZXJzXFxcXG1hbG9oXFxcXERlc2t0b3BcXFxcRG1zVjJcXFxcbm9kZV9tb2R1bGVzXFxcXHZ1ZS1ob3QtcmVsb2FkLWFwaVxcXFxkaXN0XFxcXGluZGV4LmpzXCIpXG4gIGFwaS5pbnN0YWxsKHJlcXVpcmUoJ3Z1ZScpKVxuICBpZiAoYXBpLmNvbXBhdGlibGUpIHtcbiAgICBtb2R1bGUuaG90LmFjY2VwdCgpXG4gICAgaWYgKCFhcGkuaXNSZWNvcmRlZCgnMDhjYjNjMWMnKSkge1xuICAgICAgYXBpLmNyZWF0ZVJlY29yZCgnMDhjYjNjMWMnLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9IGVsc2Uge1xuICAgICAgYXBpLnJlbG9hZCgnMDhjYjNjMWMnLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9XG4gICAgbW9kdWxlLmhvdC5hY2NlcHQoXCIuL1RhYnMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTA4Y2IzYzFjJlwiLCBmdW5jdGlvbiAoKSB7XG4gICAgICBhcGkucmVyZW5kZXIoJzA4Y2IzYzFjJywge1xuICAgICAgICByZW5kZXI6IHJlbmRlcixcbiAgICAgICAgc3RhdGljUmVuZGVyRm5zOiBzdGF0aWNSZW5kZXJGbnNcbiAgICAgIH0pXG4gICAgfSlcbiAgfVxufVxuY29tcG9uZW50Lm9wdGlvbnMuX19maWxlID0gXCJyZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2VsZW1lbnRzL1RhYnMudnVlXCJcbmV4cG9ydCBkZWZhdWx0IGNvbXBvbmVudC5leHBvcnRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/src/views/elements/Tabs.vue\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tabs.vue?vue&type=template&id=08cb3c1c& */ "./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Tabs.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -32,7 +639,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Tab
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tabs.vue?vue&type=template&id=08cb3c1c& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2VsZW1lbnRzL1RhYnMudnVlPzlhYzMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9lbGVtZW50cy9UYWJzLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD0wOGNiM2MxYyYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tIFwiLSEuLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy90ZW1wbGF0ZUxvYWRlci5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4vVGFicy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9MDhjYjNjMWMmXCIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tabs.vue?vue&type=template&id=08cb3c1c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 

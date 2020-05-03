@@ -109,13 +109,13 @@
           <!-- User Dropdown -->
           <b-dropdown size="sm" variant="dual" class="d-inline-block ml-2" menu-class="p-0 border-0 font-size-sm" right no-caret>
             <template #button-content>
-              <img class="rounded" src="images/avatars/avatar10.jpg" alt="Header Avatar" style="width: 18px;">
+              <img class="rounded" src="/images/avatars/avatar10.jpg" alt="Header Avatar" style="width: 18px;">
               <span class="d-none d-sm-inline-block ml-1">Adam</span>
               <i class="fa fa-fw fa-angle-down d-none d-sm-inline-block"></i>
             </template>
             <li>
               <div class="p-3 text-center bg-primary">
-                <img class="img-avatar img-avatar48 img-avatar-thumb" src="images/avatars/avatar10.jpg" alt="Avatar">
+                <img class="img-avatar img-avatar48 img-avatar-thumb" src="/images/avatars/avatar10.jpg" alt="Avatar">
               </div>
               <div class="p-2">
                 <h5 class="dropdown-header text-uppercase">User Options</h5>

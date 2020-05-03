@@ -7,7 +7,7 @@
       <div class="content-header border-bottom">
         <!-- User Avatar -->
         <a class="img-link mr-1" href="javascript:void(0)">
-          <img class="img-avatar img-avatar32" src="images/avatars/avatar10.jpg" alt="Avatar">
+          <img class="img-avatar img-avatar32" src="/images/avatars/avatar10.jpg" alt="Avatar">
         </a>
         <!-- END User Avatar -->
 

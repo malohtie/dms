@@ -8,7 +8,213 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  methods: {\n    // Trigger a new toast\n    toast: function toast(title, content) {\n      var variant = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;\n      var append = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n      var toaster = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 'b-toaster-top-right';\n      var autoHideDelay = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 5000;\n      this.$bvToast.toast(content, {\n        title: title,\n        toaster: toaster,\n        variant: variant,\n        autoHideDelay: autoHideDelay,\n        appendToast: append\n      });\n    }\n  }\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9wbHVnaW5zL05vdGlmaWNhdGlvbnMudnVlPzZkMmEiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBNkxBO0FBQ0E7QUFDQTtBQUNBLFNBRkEsaUJBRUEsS0FGQSxFQUVBLE9BRkEsRUFFQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ0E7QUFDQSxvQkFEQTtBQUVBLHdCQUZBO0FBR0Esd0JBSEE7QUFJQSxvQ0FKQTtBQUtBO0FBTEE7QUFPQTtBQVZBO0FBREEiLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvYmFiZWwtbG9hZGVyL2xpYi9pbmRleC5qcz8hLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/IS4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9wbHVnaW5zL05vdGlmaWNhdGlvbnMudnVlP3Z1ZSZ0eXBlPXNjcmlwdCZsYW5nPWpzJi5qcyIsInNvdXJjZXNDb250ZW50IjpbIjx0ZW1wbGF0ZT5cbiAgPGRpdj5cbiAgICA8IS0tIEhlcm8gLS0+XG4gICAgPGJhc2UtcGFnZS1oZWFkaW5nIHRpdGxlPVwiTm90aWZpY2F0aW9uc1wiIHN1YnRpdGxlPVwiUG93ZXJmdWwgYWxlcnRzIGZvciB5b3VyIGFwcGxpY2F0aW9uLlwiPlxuICAgICAgPHRlbXBsYXRlICNleHRyYT5cbiAgICAgICAgPGItYnJlYWRjcnVtYiBjbGFzcz1cImJyZWFkY3J1bWItYWx0XCI+XG4gICAgICAgICAgPGItYnJlYWRjcnVtYi1pdGVtIGhyZWY9XCJqYXZhc2NyaXB0OnZvaWQoMClcIj5QbHVnaW5zPC9iLWJyZWFkY3J1bWItaXRlbT5cbiAgICAgICAgICA8Yi1icmVhZGNydW1iLWl0ZW0gYWN0aXZlPk5vdGlmaWNhdGlvbnM8L2ItYnJlYWRjcnVtYi1pdGVtPlxuICAgICAgICA8L2ItYnJlYWRjcnVtYj5cbiAgICAgIDwvdGVtcGxhdGU+XG4gICAgPC9iYXNlLXBhZ2UtaGVhZGluZz5cbiAgICA8IS0tIEVORCBIZXJvIC0tPlxuXG4gICAgPCEtLSBQYWdlIENvbnRlbnQgLS0+XG4gICAgPGRpdiBjbGFzcz1cImNvbnRlbnRcIj5cbiAgICAgIDwhLS0gQm9vdHN0cmFwIFRvYXN0cyAtLT5cbiAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiQm9vdHN0cmFwIFRvYXN0c1wiPlxuICAgICAgICA8IS0tIERlZmF1bHQgLS0+XG4gICAgICAgIDxoNCBjbGFzcz1cImJvcmRlci1ib3R0b20gcGItMlwiPkRlZmF1bHQ8L2g0PlxuICAgICAgICA8Yi1yb3cgY2xhc3M9XCJpdGVtcy1wdXNoXCI+XG4gICAgICAgICAgPGItY29sIGxnPVwiNFwiPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJmb250LXNpemUtc20gdGV4dC1tdXRlZFwiPlxuICAgICAgICAgICAgICBBIG5pY2UgdG9hc3Qgd2l0aCBhIG1lc3NhZ2VcbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICA8L2ItY29sPlxuICAgICAgICAgIDxiLWNvbCBsZz1cIjhcIj5cbiAgICAgICAgICAgIDxiLWJ1dHRvbiB2YXJpYW50PVwiYWx0LXNlY29uZGFyeVwiIGNsYXNzPVwicHVzaFwiIEBjbGljaz1cInRvYXN0KCdQcmVwZW5kIFRvYXN0JywgJ1RvYXN0IGNvbnRlbnQnKVwiPlxuICAgICAgICAgICAgICBQcmVwZW5kIFRvYXN0XG4gICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJmb250LXc2MDAgbWItMFwiPlxuICAgICAgICAgICAgICBKUyBjb2RlOlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJtYi01XCI+XG4gICAgICAgICAgICAgIDxjb2RlPnRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnKTwvY29kZT5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgIDxiLWJ1dHRvbiB2YXJpYW50PVwiYWx0LXNlY29uZGFyeVwiIGNsYXNzPVwicHVzaFwiIEBjbGljaz1cInRvYXN0KCdBcHBlbmQgVG9hc3QnLCAnVG9hc3QgY29udGVudCcsIG51bGwsIHRydWUpXCI+XG4gICAgICAgICAgICAgIEFwcGVuZCBUb2FzdFxuICAgICAgICAgICAgPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwiZm9udC13NjAwIG1iLTBcIj5cbiAgICAgICAgICAgICAgSlMgY29kZTpcbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwibWItNVwiPlxuICAgICAgICAgICAgICA8Y29kZT50aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgbnVsbCwgdHJ1ZSk8L2NvZGU+XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPC9iLXJvdz5cbiAgICAgICAgPCEtLSBFTkQgRGVmYXVsdCAtLT5cblxuICAgICAgICA8IS0tIFBvc2l0aW9uIC0tPlxuICAgICAgICA8aDQgY2xhc3M9XCJib3JkZXItYm90dG9tIHBiLTJcIj5Qb3NpdGlvbjwvaDQ+XG4gICAgICAgIDxiLXJvdyBjbGFzcz1cIml0ZW1zLXB1c2hcIj5cbiAgICAgICAgICA8Yi1jb2wgbGc9XCI0XCI+XG4gICAgICAgICAgICA8cCBjbGFzcz1cImZvbnQtc2l6ZS1zbSB0ZXh0LW11dGVkXCI+XG4gICAgICAgICAgICAgIFlvdSBjYW4gc2hvdyB5b3VyIG5vdGlmaWNhdGlvbiBpbiBtdWx0aXBsZSBzY3JlZW4gcG9zaXRpb25zXG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgICA8Yi1jb2wgbGc9XCI4XCI+XG4gICAgICAgICAgICA8Yi1idXR0b24gdmFyaWFudD1cImFsdC1wcmltYXJ5XCIgY2xhc3M9XCJwdXNoXCIgQGNsaWNrPVwidG9hc3QoJ1RvcCBSaWdodCBUb2FzdCcsICdUb2FzdCBjb250ZW50JywgbnVsbCwgZmFsc2UsICdiLXRvYXN0ZXItdG9wLXJpZ2h0JylcIj5cbiAgICAgICAgICAgICAgVG9wIFJpZ2h0IFRvYXN0XG4gICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJmb250LXc2MDAgbWItMFwiPlxuICAgICAgICAgICAgICBKUyBjb2RlOlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJtYi01XCI+XG4gICAgICAgICAgICAgIDxjb2RlPnRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci10b3AtcmlnaHQnKTwvY29kZT5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgIDxiLWJ1dHRvbiB2YXJpYW50PVwiYWx0LXByaW1hcnlcIiBjbGFzcz1cInB1c2hcIiBAY2xpY2s9XCJ0b2FzdCgnVG9wIExlZnQgVG9hc3QnLCAnVG9hc3QgY29udGVudCcsIG51bGwsIGZhbHNlLCAnYi10b2FzdGVyLXRvcC1sZWZ0JylcIj5cbiAgICAgICAgICAgICAgVG9wIExlZnQgVG9hc3RcbiAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICA8cCBjbGFzcz1cImZvbnQtdzYwMCBtYi0wXCI+XG4gICAgICAgICAgICAgIEpTIGNvZGU6XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8cCBjbGFzcz1cIm1iLTVcIj5cbiAgICAgICAgICAgICAgPGNvZGU+dGhpcy50b2FzdCgnVGl0bGUnLCAnQ29udGVudCcsIG51bGwsIGZhbHNlLCAnYi10b2FzdGVyLXRvcC1sZWZ0Jyk8L2NvZGU+XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8Yi1idXR0b24gdmFyaWFudD1cImFsdC1wcmltYXJ5XCIgY2xhc3M9XCJwdXNoXCIgQGNsaWNrPVwidG9hc3QoJ1RvcCBDZW50ZXIgVG9hc3QnLCAnVG9hc3QgY29udGVudCcsIG51bGwsIGZhbHNlLCAnYi10b2FzdGVyLXRvcC1jZW50ZXInKVwiPlxuICAgICAgICAgICAgICBUb3AgQ2VudGVyIFRvYXN0XG4gICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJmb250LXc2MDAgbWItMFwiPlxuICAgICAgICAgICAgICBKUyBjb2RlOlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJtYi01XCI+XG4gICAgICAgICAgICAgIDxjb2RlPnRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci10b3AtY2VudGVyJyk8L2NvZGU+XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8Yi1idXR0b24gdmFyaWFudD1cImFsdC1wcmltYXJ5XCIgY2xhc3M9XCJwdXNoXCIgQGNsaWNrPVwidG9hc3QoJ1RvcCBGdWxsIFRvYXN0JywgJ1RvYXN0IGNvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci10b3AtZnVsbCcpXCI+XG4gICAgICAgICAgICAgIFRvcCBGdWxsIFRvYXN0XG4gICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJmb250LXc2MDAgbWItMFwiPlxuICAgICAgICAgICAgICBKUyBjb2RlOlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJtYi01XCI+XG4gICAgICAgICAgICAgIDxjb2RlPnRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci10b3AtZnVsbCcpPC9jb2RlPlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPGItYnV0dG9uIHZhcmlhbnQ9XCJhbHQtcHJpbWFyeVwiIGNsYXNzPVwicHVzaFwiIEBjbGljaz1cInRvYXN0KCdCb3R0b20gUmlnaHQgVG9hc3QnLCAnVG9hc3QgY29udGVudCcsIG51bGwsIGZhbHNlLCAnYi10b2FzdGVyLWJvdHRvbS1yaWdodCcpXCI+XG4gICAgICAgICAgICAgIEJvdHRvbSBSaWdodCBUb2FzdFxuICAgICAgICAgICAgPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwiZm9udC13NjAwIG1iLTBcIj5cbiAgICAgICAgICAgICAgSlMgY29kZTpcbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwibWItNVwiPlxuICAgICAgICAgICAgICA8Y29kZT50aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgbnVsbCwgZmFsc2UsICdiLXRvYXN0ZXItYm90dG9tLXJpZ2h0Jyk8L2NvZGU+XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8Yi1idXR0b24gdmFyaWFudD1cImFsdC1wcmltYXJ5XCIgY2xhc3M9XCJwdXNoXCIgQGNsaWNrPVwidG9hc3QoJ0JvdHRvbSBMZWZ0IFRvYXN0JywgJ1RvYXN0IGNvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci1ib3R0b20tbGVmdCcpXCI+XG4gICAgICAgICAgICAgIEJvdHRvbSBMZWZ0IFRvYXN0XG4gICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJmb250LXc2MDAgbWItMFwiPlxuICAgICAgICAgICAgICBKUyBjb2RlOlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJtYi01XCI+XG4gICAgICAgICAgICAgIDxjb2RlPnRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci1ib3R0b20tbGVmdCcpPC9jb2RlPlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPGItYnV0dG9uIHZhcmlhbnQ9XCJhbHQtcHJpbWFyeVwiIGNsYXNzPVwicHVzaFwiIEBjbGljaz1cInRvYXN0KCdCb3R0b20gQ2VudGVyIFRvYXN0JywgJ1RvYXN0IGNvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci1ib3R0b20tY2VudGVyJylcIj5cbiAgICAgICAgICAgICAgQm90dG9tIENlbnRlciBUb2FzdFxuICAgICAgICAgICAgPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwiZm9udC13NjAwIG1iLTBcIj5cbiAgICAgICAgICAgICAgSlMgY29kZTpcbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwibWItNVwiPlxuICAgICAgICAgICAgICA8Y29kZT50aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgbnVsbCwgZmFsc2UsICdiLXRvYXN0ZXItYm90dG9tLWNlbnRlcicpPC9jb2RlPlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPGItYnV0dG9uIHZhcmlhbnQ9XCJhbHQtcHJpbWFyeVwiIGNsYXNzPVwicHVzaFwiIEBjbGljaz1cInRvYXN0KCdCb3R0b20gRnVsbCBUb2FzdCcsICdUb2FzdCBjb250ZW50JywgbnVsbCwgZmFsc2UsICdiLXRvYXN0ZXItYm90dG9tLWZ1bGwnKVwiPlxuICAgICAgICAgICAgICBCb3R0b20gRnVsbCBUb2FzdFxuICAgICAgICAgICAgPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwiZm9udC13NjAwIG1iLTBcIj5cbiAgICAgICAgICAgICAgSlMgY29kZTpcbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwibWItNVwiPlxuICAgICAgICAgICAgICA8Y29kZT50aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgbnVsbCwgZmFsc2UsICdiLXRvYXN0ZXItYm90dG9tLWZ1bGwnKTwvY29kZT5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICA8L2ItY29sPlxuICAgICAgICA8L2Itcm93PlxuICAgICAgICA8IS0tIEVORCBQb3NpdGlvbiAtLT5cblxuICAgICAgICA8IS0tIFZhcmlhbnRzIC0tPlxuICAgICAgICA8aDQgY2xhc3M9XCJib3JkZXItYm90dG9tIHBiLTJcIj5WYXJpYW50czwvaDQ+XG4gICAgICAgIDxiLXJvdyBjbGFzcz1cIml0ZW1zLXB1c2hcIj5cbiAgICAgICAgICA8Yi1jb2wgbGc9XCI0XCI+XG4gICAgICAgICAgICA8cCBjbGFzcz1cImZvbnQtc2l6ZS1zbSB0ZXh0LW11dGVkXCI+XG4gICAgICAgICAgICAgIFlvdSBjYW4gYWxzbyBzcGVjaWZ5IGNvbG9yIHZhcmlhdGlvbnNcbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICA8L2ItY29sPlxuICAgICAgICAgIDxiLWNvbCBsZz1cIjhcIj5cbiAgICAgICAgICAgIDxiLWJ1dHRvbiB2YXJpYW50PVwiYWx0LXN1Y2Nlc3NcIiBjbGFzcz1cInB1c2hcIiBAY2xpY2s9XCJ0b2FzdCgnU3VjY2VzcyBUb2FzdCcsICdUb2FzdCBjb250ZW50JywgJ3N1Y2Nlc3MnKVwiPlxuICAgICAgICAgICAgICBTdWNjZXNzXG4gICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJmb250LXc2MDAgbWItMFwiPlxuICAgICAgICAgICAgICBKUyBjb2RlOlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPHAgY2xhc3M9XCJtYi01XCI+XG4gICAgICAgICAgICAgIDxjb2RlPnRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnLCAnc3VjY2VzcycpPC9jb2RlPlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPGItYnV0dG9uIHZhcmlhbnQ9XCJhbHQtaW5mb1wiIGNsYXNzPVwicHVzaFwiIEBjbGljaz1cInRvYXN0KCdJbmZvIFRvYXN0JywgJ1RvYXN0IGNvbnRlbnQnLCAnaW5mbycpXCI+XG4gICAgICAgICAgICAgIEluZm9cbiAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICA8cCBjbGFzcz1cImZvbnQtdzYwMCBtYi0wXCI+XG4gICAgICAgICAgICAgIEpTIGNvZGU6XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8cCBjbGFzcz1cIm1iLTVcIj5cbiAgICAgICAgICAgICAgPGNvZGU+dGhpcy50b2FzdCgnVGl0bGUnLCAnQ29udGVudCcsICdpbmZvJyk8L2NvZGU+XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8Yi1idXR0b24gdmFyaWFudD1cImFsdC13YXJuaW5nXCIgY2xhc3M9XCJwdXNoXCIgQGNsaWNrPVwidG9hc3QoJ1dhcm5pbmcgVG9hc3QnLCAnVG9hc3QgY29udGVudCcsICd3YXJuaW5nJylcIj5cbiAgICAgICAgICAgICAgV2FybmluZ1xuICAgICAgICAgICAgPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwiZm9udC13NjAwIG1iLTBcIj5cbiAgICAgICAgICAgICAgSlMgY29kZTpcbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgIDxwIGNsYXNzPVwibWItNVwiPlxuICAgICAgICAgICAgICA8Y29kZT50aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgJ3dhcm5pbmcnKTwvY29kZT5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgIDxiLWJ1dHRvbiB2YXJpYW50PVwiYWx0LWRhbmdlclwiIGNsYXNzPVwicHVzaFwiIEBjbGljaz1cInRvYXN0KCdEYW5nZXIgVG9hc3QnLCAnVG9hc3QgY29udGVudCcsICdkYW5nZXInKVwiPlxuICAgICAgICAgICAgICBEYW5nZXJcbiAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICA8cCBjbGFzcz1cImZvbnQtdzYwMCBtYi0wXCI+XG4gICAgICAgICAgICAgIEpTIGNvZGU6XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8cCBjbGFzcz1cIm1iLTVcIj5cbiAgICAgICAgICAgICAgPGNvZGU+dGhpcy50b2FzdCgnVGl0bGUnLCAnQ29udGVudCcsICdkYW5nZXInKTwvY29kZT5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICA8L2ItY29sPlxuICAgICAgICA8L2Itcm93PlxuICAgICAgICA8IS0tIEVORCBWYXJpYW50cyAtLT5cbiAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgIDwhLS0gRU5EIEJvb3RzdHJhcCBUb2FzdHMgLS0+XG4gICAgPC9kaXY+XG4gICAgPCEtLSBFTkQgUGFnZSBDb250ZW50IC0tPlxuICA8L2Rpdj5cbjwvdGVtcGxhdGU+XG5cbjxzY3JpcHQ+XG5leHBvcnQgZGVmYXVsdCB7XG4gIG1ldGhvZHM6IHtcbiAgICAvLyBUcmlnZ2VyIGEgbmV3IHRvYXN0XG4gICAgdG9hc3QgKHRpdGxlLCBjb250ZW50LCB2YXJpYW50ID0gbnVsbCwgYXBwZW5kID0gZmFsc2UsIHRvYXN0ZXIgPSAnYi10b2FzdGVyLXRvcC1yaWdodCcsIGF1dG9IaWRlRGVsYXkgPSA1MDAwKSB7XG4gICAgICB0aGlzLiRidlRvYXN0LnRvYXN0KGNvbnRlbnQsIHtcbiAgICAgICAgdGl0bGU6IHRpdGxlLFxuICAgICAgICB0b2FzdGVyOiB0b2FzdGVyLFxuICAgICAgICB2YXJpYW50OiB2YXJpYW50LFxuICAgICAgICBhdXRvSGlkZURlbGF5OiBhdXRvSGlkZURlbGF5LFxuICAgICAgICBhcHBlbmRUb2FzdDogYXBwZW5kXG4gICAgICB9KVxuICAgIH1cbiAgfVxufVxuPC9zY3JpcHQ+XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&\n");
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    // Trigger a new toast
+    toast: function toast(title, content) {
+      var variant = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
+      var append = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
+      var toaster = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 'b-toaster-top-right';
+      var autoHideDelay = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 5000;
+      this.$bvToast.toast(content, {
+        title: title,
+        toaster: toaster,
+        variant: variant,
+        autoHideDelay: autoHideDelay,
+        appendToast: append
+      });
+    }
+  }
+});
 
 /***/ }),
 
@@ -20,7 +226,571 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\"base-page-heading\", {\n        attrs: {\n          title: \"Notifications\",\n          subtitle: \"Powerful alerts for your application.\"\n        },\n        scopedSlots: _vm._u([\n          {\n            key: \"extra\",\n            fn: function() {\n              return [\n                _c(\n                  \"b-breadcrumb\",\n                  { staticClass: \"breadcrumb-alt\" },\n                  [\n                    _c(\n                      \"b-breadcrumb-item\",\n                      { attrs: { href: \"javascript:void(0)\" } },\n                      [_vm._v(\"Plugins\")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\"b-breadcrumb-item\", { attrs: { active: \"\" } }, [\n                      _vm._v(\"Notifications\")\n                    ])\n                  ],\n                  1\n                )\n              ]\n            },\n            proxy: true\n          }\n        ])\n      }),\n      _vm._v(\" \"),\n      _c(\n        \"div\",\n        { staticClass: \"content\" },\n        [\n          _c(\n            \"base-block\",\n            { attrs: { title: \"Bootstrap Toasts\" } },\n            [\n              _c(\"h4\", { staticClass: \"border-bottom pb-2\" }, [\n                _vm._v(\"Default\")\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                { staticClass: \"items-push\" },\n                [\n                  _c(\"b-col\", { attrs: { lg: \"4\" } }, [\n                    _c(\"p\", { staticClass: \"font-size-sm text-muted\" }, [\n                      _vm._v(\n                        \"\\n            A nice toast with a message\\n          \"\n                      )\n                    ])\n                  ]),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { lg: \"8\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-secondary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\"Prepend Toast\", \"Toast content\")\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Prepend Toast\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [_vm._v(\"this.toast('Title', 'Content')\")])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-secondary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Append Toast\",\n                                \"Toast content\",\n                                null,\n                                true\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Append Toast\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\"this.toast('Title', 'Content', null, true)\")\n                        ])\n                      ])\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\"h4\", { staticClass: \"border-bottom pb-2\" }, [\n                _vm._v(\"Position\")\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                { staticClass: \"items-push\" },\n                [\n                  _c(\"b-col\", { attrs: { lg: \"4\" } }, [\n                    _c(\"p\", { staticClass: \"font-size-sm text-muted\" }, [\n                      _vm._v(\n                        \"\\n            You can show your notification in multiple screen positions\\n          \"\n                      )\n                    ])\n                  ]),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { lg: \"8\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-primary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Top Right Toast\",\n                                \"Toast content\",\n                                null,\n                                false,\n                                \"b-toaster-top-right\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Top Right Toast\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\n                            \"this.toast('Title', 'Content', null, false, 'b-toaster-top-right')\"\n                          )\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-primary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Top Left Toast\",\n                                \"Toast content\",\n                                null,\n                                false,\n                                \"b-toaster-top-left\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Top Left Toast\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\n                            \"this.toast('Title', 'Content', null, false, 'b-toaster-top-left')\"\n                          )\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-primary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Top Center Toast\",\n                                \"Toast content\",\n                                null,\n                                false,\n                                \"b-toaster-top-center\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Top Center Toast\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\n                            \"this.toast('Title', 'Content', null, false, 'b-toaster-top-center')\"\n                          )\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-primary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Top Full Toast\",\n                                \"Toast content\",\n                                null,\n                                false,\n                                \"b-toaster-top-full\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Top Full Toast\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\n                            \"this.toast('Title', 'Content', null, false, 'b-toaster-top-full')\"\n                          )\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-primary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Bottom Right Toast\",\n                                \"Toast content\",\n                                null,\n                                false,\n                                \"b-toaster-bottom-right\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Bottom Right Toast\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\n                            \"this.toast('Title', 'Content', null, false, 'b-toaster-bottom-right')\"\n                          )\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-primary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Bottom Left Toast\",\n                                \"Toast content\",\n                                null,\n                                false,\n                                \"b-toaster-bottom-left\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Bottom Left Toast\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\n                            \"this.toast('Title', 'Content', null, false, 'b-toaster-bottom-left')\"\n                          )\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-primary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Bottom Center Toast\",\n                                \"Toast content\",\n                                null,\n                                false,\n                                \"b-toaster-bottom-center\"\n                              )\n                            }\n                          }\n                        },\n                        [\n                          _vm._v(\n                            \"\\n            Bottom Center Toast\\n          \"\n                          )\n                        ]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\n                            \"this.toast('Title', 'Content', null, false, 'b-toaster-bottom-center')\"\n                          )\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-primary\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Bottom Full Toast\",\n                                \"Toast content\",\n                                null,\n                                false,\n                                \"b-toaster-bottom-full\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Bottom Full Toast\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\n                            \"this.toast('Title', 'Content', null, false, 'b-toaster-bottom-full')\"\n                          )\n                        ])\n                      ])\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\"h4\", { staticClass: \"border-bottom pb-2\" }, [\n                _vm._v(\"Variants\")\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                { staticClass: \"items-push\" },\n                [\n                  _c(\"b-col\", { attrs: { lg: \"4\" } }, [\n                    _c(\"p\", { staticClass: \"font-size-sm text-muted\" }, [\n                      _vm._v(\n                        \"\\n            You can also specify color variations\\n          \"\n                      )\n                    ])\n                  ]),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { lg: \"8\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-success\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Success Toast\",\n                                \"Toast content\",\n                                \"success\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Success\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\"this.toast('Title', 'Content', 'success')\")\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-info\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Info Toast\",\n                                \"Toast content\",\n                                \"info\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Info\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\"this.toast('Title', 'Content', 'info')\")\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-warning\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Warning Toast\",\n                                \"Toast content\",\n                                \"warning\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Warning\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\"this.toast('Title', 'Content', 'warning')\")\n                        ])\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-button\",\n                        {\n                          staticClass: \"push\",\n                          attrs: { variant: \"alt-danger\" },\n                          on: {\n                            click: function($event) {\n                              return _vm.toast(\n                                \"Danger Toast\",\n                                \"Toast content\",\n                                \"danger\"\n                              )\n                            }\n                          }\n                        },\n                        [_vm._v(\"\\n            Danger\\n          \")]\n                      ),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"font-w600 mb-0\" }, [\n                        _vm._v(\"\\n            JS code:\\n          \")\n                      ]),\n                      _vm._v(\" \"),\n                      _c(\"p\", { staticClass: \"mb-5\" }, [\n                        _c(\"code\", [\n                          _vm._v(\"this.toast('Title', 'Content', 'danger')\")\n                        ])\n                      ])\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          )\n        ],\n        1\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BsdWdpbnMvTm90aWZpY2F0aW9ucy52dWU/Nzc3ZCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsU0FBUztBQUNUO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsbUJBQW1CLGdDQUFnQztBQUNuRDtBQUNBO0FBQ0E7QUFDQSx1QkFBdUIsU0FBUyw2QkFBNkIsRUFBRTtBQUMvRDtBQUNBO0FBQ0E7QUFDQSw2Q0FBNkMsU0FBUyxhQUFhLEVBQUU7QUFDckU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsYUFBYTtBQUNiO0FBQ0E7QUFDQTtBQUNBLE9BQU87QUFDUDtBQUNBO0FBQ0E7QUFDQSxTQUFTLHlCQUF5QjtBQUNsQztBQUNBO0FBQ0E7QUFDQSxhQUFhLFNBQVMsNEJBQTRCLEVBQUU7QUFDcEQ7QUFDQSx3QkFBd0Isb0NBQW9DO0FBQzVEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFBaUIsNEJBQTRCO0FBQzdDO0FBQ0EsK0JBQStCLFNBQVMsVUFBVSxFQUFFO0FBQ3BELDZCQUE2Qix5Q0FBeUM7QUFDdEU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQixTQUFTLFVBQVUsRUFBRTtBQUMxQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLDJCQUEyQjtBQUM3RDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnQ0FBZ0M7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGtDQUFrQywyQkFBMkI7QUFDN0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx5QkFBeUI7QUFDekI7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLGdDQUFnQztBQUMvRDtBQUNBO0FBQ0E7QUFDQSwrQkFBK0Isc0JBQXNCO0FBQ3JEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx3QkFBd0Isb0NBQW9DO0FBQzVEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFBaUIsNEJBQTRCO0FBQzdDO0FBQ0EsK0JBQStCLFNBQVMsVUFBVSxFQUFFO0FBQ3BELDZCQUE2Qix5Q0FBeUM7QUFDdEU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQixTQUFTLFVBQVUsRUFBRTtBQUMxQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLHlCQUF5QjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnQ0FBZ0M7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLHlCQUF5QjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnQ0FBZ0M7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLHlCQUF5QjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnQ0FBZ0M7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLHlCQUF5QjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnQ0FBZ0M7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLHlCQUF5QjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnQ0FBZ0M7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLHlCQUF5QjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnQ0FBZ0M7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLHlCQUF5QjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLGdDQUFnQztBQUMvRDtBQUNBO0FBQ0E7QUFDQSwrQkFBK0Isc0JBQXNCO0FBQ3JEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxrQ0FBa0MseUJBQXlCO0FBQzNEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx5QkFBeUI7QUFDekI7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLGdDQUFnQztBQUMvRDtBQUNBO0FBQ0E7QUFDQSwrQkFBK0Isc0JBQXNCO0FBQ3JEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esd0JBQXdCLG9DQUFvQztBQUM1RDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLDRCQUE0QjtBQUM3QztBQUNBLCtCQUErQixTQUFTLFVBQVUsRUFBRTtBQUNwRCw2QkFBNkIseUNBQXlDO0FBQ3RFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxxQkFBcUIsU0FBUyxVQUFVLEVBQUU7QUFDMUM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGtDQUFrQyx5QkFBeUI7QUFDM0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnQ0FBZ0M7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxrQ0FBa0Msc0JBQXNCO0FBQ3hEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHlCQUF5QjtBQUN6QjtBQUNBO0FBQ0E7QUFDQSwrQkFBK0IsZ0NBQWdDO0FBQy9EO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixzQkFBc0I7QUFDckQ7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDLHlCQUF5QjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx5QkFBeUI7QUFDekI7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLGdDQUFnQztBQUMvRDtBQUNBO0FBQ0E7QUFDQSwrQkFBK0Isc0JBQXNCO0FBQ3JEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGtDQUFrQyx3QkFBd0I7QUFDMUQ7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBLCtCQUErQixnQ0FBZ0M7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsK0JBQStCLHNCQUFzQjtBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsImZpbGUiOiIuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9sb2FkZXJzL3RlbXBsYXRlTG9hZGVyLmpzPyEuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8hLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BsdWdpbnMvTm90aWZpY2F0aW9ucy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9ZGFmYWQ5MDImLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIHJlbmRlciA9IGZ1bmN0aW9uKCkge1xuICB2YXIgX3ZtID0gdGhpc1xuICB2YXIgX2ggPSBfdm0uJGNyZWF0ZUVsZW1lbnRcbiAgdmFyIF9jID0gX3ZtLl9zZWxmLl9jIHx8IF9oXG4gIHJldHVybiBfYyhcbiAgICBcImRpdlwiLFxuICAgIFtcbiAgICAgIF9jKFwiYmFzZS1wYWdlLWhlYWRpbmdcIiwge1xuICAgICAgICBhdHRyczoge1xuICAgICAgICAgIHRpdGxlOiBcIk5vdGlmaWNhdGlvbnNcIixcbiAgICAgICAgICBzdWJ0aXRsZTogXCJQb3dlcmZ1bCBhbGVydHMgZm9yIHlvdXIgYXBwbGljYXRpb24uXCJcbiAgICAgICAgfSxcbiAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAge1xuICAgICAgICAgICAga2V5OiBcImV4dHJhXCIsXG4gICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICBcImItYnJlYWRjcnVtYlwiLFxuICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJicmVhZGNydW1iLWFsdFwiIH0sXG4gICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgIFwiYi1icmVhZGNydW1iLWl0ZW1cIixcbiAgICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IGhyZWY6IFwiamF2YXNjcmlwdDp2b2lkKDApXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJQbHVnaW5zXCIpXVxuICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICBfYyhcImItYnJlYWRjcnVtYi1pdGVtXCIsIHsgYXR0cnM6IHsgYWN0aXZlOiBcIlwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIk5vdGlmaWNhdGlvbnNcIilcbiAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICBdXG4gICAgICAgICAgICB9LFxuICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICB9XG4gICAgICAgIF0pXG4gICAgICB9KSxcbiAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICBfYyhcbiAgICAgICAgXCJkaXZcIixcbiAgICAgICAgeyBzdGF0aWNDbGFzczogXCJjb250ZW50XCIgfSxcbiAgICAgICAgW1xuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICB7IGF0dHJzOiB7IHRpdGxlOiBcIkJvb3RzdHJhcCBUb2FzdHNcIiB9IH0sXG4gICAgICAgICAgICBbXG4gICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJib3JkZXItYm90dG9tIHBiLTJcIiB9LCBbXG4gICAgICAgICAgICAgICAgX3ZtLl92KFwiRGVmYXVsdFwiKVxuICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLXJvd1wiLFxuICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiaXRlbXMtcHVzaFwiIH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXCJiLWNvbFwiLCB7IGF0dHJzOiB7IGxnOiBcIjRcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLXNtIHRleHQtbXV0ZWRcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICBBIG5pY2UgdG9hc3Qgd2l0aCBhIG1lc3NhZ2VcXG4gICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IGxnOiBcIjhcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwicHVzaFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB2YXJpYW50OiBcImFsdC1zZWNvbmRhcnlcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0udG9hc3QoXCJQcmVwZW5kIFRvYXN0XCIsIFwiVG9hc3QgY29udGVudFwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJcXG4gICAgICAgICAgICBQcmVwZW5kIFRvYXN0XFxuICAgICAgICAgIFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NjAwIG1iLTBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJcXG4gICAgICAgICAgICBKUyBjb2RlOlxcbiAgICAgICAgICBcIilcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW192bS5fdihcInRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnKVwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwicHVzaFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB2YXJpYW50OiBcImFsdC1zZWNvbmRhcnlcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0udG9hc3QoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiQXBwZW5kIFRvYXN0XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiVG9hc3QgY29udGVudFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnVlXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlxcbiAgICAgICAgICAgIEFwcGVuZCBUb2FzdFxcbiAgICAgICAgICBcIildXG4gICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzYwMCBtYi0wXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiXFxuICAgICAgICAgICAgSlMgY29kZTpcXG4gICAgICAgICAgXCIpXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJtYi01XCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwidGhpcy50b2FzdCgnVGl0bGUnLCAnQ29udGVudCcsIG51bGwsIHRydWUpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXCJoNFwiLCB7IHN0YXRpY0NsYXNzOiBcImJvcmRlci1ib3R0b20gcGItMlwiIH0sIFtcbiAgICAgICAgICAgICAgICBfdm0uX3YoXCJQb3NpdGlvblwiKVxuICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLXJvd1wiLFxuICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiaXRlbXMtcHVzaFwiIH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXCJiLWNvbFwiLCB7IGF0dHJzOiB7IGxnOiBcIjRcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLXNtIHRleHQtbXV0ZWRcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICBZb3UgY2FuIHNob3cgeW91ciBub3RpZmljYXRpb24gaW4gbXVsdGlwbGUgc2NyZWVuIHBvc2l0aW9uc1xcbiAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgbGc6IFwiOFwiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJwdXNoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IFwiYWx0LXByaW1hcnlcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0udG9hc3QoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiVG9wIFJpZ2h0IFRvYXN0XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiVG9hc3QgY29udGVudFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBudWxsLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWxzZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRvYXN0ZXItdG9wLXJpZ2h0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiXFxuICAgICAgICAgICAgVG9wIFJpZ2h0IFRvYXN0XFxuICAgICAgICAgIFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NjAwIG1iLTBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJcXG4gICAgICAgICAgICBKUyBjb2RlOlxcbiAgICAgICAgICBcIilcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ0aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgbnVsbCwgZmFsc2UsICdiLXRvYXN0ZXItdG9wLXJpZ2h0JylcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInB1c2hcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdmFyaWFudDogXCJhbHQtcHJpbWFyeVwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF92bS50b2FzdChcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJUb3AgTGVmdCBUb2FzdFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlRvYXN0IGNvbnRlbnRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbnVsbCxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10b2FzdGVyLXRvcC1sZWZ0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiXFxuICAgICAgICAgICAgVG9wIExlZnQgVG9hc3RcXG4gICAgICAgICAgXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXc2MDAgbWItMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlxcbiAgICAgICAgICAgIEpTIGNvZGU6XFxuICAgICAgICAgIFwiKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwibWItNVwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiY29kZVwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci10b3AtbGVmdCcpXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJwdXNoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IFwiYWx0LXByaW1hcnlcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0udG9hc3QoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiVG9wIENlbnRlciBUb2FzdFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlRvYXN0IGNvbnRlbnRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbnVsbCxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10b2FzdGVyLXRvcC1jZW50ZXJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJcXG4gICAgICAgICAgICBUb3AgQ2VudGVyIFRvYXN0XFxuICAgICAgICAgIFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NjAwIG1iLTBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJcXG4gICAgICAgICAgICBKUyBjb2RlOlxcbiAgICAgICAgICBcIilcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ0aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgbnVsbCwgZmFsc2UsICdiLXRvYXN0ZXItdG9wLWNlbnRlcicpXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJwdXNoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IFwiYWx0LXByaW1hcnlcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0udG9hc3QoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiVG9wIEZ1bGwgVG9hc3RcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJUb2FzdCBjb250ZW50XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZhbHNlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdG9hc3Rlci10b3AtZnVsbFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlxcbiAgICAgICAgICAgIFRvcCBGdWxsIFRvYXN0XFxuICAgICAgICAgIFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NjAwIG1iLTBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJcXG4gICAgICAgICAgICBKUyBjb2RlOlxcbiAgICAgICAgICBcIilcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ0aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgbnVsbCwgZmFsc2UsICdiLXRvYXN0ZXItdG9wLWZ1bGwnKVwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwicHVzaFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB2YXJpYW50OiBcImFsdC1wcmltYXJ5XCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgb246IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLnRvYXN0KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIkJvdHRvbSBSaWdodCBUb2FzdFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlRvYXN0IGNvbnRlbnRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbnVsbCxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10b2FzdGVyLWJvdHRvbS1yaWdodFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlxcbiAgICAgICAgICAgIEJvdHRvbSBSaWdodCBUb2FzdFxcbiAgICAgICAgICBcIildXG4gICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzYwMCBtYi0wXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiXFxuICAgICAgICAgICAgSlMgY29kZTpcXG4gICAgICAgICAgXCIpXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJtYi01XCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwidGhpcy50b2FzdCgnVGl0bGUnLCAnQ29udGVudCcsIG51bGwsIGZhbHNlLCAnYi10b2FzdGVyLWJvdHRvbS1yaWdodCcpXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJwdXNoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IFwiYWx0LXByaW1hcnlcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0udG9hc3QoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiQm90dG9tIExlZnQgVG9hc3RcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJUb2FzdCBjb250ZW50XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZhbHNlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdG9hc3Rlci1ib3R0b20tbGVmdFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlxcbiAgICAgICAgICAgIEJvdHRvbSBMZWZ0IFRvYXN0XFxuICAgICAgICAgIFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NjAwIG1iLTBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJcXG4gICAgICAgICAgICBKUyBjb2RlOlxcbiAgICAgICAgICBcIilcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ0aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgbnVsbCwgZmFsc2UsICdiLXRvYXN0ZXItYm90dG9tLWxlZnQnKVwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwicHVzaFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB2YXJpYW50OiBcImFsdC1wcmltYXJ5XCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgb246IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLnRvYXN0KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIkJvdHRvbSBDZW50ZXIgVG9hc3RcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJUb2FzdCBjb250ZW50XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZhbHNlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdG9hc3Rlci1ib3R0b20tY2VudGVyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgIEJvdHRvbSBDZW50ZXIgVG9hc3RcXG4gICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXc2MDAgbWItMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlxcbiAgICAgICAgICAgIEpTIGNvZGU6XFxuICAgICAgICAgIFwiKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwibWItNVwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiY29kZVwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci1ib3R0b20tY2VudGVyJylcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInB1c2hcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdmFyaWFudDogXCJhbHQtcHJpbWFyeVwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF92bS50b2FzdChcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJCb3R0b20gRnVsbCBUb2FzdFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlRvYXN0IGNvbnRlbnRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbnVsbCxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10b2FzdGVyLWJvdHRvbS1mdWxsXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiXFxuICAgICAgICAgICAgQm90dG9tIEZ1bGwgVG9hc3RcXG4gICAgICAgICAgXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXc2MDAgbWItMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlxcbiAgICAgICAgICAgIEpTIGNvZGU6XFxuICAgICAgICAgIFwiKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwibWItNVwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiY29kZVwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnLCBudWxsLCBmYWxzZSwgJ2ItdG9hc3Rlci1ib3R0b20tZnVsbCcpXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFwiaDRcIiwgeyBzdGF0aWNDbGFzczogXCJib3JkZXItYm90dG9tIHBiLTJcIiB9LCBbXG4gICAgICAgICAgICAgICAgX3ZtLl92KFwiVmFyaWFudHNcIilcbiAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1yb3dcIixcbiAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcIml0ZW1zLXB1c2hcIiB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFwiYi1jb2xcIiwgeyBhdHRyczogeyBsZzogXCI0XCIgfSB9LCBbXG4gICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtc2l6ZS1zbSB0ZXh0LW11dGVkXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgWW91IGNhbiBhbHNvIHNwZWNpZnkgY29sb3IgdmFyaWF0aW9uc1xcbiAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgbGc6IFwiOFwiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJwdXNoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IFwiYWx0LXN1Y2Nlc3NcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0udG9hc3QoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiU3VjY2VzcyBUb2FzdFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlRvYXN0IGNvbnRlbnRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJzdWNjZXNzXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiXFxuICAgICAgICAgICAgU3VjY2Vzc1xcbiAgICAgICAgICBcIildXG4gICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzYwMCBtYi0wXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiXFxuICAgICAgICAgICAgSlMgY29kZTpcXG4gICAgICAgICAgXCIpXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJtYi01XCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwidGhpcy50b2FzdCgnVGl0bGUnLCAnQ29udGVudCcsICdzdWNjZXNzJylcIilcbiAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwicHVzaFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB2YXJpYW50OiBcImFsdC1pbmZvXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgb246IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLnRvYXN0KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIkluZm8gVG9hc3RcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJUb2FzdCBjb250ZW50XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiaW5mb1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlxcbiAgICAgICAgICAgIEluZm9cXG4gICAgICAgICAgXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXc2MDAgbWItMFwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlxcbiAgICAgICAgICAgIEpTIGNvZGU6XFxuICAgICAgICAgIFwiKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwibWItNVwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiY29kZVwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcInRoaXMudG9hc3QoJ1RpdGxlJywgJ0NvbnRlbnQnLCAnaW5mbycpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInB1c2hcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdmFyaWFudDogXCJhbHQtd2FybmluZ1wiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF92bS50b2FzdChcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJXYXJuaW5nIFRvYXN0XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiVG9hc3QgY29udGVudFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIndhcm5pbmdcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJcXG4gICAgICAgICAgICBXYXJuaW5nXFxuICAgICAgICAgIFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NjAwIG1iLTBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJcXG4gICAgICAgICAgICBKUyBjb2RlOlxcbiAgICAgICAgICBcIilcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJ0aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgJ3dhcm5pbmcnKVwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJwdXNoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IFwiYWx0LWRhbmdlclwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF92bS50b2FzdChcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJEYW5nZXIgVG9hc3RcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJUb2FzdCBjb250ZW50XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiZGFuZ2VyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiXFxuICAgICAgICAgICAgRGFuZ2VyXFxuICAgICAgICAgIFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NjAwIG1iLTBcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJcXG4gICAgICAgICAgICBKUyBjb2RlOlxcbiAgICAgICAgICBcIilcbiAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTVcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJ0aGlzLnRvYXN0KCdUaXRsZScsICdDb250ZW50JywgJ2RhbmdlcicpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgXSxcbiAgICAgICAgICAgIDFcbiAgICAgICAgICApXG4gICAgICAgIF0sXG4gICAgICAgIDFcbiAgICAgIClcbiAgICBdLFxuICAgIDFcbiAgKVxufVxudmFyIHN0YXRpY1JlbmRlckZucyA9IFtdXG5yZW5kZXIuX3dpdGhTdHJpcHBlZCA9IHRydWVcblxuZXhwb3J0IHsgcmVuZGVyLCBzdGF0aWNSZW5kZXJGbnMgfSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          title: "Notifications",
+          subtitle: "Powerful alerts for your application."
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Plugins")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Notifications")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { attrs: { title: "Bootstrap Toasts" } },
+            [
+              _c("h4", { staticClass: "border-bottom pb-2" }, [
+                _vm._v("Default")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n            A nice toast with a message\n          "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-secondary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast("Prepend Toast", "Toast content")
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Prepend Toast\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [_vm._v("this.toast('Title', 'Content')")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-secondary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Append Toast",
+                                "Toast content",
+                                null,
+                                true
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Append Toast\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', null, true)")
+                        ])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("h4", { staticClass: "border-bottom pb-2" }, [
+                _vm._v("Position")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n            You can show your notification in multiple screen positions\n          "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Top Right Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-top-right"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Top Right Toast\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-top-right')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Top Left Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-top-left"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Top Left Toast\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-top-left')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Top Center Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-top-center"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Top Center Toast\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-top-center')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Top Full Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-top-full"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Top Full Toast\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-top-full')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Bottom Right Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-bottom-right"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Bottom Right Toast\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-bottom-right')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Bottom Left Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-bottom-left"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Bottom Left Toast\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-bottom-left')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Bottom Center Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-bottom-center"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n            Bottom Center Toast\n          "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-bottom-center')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Bottom Full Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-bottom-full"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Bottom Full Toast\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-bottom-full')"
+                          )
+                        ])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("h4", { staticClass: "border-bottom pb-2" }, [
+                _vm._v("Variants")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n            You can also specify color variations\n          "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-success" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Success Toast",
+                                "Toast content",
+                                "success"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Success\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', 'success')")
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-info" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Info Toast",
+                                "Toast content",
+                                "info"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Info\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', 'info')")
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-warning" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Warning Toast",
+                                "Toast content",
+                                "warning"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Warning\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', 'warning')")
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-danger" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Danger Toast",
+                                "Toast content",
+                                "danger"
+                              )
+                            }
+                          }
+                        },
+                        [_vm._v("\n            Danger\n          ")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v("\n            JS code:\n          ")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', 'danger')")
+                        ])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -32,7 +802,32 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Notifications.vue?vue&type=template&id=dafad902& */ \"./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&\");\n/* harmony import */ var _Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Notifications.vue?vue&type=script&lang=js& */ \"./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/js/src/views/plugins/Notifications.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BsdWdpbnMvTm90aWZpY2F0aW9ucy52dWU/YTA3MSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUE0RjtBQUMzQjtBQUNMOzs7QUFHNUQ7QUFDbUc7QUFDbkcsZ0JBQWdCLDJHQUFVO0FBQzFCLEVBQUUsbUZBQU07QUFDUixFQUFFLHdGQUFNO0FBQ1IsRUFBRSxpR0FBZTtBQUNqQjtBQUNBO0FBQ0E7QUFDQTs7QUFFQTs7QUFFQTtBQUNBLElBQUksS0FBVSxFQUFFLFlBaUJmO0FBQ0Q7QUFDZSxnRiIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9zcmMvdmlld3MvcGx1Z2lucy9Ob3RpZmljYXRpb25zLnZ1ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHJlbmRlciwgc3RhdGljUmVuZGVyRm5zIH0gZnJvbSBcIi4vTm90aWZpY2F0aW9ucy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9ZGFmYWQ5MDImXCJcbmltcG9ydCBzY3JpcHQgZnJvbSBcIi4vTm90aWZpY2F0aW9ucy52dWU/dnVlJnR5cGU9c2NyaXB0Jmxhbmc9anMmXCJcbmV4cG9ydCAqIGZyb20gXCIuL05vdGlmaWNhdGlvbnMudnVlP3Z1ZSZ0eXBlPXNjcmlwdCZsYW5nPWpzJlwiXG5cblxuLyogbm9ybWFsaXplIGNvbXBvbmVudCAqL1xuaW1wb3J0IG5vcm1hbGl6ZXIgZnJvbSBcIiEuLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvcnVudGltZS9jb21wb25lbnROb3JtYWxpemVyLmpzXCJcbnZhciBjb21wb25lbnQgPSBub3JtYWxpemVyKFxuICBzY3JpcHQsXG4gIHJlbmRlcixcbiAgc3RhdGljUmVuZGVyRm5zLFxuICBmYWxzZSxcbiAgbnVsbCxcbiAgbnVsbCxcbiAgbnVsbFxuICBcbilcblxuLyogaG90IHJlbG9hZCAqL1xuaWYgKG1vZHVsZS5ob3QpIHtcbiAgdmFyIGFwaSA9IHJlcXVpcmUoXCJDOlxcXFxVc2Vyc1xcXFxtYWxvaFxcXFxEZXNrdG9wXFxcXERtc1YyXFxcXG5vZGVfbW9kdWxlc1xcXFx2dWUtaG90LXJlbG9hZC1hcGlcXFxcZGlzdFxcXFxpbmRleC5qc1wiKVxuICBhcGkuaW5zdGFsbChyZXF1aXJlKCd2dWUnKSlcbiAgaWYgKGFwaS5jb21wYXRpYmxlKSB7XG4gICAgbW9kdWxlLmhvdC5hY2NlcHQoKVxuICAgIGlmICghYXBpLmlzUmVjb3JkZWQoJ2RhZmFkOTAyJykpIHtcbiAgICAgIGFwaS5jcmVhdGVSZWNvcmQoJ2RhZmFkOTAyJywgY29tcG9uZW50Lm9wdGlvbnMpXG4gICAgfSBlbHNlIHtcbiAgICAgIGFwaS5yZWxvYWQoJ2RhZmFkOTAyJywgY29tcG9uZW50Lm9wdGlvbnMpXG4gICAgfVxuICAgIG1vZHVsZS5ob3QuYWNjZXB0KFwiLi9Ob3RpZmljYXRpb25zLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD1kYWZhZDkwMiZcIiwgZnVuY3Rpb24gKCkge1xuICAgICAgYXBpLnJlcmVuZGVyKCdkYWZhZDkwMicsIHtcbiAgICAgICAgcmVuZGVyOiByZW5kZXIsXG4gICAgICAgIHN0YXRpY1JlbmRlckZuczogc3RhdGljUmVuZGVyRm5zXG4gICAgICB9KVxuICAgIH0pXG4gIH1cbn1cbmNvbXBvbmVudC5vcHRpb25zLl9fZmlsZSA9IFwicmVzb3VyY2VzL2pzL3NyYy92aWV3cy9wbHVnaW5zL05vdGlmaWNhdGlvbnMudnVlXCJcbmV4cG9ydCBkZWZhdWx0IGNvbXBvbmVudC5leHBvcnRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/src/views/plugins/Notifications.vue\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Notifications.vue?vue&type=template&id=dafad902& */ "./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&");
+/* harmony import */ var _Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Notifications.vue?vue&type=script&lang=js& */ "./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/plugins/Notifications.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -44,7 +839,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Not
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Notifications.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); //# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BsdWdpbnMvTm90aWZpY2F0aW9ucy52dWU/NDcwMCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUEsd0NBQXlNLENBQWdCLHlQQUFHLEVBQUMiLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BsdWdpbnMvTm90aWZpY2F0aW9ucy52dWU/dnVlJnR5cGU9c2NyaXB0Jmxhbmc9anMmLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IG1vZCBmcm9tIFwiLSEuLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvYmFiZWwtbG9hZGVyL2xpYi9pbmRleC5qcz8/cmVmLS00LTAhLi4vLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPz92dWUtbG9hZGVyLW9wdGlvbnMhLi9Ob3RpZmljYXRpb25zLnZ1ZT92dWUmdHlwZT1zY3JpcHQmbGFuZz1qcyZcIjsgZXhwb3J0IGRlZmF1bHQgbW9kOyBleHBvcnQgKiBmcm9tIFwiLSEuLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvYmFiZWwtbG9hZGVyL2xpYi9pbmRleC5qcz8/cmVmLS00LTAhLi4vLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPz92dWUtbG9hZGVyLW9wdGlvbnMhLi9Ob3RpZmljYXRpb25zLnZ1ZT92dWUmdHlwZT1zY3JpcHQmbGFuZz1qcyZcIiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Notifications.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -56,7 +853,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Notifications.vue?vue&type=template&id=dafad902& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BsdWdpbnMvTm90aWZpY2F0aW9ucy52dWU/NWMyZCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEiLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BsdWdpbnMvTm90aWZpY2F0aW9ucy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9ZGFmYWQ5MDImLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcIi0hLi4vLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2xvYWRlcnMvdGVtcGxhdGVMb2FkZXIuanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuL05vdGlmaWNhdGlvbnMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPWRhZmFkOTAyJlwiIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Notifications.vue?vue&type=template&id=dafad902& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 

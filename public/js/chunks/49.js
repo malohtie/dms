@@ -8,7 +8,583 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\"base-page-heading\", {\n        attrs: {\n          title: \"Tooltips\",\n          subtitle: \"Attach optional info to an element.\"\n        },\n        scopedSlots: _vm._u([\n          {\n            key: \"extra\",\n            fn: function() {\n              return [\n                _c(\n                  \"b-breadcrumb\",\n                  { staticClass: \"breadcrumb-alt\" },\n                  [\n                    _c(\n                      \"b-breadcrumb-item\",\n                      { attrs: { href: \"javascript:void(0)\" } },\n                      [_vm._v(\"Elements\")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\"b-breadcrumb-item\", { attrs: { active: \"\" } }, [\n                      _vm._v(\"Tooltips\")\n                    ])\n                  ],\n                  1\n                )\n              ]\n            },\n            proxy: true\n          }\n        ])\n      }),\n      _vm._v(\" \"),\n      _c(\n        \"div\",\n        { staticClass: \"content\" },\n        [\n          _c(\n            \"base-block\",\n            { attrs: { title: \"Default\" } },\n            [\n              _c(\"p\", { staticClass: \"font-size-sm text-muted\" }, [\n                _vm._v(\"\\n        Show tooltips on hover\\n      \")\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                { staticClass: \"items-push text-center\" },\n                [\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.nofade.top\",\n                              value: \"Top Tooltip\",\n                              expression: \"'Top Tooltip'\",\n                              modifiers: {\n                                hover: true,\n                                nofade: true,\n                                top: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"primary\", block: \"\" }\n                        },\n                        [_vm._v(\"Top\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.nofade.right\",\n                              value: \"Right Tooltip\",\n                              expression: \"'Right Tooltip'\",\n                              modifiers: {\n                                hover: true,\n                                nofade: true,\n                                right: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"primary\", block: \"\" }\n                        },\n                        [_vm._v(\"Right\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.nofade.bottom\",\n                              value: \"Bottom Tooltip\",\n                              expression: \"'Bottom Tooltip'\",\n                              modifiers: {\n                                hover: true,\n                                nofade: true,\n                                bottom: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"primary\", block: \"\" }\n                        },\n                        [_vm._v(\"Bottom\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.nofade.left\",\n                              value: \"Left Tooltip\",\n                              expression: \"'Left Tooltip'\",\n                              modifiers: {\n                                hover: true,\n                                nofade: true,\n                                left: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"primary\", block: \"\" }\n                        },\n                        [_vm._v(\"Left\")]\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\n            \"base-block\",\n            { attrs: { title: \"Click Triggered\" } },\n            [\n              _c(\"p\", { staticClass: \"font-size-sm text-muted\" }, [\n                _vm._v(\"\\n        Show tooltips on hover\\n      \")\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                { staticClass: \"items-push text-center\" },\n                [\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.click.nofade.top\",\n                              value: \"Top Tooltip\",\n                              expression: \"'Top Tooltip'\",\n                              modifiers: {\n                                click: true,\n                                nofade: true,\n                                top: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Top\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.click.nofade.right\",\n                              value: \"Right Tooltip\",\n                              expression: \"'Right Tooltip'\",\n                              modifiers: {\n                                click: true,\n                                nofade: true,\n                                right: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Right\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.click.nofade.bottom\",\n                              value: \"Bottom Tooltip\",\n                              expression: \"'Bottom Tooltip'\",\n                              modifiers: {\n                                click: true,\n                                nofade: true,\n                                bottom: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Bottom\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.click.nofade.left\",\n                              value: \"Left Tooltip\",\n                              expression: \"'Left Tooltip'\",\n                              modifiers: {\n                                click: true,\n                                nofade: true,\n                                left: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Left\")]\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\n            \"base-block\",\n            { attrs: { title: \"Animation\" } },\n            [\n              _c(\"p\", { staticClass: \"font-size-sm text-muted\" }, [\n                _vm._v(\n                  \"\\n        You can enable a fade animation to your tooltips\\n      \"\n                )\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                { staticClass: \"items-push text-center\" },\n                [\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.top\",\n                              value: \"Top Tooltip\",\n                              expression: \"'Top Tooltip'\",\n                              modifiers: { hover: true, top: true }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Top\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.right\",\n                              value: \"Right Tooltip\",\n                              expression: \"'Right Tooltip'\",\n                              modifiers: { hover: true, right: true }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Right\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.bottom\",\n                              value: \"Bottom Tooltip\",\n                              expression: \"'Bottom Tooltip'\",\n                              modifiers: { hover: true, bottom: true }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Bottom\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.left\",\n                              value: \"Left Tooltip\",\n                              expression: \"'Left Tooltip'\",\n                              modifiers: { hover: true, left: true }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Left\")]\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\n            \"base-block\",\n            { attrs: { title: \"HTML\" } },\n            [\n              _c(\"p\", { staticClass: \"font-size-sm text-muted\" }, [\n                _vm._v(\n                  \"\\n        You can add HTML in your tooltips as well\\n      \"\n                )\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                { staticClass: \"items-push text-center\" },\n                [\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.html.nofade.top\",\n                              value:\n                                \"<img class='img-avatar' src='images/avatars/avatar10.jpg' alt=''>\",\n                              expression:\n                                \"'<img class=\\\\'img-avatar\\\\' src=\\\\'images/avatars/avatar10.jpg\\\\' alt=\\\\'\\\\'>'\",\n                              modifiers: {\n                                hover: true,\n                                html: true,\n                                nofade: true,\n                                top: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Top\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.html.nofade.right\",\n                              value:\n                                \"<img class='img-avatar' src='images/avatars/avatar10.jpg' alt=''>\",\n                              expression:\n                                \"'<img class=\\\\'img-avatar\\\\' src=\\\\'images/avatars/avatar10.jpg\\\\' alt=\\\\'\\\\'>'\",\n                              modifiers: {\n                                hover: true,\n                                html: true,\n                                nofade: true,\n                                right: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Right\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.html.nofade.bottom\",\n                              value:\n                                \"<img class='img-avatar' src='images/avatars/avatar10.jpg' alt=''>\",\n                              expression:\n                                \"'<img class=\\\\'img-avatar\\\\' src=\\\\'images/avatars/avatar10.jpg\\\\' alt=\\\\'\\\\'>'\",\n                              modifiers: {\n                                hover: true,\n                                html: true,\n                                nofade: true,\n                                bottom: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Bottom\")]\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { sm: \"6\", xl: \"3\" } },\n                    [\n                      _c(\n                        \"b-button\",\n                        {\n                          directives: [\n                            {\n                              name: \"b-tooltip\",\n                              rawName: \"v-b-tooltip.hover.html.nofade.left\",\n                              value:\n                                \"<img class='img-avatar' src='images/avatars/avatar10.jpg' alt=''>\",\n                              expression:\n                                \"'<img class=\\\\'img-avatar\\\\' src=\\\\'images/avatars/avatar10.jpg\\\\' alt=\\\\'\\\\'>'\",\n                              modifiers: {\n                                hover: true,\n                                html: true,\n                                nofade: true,\n                                left: true\n                              }\n                            }\n                          ],\n                          attrs: { size: \"sm\", variant: \"secondary\", block: \"\" }\n                        },\n                        [_vm._v(\"Left\")]\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          )\n        ],\n        1\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2VsZW1lbnRzL1Rvb2x0aXBzLnZ1ZT85MDkwIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxTQUFTO0FBQ1Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxtQkFBbUIsZ0NBQWdDO0FBQ25EO0FBQ0E7QUFDQTtBQUNBLHVCQUF1QixTQUFTLDZCQUE2QixFQUFFO0FBQy9EO0FBQ0E7QUFDQTtBQUNBLDZDQUE2QyxTQUFTLGFBQWEsRUFBRTtBQUNyRTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxhQUFhO0FBQ2I7QUFDQTtBQUNBO0FBQ0EsT0FBTztBQUNQO0FBQ0E7QUFDQTtBQUNBLFNBQVMseUJBQXlCO0FBQ2xDO0FBQ0E7QUFDQTtBQUNBLGFBQWEsU0FBUyxtQkFBbUIsRUFBRTtBQUMzQztBQUNBLHVCQUF1Qix5Q0FBeUM7QUFDaEU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlCQUFpQix3Q0FBd0M7QUFDekQ7QUFDQTtBQUNBO0FBQ0EscUJBQXFCLFNBQVMsbUJBQW1CLEVBQUU7QUFDbkQ7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGtDQUFrQztBQUNsQyx5QkFBeUI7QUFDekI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQixTQUFTLG1CQUFtQixFQUFFO0FBQ25EO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxrQ0FBa0M7QUFDbEMseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtB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QTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxrQ0FBa0M7QUFDbEMseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxxQkFBcUIsU0FBUyxtQkFBbUIsRUFBRTtBQUNuRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esa0NBQWtDO0FBQ2xDLHlCQUF5QjtBQUN6QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6Ii4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2xvYWRlcnMvdGVtcGxhdGVMb2FkZXIuanM/IS4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPyEuL3Jlc291cmNlcy9qcy9zcmMvdmlld3MvZWxlbWVudHMvVG9vbHRpcHMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTI4ZWE0ZDZlJi5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciByZW5kZXIgPSBmdW5jdGlvbigpIHtcbiAgdmFyIF92bSA9IHRoaXNcbiAgdmFyIF9oID0gX3ZtLiRjcmVhdGVFbGVtZW50XG4gIHZhciBfYyA9IF92bS5fc2VsZi5fYyB8fCBfaFxuICByZXR1cm4gX2MoXG4gICAgXCJkaXZcIixcbiAgICBbXG4gICAgICBfYyhcImJhc2UtcGFnZS1oZWFkaW5nXCIsIHtcbiAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICB0aXRsZTogXCJUb29sdGlwc1wiLFxuICAgICAgICAgIHN1YnRpdGxlOiBcIkF0dGFjaCBvcHRpb25hbCBpbmZvIHRvIGFuIGVsZW1lbnQuXCJcbiAgICAgICAgfSxcbiAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAge1xuICAgICAgICAgICAga2V5OiBcImV4dHJhXCIsXG4gICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICBcImItYnJlYWRjcnVtYlwiLFxuICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJicmVhZGNydW1iLWFsdFwiIH0sXG4gICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgIFwiYi1icmVhZGNydW1iLWl0ZW1cIixcbiAgICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IGhyZWY6IFwiamF2YXNjcmlwdDp2b2lkKDApXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJFbGVtZW50c1wiKV1cbiAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgX2MoXCJiLWJyZWFkY3J1bWItaXRlbVwiLCB7IGF0dHJzOiB7IGFjdGl2ZTogXCJcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJUb29sdGlwc1wiKVxuICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgIF1cbiAgICAgICAgICAgIH0sXG4gICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgIH1cbiAgICAgICAgXSlcbiAgICAgIH0pLFxuICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgIF9jKFxuICAgICAgICBcImRpdlwiLFxuICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImNvbnRlbnRcIiB9LFxuICAgICAgICBbXG4gICAgICAgICAgX2MoXG4gICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgIHsgYXR0cnM6IHsgdGl0bGU6IFwiRGVmYXVsdFwiIH0gfSxcbiAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLXNtIHRleHQtbXV0ZWRcIiB9LCBbXG4gICAgICAgICAgICAgICAgX3ZtLl92KFwiXFxuICAgICAgICBTaG93IHRvb2x0aXBzIG9uIGhvdmVyXFxuICAgICAgXCIpXG4gICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJpdGVtcy1wdXNoIHRleHQtY2VudGVyXCIgfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHNtOiBcIjZcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBkaXJlY3RpdmVzOiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZTogXCJiLXRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhd05hbWU6IFwidi1iLXRvb2x0aXAuaG92ZXIubm9mYWRlLnRvcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU6IFwiVG9wIFRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb246IFwiJ1RvcCBUb29sdGlwJ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhvdmVyOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBub2ZhZGU6IHRydWUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvcDogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgc2l6ZTogXCJzbVwiLCB2YXJpYW50OiBcInByaW1hcnlcIiwgYmxvY2s6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJUb3BcIildXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiLCB4bDogXCIzXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGRpcmVjdGl2ZXM6IFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lOiBcImItdG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF3TmFtZTogXCJ2LWItdG9vbHRpcC5ob3Zlci5ub2ZhZGUucmlnaHRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOiBcIlJpZ2h0IFRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb246IFwiJ1JpZ2h0IFRvb2x0aXAnXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllcnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaG92ZXI6IHRydWUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vZmFkZTogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmlnaHQ6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHNpemU6IFwic21cIiwgdmFyaWFudDogXCJwcmltYXJ5XCIsIGJsb2NrOiBcIlwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiUmlnaHRcIildXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiLCB4bDogXCIzXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGRpcmVjdGl2ZXM6IFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lOiBcImItdG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF3TmFtZTogXCJ2LWItdG9vbHRpcC5ob3Zlci5ub2ZhZGUuYm90dG9tXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZTogXCJCb3R0b20gVG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwcmVzc2lvbjogXCInQm90dG9tIFRvb2x0aXAnXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllcnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaG92ZXI6IHRydWUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vZmFkZTogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm90dG9tOiB0cnVlXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBzaXplOiBcInNtXCIsIHZhcmlhbnQ6IFwicHJpbWFyeVwiLCBibG9jazogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkJvdHRvbVwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIHhsOiBcIjNcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZGlyZWN0aXZlczogW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU6IFwiYi10b29sdGlwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdOYW1lOiBcInYtYi10b29sdGlwLmhvdmVyLm5vZmFkZS5sZWZ0XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZTogXCJMZWZ0IFRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb246IFwiJ0xlZnQgVG9vbHRpcCdcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBob3ZlcjogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9mYWRlOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZWZ0OiB0cnVlXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBzaXplOiBcInNtXCIsIHZhcmlhbnQ6IFwicHJpbWFyeVwiLCBibG9jazogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkxlZnRcIildXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAxXG4gICAgICAgICAgKSxcbiAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICB7IGF0dHJzOiB7IHRpdGxlOiBcIkNsaWNrIFRyaWdnZXJlZFwiIH0gfSxcbiAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLXNtIHRleHQtbXV0ZWRcIiB9LCBbXG4gICAgICAgICAgICAgICAgX3ZtLl92KFwiXFxuICAgICAgICBTaG93IHRvb2x0aXBzIG9uIGhvdmVyXFxuICAgICAgXCIpXG4gICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJpdGVtcy1wdXNoIHRleHQtY2VudGVyXCIgfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHNtOiBcIjZcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBkaXJlY3RpdmVzOiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZTogXCJiLXRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhd05hbWU6IFwidi1iLXRvb2x0aXAuY2xpY2subm9mYWRlLnRvcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU6IFwiVG9wIFRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb246IFwiJ1RvcCBUb29sdGlwJ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBub2ZhZGU6IHRydWUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvcDogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgc2l6ZTogXCJzbVwiLCB2YXJpYW50OiBcInNlY29uZGFyeVwiLCBibG9jazogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlRvcFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIHhsOiBcIjNcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZGlyZWN0aXZlczogW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU6IFwiYi10b29sdGlwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdOYW1lOiBcInYtYi10b29sdGlwLmNsaWNrLm5vZmFkZS5yaWdodFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU6IFwiUmlnaHQgVG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwcmVzc2lvbjogXCInUmlnaHQgVG9vbHRpcCdcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9mYWRlOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByaWdodDogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgc2l6ZTogXCJzbVwiLCB2YXJpYW50OiBcInNlY29uZGFyeVwiLCBibG9jazogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlJpZ2h0XCIpXVxuICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHNtOiBcIjZcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBkaXJlY3RpdmVzOiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZTogXCJiLXRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhd05hbWU6IFwidi1iLXRvb2x0aXAuY2xpY2subm9mYWRlLmJvdHRvbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU6IFwiQm90dG9tIFRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb246IFwiJ0JvdHRvbSBUb29sdGlwJ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBub2ZhZGU6IHRydWUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvdHRvbTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgc2l6ZTogXCJzbVwiLCB2YXJpYW50OiBcInNlY29uZGFyeVwiLCBibG9jazogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkJvdHRvbVwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIHhsOiBcIjNcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZGlyZWN0aXZlczogW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU6IFwiYi10b29sdGlwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdOYW1lOiBcInYtYi10b29sdGlwLmNsaWNrLm5vZmFkZS5sZWZ0XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZTogXCJMZWZ0IFRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb246IFwiJ0xlZnQgVG9vbHRpcCdcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9mYWRlOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZWZ0OiB0cnVlXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBzaXplOiBcInNtXCIsIHZhcmlhbnQ6IFwic2Vjb25kYXJ5XCIsIGJsb2NrOiBcIlwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiTGVmdFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgXSxcbiAgICAgICAgICAgIDFcbiAgICAgICAgICApLFxuICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgX2MoXG4gICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgIHsgYXR0cnM6IHsgdGl0bGU6IFwiQW5pbWF0aW9uXCIgfSB9LFxuICAgICAgICAgICAgW1xuICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXNpemUtc20gdGV4dC1tdXRlZFwiIH0sIFtcbiAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgWW91IGNhbiBlbmFibGUgYSBmYWRlIGFuaW1hdGlvbiB0byB5b3VyIHRvb2x0aXBzXFxuICAgICAgXCJcbiAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJpdGVtcy1wdXNoIHRleHQtY2VudGVyXCIgfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHNtOiBcIjZcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBkaXJlY3RpdmVzOiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZTogXCJiLXRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhd05hbWU6IFwidi1iLXRvb2x0aXAuaG92ZXIudG9wXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZTogXCJUb3AgVG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwcmVzc2lvbjogXCInVG9wIFRvb2x0aXAnXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllcnM6IHsgaG92ZXI6IHRydWUsIHRvcDogdHJ1ZSB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBzaXplOiBcInNtXCIsIHZhcmlhbnQ6IFwic2Vjb25kYXJ5XCIsIGJsb2NrOiBcIlwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiVG9wXCIpXVxuICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHNtOiBcIjZcIiwgeGw6IFwiM1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBkaXJlY3RpdmVzOiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZTogXCJiLXRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhd05hbWU6IFwidi1iLXRvb2x0aXAuaG92ZXIucmlnaHRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOiBcIlJpZ2h0IFRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb246IFwiJ1JpZ2h0IFRvb2x0aXAnXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllcnM6IHsgaG92ZXI6IHRydWUsIHJpZ2h0OiB0cnVlIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHNpemU6IFwic21cIiwgdmFyaWFudDogXCJzZWNvbmRhcnlcIiwgYmxvY2s6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJSaWdodFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIHhsOiBcIjNcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZGlyZWN0aXZlczogW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU6IFwiYi10b29sdGlwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdOYW1lOiBcInYtYi10b29sdGlwLmhvdmVyLmJvdHRvbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU6IFwiQm90dG9tIFRvb2x0aXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb246IFwiJ0JvdHRvbSBUb29sdGlwJ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXJzOiB7IGhvdmVyOiB0cnVlLCBib3R0b206IHRydWUgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgc2l6ZTogXCJzbVwiLCB2YXJpYW50OiBcInNlY29uZGFyeVwiLCBibG9jazogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkJvdHRvbVwiKV1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIsIHhsOiBcIjNcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZGlyZWN0aXZlczogW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU6IFwiYi10b29sdGlwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdOYW1lOiBcInYtYi10b29sdGlwLmhvdmVyLmxlZnRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOiBcIkxlZnQgVG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwcmVzc2lvbjogXCInTGVmdCBUb29sdGlwJ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXJzOiB7IGhvdmVyOiB0cnVlLCBsZWZ0OiB0cnVlIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHNpemU6IFwic21cIiwgdmFyaWFudDogXCJzZWNvbmRhcnlcIiwgYmxvY2s6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJMZWZ0XCIpXVxuICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApXG4gICAgICAgICAgICBdLFxuICAgICAgICAgICAgMVxuICAgICAgICAgICksXG4gICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICBfYyhcbiAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgeyBhdHRyczogeyB0aXRsZTogXCJIVE1MXCIgfSB9LFxuICAgICAgICAgICAgW1xuICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJmb250LXNpemUtc20gdGV4dC1tdXRlZFwiIH0sIFtcbiAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgWW91IGNhbiBhZGQgSFRNTCBpbiB5b3VyIHRvb2x0aXBzIGFzIHdlbGxcXG4gICAgICBcIlxuICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1yb3dcIixcbiAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcIml0ZW1zLXB1c2ggdGV4dC1jZW50ZXJcIiB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiLCB4bDogXCIzXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGRpcmVjdGl2ZXM6IFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lOiBcImItdG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF3TmFtZTogXCJ2LWItdG9vbHRpcC5ob3Zlci5odG1sLm5vZmFkZS50b3BcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIjxpbWcgY2xhc3M9J2ltZy1hdmF0YXInIHNyYz0naW1hZ2VzL2F2YXRhcnMvYXZhdGFyMTAuanBnJyBhbHQ9Jyc+XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHByZXNzaW9uOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIic8aW1nIGNsYXNzPVxcXFwnaW1nLWF2YXRhclxcXFwnIHNyYz1cXFxcJ2ltYWdlcy9hdmF0YXJzL2F2YXRhcjEwLmpwZ1xcXFwnIGFsdD1cXFxcJ1xcXFwnPidcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBob3ZlcjogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaHRtbDogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9mYWRlOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3A6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHNpemU6IFwic21cIiwgdmFyaWFudDogXCJzZWNvbmRhcnlcIiwgYmxvY2s6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJUb3BcIildXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiLCB4bDogXCIzXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGRpcmVjdGl2ZXM6IFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lOiBcImItdG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF3TmFtZTogXCJ2LWItdG9vbHRpcC5ob3Zlci5odG1sLm5vZmFkZS5yaWdodFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiPGltZyBjbGFzcz0naW1nLWF2YXRhcicgc3JjPSdpbWFnZXMvYXZhdGFycy9hdmF0YXIxMC5qcGcnIGFsdD0nJz5cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb246XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiJzxpbWcgY2xhc3M9XFxcXCdpbWctYXZhdGFyXFxcXCcgc3JjPVxcXFwnaW1hZ2VzL2F2YXRhcnMvYXZhdGFyMTAuanBnXFxcXCcgYWx0PVxcXFwnXFxcXCc+J1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhvdmVyOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBodG1sOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBub2ZhZGU6IHRydWUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJpZ2h0OiB0cnVlXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyBzaXplOiBcInNtXCIsIHZhcmlhbnQ6IFwic2Vjb25kYXJ5XCIsIGJsb2NrOiBcIlwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiUmlnaHRcIildXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiLCB4bDogXCIzXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGRpcmVjdGl2ZXM6IFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lOiBcImItdG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF3TmFtZTogXCJ2LWItdG9vbHRpcC5ob3Zlci5odG1sLm5vZmFkZS5ib3R0b21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIjxpbWcgY2xhc3M9J2ltZy1hdmF0YXInIHNyYz0naW1hZ2VzL2F2YXRhcnMvYXZhdGFyMTAuanBnJyBhbHQ9Jyc+XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHByZXNzaW9uOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIic8aW1nIGNsYXNzPVxcXFwnaW1nLWF2YXRhclxcXFwnIHNyYz1cXFxcJ2ltYWdlcy9hdmF0YXJzL2F2YXRhcjEwLmpwZ1xcXFwnIGFsdD1cXFxcJ1xcXFwnPidcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBob3ZlcjogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaHRtbDogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9mYWRlOiB0cnVlLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3R0b206IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHNpemU6IFwic21cIiwgdmFyaWFudDogXCJzZWNvbmRhcnlcIiwgYmxvY2s6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJCb3R0b21cIildXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiLCB4bDogXCIzXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGRpcmVjdGl2ZXM6IFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lOiBcImItdG9vbHRpcFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF3TmFtZTogXCJ2LWItdG9vbHRpcC5ob3Zlci5odG1sLm5vZmFkZS5sZWZ0XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZTpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCI8aW1nIGNsYXNzPSdpbWctYXZhdGFyJyBzcmM9J2ltYWdlcy9hdmF0YXJzL2F2YXRhcjEwLmpwZycgYWx0PScnPlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwcmVzc2lvbjpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCInPGltZyBjbGFzcz1cXFxcJ2ltZy1hdmF0YXJcXFxcJyBzcmM9XFxcXCdpbWFnZXMvYXZhdGFycy9hdmF0YXIxMC5qcGdcXFxcJyBhbHQ9XFxcXCdcXFxcJz4nXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllcnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaG92ZXI6IHRydWUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGh0bWw6IHRydWUsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vZmFkZTogdHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGVmdDogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgc2l6ZTogXCJzbVwiLCB2YXJpYW50OiBcInNlY29uZGFyeVwiLCBibG9jazogXCJcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkxlZnRcIildXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAxXG4gICAgICAgICAgKVxuICAgICAgICBdLFxuICAgICAgICAxXG4gICAgICApXG4gICAgXSxcbiAgICAxXG4gIClcbn1cbnZhciBzdGF0aWNSZW5kZXJGbnMgPSBbXVxucmVuZGVyLl93aXRoU3RyaXBwZWQgPSB0cnVlXG5cbmV4cG9ydCB7IHJlbmRlciwgc3RhdGljUmVuZGVyRm5zIH0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          title: "Tooltips",
+          subtitle: "Attach optional info to an element."
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Tooltips")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { attrs: { title: "Default" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v("\n        Show tooltips on hover\n      ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.nofade.top",
+                              value: "Top Tooltip",
+                              expression: "'Top Tooltip'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                top: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary", block: "" }
+                        },
+                        [_vm._v("Top")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.nofade.right",
+                              value: "Right Tooltip",
+                              expression: "'Right Tooltip'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                right: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary", block: "" }
+                        },
+                        [_vm._v("Right")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.nofade.bottom",
+                              value: "Bottom Tooltip",
+                              expression: "'Bottom Tooltip'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                bottom: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary", block: "" }
+                        },
+                        [_vm._v("Bottom")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.nofade.left",
+                              value: "Left Tooltip",
+                              expression: "'Left Tooltip'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                left: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary", block: "" }
+                        },
+                        [_vm._v("Left")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Click Triggered" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v("\n        Show tooltips on hover\n      ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.click.nofade.top",
+                              value: "Top Tooltip",
+                              expression: "'Top Tooltip'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                top: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Top")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.click.nofade.right",
+                              value: "Right Tooltip",
+                              expression: "'Right Tooltip'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                right: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Right")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.click.nofade.bottom",
+                              value: "Bottom Tooltip",
+                              expression: "'Bottom Tooltip'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                bottom: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Bottom")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.click.nofade.left",
+                              value: "Left Tooltip",
+                              expression: "'Left Tooltip'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                left: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Left")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Animation" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n        You can enable a fade animation to your tooltips\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.top",
+                              value: "Top Tooltip",
+                              expression: "'Top Tooltip'",
+                              modifiers: { hover: true, top: true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Top")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.right",
+                              value: "Right Tooltip",
+                              expression: "'Right Tooltip'",
+                              modifiers: { hover: true, right: true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Right")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.bottom",
+                              value: "Bottom Tooltip",
+                              expression: "'Bottom Tooltip'",
+                              modifiers: { hover: true, bottom: true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Bottom")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.left",
+                              value: "Left Tooltip",
+                              expression: "'Left Tooltip'",
+                              modifiers: { hover: true, left: true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Left")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "HTML" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n        You can add HTML in your tooltips as well\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.html.nofade.top",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                top: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Top")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.html.nofade.right",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                right: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Right")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.html.nofade.bottom",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                bottom: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Bottom")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.html.nofade.left",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                left: true
+                              }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "secondary", block: "" }
+                        },
+                        [_vm._v("Left")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -20,7 +596,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tooltips.vue?vue&type=template&id=28ea4d6e& */ \"./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&\");\n/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\nvar script = {}\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(\n  script,\n  _Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/js/src/views/elements/Tooltips.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2VsZW1lbnRzL1Rvb2x0aXBzLnZ1ZT9lZWNjIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUF1RjtBQUN2Rjs7O0FBR0E7QUFDbUc7QUFDbkcsZ0JBQWdCLDJHQUFVO0FBQzFCO0FBQ0EsRUFBRSxtRkFBTTtBQUNSLEVBQUUsNEZBQWU7QUFDakI7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQSxJQUFJLEtBQVUsRUFBRSxZQWlCZjtBQUNEO0FBQ2UsZ0YiLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2VsZW1lbnRzL1Rvb2x0aXBzLnZ1ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHJlbmRlciwgc3RhdGljUmVuZGVyRm5zIH0gZnJvbSBcIi4vVG9vbHRpcHMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTI4ZWE0ZDZlJlwiXG52YXIgc2NyaXB0ID0ge31cblxuXG4vKiBub3JtYWxpemUgY29tcG9uZW50ICovXG5pbXBvcnQgbm9ybWFsaXplciBmcm9tIFwiIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9ydW50aW1lL2NvbXBvbmVudE5vcm1hbGl6ZXIuanNcIlxudmFyIGNvbXBvbmVudCA9IG5vcm1hbGl6ZXIoXG4gIHNjcmlwdCxcbiAgcmVuZGVyLFxuICBzdGF0aWNSZW5kZXJGbnMsXG4gIGZhbHNlLFxuICBudWxsLFxuICBudWxsLFxuICBudWxsXG4gIFxuKVxuXG4vKiBob3QgcmVsb2FkICovXG5pZiAobW9kdWxlLmhvdCkge1xuICB2YXIgYXBpID0gcmVxdWlyZShcIkM6XFxcXFVzZXJzXFxcXG1hbG9oXFxcXERlc2t0b3BcXFxcRG1zVjJcXFxcbm9kZV9tb2R1bGVzXFxcXHZ1ZS1ob3QtcmVsb2FkLWFwaVxcXFxkaXN0XFxcXGluZGV4LmpzXCIpXG4gIGFwaS5pbnN0YWxsKHJlcXVpcmUoJ3Z1ZScpKVxuICBpZiAoYXBpLmNvbXBhdGlibGUpIHtcbiAgICBtb2R1bGUuaG90LmFjY2VwdCgpXG4gICAgaWYgKCFhcGkuaXNSZWNvcmRlZCgnMjhlYTRkNmUnKSkge1xuICAgICAgYXBpLmNyZWF0ZVJlY29yZCgnMjhlYTRkNmUnLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9IGVsc2Uge1xuICAgICAgYXBpLnJlbG9hZCgnMjhlYTRkNmUnLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9XG4gICAgbW9kdWxlLmhvdC5hY2NlcHQoXCIuL1Rvb2x0aXBzLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD0yOGVhNGQ2ZSZcIiwgZnVuY3Rpb24gKCkge1xuICAgICAgYXBpLnJlcmVuZGVyKCcyOGVhNGQ2ZScsIHtcbiAgICAgICAgcmVuZGVyOiByZW5kZXIsXG4gICAgICAgIHN0YXRpY1JlbmRlckZuczogc3RhdGljUmVuZGVyRm5zXG4gICAgICB9KVxuICAgIH0pXG4gIH1cbn1cbmNvbXBvbmVudC5vcHRpb25zLl9fZmlsZSA9IFwicmVzb3VyY2VzL2pzL3NyYy92aWV3cy9lbGVtZW50cy9Ub29sdGlwcy52dWVcIlxuZXhwb3J0IGRlZmF1bHQgY29tcG9uZW50LmV4cG9ydHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/src/views/elements/Tooltips.vue\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tooltips.vue?vue&type=template&id=28ea4d6e& */ "./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Tooltips.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -32,7 +631,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Too
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tooltips.vue?vue&type=template&id=28ea4d6e& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2VsZW1lbnRzL1Rvb2x0aXBzLnZ1ZT85YzJiIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9zcmMvdmlld3MvZWxlbWVudHMvVG9vbHRpcHMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTI4ZWE0ZDZlJi5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCAqIGZyb20gXCItIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9sb2FkZXJzL3RlbXBsYXRlTG9hZGVyLmpzPz92dWUtbG9hZGVyLW9wdGlvbnMhLi4vLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPz92dWUtbG9hZGVyLW9wdGlvbnMhLi9Ub29sdGlwcy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9MjhlYTRkNmUmXCIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tooltips.vue?vue&type=template&id=28ea4d6e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 

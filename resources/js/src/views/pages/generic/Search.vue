@@ -170,7 +170,7 @@
                   <b-badge variant="primary" pill>{{ user.id }}</b-badge>
                 </b-td>
                 <b-td class="text-center">
-                  <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}.jpg`" alt="Avatar">
+                  <img class="img-avatar img-avatar48" :src="`/images/avatars/${user.avatar}.jpg`" alt="Avatar">
                 </b-td>
                 <b-td class="font-w600">
                   <a :href="`${user.href}`">{{ user.name }}</a>

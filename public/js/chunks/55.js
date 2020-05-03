@@ -8,7 +8,139 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [\n    _c(\n      \"div\",\n      { staticClass: \"content\" },\n      [\n        _c(\n          \"base-background\",\n          {\n            attrs: {\n              image: \"images/photos/photo33@2x.jpg\",\n              \"inner-class\": \"bg-white-90\"\n            }\n          },\n          [\n            _c(\n              \"base-block\",\n              { attrs: { rounded: \"\", \"content-full\": \"\", transparent: \"\" } },\n              [\n                _c(\"div\", { staticClass: \"py-4 text-center\" }, [\n                  _c(\"h1\", { staticClass: \"mb-2\" }, [\n                    _vm._v(\"\\n            Dashboard\\n          \")\n                  ]),\n                  _vm._v(\" \"),\n                  _c(\"h2\", { staticClass: \"h4 font-w400 text-muted mb-0\" }, [\n                    _vm._v(\n                      \"\\n            Welcome to your app, everything looks great!\\n          \"\n                    )\n                  ])\n                ])\n              ]\n            )\n          ],\n          1\n        ),\n        _vm._v(\" \"),\n        _c(\n          \"b-row\",\n          [\n            _c(\n              \"b-col\",\n              { attrs: { sm: \"4\" } },\n              [\n                _c(\"base-block\", { attrs: { rounded: \"\" } }, [\n                  _c(\"p\", { staticClass: \"text-center py-6\" }, [_vm._v(\"...\")])\n                ])\n              ],\n              1\n            ),\n            _vm._v(\" \"),\n            _c(\n              \"b-col\",\n              { attrs: { sm: \"4\" } },\n              [\n                _c(\"base-block\", { attrs: { rounded: \"\" } }, [\n                  _c(\"p\", { staticClass: \"text-center py-6\" }, [_vm._v(\"...\")])\n                ])\n              ],\n              1\n            ),\n            _vm._v(\" \"),\n            _c(\n              \"b-col\",\n              { attrs: { sm: \"4\" } },\n              [\n                _c(\"base-block\", { attrs: { rounded: \"\" } }, [\n                  _c(\"p\", { staticClass: \"text-center py-6\" }, [_vm._v(\"...\")])\n                ])\n              ],\n              1\n            ),\n            _vm._v(\" \"),\n            _c(\n              \"b-col\",\n              { attrs: { sm: \"12\" } },\n              [\n                _c(\"base-block\", { attrs: { rounded: \"\" } }, [\n                  _c(\"p\", { staticClass: \"text-center py-6\" }, [_vm._v(\"...\")])\n                ])\n              ],\n              1\n            ),\n            _vm._v(\" \"),\n            _c(\n              \"b-col\",\n              { attrs: { sm: \"6\" } },\n              [\n                _c(\"base-block\", { attrs: { rounded: \"\" } }, [\n                  _c(\"p\", { staticClass: \"text-center py-6\" }, [_vm._v(\"...\")])\n                ])\n              ],\n              1\n            ),\n            _vm._v(\" \"),\n            _c(\n              \"b-col\",\n              { attrs: { sm: \"6\" } },\n              [\n                _c(\"base-block\", { attrs: { rounded: \"\" } }, [\n                  _c(\"p\", { staticClass: \"text-center py-6\" }, [_vm._v(\"...\")])\n                ])\n              ],\n              1\n            ),\n            _vm._v(\" \"),\n            _c(\n              \"b-col\",\n              { attrs: { sm: \"12\" } },\n              [\n                _c(\"base-block\", { attrs: { rounded: \"\" } }, [\n                  _c(\"p\", { staticClass: \"text-center py-6\" }, [_vm._v(\"...\")])\n                ])\n              ],\n              1\n            )\n          ],\n          1\n        )\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL2JveGVkL0ltYWdlMS52dWU/YmQ2NiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLE9BQU8seUJBQXlCO0FBQ2hDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxXQUFXO0FBQ1g7QUFDQTtBQUNBO0FBQ0EsZUFBZSxTQUFTLG1EQUFtRCxFQUFFO0FBQzdFO0FBQ0EsMkJBQTJCLGtDQUFrQztBQUM3RCw0QkFBNEIsc0JBQXNCO0FBQ2xEO0FBQ0E7QUFDQTtBQUNBLDRCQUE0Qiw4Q0FBOEM7QUFDMUU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxlQUFlLFNBQVMsVUFBVSxFQUFFO0FBQ3BDO0FBQ0Esa0NBQWtDLFNBQVMsY0FBYyxFQUFFO0FBQzNELDJCQUEyQixrQ0FBa0M7QUFDN0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxlQUFlLFNBQVMsVUFBVSxFQUFFO0FBQ3BDO0FBQ0Esa0NBQWtDLFNBQVMsY0FBYyxFQUFFO0FBQzNELDJCQUEyQixrQ0FBa0M7QUFDN0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxlQUFlLFNBQVMsVUFBVSxFQUFFO0FBQ3BDO0FBQ0Esa0NBQWtDLFNBQVMsY0FBYyxFQUFFO0FBQzNELDJCQUEyQixrQ0FBa0M7QUFDN0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxlQUFlLFNBQVMsV0FBVyxFQUFFO0FBQ3JDO0FBQ0Esa0NBQWtDLFNBQVMsY0FBYyxFQUFFO0FBQzNELDJCQUEyQixrQ0FBa0M7QUFDN0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxlQUFlLFNBQVMsVUFBVSxFQUFFO0FBQ3BDO0FBQ0Esa0NBQWtDLFNBQVMsY0FBYyxFQUFFO0FBQzNELDJCQUEyQixrQ0FBa0M7QUFDN0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxlQUFlLFNBQVMsVUFBVSxFQUFFO0FBQ3BDO0FBQ0Esa0NBQWtDLFNBQVMsY0FBYyxFQUFFO0FBQzNELDJCQUEyQixrQ0FBa0M7QUFDN0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxlQUFlLFNBQVMsV0FBVyxFQUFFO0FBQ3JDO0FBQ0Esa0NBQWtDLFNBQVMsY0FBYyxFQUFFO0FBQzNELDJCQUEyQixrQ0FBa0M7QUFDN0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsImZpbGUiOiIuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9sb2FkZXJzL3RlbXBsYXRlTG9hZGVyLmpzPyEuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8hLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL2JveGVkL0ltYWdlMS52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9NDAzN2NlNTAmLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIHJlbmRlciA9IGZ1bmN0aW9uKCkge1xuICB2YXIgX3ZtID0gdGhpc1xuICB2YXIgX2ggPSBfdm0uJGNyZWF0ZUVsZW1lbnRcbiAgdmFyIF9jID0gX3ZtLl9zZWxmLl9jIHx8IF9oXG4gIHJldHVybiBfYyhcImRpdlwiLCBbXG4gICAgX2MoXG4gICAgICBcImRpdlwiLFxuICAgICAgeyBzdGF0aWNDbGFzczogXCJjb250ZW50XCIgfSxcbiAgICAgIFtcbiAgICAgICAgX2MoXG4gICAgICAgICAgXCJiYXNlLWJhY2tncm91bmRcIixcbiAgICAgICAgICB7XG4gICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICBpbWFnZTogXCJpbWFnZXMvcGhvdG9zL3Bob3RvMzNAMnguanBnXCIsXG4gICAgICAgICAgICAgIFwiaW5uZXItY2xhc3NcIjogXCJiZy13aGl0ZS05MFwiXG4gICAgICAgICAgICB9XG4gICAgICAgICAgfSxcbiAgICAgICAgICBbXG4gICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgIHsgYXR0cnM6IHsgcm91bmRlZDogXCJcIiwgXCJjb250ZW50LWZ1bGxcIjogXCJcIiwgdHJhbnNwYXJlbnQ6IFwiXCIgfSB9LFxuICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgX2MoXCJkaXZcIiwgeyBzdGF0aWNDbGFzczogXCJweS00IHRleHQtY2VudGVyXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgX2MoXCJoMVwiLCB7IHN0YXRpY0NsYXNzOiBcIm1iLTJcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgIF92bS5fdihcIlxcbiAgICAgICAgICAgIERhc2hib2FyZFxcbiAgICAgICAgICBcIilcbiAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgIF9jKFwiaDJcIiwgeyBzdGF0aWNDbGFzczogXCJoNCBmb250LXc0MDAgdGV4dC1tdXRlZCBtYi0wXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICBXZWxjb21lIHRvIHlvdXIgYXBwLCBldmVyeXRoaW5nIGxvb2tzIGdyZWF0IVxcbiAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgIF1cbiAgICAgICAgICAgIClcbiAgICAgICAgICBdLFxuICAgICAgICAgIDFcbiAgICAgICAgKSxcbiAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgX2MoXG4gICAgICAgICAgXCJiLXJvd1wiLFxuICAgICAgICAgIFtcbiAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNFwiIH0gfSxcbiAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgIF9jKFwiYmFzZS1ibG9ja1wiLCB7IGF0dHJzOiB7IHJvdW5kZWQ6IFwiXCIgfSB9LCBbXG4gICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlciBweS02XCIgfSwgW192bS5fdihcIi4uLlwiKV0pXG4gICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgKSxcbiAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICB7IGF0dHJzOiB7IHNtOiBcIjRcIiB9IH0sXG4gICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICBfYyhcImJhc2UtYmxvY2tcIiwgeyBhdHRyczogeyByb3VuZGVkOiBcIlwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXIgcHktNlwiIH0sIFtfdm0uX3YoXCIuLi5cIildKVxuICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICksXG4gICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI0XCIgfSB9LFxuICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgX2MoXCJiYXNlLWJsb2NrXCIsIHsgYXR0cnM6IHsgcm91bmRlZDogXCJcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyIHB5LTZcIiB9LCBbX3ZtLl92KFwiLi4uXCIpXSlcbiAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAxXG4gICAgICAgICAgICApLFxuICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiMTJcIiB9IH0sXG4gICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICBfYyhcImJhc2UtYmxvY2tcIiwgeyBhdHRyczogeyByb3VuZGVkOiBcIlwiIH0gfSwgW1xuICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXIgcHktNlwiIH0sIFtfdm0uX3YoXCIuLi5cIildKVxuICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICksXG4gICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgeyBhdHRyczogeyBzbTogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgX2MoXCJiYXNlLWJsb2NrXCIsIHsgYXR0cnM6IHsgcm91bmRlZDogXCJcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyIHB5LTZcIiB9LCBbX3ZtLl92KFwiLi4uXCIpXSlcbiAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAxXG4gICAgICAgICAgICApLFxuICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgIHsgYXR0cnM6IHsgc206IFwiNlwiIH0gfSxcbiAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgIF9jKFwiYmFzZS1ibG9ja1wiLCB7IGF0dHJzOiB7IHJvdW5kZWQ6IFwiXCIgfSB9LCBbXG4gICAgICAgICAgICAgICAgICBfYyhcInBcIiwgeyBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlciBweS02XCIgfSwgW192bS5fdihcIi4uLlwiKV0pXG4gICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgKSxcbiAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICB7IGF0dHJzOiB7IHNtOiBcIjEyXCIgfSB9LFxuICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgX2MoXCJiYXNlLWJsb2NrXCIsIHsgYXR0cnM6IHsgcm91bmRlZDogXCJcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyIHB5LTZcIiB9LCBbX3ZtLl92KFwiLi4uXCIpXSlcbiAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAxXG4gICAgICAgICAgICApXG4gICAgICAgICAgXSxcbiAgICAgICAgICAxXG4gICAgICAgIClcbiAgICAgIF0sXG4gICAgICAxXG4gICAgKVxuICBdKVxufVxudmFyIHN0YXRpY1JlbmRlckZucyA9IFtdXG5yZW5kZXIuX3dpdGhTdHJpcHBlZCA9IHRydWVcblxuZXhwb3J0IHsgcmVuZGVyLCBzdGF0aWNSZW5kZXJGbnMgfSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/boxed/Image1.vue?vue&type=template&id=4037ce50&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c(
+      "div",
+      { staticClass: "content" },
+      [
+        _c(
+          "base-background",
+          {
+            attrs: {
+              image: "images/photos/photo33@2x.jpg",
+              "inner-class": "bg-white-90"
+            }
+          },
+          [
+            _c(
+              "base-block",
+              { attrs: { rounded: "", "content-full": "", transparent: "" } },
+              [
+                _c("div", { staticClass: "py-4 text-center" }, [
+                  _c("h1", { staticClass: "mb-2" }, [
+                    _vm._v("\n            Dashboard\n          ")
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", { staticClass: "h4 font-w400 text-muted mb-0" }, [
+                    _vm._v(
+                      "\n            Welcome to your app, everything looks great!\n          "
+                    )
+                  ])
+                ])
+              ]
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "b-row",
+          [
+            _c(
+              "b-col",
+              { attrs: { sm: "4" } },
+              [
+                _c("base-block", { attrs: { rounded: "" } }, [
+                  _c("p", { staticClass: "text-center py-6" }, [_vm._v("...")])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-col",
+              { attrs: { sm: "4" } },
+              [
+                _c("base-block", { attrs: { rounded: "" } }, [
+                  _c("p", { staticClass: "text-center py-6" }, [_vm._v("...")])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-col",
+              { attrs: { sm: "4" } },
+              [
+                _c("base-block", { attrs: { rounded: "" } }, [
+                  _c("p", { staticClass: "text-center py-6" }, [_vm._v("...")])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-col",
+              { attrs: { sm: "12" } },
+              [
+                _c("base-block", { attrs: { rounded: "" } }, [
+                  _c("p", { staticClass: "text-center py-6" }, [_vm._v("...")])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-col",
+              { attrs: { sm: "6" } },
+              [
+                _c("base-block", { attrs: { rounded: "" } }, [
+                  _c("p", { staticClass: "text-center py-6" }, [_vm._v("...")])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-col",
+              { attrs: { sm: "6" } },
+              [
+                _c("base-block", { attrs: { rounded: "" } }, [
+                  _c("p", { staticClass: "text-center py-6" }, [_vm._v("...")])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-col",
+              { attrs: { sm: "12" } },
+              [
+                _c("base-block", { attrs: { rounded: "" } }, [
+                  _c("p", { staticClass: "text-center py-6" }, [_vm._v("...")])
+                ])
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -20,7 +152,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Image1.vue?vue&type=template&id=4037ce50& */ \"./resources/js/src/views/pages/boxed/Image1.vue?vue&type=template&id=4037ce50&\");\n/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\nvar script = {}\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(\n  script,\n  _Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/js/src/views/pages/boxed/Image1.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL2JveGVkL0ltYWdlMS52dWU/MWE1MiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBcUY7QUFDckY7OztBQUdBO0FBQ3NHO0FBQ3RHLGdCQUFnQiwyR0FBVTtBQUMxQjtBQUNBLEVBQUUsaUZBQU07QUFDUixFQUFFLDBGQUFlO0FBQ2pCO0FBQ0E7QUFDQTtBQUNBOztBQUVBOztBQUVBO0FBQ0EsSUFBSSxLQUFVLEVBQUUsWUFpQmY7QUFDRDtBQUNlLGdGIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9wYWdlcy9ib3hlZC9JbWFnZTEudnVlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVuZGVyLCBzdGF0aWNSZW5kZXJGbnMgfSBmcm9tIFwiLi9JbWFnZTEudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTQwMzdjZTUwJlwiXG52YXIgc2NyaXB0ID0ge31cblxuXG4vKiBub3JtYWxpemUgY29tcG9uZW50ICovXG5pbXBvcnQgbm9ybWFsaXplciBmcm9tIFwiIS4uLy4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9ydW50aW1lL2NvbXBvbmVudE5vcm1hbGl6ZXIuanNcIlxudmFyIGNvbXBvbmVudCA9IG5vcm1hbGl6ZXIoXG4gIHNjcmlwdCxcbiAgcmVuZGVyLFxuICBzdGF0aWNSZW5kZXJGbnMsXG4gIGZhbHNlLFxuICBudWxsLFxuICBudWxsLFxuICBudWxsXG4gIFxuKVxuXG4vKiBob3QgcmVsb2FkICovXG5pZiAobW9kdWxlLmhvdCkge1xuICB2YXIgYXBpID0gcmVxdWlyZShcIkM6XFxcXFVzZXJzXFxcXG1hbG9oXFxcXERlc2t0b3BcXFxcRG1zVjJcXFxcbm9kZV9tb2R1bGVzXFxcXHZ1ZS1ob3QtcmVsb2FkLWFwaVxcXFxkaXN0XFxcXGluZGV4LmpzXCIpXG4gIGFwaS5pbnN0YWxsKHJlcXVpcmUoJ3Z1ZScpKVxuICBpZiAoYXBpLmNvbXBhdGlibGUpIHtcbiAgICBtb2R1bGUuaG90LmFjY2VwdCgpXG4gICAgaWYgKCFhcGkuaXNSZWNvcmRlZCgnNDAzN2NlNTAnKSkge1xuICAgICAgYXBpLmNyZWF0ZVJlY29yZCgnNDAzN2NlNTAnLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9IGVsc2Uge1xuICAgICAgYXBpLnJlbG9hZCgnNDAzN2NlNTAnLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9XG4gICAgbW9kdWxlLmhvdC5hY2NlcHQoXCIuL0ltYWdlMS52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9NDAzN2NlNTAmXCIsIGZ1bmN0aW9uICgpIHtcbiAgICAgIGFwaS5yZXJlbmRlcignNDAzN2NlNTAnLCB7XG4gICAgICAgIHJlbmRlcjogcmVuZGVyLFxuICAgICAgICBzdGF0aWNSZW5kZXJGbnM6IHN0YXRpY1JlbmRlckZuc1xuICAgICAgfSlcbiAgICB9KVxuICB9XG59XG5jb21wb25lbnQub3B0aW9ucy5fX2ZpbGUgPSBcInJlc291cmNlcy9qcy9zcmMvdmlld3MvcGFnZXMvYm94ZWQvSW1hZ2UxLnZ1ZVwiXG5leHBvcnQgZGVmYXVsdCBjb21wb25lbnQuZXhwb3J0cyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/src/views/pages/boxed/Image1.vue\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Image1.vue?vue&type=template&id=4037ce50& */ "./resources/js/src/views/pages/boxed/Image1.vue?vue&type=template&id=4037ce50&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/pages/boxed/Image1.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -32,7 +187,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Ima
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Image1.vue?vue&type=template&id=4037ce50& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/boxed/Image1.vue?vue&type=template&id=4037ce50&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL2JveGVkL0ltYWdlMS52dWU/MGUyNSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEiLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3BhZ2VzL2JveGVkL0ltYWdlMS52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9NDAzN2NlNTAmLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcIi0hLi4vLi4vLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2xvYWRlcnMvdGVtcGxhdGVMb2FkZXIuanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuLi8uLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuL0ltYWdlMS52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9NDAzN2NlNTAmXCIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/src/views/pages/boxed/Image1.vue?vue&type=template&id=4037ce50&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Image1.vue?vue&type=template&id=4037ce50& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/boxed/Image1.vue?vue&type=template&id=4037ce50&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Image1_vue_vue_type_template_id_4037ce50___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 

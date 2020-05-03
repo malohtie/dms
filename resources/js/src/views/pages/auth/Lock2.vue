@@ -19,7 +19,7 @@
                   <h2 class="h6 font-w400 text-muted mb-5">
                     Please enter your password to unlock your account
                   </h2>
-                  <img class="img-avatar img-avatar96" src="images/avatars/avatar10.jpg" alt="Avatar">
+                  <img class="img-avatar img-avatar96" src="/images/avatars/avatar10.jpg" alt="Avatar">
                   <p class="font-w600 text-center my-2">
                     user@example.com
                   </p>

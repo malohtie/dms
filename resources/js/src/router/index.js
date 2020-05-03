@@ -5,7 +5,6 @@
 // Vue and Vue Router
 import Vue from 'vue'
 import Router from 'vue-router'
-
 // Main layouts
 import LayoutBackend from '@/layouts/variations/Backend.vue'
 import LayoutBackendBoxed from '@/layouts/variations/BackendBoxed.vue'
@@ -141,599 +140,619 @@ const BoxedImage2 = () => import("@/views/pages/boxed/Image2.vue")
 
 // Router Configuration
 export default new Router({
-  linkActiveClass: 'active',
-  linkExactActiveClass: '',
-  scrollBehavior () {
-    return { x: 0, y: 0 }
-  },
-  routes: [
-    {
-      path: '/',
-      component: LayoutSimple,
-      children: [
-        {
-          path: '/',
-          name: 'Home',
-          component: Landing
-        },
-        {
-          path: 'maintenance',
-          name: 'Pages Various Maintenance',
-          component: PagesVariousMaintenance
-        },
-        {
-          path: 'status',
-          name: 'Pages Various Statuc',
-          component: PagesVariousStatus
-        },
-        {
-          path: 'coming-soon',
-          name: 'Pages Various Coming Soon',
-          component: PagesVariousComingSoon
-        }
-      ]
+    mode: 'history',
+    base: process.env.BASE_URL,
+    linkActiveClass: 'active',
+    linkExactActiveClass: '',
+    scrollBehavior() {
+        return {x: 0, y: 0}
     },
-    {
-      path: '/auth',
-      component: LayoutSimple,
-      children: [
+    routes: [
         {
-          path: 'signin',
-          name: 'Sign In',
-          component: AuthSignIn
+            path: '/',
+            component: LayoutSimple,
+            children: [
+                {
+                    path: '/',
+                    name: 'Home',
+                    component: Landing
+                },
+                {
+                    path: 'maintenance',
+                    name: 'Pages Various Maintenance',
+                    component: PagesVariousMaintenance
+                },
+                {
+                    path: 'status',
+                    name: 'Pages Various Statuc',
+                    component: PagesVariousStatus
+                },
+                {
+                    path: 'coming-soon',
+                    name: 'Pages Various Coming Soon',
+                    component: PagesVariousComingSoon
+                }
+            ]
         },
         {
-          path: 'signin2',
-          name: 'Sign In 2',
-          component: AuthSignIn2
+            path: '/auth',
+            component: LayoutSimple,
+            children: [
+                {
+                    path: 'signin',
+                    name: 'Sign In',
+                    component: AuthSignIn
+                },
+                {
+                    path: 'signin2',
+                    name: 'Sign In 2',
+                    component: AuthSignIn2
+                },
+                {
+                    path: 'signup',
+                    name: 'Sign Up',
+                    component: AuthSignUp
+                },
+                {
+                    path: 'signup2',
+                    name: 'Sign Up 2',
+                    component: AuthSignUp2
+                },
+                {
+                    path: 'lock',
+                    name: 'Auth Lock',
+                    component: AuthLock
+                },
+                {
+                    path: 'lock2',
+                    name: 'Auth Lock 2',
+                    component: AuthLock2
+                },
+                {
+                    path: 'reminder',
+                    name: 'Auth Reminder',
+                    component: AuthReminder
+                },
+                {
+                    path: 'reminder2',
+                    name: 'Auth Reminder 2',
+                    component: AuthReminder2
+                }
+            ]
         },
         {
-          path: 'signup',
-          name: 'Sign Up',
-          component: AuthSignUp
+            path: '/errors',
+            component: LayoutSimple,
+            children: [
+                {
+                    path: '400',
+                    name: 'Error 400',
+                    component: Errors400
+                },
+                {
+                    path: '401',
+                    name: 'Error 401',
+                    component: Errors401
+                },
+                {
+                    path: '403',
+                    name: 'Error 403',
+                    component: Errors403
+                },
+                {
+                    path: '404',
+                    name: 'Error 404',
+                    component: Errors404
+                },
+                {
+                    path: '500',
+                    name: 'Error 500',
+                    component: Errors500
+                },
+                {
+                    path: '503',
+                    name: 'Error 503',
+                    component: Errors503
+                }
+            ]
         },
         {
-          path: 'signup2',
-          name: 'Sign Up 2',
-          component: AuthSignUp2
+            path: '/backend-boxed',
+            redirect: '/backend-boxed/dashboard',
+            component: LayoutBackendBoxed,
+            children: [
+                {
+                    path: 'dashboard',
+                    name: 'Boxed Dashboard',
+                    component: BoxedDashboard
+                },
+                {
+                    path: 'search',
+                    name: 'Boxed Search',
+                    component: BoxedSearch
+                },
+                {
+                    path: 'simple1',
+                    name: 'Boxed Simple1',
+                    component: BoxedSimple1
+                },
+                {
+                    path: 'simple2',
+                    name: 'Boxed Simple2',
+                    component: BoxedSimple2
+                },
+                {
+                    path: 'image1',
+                    name: 'Boxed Image1',
+                    component: BoxedImage1
+                },
+                {
+                    path: 'image2',
+                    name: 'Boxed Image2',
+                    component: BoxedImage2
+                }
+            ]
         },
         {
-          path: 'lock',
-          name: 'Auth Lock',
-          component: AuthLock
-        },
-        {
-          path: 'lock2',
-          name: 'Auth Lock 2',
-          component: AuthLock2
-        },
-        {
-          path: 'reminder',
-          name: 'Auth Reminder',
-          component: AuthReminder
-        },
-        {
-          path: 'reminder2',
-          name: 'Auth Reminder 2',
-          component: AuthReminder2
+            path: '/backend',
+            redirect: '/backend/dashboard',
+            component: LayoutBackend,
+            children: [
+                {
+                    path: 'dashboard',
+                    name: 'Dashboard',
+                    component: Dashboard
+                },
+                {
+                    path: 'blocks',
+                    redirect: '/blocks/styles',
+                    component: {
+                        render(c) {
+                            return c('router-view')
+                        }
+                    },
+                    children: [
+                        {
+                            path: 'styles',
+                            name: 'Block Styles',
+                            component: BlockStyles
+                        },
+                        {
+                            path: 'options',
+                            name: 'Block Options',
+                            component: BlockOptions
+                        },
+                        {
+                            path: 'forms',
+                            name: 'Block Forms',
+                            component: BlockForms
+                        },
+                        {
+                            path: 'themed',
+                            name: 'Block Themed',
+                            component: BlockThemed
+                        },
+                        {
+                            path: 'api',
+                            name: 'Block API',
+                            component: BlockApi
+                        }
+                    ]
+                },
+                {
+                    path: 'elements',
+                    redirect: '/elements/grid',
+                    component: {
+                        render(c) {
+                            return c('router-view')
+                        }
+                    },
+                    children: [
+                        {
+                            path: 'grid',
+                            name: 'Elements Grid',
+                            component: ElementsGrid
+                        },
+                        {
+                            path: 'typography',
+                            name: 'Elements Typography',
+                            component: ElementsTypography
+                        },
+                        {
+                            path: 'icons',
+                            name: 'Elements Icons',
+                            component: ElementsIcons
+                        },
+                        {
+                            path: 'buttons',
+                            name: 'Elements Buttons',
+                            component: ElementsButtons
+                        },
+                        {
+                            path: 'button-groups',
+                            name: 'Elements Button Groups',
+                            component: ElementsButtonGroups
+                        },
+                        {
+                            path: 'dropdowns',
+                            name: 'Elements Dropdowns',
+                            component: ElementsDropdowns
+                        },
+                        {
+                            path: 'tabs',
+                            name: 'Elements Tabs',
+                            component: ElementsTabs
+                        },
+                        {
+                            path: 'navigation',
+                            name: 'Elements Navigation',
+                            component: ElementsNavigation
+                        },
+                        {
+                            path: 'navigation-horizontal',
+                            name: 'Elements Horizontal Navigation',
+                            component: ElementsNavigationHorizontal
+                        },
+                        {
+                            path: 'progress',
+                            name: 'Elements Progress',
+                            component: ElementsProgress
+                        },
+                        {
+                            path: 'alerts',
+                            name: 'Elements Alerts',
+                            component: ElementsAlerts
+                        },
+                        {
+                            path: 'tooltips',
+                            name: 'Elements Tooltips',
+                            component: ElementsTooltips
+                        },
+                        {
+                            path: 'popovers',
+                            name: 'Elements Popovers',
+                            component: ElementsPopovers
+                        },
+                        {
+                            path: 'modals',
+                            name: 'Elements Modals',
+                            component: ElementsModals
+                        },
+                        {
+                            path: 'images',
+                            name: 'Elements Images',
+                            component: ElementsImages
+                        },
+                        {
+                            path: 'timeline',
+                            name: 'Elements Timeline',
+                            component: ElementsTimeline
+                        },
+                        {
+                            path: 'ribbons',
+                            name: 'Elements Ribbons',
+                            component: ElementsRibbons
+                        },
+                        {
+                            path: 'animations',
+                            name: 'Elements Animations',
+                            component: ElementsAnimations
+                        },
+                        {
+                            path: 'color-themes',
+                            name: 'Elements Color Themes',
+                            component: ElementsColorThemes
+                        }
+                    ]
+                },
+                {
+                    path: 'tables',
+                    redirect: '/tables/styles',
+                    component: {
+                        render(c) {
+                            return c('router-view')
+                        }
+                    },
+                    children: [
+                        {
+                            path: 'styles',
+                            name: 'Tables Styles',
+                            component: TablesStyles
+                        },
+                        {
+                            path: 'responsive',
+                            name: 'Tables Responsive',
+                            component: TablesResponsive
+                        },
+                        {
+                            path: 'helpers',
+                            name: 'Tables Helpers',
+                            component: TablesHelpers
+                        },
+                        {
+                            path: 'pricing',
+                            name: 'Tables Princing',
+                            component: TablesPricing
+                        }
+                    ]
+                },
+                {
+                    path: 'forms',
+                    redirect: '/forms/elements',
+                    component: {
+                        render(c) {
+                            return c('router-view')
+                        }
+                    },
+                    children: [
+                        {
+                            path: 'elements',
+                            name: 'Form Elements',
+                            component: FormsElements
+                        },
+                        {
+                            path: 'custom-controls',
+                            name: 'Custom Form Controls',
+                            component: FormsCustomControls
+                        },
+                        {
+                            path: 'layouts',
+                            name: 'Form Layouts',
+                            component: FormsLayouts
+                        },
+                        {
+                            path: 'input-groups',
+                            name: 'Form Input Groups',
+                            component: FormsInputGroups
+                        },
+                        {
+                            path: 'plugins',
+                            name: 'Form Plugins',
+                            component: FormsPlugins
+                        },
+                        {
+                            path: 'editors',
+                            name: 'Form Editors',
+                            component: FormsEditors
+                        },
+                        {
+                            path: 'validation',
+                            name: 'Form Validation',
+                            component: FormsValidation
+                        }
+                    ]
+                },
+                {
+                    path: 'plugins',
+                    redirect: '/plugins/charts',
+                    component: {
+                        render(c) {
+                            return c('router-view')
+                        }
+                    },
+                    children: [
+                        {
+                            path: 'image-cropper',
+                            name: 'Image Cropper',
+                            component: PluginsImageCropper
+                        },
+                        {
+                            path: 'charts',
+                            name: 'Charts',
+                            component: PluginsCharts
+                        },
+                        {
+                            path: 'calendar',
+                            name: 'Calendar',
+                            component: PluginsCalendar
+                        },
+                        {
+                            path: 'carousel',
+                            name: 'Carousel',
+                            component: PluginsCarousel
+                        },
+                        {
+                            path: 'syntax-highlighting',
+                            name: 'Syntax Hightlighting',
+                            component: PluginsSyntaxHighlighting
+                        },
+                        {
+                            path: 'rating',
+                            name: 'Rating',
+                            component: PluginsRating
+                        },
+                        {
+                            path: 'dialogs',
+                            name: 'Dialogs',
+                            component: PluginsDialogs
+                        },
+                        {
+                            path: 'notifications',
+                            name: 'Notifications',
+                            component: PluginsNotifications
+                        },
+                        {
+                            path: 'gallery',
+                            name: 'Gallery',
+                            component: PluginsGallery
+                        }
+                    ]
+                },
+                {
+                    path: 'layout',
+                    redirect: '/layout/api',
+                    component: {
+                        render(c) {
+                            return c('router-view')
+                        }
+                    },
+                    children: [
+                        {
+                            path: 'page/default',
+                            name: 'Layout Page Default',
+                            component: LayoutPageDefault
+                        },
+                        {
+                            path: 'page/flipped',
+                            name: 'Layout Page Flipped',
+                            component: LayoutPageFlipped
+                        },
+                        {
+                            path: 'main-content/full-width',
+                            name: 'Layout Main Content Full Width',
+                            component: LayoutMainContentFullWidth
+                        },
+                        {
+                            path: 'main-content/narrow',
+                            name: 'Layout Main Content Narrow',
+                            component: LayoutMainContentNarrow
+                        },
+                        {
+                            path: 'main-content/boxed',
+                            name: 'Layout Main Content Boxed',
+                            component: LayoutMainContentBoxed
+                        },
+                        {
+                            path: 'header/fixed-light',
+                            name: 'Layout Header Fixed Light',
+                            component: LayoutHeaderFixedLight
+                        },
+                        {
+                            path: 'header/fixed-dark',
+                            name: 'Layout Header Fixed Dark',
+                            component: LayoutHeaderFixedDark
+                        },
+                        {
+                            path: 'header/static-light',
+                            name: 'Layout Header Static Light',
+                            component: LayoutHeaderStaticLight
+                        },
+                        {
+                            path: 'header/static-dark',
+                            name: 'Layout Header Static Dark',
+                            component: LayoutHeaderStaticDark
+                        },
+                        {
+                            path: 'sidebar/mini',
+                            name: 'Layout Sidebar Mini',
+                            component: LayoutSidebarMini
+                        },
+                        {
+                            path: 'sidebar/light',
+                            name: 'Layout Sidebar Light',
+                            component: LayoutSidebarLight
+                        },
+                        {
+                            path: 'sidebar/dark',
+                            name: 'Layout Sidebar Dark',
+                            component: LayoutSidebarDark
+                        },
+                        {
+                            path: 'sidebar/hidden',
+                            name: 'Layout Sidebar Hidden',
+                            component: LayoutSidebarHidden
+                        },
+                        {
+                            path: 'side-overlay/visible',
+                            name: 'Layout Side Overlay Visible',
+                            component: LayoutSideOverlayVisible
+                        },
+                        {
+                            path: 'side-overlay/hover-mode',
+                            name: 'Layout Side Overlay Hover Mode',
+                            component: LayoutSideOverlayHoverMode
+                        },
+                        {
+                            path: 'side-overlay/no-page-overlay',
+                            name: 'Layout Side Overlay No Page Overlay',
+                            component: LayoutSideOverlayNoPageOverlay
+                        },
+                        {
+                            path: 'loaders',
+                            name: 'Loaders',
+                            component: LayoutLoaders
+                        },
+                        {
+                            path: 'api',
+                            name: 'Layout API',
+                            component: LayoutApi
+                        }
+                    ]
+                },
+                {
+                    path: 'pages/generic',
+                    redirect: '/pages/generic/blank',
+                    component: {
+                        render(c) {
+                            return c('router-view')
+                        }
+                    },
+                    children: [
+                        {
+                            path: 'blank',
+                            name: 'Pages Generic Blank',
+                            component: PagesGenericBlank
+                        },
+                        {
+                            path: 'blank-block',
+                            name: 'Pages Generic Blank Block',
+                            component: PagesGenericBlankBlock
+                        },
+                        {
+                            path: 'search',
+                            name: 'Pages Generic Search',
+                            component: PagesGenericSearch
+                        },
+                        {
+                            path: 'profile',
+                            name: 'Pages Generic Profile',
+                            component: PagesGenericProfile
+                        },
+                        {
+                            path: 'invoice',
+                            name: 'Pages Generic Invoice',
+                            component: PagesGenericInvoice
+                        },
+                        {
+                            path: 'faq',
+                            name: 'Pages Generic Faq',
+                            component: PagesGenericFaq
+                        }
+                    ]
+                },
+                {
+                    path: 'pages/auth',
+                    redirect: '/pages/auth/all',
+                    component: {
+                        render(c) {
+                            return c('router-view')
+                        }
+                    },
+                    children: [
+                        {
+                            path: 'all',
+                            name: 'Pages Auth All',
+                            component: PagesAuthAll
+                        }
+                    ]
+                },
+                {
+                    path: 'pages/errors',
+                    redirect: '/pages/errors/all',
+                    component: {
+                        render(c) {
+                            return c('router-view')
+                        }
+                    },
+                    children: [
+                        {
+                            path: 'all',
+                            name: 'Pages Errors All',
+                            component: PagesErrorsAll
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    },
-    {
-      path: '/errors',
-      component: LayoutSimple,
-      children: [
-        {
-          path: '400',
-          name: 'Error 400',
-          component: Errors400
-        },
-        {
-          path: '401',
-          name: 'Error 401',
-          component: Errors401
-        },
-        {
-          path: '403',
-          name: 'Error 403',
-          component: Errors403
-        },
-        {
-          path: '404',
-          name: 'Error 404',
-          component: Errors404
-        },
-        {
-          path: '500',
-          name: 'Error 500',
-          component: Errors500
-        },
-        {
-          path: '503',
-          name: 'Error 503',
-          component: Errors503
-        }
-      ]
-    },
-    {
-      path: '/backend-boxed',
-      redirect: '/backend-boxed/dashboard',
-      component: LayoutBackendBoxed,
-      children: [
-        {
-          path: 'dashboard',
-          name: 'Boxed Dashboard',
-          component: BoxedDashboard
-        },
-        {
-          path: 'search',
-          name: 'Boxed Search',
-          component: BoxedSearch
-        },
-        {
-          path: 'simple1',
-          name: 'Boxed Simple1',
-          component: BoxedSimple1
-        },
-        {
-          path: 'simple2',
-          name: 'Boxed Simple2',
-          component: BoxedSimple2
-        },
-        {
-          path: 'image1',
-          name: 'Boxed Image1',
-          component: BoxedImage1
-        },
-        {
-          path: 'image2',
-          name: 'Boxed Image2',
-          component: BoxedImage2
-        }
-      ]
-    },
-    {
-      path: '/backend',
-      redirect: '/backend/dashboard',
-      component: LayoutBackend,
-      children: [
-        {
-          path: 'dashboard',
-          name: 'Dashboard',
-          component: Dashboard
-        },
-        {
-          path: 'blocks',
-          redirect: '/blocks/styles',
-          component: {
-            render (c) { return c('router-view') }
-          },
-          children: [
-            {
-              path: 'styles',
-              name: 'Block Styles',
-              component: BlockStyles
-            },
-            {
-              path: 'options',
-              name: 'Block Options',
-              component: BlockOptions
-            },
-            {
-              path: 'forms',
-              name: 'Block Forms',
-              component: BlockForms
-            },
-            {
-              path: 'themed',
-              name: 'Block Themed',
-              component: BlockThemed
-            },
-            {
-              path: 'api',
-              name: 'Block API',
-              component: BlockApi
-            }
-          ]
-        },
-        {
-          path: 'elements',
-          redirect: '/elements/grid',
-          component: {
-            render (c) { return c('router-view') }
-          },
-          children: [
-            {
-              path: 'grid',
-              name: 'Elements Grid',
-              component: ElementsGrid
-            },
-            {
-              path: 'typography',
-              name: 'Elements Typography',
-              component: ElementsTypography
-            },
-            {
-              path: 'icons',
-              name: 'Elements Icons',
-              component: ElementsIcons
-            },
-            {
-              path: 'buttons',
-              name: 'Elements Buttons',
-              component: ElementsButtons
-            },
-            {
-              path: 'button-groups',
-              name: 'Elements Button Groups',
-              component: ElementsButtonGroups
-            },
-            {
-              path: 'dropdowns',
-              name: 'Elements Dropdowns',
-              component: ElementsDropdowns
-            },
-            {
-              path: 'tabs',
-              name: 'Elements Tabs',
-              component: ElementsTabs
-            },
-            {
-              path: 'navigation',
-              name: 'Elements Navigation',
-              component: ElementsNavigation
-            },
-            {
-              path: 'navigation-horizontal',
-              name: 'Elements Horizontal Navigation',
-              component: ElementsNavigationHorizontal
-            },
-            {
-              path: 'progress',
-              name: 'Elements Progress',
-              component: ElementsProgress
-            },
-            {
-              path: 'alerts',
-              name: 'Elements Alerts',
-              component: ElementsAlerts
-            },
-            {
-              path: 'tooltips',
-              name: 'Elements Tooltips',
-              component: ElementsTooltips
-            },
-            {
-              path: 'popovers',
-              name: 'Elements Popovers',
-              component: ElementsPopovers
-            },
-            {
-              path: 'modals',
-              name: 'Elements Modals',
-              component: ElementsModals
-            },
-            {
-              path: 'images',
-              name: 'Elements Images',
-              component: ElementsImages
-            },
-            {
-              path: 'timeline',
-              name: 'Elements Timeline',
-              component: ElementsTimeline
-            },
-            {
-              path: 'ribbons',
-              name: 'Elements Ribbons',
-              component: ElementsRibbons
-            },
-            {
-              path: 'animations',
-              name: 'Elements Animations',
-              component: ElementsAnimations
-            },
-            {
-              path: 'color-themes',
-              name: 'Elements Color Themes',
-              component: ElementsColorThemes
-            }
-          ]
-        },
-        {
-          path: 'tables',
-          redirect: '/tables/styles',
-          component: {
-            render (c) { return c('router-view') }
-          },
-          children: [
-            {
-              path: 'styles',
-              name: 'Tables Styles',
-              component: TablesStyles
-            },
-            {
-              path: 'responsive',
-              name: 'Tables Responsive',
-              component: TablesResponsive
-            },
-            {
-              path: 'helpers',
-              name: 'Tables Helpers',
-              component: TablesHelpers
-            },
-            {
-              path: 'pricing',
-              name: 'Tables Princing',
-              component: TablesPricing
-            }
-          ]
-        },
-        {
-          path: 'forms',
-          redirect: '/forms/elements',
-          component: {
-            render (c) { return c('router-view') }
-          },
-          children: [
-            {
-              path: 'elements',
-              name: 'Form Elements',
-              component: FormsElements
-            },
-            {
-              path: 'custom-controls',
-              name: 'Custom Form Controls',
-              component: FormsCustomControls
-            },
-            {
-              path: 'layouts',
-              name: 'Form Layouts',
-              component: FormsLayouts
-            },
-            {
-              path: 'input-groups',
-              name: 'Form Input Groups',
-              component: FormsInputGroups
-            },
-            {
-              path: 'plugins',
-              name: 'Form Plugins',
-              component: FormsPlugins
-            },
-            {
-              path: 'editors',
-              name: 'Form Editors',
-              component: FormsEditors
-            },
-            {
-              path: 'validation',
-              name: 'Form Validation',
-              component: FormsValidation
-            }
-          ]
-        },
-        {
-          path: 'plugins',
-          redirect: '/plugins/charts',
-          component: {
-            render (c) { return c('router-view') }
-          },
-          children: [
-            {
-              path: 'image-cropper',
-              name: 'Image Cropper',
-              component: PluginsImageCropper
-            },
-            {
-              path: 'charts',
-              name: 'Charts',
-              component: PluginsCharts
-            },
-            {
-              path: 'calendar',
-              name: 'Calendar',
-              component: PluginsCalendar
-            },
-            {
-              path: 'carousel',
-              name: 'Carousel',
-              component: PluginsCarousel
-            },
-            {
-              path: 'syntax-highlighting',
-              name: 'Syntax Hightlighting',
-              component: PluginsSyntaxHighlighting
-            },
-            {
-              path: 'rating',
-              name: 'Rating',
-              component: PluginsRating
-            },
-            {
-              path: 'dialogs',
-              name: 'Dialogs',
-              component: PluginsDialogs
-            },
-            {
-              path: 'notifications',
-              name: 'Notifications',
-              component: PluginsNotifications
-            },
-            {
-              path: 'gallery',
-              name: 'Gallery',
-              component: PluginsGallery
-            }
-          ]
-        },
-        {
-          path: 'layout',
-          redirect: '/layout/api',
-          component: {
-            render (c) { return c('router-view') }
-          },
-          children: [
-            {
-              path: 'page/default',
-              name: 'Layout Page Default',
-              component: LayoutPageDefault
-            },
-            {
-              path: 'page/flipped',
-              name: 'Layout Page Flipped',
-              component: LayoutPageFlipped
-            },
-            {
-              path: 'main-content/full-width',
-              name: 'Layout Main Content Full Width',
-              component: LayoutMainContentFullWidth
-            },
-            {
-              path: 'main-content/narrow',
-              name: 'Layout Main Content Narrow',
-              component: LayoutMainContentNarrow
-            },
-            {
-              path: 'main-content/boxed',
-              name: 'Layout Main Content Boxed',
-              component: LayoutMainContentBoxed
-            },
-            {
-              path: 'header/fixed-light',
-              name: 'Layout Header Fixed Light',
-              component: LayoutHeaderFixedLight
-            },
-            {
-              path: 'header/fixed-dark',
-              name: 'Layout Header Fixed Dark',
-              component: LayoutHeaderFixedDark
-            },
-            {
-              path: 'header/static-light',
-              name: 'Layout Header Static Light',
-              component: LayoutHeaderStaticLight
-            },
-            {
-              path: 'header/static-dark',
-              name: 'Layout Header Static Dark',
-              component: LayoutHeaderStaticDark
-            },
-            {
-              path: 'sidebar/mini',
-              name: 'Layout Sidebar Mini',
-              component: LayoutSidebarMini
-            },
-            {
-              path: 'sidebar/light',
-              name: 'Layout Sidebar Light',
-              component: LayoutSidebarLight
-            },
-            {
-              path: 'sidebar/dark',
-              name: 'Layout Sidebar Dark',
-              component: LayoutSidebarDark
-            },
-            {
-              path: 'sidebar/hidden',
-              name: 'Layout Sidebar Hidden',
-              component: LayoutSidebarHidden
-            },
-            {
-              path: 'side-overlay/visible',
-              name: 'Layout Side Overlay Visible',
-              component: LayoutSideOverlayVisible
-            },
-            {
-              path: 'side-overlay/hover-mode',
-              name: 'Layout Side Overlay Hover Mode',
-              component: LayoutSideOverlayHoverMode
-            },
-            {
-              path: 'side-overlay/no-page-overlay',
-              name: 'Layout Side Overlay No Page Overlay',
-              component: LayoutSideOverlayNoPageOverlay
-            },
-            {
-              path: 'loaders',
-              name: 'Loaders',
-              component: LayoutLoaders
-            },
-            {
-              path: 'api',
-              name: 'Layout API',
-              component: LayoutApi
-            }
-          ]
-        },
-        {
-          path: 'pages/generic',
-          redirect: '/pages/generic/blank',
-          component: {
-            render (c) { return c('router-view') }
-          },
-          children: [
-            {
-              path: 'blank',
-              name: 'Pages Generic Blank',
-              component: PagesGenericBlank
-            },
-            {
-              path: 'blank-block',
-              name: 'Pages Generic Blank Block',
-              component: PagesGenericBlankBlock
-            },
-            {
-              path: 'search',
-              name: 'Pages Generic Search',
-              component: PagesGenericSearch
-            },
-            {
-              path: 'profile',
-              name: 'Pages Generic Profile',
-              component: PagesGenericProfile
-            },
-            {
-              path: 'invoice',
-              name: 'Pages Generic Invoice',
-              component: PagesGenericInvoice
-            },
-            {
-              path: 'faq',
-              name: 'Pages Generic Faq',
-              component: PagesGenericFaq
-            }
-          ]
-        },
-        {
-          path: 'pages/auth',
-          redirect: '/pages/auth/all',
-          component: {
-            render (c) { return c('router-view') }
-          },
-          children: [
-            {
-              path: 'all',
-              name: 'Pages Auth All',
-              component: PagesAuthAll
-            }
-          ]
-        },
-        {
-          path: 'pages/errors',
-          redirect: '/pages/errors/all',
-          component: {
-            render (c) { return c('router-view') }
-          },
-          children: [
-            {
-              path: 'all',
-              name: 'Pages Errors All',
-              component: PagesErrorsAll
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 })

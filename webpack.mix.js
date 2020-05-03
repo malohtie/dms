@@ -1,5 +1,6 @@
 const mix = require('laravel-mix');
 const config = require('./webpack.config');
+require('dotenv').config();
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -13,16 +14,17 @@ const config = require('./webpack.config');
 mix.js('resources/js/app.js', 'public/js');
 mix.sass('resources/sass/main.scss', 'public/css');
 mix.webpackConfig(config);
-mix.version().sourceMaps();
+mix.setResourceRoot("/");
 
 if (mix.inProduction()) {
+    mix.version();
+    mix.sourceMaps();
     mix.webpackConfig({
         output: {
             publicPath: '/',
             chunkFilename: 'js/chunks/[name].[chunkhash].js',
         }
     });
-    mix.setResourceRoot("/");
 }
 else{
     mix.webpackConfig({

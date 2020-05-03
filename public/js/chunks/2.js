@@ -8,7 +8,355 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  methods: {\n    loadData: function loadData(ref) {\n      var _this = this;\n\n      // Set the block to loading state\n      this.$refs[ref].stateLoading(); // .. here you could load your data\n      // Set a timeout for demo purposes\n\n      setTimeout(function () {\n        // Set the block back to normal state\n        _this.$refs[ref].stateNormal();\n      }, 2000);\n    }\n  }\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9ibG9ja3MvQXBpLnZ1ZT81N2Q4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQTZVQTtBQUNBO0FBQ0EsWUFEQSxvQkFDQSxHQURBLEVBQ0E7QUFBQTs7QUFDQTtBQUNBLHFDQUZBLENBSUE7QUFFQTs7QUFDQTtBQUNBO0FBQ0E7QUFDQSxPQUhBLEVBR0EsSUFIQTtBQUlBO0FBWkE7QUFEQSIsImZpbGUiOiIuL25vZGVfbW9kdWxlcy9iYWJlbC1sb2FkZXIvbGliL2luZGV4LmpzPyEuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8hLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2Jsb2Nrcy9BcGkudnVlP3Z1ZSZ0eXBlPXNjcmlwdCZsYW5nPWpzJi5qcyIsInNvdXJjZXNDb250ZW50IjpbIjx0ZW1wbGF0ZT5cbiAgPGRpdj5cbiAgICA8IS0tIEhlcm8gLS0+XG4gICAgPGJhc2UtcGFnZS1oZWFkaW5nIHRpdGxlPVwiQmxvY2sgQVBJXCIgc3VidGl0bGU9XCJQb3dlcmZ1bCB3YXkgdG8gbWFuaXB1bGF0ZSBhbnkgYmxvY2sgeW91IHdhbnQuXCI+XG4gICAgICA8dGVtcGxhdGUgI2V4dHJhPlxuICAgICAgICA8Yi1icmVhZGNydW1iIGNsYXNzPVwiYnJlYWRjcnVtYi1hbHRcIj5cbiAgICAgICAgICA8Yi1icmVhZGNydW1iLWl0ZW0gaHJlZj1cImphdmFzY3JpcHQ6dm9pZCgwKVwiPkJsb2NrczwvYi1icmVhZGNydW1iLWl0ZW0+XG4gICAgICAgICAgPGItYnJlYWRjcnVtYi1pdGVtIGFjdGl2ZT5BUEk8L2ItYnJlYWRjcnVtYi1pdGVtPlxuICAgICAgICA8L2ItYnJlYWRjcnVtYj5cbiAgICAgIDwvdGVtcGxhdGU+XG4gICAgPC9iYXNlLXBhZ2UtaGVhZGluZz5cbiAgICA8IS0tIEVORCBIZXJvIC0tPlxuXG4gICAgPCEtLSBQYWdlIENvbnRlbnQgLS0+XG4gICAgPGRpdiBjbGFzcz1cImNvbnRlbnRcIj5cbiAgICAgIDwhLS0gQmxvY2tzIEFQSSAtLT5cbiAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiVXNhZ2Ugd2l0aCBKUyBjb2RlXCI+XG4gICAgICAgIDxwIGNsYXNzPVwiZm9udC1zaXplLXNtIHRleHQtbXV0ZWQgbWItMFwiPlxuICAgICAgICAgIFVzaW5nIGJsb2NrIEFQSSBpcyBlYXN5LiBZb3Ugd2lsbCBqdXN0IGhhdmUgdG8gdXNlIHRoZSByZWYgcHJvcGVydHkgb2YgeW91ciBibG9jayB0byBjYWxsIHRoZSByZWxhdGVkIGZ1bmN0aW9uLiBGb3IgZXhhbXBsZSwgdG8gc2V0IHRoZSBzdGF0ZSBvZiBhIGJsb2NrIHdpdGggcmVmIHNldCB0byA8c3Ryb25nPnRlc3RCbG9jazwvc3Ryb25nPiB0byBsb2FkaW5nLCB5b3Ugd2lsbCBoYXZlIHRvIGNhbGw6XG4gICAgICAgIDwvcD5cbiAgICAgICAgPHA+XG4gICAgICAgICAgPGNvZGU+dGhpcy4kcmVmcy50ZXN0QmxvY2suc3RhdGVMb2FkaW5nKCk8L2NvZGU+XG4gICAgICAgIDwvcD5cbiAgICAgICAgPGItcm93IGNsYXNzPVwiaXRlbXMtcHVzaFwiPlxuICAgICAgICAgIDxiLWNvbCBtZD1cIjZcIj5cbiAgICAgICAgICAgIDxiLXRhYmxlLXNpbXBsZSByZXNwb25zaXZlIGJvcmRlcmVkIHN0cmlwZWQgdGFibGUtY2xhc3M9XCJ0YWJsZS12Y2VudGVyIG1iLTBcIj5cbiAgICAgICAgICAgICAgPGItdGhlYWQ+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10aCBzdHlsZT1cIndpZHRoOiAyNSU7XCI+TGl2ZSBUZXN0PC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGggc3R5bGU9XCJtaW4td2lkdGg6IDE2MHB4O1wiPk1ldGhvZDwvYi10aD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgIDwvYi10aGVhZD5cbiAgICAgICAgICAgICAgPGItdGJvZHk+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtcHJpbWFyeVwiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5jb250ZW50VG9nZ2xlKClcIj5Ub2dnbGUgQ29udGVudDwvYi1idXR0b24+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGNvZGU+JHJlZnMudGVzdEJsb2NrLmNvbnRlbnRUb2dnbGUoKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtcHJpbWFyeVwiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5jb250ZW50SGlkZSgpXCI+SGlkZSBDb250ZW50PC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkPlxuICAgICAgICAgICAgICAgICAgICA8Y29kZT4kcmVmcy50ZXN0QmxvY2suY29udGVudEhpZGUoKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtcHJpbWFyeVwiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5jb250ZW50U2hvdygpXCI+U2hvdyBDb250ZW50PC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkPlxuICAgICAgICAgICAgICAgICAgICA8Y29kZT4kcmVmcy50ZXN0QmxvY2suY29udGVudFNob3coKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtd2FybmluZ1wiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5zdGF0ZVRvZ2dsZSgpXCI+VG9nZ2xlIFN0YXRlPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkPlxuICAgICAgICAgICAgICAgICAgICA8Y29kZT4kcmVmcy50ZXN0QmxvY2suc3RhdGVUb2dnbGUoKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtd2FybmluZ1wiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5zdGF0ZUxvYWRpbmcoKVwiPlN0YXRlIExvYWRpbmc8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQ+XG4gICAgICAgICAgICAgICAgICAgIDxjb2RlPiRyZWZzLnRlc3RCbG9jay5zdGF0ZUxvYWRpbmcoKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtd2FybmluZ1wiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5zdGF0ZU5vcm1hbCgpXCI+U3RhdGUgTm9ybWFsPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkPlxuICAgICAgICAgICAgICAgICAgICA8Y29kZT4kcmVmcy50ZXN0QmxvY2suc3RhdGVOb3JtYWwoKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtZGFuZ2VyXCIgYmxvY2sgQGNsaWNrPVwiJHJlZnMudGVzdEJsb2NrLmZ1bGxzY3JlZW5Ub2dnbGUoKVwiPlRvZ2dsZSBGdWxsc2NyZWVuPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkPlxuICAgICAgICAgICAgICAgICAgICA8Y29kZT4kcmVmcy50ZXN0QmxvY2suZnVsbHNjcmVlblRvZ2dsZSgpPC9jb2RlPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgICA8Yi10cj5cbiAgICAgICAgICAgICAgICAgIDxiLXRkPlxuICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24gc2l6ZT1cInNtXCIgdmFyaWFudD1cImFsdC1kYW5nZXJcIiBibG9jayBAY2xpY2s9XCIkcmVmcy50ZXN0QmxvY2suZnVsbHNjcmVlbk9uKClcIj5GdWxsc2NyZWVuIE9uPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkPlxuICAgICAgICAgICAgICAgICAgICA8Y29kZT4kcmVmcy50ZXN0QmxvY2suZnVsbHNjcmVlbk9uKCk8L2NvZGU+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgPC9iLXRyPlxuICAgICAgICAgICAgICAgIDxiLXRyPlxuICAgICAgICAgICAgICAgICAgPGItdGQ+XG4gICAgICAgICAgICAgICAgICAgIDxiLWJ1dHRvbiBzaXplPVwic21cIiB2YXJpYW50PVwiYWx0LWRhbmdlclwiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5mdWxsc2NyZWVuT2ZmKClcIj5GdWxsc2NyZWVuIE9mZjwvYi1idXR0b24+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGNvZGU+JHJlZnMudGVzdEJsb2NrLmZ1bGxzY3JlZW5PZmYoKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtaW5mb1wiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5waW5uZWRUb2dnbGUoKVwiPlRvZ2dsZSBQaW5uZWQ8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQ+XG4gICAgICAgICAgICAgICAgICAgIDxjb2RlPiRyZWZzLnRlc3RCbG9jay5waW5uZWRUb2dnbGUoKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtaW5mb1wiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5waW5uZWRPbigpXCI+UGlubmVkIE9uPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkPlxuICAgICAgICAgICAgICAgICAgICA8Y29kZT4kcmVmcy50ZXN0QmxvY2sucGlubmVkT24oKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtaW5mb1wiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5waW5uZWRPZmYoKVwiPlBpbm5lZCBPZmY8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQ+XG4gICAgICAgICAgICAgICAgICAgIDxjb2RlPiRyZWZzLnRlc3RCbG9jay5waW5uZWRPZmYoKTwvY29kZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZD5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJhbHQtZGFya1wiIGJsb2NrIEBjbGljaz1cIiRyZWZzLnRlc3RCbG9jay5jbG9zZSgpXCI+Q2xvc2U8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQ+XG4gICAgICAgICAgICAgICAgICAgIDxjb2RlPiRyZWZzLnRlc3RCbG9jay5jbG9zZSgpPC9jb2RlPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgICA8Yi10cj5cbiAgICAgICAgICAgICAgICAgIDxiLXRkPlxuICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24gc2l6ZT1cInNtXCIgdmFyaWFudD1cImFsdC1kYXJrXCIgYmxvY2sgQGNsaWNrPVwiJHJlZnMudGVzdEJsb2NrLm9wZW4oKVwiPk9wZW48L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQ+XG4gICAgICAgICAgICAgICAgICAgIDxjb2RlPiRyZWZzLnRlc3RCbG9jay5vcGVuKCk8L2NvZGU+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgPC9iLXRyPlxuICAgICAgICAgICAgICA8L2ItdGJvZHk+XG4gICAgICAgICAgICA8L2ItdGFibGUtc2ltcGxlPlxuICAgICAgICAgIDwvYi1jb2w+XG4gICAgICAgICAgPGItY29sIG1kPVwiNlwiPlxuICAgICAgICAgICAgPCEtLSBUZXN0IEJsb2NrIC0tPlxuICAgICAgICAgICAgPGJhc2UtYmxvY2sgdGl0bGU9XCJUZXN0IEJsb2NrXCIgcmVmPVwidGVzdEJsb2NrXCIgYm9yZGVyZWQgaGVhZGVyLWJnIGJ0bi1vcHRpb24tZnVsbHNjcmVlbiBidG4tb3B0aW9uLWNvbnRlbnQ+XG4gICAgICAgICAgICAgIDxwPlxuICAgICAgICAgICAgICAgIFBvdGVudGkgZWxpdCBsZWN0dXMgYXVndWUgZWdldCBpYWN1bGlzIHZpdGFlIGV0aWFtLCB1bGxhbWNvcnBlciBldGlhbSBiaWJlbmR1bSBhZCBmZXVnaWF0IG1hZ25hIGFjY3Vtc2FuIGRvbG9yLCBuaWJoIG1vbGVzdGllIGNyYXMgaGFjIGFjIGFkIG1hc3NhLCBmdXNjZSBhbnRlIGNvbnZhbGxpcyBhbnRlIHVybmEgbW9sZXN0aWUgdnVscHV0YXRlIGJpYmVuZHVtIHRlbXB1cyBhbnRlIGp1c3RvIGFyY3UgZXJhdCBhY2N1bXNhbiBhZGlwaXNjaW5nIHJpc3VzLCBsaWJlcm8gY29uZGltZW50dW0gdmVuZW5hdGlzIHNpdCBuaXNsIG5pc2kgdWx0cmljaWVzIHNlZCwgZmFtZXMgYWxpcXVldCBjb25zZWN0ZXR1ciBjb25zZXF1YXQgbm9zdHJhIG1vbGVzdGllIG5lcXVlIG51bGxhbSBzY2VsZXJpc3F1ZSBuZXF1ZSBjb21tb2RvIHR1cnBpcyBxdWlzcXVlIGV0aWFtIGVnZXN0YXMgdnVscHV0YXRlIG1hc3NhLCBjdXJhYml0dXIgdGVsbHVzIG1hc3NhIHZlbmVuYXRpcyBjb25ndWUgZG9sb3IgZW5pbSBpbnRlZ2VyIGx1Y3R1cywgbmlzaSBzdXNjaXBpdCBncmF2aWRhIGZhbWVzIHF1aXMgdnVscHV0YXRlIG5pc2kgdml2ZXJyYSBsdWN0dXMgaWQgbGVvIGRpY3R1bSBsb3JlbSwgaW5jZXB0b3MgbmliaCBvcmNpLlxuICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgICAgICA8IS0tIEVORCBUZXN0IEJsb2NrIC0tPlxuICAgICAgICAgIDwvYi1jb2w+XG4gICAgICAgIDwvYi1yb3c+XG4gICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICA8IS0tIEVORCBCbG9ja3MgQVBJIC0tPlxuXG4gICAgICA8IS0tIEludGVyYWN0aXZlIE9wdGlvbnMgLS0+XG4gICAgICA8aDIgY2xhc3M9XCJjb250ZW50LWhlYWRpbmdcIj5JbnRlcmFjdGl2ZSBPcHRpb25zPC9oMj5cbiAgICAgIDxiLXJvdz5cbiAgICAgICAgPGItY29sIG1kPVwiNlwiPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiVG9nZ2xlIENvbnRlbnRcIiBidG4tb3B0aW9uLWNvbnRlbnQ+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIG1kPVwiNlwiPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiQ2xvc2VcIiBidG4tb3B0aW9uLWNsb3NlPlxuICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgIERvbG9yIHBvc3VlcmUgcHJvaW4gYmxhbmRpdCBhY2N1bXNhbiBzZW5lY3R1cyBuZXR1cyBudWxsYW0gY3VyYWUsIG9ybmFyZSBsYW9yZWV0IGFkaXBpc2NpbmcgbHVjdHVzIG1hdXJpcyBhZGlwaXNjaW5nIHByZXRpdW0gZWdldCBmZXJtZW50dW0sIHRyaXN0aXF1ZSBsb2JvcnRpcyBlc3QgdXQgbWV0dXMgbG9ib3J0aXMgdG9ydG9yIHRpbmNpZHVudCBoaW1lbmFlb3MgaGFiaXRhbnQgcXVpcyBkaWN0dW1zdCBwcm9pbiBvZGlvIHNhZ2l0dGlzIHB1cnVzIG1pLCBuZWMgdGFjaXRpIHZlc3RpYnVsdW0gcXVpcyBpbiBzaXQgdmFyaXVzIGxvcmVtIHNpdCBtZXR1cyBtaS5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgIDwvYi1jb2w+XG4gICAgICAgIDxiLWNvbCBtZD1cIjZcIj5cbiAgICAgICAgICA8YmFzZS1ibG9jayB0aXRsZT1cIk1heGltaXplXCIgYnRuLW9wdGlvbi1mdWxsc2NyZWVuPlxuICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgIERvbG9yIHBvc3VlcmUgcHJvaW4gYmxhbmRpdCBhY2N1bXNhbiBzZW5lY3R1cyBuZXR1cyBudWxsYW0gY3VyYWUsIG9ybmFyZSBsYW9yZWV0IGFkaXBpc2NpbmcgbHVjdHVzIG1hdXJpcyBhZGlwaXNjaW5nIHByZXRpdW0gZWdldCBmZXJtZW50dW0sIHRyaXN0aXF1ZSBsb2JvcnRpcyBlc3QgdXQgbWV0dXMgbG9ib3J0aXMgdG9ydG9yIHRpbmNpZHVudCBoaW1lbmFlb3MgaGFiaXRhbnQgcXVpcyBkaWN0dW1zdCBwcm9pbiBvZGlvIHNhZ2l0dGlzIHB1cnVzIG1pLCBuZWMgdGFjaXRpIHZlc3RpYnVsdW0gcXVpcyBpbiBzaXQgdmFyaXVzIGxvcmVtIHNpdCBtZXR1cyBtaS5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgIDwvYi1jb2w+XG4gICAgICAgIDxiLWNvbCBtZD1cIjZcIj5cbiAgICAgICAgICA8YmFzZS1ibG9jayB0aXRsZT1cIlJlZnJlc2hcIiByZWY9XCJ0ZXh0QmxvY2syXCI+XG4gICAgICAgICAgICA8dGVtcGxhdGUgI29wdGlvbnM+XG4gICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIiBjbGFzcz1cImJ0bi1ibG9jay1vcHRpb25cIiBAY2xpY2s9XCJsb2FkRGF0YSgndGV4dEJsb2NrMicpXCI+XG4gICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJzaSBzaS1yZWZyZXNoXCI+PC9pPlxuICAgICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICAgIDwvdGVtcGxhdGU+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIG1kPVwiNlwiPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiUGlubmVkXCIgYnRuLW9wdGlvbi1waW5uZWQ+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIG1kPVwiNlwiPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiQ29udGVudFwiIHN1YnRpdGxlPVwiSGlkZGVuIGJ5IGRlZmF1bHRcIiBidG4tb3B0aW9uLWNvbnRlbnQgbW9kZS1jb250ZW50LWhpZGU+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIGNvbHM9XCIxMlwiPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiQWxsIE9wdGlvbnNcIiByZWY9XCJ0ZXN0QmxvY2syXCIgYnRuLW9wdGlvbi1mdWxsc2NyZWVuIGJ0bi1vcHRpb24tcGlubmVkIGJ0bi1vcHRpb24tY29udGVudCBidG4tb3B0aW9uLWNsb3NlPlxuICAgICAgICAgICAgPHRlbXBsYXRlICNvcHRpb25zPlxuICAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPVwiYnV0dG9uXCIgY2xhc3M9XCJidG4tYmxvY2stb3B0aW9uXCIgQGNsaWNrPVwibG9hZERhdGEoJ3Rlc3RCbG9jazInKVwiPlxuICAgICAgICAgICAgICAgIDxpIGNsYXNzPVwic2kgc2ktcmVmcmVzaFwiPjwvaT5cbiAgICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8L3RlbXBsYXRlPlxuICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgIFBvdGVudGkgZWxpdCBsZWN0dXMgYXVndWUgZWdldCBpYWN1bGlzIHZpdGFlIGV0aWFtLCB1bGxhbWNvcnBlciBldGlhbSBiaWJlbmR1bSBhZCBmZXVnaWF0IG1hZ25hIGFjY3Vtc2FuIGRvbG9yLCBuaWJoIG1vbGVzdGllIGNyYXMgaGFjIGFjIGFkIG1hc3NhLCBmdXNjZSBhbnRlIGNvbnZhbGxpcyBhbnRlIHVybmEgbW9sZXN0aWUgdnVscHV0YXRlIGJpYmVuZHVtIHRlbXB1cyBhbnRlIGp1c3RvIGFyY3UgZXJhdCBhY2N1bXNhbiBhZGlwaXNjaW5nIHJpc3VzLCBsaWJlcm8gY29uZGltZW50dW0gdmVuZW5hdGlzIHNpdCBuaXNsIG5pc2kgdWx0cmljaWVzIHNlZCwgZmFtZXMgYWxpcXVldCBjb25zZWN0ZXR1ciBjb25zZXF1YXQgbm9zdHJhIG1vbGVzdGllIG5lcXVlIG51bGxhbSBzY2VsZXJpc3F1ZSBuZXF1ZSBjb21tb2RvIHR1cnBpcyBxdWlzcXVlIGV0aWFtIGVnZXN0YXMgdnVscHV0YXRlIG1hc3NhLCBjdXJhYml0dXIgdGVsbHVzIG1hc3NhIHZlbmVuYXRpcyBjb25ndWUgZG9sb3IgZW5pbSBpbnRlZ2VyIGx1Y3R1cywgbmlzaSBzdXNjaXBpdCBncmF2aWRhIGZhbWVzIHF1aXMgdnVscHV0YXRlIG5pc2kgdml2ZXJyYSBsdWN0dXMgaWQgbGVvIGRpY3R1bSBsb3JlbSwgaW5jZXB0b3MgbmliaCBvcmNpLlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgIDwvYi1yb3c+XG4gICAgICA8IS0tIEVORCBJbnRlcmFjdGl2ZSBPcHRpb25zIC0tPlxuXG4gICAgICA8IS0tIExvYWRpbmcgSW5kaWNhdG9ycyAtLT5cbiAgICAgIDxoMiBjbGFzcz1cImNvbnRlbnQtaGVhZGluZ1wiPkxvYWRpbmcgSW5kaWNhdG9yczwvaDI+XG4gICAgICA8Yi1yb3c+XG4gICAgICAgIDxiLWNvbCBtZD1cIjZcIj5cbiAgICAgICAgICA8YmFzZS1ibG9jayB0aXRsZT1cIkdvZ1wiIHJlZj1cImJsb2NrTG9hZGluZ0dvZ1wiPlxuICAgICAgICAgICAgPHRlbXBsYXRlICNvcHRpb25zPlxuICAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPVwiYnV0dG9uXCIgY2xhc3M9XCJidG4tYmxvY2stb3B0aW9uXCIgQGNsaWNrPVwibG9hZERhdGEoJ2Jsb2NrTG9hZGluZ0dvZycpXCI+XG4gICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJzaSBzaS1yZWZyZXNoXCI+PC9pPlxuICAgICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICAgIDwvdGVtcGxhdGU+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIG1kPVwiNlwiPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiTG9jYXRpb25cIiByZWY9XCJibG9ja0xvYWRpbmdMb2NhdGlvblwiIGNsYXNzPVwiYmxvY2stbW9kZS1sb2FkaW5nLWxvY2F0aW9uXCI+XG4gICAgICAgICAgICA8dGVtcGxhdGUgI29wdGlvbnM+XG4gICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIiBjbGFzcz1cImJ0bi1ibG9jay1vcHRpb25cIiBAY2xpY2s9XCJsb2FkRGF0YSgnYmxvY2tMb2FkaW5nTG9jYXRpb24nKVwiPlxuICAgICAgICAgICAgICAgIDxpIGNsYXNzPVwic2kgc2ktcmVmcmVzaFwiPjwvaT5cbiAgICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8L3RlbXBsYXRlPlxuICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgIERvbG9yIHBvc3VlcmUgcHJvaW4gYmxhbmRpdCBhY2N1bXNhbiBzZW5lY3R1cyBuZXR1cyBudWxsYW0gY3VyYWUsIG9ybmFyZSBsYW9yZWV0IGFkaXBpc2NpbmcgbHVjdHVzIG1hdXJpcyBhZGlwaXNjaW5nIHByZXRpdW0gZWdldCBmZXJtZW50dW0sIHRyaXN0aXF1ZSBsb2JvcnRpcyBlc3QgdXQgbWV0dXMgbG9ib3J0aXMgdG9ydG9yIHRpbmNpZHVudCBoaW1lbmFlb3MgaGFiaXRhbnQgcXVpcyBkaWN0dW1zdCBwcm9pbiBvZGlvIHNhZ2l0dGlzIHB1cnVzIG1pLCBuZWMgdGFjaXRpIHZlc3RpYnVsdW0gcXVpcyBpbiBzaXQgdmFyaXVzIGxvcmVtIHNpdCBtZXR1cyBtaS5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgIDwvYi1jb2w+XG4gICAgICAgIDxiLWNvbCBtZD1cIjZcIj5cbiAgICAgICAgICA8YmFzZS1ibG9jayB0aXRsZT1cIkVuZXJneVwiIHJlZj1cImJsb2NrTG9hZGluZ0VuZXJneVwiIGNsYXNzPVwiYmxvY2stbW9kZS1sb2FkaW5nLWVuZXJneVwiPlxuICAgICAgICAgICAgPHRlbXBsYXRlICNvcHRpb25zPlxuICAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPVwiYnV0dG9uXCIgY2xhc3M9XCJidG4tYmxvY2stb3B0aW9uXCIgQGNsaWNrPVwibG9hZERhdGEoJ2Jsb2NrTG9hZGluZ0VuZXJneScpXCI+XG4gICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJzaSBzaS1yZWZyZXNoXCI+PC9pPlxuICAgICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICAgIDwvdGVtcGxhdGU+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIG1kPVwiNlwiPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiUmVmcmVzaFwiIHJlZj1cImJsb2NrTG9hZGluZ1JlZnJlc2hcIiBjbGFzcz1cImJsb2NrLW1vZGUtbG9hZGluZy1yZWZyZXNoXCI+XG4gICAgICAgICAgICA8dGVtcGxhdGUgI29wdGlvbnM+XG4gICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIiBjbGFzcz1cImJ0bi1ibG9jay1vcHRpb25cIiBAY2xpY2s9XCJsb2FkRGF0YSgnYmxvY2tMb2FkaW5nUmVmcmVzaCcpXCI+XG4gICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJzaSBzaS1yZWZyZXNoXCI+PC9pPlxuICAgICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICAgIDwvdGVtcGxhdGU+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIG1kPVwiNlwiPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiU3VuXCIgcmVmPVwiYmxvY2tMb2FkaW5nU3VuXCIgY2xhc3M9XCJibG9jay1tb2RlLWxvYWRpbmctc3VuXCI+XG4gICAgICAgICAgICA8dGVtcGxhdGUgI29wdGlvbnM+XG4gICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIiBjbGFzcz1cImJ0bi1ibG9jay1vcHRpb25cIiBAY2xpY2s9XCJsb2FkRGF0YSgnYmxvY2tMb2FkaW5nU3VuJylcIj5cbiAgICAgICAgICAgICAgICA8aSBjbGFzcz1cInNpIHNpLXJlZnJlc2hcIj48L2k+XG4gICAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgPC90ZW1wbGF0ZT5cbiAgICAgICAgICAgIDxwPlxuICAgICAgICAgICAgICBEb2xvciBwb3N1ZXJlIHByb2luIGJsYW5kaXQgYWNjdW1zYW4gc2VuZWN0dXMgbmV0dXMgbnVsbGFtIGN1cmFlLCBvcm5hcmUgbGFvcmVldCBhZGlwaXNjaW5nIGx1Y3R1cyBtYXVyaXMgYWRpcGlzY2luZyBwcmV0aXVtIGVnZXQgZmVybWVudHVtLCB0cmlzdGlxdWUgbG9ib3J0aXMgZXN0IHV0IG1ldHVzIGxvYm9ydGlzIHRvcnRvciB0aW5jaWR1bnQgaGltZW5hZW9zIGhhYml0YW50IHF1aXMgZGljdHVtc3QgcHJvaW4gb2RpbyBzYWdpdHRpcyBwdXJ1cyBtaSwgbmVjIHRhY2l0aSB2ZXN0aWJ1bHVtIHF1aXMgaW4gc2l0IHZhcml1cyBsb3JlbSBzaXQgbWV0dXMgbWkuXG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgPC9iYXNlLWJsb2NrPlxuICAgICAgICA8L2ItY29sPlxuICAgICAgICA8Yi1jb2wgbWQ9XCI2XCI+XG4gICAgICAgICAgPGJhc2UtYmxvY2sgdGl0bGU9XCJSZXBlYXRcIiByZWY9XCJibG9ja0xvYWRpbmdSZXBlYXRcIiBjbGFzcz1cImJsb2NrLW1vZGUtbG9hZGluZy1yZXBlYXRcIj5cbiAgICAgICAgICAgIDx0ZW1wbGF0ZSAjb3B0aW9ucz5cbiAgICAgICAgICAgICAgIDxidXR0b24gdHlwZT1cImJ1dHRvblwiIGNsYXNzPVwiYnRuLWJsb2NrLW9wdGlvblwiIEBjbGljaz1cImxvYWREYXRhKCdibG9ja0xvYWRpbmdSZXBlYXQnKVwiPlxuICAgICAgICAgICAgICAgIDxpIGNsYXNzPVwic2kgc2ktcmVmcmVzaFwiPjwvaT5cbiAgICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8L3RlbXBsYXRlPlxuICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgIERvbG9yIHBvc3VlcmUgcHJvaW4gYmxhbmRpdCBhY2N1bXNhbiBzZW5lY3R1cyBuZXR1cyBudWxsYW0gY3VyYWUsIG9ybmFyZSBsYW9yZWV0IGFkaXBpc2NpbmcgbHVjdHVzIG1hdXJpcyBhZGlwaXNjaW5nIHByZXRpdW0gZWdldCBmZXJtZW50dW0sIHRyaXN0aXF1ZSBsb2JvcnRpcyBlc3QgdXQgbWV0dXMgbG9ib3J0aXMgdG9ydG9yIHRpbmNpZHVudCBoaW1lbmFlb3MgaGFiaXRhbnQgcXVpcyBkaWN0dW1zdCBwcm9pbiBvZGlvIHNhZ2l0dGlzIHB1cnVzIG1pLCBuZWMgdGFjaXRpIHZlc3RpYnVsdW0gcXVpcyBpbiBzaXQgdmFyaXVzIGxvcmVtIHNpdCBtZXR1cyBtaS5cbiAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgIDwvYi1jb2w+XG4gICAgICAgIDxiLWNvbCBtZD1cIjZcIj5cbiAgICAgICAgICA8YmFzZS1ibG9jayB0aXRsZT1cImRtc1wiIHJlZj1cImJsb2NrTG9hZGluZ2Rtc1wiIGNsYXNzPVwiYmxvY2stbW9kZS1sb2FkaW5nLWRtc1wiPlxuICAgICAgICAgICAgPHRlbXBsYXRlICNvcHRpb25zPlxuICAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPVwiYnV0dG9uXCIgY2xhc3M9XCJidG4tYmxvY2stb3B0aW9uXCIgQGNsaWNrPVwibG9hZERhdGEoJ2Jsb2NrTG9hZGluZ2RtcycpXCI+XG4gICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJzaSBzaS1yZWZyZXNoXCI+PC9pPlxuICAgICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICAgIDwvdGVtcGxhdGU+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIG1kPVwiNlwiPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiSG91cmdsYXNzXCIgcmVmPVwiYmxvY2tMb2FkaW5nSG91cmdsYXNzXCIgY2xhc3M9XCJibG9jay1tb2RlLWxvYWRpbmctaG91cmdsYXNzXCI+XG4gICAgICAgICAgICA8dGVtcGxhdGUgI29wdGlvbnM+XG4gICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIiBjbGFzcz1cImJ0bi1ibG9jay1vcHRpb25cIiBAY2xpY2s9XCJsb2FkRGF0YSgnYmxvY2tMb2FkaW5nSG91cmdsYXNzJylcIj5cbiAgICAgICAgICAgICAgICA8aSBjbGFzcz1cInNpIHNpLXJlZnJlc2hcIj48L2k+XG4gICAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgPC90ZW1wbGF0ZT5cbiAgICAgICAgICAgIDxwPlxuICAgICAgICAgICAgICBEb2xvciBwb3N1ZXJlIHByb2luIGJsYW5kaXQgYWNjdW1zYW4gc2VuZWN0dXMgbmV0dXMgbnVsbGFtIGN1cmFlLCBvcm5hcmUgbGFvcmVldCBhZGlwaXNjaW5nIGx1Y3R1cyBtYXVyaXMgYWRpcGlzY2luZyBwcmV0aXVtIGVnZXQgZmVybWVudHVtLCB0cmlzdGlxdWUgbG9ib3J0aXMgZXN0IHV0IG1ldHVzIGxvYm9ydGlzIHRvcnRvciB0aW5jaWR1bnQgaGltZW5hZW9zIGhhYml0YW50IHF1aXMgZGljdHVtc3QgcHJvaW4gb2RpbyBzYWdpdHRpcyBwdXJ1cyBtaSwgbmVjIHRhY2l0aSB2ZXN0aWJ1bHVtIHF1aXMgaW4gc2l0IHZhcml1cyBsb3JlbSBzaXQgbWV0dXMgbWkuXG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgPC9iYXNlLWJsb2NrPlxuICAgICAgICA8L2ItY29sPlxuICAgICAgPC9iLXJvdz5cbiAgICAgIDwhLS0gRU5EIExvYWRpbmcgSW5kaWNhdG9ycyAtLT5cbiAgICA8L2Rpdj5cbiAgICA8IS0tIEVORCBQYWdlIENvbnRlbnQgLS0+XG4gIDwvZGl2PlxuPC90ZW1wbGF0ZT5cblxuPHNjcmlwdD5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgbWV0aG9kczoge1xuICAgIGxvYWREYXRhIChyZWYpIHtcbiAgICAgIC8vIFNldCB0aGUgYmxvY2sgdG8gbG9hZGluZyBzdGF0ZVxuICAgICAgdGhpcy4kcmVmc1tyZWZdLnN0YXRlTG9hZGluZygpXG5cbiAgICAgIC8vIC4uIGhlcmUgeW91IGNvdWxkIGxvYWQgeW91ciBkYXRhXG5cbiAgICAgIC8vIFNldCBhIHRpbWVvdXQgZm9yIGRlbW8gcHVycG9zZXNcbiAgICAgIHNldFRpbWVvdXQoKCkgPT4ge1xuICAgICAgICAvLyBTZXQgdGhlIGJsb2NrIGJhY2sgdG8gbm9ybWFsIHN0YXRlXG4gICAgICAgIHRoaXMuJHJlZnNbcmVmXS5zdGF0ZU5vcm1hbCgpXG4gICAgICB9LCAyMDAwKVxuICAgIH1cbiAgfVxufVxuPC9zY3JpcHQ+XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&\n");
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    loadData: function loadData(ref) {
+      var _this = this;
+
+      // Set the block to loading state
+      this.$refs[ref].stateLoading(); // .. here you could load your data
+      // Set a timeout for demo purposes
+
+      setTimeout(function () {
+        // Set the block back to normal state
+        _this.$refs[ref].stateNormal();
+      }, 2000);
+    }
+  }
+});
 
 /***/ }),
 
@@ -20,7 +368,1266 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\"base-page-heading\", {\n        attrs: {\n          title: \"Block API\",\n          subtitle: \"Powerful way to manipulate any block you want.\"\n        },\n        scopedSlots: _vm._u([\n          {\n            key: \"extra\",\n            fn: function() {\n              return [\n                _c(\n                  \"b-breadcrumb\",\n                  { staticClass: \"breadcrumb-alt\" },\n                  [\n                    _c(\n                      \"b-breadcrumb-item\",\n                      { attrs: { href: \"javascript:void(0)\" } },\n                      [_vm._v(\"Blocks\")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\"b-breadcrumb-item\", { attrs: { active: \"\" } }, [\n                      _vm._v(\"API\")\n                    ])\n                  ],\n                  1\n                )\n              ]\n            },\n            proxy: true\n          }\n        ])\n      }),\n      _vm._v(\" \"),\n      _c(\n        \"div\",\n        { staticClass: \"content\" },\n        [\n          _c(\n            \"base-block\",\n            { attrs: { title: \"Usage with JS code\" } },\n            [\n              _c(\"p\", { staticClass: \"font-size-sm text-muted mb-0\" }, [\n                _vm._v(\n                  \"\\n        Using block API is easy. You will just have to use the ref property of your block to call the related function. For example, to set the state of a block with ref set to \"\n                ),\n                _c(\"strong\", [_vm._v(\"testBlock\")]),\n                _vm._v(\" to loading, you will have to call:\\n      \")\n              ]),\n              _vm._v(\" \"),\n              _c(\"p\", [\n                _c(\"code\", [_vm._v(\"this.$refs.testBlock.stateLoading()\")])\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"b-row\",\n                { staticClass: \"items-push\" },\n                [\n                  _c(\n                    \"b-col\",\n                    { attrs: { md: \"6\" } },\n                    [\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            bordered: \"\",\n                            striped: \"\",\n                            \"table-class\": \"table-vcenter mb-0\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    { staticStyle: { width: \"25%\" } },\n                                    [_vm._v(\"Live Test\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    { staticStyle: { \"min-width\": \"160px\" } },\n                                    [_vm._v(\"Method\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-primary\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.contentToggle()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Toggle Content\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.contentToggle()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-primary\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.contentHide()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Hide Content\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.contentHide()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-primary\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.contentShow()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Show Content\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.contentShow()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-warning\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.stateToggle()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Toggle State\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.stateToggle()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-warning\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.stateLoading()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"State Loading\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.stateLoading()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-warning\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.stateNormal()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"State Normal\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.stateNormal()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-danger\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.fullscreenToggle()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Toggle Fullscreen\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\n                                        \"$refs.testBlock.fullscreenToggle()\"\n                                      )\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-danger\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.fullscreenOn()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Fullscreen On\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.fullscreenOn()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-danger\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.fullscreenOff()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Fullscreen Off\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.fullscreenOff()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-info\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.pinnedToggle()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Toggle Pinned\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.pinnedToggle()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-info\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.pinnedOn()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Pinned On\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.pinnedOn()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-info\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.pinnedOff()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Pinned Off\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.pinnedOff()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-dark\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.close()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Close\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.close()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              ),\n                              _vm._v(\" \"),\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-td\",\n                                    [\n                                      _c(\n                                        \"b-button\",\n                                        {\n                                          attrs: {\n                                            size: \"sm\",\n                                            variant: \"alt-dark\",\n                                            block: \"\"\n                                          },\n                                          on: {\n                                            click: function($event) {\n                                              return _vm.$refs.testBlock.open()\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(\"Open\")]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-td\", [\n                                    _c(\"code\", [\n                                      _vm._v(\"$refs.testBlock.open()\")\n                                    ])\n                                  ])\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  ),\n                  _vm._v(\" \"),\n                  _c(\n                    \"b-col\",\n                    { attrs: { md: \"6\" } },\n                    [\n                      _c(\n                        \"base-block\",\n                        {\n                          ref: \"testBlock\",\n                          attrs: {\n                            title: \"Test Block\",\n                            bordered: \"\",\n                            \"header-bg\": \"\",\n                            \"btn-option-fullscreen\": \"\",\n                            \"btn-option-content\": \"\"\n                          }\n                        },\n                        [\n                          _c(\"p\", [\n                            _vm._v(\n                              \"\\n              Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\\n            \"\n                            )\n                          ])\n                        ]\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\"h2\", { staticClass: \"content-heading\" }, [\n            _vm._v(\"Interactive Options\")\n          ]),\n          _vm._v(\" \"),\n          _c(\n            \"b-row\",\n            [\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: {\n                        title: \"Toggle Content\",\n                        \"btn-option-content\": \"\"\n                      }\n                    },\n                    [\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    { attrs: { title: \"Close\", \"btn-option-close\": \"\" } },\n                    [\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: { title: \"Maximize\", \"btn-option-fullscreen\": \"\" }\n                    },\n                    [\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"textBlock2\",\n                      attrs: { title: \"Refresh\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\"textBlock2\")\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    { attrs: { title: \"Pinned\", \"btn-option-pinned\": \"\" } },\n                    [\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: {\n                        title: \"Content\",\n                        subtitle: \"Hidden by default\",\n                        \"btn-option-content\": \"\",\n                        \"mode-content-hide\": \"\"\n                      }\n                    },\n                    [\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { cols: \"12\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"testBlock2\",\n                      attrs: {\n                        title: \"All Options\",\n                        \"btn-option-fullscreen\": \"\",\n                        \"btn-option-pinned\": \"\",\n                        \"btn-option-content\": \"\",\n                        \"btn-option-close\": \"\"\n                      },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\"testBlock2\")\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\"h2\", { staticClass: \"content-heading\" }, [\n            _vm._v(\"Loading Indicators\")\n          ]),\n          _vm._v(\" \"),\n          _c(\n            \"b-row\",\n            [\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"blockLoadingGog\",\n                      attrs: { title: \"Gog\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\"blockLoadingGog\")\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"blockLoadingLocation\",\n                      staticClass: \"block-mode-loading-location\",\n                      attrs: { title: \"Location\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\n                                        \"blockLoadingLocation\"\n                                      )\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"blockLoadingEnergy\",\n                      staticClass: \"block-mode-loading-energy\",\n                      attrs: { title: \"Energy\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\"blockLoadingEnergy\")\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"blockLoadingRefresh\",\n                      staticClass: \"block-mode-loading-refresh\",\n                      attrs: { title: \"Refresh\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\"blockLoadingRefresh\")\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"blockLoadingSun\",\n                      staticClass: \"block-mode-loading-sun\",\n                      attrs: { title: \"Sun\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\"blockLoadingSun\")\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"blockLoadingRepeat\",\n                      staticClass: \"block-mode-loading-repeat\",\n                      attrs: { title: \"Repeat\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\"blockLoadingRepeat\")\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"blockLoadingdms\",\n                      staticClass: \"block-mode-loading-dms\",\n                      attrs: { title: \"dms\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\"blockLoadingdms\")\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { md: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      ref: \"blockLoadingHourglass\",\n                      staticClass: \"block-mode-loading-hourglass\",\n                      attrs: { title: \"Hourglass\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"btn-block-option\",\n                                  attrs: { type: \"button\" },\n                                  on: {\n                                    click: function($event) {\n                                      return _vm.loadData(\n                                        \"blockLoadingHourglass\"\n                                      )\n                                    }\n                                  }\n                                },\n                                [_c(\"i\", { staticClass: \"si si-refresh\" })]\n                              )\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\"p\", [\n                        _vm._v(\n                          \"\\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\\n          \"\n                        )\n                      ])\n                    ]\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          )\n        ],\n        1\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2Jsb2Nrcy9BcGkudnVlPzUyMjUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLFNBQVM7QUFDVDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG1CQUFtQixnQ0FBZ0M7QUFDbkQ7QUFDQTtBQUNBO0FBQ0EsdUJBQXVCLFNBQVMsNkJBQTZCLEVBQUU7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsNkNBQTZDLFNBQVMsYUFBYSxFQUFFO0FBQ3JFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGFBQWE7QUFDYjtBQUNBO0FBQ0E7QUFDQSxPQUFPO0FBQ1A7QUFDQTtBQUNBO0FBQ0EsU0FBUyx5QkFBeUI7QUFDbEM7QUFDQTtBQUNBO0FBQ0EsYUFBYSxTQUFTLDhCQUE4QixFQUFFO0FBQ3REO0FBQ0EsdUJBQXVCLDhDQUE4QztBQUNyRTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlCQUFpQiw0QkFBNEI7QUFDN0M7QUFDQTtBQUNBO0FBQ0EscUJBQXFCLFNBQVMsVUFBVSxFQUFFO0FBQzFDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUJBQXlCO0FBQ3pCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHFDQUFxQyxlQUFlLGVBQWUsRUFBRTtBQUNyRTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EscUNBQXFDLGVBQWUsdUJBQXVCLEVBQUU7QUFDN0U7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwyQ0FBMkM7QUFDM0M7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHlDQUF5QztBQUN6QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDJDQUEyQztBQUMzQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUNBQXlDO0FBQ3pDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMkNBQTJDO0FBQzNDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx5Q0FBeUM7QUFDekM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwyQ0FBMkM7QUFDM0M7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHlDQUF5QztBQUN6QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDJDQUEyQztBQUMzQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUNBQXlDO0FBQ3pDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMkNBQTJDO0FBQzNDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx5Q0FBeUM7QUFDekM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwyQ0FBMkM7QUFDM0M7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHlDQUF5QztBQUN6QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwyQ0FBMkM7QUFDM0M7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHlDQUF5QztBQUN6QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDJDQUEyQztBQUMzQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUNBQXlDO0FBQ3pDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMkNBQTJDO0FBQzNDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx5Q0FBeUM7QUFDekM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwyQ0FBMkM7QUFDM0M7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHlDQUF5QztBQUN6QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDJDQUEyQztBQUMzQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EseUNBQXlDO0FBQ3pDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMkNBQTJDO0FBQzNDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx5Q0FBeUM7QUFDekM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwyQ0FBMkM7QUFDM0M7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHlDQUF5QztBQUN6QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EscUJBQXFCLFNBQVMsVUFBVSxFQUFFO0FBQzFDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHlCQUF5QjtBQUN6QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxvQkFBb0IsaUNBQWlDO0FBQ3JEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFBaUIsU0FBUyxVQUFVLEVBQUU7QUFDdEM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQjtBQUNyQjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLFNBQVMsVUFBVSxFQUFFO0FBQ3RDO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQixTQUFTLHlDQUF5QyxFQUFFO0FBQ3pFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFBaUIsU0FBUyxVQUFVLEVBQUU7QUFDdEM7QUFDQTtBQUNBO0FBQ0E7QUFDQSw4QkFBOEI7QUFDOUIscUJBQXFCO0FBQ3JCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFBaUIsU0FBUyxVQUFVLEVBQUU7QUFDdEM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDhCQUE4QixtQkFBbUI7QUFDakQ7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMENBQTBDLGlCQUFpQjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUNBQWlDO0FBQ2pDLDBDQUEwQywrQkFBK0I7QUFDekU7QUFDQTtBQUNBLDJCQUEyQjtBQUMzQjtBQUNBO0FBQ0E7QUFDQSxxQkFBcUI7QUFDckI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLFNBQVMsVUFBVSxFQUFFO0FBQ3RDO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQixTQUFTLDJDQUEyQyxFQUFFO0FBQzNFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFBaUIsU0FBUyxVQUFVLEVBQUU7QUFDdEM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxxQkFBcUI7QUFDckI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlCQUFpQixTQUFTLGFBQWEsRUFBRTtBQUN6QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsdUJBQXVCO0FBQ3ZCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDBDQUEwQyxpQkFBaUI7QUFDM0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlDQUFpQztBQUNqQywwQ0FBMEMsK0JBQStCO0FBQ3pFO0FBQ0E7QUFDQSwyQkFBMkI7QUFDM0I7QUFDQTtBQUNBO0FBQ0EscUJBQXFCO0FBQ3JCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esb0JBQW9CLGlDQUFpQztBQUNyRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLFNBQVMsVUFBVSxFQUFFO0FBQ3RDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSw4QkFBOEIsZUFBZTtBQUM3QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwwQ0FBMEMsaUJBQWlCO0FBQzNEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQ0FBaUM7QUFDakMsMENBQTBDLCtCQUErQjtBQUN6RTtBQUNBO0FBQ0EsMkJBQTJCO0FBQzNCO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQjtBQUNyQjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFBaUIsU0FBUyxVQUFVLEVBQUU7QUFDdEM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsOEJBQThCLG9CQUFvQjtBQUNsRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwwQ0FBMEMsaUJBQWlCO0FBQzNEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUNBQWlDO0FBQ2pDLDBDQUEwQywrQkFBK0I7QUFDekU7QUFDQTtBQUNBLDJCQUEyQjtBQUMzQjtBQUNBO0FBQ0E7QUFDQSxxQkFBcUI7QUFDckI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLFNBQVMsVUFBVSxFQUFFO0FBQ3RDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDhCQUE4QixrQkFBa0I7QUFDaEQ7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMENBQTBDLGlCQUFpQjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUNBQWlDO0FBQ2pDLDBDQUEwQywrQkFBK0I7QUFDekU7QUFDQTtBQUNBLDJCQUEyQjtBQUMzQjtBQUNBO0FBQ0E7QUFDQSxxQkFBcUI7QUFDckI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLFNBQVMsVUFBVSxFQUFFO0FBQ3RDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDhCQUE4QixtQkFBbUI7QUFDakQ7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsMENBQTBDLGlCQUFpQjtBQUMzRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUNBQWlDO0FBQ2pDLDBDQUEwQywrQkFBK0I7QUFDekU7QUFDQTtBQUNBLDJCQUEyQjtBQUMzQjtBQUNBO0FBQ0E7QUFDQSxxQkFBcUI7QUFDckI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLFNBQVMsVUFBVSxFQUFFO0FBQ3RDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDhCQUE4QixlQUFlO0FBQzdDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDBDQUEwQyxpQkFBaUI7QUFDM0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlDQUFpQztBQUNqQywwQ0FBMEMsK0JBQStCO0FBQ3pFO0FBQ0E7QUFDQSwyQkFBMkI7QUFDM0I7QUFDQTtBQUNBO0FBQ0EscUJBQXFCO0FBQ3JCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlCQUFpQixTQUFTLFVBQVUsRUFBRTtBQUN0QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSw4QkFBOEIsa0JBQWtCO0FBQ2hEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDBDQUEwQyxpQkFBaUI7QUFDM0Q7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlDQUFpQztBQUNqQywwQ0FBMEMsK0JBQStCO0FBQ3pFO0FBQ0E7QUFDQSwyQkFBMkI7QUFDM0I7QUFDQTtBQUNBO0FBQ0EscUJBQXFCO0FBQ3JCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlCQUFpQixTQUFTLFVBQVUsRUFBRTtBQUN0QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSw4QkFBOEIsZUFBZTtBQUM3QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwwQ0FBMEMsaUJBQWlCO0FBQzNEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQ0FBaUM7QUFDakMsMENBQTBDLCtCQUErQjtBQUN6RTtBQUNBO0FBQ0EsMkJBQTJCO0FBQzNCO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQjtBQUNyQjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFBaUIsU0FBUyxVQUFVLEVBQUU7QUFDdEM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsOEJBQThCLHFCQUFxQjtBQUNuRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSwwQ0FBMEMsaUJBQWlCO0FBQzNEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUNBQWlDO0FBQ2pDLDBDQUEwQywrQkFBK0I7QUFDekU7QUFDQTtBQUNBLDJCQUEyQjtBQUMzQjtBQUNBO0FBQ0E7QUFDQSxxQkFBcUI7QUFDckI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6Ii4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2xvYWRlcnMvdGVtcGxhdGVMb2FkZXIuanM/IS4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPyEuL3Jlc291cmNlcy9qcy9zcmMvdmlld3MvYmxvY2tzL0FwaS52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9MTQyOWQzZmImLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIHJlbmRlciA9IGZ1bmN0aW9uKCkge1xuICB2YXIgX3ZtID0gdGhpc1xuICB2YXIgX2ggPSBfdm0uJGNyZWF0ZUVsZW1lbnRcbiAgdmFyIF9jID0gX3ZtLl9zZWxmLl9jIHx8IF9oXG4gIHJldHVybiBfYyhcbiAgICBcImRpdlwiLFxuICAgIFtcbiAgICAgIF9jKFwiYmFzZS1wYWdlLWhlYWRpbmdcIiwge1xuICAgICAgICBhdHRyczoge1xuICAgICAgICAgIHRpdGxlOiBcIkJsb2NrIEFQSVwiLFxuICAgICAgICAgIHN1YnRpdGxlOiBcIlBvd2VyZnVsIHdheSB0byBtYW5pcHVsYXRlIGFueSBibG9jayB5b3Ugd2FudC5cIlxuICAgICAgICB9LFxuICAgICAgICBzY29wZWRTbG90czogX3ZtLl91KFtcbiAgICAgICAgICB7XG4gICAgICAgICAgICBrZXk6IFwiZXh0cmFcIixcbiAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgIFwiYi1icmVhZGNydW1iXCIsXG4gICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImJyZWFkY3J1bWItYWx0XCIgfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiLWJyZWFkY3J1bWItaXRlbVwiLFxuICAgICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgaHJlZjogXCJqYXZhc2NyaXB0OnZvaWQoMClcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkJsb2Nrc1wiKV1cbiAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgX2MoXCJiLWJyZWFkY3J1bWItaXRlbVwiLCB7IGF0dHJzOiB7IGFjdGl2ZTogXCJcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJBUElcIilcbiAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICBdXG4gICAgICAgICAgICB9LFxuICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICB9XG4gICAgICAgIF0pXG4gICAgICB9KSxcbiAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICBfYyhcbiAgICAgICAgXCJkaXZcIixcbiAgICAgICAgeyBzdGF0aWNDbGFzczogXCJjb250ZW50XCIgfSxcbiAgICAgICAgW1xuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICB7IGF0dHJzOiB7IHRpdGxlOiBcIlVzYWdlIHdpdGggSlMgY29kZVwiIH0gfSxcbiAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgX2MoXCJwXCIsIHsgc3RhdGljQ2xhc3M6IFwiZm9udC1zaXplLXNtIHRleHQtbXV0ZWQgbWItMFwiIH0sIFtcbiAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgVXNpbmcgYmxvY2sgQVBJIGlzIGVhc3kuIFlvdSB3aWxsIGp1c3QgaGF2ZSB0byB1c2UgdGhlIHJlZiBwcm9wZXJ0eSBvZiB5b3VyIGJsb2NrIHRvIGNhbGwgdGhlIHJlbGF0ZWQgZnVuY3Rpb24uIEZvciBleGFtcGxlLCB0byBzZXQgdGhlIHN0YXRlIG9mIGEgYmxvY2sgd2l0aCByZWYgc2V0IHRvIFwiXG4gICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICBfYyhcInN0cm9uZ1wiLCBbX3ZtLl92KFwidGVzdEJsb2NrXCIpXSksXG4gICAgICAgICAgICAgICAgX3ZtLl92KFwiIHRvIGxvYWRpbmcsIHlvdSB3aWxsIGhhdmUgdG8gY2FsbDpcXG4gICAgICBcIilcbiAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFwicFwiLCBbXG4gICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtfdm0uX3YoXCJ0aGlzLiRyZWZzLnRlc3RCbG9jay5zdGF0ZUxvYWRpbmcoKVwiKV0pXG4gICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJpdGVtcy1wdXNoXCIgfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IG1kOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10YWJsZS1zaW1wbGVcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXNwb25zaXZlOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcmVkOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0cmlwZWQ6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ0YWJsZS1jbGFzc1wiOiBcInRhYmxlLXZjZW50ZXIgbWItMFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aGVhZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY1N0eWxlOiB7IHdpZHRoOiBcIjI1JVwiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJMaXZlIFRlc3RcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY1N0eWxlOiB7IFwibWluLXdpZHRoXCI6IFwiMTYwcHhcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiTWV0aG9kXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGJvZHlcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImFsdC1wcmltYXJ5XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJsb2NrOiBcIlwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb246IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0uJHJlZnMudGVzdEJsb2NrLmNvbnRlbnRUb2dnbGUoKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiVG9nZ2xlIENvbnRlbnRcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10ZFwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIkcmVmcy50ZXN0QmxvY2suY29udGVudFRvZ2dsZSgpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJhbHQtcHJpbWFyeVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBibG9jazogXCJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLiRyZWZzLnRlc3RCbG9jay5jb250ZW50SGlkZSgpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJIaWRlIENvbnRlbnRcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10ZFwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIkcmVmcy50ZXN0QmxvY2suY29udGVudEhpZGUoKVwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6IFwiYWx0LXByaW1hcnlcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmxvY2s6IFwiXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF92bS4kcmVmcy50ZXN0QmxvY2suY29udGVudFNob3coKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiU2hvdyBDb250ZW50XCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGRcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiJHJlZnMudGVzdEJsb2NrLmNvbnRlbnRTaG93KClcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImFsdC13YXJuaW5nXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJsb2NrOiBcIlwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb246IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0uJHJlZnMudGVzdEJsb2NrLnN0YXRlVG9nZ2xlKClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlRvZ2dsZSBTdGF0ZVwiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRkXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiY29kZVwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiRyZWZzLnRlc3RCbG9jay5zdGF0ZVRvZ2dsZSgpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJhbHQtd2FybmluZ1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBibG9jazogXCJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLiRyZWZzLnRlc3RCbG9jay5zdGF0ZUxvYWRpbmcoKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiU3RhdGUgTG9hZGluZ1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRkXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiY29kZVwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiRyZWZzLnRlc3RCbG9jay5zdGF0ZUxvYWRpbmcoKVwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6IFwiYWx0LXdhcm5pbmdcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmxvY2s6IFwiXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF92bS4kcmVmcy50ZXN0QmxvY2suc3RhdGVOb3JtYWwoKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiU3RhdGUgTm9ybWFsXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGRcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiJHJlZnMudGVzdEJsb2NrLnN0YXRlTm9ybWFsKClcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImFsdC1kYW5nZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmxvY2s6IFwiXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF92bS4kcmVmcy50ZXN0QmxvY2suZnVsbHNjcmVlblRvZ2dsZSgpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJUb2dnbGUgRnVsbHNjcmVlblwiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRkXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiY29kZVwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIiRyZWZzLnRlc3RCbG9jay5mdWxsc2NyZWVuVG9nZ2xlKClcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJhbHQtZGFuZ2VyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJsb2NrOiBcIlwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb246IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0uJHJlZnMudGVzdEJsb2NrLmZ1bGxzY3JlZW5PbigpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJGdWxsc2NyZWVuIE9uXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGRcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiJHJlZnMudGVzdEJsb2NrLmZ1bGxzY3JlZW5PbigpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJhbHQtZGFuZ2VyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJsb2NrOiBcIlwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb246IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0uJHJlZnMudGVzdEJsb2NrLmZ1bGxzY3JlZW5PZmYoKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiRnVsbHNjcmVlbiBPZmZcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10ZFwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIkcmVmcy50ZXN0QmxvY2suZnVsbHNjcmVlbk9mZigpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJhbHQtaW5mb1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBibG9jazogXCJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLiRyZWZzLnRlc3RCbG9jay5waW5uZWRUb2dnbGUoKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiVG9nZ2xlIFBpbm5lZFwiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRkXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiY29kZVwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiRyZWZzLnRlc3RCbG9jay5waW5uZWRUb2dnbGUoKVwiKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6IFwiYWx0LWluZm9cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmxvY2s6IFwiXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF92bS4kcmVmcy50ZXN0QmxvY2sucGlubmVkT24oKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiUGlubmVkIE9uXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGRcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiJHJlZnMudGVzdEJsb2NrLnBpbm5lZE9uKClcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImFsdC1pbmZvXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJsb2NrOiBcIlwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb246IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0uJHJlZnMudGVzdEJsb2NrLnBpbm5lZE9mZigpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJQaW5uZWQgT2ZmXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGRcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiJHJlZnMudGVzdEJsb2NrLnBpbm5lZE9mZigpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJhbHQtZGFya1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBibG9jazogXCJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLiRyZWZzLnRlc3RCbG9jay5jbG9zZSgpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJDbG9zZVwiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRkXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiY29kZVwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiRyZWZzLnRlc3RCbG9jay5jbG9zZSgpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJhbHQtZGFya1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBibG9jazogXCJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWNrOiBmdW5jdGlvbigkZXZlbnQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLiRyZWZzLnRlc3RCbG9jay5vcGVuKClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIk9wZW5cIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10ZFwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIkcmVmcy50ZXN0QmxvY2sub3BlbigpXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBtZDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcmVmOiBcInRlc3RCbG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlOiBcIlRlc3QgQmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJlZDogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImhlYWRlci1iZ1wiOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYnRuLW9wdGlvbi1mdWxsc2NyZWVuXCI6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJidG4tb3B0aW9uLWNvbnRlbnRcIjogXCJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICBQb3RlbnRpIGVsaXQgbGVjdHVzIGF1Z3VlIGVnZXQgaWFjdWxpcyB2aXRhZSBldGlhbSwgdWxsYW1jb3JwZXIgZXRpYW0gYmliZW5kdW0gYWQgZmV1Z2lhdCBtYWduYSBhY2N1bXNhbiBkb2xvciwgbmliaCBtb2xlc3RpZSBjcmFzIGhhYyBhYyBhZCBtYXNzYSwgZnVzY2UgYW50ZSBjb252YWxsaXMgYW50ZSB1cm5hIG1vbGVzdGllIHZ1bHB1dGF0ZSBiaWJlbmR1bSB0ZW1wdXMgYW50ZSBqdXN0byBhcmN1IGVyYXQgYWNjdW1zYW4gYWRpcGlzY2luZyByaXN1cywgbGliZXJvIGNvbmRpbWVudHVtIHZlbmVuYXRpcyBzaXQgbmlzbCBuaXNpIHVsdHJpY2llcyBzZWQsIGZhbWVzIGFsaXF1ZXQgY29uc2VjdGV0dXIgY29uc2VxdWF0IG5vc3RyYSBtb2xlc3RpZSBuZXF1ZSBudWxsYW0gc2NlbGVyaXNxdWUgbmVxdWUgY29tbW9kbyB0dXJwaXMgcXVpc3F1ZSBldGlhbSBlZ2VzdGFzIHZ1bHB1dGF0ZSBtYXNzYSwgY3VyYWJpdHVyIHRlbGx1cyBtYXNzYSB2ZW5lbmF0aXMgY29uZ3VlIGRvbG9yIGVuaW0gaW50ZWdlciBsdWN0dXMsIG5pc2kgc3VzY2lwaXQgZ3JhdmlkYSBmYW1lcyBxdWlzIHZ1bHB1dGF0ZSBuaXNpIHZpdmVycmEgbHVjdHVzIGlkIGxlbyBkaWN0dW0gbG9yZW0sIGluY2VwdG9zIG5pYmggb3JjaS5cXG4gICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgXSxcbiAgICAgICAgICAgIDFcbiAgICAgICAgICApLFxuICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgX2MoXCJoMlwiLCB7IHN0YXRpY0NsYXNzOiBcImNvbnRlbnQtaGVhZGluZ1wiIH0sIFtcbiAgICAgICAgICAgIF92bS5fdihcIkludGVyYWN0aXZlIE9wdGlvbnNcIilcbiAgICAgICAgICBdKSxcbiAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJiLXJvd1wiLFxuICAgICAgICAgICAgW1xuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgeyBhdHRyczogeyBtZDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICB0aXRsZTogXCJUb2dnbGUgQ29udGVudFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJidG4tb3B0aW9uLWNvbnRlbnRcIjogXCJcIlxuICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxcbiAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgbWQ6IFwiNlwiIH0gfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgdGl0bGU6IFwiQ2xvc2VcIiwgXCJidG4tb3B0aW9uLWNsb3NlXCI6IFwiXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICBEb2xvciBwb3N1ZXJlIHByb2luIGJsYW5kaXQgYWNjdW1zYW4gc2VuZWN0dXMgbmV0dXMgbnVsbGFtIGN1cmFlLCBvcm5hcmUgbGFvcmVldCBhZGlwaXNjaW5nIGx1Y3R1cyBtYXVyaXMgYWRpcGlzY2luZyBwcmV0aXVtIGVnZXQgZmVybWVudHVtLCB0cmlzdGlxdWUgbG9ib3J0aXMgZXN0IHV0IG1ldHVzIGxvYm9ydGlzIHRvcnRvciB0aW5jaWR1bnQgaGltZW5hZW9zIGhhYml0YW50IHF1aXMgZGljdHVtc3QgcHJvaW4gb2RpbyBzYWdpdHRpcyBwdXJ1cyBtaSwgbmVjIHRhY2l0aSB2ZXN0aWJ1bHVtIHF1aXMgaW4gc2l0IHZhcml1cyBsb3JlbSBzaXQgbWV0dXMgbWkuXFxuICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgeyBhdHRyczogeyBtZDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHRpdGxlOiBcIk1heGltaXplXCIsIFwiYnRuLW9wdGlvbi1mdWxsc2NyZWVuXCI6IFwiXCIgfVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICBEb2xvciBwb3N1ZXJlIHByb2luIGJsYW5kaXQgYWNjdW1zYW4gc2VuZWN0dXMgbmV0dXMgbnVsbGFtIGN1cmFlLCBvcm5hcmUgbGFvcmVldCBhZGlwaXNjaW5nIGx1Y3R1cyBtYXVyaXMgYWRpcGlzY2luZyBwcmV0aXVtIGVnZXQgZmVybWVudHVtLCB0cmlzdGlxdWUgbG9ib3J0aXMgZXN0IHV0IG1ldHVzIGxvYm9ydGlzIHRvcnRvciB0aW5jaWR1bnQgaGltZW5hZW9zIGhhYml0YW50IHF1aXMgZGljdHVtc3QgcHJvaW4gb2RpbyBzYWdpdHRpcyBwdXJ1cyBtaSwgbmVjIHRhY2l0aSB2ZXN0aWJ1bHVtIHF1aXMgaW4gc2l0IHZhcml1cyBsb3JlbSBzaXQgbWV0dXMgbWkuXFxuICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgeyBhdHRyczogeyBtZDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIHJlZjogXCJ0ZXh0QmxvY2syXCIsXG4gICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdGl0bGU6IFwiUmVmcmVzaFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGtleTogXCJvcHRpb25zXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJidG4tYmxvY2stb3B0aW9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdHlwZTogXCJidXR0b25cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0ubG9hZERhdGEoXCJ0ZXh0QmxvY2syXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktcmVmcmVzaFwiIH0pXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgIERvbG9yIHBvc3VlcmUgcHJvaW4gYmxhbmRpdCBhY2N1bXNhbiBzZW5lY3R1cyBuZXR1cyBudWxsYW0gY3VyYWUsIG9ybmFyZSBsYW9yZWV0IGFkaXBpc2NpbmcgbHVjdHVzIG1hdXJpcyBhZGlwaXNjaW5nIHByZXRpdW0gZWdldCBmZXJtZW50dW0sIHRyaXN0aXF1ZSBsb2JvcnRpcyBlc3QgdXQgbWV0dXMgbG9ib3J0aXMgdG9ydG9yIHRpbmNpZHVudCBoaW1lbmFlb3MgaGFiaXRhbnQgcXVpcyBkaWN0dW1zdCBwcm9pbiBvZGlvIHNhZ2l0dGlzIHB1cnVzIG1pLCBuZWMgdGFjaXRpIHZlc3RpYnVsdW0gcXVpcyBpbiBzaXQgdmFyaXVzIGxvcmVtIHNpdCBtZXR1cyBtaS5cXG4gICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IG1kOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHRpdGxlOiBcIlBpbm5lZFwiLCBcImJ0bi1vcHRpb24tcGlubmVkXCI6IFwiXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICBEb2xvciBwb3N1ZXJlIHByb2luIGJsYW5kaXQgYWNjdW1zYW4gc2VuZWN0dXMgbmV0dXMgbnVsbGFtIGN1cmFlLCBvcm5hcmUgbGFvcmVldCBhZGlwaXNjaW5nIGx1Y3R1cyBtYXVyaXMgYWRpcGlzY2luZyBwcmV0aXVtIGVnZXQgZmVybWVudHVtLCB0cmlzdGlxdWUgbG9ib3J0aXMgZXN0IHV0IG1ldHVzIGxvYm9ydGlzIHRvcnRvciB0aW5jaWR1bnQgaGltZW5hZW9zIGhhYml0YW50IHF1aXMgZGljdHVtc3QgcHJvaW4gb2RpbyBzYWdpdHRpcyBwdXJ1cyBtaSwgbmVjIHRhY2l0aSB2ZXN0aWJ1bHVtIHF1aXMgaW4gc2l0IHZhcml1cyBsb3JlbSBzaXQgbWV0dXMgbWkuXFxuICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgeyBhdHRyczogeyBtZDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICB0aXRsZTogXCJDb250ZW50XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICBzdWJ0aXRsZTogXCJIaWRkZW4gYnkgZGVmYXVsdFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJidG4tb3B0aW9uLWNvbnRlbnRcIjogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIFwibW9kZS1jb250ZW50LWhpZGVcIjogXCJcIlxuICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxcbiAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgY29sczogXCIxMlwiIH0gfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICByZWY6IFwidGVzdEJsb2NrMlwiLFxuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICB0aXRsZTogXCJBbGwgT3B0aW9uc1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJidG4tb3B0aW9uLWZ1bGxzY3JlZW5cIjogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYnRuLW9wdGlvbi1waW5uZWRcIjogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYnRuLW9wdGlvbi1jb250ZW50XCI6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICBcImJ0bi1vcHRpb24tY2xvc2VcIjogXCJcIlxuICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGtleTogXCJvcHRpb25zXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJidG4tYmxvY2stb3B0aW9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdHlwZTogXCJidXR0b25cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0ubG9hZERhdGEoXCJ0ZXN0QmxvY2syXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktcmVmcmVzaFwiIH0pXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgIFBvdGVudGkgZWxpdCBsZWN0dXMgYXVndWUgZWdldCBpYWN1bGlzIHZpdGFlIGV0aWFtLCB1bGxhbWNvcnBlciBldGlhbSBiaWJlbmR1bSBhZCBmZXVnaWF0IG1hZ25hIGFjY3Vtc2FuIGRvbG9yLCBuaWJoIG1vbGVzdGllIGNyYXMgaGFjIGFjIGFkIG1hc3NhLCBmdXNjZSBhbnRlIGNvbnZhbGxpcyBhbnRlIHVybmEgbW9sZXN0aWUgdnVscHV0YXRlIGJpYmVuZHVtIHRlbXB1cyBhbnRlIGp1c3RvIGFyY3UgZXJhdCBhY2N1bXNhbiBhZGlwaXNjaW5nIHJpc3VzLCBsaWJlcm8gY29uZGltZW50dW0gdmVuZW5hdGlzIHNpdCBuaXNsIG5pc2kgdWx0cmljaWVzIHNlZCwgZmFtZXMgYWxpcXVldCBjb25zZWN0ZXR1ciBjb25zZXF1YXQgbm9zdHJhIG1vbGVzdGllIG5lcXVlIG51bGxhbSBzY2VsZXJpc3F1ZSBuZXF1ZSBjb21tb2RvIHR1cnBpcyBxdWlzcXVlIGV0aWFtIGVnZXN0YXMgdnVscHV0YXRlIG1hc3NhLCBjdXJhYml0dXIgdGVsbHVzIG1hc3NhIHZlbmVuYXRpcyBjb25ndWUgZG9sb3IgZW5pbSBpbnRlZ2VyIGx1Y3R1cywgbmlzaSBzdXNjaXBpdCBncmF2aWRhIGZhbWVzIHF1aXMgdnVscHV0YXRlIG5pc2kgdml2ZXJyYSBsdWN0dXMgaWQgbGVvIGRpY3R1bSBsb3JlbSwgaW5jZXB0b3MgbmliaCBvcmNpLlxcbiAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgXSxcbiAgICAgICAgICAgIDFcbiAgICAgICAgICApLFxuICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgX2MoXCJoMlwiLCB7IHN0YXRpY0NsYXNzOiBcImNvbnRlbnQtaGVhZGluZ1wiIH0sIFtcbiAgICAgICAgICAgIF92bS5fdihcIkxvYWRpbmcgSW5kaWNhdG9yc1wiKVxuICAgICAgICAgIF0pLFxuICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgX2MoXG4gICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICBbXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IG1kOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgcmVmOiBcImJsb2NrTG9hZGluZ0dvZ1wiLFxuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHRpdGxlOiBcIkdvZ1wiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGtleTogXCJvcHRpb25zXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJidG4tYmxvY2stb3B0aW9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdHlwZTogXCJidXR0b25cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0ubG9hZERhdGEoXCJibG9ja0xvYWRpbmdHb2dcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfYyhcImlcIiwgeyBzdGF0aWNDbGFzczogXCJzaSBzaS1yZWZyZXNoXCIgfSldXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxcbiAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgbWQ6IFwiNlwiIH0gfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICByZWY6IFwiYmxvY2tMb2FkaW5nTG9jYXRpb25cIixcbiAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJibG9jay1tb2RlLWxvYWRpbmctbG9jYXRpb25cIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB0aXRsZTogXCJMb2NhdGlvblwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGtleTogXCJvcHRpb25zXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJidG4tYmxvY2stb3B0aW9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdHlwZTogXCJidXR0b25cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0ubG9hZERhdGEoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJibG9ja0xvYWRpbmdMb2NhdGlvblwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfYyhcImlcIiwgeyBzdGF0aWNDbGFzczogXCJzaSBzaS1yZWZyZXNoXCIgfSldXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxcbiAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgbWQ6IFwiNlwiIH0gfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICByZWY6IFwiYmxvY2tMb2FkaW5nRW5lcmd5XCIsXG4gICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiYmxvY2stbW9kZS1sb2FkaW5nLWVuZXJneVwiLFxuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHRpdGxlOiBcIkVuZXJneVwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGtleTogXCJvcHRpb25zXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJidG4tYmxvY2stb3B0aW9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdHlwZTogXCJidXR0b25cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0ubG9hZERhdGEoXCJibG9ja0xvYWRpbmdFbmVyZ3lcIilcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfYyhcImlcIiwgeyBzdGF0aWNDbGFzczogXCJzaSBzaS1yZWZyZXNoXCIgfSldXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFwicFwiLCBbXG4gICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgRG9sb3IgcG9zdWVyZSBwcm9pbiBibGFuZGl0IGFjY3Vtc2FuIHNlbmVjdHVzIG5ldHVzIG51bGxhbSBjdXJhZSwgb3JuYXJlIGxhb3JlZXQgYWRpcGlzY2luZyBsdWN0dXMgbWF1cmlzIGFkaXBpc2NpbmcgcHJldGl1bSBlZ2V0IGZlcm1lbnR1bSwgdHJpc3RpcXVlIGxvYm9ydGlzIGVzdCB1dCBtZXR1cyBsb2JvcnRpcyB0b3J0b3IgdGluY2lkdW50IGhpbWVuYWVvcyBoYWJpdGFudCBxdWlzIGRpY3R1bXN0IHByb2luIG9kaW8gc2FnaXR0aXMgcHVydXMgbWksIG5lYyB0YWNpdGkgdmVzdGlidWx1bSBxdWlzIGluIHNpdCB2YXJpdXMgbG9yZW0gc2l0IG1ldHVzIG1pLlxcbiAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgbWQ6IFwiNlwiIH0gfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICByZWY6IFwiYmxvY2tMb2FkaW5nUmVmcmVzaFwiLFxuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImJsb2NrLW1vZGUtbG9hZGluZy1yZWZyZXNoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdGl0bGU6IFwiUmVmcmVzaFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgc2NvcGVkU2xvdHM6IF92bS5fdShbXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGtleTogXCJvcHRpb25zXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJidG4tYmxvY2stb3B0aW9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdHlwZTogXCJidXR0b25cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGljazogZnVuY3Rpb24oJGV2ZW50KSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfdm0ubG9hZERhdGEoXCJibG9ja0xvYWRpbmdSZWZyZXNoXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktcmVmcmVzaFwiIH0pXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgIERvbG9yIHBvc3VlcmUgcHJvaW4gYmxhbmRpdCBhY2N1bXNhbiBzZW5lY3R1cyBuZXR1cyBudWxsYW0gY3VyYWUsIG9ybmFyZSBsYW9yZWV0IGFkaXBpc2NpbmcgbHVjdHVzIG1hdXJpcyBhZGlwaXNjaW5nIHByZXRpdW0gZWdldCBmZXJtZW50dW0sIHRyaXN0aXF1ZSBsb2JvcnRpcyBlc3QgdXQgbWV0dXMgbG9ib3J0aXMgdG9ydG9yIHRpbmNpZHVudCBoaW1lbmFlb3MgaGFiaXRhbnQgcXVpcyBkaWN0dW1zdCBwcm9pbiBvZGlvIHNhZ2l0dGlzIHB1cnVzIG1pLCBuZWMgdGFjaXRpIHZlc3RpYnVsdW0gcXVpcyBpbiBzaXQgdmFyaXVzIGxvcmVtIHNpdCBtZXR1cyBtaS5cXG4gICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IG1kOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgcmVmOiBcImJsb2NrTG9hZGluZ1N1blwiLFxuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImJsb2NrLW1vZGUtbG9hZGluZy1zdW5cIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB0aXRsZTogXCJTdW5cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgIHNjb3BlZFNsb3RzOiBfdm0uX3UoW1xuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IFwib3B0aW9uc1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiYnRuLWJsb2NrLW9wdGlvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHR5cGU6IFwiYnV0dG9uXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLmxvYWREYXRhKFwiYmxvY2tMb2FkaW5nU3VuXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktcmVmcmVzaFwiIH0pXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgIERvbG9yIHBvc3VlcmUgcHJvaW4gYmxhbmRpdCBhY2N1bXNhbiBzZW5lY3R1cyBuZXR1cyBudWxsYW0gY3VyYWUsIG9ybmFyZSBsYW9yZWV0IGFkaXBpc2NpbmcgbHVjdHVzIG1hdXJpcyBhZGlwaXNjaW5nIHByZXRpdW0gZWdldCBmZXJtZW50dW0sIHRyaXN0aXF1ZSBsb2JvcnRpcyBlc3QgdXQgbWV0dXMgbG9ib3J0aXMgdG9ydG9yIHRpbmNpZHVudCBoaW1lbmFlb3MgaGFiaXRhbnQgcXVpcyBkaWN0dW1zdCBwcm9pbiBvZGlvIHNhZ2l0dGlzIHB1cnVzIG1pLCBuZWMgdGFjaXRpIHZlc3RpYnVsdW0gcXVpcyBpbiBzaXQgdmFyaXVzIGxvcmVtIHNpdCBtZXR1cyBtaS5cXG4gICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IG1kOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgcmVmOiBcImJsb2NrTG9hZGluZ1JlcGVhdFwiLFxuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImJsb2NrLW1vZGUtbG9hZGluZy1yZXBlYXRcIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB0aXRsZTogXCJSZXBlYXRcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgIHNjb3BlZFNsb3RzOiBfdm0uX3UoW1xuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IFwib3B0aW9uc1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiYnRuLWJsb2NrLW9wdGlvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHR5cGU6IFwiYnV0dG9uXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLmxvYWREYXRhKFwiYmxvY2tMb2FkaW5nUmVwZWF0XCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktcmVmcmVzaFwiIH0pXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgIERvbG9yIHBvc3VlcmUgcHJvaW4gYmxhbmRpdCBhY2N1bXNhbiBzZW5lY3R1cyBuZXR1cyBudWxsYW0gY3VyYWUsIG9ybmFyZSBsYW9yZWV0IGFkaXBpc2NpbmcgbHVjdHVzIG1hdXJpcyBhZGlwaXNjaW5nIHByZXRpdW0gZWdldCBmZXJtZW50dW0sIHRyaXN0aXF1ZSBsb2JvcnRpcyBlc3QgdXQgbWV0dXMgbG9ib3J0aXMgdG9ydG9yIHRpbmNpZHVudCBoaW1lbmFlb3MgaGFiaXRhbnQgcXVpcyBkaWN0dW1zdCBwcm9pbiBvZGlvIHNhZ2l0dGlzIHB1cnVzIG1pLCBuZWMgdGFjaXRpIHZlc3RpYnVsdW0gcXVpcyBpbiBzaXQgdmFyaXVzIGxvcmVtIHNpdCBtZXR1cyBtaS5cXG4gICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IG1kOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgcmVmOiBcImJsb2NrTG9hZGluZ2Rtc1wiLFxuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImJsb2NrLW1vZGUtbG9hZGluZy1kbXNcIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB0aXRsZTogXCJkbXNcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgIHNjb3BlZFNsb3RzOiBfdm0uX3UoW1xuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IFwib3B0aW9uc1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiYnRuLWJsb2NrLW9wdGlvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHR5cGU6IFwiYnV0dG9uXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLmxvYWREYXRhKFwiYmxvY2tMb2FkaW5nZG1zXCIpXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX2MoXCJpXCIsIHsgc3RhdGljQ2xhc3M6IFwic2kgc2ktcmVmcmVzaFwiIH0pXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcInBcIiwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgIERvbG9yIHBvc3VlcmUgcHJvaW4gYmxhbmRpdCBhY2N1bXNhbiBzZW5lY3R1cyBuZXR1cyBudWxsYW0gY3VyYWUsIG9ybmFyZSBsYW9yZWV0IGFkaXBpc2NpbmcgbHVjdHVzIG1hdXJpcyBhZGlwaXNjaW5nIHByZXRpdW0gZWdldCBmZXJtZW50dW0sIHRyaXN0aXF1ZSBsb2JvcnRpcyBlc3QgdXQgbWV0dXMgbG9ib3J0aXMgdG9ydG9yIHRpbmNpZHVudCBoaW1lbmFlb3MgaGFiaXRhbnQgcXVpcyBkaWN0dW1zdCBwcm9pbiBvZGlvIHNhZ2l0dGlzIHB1cnVzIG1pLCBuZWMgdGFjaXRpIHZlc3RpYnVsdW0gcXVpcyBpbiBzaXQgdmFyaXVzIGxvcmVtIHNpdCBtZXR1cyBtaS5cXG4gICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IG1kOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgcmVmOiBcImJsb2NrTG9hZGluZ0hvdXJnbGFzc1wiLFxuICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImJsb2NrLW1vZGUtbG9hZGluZy1ob3VyZ2xhc3NcIixcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB0aXRsZTogXCJIb3VyZ2xhc3NcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgIHNjb3BlZFNsb3RzOiBfdm0uX3UoW1xuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IFwib3B0aW9uc1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiYnRuLWJsb2NrLW9wdGlvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHR5cGU6IFwiYnV0dG9uXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbjoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpY2s6IGZ1bmN0aW9uKCRldmVudCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX3ZtLmxvYWREYXRhKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYmxvY2tMb2FkaW5nSG91cmdsYXNzXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW19jKFwiaVwiLCB7IHN0YXRpY0NsYXNzOiBcInNpIHNpLXJlZnJlc2hcIiB9KV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHByb3h5OiB0cnVlXG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXCJwXCIsIFtcbiAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICBEb2xvciBwb3N1ZXJlIHByb2luIGJsYW5kaXQgYWNjdW1zYW4gc2VuZWN0dXMgbmV0dXMgbnVsbGFtIGN1cmFlLCBvcm5hcmUgbGFvcmVldCBhZGlwaXNjaW5nIGx1Y3R1cyBtYXVyaXMgYWRpcGlzY2luZyBwcmV0aXVtIGVnZXQgZmVybWVudHVtLCB0cmlzdGlxdWUgbG9ib3J0aXMgZXN0IHV0IG1ldHVzIGxvYm9ydGlzIHRvcnRvciB0aW5jaWR1bnQgaGltZW5hZW9zIGhhYml0YW50IHF1aXMgZGljdHVtc3QgcHJvaW4gb2RpbyBzYWdpdHRpcyBwdXJ1cyBtaSwgbmVjIHRhY2l0aSB2ZXN0aWJ1bHVtIHF1aXMgaW4gc2l0IHZhcml1cyBsb3JlbSBzaXQgbWV0dXMgbWkuXFxuICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApXG4gICAgICAgICAgICBdLFxuICAgICAgICAgICAgMVxuICAgICAgICAgIClcbiAgICAgICAgXSxcbiAgICAgICAgMVxuICAgICAgKVxuICAgIF0sXG4gICAgMVxuICApXG59XG52YXIgc3RhdGljUmVuZGVyRm5zID0gW11cbnJlbmRlci5fd2l0aFN0cmlwcGVkID0gdHJ1ZVxuXG5leHBvcnQgeyByZW5kZXIsIHN0YXRpY1JlbmRlckZucyB9Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          title: "Block API",
+          subtitle: "Powerful way to manipulate any block you want."
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Blocks")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("API")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { attrs: { title: "Usage with JS code" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted mb-0" }, [
+                _vm._v(
+                  "\n        Using block API is easy. You will just have to use the ref property of your block to call the related function. For example, to set the state of a block with ref set to "
+                ),
+                _c("strong", [_vm._v("testBlock")]),
+                _vm._v(" to loading, you will have to call:\n      ")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c("code", [_vm._v("this.$refs.testBlock.stateLoading()")])
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { md: "6" } },
+                    [
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            bordered: "",
+                            striped: "",
+                            "table-class": "table-vcenter mb-0"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    { staticStyle: { width: "25%" } },
+                                    [_vm._v("Live Test")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    { staticStyle: { "min-width": "160px" } },
+                                    [_vm._v("Method")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-primary",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.contentToggle()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Toggle Content")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.contentToggle()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-primary",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.contentHide()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Hide Content")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.contentHide()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-primary",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.contentShow()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Show Content")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.contentShow()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-warning",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.stateToggle()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Toggle State")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.stateToggle()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-warning",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.stateLoading()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("State Loading")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.stateLoading()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-warning",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.stateNormal()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("State Normal")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.stateNormal()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-danger",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.fullscreenToggle()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Toggle Fullscreen")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v(
+                                        "$refs.testBlock.fullscreenToggle()"
+                                      )
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-danger",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.fullscreenOn()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Fullscreen On")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.fullscreenOn()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-danger",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.fullscreenOff()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Fullscreen Off")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.fullscreenOff()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-info",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.pinnedToggle()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Toggle Pinned")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.pinnedToggle()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-info",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.pinnedOn()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Pinned On")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.pinnedOn()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-info",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.pinnedOff()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Pinned Off")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.pinnedOff()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-dark",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.close()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Close")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.close()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            size: "sm",
+                                            variant: "alt-dark",
+                                            block: ""
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.open()
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("Open")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.open()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { md: "6" } },
+                    [
+                      _c(
+                        "base-block",
+                        {
+                          ref: "testBlock",
+                          attrs: {
+                            title: "Test Block",
+                            bordered: "",
+                            "header-bg": "",
+                            "btn-option-fullscreen": "",
+                            "btn-option-content": ""
+                          }
+                        },
+                        [
+                          _c("p", [
+                            _vm._v(
+                              "\n              Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n            "
+                            )
+                          ])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Interactive Options")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        title: "Toggle Content",
+                        "btn-option-content": ""
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { title: "Close", "btn-option-close": "" } },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Maximize", "btn-option-fullscreen": "" }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "textBlock2",
+                      attrs: { title: "Refresh" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("textBlock2")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { title: "Pinned", "btn-option-pinned": "" } },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        title: "Content",
+                        subtitle: "Hidden by default",
+                        "btn-option-content": "",
+                        "mode-content-hide": ""
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "12" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "testBlock2",
+                      attrs: {
+                        title: "All Options",
+                        "btn-option-fullscreen": "",
+                        "btn-option-pinned": "",
+                        "btn-option-content": "",
+                        "btn-option-close": ""
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("testBlock2")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Loading Indicators")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingGog",
+                      attrs: { title: "Gog" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingGog")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingLocation",
+                      staticClass: "block-mode-loading-location",
+                      attrs: { title: "Location" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData(
+                                        "blockLoadingLocation"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingEnergy",
+                      staticClass: "block-mode-loading-energy",
+                      attrs: { title: "Energy" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingEnergy")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingRefresh",
+                      staticClass: "block-mode-loading-refresh",
+                      attrs: { title: "Refresh" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingRefresh")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingSun",
+                      staticClass: "block-mode-loading-sun",
+                      attrs: { title: "Sun" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingSun")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingRepeat",
+                      staticClass: "block-mode-loading-repeat",
+                      attrs: { title: "Repeat" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingRepeat")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingdms",
+                      staticClass: "block-mode-loading-dms",
+                      attrs: { title: "dms" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingdms")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingHourglass",
+                      staticClass: "block-mode-loading-hourglass",
+                      attrs: { title: "Hourglass" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData(
+                                        "blockLoadingHourglass"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -32,7 +1639,32 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Api.vue?vue&type=template&id=1429d3fb& */ \"./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&\");\n/* harmony import */ var _Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Api.vue?vue&type=script&lang=js& */ \"./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/js/src/views/blocks/Api.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2Jsb2Nrcy9BcGkudnVlPzUyNGIiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBa0Y7QUFDM0I7QUFDTDs7O0FBR2xEO0FBQ21HO0FBQ25HLGdCQUFnQiwyR0FBVTtBQUMxQixFQUFFLHlFQUFNO0FBQ1IsRUFBRSw4RUFBTTtBQUNSLEVBQUUsdUZBQWU7QUFDakI7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQSxJQUFJLEtBQVUsRUFBRSxZQWlCZjtBQUNEO0FBQ2UsZ0YiLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2Jsb2Nrcy9BcGkudnVlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVuZGVyLCBzdGF0aWNSZW5kZXJGbnMgfSBmcm9tIFwiLi9BcGkudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTE0MjlkM2ZiJlwiXG5pbXBvcnQgc2NyaXB0IGZyb20gXCIuL0FwaS52dWU/dnVlJnR5cGU9c2NyaXB0Jmxhbmc9anMmXCJcbmV4cG9ydCAqIGZyb20gXCIuL0FwaS52dWU/dnVlJnR5cGU9c2NyaXB0Jmxhbmc9anMmXCJcblxuXG4vKiBub3JtYWxpemUgY29tcG9uZW50ICovXG5pbXBvcnQgbm9ybWFsaXplciBmcm9tIFwiIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9ydW50aW1lL2NvbXBvbmVudE5vcm1hbGl6ZXIuanNcIlxudmFyIGNvbXBvbmVudCA9IG5vcm1hbGl6ZXIoXG4gIHNjcmlwdCxcbiAgcmVuZGVyLFxuICBzdGF0aWNSZW5kZXJGbnMsXG4gIGZhbHNlLFxuICBudWxsLFxuICBudWxsLFxuICBudWxsXG4gIFxuKVxuXG4vKiBob3QgcmVsb2FkICovXG5pZiAobW9kdWxlLmhvdCkge1xuICB2YXIgYXBpID0gcmVxdWlyZShcIkM6XFxcXFVzZXJzXFxcXG1hbG9oXFxcXERlc2t0b3BcXFxcRG1zVjJcXFxcbm9kZV9tb2R1bGVzXFxcXHZ1ZS1ob3QtcmVsb2FkLWFwaVxcXFxkaXN0XFxcXGluZGV4LmpzXCIpXG4gIGFwaS5pbnN0YWxsKHJlcXVpcmUoJ3Z1ZScpKVxuICBpZiAoYXBpLmNvbXBhdGlibGUpIHtcbiAgICBtb2R1bGUuaG90LmFjY2VwdCgpXG4gICAgaWYgKCFhcGkuaXNSZWNvcmRlZCgnMTQyOWQzZmInKSkge1xuICAgICAgYXBpLmNyZWF0ZVJlY29yZCgnMTQyOWQzZmInLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9IGVsc2Uge1xuICAgICAgYXBpLnJlbG9hZCgnMTQyOWQzZmInLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9XG4gICAgbW9kdWxlLmhvdC5hY2NlcHQoXCIuL0FwaS52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9MTQyOWQzZmImXCIsIGZ1bmN0aW9uICgpIHtcbiAgICAgIGFwaS5yZXJlbmRlcignMTQyOWQzZmInLCB7XG4gICAgICAgIHJlbmRlcjogcmVuZGVyLFxuICAgICAgICBzdGF0aWNSZW5kZXJGbnM6IHN0YXRpY1JlbmRlckZuc1xuICAgICAgfSlcbiAgICB9KVxuICB9XG59XG5jb21wb25lbnQub3B0aW9ucy5fX2ZpbGUgPSBcInJlc291cmNlcy9qcy9zcmMvdmlld3MvYmxvY2tzL0FwaS52dWVcIlxuZXhwb3J0IGRlZmF1bHQgY29tcG9uZW50LmV4cG9ydHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/src/views/blocks/Api.vue\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Api.vue?vue&type=template&id=1429d3fb& */ "./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&");
+/* harmony import */ var _Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Api.vue?vue&type=script&lang=js& */ "./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/blocks/Api.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -44,7 +1676,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Api
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Api.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); //# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2Jsb2Nrcy9BcGkudnVlPzBkOWYiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBLHdDQUErTCxDQUFnQiwrT0FBRyxFQUFDIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9ibG9ja3MvQXBpLnZ1ZT92dWUmdHlwZT1zY3JpcHQmbGFuZz1qcyYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgbW9kIGZyb20gXCItIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy9iYWJlbC1sb2FkZXIvbGliL2luZGV4LmpzPz9yZWYtLTQtMCEuLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuL0FwaS52dWU/dnVlJnR5cGU9c2NyaXB0Jmxhbmc9anMmXCI7IGV4cG9ydCBkZWZhdWx0IG1vZDsgZXhwb3J0ICogZnJvbSBcIi0hLi4vLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL2JhYmVsLWxvYWRlci9saWIvaW5kZXguanM/P3JlZi0tNC0wIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4vQXBpLnZ1ZT92dWUmdHlwZT1zY3JpcHQmbGFuZz1qcyZcIiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Api.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -56,7 +1690,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Api.vue?vue&type=template&id=1429d3fb& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL2Jsb2Nrcy9BcGkudnVlPzE3MGEiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy9ibG9ja3MvQXBpLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD0xNDI5ZDNmYiYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tIFwiLSEuLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy90ZW1wbGF0ZUxvYWRlci5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4vQXBpLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD0xNDI5ZDNmYiZcIiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Api.vue?vue&type=template&id=1429d3fb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 

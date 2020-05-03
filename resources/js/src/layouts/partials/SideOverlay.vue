@@ -6,7 +6,7 @@
       <div class="content-header border-bottom">
         <!-- User Avatar -->
         <a class="img-link mr-1" href="javascript:void(0)">
-          <img class="img-avatar img-avatar32" src="images/avatars/avatar10.jpg" alt="Avatar">
+          <img class="img-avatar img-avatar32" src="/images/avatars/avatar10.jpg" alt="Avatar">
         </a>
         <!-- END User Avatar -->
 
@@ -58,7 +58,7 @@
                 <li v-for="(user, index) in userList" :key="`userlist-${index}`">
                   <a class="media py-2" :href="`${user.href}`">
                     <div class="mr-3 ml-2 overlay-container overlay-bottom">
-                      <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}.jpg`" alt="Avatar">
+                      <img class="img-avatar img-avatar48" :src="`/images/avatars/${user.avatar}.jpg`" alt="Avatar">
                       <span :class="`overlay-item item item-tiny item-circle border border-2x border-white bg-${user.statusColor}`"></span>
                     </div>
                     <div class="media-body">

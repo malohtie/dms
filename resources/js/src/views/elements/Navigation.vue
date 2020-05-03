@@ -264,7 +264,7 @@
               <li v-for="(user, index) in userList1" :key="`userlist1-${index}`">
                 <a class="media py-3" :href="`${user.href}`">
                   <div class="mr-3 ml-2 overlay-container overlay-bottom">
-                    <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}`" alt="Avatar">
+                    <img class="img-avatar img-avatar48" :src="`/images/avatars/${user.avatar}`" alt="Avatar">
                     <span :class="`overlay-item item item-tiny item-circle border border-2x border-white bg-${user.statusColor}`"></span>
                   </div>
                   <div class="media-body">
@@ -284,7 +284,7 @@
               <li v-for="(user, index) in userList2" :key="`userlist2-${index}`">
                 <a class="media py-2" :href="`${user.href}`">
                   <div class="mr-3 ml-2 overlay-container overlay-left">
-                    <img class="img-avatar img-avatar48" :src="`images/avatars/${user.avatar}`" alt="Avatar">
+                    <img class="img-avatar img-avatar48" :src="`/images/avatars/${user.avatar}`" alt="Avatar">
                     <span :class="`overlay-item item item-tiny item-circle border border-2x border-white bg-${user.statusColor}`"></span>
                   </div>
                   <div class="media-body">

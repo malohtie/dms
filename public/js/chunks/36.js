@@ -8,7 +8,517 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  data: function data() {\n    return {\n      users: [{\n        id: 1,\n        name: 'Adam McCoy',\n        href: 'javascript:void(0)',\n        labelVariant: 'success',\n        labelText: 'VIP',\n        rowVariant: 'secondary'\n      }, {\n        id: 2,\n        name: 'Betty Kelley',\n        href: 'javascript:void(0)',\n        labelVariant: 'info',\n        labelText: 'Business',\n        rowVariant: ''\n      }, {\n        id: 3,\n        name: 'Jesse Fisher',\n        href: 'javascript:void(0)',\n        labelVariant: 'primary',\n        labelText: 'Personal',\n        rowVariant: 'primary'\n      }, {\n        id: 4,\n        name: 'Ryan Flores',\n        href: 'javascript:void(0)',\n        labelVariant: 'warning',\n        labelText: 'Trial',\n        rowVariant: ''\n      }, {\n        id: 5,\n        name: 'Alice Moore',\n        href: 'javascript:void(0)',\n        labelVariant: 'danger',\n        labelText: 'Disabled',\n        rowVariant: 'warning'\n      }, {\n        id: 6,\n        name: 'Scott Young',\n        href: 'javascript:void(0)',\n        labelVariant: 'success',\n        labelText: 'VIP',\n        rowVariant: ''\n      }, {\n        id: 7,\n        name: 'Ralph Murray',\n        href: 'javascript:void(0)',\n        labelVariant: 'danger',\n        labelText: 'Disabled',\n        rowVariant: 'danger'\n      }, {\n        id: 8,\n        name: 'Marie Duncan',\n        href: 'javascript:void(0)',\n        labelVariant: 'warning',\n        labelText: 'Trial',\n        rowVariant: ''\n      }, {\n        id: 9,\n        name: 'Helen Jacobs',\n        href: 'javascript:void(0)',\n        labelVariant: 'primary',\n        labelText: 'Personal',\n        rowVariant: 'info'\n      }, {\n        id: 10,\n        name: 'Carl Wells',\n        href: 'javascript:void(0)',\n        labelVariant: 'info',\n        labelText: 'Business',\n        rowVariant: ''\n      }, {\n        id: 11,\n        name: 'Jose Mills',\n        href: 'javascript:void(0)',\n        labelVariant: 'success',\n        labelText: 'VIP',\n        rowVariant: 'success'\n      }]\n    };\n  }\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy90YWJsZXMvU3R5bGVzLnZ1ZT80NDkxIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUEyYUE7QUFDQSxNQURBLGtCQUNBO0FBQ0E7QUFDQSxjQUNBO0FBQ0EsYUFEQTtBQUVBLDBCQUZBO0FBR0Esa0NBSEE7QUFJQSwrQkFKQTtBQUtBLHdCQUxBO0FBTUE7QUFOQSxPQURBLEVBU0E7QUFDQSxhQURBO0FBRUEsNEJBRkE7QUFHQSxrQ0FIQTtBQUlBLDRCQUpBO0FBS0EsNkJBTEE7QUFNQTtBQU5BLE9BVEEsRUFpQkE7QUFDQSxhQURBO0FBRUEsNEJBRkE7QUFHQSxrQ0FIQTtBQUlBLCtCQUpBO0FBS0EsNkJBTEE7QUFNQTtBQU5BLE9BakJBLEVBeUJBO0FBQ0EsYUFEQTtBQUVBLDJCQUZBO0FBR0Esa0NBSEE7QUFJQSwrQkFKQTtBQUtBLDBCQUxBO0FBTUE7QUFOQSxPQXpCQSxFQWlDQTtBQUNBLGFBREE7QUFFQSwyQkFGQTtBQUdBLGtDQUhBO0FBSUEsOEJBSkE7QUFLQSw2QkFMQTtBQU1BO0FBTkEsT0FqQ0EsRUF5Q0E7QUFDQSxhQURBO0FBRUEsMkJBRkE7QUFHQSxrQ0FIQTtBQUlBLCtCQUpBO0FBS0Esd0JBTEE7QUFNQTtBQU5BLE9BekNBLEVBaURBO0FBQ0EsYUFEQTtBQUVBLDRCQUZBO0FBR0Esa0NBSEE7QUFJQSw4QkFKQTtBQUtBLDZCQUxBO0FBTUE7QUFOQSxPQWpEQSxFQXlEQTtBQUNBLGFBREE7QUFFQSw0QkFGQTtBQUdBLGtDQUhBO0FBSUEsK0JBSkE7QUFLQSwwQkFMQTtBQU1BO0FBTkEsT0F6REEsRUFpRUE7QUFDQSxhQURBO0FBRUEsNEJBRkE7QUFHQSxrQ0FIQTtBQUlBLCtCQUpBO0FBS0EsNkJBTEE7QUFNQTtBQU5BLE9BakVBLEVBeUVBO0FBQ0EsY0FEQTtBQUVBLDBCQUZBO0FBR0Esa0NBSEE7QUFJQSw0QkFKQTtBQUtBLDZCQUxBO0FBTUE7QUFOQSxPQXpFQSxFQWlGQTtBQUNBLGNBREE7QUFFQSwwQkFGQTtBQUdBLGtDQUhBO0FBSUEsK0JBSkE7QUFLQSx3QkFMQTtBQU1BO0FBTkEsT0FqRkE7QUFEQTtBQTRGQTtBQTlGQSIsImZpbGUiOiIuL25vZGVfbW9kdWxlcy9iYWJlbC1sb2FkZXIvbGliL2luZGV4LmpzPyEuL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8hLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3RhYmxlcy9TdHlsZXMudnVlP3Z1ZSZ0eXBlPXNjcmlwdCZsYW5nPWpzJi5qcyIsInNvdXJjZXNDb250ZW50IjpbIjx0ZW1wbGF0ZT5cbiAgPGRpdj5cbiAgICA8IS0tIEhlcm8gLS0+XG4gICAgPGJhc2UtcGFnZS1oZWFkaW5nIHRpdGxlPVwiVGFibGUgU3R5bGVzXCIgc3VidGl0bGU9XCJNdWx0aXBsZSBzdHlsZSBvcHRpb25zIHRvIG1hdGNoIHlvdXIgcHJlZmVyZW5jZXMuXCI+XG4gICAgICA8dGVtcGxhdGUgI2V4dHJhPlxuICAgICAgICA8Yi1icmVhZGNydW1iIGNsYXNzPVwiYnJlYWRjcnVtYi1hbHRcIj5cbiAgICAgICAgICA8Yi1icmVhZGNydW1iLWl0ZW0gaHJlZj1cImphdmFzY3JpcHQ6dm9pZCgwKVwiPlRhYmxlczwvYi1icmVhZGNydW1iLWl0ZW0+XG4gICAgICAgICAgPGItYnJlYWRjcnVtYi1pdGVtIGFjdGl2ZT5TdHlsZXM8L2ItYnJlYWRjcnVtYi1pdGVtPlxuICAgICAgICA8L2ItYnJlYWRjcnVtYj5cbiAgICAgIDwvdGVtcGxhdGU+XG4gICAgPC9iYXNlLXBhZ2UtaGVhZGluZz5cbiAgICA8IS0tIEVORCBIZXJvIC0tPlxuXG4gICAgPCEtLSBQYWdlIENvbnRlbnQgLS0+XG4gICAgPGRpdiBjbGFzcz1cImNvbnRlbnRcIj5cbiAgICAgIDxiLXJvdz5cbiAgICAgICAgPGItY29sIHhsPVwiNlwiPlxuICAgICAgICAgIDwhLS0gRGVmYXVsdCBUYWJsZSAtLT5cbiAgICAgICAgICA8YmFzZS1ibG9jayB0aXRsZT1cIkRlZmF1bHQgVGFibGVcIj5cbiAgICAgICAgICAgIDxiLXRhYmxlLXNpbXBsZSByZXNwb25zaXZlIHRhYmxlLWNsYXNzPVwidGFibGUtdmNlbnRlclwiPlxuICAgICAgICAgICAgICA8Yi10aGVhZD5cbiAgICAgICAgICAgICAgICA8Yi10cj5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiA1MHB4O1wiPiM8L2ItdGg+XG4gICAgICAgICAgICAgICAgICA8Yi10aD5OYW1lPC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGggY2xhc3M9XCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIgc3R5bGU9XCJ3aWR0aDogMTUlO1wiPkFjY2VzczwvYi10aD5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiAxMDBweDtcIj5BY3Rpb25zPC9iLXRoPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRoZWFkPlxuICAgICAgICAgICAgICA8Yi10Ym9keT5cbiAgICAgICAgICAgICAgICA8Yi10ciB2LWZvcj1cInVzZXIgaW4gdXNlcnMuc2xpY2UoMCwgNilcIiA6a2V5PVwidXNlci5pZFwiPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICB7eyB1c2VyLmlkIH19XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImZvbnQtdzYwMCBmb250LXNpemUtc21cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgOmhyZWY9XCJgJHt1c2VyLmhyZWZ9YFwiPlxuICAgICAgICAgICAgICAgICAgICAgIHt7IHVzZXIubmFtZSB9fVxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIj5cbiAgICAgICAgICAgICAgICAgICAgPGItYmFkZ2UgOnZhcmlhbnQ9XCJ1c2VyLmxhYmVsVmFyaWFudFwiPnt7IHVzZXIubGFiZWxUZXh0IH19PC9iLWJhZGdlPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24tZ3JvdXA+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS1wZW5jaWwtYWx0XCI+PC9pPlxuICAgICAgICAgICAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS10aW1lc1wiPjwvaT5cbiAgICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uLWdyb3VwPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRib2R5PlxuICAgICAgICAgICAgPC9iLXRhYmxlLXNpbXBsZT5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgICAgPCEtLSBFTkQgRGVmYXVsdCBUYWJsZSAtLT5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIHhsPVwiNlwiPlxuICAgICAgICAgIDwhLS0gU3RyaXBlZCBUYWJsZSAtLT5cbiAgICAgICAgICA8YmFzZS1ibG9jayB0aXRsZT1cIlN0cmlwZWQgVGFibGVcIj5cbiAgICAgICAgICAgIDx0ZW1wbGF0ZSAjb3B0aW9ucz5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzcz1cImJsb2NrLW9wdGlvbnMtaXRlbVwiPlxuICAgICAgICAgICAgICAgIDxjb2RlPnN0cmlwZWQ8L2NvZGU+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC90ZW1wbGF0ZT5cbiAgICAgICAgICAgIDxiLXRhYmxlLXNpbXBsZSByZXNwb25zaXZlIHN0cmlwZWQgdGFibGUtY2xhc3M9XCJ0YWJsZS12Y2VudGVyXCI+XG4gICAgICAgICAgICAgIDxiLXRoZWFkPlxuICAgICAgICAgICAgICAgIDxiLXRyPlxuICAgICAgICAgICAgICAgICAgPGItdGggY2xhc3M9XCJ0ZXh0LWNlbnRlclwiIHN0eWxlPVwid2lkdGg6IDUwcHg7XCI+IzwvYi10aD5cbiAgICAgICAgICAgICAgICAgIDxiLXRoPk5hbWU8L2ItdGg+XG4gICAgICAgICAgICAgICAgICA8Yi10aCBjbGFzcz1cImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIiBzdHlsZT1cIndpZHRoOiAxNSU7XCI+QWNjZXNzPC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGggY2xhc3M9XCJ0ZXh0LWNlbnRlclwiIHN0eWxlPVwid2lkdGg6IDEwMHB4O1wiPkFjdGlvbnM8L2ItdGg+XG4gICAgICAgICAgICAgICAgPC9iLXRyPlxuICAgICAgICAgICAgICA8L2ItdGhlYWQ+XG4gICAgICAgICAgICAgIDxiLXRib2R5PlxuICAgICAgICAgICAgICAgIDxiLXRyIHYtZm9yPVwidXNlciBpbiB1c2Vycy5zbGljZSgwLCA2KVwiIDprZXk9XCJ1c2VyLmlkXCI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cInRleHQtY2VudGVyXCI+XG4gICAgICAgICAgICAgICAgICAgIHt7IHVzZXIuaWQgfX1cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkIGNsYXNzPVwiZm9udC13NjAwIGZvbnQtc2l6ZS1zbVwiPlxuICAgICAgICAgICAgICAgICAgICA8YSA6aHJlZj1cImAke3VzZXIuaHJlZn1gXCI+XG4gICAgICAgICAgICAgICAgICAgICAge3sgdXNlci5uYW1lIH19XG4gICAgICAgICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkIGNsYXNzPVwiZC1ub25lIGQtc20tdGFibGUtY2VsbFwiPlxuICAgICAgICAgICAgICAgICAgICA8Yi1iYWRnZSA6dmFyaWFudD1cInVzZXIubGFiZWxWYXJpYW50XCI+e3sgdXNlci5sYWJlbFRleHQgfX08L2ItYmFkZ2U+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cInRleHQtY2VudGVyXCI+XG4gICAgICAgICAgICAgICAgICAgIDxiLWJ1dHRvbi1ncm91cD5cbiAgICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24gc2l6ZT1cInNtXCIgdmFyaWFudD1cImxpZ2h0XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz1cImZhIGZhLWZ3IGZhLXBlbmNpbC1hbHRcIj48L2k+XG4gICAgICAgICAgICAgICAgICAgICAgPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24gc2l6ZT1cInNtXCIgdmFyaWFudD1cImxpZ2h0XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz1cImZhIGZhLWZ3IGZhLXRpbWVzXCI+PC9pPlxuICAgICAgICAgICAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICAgICAgICAgIDwvYi1idXR0b24tZ3JvdXA+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgPC9iLXRyPlxuICAgICAgICAgICAgICA8L2ItdGJvZHk+XG4gICAgICAgICAgICA8L2ItdGFibGUtc2ltcGxlPlxuICAgICAgICAgIDwvYmFzZS1ibG9jaz5cbiAgICAgICAgICA8IS0tIEVORCBTdHJpcGVkIFRhYmxlIC0tPlxuICAgICAgICA8L2ItY29sPlxuICAgICAgPC9iLXJvdz5cbiAgICAgIDxiLXJvdz5cbiAgICAgICAgPGItY29sIHhsPVwiNlwiPlxuICAgICAgICAgIDwhLS0gSG92ZXIgVGFibGUgLS0+XG4gICAgICAgICAgPGJhc2UtYmxvY2sgdGl0bGU9XCJIb3ZlciBUYWJsZVwiPlxuICAgICAgICAgICAgPHRlbXBsYXRlICNvcHRpb25zPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzPVwiYmxvY2stb3B0aW9ucy1pdGVtXCI+XG4gICAgICAgICAgICAgICAgPGNvZGU+aG92ZXI8L2NvZGU+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC90ZW1wbGF0ZT5cbiAgICAgICAgICAgIDxiLXRhYmxlLXNpbXBsZSByZXNwb25zaXZlIGhvdmVyIHRhYmxlLWNsYXNzPVwidGFibGUtdmNlbnRlclwiPlxuICAgICAgICAgICAgICA8Yi10aGVhZD5cbiAgICAgICAgICAgICAgICA8Yi10cj5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiA1MHB4O1wiPiM8L2ItdGg+XG4gICAgICAgICAgICAgICAgICA8Yi10aD5OYW1lPC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGggY2xhc3M9XCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIgc3R5bGU9XCJ3aWR0aDogMTUlO1wiPkFjY2VzczwvYi10aD5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiAxMDBweDtcIj5BY3Rpb25zPC9iLXRoPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRoZWFkPlxuICAgICAgICAgICAgICA8Yi10Ym9keT5cbiAgICAgICAgICAgICAgICA8Yi10ciB2LWZvcj1cInVzZXIgaW4gdXNlcnMuc2xpY2UoMCwgNilcIiA6a2V5PVwidXNlci5pZFwiPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICB7eyB1c2VyLmlkIH19XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImZvbnQtdzYwMCBmb250LXNpemUtc21cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgOmhyZWY9XCJgJHt1c2VyLmhyZWZ9YFwiPlxuICAgICAgICAgICAgICAgICAgICAgIHt7IHVzZXIubmFtZSB9fVxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIj5cbiAgICAgICAgICAgICAgICAgICAgPGItYmFkZ2UgOnZhcmlhbnQ9XCJ1c2VyLmxhYmVsVmFyaWFudFwiPnt7IHVzZXIubGFiZWxUZXh0IH19PC9iLWJhZGdlPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24tZ3JvdXA+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS1wZW5jaWwtYWx0XCI+PC9pPlxuICAgICAgICAgICAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS10aW1lc1wiPjwvaT5cbiAgICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uLWdyb3VwPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRib2R5PlxuICAgICAgICAgICAgPC9iLXRhYmxlLXNpbXBsZT5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgICAgPCEtLSBFTkQgSG92ZXIgVGFibGUgLS0+XG4gICAgICAgIDwvYi1jb2w+XG4gICAgICAgIDxiLWNvbCB4bD1cIjZcIj5cbiAgICAgICAgICA8IS0tIEJvcmRlcmVkIFRhYmxlIC0tPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiQm9yZGVyZWQgVGFibGVcIj5cbiAgICAgICAgICAgIDx0ZW1wbGF0ZSAjb3B0aW9ucz5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzcz1cImJsb2NrLW9wdGlvbnMtaXRlbVwiPlxuICAgICAgICAgICAgICAgIDxjb2RlPmJvcmRlcmVkPC9jb2RlPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvdGVtcGxhdGU+XG4gICAgICAgICAgICA8Yi10YWJsZS1zaW1wbGUgcmVzcG9uc2l2ZSBib3JkZXJlZCB0YWJsZS1jbGFzcz1cInRhYmxlLXZjZW50ZXJcIj5cbiAgICAgICAgICAgICAgPGItdGhlYWQ+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10aCBjbGFzcz1cInRleHQtY2VudGVyXCIgc3R5bGU9XCJ3aWR0aDogNTBweDtcIj4jPC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGg+TmFtZTwvYi10aD5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwiZC1ub25lIGQtc20tdGFibGUtY2VsbFwiIHN0eWxlPVwid2lkdGg6IDE1JTtcIj5BY2Nlc3M8L2ItdGg+XG4gICAgICAgICAgICAgICAgICA8Yi10aCBjbGFzcz1cInRleHQtY2VudGVyXCIgc3R5bGU9XCJ3aWR0aDogMTAwcHg7XCI+QWN0aW9uczwvYi10aD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgIDwvYi10aGVhZD5cbiAgICAgICAgICAgICAgPGItdGJvZHk+XG4gICAgICAgICAgICAgICAgPGItdHIgdi1mb3I9XCJ1c2VyIGluIHVzZXJzLnNsaWNlKDAsIDYpXCIgOmtleT1cInVzZXIuaWRcIj5cbiAgICAgICAgICAgICAgICAgIDxiLXRkIGNsYXNzPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgICAgICAgICAgICAge3sgdXNlci5pZCB9fVxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJmb250LXc2MDAgZm9udC1zaXplLXNtXCI+XG4gICAgICAgICAgICAgICAgICAgIDxhIDpocmVmPVwiYCR7dXNlci5ocmVmfWBcIj5cbiAgICAgICAgICAgICAgICAgICAgICB7eyB1c2VyLm5hbWUgfX1cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCI+XG4gICAgICAgICAgICAgICAgICAgIDxiLWJhZGdlIDp2YXJpYW50PVwidXNlci5sYWJlbFZhcmlhbnRcIj57eyB1c2VyLmxhYmVsVGV4dCB9fTwvYi1iYWRnZT5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkIGNsYXNzPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uLWdyb3VwPlxuICAgICAgICAgICAgICAgICAgICAgIDxiLWJ1dHRvbiBzaXplPVwic21cIiB2YXJpYW50PVwibGlnaHRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPVwiZmEgZmEtZncgZmEtcGVuY2lsLWFsdFwiPjwvaT5cbiAgICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICAgIDxiLWJ1dHRvbiBzaXplPVwic21cIiB2YXJpYW50PVwibGlnaHRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPVwiZmEgZmEtZncgZmEtdGltZXNcIj48L2k+XG4gICAgICAgICAgICAgICAgICAgICAgPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgICAgPC9iLWJ1dHRvbi1ncm91cD5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgIDwvYi10Ym9keT5cbiAgICAgICAgICAgIDwvYi10YWJsZS1zaW1wbGU+XG4gICAgICAgICAgPC9iYXNlLWJsb2NrPlxuICAgICAgICAgIDwhLS0gRU5EIEJvcmRlcmVkIFRhYmxlIC0tPlxuICAgICAgICA8L2ItY29sPlxuICAgICAgPC9iLXJvdz5cbiAgICAgIDxiLXJvdyBjbGFzcz1cInJvdy1kZWNrXCI+XG4gICAgICAgIDxiLWNvbCB4bD1cIjZcIj5cbiAgICAgICAgICA8IS0tIEJvcmRlcmxlc3MgVGFibGUgLS0+XG4gICAgICAgICAgPGJhc2UtYmxvY2sgdGl0bGU9XCJCb3JkZXJsZXNzIFRhYmxlXCI+XG4gICAgICAgICAgICA8dGVtcGxhdGUgI29wdGlvbnM+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3M9XCJibG9jay1vcHRpb25zLWl0ZW1cIj5cbiAgICAgICAgICAgICAgICA8Y29kZT5ib3JkZXJsZXNzPC9jb2RlPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvdGVtcGxhdGU+XG4gICAgICAgICAgICA8Yi10YWJsZS1zaW1wbGUgcmVzcG9uc2l2ZSBib3JkZXJsZXNzIHRhYmxlLWNsYXNzPVwidGFibGUtdmNlbnRlclwiPlxuICAgICAgICAgICAgICA8Yi10aGVhZD5cbiAgICAgICAgICAgICAgICA8Yi10cj5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiA1MHB4O1wiPiM8L2ItdGg+XG4gICAgICAgICAgICAgICAgICA8Yi10aD5OYW1lPC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGggY2xhc3M9XCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIgc3R5bGU9XCJ3aWR0aDogMTUlO1wiPkFjY2VzczwvYi10aD5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiAxMDBweDtcIj5BY3Rpb25zPC9iLXRoPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRoZWFkPlxuICAgICAgICAgICAgICA8Yi10Ym9keT5cbiAgICAgICAgICAgICAgICA8Yi10ciB2LWZvcj1cInVzZXIgaW4gdXNlcnMuc2xpY2UoMCwgNilcIiA6a2V5PVwidXNlci5pZFwiPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICB7eyB1c2VyLmlkIH19XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImZvbnQtdzYwMCBmb250LXNpemUtc21cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgOmhyZWY9XCJgJHt1c2VyLmhyZWZ9YFwiPlxuICAgICAgICAgICAgICAgICAgICAgIHt7IHVzZXIubmFtZSB9fVxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIj5cbiAgICAgICAgICAgICAgICAgICAgPGItYmFkZ2UgOnZhcmlhbnQ9XCJ1c2VyLmxhYmVsVmFyaWFudFwiPnt7IHVzZXIubGFiZWxUZXh0IH19PC9iLWJhZGdlPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24tZ3JvdXA+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS1wZW5jaWwtYWx0XCI+PC9pPlxuICAgICAgICAgICAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS10aW1lc1wiPjwvaT5cbiAgICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uLWdyb3VwPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRib2R5PlxuICAgICAgICAgICAgPC9iLXRhYmxlLXNpbXBsZT5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgICAgPCEtLSBFTkQgQm9yZGVybGVzcyBUYWJsZSAtLT5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIHhsPVwiNlwiPlxuICAgICAgICAgIDwhLS0gU21hbGwgVGFibGUgLS0+XG4gICAgICAgICAgPGJhc2UtYmxvY2sgdGl0bGU9XCJTbWFsbCBUYWJsZVwiPlxuICAgICAgICAgICAgPHRlbXBsYXRlICNvcHRpb25zPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzPVwiYmxvY2stb3B0aW9ucy1pdGVtXCI+XG4gICAgICAgICAgICAgICAgPGNvZGU+c21hbGw8L2NvZGU+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC90ZW1wbGF0ZT5cbiAgICAgICAgICAgIDxiLXRhYmxlLXNpbXBsZSByZXNwb25zaXZlIHNtYWxsIHRhYmxlLWNsYXNzPVwidGFibGUtdmNlbnRlclwiPlxuICAgICAgICAgICAgICA8Yi10aGVhZD5cbiAgICAgICAgICAgICAgICA8Yi10cj5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiA1MHB4O1wiPiM8L2ItdGg+XG4gICAgICAgICAgICAgICAgICA8Yi10aD5OYW1lPC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGggY2xhc3M9XCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIgc3R5bGU9XCJ3aWR0aDogMTUlO1wiPkFjY2VzczwvYi10aD5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiAxMDBweDtcIj5BY3Rpb25zPC9iLXRoPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRoZWFkPlxuICAgICAgICAgICAgICA8Yi10Ym9keT5cbiAgICAgICAgICAgICAgICA8Yi10ciB2LWZvcj1cInVzZXIgaW4gdXNlcnMuc2xpY2UoMCwgOClcIiA6a2V5PVwidXNlci5pZFwiPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICB7eyB1c2VyLmlkIH19XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImZvbnQtdzYwMCBmb250LXNpemUtc21cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgOmhyZWY9XCJgJHt1c2VyLmhyZWZ9YFwiPlxuICAgICAgICAgICAgICAgICAgICAgIHt7IHVzZXIubmFtZSB9fVxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIj5cbiAgICAgICAgICAgICAgICAgICAgPGItYmFkZ2UgOnZhcmlhbnQ9XCJ1c2VyLmxhYmVsVmFyaWFudFwiPnt7IHVzZXIubGFiZWxUZXh0IH19PC9iLWJhZGdlPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24tZ3JvdXA+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS1wZW5jaWwtYWx0XCI+PC9pPlxuICAgICAgICAgICAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS10aW1lc1wiPjwvaT5cbiAgICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uLWdyb3VwPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRib2R5PlxuICAgICAgICAgICAgPC9iLXRhYmxlLXNpbXBsZT5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgICAgPCEtLSBFTkQgU21hbGwgVGFibGUgLS0+XG4gICAgICAgIDwvYi1jb2w+XG4gICAgICA8L2Itcm93PlxuICAgICAgPGItcm93PlxuICAgICAgICA8Yi1jb2wgeGw9XCI2XCI+XG4gICAgICAgICAgPCEtLSBUYWJsZSBIZWFkIExpZ2h0IFRhYmxlIC0tPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiVGFibGUgSGVhZCBMaWdodFwiPlxuICAgICAgICAgICAgPHRlbXBsYXRlICNvcHRpb25zPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzPVwiYmxvY2stb3B0aW9ucy1pdGVtXCI+XG4gICAgICAgICAgICAgICAgPGNvZGU+aGVhZC12YXJpYW50PSZxdW90O2xpZ2h0JnF1b3Q7PC9jb2RlPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvdGVtcGxhdGU+XG4gICAgICAgICAgICA8Yi10YWJsZS1zaW1wbGUgcmVzcG9uc2l2ZSB0YWJsZS1jbGFzcz1cInRhYmxlLXZjZW50ZXJcIj5cbiAgICAgICAgICAgICAgPGItdGhlYWQgaGVhZC12YXJpYW50PVwibGlnaHRcIj5cbiAgICAgICAgICAgICAgICA8Yi10cj5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiA1MHB4O1wiPiM8L2ItdGg+XG4gICAgICAgICAgICAgICAgICA8Yi10aD5OYW1lPC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGggY2xhc3M9XCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIgc3R5bGU9XCJ3aWR0aDogMTUlO1wiPkFjY2VzczwvYi10aD5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiAxMDBweDtcIj5BY3Rpb25zPC9iLXRoPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRoZWFkPlxuICAgICAgICAgICAgICA8Yi10Ym9keT5cbiAgICAgICAgICAgICAgICA8Yi10ciB2LWZvcj1cInVzZXIgaW4gdXNlcnMuc2xpY2UoMCwgNilcIiA6a2V5PVwidXNlci5pZFwiPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICB7eyB1c2VyLmlkIH19XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImZvbnQtdzYwMCBmb250LXNpemUtc21cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgOmhyZWY9XCJgJHt1c2VyLmhyZWZ9YFwiPlxuICAgICAgICAgICAgICAgICAgICAgIHt7IHVzZXIubmFtZSB9fVxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIj5cbiAgICAgICAgICAgICAgICAgICAgPGItYmFkZ2UgOnZhcmlhbnQ9XCJ1c2VyLmxhYmVsVmFyaWFudFwiPnt7IHVzZXIubGFiZWxUZXh0IH19PC9iLWJhZGdlPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24tZ3JvdXA+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS1wZW5jaWwtYWx0XCI+PC9pPlxuICAgICAgICAgICAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS10aW1lc1wiPjwvaT5cbiAgICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uLWdyb3VwPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRib2R5PlxuICAgICAgICAgICAgPC9iLXRhYmxlLXNpbXBsZT5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgICAgPCEtLSBFTkQgVGFibGUgSGVhZCBMaWdodCBUYWJsZSAtLT5cbiAgICAgICAgPC9iLWNvbD5cbiAgICAgICAgPGItY29sIHhsPVwiNlwiPlxuICAgICAgICAgIDwhLS0gVGFibGUgSGVhZCBEYXJrIFRhYmxlIC0tPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiVGFibGUgSGVhZCBEYXJrXCI+XG4gICAgICAgICAgICA8dGVtcGxhdGUgI29wdGlvbnM+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3M9XCJibG9jay1vcHRpb25zLWl0ZW1cIj5cbiAgICAgICAgICAgICAgICA8Y29kZT5oZWFkLXZhcmlhbnQ9JnF1b3Q7ZGFyayZxdW90OzwvY29kZT5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L3RlbXBsYXRlPlxuICAgICAgICAgICAgPGItdGFibGUtc2ltcGxlIHJlc3BvbnNpdmUgdGFibGUtY2xhc3M9XCJ0YWJsZS12Y2VudGVyXCI+XG4gICAgICAgICAgICAgIDxiLXRoZWFkIGhlYWQtdmFyaWFudD1cImRhcmtcIj5cbiAgICAgICAgICAgICAgICA8Yi10cj5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiA1MHB4O1wiPiM8L2ItdGg+XG4gICAgICAgICAgICAgICAgICA8Yi10aD5OYW1lPC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGggY2xhc3M9XCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIgc3R5bGU9XCJ3aWR0aDogMTUlO1wiPkFjY2VzczwvYi10aD5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiAxMDBweDtcIj5BY3Rpb25zPC9iLXRoPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRoZWFkPlxuICAgICAgICAgICAgICA8Yi10Ym9keT5cbiAgICAgICAgICAgICAgICA8Yi10ciB2LWZvcj1cInVzZXIgaW4gdXNlcnMuc2xpY2UoMCwgNilcIiA6a2V5PVwidXNlci5pZFwiPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICB7eyB1c2VyLmlkIH19XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImZvbnQtdzYwMCBmb250LXNpemUtc21cIj5cbiAgICAgICAgICAgICAgICAgICAgPGEgOmhyZWY9XCJgJHt1c2VyLmhyZWZ9YFwiPlxuICAgICAgICAgICAgICAgICAgICAgIHt7IHVzZXIubmFtZSB9fVxuICAgICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgICA8L2ItdGQ+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIj5cbiAgICAgICAgICAgICAgICAgICAgPGItYmFkZ2UgOnZhcmlhbnQ9XCJ1c2VyLmxhYmVsVmFyaWFudFwiPnt7IHVzZXIubGFiZWxUZXh0IH19PC9iLWJhZGdlPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgICAgPGItdGQgY2xhc3M9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICA8Yi1idXR0b24tZ3JvdXA+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS1wZW5jaWwtYWx0XCI+PC9pPlxuICAgICAgICAgICAgICAgICAgICAgIDwvYi1idXR0b24+XG4gICAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uIHNpemU9XCJzbVwiIHZhcmlhbnQ9XCJsaWdodFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9XCJmYSBmYS1mdyBmYS10aW1lc1wiPjwvaT5cbiAgICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uLWdyb3VwPlxuICAgICAgICAgICAgICAgICAgPC9iLXRkPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRib2R5PlxuICAgICAgICAgICAgPC9iLXRhYmxlLXNpbXBsZT5cbiAgICAgICAgICA8L2Jhc2UtYmxvY2s+XG4gICAgICAgICAgPCEtLSBFTkQgVGFibGUgSGVhZCBEYXJrIFRhYmxlIC0tPlxuICAgICAgICA8L2ItY29sPlxuICAgICAgICA8Yi1jb2w+XG4gICAgICAgICAgPCEtLSBDb250ZXh0dWFsIFRhYmxlIC0tPlxuICAgICAgICAgIDxiYXNlLWJsb2NrIHRpdGxlPVwiQ29udGV4dHVhbCBUYWJsZVwiPlxuICAgICAgICAgICAgPGItdGFibGUtc2ltcGxlIHJlc3BvbnNpdmUgYm9yZGVybGVzcyBob3ZlciB0YWJsZS1jbGFzcz1cInRhYmxlLXZjZW50ZXJcIj5cbiAgICAgICAgICAgICAgPGItdGhlYWQ+XG4gICAgICAgICAgICAgICAgPGItdHI+XG4gICAgICAgICAgICAgICAgICA8Yi10aCBjbGFzcz1cInRleHQtY2VudGVyXCIgc3R5bGU9XCJ3aWR0aDogNTBweDtcIj4jPC9iLXRoPlxuICAgICAgICAgICAgICAgICAgPGItdGg+TmFtZTwvYi10aD5cbiAgICAgICAgICAgICAgICAgIDxiLXRoIGNsYXNzPVwidGV4dC1jZW50ZXJcIiBzdHlsZT1cIndpZHRoOiAxMDBweDtcIj5BY3Rpb25zPC9iLXRoPlxuICAgICAgICAgICAgICAgIDwvYi10cj5cbiAgICAgICAgICAgICAgPC9iLXRoZWFkPlxuICAgICAgICAgICAgICA8Yi10Ym9keT5cbiAgICAgICAgICAgICAgICA8Yi10ciB2LWZvcj1cInVzZXIgaW4gdXNlcnNcIiA6a2V5PVwidXNlci5pZFwiIDp2YXJpYW50PVwidXNlci5yb3dWYXJpYW50XCI+XG4gICAgICAgICAgICAgICAgICA8Yi10ZCBjbGFzcz1cInRleHQtY2VudGVyXCI+XG4gICAgICAgICAgICAgICAgICAgIHt7IHVzZXIuaWQgfX1cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkIGNsYXNzPVwiZm9udC13NjAwIGZvbnQtc2l6ZS1zbVwiPlxuICAgICAgICAgICAgICAgICAgICB7eyB1c2VyLm5hbWUgfX1cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICAgIDxiLXRkIGNsYXNzPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgPGItYnV0dG9uLWdyb3VwPlxuICAgICAgICAgICAgICAgICAgICAgIDxiLWJ1dHRvbiBzaXplPVwic21cIiB2YXJpYW50PVwibGlnaHRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPVwiZmEgZmEtZncgZmEtcGVuY2lsLWFsdFwiPjwvaT5cbiAgICAgICAgICAgICAgICAgICAgICA8L2ItYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICAgIDxiLWJ1dHRvbiBzaXplPVwic21cIiB2YXJpYW50PVwibGlnaHRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPVwiZmEgZmEtZncgZmEtdGltZXNcIj48L2k+XG4gICAgICAgICAgICAgICAgICAgICAgPC9iLWJ1dHRvbj5cbiAgICAgICAgICAgICAgICAgICAgPC9iLWJ1dHRvbi1ncm91cD5cbiAgICAgICAgICAgICAgICAgIDwvYi10ZD5cbiAgICAgICAgICAgICAgICA8L2ItdHI+XG4gICAgICAgICAgICAgIDwvYi10Ym9keT5cbiAgICAgICAgICAgIDwvYi10YWJsZS1zaW1wbGU+XG4gICAgICAgICAgPC9iYXNlLWJsb2NrPlxuICAgICAgICAgIDwhLS0gRU5EIENvbnRleHR1YWwgVGFibGUgLS0+XG4gICAgICAgIDwvYi1jb2w+XG4gICAgICA8L2Itcm93PlxuICAgIDwvZGl2PlxuICAgIDwhLS0gRU5EIFBhZ2UgQ29udGVudCAtLT5cbiAgPC9kaXY+XG48L3RlbXBsYXRlPlxuXG48c2NyaXB0PlxuZXhwb3J0IGRlZmF1bHQge1xuICBkYXRhICgpIHtcbiAgICByZXR1cm4ge1xuICAgICAgdXNlcnM6IFtcbiAgICAgICAge1xuICAgICAgICAgIGlkOiAxLFxuICAgICAgICAgIG5hbWU6ICdBZGFtIE1jQ295JyxcbiAgICAgICAgICBocmVmOiAnamF2YXNjcmlwdDp2b2lkKDApJyxcbiAgICAgICAgICBsYWJlbFZhcmlhbnQ6ICdzdWNjZXNzJyxcbiAgICAgICAgICBsYWJlbFRleHQ6ICdWSVAnLFxuICAgICAgICAgIHJvd1ZhcmlhbnQ6ICdzZWNvbmRhcnknXG4gICAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgICBpZDogMixcbiAgICAgICAgICBuYW1lOiAnQmV0dHkgS2VsbGV5JyxcbiAgICAgICAgICBocmVmOiAnamF2YXNjcmlwdDp2b2lkKDApJyxcbiAgICAgICAgICBsYWJlbFZhcmlhbnQ6ICdpbmZvJyxcbiAgICAgICAgICBsYWJlbFRleHQ6ICdCdXNpbmVzcycsXG4gICAgICAgICAgcm93VmFyaWFudDogJydcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIGlkOiAzLFxuICAgICAgICAgIG5hbWU6ICdKZXNzZSBGaXNoZXInLFxuICAgICAgICAgIGhyZWY6ICdqYXZhc2NyaXB0OnZvaWQoMCknLFxuICAgICAgICAgIGxhYmVsVmFyaWFudDogJ3ByaW1hcnknLFxuICAgICAgICAgIGxhYmVsVGV4dDogJ1BlcnNvbmFsJyxcbiAgICAgICAgICByb3dWYXJpYW50OiAncHJpbWFyeSdcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIGlkOiA0LFxuICAgICAgICAgIG5hbWU6ICdSeWFuIEZsb3JlcycsXG4gICAgICAgICAgaHJlZjogJ2phdmFzY3JpcHQ6dm9pZCgwKScsXG4gICAgICAgICAgbGFiZWxWYXJpYW50OiAnd2FybmluZycsXG4gICAgICAgICAgbGFiZWxUZXh0OiAnVHJpYWwnLFxuICAgICAgICAgIHJvd1ZhcmlhbnQ6ICcnXG4gICAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgICBpZDogNSxcbiAgICAgICAgICBuYW1lOiAnQWxpY2UgTW9vcmUnLFxuICAgICAgICAgIGhyZWY6ICdqYXZhc2NyaXB0OnZvaWQoMCknLFxuICAgICAgICAgIGxhYmVsVmFyaWFudDogJ2RhbmdlcicsXG4gICAgICAgICAgbGFiZWxUZXh0OiAnRGlzYWJsZWQnLFxuICAgICAgICAgIHJvd1ZhcmlhbnQ6ICd3YXJuaW5nJ1xuICAgICAgICB9LFxuICAgICAgICB7XG4gICAgICAgICAgaWQ6IDYsXG4gICAgICAgICAgbmFtZTogJ1Njb3R0IFlvdW5nJyxcbiAgICAgICAgICBocmVmOiAnamF2YXNjcmlwdDp2b2lkKDApJyxcbiAgICAgICAgICBsYWJlbFZhcmlhbnQ6ICdzdWNjZXNzJyxcbiAgICAgICAgICBsYWJlbFRleHQ6ICdWSVAnLFxuICAgICAgICAgIHJvd1ZhcmlhbnQ6ICcnXG4gICAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgICBpZDogNyxcbiAgICAgICAgICBuYW1lOiAnUmFscGggTXVycmF5JyxcbiAgICAgICAgICBocmVmOiAnamF2YXNjcmlwdDp2b2lkKDApJyxcbiAgICAgICAgICBsYWJlbFZhcmlhbnQ6ICdkYW5nZXInLFxuICAgICAgICAgIGxhYmVsVGV4dDogJ0Rpc2FibGVkJyxcbiAgICAgICAgICByb3dWYXJpYW50OiAnZGFuZ2VyJ1xuICAgICAgICB9LFxuICAgICAgICB7XG4gICAgICAgICAgaWQ6IDgsXG4gICAgICAgICAgbmFtZTogJ01hcmllIER1bmNhbicsXG4gICAgICAgICAgaHJlZjogJ2phdmFzY3JpcHQ6dm9pZCgwKScsXG4gICAgICAgICAgbGFiZWxWYXJpYW50OiAnd2FybmluZycsXG4gICAgICAgICAgbGFiZWxUZXh0OiAnVHJpYWwnLFxuICAgICAgICAgIHJvd1ZhcmlhbnQ6ICcnXG4gICAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgICBpZDogOSxcbiAgICAgICAgICBuYW1lOiAnSGVsZW4gSmFjb2JzJyxcbiAgICAgICAgICBocmVmOiAnamF2YXNjcmlwdDp2b2lkKDApJyxcbiAgICAgICAgICBsYWJlbFZhcmlhbnQ6ICdwcmltYXJ5JyxcbiAgICAgICAgICBsYWJlbFRleHQ6ICdQZXJzb25hbCcsXG4gICAgICAgICAgcm93VmFyaWFudDogJ2luZm8nXG4gICAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgICBpZDogMTAsXG4gICAgICAgICAgbmFtZTogJ0NhcmwgV2VsbHMnLFxuICAgICAgICAgIGhyZWY6ICdqYXZhc2NyaXB0OnZvaWQoMCknLFxuICAgICAgICAgIGxhYmVsVmFyaWFudDogJ2luZm8nLFxuICAgICAgICAgIGxhYmVsVGV4dDogJ0J1c2luZXNzJyxcbiAgICAgICAgICByb3dWYXJpYW50OiAnJ1xuICAgICAgICB9LFxuICAgICAgICB7XG4gICAgICAgICAgaWQ6IDExLFxuICAgICAgICAgIG5hbWU6ICdKb3NlIE1pbGxzJyxcbiAgICAgICAgICBocmVmOiAnamF2YXNjcmlwdDp2b2lkKDApJyxcbiAgICAgICAgICBsYWJlbFZhcmlhbnQ6ICdzdWNjZXNzJyxcbiAgICAgICAgICBsYWJlbFRleHQ6ICdWSVAnLFxuICAgICAgICAgIHJvd1ZhcmlhbnQ6ICdzdWNjZXNzJ1xuICAgICAgICB9XG4gICAgICBdXG4gICAgfVxuICB9XG59XG48L3NjcmlwdD5cbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Styles.vue?vue&type=script&lang=js&\n");
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      users: [{
+        id: 1,
+        name: 'Adam McCoy',
+        href: 'javascript:void(0)',
+        labelVariant: 'success',
+        labelText: 'VIP',
+        rowVariant: 'secondary'
+      }, {
+        id: 2,
+        name: 'Betty Kelley',
+        href: 'javascript:void(0)',
+        labelVariant: 'info',
+        labelText: 'Business',
+        rowVariant: ''
+      }, {
+        id: 3,
+        name: 'Jesse Fisher',
+        href: 'javascript:void(0)',
+        labelVariant: 'primary',
+        labelText: 'Personal',
+        rowVariant: 'primary'
+      }, {
+        id: 4,
+        name: 'Ryan Flores',
+        href: 'javascript:void(0)',
+        labelVariant: 'warning',
+        labelText: 'Trial',
+        rowVariant: ''
+      }, {
+        id: 5,
+        name: 'Alice Moore',
+        href: 'javascript:void(0)',
+        labelVariant: 'danger',
+        labelText: 'Disabled',
+        rowVariant: 'warning'
+      }, {
+        id: 6,
+        name: 'Scott Young',
+        href: 'javascript:void(0)',
+        labelVariant: 'success',
+        labelText: 'VIP',
+        rowVariant: ''
+      }, {
+        id: 7,
+        name: 'Ralph Murray',
+        href: 'javascript:void(0)',
+        labelVariant: 'danger',
+        labelText: 'Disabled',
+        rowVariant: 'danger'
+      }, {
+        id: 8,
+        name: 'Marie Duncan',
+        href: 'javascript:void(0)',
+        labelVariant: 'warning',
+        labelText: 'Trial',
+        rowVariant: ''
+      }, {
+        id: 9,
+        name: 'Helen Jacobs',
+        href: 'javascript:void(0)',
+        labelVariant: 'primary',
+        labelText: 'Personal',
+        rowVariant: 'info'
+      }, {
+        id: 10,
+        name: 'Carl Wells',
+        href: 'javascript:void(0)',
+        labelVariant: 'info',
+        labelText: 'Business',
+        rowVariant: ''
+      }, {
+        id: 11,
+        name: 'Jose Mills',
+        href: 'javascript:void(0)',
+        labelVariant: 'success',
+        labelText: 'VIP',
+        rowVariant: 'success'
+      }]
+    };
+  }
+});
 
 /***/ }),
 
@@ -20,7 +530,1666 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\"base-page-heading\", {\n        attrs: {\n          title: \"Table Styles\",\n          subtitle: \"Multiple style options to match your preferences.\"\n        },\n        scopedSlots: _vm._u([\n          {\n            key: \"extra\",\n            fn: function() {\n              return [\n                _c(\n                  \"b-breadcrumb\",\n                  { staticClass: \"breadcrumb-alt\" },\n                  [\n                    _c(\n                      \"b-breadcrumb-item\",\n                      { attrs: { href: \"javascript:void(0)\" } },\n                      [_vm._v(\"Tables\")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\"b-breadcrumb-item\", { attrs: { active: \"\" } }, [\n                      _vm._v(\"Styles\")\n                    ])\n                  ],\n                  1\n                )\n              ]\n            },\n            proxy: true\n          }\n        ])\n      }),\n      _vm._v(\" \"),\n      _c(\n        \"div\",\n        { staticClass: \"content\" },\n        [\n          _c(\n            \"b-row\",\n            [\n              _c(\n                \"b-col\",\n                { attrs: { xl: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    { attrs: { title: \"Default Table\" } },\n                    [\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            \"table-class\": \"table-vcenter\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"50px\" }\n                                    },\n                                    [_vm._v(\"#\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-th\", [_vm._v(\"Name\")]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"d-none d-sm-table-cell\",\n                                      staticStyle: { width: \"15%\" }\n                                    },\n                                    [_vm._v(\"Access\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"100px\" }\n                                    },\n                                    [_vm._v(\"Actions\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            _vm._l(_vm.users.slice(0, 6), function(user) {\n                              return _c(\n                                \"b-tr\",\n                                { key: user.id },\n                                [\n                                  _c(\"b-td\", { staticClass: \"text-center\" }, [\n                                    _vm._v(\n                                      \"\\n                  \" +\n                                        _vm._s(user.id) +\n                                        \"\\n                \"\n                                    )\n                                  ]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"font-w600 font-size-sm\" },\n                                    [\n                                      _c(\n                                        \"a\",\n                                        { attrs: { href: \"\" + user.href } },\n                                        [\n                                          _vm._v(\n                                            \"\\n                    \" +\n                                              _vm._s(user.name) +\n                                              \"\\n                  \"\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"d-none d-sm-table-cell\" },\n                                    [\n                                      _c(\n                                        \"b-badge\",\n                                        {\n                                          attrs: { variant: user.labelVariant }\n                                        },\n                                        [_vm._v(_vm._s(user.labelText))]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"text-center\" },\n                                    [\n                                      _c(\n                                        \"b-button-group\",\n                                        [\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass:\n                                                  \"fa fa-fw fa-pencil-alt\"\n                                              })\n                                            ]\n                                          ),\n                                          _vm._v(\" \"),\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass: \"fa fa-fw fa-times\"\n                                              })\n                                            ]\n                                          )\n                                        ],\n                                        1\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { xl: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: { title: \"Striped Table\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\"div\", { staticClass: \"block-options-item\" }, [\n                                _c(\"code\", [_vm._v(\"striped\")])\n                              ])\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            striped: \"\",\n                            \"table-class\": \"table-vcenter\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"50px\" }\n                                    },\n                                    [_vm._v(\"#\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-th\", [_vm._v(\"Name\")]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"d-none d-sm-table-cell\",\n                                      staticStyle: { width: \"15%\" }\n                                    },\n                                    [_vm._v(\"Access\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"100px\" }\n                                    },\n                                    [_vm._v(\"Actions\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            _vm._l(_vm.users.slice(0, 6), function(user) {\n                              return _c(\n                                \"b-tr\",\n                                { key: user.id },\n                                [\n                                  _c(\"b-td\", { staticClass: \"text-center\" }, [\n                                    _vm._v(\n                                      \"\\n                  \" +\n                                        _vm._s(user.id) +\n                                        \"\\n                \"\n                                    )\n                                  ]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"font-w600 font-size-sm\" },\n                                    [\n                                      _c(\n                                        \"a\",\n                                        { attrs: { href: \"\" + user.href } },\n                                        [\n                                          _vm._v(\n                                            \"\\n                    \" +\n                                              _vm._s(user.name) +\n                                              \"\\n                  \"\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"d-none d-sm-table-cell\" },\n                                    [\n                                      _c(\n                                        \"b-badge\",\n                                        {\n                                          attrs: { variant: user.labelVariant }\n                                        },\n                                        [_vm._v(_vm._s(user.labelText))]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"text-center\" },\n                                    [\n                                      _c(\n                                        \"b-button-group\",\n                                        [\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass:\n                                                  \"fa fa-fw fa-pencil-alt\"\n                                              })\n                                            ]\n                                          ),\n                                          _vm._v(\" \"),\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass: \"fa fa-fw fa-times\"\n                                              })\n                                            ]\n                                          )\n                                        ],\n                                        1\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\n            \"b-row\",\n            [\n              _c(\n                \"b-col\",\n                { attrs: { xl: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: { title: \"Hover Table\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\"div\", { staticClass: \"block-options-item\" }, [\n                                _c(\"code\", [_vm._v(\"hover\")])\n                              ])\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            hover: \"\",\n                            \"table-class\": \"table-vcenter\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"50px\" }\n                                    },\n                                    [_vm._v(\"#\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-th\", [_vm._v(\"Name\")]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"d-none d-sm-table-cell\",\n                                      staticStyle: { width: \"15%\" }\n                                    },\n                                    [_vm._v(\"Access\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"100px\" }\n                                    },\n                                    [_vm._v(\"Actions\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            _vm._l(_vm.users.slice(0, 6), function(user) {\n                              return _c(\n                                \"b-tr\",\n                                { key: user.id },\n                                [\n                                  _c(\"b-td\", { staticClass: \"text-center\" }, [\n                                    _vm._v(\n                                      \"\\n                  \" +\n                                        _vm._s(user.id) +\n                                        \"\\n                \"\n                                    )\n                                  ]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"font-w600 font-size-sm\" },\n                                    [\n                                      _c(\n                                        \"a\",\n                                        { attrs: { href: \"\" + user.href } },\n                                        [\n                                          _vm._v(\n                                            \"\\n                    \" +\n                                              _vm._s(user.name) +\n                                              \"\\n                  \"\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"d-none d-sm-table-cell\" },\n                                    [\n                                      _c(\n                                        \"b-badge\",\n                                        {\n                                          attrs: { variant: user.labelVariant }\n                                        },\n                                        [_vm._v(_vm._s(user.labelText))]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"text-center\" },\n                                    [\n                                      _c(\n                                        \"b-button-group\",\n                                        [\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass:\n                                                  \"fa fa-fw fa-pencil-alt\"\n                                              })\n                                            ]\n                                          ),\n                                          _vm._v(\" \"),\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass: \"fa fa-fw fa-times\"\n                                              })\n                                            ]\n                                          )\n                                        ],\n                                        1\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { xl: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: { title: \"Bordered Table\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\"div\", { staticClass: \"block-options-item\" }, [\n                                _c(\"code\", [_vm._v(\"bordered\")])\n                              ])\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            bordered: \"\",\n                            \"table-class\": \"table-vcenter\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"50px\" }\n                                    },\n                                    [_vm._v(\"#\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-th\", [_vm._v(\"Name\")]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"d-none d-sm-table-cell\",\n                                      staticStyle: { width: \"15%\" }\n                                    },\n                                    [_vm._v(\"Access\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"100px\" }\n                                    },\n                                    [_vm._v(\"Actions\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            _vm._l(_vm.users.slice(0, 6), function(user) {\n                              return _c(\n                                \"b-tr\",\n                                { key: user.id },\n                                [\n                                  _c(\"b-td\", { staticClass: \"text-center\" }, [\n                                    _vm._v(\n                                      \"\\n                  \" +\n                                        _vm._s(user.id) +\n                                        \"\\n                \"\n                                    )\n                                  ]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"font-w600 font-size-sm\" },\n                                    [\n                                      _c(\n                                        \"a\",\n                                        { attrs: { href: \"\" + user.href } },\n                                        [\n                                          _vm._v(\n                                            \"\\n                    \" +\n                                              _vm._s(user.name) +\n                                              \"\\n                  \"\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"d-none d-sm-table-cell\" },\n                                    [\n                                      _c(\n                                        \"b-badge\",\n                                        {\n                                          attrs: { variant: user.labelVariant }\n                                        },\n                                        [_vm._v(_vm._s(user.labelText))]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"text-center\" },\n                                    [\n                                      _c(\n                                        \"b-button-group\",\n                                        [\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass:\n                                                  \"fa fa-fw fa-pencil-alt\"\n                                              })\n                                            ]\n                                          ),\n                                          _vm._v(\" \"),\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass: \"fa fa-fw fa-times\"\n                                              })\n                                            ]\n                                          )\n                                        ],\n                                        1\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\n            \"b-row\",\n            { staticClass: \"row-deck\" },\n            [\n              _c(\n                \"b-col\",\n                { attrs: { xl: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: { title: \"Borderless Table\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\"div\", { staticClass: \"block-options-item\" }, [\n                                _c(\"code\", [_vm._v(\"borderless\")])\n                              ])\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            borderless: \"\",\n                            \"table-class\": \"table-vcenter\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"50px\" }\n                                    },\n                                    [_vm._v(\"#\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-th\", [_vm._v(\"Name\")]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"d-none d-sm-table-cell\",\n                                      staticStyle: { width: \"15%\" }\n                                    },\n                                    [_vm._v(\"Access\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"100px\" }\n                                    },\n                                    [_vm._v(\"Actions\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            _vm._l(_vm.users.slice(0, 6), function(user) {\n                              return _c(\n                                \"b-tr\",\n                                { key: user.id },\n                                [\n                                  _c(\"b-td\", { staticClass: \"text-center\" }, [\n                                    _vm._v(\n                                      \"\\n                  \" +\n                                        _vm._s(user.id) +\n                                        \"\\n                \"\n                                    )\n                                  ]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"font-w600 font-size-sm\" },\n                                    [\n                                      _c(\n                                        \"a\",\n                                        { attrs: { href: \"\" + user.href } },\n                                        [\n                                          _vm._v(\n                                            \"\\n                    \" +\n                                              _vm._s(user.name) +\n                                              \"\\n                  \"\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"d-none d-sm-table-cell\" },\n                                    [\n                                      _c(\n                                        \"b-badge\",\n                                        {\n                                          attrs: { variant: user.labelVariant }\n                                        },\n                                        [_vm._v(_vm._s(user.labelText))]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"text-center\" },\n                                    [\n                                      _c(\n                                        \"b-button-group\",\n                                        [\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass:\n                                                  \"fa fa-fw fa-pencil-alt\"\n                                              })\n                                            ]\n                                          ),\n                                          _vm._v(\" \"),\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass: \"fa fa-fw fa-times\"\n                                              })\n                                            ]\n                                          )\n                                        ],\n                                        1\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { xl: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: { title: \"Small Table\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\"div\", { staticClass: \"block-options-item\" }, [\n                                _c(\"code\", [_vm._v(\"small\")])\n                              ])\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            small: \"\",\n                            \"table-class\": \"table-vcenter\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"50px\" }\n                                    },\n                                    [_vm._v(\"#\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-th\", [_vm._v(\"Name\")]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"d-none d-sm-table-cell\",\n                                      staticStyle: { width: \"15%\" }\n                                    },\n                                    [_vm._v(\"Access\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"100px\" }\n                                    },\n                                    [_vm._v(\"Actions\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            _vm._l(_vm.users.slice(0, 8), function(user) {\n                              return _c(\n                                \"b-tr\",\n                                { key: user.id },\n                                [\n                                  _c(\"b-td\", { staticClass: \"text-center\" }, [\n                                    _vm._v(\n                                      \"\\n                  \" +\n                                        _vm._s(user.id) +\n                                        \"\\n                \"\n                                    )\n                                  ]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"font-w600 font-size-sm\" },\n                                    [\n                                      _c(\n                                        \"a\",\n                                        { attrs: { href: \"\" + user.href } },\n                                        [\n                                          _vm._v(\n                                            \"\\n                    \" +\n                                              _vm._s(user.name) +\n                                              \"\\n                  \"\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"d-none d-sm-table-cell\" },\n                                    [\n                                      _c(\n                                        \"b-badge\",\n                                        {\n                                          attrs: { variant: user.labelVariant }\n                                        },\n                                        [_vm._v(_vm._s(user.labelText))]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"text-center\" },\n                                    [\n                                      _c(\n                                        \"b-button-group\",\n                                        [\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass:\n                                                  \"fa fa-fw fa-pencil-alt\"\n                                              })\n                                            ]\n                                          ),\n                                          _vm._v(\" \"),\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass: \"fa fa-fw fa-times\"\n                                              })\n                                            ]\n                                          )\n                                        ],\n                                        1\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          ),\n          _vm._v(\" \"),\n          _c(\n            \"b-row\",\n            [\n              _c(\n                \"b-col\",\n                { attrs: { xl: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: { title: \"Table Head Light\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\"div\", { staticClass: \"block-options-item\" }, [\n                                _c(\"code\", [_vm._v('head-variant=\"light\"')])\n                              ])\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            \"table-class\": \"table-vcenter\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            { attrs: { \"head-variant\": \"light\" } },\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"50px\" }\n                                    },\n                                    [_vm._v(\"#\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-th\", [_vm._v(\"Name\")]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"d-none d-sm-table-cell\",\n                                      staticStyle: { width: \"15%\" }\n                                    },\n                                    [_vm._v(\"Access\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"100px\" }\n                                    },\n                                    [_vm._v(\"Actions\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            _vm._l(_vm.users.slice(0, 6), function(user) {\n                              return _c(\n                                \"b-tr\",\n                                { key: user.id },\n                                [\n                                  _c(\"b-td\", { staticClass: \"text-center\" }, [\n                                    _vm._v(\n                                      \"\\n                  \" +\n                                        _vm._s(user.id) +\n                                        \"\\n                \"\n                                    )\n                                  ]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"font-w600 font-size-sm\" },\n                                    [\n                                      _c(\n                                        \"a\",\n                                        { attrs: { href: \"\" + user.href } },\n                                        [\n                                          _vm._v(\n                                            \"\\n                    \" +\n                                              _vm._s(user.name) +\n                                              \"\\n                  \"\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"d-none d-sm-table-cell\" },\n                                    [\n                                      _c(\n                                        \"b-badge\",\n                                        {\n                                          attrs: { variant: user.labelVariant }\n                                        },\n                                        [_vm._v(_vm._s(user.labelText))]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"text-center\" },\n                                    [\n                                      _c(\n                                        \"b-button-group\",\n                                        [\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass:\n                                                  \"fa fa-fw fa-pencil-alt\"\n                                              })\n                                            ]\n                                          ),\n                                          _vm._v(\" \"),\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass: \"fa fa-fw fa-times\"\n                                              })\n                                            ]\n                                          )\n                                        ],\n                                        1\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                { attrs: { xl: \"6\" } },\n                [\n                  _c(\n                    \"base-block\",\n                    {\n                      attrs: { title: \"Table Head Dark\" },\n                      scopedSlots: _vm._u([\n                        {\n                          key: \"options\",\n                          fn: function() {\n                            return [\n                              _c(\"div\", { staticClass: \"block-options-item\" }, [\n                                _c(\"code\", [_vm._v('head-variant=\"dark\"')])\n                              ])\n                            ]\n                          },\n                          proxy: true\n                        }\n                      ])\n                    },\n                    [\n                      _vm._v(\" \"),\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            \"table-class\": \"table-vcenter\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            { attrs: { \"head-variant\": \"dark\" } },\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"50px\" }\n                                    },\n                                    [_vm._v(\"#\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-th\", [_vm._v(\"Name\")]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"d-none d-sm-table-cell\",\n                                      staticStyle: { width: \"15%\" }\n                                    },\n                                    [_vm._v(\"Access\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"100px\" }\n                                    },\n                                    [_vm._v(\"Actions\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            _vm._l(_vm.users.slice(0, 6), function(user) {\n                              return _c(\n                                \"b-tr\",\n                                { key: user.id },\n                                [\n                                  _c(\"b-td\", { staticClass: \"text-center\" }, [\n                                    _vm._v(\n                                      \"\\n                  \" +\n                                        _vm._s(user.id) +\n                                        \"\\n                \"\n                                    )\n                                  ]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"font-w600 font-size-sm\" },\n                                    [\n                                      _c(\n                                        \"a\",\n                                        { attrs: { href: \"\" + user.href } },\n                                        [\n                                          _vm._v(\n                                            \"\\n                    \" +\n                                              _vm._s(user.name) +\n                                              \"\\n                  \"\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"d-none d-sm-table-cell\" },\n                                    [\n                                      _c(\n                                        \"b-badge\",\n                                        {\n                                          attrs: { variant: user.labelVariant }\n                                        },\n                                        [_vm._v(_vm._s(user.labelText))]\n                                      )\n                                    ],\n                                    1\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"text-center\" },\n                                    [\n                                      _c(\n                                        \"b-button-group\",\n                                        [\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass:\n                                                  \"fa fa-fw fa-pencil-alt\"\n                                              })\n                                            ]\n                                          ),\n                                          _vm._v(\" \"),\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass: \"fa fa-fw fa-times\"\n                                              })\n                                            ]\n                                          )\n                                        ],\n                                        1\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"b-col\",\n                [\n                  _c(\n                    \"base-block\",\n                    { attrs: { title: \"Contextual Table\" } },\n                    [\n                      _c(\n                        \"b-table-simple\",\n                        {\n                          attrs: {\n                            responsive: \"\",\n                            borderless: \"\",\n                            hover: \"\",\n                            \"table-class\": \"table-vcenter\"\n                          }\n                        },\n                        [\n                          _c(\n                            \"b-thead\",\n                            [\n                              _c(\n                                \"b-tr\",\n                                [\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"50px\" }\n                                    },\n                                    [_vm._v(\"#\")]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\"b-th\", [_vm._v(\"Name\")]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-th\",\n                                    {\n                                      staticClass: \"text-center\",\n                                      staticStyle: { width: \"100px\" }\n                                    },\n                                    [_vm._v(\"Actions\")]\n                                  )\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          ),\n                          _vm._v(\" \"),\n                          _c(\n                            \"b-tbody\",\n                            _vm._l(_vm.users, function(user) {\n                              return _c(\n                                \"b-tr\",\n                                {\n                                  key: user.id,\n                                  attrs: { variant: user.rowVariant }\n                                },\n                                [\n                                  _c(\"b-td\", { staticClass: \"text-center\" }, [\n                                    _vm._v(\n                                      \"\\n                  \" +\n                                        _vm._s(user.id) +\n                                        \"\\n                \"\n                                    )\n                                  ]),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"font-w600 font-size-sm\" },\n                                    [\n                                      _vm._v(\n                                        \"\\n                  \" +\n                                          _vm._s(user.name) +\n                                          \"\\n                \"\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(\" \"),\n                                  _c(\n                                    \"b-td\",\n                                    { staticClass: \"text-center\" },\n                                    [\n                                      _c(\n                                        \"b-button-group\",\n                                        [\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass:\n                                                  \"fa fa-fw fa-pencil-alt\"\n                                              })\n                                            ]\n                                          ),\n                                          _vm._v(\" \"),\n                                          _c(\n                                            \"b-button\",\n                                            {\n                                              attrs: {\n                                                size: \"sm\",\n                                                variant: \"light\"\n                                              }\n                                            },\n                                            [\n                                              _c(\"i\", {\n                                                staticClass: \"fa fa-fw fa-times\"\n                                              })\n                                            ]\n                                          )\n                                        ],\n                                        1\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        ],\n                        1\n                      )\n                    ],\n                    1\n                  )\n                ],\n                1\n              )\n            ],\n            1\n          )\n        ],\n        1\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3RhYmxlcy9TdHlsZXMudnVlPzE2MGEiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLFNBQVM7QUFDVDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG1CQUFtQixnQ0FBZ0M7QUFDbkQ7QUFDQTtBQUNBO0FBQ0EsdUJBQXVCLFNBQVMsNkJBQTZCLEVBQUU7QUFDL0Q7QUFDQTtBQUNBO0FBQ0EsNkNBQTZDLFNBQVMsYUFBYSxFQUFFO0FBQ3JFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGFBQWE7QUFDYjtBQUNBO0FBQ0E7QUFDQSxPQUFPO0FBQ1A7QUFDQTtBQUNBO0FBQ0EsU0FBUyx5QkFBeUI7QUFDbEM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLFNBQVMsVUFBVSxFQUFFO0FBQ3RDO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQixTQUFTLHlCQUF5QixFQUFFO0FBQ3pEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSx5QkFBeUI7QUFDekI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG9EQUFvRDtBQUNwRCxxQ0FBcUM7QUFDckM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Esb0RBQW9EO0FBQ3BELHFDQUFxQztBQUNyQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG9EQUFvRDtBQUNwRCxxQ0FBcUM7QUFDckM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlDQUFpQyxlQUFlO0FBQ2hEO0FBQ0EsOENB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QTtBQUNBLDZCQUE2QjtBQUM3QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6Ii4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2xvYWRlcnMvdGVtcGxhdGVMb2FkZXIuanM/IS4vbm9kZV9tb2R1bGVzL3Z1ZS1sb2FkZXIvbGliL2luZGV4LmpzPyEuL3Jlc291cmNlcy9qcy9zcmMvdmlld3MvdGFibGVzL1N0eWxlcy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9M2E5ZGQ5NWMmLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIHJlbmRlciA9IGZ1bmN0aW9uKCkge1xuICB2YXIgX3ZtID0gdGhpc1xuICB2YXIgX2ggPSBfdm0uJGNyZWF0ZUVsZW1lbnRcbiAgdmFyIF9jID0gX3ZtLl9zZWxmLl9jIHx8IF9oXG4gIHJldHVybiBfYyhcbiAgICBcImRpdlwiLFxuICAgIFtcbiAgICAgIF9jKFwiYmFzZS1wYWdlLWhlYWRpbmdcIiwge1xuICAgICAgICBhdHRyczoge1xuICAgICAgICAgIHRpdGxlOiBcIlRhYmxlIFN0eWxlc1wiLFxuICAgICAgICAgIHN1YnRpdGxlOiBcIk11bHRpcGxlIHN0eWxlIG9wdGlvbnMgdG8gbWF0Y2ggeW91ciBwcmVmZXJlbmNlcy5cIlxuICAgICAgICB9LFxuICAgICAgICBzY29wZWRTbG90czogX3ZtLl91KFtcbiAgICAgICAgICB7XG4gICAgICAgICAgICBrZXk6IFwiZXh0cmFcIixcbiAgICAgICAgICAgIGZuOiBmdW5jdGlvbigpIHtcbiAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgIFwiYi1icmVhZGNydW1iXCIsXG4gICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImJyZWFkY3J1bWItYWx0XCIgfSxcbiAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgXCJiLWJyZWFkY3J1bWItaXRlbVwiLFxuICAgICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgaHJlZjogXCJqYXZhc2NyaXB0OnZvaWQoMClcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIlRhYmxlc1wiKV1cbiAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgX2MoXCJiLWJyZWFkY3J1bWItaXRlbVwiLCB7IGF0dHJzOiB7IGFjdGl2ZTogXCJcIiB9IH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCJTdHlsZXNcIilcbiAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICBdXG4gICAgICAgICAgICB9LFxuICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICB9XG4gICAgICAgIF0pXG4gICAgICB9KSxcbiAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICBfYyhcbiAgICAgICAgXCJkaXZcIixcbiAgICAgICAgeyBzdGF0aWNDbGFzczogXCJjb250ZW50XCIgfSxcbiAgICAgICAgW1xuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJiLXJvd1wiLFxuICAgICAgICAgICAgW1xuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgeyBhdHRyczogeyB4bDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyB0aXRsZTogXCJEZWZhdWx0IFRhYmxlXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItdGFibGUtc2ltcGxlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzcG9uc2l2ZTogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInRhYmxlLWNsYXNzXCI6IFwidGFibGUtdmNlbnRlclwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aGVhZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY1N0eWxlOiB7IHdpZHRoOiBcIjUwcHhcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIiNcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10aFwiLCBbX3ZtLl92KFwiTmFtZVwiKV0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZC1ub25lIGQtc20tdGFibGUtY2VsbFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNTdHlsZTogeyB3aWR0aDogXCIxNSVcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkFjY2Vzc1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljU3R5bGU6IHsgd2lkdGg6IFwiMTAwcHhcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkFjdGlvbnNcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10Ym9keVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fbChfdm0udXNlcnMuc2xpY2UoMCwgNiksIGZ1bmN0aW9uKHVzZXIpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsga2V5OiB1c2VyLmlkIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGRcIiwgeyBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgICBcIiArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9zKHVzZXIuaWQpICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NjAwIGZvbnQtc2l6ZS1zbVwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgaHJlZjogXCJcIiArIHVzZXIuaHJlZiB9IH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgICAgXCIgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fcyh1c2VyLm5hbWUpICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYmFkZ2VcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB2YXJpYW50OiB1c2VyLmxhYmVsVmFyaWFudCB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KF92bS5fcyh1c2VyLmxhYmVsVGV4dCkpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b24tZ3JvdXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6IFwibGlnaHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJmYSBmYS1mdyBmYS1wZW5jaWwtYWx0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJsaWdodFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImZhIGZhLWZ3IGZhLXRpbWVzXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgeyBhdHRyczogeyB4bDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHRpdGxlOiBcIlN0cmlwZWQgVGFibGVcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgIHNjb3BlZFNsb3RzOiBfdm0uX3UoW1xuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IFwib3B0aW9uc1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiZGl2XCIsIHsgc3RhdGljQ2xhc3M6IFwiYmxvY2stb3B0aW9ucy1pdGVtXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW192bS5fdihcInN0cmlwZWRcIildKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHByb3h5OiB0cnVlXG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgXSlcbiAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItdGFibGUtc2ltcGxlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzcG9uc2l2ZTogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJpcGVkOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwidGFibGUtY2xhc3NcIjogXCJ0YWJsZS12Y2VudGVyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoZWFkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljU3R5bGU6IHsgd2lkdGg6IFwiNTBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiI1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRoXCIsIFtfdm0uX3YoXCJOYW1lXCIpXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY1N0eWxlOiB7IHdpZHRoOiBcIjE1JVwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiQWNjZXNzXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNTdHlsZTogeyB3aWR0aDogXCIxMDBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiQWN0aW9uc1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRib2R5XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9sKF92bS51c2Vycy5zbGljZSgwLCA2KSwgZnVuY3Rpb24odXNlcikge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBrZXk6IHVzZXIuaWQgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10ZFwiLCB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgIFwiICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3ModXNlci5pZCkgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXc2MDAgZm9udC1zaXplLXNtXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJhXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBocmVmOiBcIlwiICsgdXNlci5ocmVmIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgICBcIiArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9zKHVzZXIubmFtZSkgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZC1ub25lIGQtc20tdGFibGUtY2VsbFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1iYWRnZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IHVzZXIubGFiZWxWYXJpYW50IH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoX3ZtLl9zKHVzZXIubGFiZWxUZXh0KSldXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvbi1ncm91cFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJsaWdodFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImZhIGZhLWZ3IGZhLXBlbmNpbC1hbHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImxpZ2h0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmEgZmEtZncgZmEtdGltZXNcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAxXG4gICAgICAgICAgKSxcbiAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJiLXJvd1wiLFxuICAgICAgICAgICAgW1xuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgeyBhdHRyczogeyB4bDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHRpdGxlOiBcIkhvdmVyIFRhYmxlXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICBzY29wZWRTbG90czogX3ZtLl91KFtcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAga2V5OiBcIm9wdGlvbnNcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZm46IGZ1bmN0aW9uKCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImJsb2NrLW9wdGlvbnMtaXRlbVwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtfdm0uX3YoXCJob3ZlclwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10YWJsZS1zaW1wbGVcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXNwb25zaXZlOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhvdmVyOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwidGFibGUtY2xhc3NcIjogXCJ0YWJsZS12Y2VudGVyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoZWFkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljU3R5bGU6IHsgd2lkdGg6IFwiNTBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiI1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRoXCIsIFtfdm0uX3YoXCJOYW1lXCIpXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY1N0eWxlOiB7IHdpZHRoOiBcIjE1JVwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiQWNjZXNzXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNTdHlsZTogeyB3aWR0aDogXCIxMDBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiQWN0aW9uc1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRib2R5XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9sKF92bS51c2Vycy5zbGljZSgwLCA2KSwgZnVuY3Rpb24odXNlcikge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBrZXk6IHVzZXIuaWQgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10ZFwiLCB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgIFwiICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3ModXNlci5pZCkgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXc2MDAgZm9udC1zaXplLXNtXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJhXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBocmVmOiBcIlwiICsgdXNlci5ocmVmIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgICBcIiArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9zKHVzZXIubmFtZSkgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZC1ub25lIGQtc20tdGFibGUtY2VsbFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1iYWRnZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IHVzZXIubGFiZWxWYXJpYW50IH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoX3ZtLl9zKHVzZXIubGFiZWxUZXh0KSldXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvbi1ncm91cFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJsaWdodFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImZhIGZhLWZ3IGZhLXBlbmNpbC1hbHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImxpZ2h0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmEgZmEtZncgZmEtdGltZXNcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHhsOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdGl0bGU6IFwiQm9yZGVyZWQgVGFibGVcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgIHNjb3BlZFNsb3RzOiBfdm0uX3UoW1xuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IFwib3B0aW9uc1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiZGl2XCIsIHsgc3RhdGljQ2xhc3M6IFwiYmxvY2stb3B0aW9ucy1pdGVtXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW192bS5fdihcImJvcmRlcmVkXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYmxlLXNpbXBsZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3BvbnNpdmU6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyZWQ6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ0YWJsZS1jbGFzc1wiOiBcInRhYmxlLXZjZW50ZXJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhlYWRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNTdHlsZTogeyB3aWR0aDogXCI1MHB4XCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCIjXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGhcIiwgW192bS5fdihcIk5hbWVcIildKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljU3R5bGU6IHsgd2lkdGg6IFwiMTUlXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJBY2Nlc3NcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY1N0eWxlOiB7IHdpZHRoOiBcIjEwMHB4XCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJBY3Rpb25zXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGJvZHlcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX2woX3ZtLnVzZXJzLnNsaWNlKDAsIDYpLCBmdW5jdGlvbih1c2VyKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IGtleTogdXNlci5pZCB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRkXCIsIHsgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgXCIgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fcyh1c2VyLmlkKSArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzYwMCBmb250LXNpemUtc21cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IGhyZWY6IFwiXCIgKyB1c2VyLmhyZWYgfSB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgICAgIFwiICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3ModXNlci5uYW1lKSArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJhZGdlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdmFyaWFudDogdXNlci5sYWJlbFZhcmlhbnQgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihfdm0uX3ModXNlci5sYWJlbFRleHQpKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uLWdyb3VwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImxpZ2h0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiZmEgZmEtZncgZmEtcGVuY2lsLWFsdFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6IFwibGlnaHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS1mdyBmYS10aW1lc1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgXSxcbiAgICAgICAgICAgIDFcbiAgICAgICAgICApLFxuICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgX2MoXG4gICAgICAgICAgICBcImItcm93XCIsXG4gICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcInJvdy1kZWNrXCIgfSxcbiAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgeGw6IFwiNlwiIH0gfSxcbiAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgXCJiYXNlLWJsb2NrXCIsXG4gICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB0aXRsZTogXCJCb3JkZXJsZXNzIFRhYmxlXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICBzY29wZWRTbG90czogX3ZtLl91KFtcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAga2V5OiBcIm9wdGlvbnNcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZm46IGZ1bmN0aW9uKCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImJsb2NrLW9wdGlvbnMtaXRlbVwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtfdm0uX3YoXCJib3JkZXJsZXNzXCIpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYmxlLXNpbXBsZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3BvbnNpdmU6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVybGVzczogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcInRhYmxlLWNsYXNzXCI6IFwidGFibGUtdmNlbnRlclwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aGVhZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY1N0eWxlOiB7IHdpZHRoOiBcIjUwcHhcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIiNcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10aFwiLCBbX3ZtLl92KFwiTmFtZVwiKV0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZC1ub25lIGQtc20tdGFibGUtY2VsbFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNTdHlsZTogeyB3aWR0aDogXCIxNSVcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkFjY2Vzc1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljU3R5bGU6IHsgd2lkdGg6IFwiMTAwcHhcIiB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihcIkFjdGlvbnNcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10Ym9keVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fbChfdm0udXNlcnMuc2xpY2UoMCwgNiksIGZ1bmN0aW9uKHVzZXIpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsga2V5OiB1c2VyLmlkIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGRcIiwgeyBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgICBcIiArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9zKHVzZXIuaWQpICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZm9udC13NjAwIGZvbnQtc2l6ZS1zbVwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgYXR0cnM6IHsgaHJlZjogXCJcIiArIHVzZXIuaHJlZiB9IH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgICAgXCIgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fcyh1c2VyLm5hbWUpICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYmFkZ2VcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB2YXJpYW50OiB1c2VyLmxhYmVsVmFyaWFudCB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KF92bS5fcyh1c2VyLmxhYmVsVGV4dCkpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b24tZ3JvdXBcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6IFwibGlnaHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczpcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJmYSBmYS1mdyBmYS1wZW5jaWwtYWx0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJsaWdodFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImZhIGZhLWZ3IGZhLXRpbWVzXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgeyBhdHRyczogeyB4bDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHRpdGxlOiBcIlNtYWxsIFRhYmxlXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICBzY29wZWRTbG90czogX3ZtLl91KFtcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAga2V5OiBcIm9wdGlvbnNcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZm46IGZ1bmN0aW9uKCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImJsb2NrLW9wdGlvbnMtaXRlbVwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtfdm0uX3YoXCJzbWFsbFwiKV0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgcHJveHk6IHRydWVcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICBdKVxuICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10YWJsZS1zaW1wbGVcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXNwb25zaXZlOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNtYWxsOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwidGFibGUtY2xhc3NcIjogXCJ0YWJsZS12Y2VudGVyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoZWFkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljU3R5bGU6IHsgd2lkdGg6IFwiNTBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiI1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRoXCIsIFtfdm0uX3YoXCJOYW1lXCIpXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY1N0eWxlOiB7IHdpZHRoOiBcIjE1JVwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiQWNjZXNzXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNTdHlsZTogeyB3aWR0aDogXCIxMDBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiQWN0aW9uc1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRib2R5XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9sKF92bS51c2Vycy5zbGljZSgwLCA4KSwgZnVuY3Rpb24odXNlcikge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBrZXk6IHVzZXIuaWQgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10ZFwiLCB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgIFwiICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3ModXNlci5pZCkgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXc2MDAgZm9udC1zaXplLXNtXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJhXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBocmVmOiBcIlwiICsgdXNlci5ocmVmIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgICBcIiArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9zKHVzZXIubmFtZSkgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZC1ub25lIGQtc20tdGFibGUtY2VsbFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1iYWRnZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IHVzZXIubGFiZWxWYXJpYW50IH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoX3ZtLl9zKHVzZXIubGFiZWxUZXh0KSldXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvbi1ncm91cFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJsaWdodFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImZhIGZhLWZ3IGZhLXBlbmNpbC1hbHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImxpZ2h0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmEgZmEtZncgZmEtdGltZXNcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAxXG4gICAgICAgICAgKSxcbiAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgIF9jKFxuICAgICAgICAgICAgXCJiLXJvd1wiLFxuICAgICAgICAgICAgW1xuICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICBcImItY29sXCIsXG4gICAgICAgICAgICAgICAgeyBhdHRyczogeyB4bDogXCI2XCIgfSB9LFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHRpdGxlOiBcIlRhYmxlIEhlYWQgTGlnaHRcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgIHNjb3BlZFNsb3RzOiBfdm0uX3UoW1xuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk6IFwib3B0aW9uc1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBmbjogZnVuY3Rpb24oKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiZGl2XCIsIHsgc3RhdGljQ2xhc3M6IFwiYmxvY2stb3B0aW9ucy1pdGVtXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImNvZGVcIiwgW192bS5fdignaGVhZC12YXJpYW50PVwibGlnaHRcIicpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYmxlLXNpbXBsZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3BvbnNpdmU6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ0YWJsZS1jbGFzc1wiOiBcInRhYmxlLXZjZW50ZXJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhlYWRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IFwiaGVhZC12YXJpYW50XCI6IFwibGlnaHRcIiB9IH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljU3R5bGU6IHsgd2lkdGg6IFwiNTBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiI1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRoXCIsIFtfdm0uX3YoXCJOYW1lXCIpXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY1N0eWxlOiB7IHdpZHRoOiBcIjE1JVwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiQWNjZXNzXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNTdHlsZTogeyB3aWR0aDogXCIxMDBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiQWN0aW9uc1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRib2R5XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9sKF92bS51c2Vycy5zbGljZSgwLCA2KSwgZnVuY3Rpb24odXNlcikge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBrZXk6IHVzZXIuaWQgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiYi10ZFwiLCB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIgfSwgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICAgIFwiICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3ModXNlci5pZCkgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgIFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJmb250LXc2MDAgZm9udC1zaXplLXNtXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJhXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyBocmVmOiBcIlwiICsgdXNlci5ocmVmIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgICBcIiArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9zKHVzZXIubmFtZSkgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwiZC1ub25lIGQtc20tdGFibGUtY2VsbFwiIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1iYWRnZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7IHZhcmlhbnQ6IHVzZXIubGFiZWxWYXJpYW50IH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoX3ZtLl9zKHVzZXIubGFiZWxUZXh0KSldXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvbi1ncm91cFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJsaWdodFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImZhIGZhLWZ3IGZhLXBlbmNpbC1hbHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImxpZ2h0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmEgZmEtZncgZmEtdGltZXNcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgIFwiYi1jb2xcIixcbiAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IHhsOiBcIjZcIiB9IH0sXG4gICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgIFwiYmFzZS1ibG9ja1wiLFxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdGl0bGU6IFwiVGFibGUgSGVhZCBEYXJrXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICBzY29wZWRTbG90czogX3ZtLl91KFtcbiAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAga2V5OiBcIm9wdGlvbnNcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZm46IGZ1bmN0aW9uKCkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImRpdlwiLCB7IHN0YXRpY0NsYXNzOiBcImJsb2NrLW9wdGlvbnMtaXRlbVwiIH0sIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJjb2RlXCIsIFtfdm0uX3YoJ2hlYWQtdmFyaWFudD1cImRhcmtcIicpXSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICBwcm94eTogdHJ1ZVxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgIF0pXG4gICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRhYmxlLXNpbXBsZVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3BvbnNpdmU6IFwiXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJ0YWJsZS1jbGFzc1wiOiBcInRhYmxlLXZjZW50ZXJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhlYWRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IFwiaGVhZC12YXJpYW50XCI6IFwiZGFya1wiIH0gfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNTdHlsZTogeyB3aWR0aDogXCI1MHB4XCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCIjXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImItdGhcIiwgW192bS5fdihcIk5hbWVcIildKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcImQtbm9uZSBkLXNtLXRhYmxlLWNlbGxcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljU3R5bGU6IHsgd2lkdGg6IFwiMTUlXCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJBY2Nlc3NcIildXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY1N0eWxlOiB7IHdpZHRoOiBcIjEwMHB4XCIgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtfdm0uX3YoXCJBY3Rpb25zXCIpXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGJvZHlcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX2woX3ZtLnVzZXJzLnNsaWNlKDAsIDYpLCBmdW5jdGlvbih1c2VyKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IGtleTogdXNlci5pZCB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRkXCIsIHsgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgXCIgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fcyh1c2VyLmlkKSArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzYwMCBmb250LXNpemUtc21cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IGF0dHJzOiB7IGhyZWY6IFwiXCIgKyB1c2VyLmhyZWYgfSB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgICAgIFwiICtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3ModXNlci5uYW1lKSArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10ZFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBzdGF0aWNDbGFzczogXCJkLW5vbmUgZC1zbS10YWJsZS1jZWxsXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJhZGdlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHsgdmFyaWFudDogdXNlci5sYWJlbFZhcmlhbnQgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW192bS5fdihfdm0uX3ModXNlci5sYWJlbFRleHQpKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGRcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uLWdyb3VwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImxpZ2h0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiZmEgZmEtZncgZmEtcGVuY2lsLWFsdFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvblwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0cnM6IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU6IFwic21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6IFwibGlnaHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFwiaVwiLCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJmYSBmYS1mdyBmYS10aW1lc1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgXCJiLWNvbFwiLFxuICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICBcImJhc2UtYmxvY2tcIixcbiAgICAgICAgICAgICAgICAgICAgeyBhdHRyczogeyB0aXRsZTogXCJDb250ZXh0dWFsIFRhYmxlXCIgfSB9LFxuICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICBcImItdGFibGUtc2ltcGxlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzcG9uc2l2ZTogXCJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJsZXNzOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhvdmVyOiBcIlwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwidGFibGUtY2xhc3NcIjogXCJ0YWJsZS12Y2VudGVyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRoZWFkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10clwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdGhcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljU3R5bGU6IHsgd2lkdGg6IFwiNTBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiI1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fdihcIiBcIiksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRoXCIsIFtfdm0uX3YoXCJOYW1lXCIpXSksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi10aFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNDbGFzczogXCJ0ZXh0LWNlbnRlclwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0aWNTdHlsZTogeyB3aWR0aDogXCIxMDBweFwiIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbX3ZtLl92KFwiQWN0aW9uc1wiKV1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl92KFwiIFwiKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRib2R5XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgX3ZtLl9sKF92bS51c2VycywgZnVuY3Rpb24odXNlcikge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItdHJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleTogdXNlci5pZCxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczogeyB2YXJpYW50OiB1c2VyLnJvd1ZhcmlhbnQgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJiLXRkXCIsIHsgc3RhdGljQ2xhc3M6IFwidGV4dC1jZW50ZXJcIiB9LCBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiXFxuICAgICAgICAgICAgICAgICAgXCIgK1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF92bS5fcyh1c2VyLmlkKSArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgXCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcImZvbnQtdzYwMCBmb250LXNpemUtc21cIiB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJcXG4gICAgICAgICAgICAgICAgICBcIiArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3ModXNlci5uYW1lKSArXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIlxcbiAgICAgICAgICAgICAgICBcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLXRkXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IHN0YXRpY0NsYXNzOiBcInRleHQtY2VudGVyXCIgfSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJiLWJ1dHRvbi1ncm91cFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF9jKFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImItYnV0dG9uXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRyczoge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZTogXCJzbVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudDogXCJsaWdodFwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXCJpXCIsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRpY0NsYXNzOlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImZhIGZhLWZ3IGZhLXBlbmNpbC1hbHRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfdm0uX3YoXCIgXCIpLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgX2MoXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYi1idXR0b25cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJzOiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplOiBcInNtXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50OiBcImxpZ2h0XCJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfYyhcImlcIiwge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGljQ2xhc3M6IFwiZmEgZmEtZncgZmEtdGltZXNcIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDFcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgXSxcbiAgICAgICAgICAgICAgICAxXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAxXG4gICAgICAgICAgKVxuICAgICAgICBdLFxuICAgICAgICAxXG4gICAgICApXG4gICAgXSxcbiAgICAxXG4gIClcbn1cbnZhciBzdGF0aWNSZW5kZXJGbnMgPSBbXVxucmVuZGVyLl93aXRoU3RyaXBwZWQgPSB0cnVlXG5cbmV4cG9ydCB7IHJlbmRlciwgc3RhdGljUmVuZGVyRm5zIH0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Styles.vue?vue&type=template&id=3a9dd95c&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          title: "Table Styles",
+          subtitle: "Multiple style options to match your preferences."
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Tables")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Styles")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { xl: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { title: "Default Table" } },
+                    [
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            "table-class": "table-vcenter"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "50px" }
+                                    },
+                                    [_vm._v("#")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-th", [_vm._v("Name")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "d-none d-sm-table-cell",
+                                      staticStyle: { width: "15%" }
+                                    },
+                                    [_vm._v("Access")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "100px" }
+                                    },
+                                    [_vm._v("Actions")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            _vm._l(_vm.users.slice(0, 6), function(user) {
+                              return _c(
+                                "b-tr",
+                                { key: user.id },
+                                [
+                                  _c("b-td", { staticClass: "text-center" }, [
+                                    _vm._v(
+                                      "\n                  " +
+                                        _vm._s(user.id) +
+                                        "\n                "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "font-w600 font-size-sm" },
+                                    [
+                                      _c(
+                                        "a",
+                                        { attrs: { href: "" + user.href } },
+                                        [
+                                          _vm._v(
+                                            "\n                    " +
+                                              _vm._s(user.name) +
+                                              "\n                  "
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "d-none d-sm-table-cell" },
+                                    [
+                                      _c(
+                                        "b-badge",
+                                        {
+                                          attrs: { variant: user.labelVariant }
+                                        },
+                                        [_vm._v(_vm._s(user.labelText))]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "text-center" },
+                                    [
+                                      _c(
+                                        "b-button-group",
+                                        [
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-fw fa-pencil-alt"
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-fw fa-times"
+                                              })
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { xl: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Striped Table" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c("div", { staticClass: "block-options-item" }, [
+                                _c("code", [_vm._v("striped")])
+                              ])
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            striped: "",
+                            "table-class": "table-vcenter"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "50px" }
+                                    },
+                                    [_vm._v("#")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-th", [_vm._v("Name")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "d-none d-sm-table-cell",
+                                      staticStyle: { width: "15%" }
+                                    },
+                                    [_vm._v("Access")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "100px" }
+                                    },
+                                    [_vm._v("Actions")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            _vm._l(_vm.users.slice(0, 6), function(user) {
+                              return _c(
+                                "b-tr",
+                                { key: user.id },
+                                [
+                                  _c("b-td", { staticClass: "text-center" }, [
+                                    _vm._v(
+                                      "\n                  " +
+                                        _vm._s(user.id) +
+                                        "\n                "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "font-w600 font-size-sm" },
+                                    [
+                                      _c(
+                                        "a",
+                                        { attrs: { href: "" + user.href } },
+                                        [
+                                          _vm._v(
+                                            "\n                    " +
+                                              _vm._s(user.name) +
+                                              "\n                  "
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "d-none d-sm-table-cell" },
+                                    [
+                                      _c(
+                                        "b-badge",
+                                        {
+                                          attrs: { variant: user.labelVariant }
+                                        },
+                                        [_vm._v(_vm._s(user.labelText))]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "text-center" },
+                                    [
+                                      _c(
+                                        "b-button-group",
+                                        [
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-fw fa-pencil-alt"
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-fw fa-times"
+                                              })
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { xl: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Hover Table" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c("div", { staticClass: "block-options-item" }, [
+                                _c("code", [_vm._v("hover")])
+                              ])
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            hover: "",
+                            "table-class": "table-vcenter"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "50px" }
+                                    },
+                                    [_vm._v("#")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-th", [_vm._v("Name")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "d-none d-sm-table-cell",
+                                      staticStyle: { width: "15%" }
+                                    },
+                                    [_vm._v("Access")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "100px" }
+                                    },
+                                    [_vm._v("Actions")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            _vm._l(_vm.users.slice(0, 6), function(user) {
+                              return _c(
+                                "b-tr",
+                                { key: user.id },
+                                [
+                                  _c("b-td", { staticClass: "text-center" }, [
+                                    _vm._v(
+                                      "\n                  " +
+                                        _vm._s(user.id) +
+                                        "\n                "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "font-w600 font-size-sm" },
+                                    [
+                                      _c(
+                                        "a",
+                                        { attrs: { href: "" + user.href } },
+                                        [
+                                          _vm._v(
+                                            "\n                    " +
+                                              _vm._s(user.name) +
+                                              "\n                  "
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "d-none d-sm-table-cell" },
+                                    [
+                                      _c(
+                                        "b-badge",
+                                        {
+                                          attrs: { variant: user.labelVariant }
+                                        },
+                                        [_vm._v(_vm._s(user.labelText))]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "text-center" },
+                                    [
+                                      _c(
+                                        "b-button-group",
+                                        [
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-fw fa-pencil-alt"
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-fw fa-times"
+                                              })
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { xl: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Bordered Table" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c("div", { staticClass: "block-options-item" }, [
+                                _c("code", [_vm._v("bordered")])
+                              ])
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            bordered: "",
+                            "table-class": "table-vcenter"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "50px" }
+                                    },
+                                    [_vm._v("#")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-th", [_vm._v("Name")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "d-none d-sm-table-cell",
+                                      staticStyle: { width: "15%" }
+                                    },
+                                    [_vm._v("Access")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "100px" }
+                                    },
+                                    [_vm._v("Actions")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            _vm._l(_vm.users.slice(0, 6), function(user) {
+                              return _c(
+                                "b-tr",
+                                { key: user.id },
+                                [
+                                  _c("b-td", { staticClass: "text-center" }, [
+                                    _vm._v(
+                                      "\n                  " +
+                                        _vm._s(user.id) +
+                                        "\n                "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "font-w600 font-size-sm" },
+                                    [
+                                      _c(
+                                        "a",
+                                        { attrs: { href: "" + user.href } },
+                                        [
+                                          _vm._v(
+                                            "\n                    " +
+                                              _vm._s(user.name) +
+                                              "\n                  "
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "d-none d-sm-table-cell" },
+                                    [
+                                      _c(
+                                        "b-badge",
+                                        {
+                                          attrs: { variant: user.labelVariant }
+                                        },
+                                        [_vm._v(_vm._s(user.labelText))]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "text-center" },
+                                    [
+                                      _c(
+                                        "b-button-group",
+                                        [
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-fw fa-pencil-alt"
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-fw fa-times"
+                                              })
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "row-deck" },
+            [
+              _c(
+                "b-col",
+                { attrs: { xl: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Borderless Table" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c("div", { staticClass: "block-options-item" }, [
+                                _c("code", [_vm._v("borderless")])
+                              ])
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            borderless: "",
+                            "table-class": "table-vcenter"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "50px" }
+                                    },
+                                    [_vm._v("#")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-th", [_vm._v("Name")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "d-none d-sm-table-cell",
+                                      staticStyle: { width: "15%" }
+                                    },
+                                    [_vm._v("Access")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "100px" }
+                                    },
+                                    [_vm._v("Actions")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            _vm._l(_vm.users.slice(0, 6), function(user) {
+                              return _c(
+                                "b-tr",
+                                { key: user.id },
+                                [
+                                  _c("b-td", { staticClass: "text-center" }, [
+                                    _vm._v(
+                                      "\n                  " +
+                                        _vm._s(user.id) +
+                                        "\n                "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "font-w600 font-size-sm" },
+                                    [
+                                      _c(
+                                        "a",
+                                        { attrs: { href: "" + user.href } },
+                                        [
+                                          _vm._v(
+                                            "\n                    " +
+                                              _vm._s(user.name) +
+                                              "\n                  "
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "d-none d-sm-table-cell" },
+                                    [
+                                      _c(
+                                        "b-badge",
+                                        {
+                                          attrs: { variant: user.labelVariant }
+                                        },
+                                        [_vm._v(_vm._s(user.labelText))]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "text-center" },
+                                    [
+                                      _c(
+                                        "b-button-group",
+                                        [
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-fw fa-pencil-alt"
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-fw fa-times"
+                                              })
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { xl: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Small Table" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c("div", { staticClass: "block-options-item" }, [
+                                _c("code", [_vm._v("small")])
+                              ])
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            small: "",
+                            "table-class": "table-vcenter"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "50px" }
+                                    },
+                                    [_vm._v("#")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-th", [_vm._v("Name")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "d-none d-sm-table-cell",
+                                      staticStyle: { width: "15%" }
+                                    },
+                                    [_vm._v("Access")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "100px" }
+                                    },
+                                    [_vm._v("Actions")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            _vm._l(_vm.users.slice(0, 8), function(user) {
+                              return _c(
+                                "b-tr",
+                                { key: user.id },
+                                [
+                                  _c("b-td", { staticClass: "text-center" }, [
+                                    _vm._v(
+                                      "\n                  " +
+                                        _vm._s(user.id) +
+                                        "\n                "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "font-w600 font-size-sm" },
+                                    [
+                                      _c(
+                                        "a",
+                                        { attrs: { href: "" + user.href } },
+                                        [
+                                          _vm._v(
+                                            "\n                    " +
+                                              _vm._s(user.name) +
+                                              "\n                  "
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "d-none d-sm-table-cell" },
+                                    [
+                                      _c(
+                                        "b-badge",
+                                        {
+                                          attrs: { variant: user.labelVariant }
+                                        },
+                                        [_vm._v(_vm._s(user.labelText))]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "text-center" },
+                                    [
+                                      _c(
+                                        "b-button-group",
+                                        [
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-fw fa-pencil-alt"
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-fw fa-times"
+                                              })
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { xl: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Table Head Light" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c("div", { staticClass: "block-options-item" }, [
+                                _c("code", [_vm._v('head-variant="light"')])
+                              ])
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            "table-class": "table-vcenter"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            { attrs: { "head-variant": "light" } },
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "50px" }
+                                    },
+                                    [_vm._v("#")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-th", [_vm._v("Name")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "d-none d-sm-table-cell",
+                                      staticStyle: { width: "15%" }
+                                    },
+                                    [_vm._v("Access")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "100px" }
+                                    },
+                                    [_vm._v("Actions")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            _vm._l(_vm.users.slice(0, 6), function(user) {
+                              return _c(
+                                "b-tr",
+                                { key: user.id },
+                                [
+                                  _c("b-td", { staticClass: "text-center" }, [
+                                    _vm._v(
+                                      "\n                  " +
+                                        _vm._s(user.id) +
+                                        "\n                "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "font-w600 font-size-sm" },
+                                    [
+                                      _c(
+                                        "a",
+                                        { attrs: { href: "" + user.href } },
+                                        [
+                                          _vm._v(
+                                            "\n                    " +
+                                              _vm._s(user.name) +
+                                              "\n                  "
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "d-none d-sm-table-cell" },
+                                    [
+                                      _c(
+                                        "b-badge",
+                                        {
+                                          attrs: { variant: user.labelVariant }
+                                        },
+                                        [_vm._v(_vm._s(user.labelText))]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "text-center" },
+                                    [
+                                      _c(
+                                        "b-button-group",
+                                        [
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-fw fa-pencil-alt"
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-fw fa-times"
+                                              })
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { xl: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Table Head Dark" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c("div", { staticClass: "block-options-item" }, [
+                                _c("code", [_vm._v('head-variant="dark"')])
+                              ])
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            "table-class": "table-vcenter"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            { attrs: { "head-variant": "dark" } },
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "50px" }
+                                    },
+                                    [_vm._v("#")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-th", [_vm._v("Name")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "d-none d-sm-table-cell",
+                                      staticStyle: { width: "15%" }
+                                    },
+                                    [_vm._v("Access")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "100px" }
+                                    },
+                                    [_vm._v("Actions")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            _vm._l(_vm.users.slice(0, 6), function(user) {
+                              return _c(
+                                "b-tr",
+                                { key: user.id },
+                                [
+                                  _c("b-td", { staticClass: "text-center" }, [
+                                    _vm._v(
+                                      "\n                  " +
+                                        _vm._s(user.id) +
+                                        "\n                "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "font-w600 font-size-sm" },
+                                    [
+                                      _c(
+                                        "a",
+                                        { attrs: { href: "" + user.href } },
+                                        [
+                                          _vm._v(
+                                            "\n                    " +
+                                              _vm._s(user.name) +
+                                              "\n                  "
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "d-none d-sm-table-cell" },
+                                    [
+                                      _c(
+                                        "b-badge",
+                                        {
+                                          attrs: { variant: user.labelVariant }
+                                        },
+                                        [_vm._v(_vm._s(user.labelText))]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "text-center" },
+                                    [
+                                      _c(
+                                        "b-button-group",
+                                        [
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-fw fa-pencil-alt"
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-fw fa-times"
+                                              })
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { title: "Contextual Table" } },
+                    [
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            responsive: "",
+                            borderless: "",
+                            hover: "",
+                            "table-class": "table-vcenter"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "50px" }
+                                    },
+                                    [_vm._v("#")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-th", [_vm._v("Name")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    {
+                                      staticClass: "text-center",
+                                      staticStyle: { width: "100px" }
+                                    },
+                                    [_vm._v("Actions")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            _vm._l(_vm.users, function(user) {
+                              return _c(
+                                "b-tr",
+                                {
+                                  key: user.id,
+                                  attrs: { variant: user.rowVariant }
+                                },
+                                [
+                                  _c("b-td", { staticClass: "text-center" }, [
+                                    _vm._v(
+                                      "\n                  " +
+                                        _vm._s(user.id) +
+                                        "\n                "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "font-w600 font-size-sm" },
+                                    [
+                                      _vm._v(
+                                        "\n                  " +
+                                          _vm._s(user.name) +
+                                          "\n                "
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-td",
+                                    { staticClass: "text-center" },
+                                    [
+                                      _c(
+                                        "b-button-group",
+                                        [
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-fw fa-pencil-alt"
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-button",
+                                            {
+                                              attrs: {
+                                                size: "sm",
+                                                variant: "light"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-fw fa-times"
+                                              })
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -32,7 +2201,32 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Styles.vue?vue&type=template&id=3a9dd95c& */ \"./resources/js/src/views/tables/Styles.vue?vue&type=template&id=3a9dd95c&\");\n/* harmony import */ var _Styles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Styles.vue?vue&type=script&lang=js& */ \"./resources/js/src/views/tables/Styles.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _Styles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/js/src/views/tables/Styles.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3RhYmxlcy9TdHlsZXMudnVlP2I2OTYiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBcUY7QUFDM0I7QUFDTDs7O0FBR3JEO0FBQ21HO0FBQ25HLGdCQUFnQiwyR0FBVTtBQUMxQixFQUFFLDRFQUFNO0FBQ1IsRUFBRSxpRkFBTTtBQUNSLEVBQUUsMEZBQWU7QUFDakI7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQSxJQUFJLEtBQVUsRUFBRSxZQWlCZjtBQUNEO0FBQ2UsZ0YiLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3RhYmxlcy9TdHlsZXMudnVlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVuZGVyLCBzdGF0aWNSZW5kZXJGbnMgfSBmcm9tIFwiLi9TdHlsZXMudnVlP3Z1ZSZ0eXBlPXRlbXBsYXRlJmlkPTNhOWRkOTVjJlwiXG5pbXBvcnQgc2NyaXB0IGZyb20gXCIuL1N0eWxlcy52dWU/dnVlJnR5cGU9c2NyaXB0Jmxhbmc9anMmXCJcbmV4cG9ydCAqIGZyb20gXCIuL1N0eWxlcy52dWU/dnVlJnR5cGU9c2NyaXB0Jmxhbmc9anMmXCJcblxuXG4vKiBub3JtYWxpemUgY29tcG9uZW50ICovXG5pbXBvcnQgbm9ybWFsaXplciBmcm9tIFwiIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9ydW50aW1lL2NvbXBvbmVudE5vcm1hbGl6ZXIuanNcIlxudmFyIGNvbXBvbmVudCA9IG5vcm1hbGl6ZXIoXG4gIHNjcmlwdCxcbiAgcmVuZGVyLFxuICBzdGF0aWNSZW5kZXJGbnMsXG4gIGZhbHNlLFxuICBudWxsLFxuICBudWxsLFxuICBudWxsXG4gIFxuKVxuXG4vKiBob3QgcmVsb2FkICovXG5pZiAobW9kdWxlLmhvdCkge1xuICB2YXIgYXBpID0gcmVxdWlyZShcIkM6XFxcXFVzZXJzXFxcXG1hbG9oXFxcXERlc2t0b3BcXFxcRG1zVjJcXFxcbm9kZV9tb2R1bGVzXFxcXHZ1ZS1ob3QtcmVsb2FkLWFwaVxcXFxkaXN0XFxcXGluZGV4LmpzXCIpXG4gIGFwaS5pbnN0YWxsKHJlcXVpcmUoJ3Z1ZScpKVxuICBpZiAoYXBpLmNvbXBhdGlibGUpIHtcbiAgICBtb2R1bGUuaG90LmFjY2VwdCgpXG4gICAgaWYgKCFhcGkuaXNSZWNvcmRlZCgnM2E5ZGQ5NWMnKSkge1xuICAgICAgYXBpLmNyZWF0ZVJlY29yZCgnM2E5ZGQ5NWMnLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9IGVsc2Uge1xuICAgICAgYXBpLnJlbG9hZCgnM2E5ZGQ5NWMnLCBjb21wb25lbnQub3B0aW9ucylcbiAgICB9XG4gICAgbW9kdWxlLmhvdC5hY2NlcHQoXCIuL1N0eWxlcy52dWU/dnVlJnR5cGU9dGVtcGxhdGUmaWQ9M2E5ZGQ5NWMmXCIsIGZ1bmN0aW9uICgpIHtcbiAgICAgIGFwaS5yZXJlbmRlcignM2E5ZGQ5NWMnLCB7XG4gICAgICAgIHJlbmRlcjogcmVuZGVyLFxuICAgICAgICBzdGF0aWNSZW5kZXJGbnM6IHN0YXRpY1JlbmRlckZuc1xuICAgICAgfSlcbiAgICB9KVxuICB9XG59XG5jb21wb25lbnQub3B0aW9ucy5fX2ZpbGUgPSBcInJlc291cmNlcy9qcy9zcmMvdmlld3MvdGFibGVzL1N0eWxlcy52dWVcIlxuZXhwb3J0IGRlZmF1bHQgY29tcG9uZW50LmV4cG9ydHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/src/views/tables/Styles.vue\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Styles.vue?vue&type=template&id=3a9dd95c& */ "./resources/js/src/views/tables/Styles.vue?vue&type=template&id=3a9dd95c&");
+/* harmony import */ var _Styles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Styles.vue?vue&type=script&lang=js& */ "./resources/js/src/views/tables/Styles.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Styles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/tables/Styles.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -44,7 +2238,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Sty
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Styles.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Styles.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); //# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3RhYmxlcy9TdHlsZXMudnVlP2ZmNGIiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBLHdDQUFrTSxDQUFnQixrUEFBRyxFQUFDIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy90YWJsZXMvU3R5bGVzLnZ1ZT92dWUmdHlwZT1zY3JpcHQmbGFuZz1qcyYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgbW9kIGZyb20gXCItIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy9iYWJlbC1sb2FkZXIvbGliL2luZGV4LmpzPz9yZWYtLTQtMCEuLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvaW5kZXguanM/P3Z1ZS1sb2FkZXItb3B0aW9ucyEuL1N0eWxlcy52dWU/dnVlJnR5cGU9c2NyaXB0Jmxhbmc9anMmXCI7IGV4cG9ydCBkZWZhdWx0IG1vZDsgZXhwb3J0ICogZnJvbSBcIi0hLi4vLi4vLi4vLi4vLi4vbm9kZV9tb2R1bGVzL2JhYmVsLWxvYWRlci9saWIvaW5kZXguanM/P3JlZi0tNC0wIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4vU3R5bGVzLnZ1ZT92dWUmdHlwZT1zY3JpcHQmbGFuZz1qcyZcIiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/src/views/tables/Styles.vue?vue&type=script&lang=js&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Styles.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Styles.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -56,7 +2252,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Styles.vue?vue&type=template&id=3a9dd95c& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Styles.vue?vue&type=template&id=3a9dd95c&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvc3JjL3ZpZXdzL3RhYmxlcy9TdHlsZXMudnVlPzNiNDYiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL3NyYy92aWV3cy90YWJsZXMvU3R5bGVzLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD0zYTlkZDk1YyYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tIFwiLSEuLi8uLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvdnVlLWxvYWRlci9saWIvbG9hZGVycy90ZW1wbGF0ZUxvYWRlci5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy92dWUtbG9hZGVyL2xpYi9pbmRleC5qcz8/dnVlLWxvYWRlci1vcHRpb25zIS4vU3R5bGVzLnZ1ZT92dWUmdHlwZT10ZW1wbGF0ZSZpZD0zYTlkZDk1YyZcIiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/src/views/tables/Styles.vue?vue&type=template&id=3a9dd95c&\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Styles.vue?vue&type=template&id=3a9dd95c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Styles.vue?vue&type=template&id=3a9dd95c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Styles_vue_vue_type_template_id_3a9dd95c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ })
 
