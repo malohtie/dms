@@ -4,14 +4,13 @@
 
 import Vue from 'vue'
 import Vuex from 'vuex'
-// Register Vuex
-Vue.use(Vuex)
-
 import getters from "./getters"
 import mutations from "./mutations"
 import state from "./state"
 import actions from "./actions"
 import config from "@/../config"
+// Register Vuex
+Vue.use(Vuex)
 
 // Vuex Store
 export default new Vuex.Store({
@@ -20,7 +19,5 @@ export default new Vuex.Store({
     state,
     actions,
     strict: !config.appDebug,
-    modules : {
-
-    }
+    modules: {}
 })

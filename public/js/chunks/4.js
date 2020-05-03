@@ -507,6 +507,80 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     loadData: function loadData(ref) {
@@ -546,8 +620,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Block Options",
-          subtitle: "Adding controls in your blocks."
+          subtitle: "Adding controls in your blocks.",
+          title: "Block Options"
         },
         scopedSlots: _vm._u([
           {
@@ -582,7 +656,7 @@ var render = function() {
         { staticClass: "content" },
         [
           _c("h2", { staticClass: "content-heading" }, [
-            _vm._v("\n      Interactive Options\n      "),
+            _vm._v("\n            Interactive Options\n            "),
             _c(
               "small",
               [
@@ -606,12 +680,12 @@ var render = function() {
                     {
                       ref: "exampleBlock1",
                       attrs: {
-                        title: "Title",
-                        subtitle: "Subtitle",
+                        "btn-option-close": "",
+                        "btn-option-content": "",
                         "btn-option-fullscreen": "",
                         "btn-option-pinned": "",
-                        "btn-option-content": "",
-                        "btn-option-close": ""
+                        subtitle: "Subtitle",
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -641,7 +715,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -659,13 +733,13 @@ var render = function() {
                     {
                       ref: "exampleBlock2",
                       attrs: {
-                        title: "Title",
-                        subtitle: "Subtitle",
-                        "header-rtl": "",
+                        "btn-option-close": "",
+                        "btn-option-content": "",
                         "btn-option-fullscreen": "",
                         "btn-option-pinned": "",
-                        "btn-option-content": "",
-                        "btn-option-close": ""
+                        "header-rtl": "",
+                        subtitle: "Subtitle",
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -695,7 +769,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -721,7 +795,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -786,7 +860,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -803,9 +877,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -871,7 +945,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -893,7 +967,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -903,10 +977,10 @@ var render = function() {
                                 "b-dropdown",
                                 {
                                   attrs: {
+                                    right: "",
                                     size: "sm",
-                                    variant: "light",
                                     text: "Settings",
-                                    right: ""
+                                    variant: "light"
                                   }
                                 },
                                 [
@@ -917,7 +991,9 @@ var render = function() {
                                       _c("i", {
                                         staticClass: "far fa-fw fa-bell mr-1"
                                       }),
-                                      _vm._v(" News\n              ")
+                                      _vm._v(
+                                        " News\n                            "
+                                      )
                                     ]
                                   ),
                                   _vm._v(" "),
@@ -929,7 +1005,9 @@ var render = function() {
                                         staticClass:
                                           "far fa-fw fa-envelope mr-1"
                                       }),
-                                      _vm._v(" Messages\n              ")
+                                      _vm._v(
+                                        " Messages\n                            "
+                                      )
                                     ]
                                   ),
                                   _vm._v(" "),
@@ -943,7 +1021,9 @@ var render = function() {
                                         staticClass:
                                           "fa fa-fw fa-pencil-alt mr-1"
                                       }),
-                                      _vm._v(" Edit Profile\n              ")
+                                      _vm._v(
+                                        " Edit Profile\n                            "
+                                      )
                                     ]
                                   )
                                 ],
@@ -959,7 +1039,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -976,9 +1056,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -990,8 +1070,8 @@ var render = function() {
                                 {
                                   attrs: {
                                     size: "sm",
-                                    variant: "light",
-                                    text: "Settings"
+                                    text: "Settings",
+                                    variant: "light"
                                   }
                                 },
                                 [
@@ -1002,7 +1082,9 @@ var render = function() {
                                       _c("i", {
                                         staticClass: "far fa-fw fa-bell mr-1"
                                       }),
-                                      _vm._v(" News\n              ")
+                                      _vm._v(
+                                        " News\n                            "
+                                      )
                                     ]
                                   ),
                                   _vm._v(" "),
@@ -1014,7 +1096,9 @@ var render = function() {
                                         staticClass:
                                           "far fa-fw fa-envelope mr-1"
                                       }),
-                                      _vm._v(" Messages\n              ")
+                                      _vm._v(
+                                        " Messages\n                            "
+                                      )
                                     ]
                                   ),
                                   _vm._v(" "),
@@ -1028,7 +1112,9 @@ var render = function() {
                                         staticClass:
                                           "fa fa-fw fa-pencil-alt mr-1"
                                       }),
-                                      _vm._v(" Edit Profile\n              ")
+                                      _vm._v(
+                                        " Edit Profile\n                            "
+                                      )
                                     ]
                                   )
                                 ],
@@ -1044,7 +1130,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1066,7 +1152,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1093,7 +1179,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1110,9 +1196,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1140,7 +1226,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1162,7 +1248,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1199,7 +1285,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1216,9 +1302,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1256,7 +1342,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1278,7 +1364,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1305,7 +1391,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1322,9 +1408,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1352,7 +1438,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1374,7 +1460,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1397,7 +1483,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1414,9 +1500,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1440,7 +1526,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1462,7 +1548,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1476,7 +1562,7 @@ var render = function() {
                                     "b-alert",
                                     {
                                       staticClass: "py-2 mb-0",
-                                      attrs: { variant: "warning", show: "" }
+                                      attrs: { show: "", variant: "warning" }
                                     },
                                     [
                                       _c("i", {
@@ -1484,7 +1570,7 @@ var render = function() {
                                           "fa fa-exclamation-triangle mr-1"
                                       }),
                                       _vm._v(
-                                        " This is an alert!\n              "
+                                        " This is an alert!\n                            "
                                       )
                                     ]
                                   )
@@ -1501,7 +1587,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1518,9 +1604,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1535,7 +1621,7 @@ var render = function() {
                                   },
                                   [
                                     _vm._v(
-                                      "\n                This is an alert! "
+                                      "\n                                This is an alert! "
                                     ),
                                     _c("i", {
                                       staticClass:
@@ -1554,7 +1640,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1576,7 +1662,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1590,13 +1676,15 @@ var render = function() {
                                     "b-alert",
                                     {
                                       staticClass: "py-2 mb-0",
-                                      attrs: { variant: "info", show: "" }
+                                      attrs: { show: "", variant: "info" }
                                     },
                                     [
                                       _c("i", {
                                         staticClass: "fa fa-info-circle mr-1"
                                       }),
-                                      _vm._v(" Info\n              ")
+                                      _vm._v(
+                                        " Info\n                            "
+                                      )
                                     ]
                                   )
                                 ],
@@ -1612,7 +1700,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1629,9 +1717,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1646,10 +1734,12 @@ var render = function() {
                                     "b-alert",
                                     {
                                       staticClass: "py-2 mb-0",
-                                      attrs: { variant: "info", show: "" }
+                                      attrs: { show: "", variant: "info" }
                                     },
                                     [
-                                      _vm._v("\n                Info! "),
+                                      _vm._v(
+                                        "\n                                Info! "
+                                      ),
                                       _c("i", {
                                         staticClass: "fa fa-info-circle ml-1"
                                       })
@@ -1668,7 +1758,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1690,7 +1780,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1704,13 +1794,15 @@ var render = function() {
                                     "b-alert",
                                     {
                                       staticClass: "py-2 mb-0",
-                                      attrs: { variant: "success", show: "" }
+                                      attrs: { show: "", variant: "success" }
                                     },
                                     [
                                       _c("i", {
                                         staticClass: "fa fa-check-circle mr-1"
                                       }),
-                                      _vm._v(" Success\n              ")
+                                      _vm._v(
+                                        " Success\n                            "
+                                      )
                                     ]
                                   )
                                 ],
@@ -1726,7 +1818,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1743,9 +1835,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1760,10 +1852,12 @@ var render = function() {
                                     "b-alert",
                                     {
                                       staticClass: "py-2 mb-0",
-                                      attrs: { variant: "success", show: "" }
+                                      attrs: { show: "", variant: "success" }
                                     },
                                     [
-                                      _vm._v("\n                Success "),
+                                      _vm._v(
+                                        "\n                                Success "
+                                      ),
                                       _c("i", {
                                         staticClass: "fa fa-check-circle ml-1"
                                       })
@@ -1782,7 +1876,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1804,7 +1898,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1818,13 +1912,15 @@ var render = function() {
                                     "b-alert",
                                     {
                                       staticClass: "py-2 mb-0",
-                                      attrs: { variant: "danger", show: "" }
+                                      attrs: { show: "", variant: "danger" }
                                     },
                                     [
                                       _c("i", {
                                         staticClass: "fa fa-times-circle mr-1"
                                       }),
-                                      _vm._v(" Failure!\n              ")
+                                      _vm._v(
+                                        " Failure!\n                            "
+                                      )
                                     ]
                                   )
                                 ],
@@ -1840,7 +1936,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1857,9 +1953,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1874,10 +1970,12 @@ var render = function() {
                                     "b-alert",
                                     {
                                       staticClass: "py-2 mb-0",
-                                      attrs: { variant: "danger", show: "" }
+                                      attrs: { show: "", variant: "danger" }
                                     },
                                     [
-                                      _vm._v("\n                Failure! "),
+                                      _vm._v(
+                                        "\n                                Failure! "
+                                      ),
                                       _c("i", {
                                         staticClass: "fa fa-times-circle ml-1"
                                       })
@@ -1896,7 +1994,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1918,7 +2016,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Title", subtitle: "Subtitle" },
+                      attrs: { subtitle: "Subtitle", title: "Title" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1974,7 +2072,7 @@ var render = function() {
                                 [
                                   _c(
                                     "b-badge",
-                                    { attrs: { variant: "danger", pill: "" } },
+                                    { attrs: { pill: "", variant: "danger" } },
                                     [_vm._v("Pill Badge")]
                                   )
                                 ],
@@ -1990,7 +2088,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]
@@ -2007,9 +2105,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-rtl": "",
                         subtitle: "Subtitle",
-                        "header-rtl": ""
+                        title: "Title"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2022,7 +2120,7 @@ var render = function() {
                                 [
                                   _c(
                                     "b-badge",
-                                    { attrs: { variant: "danger", pill: "" } },
+                                    { attrs: { pill: "", variant: "danger" } },
                                     [_vm._v("Pill Badge")]
                                   )
                                 ],
@@ -2082,7 +2180,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris\n            adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos\n            habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n            metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris\n                        adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt\n                        himenaeos\n                        habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit\n                        varius lorem sit\n                        metus mi.\n                    "
                         )
                       ])
                     ]

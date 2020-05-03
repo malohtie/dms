@@ -1,7 +1,7 @@
 /**
  * Template Config
  */
-export default  {
+export default {
     appName: process.env.MIX_APP_NAME,
     appVersion: process.env.MIX_APP_VERSION,
     appDebug: process.env.MIX_APP_DEBUG,

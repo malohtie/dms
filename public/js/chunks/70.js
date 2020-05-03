@@ -28,7 +28,7 @@ var render = function() {
               [
                 _c(
                   "b-col",
-                  { staticClass: "py-4", attrs: { md: "8", lg: "6", xl: "4" } },
+                  { staticClass: "py-4", attrs: { lg: "6", md: "8", xl: "4" } },
                   [
                     _c("div", { staticClass: "text-center mb-5" }, [
                       _c("p", { staticClass: "mb-2" }, [
@@ -38,7 +38,9 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("h1", { staticClass: "h4 mb-1" }, [
-                        _vm._v("\n                Status Page\n              ")
+                        _vm._v(
+                          "\n                                Status Page\n                            "
+                        )
                       ]),
                       _vm._v(" "),
                       _c(
@@ -46,7 +48,7 @@ var render = function() {
                         { staticClass: "h6 font-w400 text-muted mb-3" },
                         [
                           _vm._v(
-                            "\n                Check out how we are doing\n              "
+                            "\n                                Check out how we are doing\n                            "
                           )
                         ]
                       )
@@ -61,13 +63,13 @@ var render = function() {
                           {
                             attrs: {
                               size: "lg",
-                              variant: "alt-secondary",
-                              to: "/backend/pages/generic/blank"
+                              to: "/backend/pages/generic/blank",
+                              variant: "alt-secondary"
                             }
                           },
                           [
                             _c("i", { staticClass: "fa fa-arrow-left mr-1" }),
-                            _vm._v(" Dashboard\n              ")
+                            _vm._v(" Dashboard\n                            ")
                           ]
                         ),
                         _vm._v(" "),
@@ -75,9 +77,9 @@ var render = function() {
                           "b-button",
                           {
                             attrs: {
+                              href: "javascript:void(0)",
                               size: "lg",
-                              variant: "alt-success",
-                              href: "javascript:void(0)"
+                              variant: "alt-success"
                             }
                           },
                           [
@@ -96,7 +98,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("b-alert", { attrs: { variant: "warning", show: "" } }, [
+                    _c("b-alert", { attrs: { show: "", variant: "warning" } }, [
                       _c("p", { staticClass: "mb-0" }, [
                         _vm._v(
                           "Payments are currently under maintenance, please stay tuned."
@@ -104,7 +106,7 @@ var render = function() {
                       ])
                     ]),
                     _vm._v(" "),
-                    _c("b-alert", { attrs: { variant: "danger", show: "" } }, [
+                    _c("b-alert", { attrs: { show: "", variant: "danger" } }, [
                       _c("p", { staticClass: "mb-0" }, [
                         _vm._v(
                           "Our frontend is experiencing some issues but we are on it!"
@@ -124,7 +126,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                Backend\n                "
+                              "\n                                Backend\n                                "
                             ),
                             _c(
                               "span",
@@ -142,7 +144,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                Frontend\n                "
+                              "\n                                Frontend\n                                "
                             ),
                             _c(
                               "span",
@@ -159,7 +161,9 @@ var render = function() {
                               "d-flex justify-content-between align-items-center"
                           },
                           [
-                            _vm._v("\n                API\n                "),
+                            _vm._v(
+                              "\n                                API\n                                "
+                            ),
                             _c(
                               "span",
                               { staticClass: "badge badge-pill badge-success" },
@@ -176,7 +180,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                Payments\n                "
+                              "\n                                Payments\n                                "
                             ),
                             _c(
                               "span",
@@ -194,7 +198,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                Helpdesk\n                "
+                              "\n                                Helpdesk\n                                "
                             ),
                             _c(
                               "span",
@@ -225,7 +229,7 @@ var render = function() {
             )
           )
         ]),
-        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n    ")
+        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n        ")
       ])
     ])
   ])

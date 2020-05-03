@@ -116,6 +116,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     // Preview Page Loader for a few seconds
@@ -156,8 +163,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Loaders",
-          subtitle: "Show any page or custom activity."
+          subtitle: "Show any page or custom activity.",
+          title: "Loaders"
         },
         scopedSlots: _vm._u([
           {
@@ -193,11 +200,11 @@ var render = function() {
         [
           _c(
             "base-block",
-            { attrs: { title: "Header Loader", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Header Loader" } },
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can use the layout API to start the header loader and stop it on demand. It is better to be used when the\n        header is also set to fixed, so it is always visible.\n      "
+                  "\n                You can use the layout API to start the header loader and stop it on demand. It is better to be used\n                when the\n                header is also set to fixed, so it is always visible.\n            "
                 )
               ]),
               _vm._v(" "),
@@ -264,12 +271,16 @@ var render = function() {
                                 "base-layout-modifier",
                                 {
                                   attrs: {
-                                    variant: "primary",
                                     action: "headerLoaderOn",
-                                    size: "sm"
+                                    size: "sm",
+                                    variant: "primary"
                                   }
                                 },
-                                [_vm._v("Start Header Loader")]
+                                [
+                                  _vm._v(
+                                    "Start Header\n                                Loader\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -304,12 +315,16 @@ var render = function() {
                                 "base-layout-modifier",
                                 {
                                   attrs: {
-                                    variant: "primary",
                                     action: "headerLoaderOff",
-                                    size: "sm"
+                                    size: "sm",
+                                    variant: "primary"
                                   }
                                 },
-                                [_vm._v("Stop Header Loader")]
+                                [
+                                  _vm._v(
+                                    "Stop Header\n                                Loader\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -345,11 +360,11 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Page Loader", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Page Loader" } },
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        Page loader can provide a loading/splash screen feature. You can preview the page loader  for 3 seconds by clicking the following button:\n      "
+                  "\n                Page loader can provide a loading/splash screen feature. You can preview the page loader for 3\n                seconds by clicking the following button:\n            "
                 )
               ]),
               _vm._v(" "),
@@ -360,7 +375,7 @@ var render = function() {
                   attrs: { size: "sm", variant: "primary" },
                   on: { click: _vm.pageLoaderPreview }
                 },
-                [_vm._v("Preview Page Loader")]
+                [_vm._v("Preview Page Loader\n            ")]
               ),
               _vm._v(" "),
               _c(
@@ -425,7 +440,7 @@ var render = function() {
                               { staticClass: "font-size-sm text-muted mb-0" },
                               [
                                 _vm._v(
-                                  "\n                Starts Page Loader\n              "
+                                  "\n                                Starts Page Loader\n                            "
                                 )
                               ]
                             )
@@ -459,7 +474,7 @@ var render = function() {
                               { staticClass: "font-size-sm text-muted mb-0" },
                               [
                                 _vm._v(
-                                  "\n                Stops Page Loader\n              "
+                                  "\n                                Stops Page Loader\n                            "
                                 )
                               ]
                             )

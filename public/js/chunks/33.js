@@ -197,6 +197,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     // Trigger a new toast
@@ -238,8 +250,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Notifications",
-          subtitle: "Powerful alerts for your application."
+          subtitle: "Powerful alerts for your application.",
+          title: "Notifications"
         },
         scopedSlots: _vm._u([
           {
@@ -288,7 +300,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            A nice toast with a message\n          "
+                        "\n                        A nice toast with a message\n                    "
                       )
                     ])
                   ]),
@@ -308,11 +320,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Prepend Toast\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Prepend Toast\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -335,11 +353,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Append Toast\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Append Toast\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -365,7 +389,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You can show your notification in multiple screen positions\n          "
+                        "\n                        You can show your notification in multiple screen positions\n                    "
                       )
                     ])
                   ]),
@@ -391,11 +415,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Top Right Toast\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Top Right Toast\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -423,11 +453,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Top Left Toast\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Top Left Toast\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -455,11 +491,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Top Center Toast\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Top Center Toast\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -487,11 +529,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Top Full Toast\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Top Full Toast\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -519,11 +567,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Bottom Right Toast\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Bottom Right Toast\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -551,11 +605,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Bottom Left Toast\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Bottom Left Toast\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -585,13 +645,15 @@ var render = function() {
                         },
                         [
                           _vm._v(
-                            "\n            Bottom Center Toast\n          "
+                            "\n                        Bottom Center Toast\n                    "
                           )
                         ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -619,11 +681,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Bottom Full Toast\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Bottom Full Toast\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -651,7 +719,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You can also specify color variations\n          "
+                        "\n                        You can also specify color variations\n                    "
                       )
                     ])
                   ]),
@@ -675,11 +743,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Success\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Success\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -703,11 +777,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Info\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Info\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -731,11 +811,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Warning\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Warning\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [
@@ -759,11 +845,17 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("\n            Danger\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Danger\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-w600 mb-0" }, [
-                        _vm._v("\n            JS code:\n          ")
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-5" }, [

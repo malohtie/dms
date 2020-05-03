@@ -178,6 +178,42 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Vuelidate, for more info and examples you can check out https://github.com/vuelidate/vuelidate
 
 
@@ -324,8 +360,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Form Validation",
-          subtitle: "It’s never been easier to validate form values."
+          subtitle: "It’s never been easier to validate form values.",
+          title: "Form Validation"
         },
         scopedSlots: _vm._u([
           {
@@ -388,7 +424,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Username, email and password validation made easy for your login/register forms\n            "
+                            "\n                            Username, email and password validation made easy for your login/register forms\n                        "
                           )
                         ])
                       ]),
@@ -406,7 +442,9 @@ var render = function() {
                                   key: "label",
                                   fn: function() {
                                     return [
-                                      _vm._v("\n                Username "),
+                                      _vm._v(
+                                        "\n                                Username "
+                                      ),
                                       _c(
                                         "span",
                                         { staticClass: "text-danger" },
@@ -422,13 +460,13 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-input", {
                                 attrs: {
-                                  id: "username",
-                                  name: "username",
-                                  placeholder: "Enter a username..",
                                   state: _vm.$v.form.username.$dirty
                                     ? !_vm.$v.form.username.$error
                                     : null,
-                                  "aria-describedby": "username-feedback"
+                                  "aria-describedby": "username-feedback",
+                                  id: "username",
+                                  name: "username",
+                                  placeholder: "Enter a username.."
                                 },
                                 model: {
                                   value: _vm.$v.form.username.$model,
@@ -448,7 +486,7 @@ var render = function() {
                                 { attrs: { id: "username-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                Your username must consist of at least 3 characters\n              "
+                                    "\n                                Your username must consist of at least 3 characters\n                            "
                                   )
                                 ]
                               )
@@ -465,7 +503,9 @@ var render = function() {
                                   key: "label",
                                   fn: function() {
                                     return [
-                                      _vm._v("\n                Email "),
+                                      _vm._v(
+                                        "\n                                Email "
+                                      ),
                                       _c(
                                         "span",
                                         { staticClass: "text-danger" },
@@ -481,14 +521,14 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-input", {
                                 attrs: {
-                                  type: "email",
-                                  id: "email",
-                                  name: "email",
-                                  placeholder: "Your valid email..",
                                   state: _vm.$v.form.email.$dirty
                                     ? !_vm.$v.form.email.$error
                                     : null,
-                                  "aria-describedby": "email-feedback"
+                                  "aria-describedby": "email-feedback",
+                                  id: "email",
+                                  name: "email",
+                                  placeholder: "Your valid email..",
+                                  type: "email"
                                 },
                                 model: {
                                   value: _vm.$v.form.email.$model,
@@ -504,7 +544,7 @@ var render = function() {
                                 { attrs: { id: "username-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                Please enter a valid email address\n              "
+                                    "\n                                Please enter a valid email address\n                            "
                                   )
                                 ]
                               )
@@ -521,7 +561,9 @@ var render = function() {
                                   key: "label",
                                   fn: function() {
                                     return [
-                                      _vm._v("\n                Password "),
+                                      _vm._v(
+                                        "\n                                Password "
+                                      ),
                                       _c(
                                         "span",
                                         { staticClass: "text-danger" },
@@ -537,14 +579,14 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-input", {
                                 attrs: {
-                                  type: "password",
-                                  id: "password",
-                                  name: "password",
-                                  placeholder: "Choose a safe one..",
                                   state: _vm.$v.form.password.$dirty
                                     ? !_vm.$v.form.password.$error
                                     : null,
-                                  "aria-describedby": "password-feedback"
+                                  "aria-describedby": "password-feedback",
+                                  id: "password",
+                                  name: "password",
+                                  placeholder: "Choose a safe one..",
+                                  type: "password"
                                 },
                                 model: {
                                   value: _vm.$v.form.password.$model,
@@ -564,7 +606,7 @@ var render = function() {
                                 { attrs: { id: "username-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                Your password must be at least 5 characters long\n              "
+                                    "\n                                Your password must be at least 5 characters long\n                            "
                                   )
                                 ]
                               )
@@ -582,7 +624,7 @@ var render = function() {
                                   fn: function() {
                                     return [
                                       _vm._v(
-                                        "\n                Confirm Password "
+                                        "\n                                Confirm Password "
                                       ),
                                       _c(
                                         "span",
@@ -599,14 +641,14 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-input", {
                                 attrs: {
-                                  type: "password",
-                                  id: "password2",
-                                  name: "password2",
-                                  placeholder: "..and confirm it!",
                                   state: _vm.$v.form.password2.$dirty
                                     ? !_vm.$v.form.password2.$error
                                     : null,
-                                  "aria-describedby": "password2-feedback"
+                                  "aria-describedby": "password2-feedback",
+                                  id: "password2",
+                                  name: "password2",
+                                  placeholder: "..and confirm it!",
+                                  type: "password"
                                 },
                                 model: {
                                   value: _vm.$v.form.password2.$model,
@@ -626,7 +668,7 @@ var render = function() {
                                 { attrs: { id: "username-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                Please enter the same password as above\n              "
+                                    "\n                                Please enter the same password as above\n                            "
                                   )
                                 ]
                               )
@@ -653,7 +695,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              You can easily validate any kind of data you like either it is in a normal input, a textarea or a select box\n            "
+                            "\n                            You can easily validate any kind of data you like either it is in a normal input, a\n                            textarea or a select box\n                        "
                           )
                         ])
                       ]),
@@ -671,7 +713,9 @@ var render = function() {
                                   key: "label",
                                   fn: function() {
                                     return [
-                                      _vm._v("\n                Suggestions "),
+                                      _vm._v(
+                                        "\n                                Suggestions "
+                                      ),
                                       _c(
                                         "span",
                                         { staticClass: "text-danger" },
@@ -687,14 +731,14 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-textarea", {
                                 attrs: {
-                                  id: "suggestions",
-                                  name: "suggestions",
-                                  rows: "5",
-                                  placeholder: "What would you like to see?",
                                   state: _vm.$v.form.suggestions.$dirty
                                     ? !_vm.$v.form.suggestions.$error
                                     : null,
-                                  "aria-describedby": "suggestions-feedback"
+                                  "aria-describedby": "suggestions-feedback",
+                                  id: "suggestions",
+                                  name: "suggestions",
+                                  placeholder: "What would you like to see?",
+                                  rows: "5"
                                 },
                                 model: {
                                   value: _vm.$v.form.suggestions.$model,
@@ -714,7 +758,7 @@ var render = function() {
                                 { attrs: { id: "suggestions-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                What can we do to become better?\n              "
+                                    "\n                                What can we do to become better?\n                            "
                                   )
                                 ]
                               )
@@ -731,7 +775,9 @@ var render = function() {
                                   key: "label",
                                   fn: function() {
                                     return [
-                                      _vm._v("\n                Best Skill "),
+                                      _vm._v(
+                                        "\n                                Best Skill "
+                                      ),
                                       _c(
                                         "span",
                                         { staticClass: "text-danger" },
@@ -747,13 +793,13 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-select", {
                                 attrs: {
-                                  id: "skill",
-                                  name: "skill",
                                   options: _vm.options,
                                   state: _vm.$v.form.skill.$dirty
                                     ? !_vm.$v.form.skill.$error
                                     : null,
-                                  "aria-describedby": "skill-feedback"
+                                  "aria-describedby": "skill-feedback",
+                                  id: "skill",
+                                  name: "skill"
                                 },
                                 model: {
                                   value: _vm.$v.form.skill.$model,
@@ -769,7 +815,7 @@ var render = function() {
                                 { attrs: { id: "skill-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                Please select a skill!\n              "
+                                    "\n                                Please select a skill!\n                            "
                                   )
                                 ]
                               )
@@ -786,7 +832,9 @@ var render = function() {
                                   key: "label",
                                   fn: function() {
                                     return [
-                                      _vm._v("\n                Currency ($) "),
+                                      _vm._v(
+                                        "\n                                Currency ($) "
+                                      ),
                                       _c(
                                         "span",
                                         { staticClass: "text-danger" },
@@ -802,13 +850,13 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-input", {
                                 attrs: {
-                                  id: "currency",
-                                  name: "currency",
-                                  placeholder: "21.60",
                                   state: _vm.$v.form.currency.$dirty
                                     ? !_vm.$v.form.currency.$error
                                     : null,
-                                  "aria-describedby": "currency-feedback"
+                                  "aria-describedby": "currency-feedback",
+                                  id: "currency",
+                                  name: "currency",
+                                  placeholder: "21.60"
                                 },
                                 model: {
                                   value: _vm.$v.form.currency.$model,
@@ -828,7 +876,7 @@ var render = function() {
                                 { attrs: { id: "currency-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                Please enter a price!\n              "
+                                    "\n                                Please enter a price!\n                            "
                                   )
                                 ]
                               )
@@ -845,7 +893,9 @@ var render = function() {
                                   key: "label",
                                   fn: function() {
                                     return [
-                                      _vm._v("\n                Website "),
+                                      _vm._v(
+                                        "\n                                Website "
+                                      ),
                                       _c(
                                         "span",
                                         { staticClass: "text-danger" },
@@ -861,13 +911,13 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-input", {
                                 attrs: {
-                                  id: "website",
-                                  name: "website",
-                                  placeholder: "http://example.com",
                                   state: _vm.$v.form.website.$dirty
                                     ? !_vm.$v.form.website.$error
                                     : null,
-                                  "aria-describedby": "website-feedback"
+                                  "aria-describedby": "website-feedback",
+                                  id: "website",
+                                  name: "website",
+                                  placeholder: "http://example.com"
                                 },
                                 model: {
                                   value: _vm.$v.form.website.$model,
@@ -883,7 +933,7 @@ var render = function() {
                                 { attrs: { id: "website-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                Please enter your website!\n              "
+                                    "\n                                Please enter your website!\n                            "
                                   )
                                 ]
                               )
@@ -900,7 +950,9 @@ var render = function() {
                                   key: "label",
                                   fn: function() {
                                     return [
-                                      _vm._v("\n                Digits "),
+                                      _vm._v(
+                                        "\n                                Digits "
+                                      ),
                                       _c(
                                         "span",
                                         { staticClass: "text-danger" },
@@ -916,13 +968,13 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-input", {
                                 attrs: {
-                                  id: "digits",
-                                  name: "digits",
-                                  placeholder: "5",
                                   state: _vm.$v.form.digits.$dirty
                                     ? !_vm.$v.form.digits.$error
                                     : null,
-                                  "aria-describedby": "digits-feedback"
+                                  "aria-describedby": "digits-feedback",
+                                  id: "digits",
+                                  name: "digits",
+                                  placeholder: "5"
                                 },
                                 model: {
                                   value: _vm.$v.form.digits.$model,
@@ -938,7 +990,7 @@ var render = function() {
                                 { attrs: { id: "digits-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                Please enter only digits!\n              "
+                                    "\n                                Please enter only digits!\n                            "
                                   )
                                 ]
                               )
@@ -955,7 +1007,9 @@ var render = function() {
                                   key: "label",
                                   fn: function() {
                                     return [
-                                      _vm._v("\n                Number "),
+                                      _vm._v(
+                                        "\n                                Number "
+                                      ),
                                       _c(
                                         "span",
                                         { staticClass: "text-danger" },
@@ -971,13 +1025,13 @@ var render = function() {
                               _vm._v(" "),
                               _c("b-form-input", {
                                 attrs: {
-                                  id: "number",
-                                  name: "number",
-                                  placeholder: "5.0",
                                   state: _vm.$v.form.number.$dirty
                                     ? !_vm.$v.form.number.$error
                                     : null,
-                                  "aria-describedby": "number-feedback"
+                                  "aria-describedby": "number-feedback",
+                                  id: "number",
+                                  name: "number",
+                                  placeholder: "5.0"
                                 },
                                 model: {
                                   value: _vm.$v.form.number.$model,
@@ -993,62 +1047,7 @@ var render = function() {
                                 { attrs: { id: "number-feedback" } },
                                 [
                                   _vm._v(
-                                    "\n                Please enter a number!\n              "
-                                  )
-                                ]
-                              )
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-form-group",
-                            {
-                              attrs: { "label-for": "range" },
-                              scopedSlots: _vm._u([
-                                {
-                                  key: "label",
-                                  fn: function() {
-                                    return [
-                                      _vm._v("\n                Range [1, 5] "),
-                                      _c(
-                                        "span",
-                                        { staticClass: "text-danger" },
-                                        [_vm._v("*")]
-                                      )
-                                    ]
-                                  },
-                                  proxy: true
-                                }
-                              ])
-                            },
-                            [
-                              _vm._v(" "),
-                              _c("b-form-input", {
-                                attrs: {
-                                  id: "range",
-                                  name: "range",
-                                  placeholder: "4",
-                                  state: _vm.$v.form.range.$dirty
-                                    ? !_vm.$v.form.range.$error
-                                    : null,
-                                  "aria-describedby": "range-feedback"
-                                },
-                                model: {
-                                  value: _vm.$v.form.range.$model,
-                                  callback: function($$v) {
-                                    _vm.$set(_vm.$v.form.range, "$model", $$v)
-                                  },
-                                  expression: "$v.form.range.$model"
-                                }
-                              }),
-                              _vm._v(" "),
-                              _c(
-                                "b-form-invalid-feedback",
-                                { attrs: { id: "range-feedback" } },
-                                [
-                                  _vm._v(
-                                    "\n                Please enter a number between 1 and 5!\n              "
+                                    "\n                                Please enter a number!\n                            "
                                   )
                                 ]
                               )
@@ -1066,7 +1065,64 @@ var render = function() {
                                   fn: function() {
                                     return [
                                       _vm._v(
-                                        "\n                Terms & Conditions "
+                                        "\n                                Range [1, 5] "
+                                      ),
+                                      _c(
+                                        "span",
+                                        { staticClass: "text-danger" },
+                                        [_vm._v("*")]
+                                      )
+                                    ]
+                                  },
+                                  proxy: true
+                                }
+                              ])
+                            },
+                            [
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: {
+                                  state: _vm.$v.form.range.$dirty
+                                    ? !_vm.$v.form.range.$error
+                                    : null,
+                                  "aria-describedby": "range-feedback",
+                                  id: "range",
+                                  name: "range",
+                                  placeholder: "4"
+                                },
+                                model: {
+                                  value: _vm.$v.form.range.$model,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.$v.form.range, "$model", $$v)
+                                  },
+                                  expression: "$v.form.range.$model"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "b-form-invalid-feedback",
+                                { attrs: { id: "range-feedback" } },
+                                [
+                                  _vm._v(
+                                    "\n                                Please enter a number between 1 and 5!\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: { "label-for": "range" },
+                              scopedSlots: _vm._u([
+                                {
+                                  key: "label",
+                                  fn: function() {
+                                    return [
+                                      _vm._v(
+                                        "\n                                Terms & Conditions "
                                       ),
                                       _c(
                                         "span",
@@ -1085,12 +1141,12 @@ var render = function() {
                                 "b-form-checkbox",
                                 {
                                   attrs: {
-                                    id: "terms",
-                                    name: "terms",
                                     state: _vm.$v.form.terms.$dirty
                                       ? !_vm.$v.form.terms.$error
                                       : null,
-                                    "aria-describedby": "terms-feedback"
+                                    "aria-describedby": "terms-feedback",
+                                    id: "terms",
+                                    name: "terms"
                                   },
                                   model: {
                                     value: _vm.$v.form.terms.$model,
@@ -1100,22 +1156,26 @@ var render = function() {
                                     expression: "$v.form.terms.$model"
                                   }
                                 },
-                                [_vm._v("I agree")]
+                                [
+                                  _vm._v(
+                                    "I agree\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-form-invalid-feedback",
                                 {
                                   attrs: {
-                                    id: "terms-feedback",
                                     state: _vm.$v.form.terms.$dirty
                                       ? !_vm.$v.form.terms.$error
-                                      : null
+                                      : null,
+                                    id: "terms-feedback"
                                   }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                You must agree to the service terms!\n              "
+                                    "\n                                You must agree to the service terms!\n                            "
                                   )
                                 ]
                               )

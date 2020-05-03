@@ -18,7 +18,7 @@
             border-color: $background-checked;
         }
 
-        &:not(:disabled):active~.custom-control-label::before {
+        &:not(:disabled):active ~ .custom-control-label::before {
             background-color: lighten($background-checked, 20%);
             border-color: lighten($background-checked, 20%);
         }

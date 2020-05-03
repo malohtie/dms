@@ -62,6 +62,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 // Vuelidate, for more info and examples you can check out https://github.com/vuelidate/vuelidate
 
 
@@ -133,15 +138,15 @@ var render = function() {
               [
                 _c(
                   "b-col",
-                  { attrs: { md: "8", lg: "6", xl: "4" } },
+                  { attrs: { lg: "6", md: "8", xl: "4" } },
                   [
                     _c(
                       "base-block",
                       {
                         staticClass: "mb-0",
                         attrs: {
-                          themed: "",
                           "fx-shadow": "",
+                          themed: "",
                           title: "Password Reminder"
                         },
                         scopedSlots: _vm._u([
@@ -214,13 +219,13 @@ var render = function() {
                                     _c("b-form-input", {
                                       staticClass: "form-control-alt",
                                       attrs: {
-                                        size: "lg",
+                                        state:
+                                          !_vm.$v.form.reminder.$error && null,
+                                        "aria-describedby": "reminder-feedback",
                                         id: "reminder",
                                         name: "reminder",
                                         placeholder: "Username or Email",
-                                        state:
-                                          !_vm.$v.form.reminder.$error && null,
-                                        "aria-describedby": "reminder-feedback"
+                                        size: "lg"
                                       },
                                       model: {
                                         value: _vm.$v.form.reminder.$model,
@@ -240,7 +245,7 @@ var render = function() {
                                       { attrs: { id: "reminder-feedback" } },
                                       [
                                         _vm._v(
-                                          "\n                    Please enter your username or email\n                  "
+                                          "\n                                        Please enter your username or email\n                                    "
                                         )
                                       ]
                                     )
@@ -260,9 +265,9 @@ var render = function() {
                                           "b-button",
                                           {
                                             attrs: {
+                                              block: "",
                                               type: "submit",
-                                              variant: "primary",
-                                              block: ""
+                                              variant: "primary"
                                             }
                                           },
                                           [
@@ -271,7 +276,7 @@ var render = function() {
                                                 "fa fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Send Mail\n                    "
+                                              " Send Mail\n                                        "
                                             )
                                           ]
                                         )
@@ -315,7 +320,9 @@ var render = function() {
                 )
               )
             ]),
-            _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n    ")
+            _vm._v(
+              " © " + _vm._s(_vm.$store.getters.appCopyright) + "\n        "
+            )
           ]
         )
       ])

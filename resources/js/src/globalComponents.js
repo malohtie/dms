@@ -1,5 +1,4 @@
 import Vue from 'vue'
-
 // Custom components
 import BaseLayoutModifier from '@/components/BaseLayoutModifier'
 import BaseBlock from '@/components/BaseBlock'

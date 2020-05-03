@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Tabs",
-          subtitle: "Generate tabbed interfaces with ease."
+          subtitle: "Generate tabbed interfaces with ease.",
+          title: "Tabs"
         },
         scopedSlots: _vm._u([
           {
@@ -69,12 +69,12 @@ var render = function() {
                     {
                       staticClass: "block",
                       attrs: {
-                        "nav-class": "nav-tabs-block",
-                        "content-class": "block-content"
+                        "content-class": "block-content",
+                        "nav-class": "nav-tabs-block"
                       }
                     },
                     [
-                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
                         _c("h4", { staticClass: "font-w400" }, [
                           _vm._v("Home Content")
                         ]),
@@ -124,12 +124,12 @@ var render = function() {
                     {
                       staticClass: "block",
                       attrs: {
-                        "nav-class": "nav-tabs-alt",
-                        "content-class": "block-content"
+                        "content-class": "block-content",
+                        "nav-class": "nav-tabs-alt"
                       }
                     },
                     [
-                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
                         _c("h4", { staticClass: "font-w400" }, [
                           _vm._v("Home Content")
                         ]),
@@ -186,8 +186,8 @@ var render = function() {
                     {
                       staticClass: "block",
                       attrs: {
-                        "nav-class": "nav-tabs-block justify-content-end",
-                        "content-class": "block-content"
+                        "content-class": "block-content",
+                        "nav-class": "nav-tabs-block justify-content-end"
                       }
                     },
                     [
@@ -225,7 +225,7 @@ var render = function() {
                         _c("p", [_vm._v("...")])
                       ]),
                       _vm._v(" "),
-                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
                         _c("h4", { staticClass: "font-w400" }, [
                           _vm._v("Home Content")
                         ]),
@@ -241,8 +241,8 @@ var render = function() {
                     {
                       staticClass: "block",
                       attrs: {
-                        "nav-class": "nav-tabs-alt justify-content-end",
-                        "content-class": "block-content"
+                        "content-class": "block-content",
+                        "nav-class": "nav-tabs-alt justify-content-end"
                       }
                     },
                     [
@@ -280,7 +280,7 @@ var render = function() {
                         _c("p", [_vm._v("...")])
                       ]),
                       _vm._v(" "),
-                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
                         _c("h4", { staticClass: "font-w400" }, [
                           _vm._v("Home Content")
                         ]),
@@ -313,12 +313,12 @@ var render = function() {
                     {
                       staticClass: "block",
                       attrs: {
-                        "nav-class": "nav-tabs-block",
-                        "content-class": "block-content overflow-hidden"
+                        "content-class": "block-content overflow-hidden",
+                        "nav-class": "nav-tabs-block"
                       }
                     },
                     [
-                      _c("b-tab", { attrs: { title: "Home", active: "" } }, [
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
                         _c("h4", { staticClass: "font-w400" }, [
                           _vm._v("Home Content")
                         ]),
@@ -368,8 +368,8 @@ var render = function() {
                     {
                       staticClass: "block",
                       attrs: {
-                        "nav-class": "nav-tabs-block",
-                        "content-class": "block-content overflow-hidden"
+                        "content-class": "block-content overflow-hidden",
+                        "nav-class": "nav-tabs-block"
                       }
                     },
                     [
@@ -377,7 +377,7 @@ var render = function() {
                         "b-tab",
                         {
                           staticClass: "fade-left",
-                          attrs: { title: "Home", active: "" }
+                          attrs: { active: "", title: "Home" }
                         },
                         [
                           _c("h4", { staticClass: "font-w400" }, [
@@ -445,8 +445,8 @@ var render = function() {
                     {
                       staticClass: "block",
                       attrs: {
-                        "nav-class": "nav-tabs-block",
-                        "content-class": "block-content overflow-hidden"
+                        "content-class": "block-content overflow-hidden",
+                        "nav-class": "nav-tabs-block"
                       }
                     },
                     [
@@ -454,7 +454,7 @@ var render = function() {
                         "b-tab",
                         {
                           staticClass: "fade-up",
-                          attrs: { title: "Home", active: "" }
+                          attrs: { active: "", title: "Home" }
                         },
                         [
                           _c("h4", { staticClass: "font-w400" }, [
@@ -512,8 +512,8 @@ var render = function() {
                     {
                       staticClass: "block",
                       attrs: {
-                        "nav-class": "nav-tabs-block",
-                        "content-class": "block-content overflow-hidden"
+                        "content-class": "block-content overflow-hidden",
+                        "nav-class": "nav-tabs-block"
                       }
                     },
                     [
@@ -521,7 +521,7 @@ var render = function() {
                         "b-tab",
                         {
                           staticClass: "fade-right",
-                          attrs: { title: "Home", active: "" }
+                          attrs: { active: "", title: "Home" }
                         },
                         [
                           _c("h4", { staticClass: "font-w400" }, [

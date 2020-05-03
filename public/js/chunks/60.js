@@ -29,7 +29,7 @@ var render = function() {
               _vm._v(" "),
               _c("h2", { staticClass: "h3 font-w300 text-muted mb-5" }, [
                 _vm._v(
-                  "We are sorry but you are not authorized to access this page.."
+                  "We are sorry but you are not authorized to access this\n                        page.."
                 )
               ]),
               _vm._v(" "),
@@ -97,22 +97,24 @@ var render = function() {
         { staticClass: "content content-full font-size-sm text-muted" },
         [
           _c("p", { staticClass: "mb-1" }, [
-            _vm._v("\n        Would you like to let us know about it?\n      ")
+            _vm._v(
+              "\n                Would you like to let us know about it?\n            "
+            )
           ]),
           _vm._v(" "),
           _c(
             "a",
             { staticClass: "link-fx", attrs: { href: "javascript:void(0)" } },
-            [_vm._v("\n        Report it\n      ")]
+            [_vm._v("\n                Report it\n            ")]
           ),
-          _vm._v("\n      or\n      "),
+          _vm._v("\n            or\n            "),
           _c(
             "router-link",
             {
               staticClass: "link-fx",
               attrs: { to: "/backend/pages/errors/all" }
             },
-            [_vm._v("\n        Go Back to Dashboard\n      ")]
+            [_vm._v("\n                Go Back to Dashboard\n            ")]
           )
         ],
         1

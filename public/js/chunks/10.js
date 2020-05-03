@@ -458,6 +458,144 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -497,8 +635,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Custom Form Controls",
-          subtitle: "CSS based and completely JavaScript free component."
+          subtitle: "CSS based and completely JavaScript free component.",
+          title: "Custom Form Controls"
         },
         scopedSlots: _vm._u([
           {
@@ -549,7 +687,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            These are the default custom switches\n          "
+                        "\n                        These are the default custom switches\n                    "
                       )
                     ])
                   ]),
@@ -570,7 +708,7 @@ var render = function() {
                           _c(
                             "b-form-checkbox-group",
                             {
-                              attrs: { switches: "", stacked: "" },
+                              attrs: { stacked: "", switches: "" },
                               model: {
                                 value: _vm.switches,
                                 callback: function($$v) {
@@ -657,7 +795,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You can use bigger controls if you like\n          "
+                        "\n                        You can use bigger controls if you like\n                    "
                       )
                     ])
                   ]),
@@ -678,7 +816,7 @@ var render = function() {
                           _c(
                             "b-form-checkbox-group",
                             {
-                              attrs: { switches: "", stacked: "" },
+                              attrs: { stacked: "", switches: "" },
                               model: {
                                 value: _vm.switches,
                                 callback: function($$v) {
@@ -795,7 +933,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You can easily use various colors for your custom switches\n          "
+                        "\n                        You can easily use various colors for your custom switches\n                    "
                       )
                     ])
                   ]),
@@ -816,7 +954,7 @@ var render = function() {
                             [
                               _c(
                                 "b-form-checkbox-group",
-                                { attrs: { switches: "", stacked: "" } },
+                                { attrs: { stacked: "", switches: "" } },
                                 [
                                   _c(
                                     "b-form-checkbox",
@@ -825,7 +963,11 @@ var render = function() {
                                         "custom-control-primary mb-2",
                                       attrs: { value: "primary" }
                                     },
-                                    [_vm._v("Primary")]
+                                    [
+                                      _vm._v(
+                                        "Primary\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -835,7 +977,11 @@ var render = function() {
                                         "custom-control-success mb-2",
                                       attrs: { value: "success" }
                                     },
-                                    [_vm._v("Success")]
+                                    [
+                                      _vm._v(
+                                        "Success\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -844,7 +990,11 @@ var render = function() {
                                       staticClass: "custom-control-info mb-2",
                                       attrs: { value: "info" }
                                     },
-                                    [_vm._v("Info")]
+                                    [
+                                      _vm._v(
+                                        "Info\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -854,7 +1004,11 @@ var render = function() {
                                         "custom-control-warning mb-2",
                                       attrs: { value: "warning" }
                                     },
-                                    [_vm._v("Warning")]
+                                    [
+                                      _vm._v(
+                                        "Warning\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -863,7 +1017,11 @@ var render = function() {
                                       staticClass: "custom-control-danger mb-2",
                                       attrs: { value: "danger" }
                                     },
-                                    [_vm._v("Danger")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -872,7 +1030,11 @@ var render = function() {
                                       staticClass: "custom-control-light mb-2",
                                       attrs: { value: "light" }
                                     },
-                                    [_vm._v("Light")]
+                                    [
+                                      _vm._v(
+                                        "Light\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -881,7 +1043,11 @@ var render = function() {
                                       staticClass: "custom-control-dark mb-2",
                                       attrs: { value: "dark" }
                                     },
-                                    [_vm._v("Dark")]
+                                    [
+                                      _vm._v(
+                                        "Dark\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -897,7 +1063,7 @@ var render = function() {
                               _c(
                                 "b-form-checkbox-group",
                                 {
-                                  attrs: { switches: "", stacked: "" },
+                                  attrs: { stacked: "", switches: "" },
                                   model: {
                                     value: _vm.switchesThemed,
                                     callback: function($$v) {
@@ -914,7 +1080,11 @@ var render = function() {
                                         "custom-control-primary mb-2",
                                       attrs: { value: "primary" }
                                     },
-                                    [_vm._v("Primary")]
+                                    [
+                                      _vm._v(
+                                        "Primary\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -924,7 +1094,11 @@ var render = function() {
                                         "custom-control-success mb-2",
                                       attrs: { value: "success" }
                                     },
-                                    [_vm._v("Success")]
+                                    [
+                                      _vm._v(
+                                        "Success\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -933,7 +1107,11 @@ var render = function() {
                                       staticClass: "custom-control-info mb-2",
                                       attrs: { value: "info" }
                                     },
-                                    [_vm._v("Info")]
+                                    [
+                                      _vm._v(
+                                        "Info\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -943,7 +1121,11 @@ var render = function() {
                                         "custom-control-warning mb-2",
                                       attrs: { value: "warning" }
                                     },
-                                    [_vm._v("Warning")]
+                                    [
+                                      _vm._v(
+                                        "Warning\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -952,7 +1134,11 @@ var render = function() {
                                       staticClass: "custom-control-danger mb-2",
                                       attrs: { value: "danger" }
                                     },
-                                    [_vm._v("Danger")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -961,7 +1147,11 @@ var render = function() {
                                       staticClass: "custom-control-light mb-2",
                                       attrs: { value: "light" }
                                     },
-                                    [_vm._v("Light")]
+                                    [
+                                      _vm._v(
+                                        "Light\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -970,7 +1160,11 @@ var render = function() {
                                       staticClass: "custom-control-dark mb-2",
                                       attrs: { value: "dark" }
                                     },
-                                    [_vm._v("Dark")]
+                                    [
+                                      _vm._v(
+                                        "Dark\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -994,7 +1188,7 @@ var render = function() {
                             [
                               _c(
                                 "b-form-checkbox-group",
-                                { attrs: { switches: "", stacked: "" } },
+                                { attrs: { stacked: "", switches: "" } },
                                 [
                                   _c(
                                     "b-form-checkbox",
@@ -1003,7 +1197,11 @@ var render = function() {
                                         "custom-control-lg custom-control-primary mb-2",
                                       attrs: { value: "primary" }
                                     },
-                                    [_vm._v("Primary")]
+                                    [
+                                      _vm._v(
+                                        "Primary\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1013,7 +1211,11 @@ var render = function() {
                                         "custom-control-lg custom-control-success mb-2",
                                       attrs: { value: "success" }
                                     },
-                                    [_vm._v("Success")]
+                                    [
+                                      _vm._v(
+                                        "Success\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1023,7 +1225,11 @@ var render = function() {
                                         "custom-control-lg custom-control-info mb-2",
                                       attrs: { value: "info" }
                                     },
-                                    [_vm._v("Info")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Info\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1033,7 +1239,11 @@ var render = function() {
                                         "custom-control-lg custom-control-warning mb-2",
                                       attrs: { value: "warning" }
                                     },
-                                    [_vm._v("Warning")]
+                                    [
+                                      _vm._v(
+                                        "Warning\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1043,7 +1253,11 @@ var render = function() {
                                         "custom-control-lg custom-control-danger mb-2",
                                       attrs: { value: "danger" }
                                     },
-                                    [_vm._v("Danger")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1053,7 +1267,11 @@ var render = function() {
                                         "custom-control-lg custom-control-light mb-2",
                                       attrs: { value: "light" }
                                     },
-                                    [_vm._v("Light")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Light\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1063,7 +1281,11 @@ var render = function() {
                                         "custom-control-lg custom-control-dark mb-2",
                                       attrs: { value: "dark" }
                                     },
-                                    [_vm._v("Dark")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Dark\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -1079,7 +1301,7 @@ var render = function() {
                               _c(
                                 "b-form-checkbox-group",
                                 {
-                                  attrs: { switches: "", stacked: "" },
+                                  attrs: { stacked: "", switches: "" },
                                   model: {
                                     value: _vm.switchesThemedLarge,
                                     callback: function($$v) {
@@ -1096,7 +1318,11 @@ var render = function() {
                                         "custom-control-lg custom-control-primary mb-2",
                                       attrs: { value: "primary" }
                                     },
-                                    [_vm._v("Primary")]
+                                    [
+                                      _vm._v(
+                                        "Primary\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1106,7 +1332,11 @@ var render = function() {
                                         "custom-control-lg custom-control-success mb-2",
                                       attrs: { value: "success" }
                                     },
-                                    [_vm._v("Success")]
+                                    [
+                                      _vm._v(
+                                        "Success\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1116,7 +1346,11 @@ var render = function() {
                                         "custom-control-lg custom-control-info mb-2",
                                       attrs: { value: "info" }
                                     },
-                                    [_vm._v("Info")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Info\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1126,7 +1360,11 @@ var render = function() {
                                         "custom-control-lg custom-control-warning mb-2",
                                       attrs: { value: "warning" }
                                     },
-                                    [_vm._v("Warning")]
+                                    [
+                                      _vm._v(
+                                        "Warning\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1136,7 +1374,11 @@ var render = function() {
                                         "custom-control-lg custom-control-danger mb-2",
                                       attrs: { value: "danger" }
                                     },
-                                    [_vm._v("Danger")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1146,7 +1388,11 @@ var render = function() {
                                         "custom-control-lg custom-control-light mb-2",
                                       attrs: { value: "light" }
                                     },
-                                    [_vm._v("Light")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Light\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1156,7 +1402,11 @@ var render = function() {
                                         "custom-control-lg custom-control-dark mb-2",
                                       attrs: { value: "dark" }
                                     },
-                                    [_vm._v("Dark")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Dark\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -1194,7 +1444,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            These are the default Bootstrap custom checkboxes\n          "
+                        "\n                        These are the default Bootstrap custom checkboxes\n                    "
                       )
                     ])
                   ]),
@@ -1301,7 +1551,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You can use bigger controls if you like\n          "
+                        "\n                        You can use bigger controls if you like\n                    "
                       )
                     ])
                   ]),
@@ -1438,7 +1688,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You can easily use various colors for your custom checkboxes\n          "
+                        "\n                        You can easily use various colors for your custom checkboxes\n                    "
                       )
                     ])
                   ]),
@@ -1468,7 +1718,11 @@ var render = function() {
                                         "custom-control-primary mb-2",
                                       attrs: { value: "primary" }
                                     },
-                                    [_vm._v("Primary")]
+                                    [
+                                      _vm._v(
+                                        "Primary\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1478,7 +1732,11 @@ var render = function() {
                                         "custom-control-success mb-2",
                                       attrs: { value: "success" }
                                     },
-                                    [_vm._v("Success")]
+                                    [
+                                      _vm._v(
+                                        "Success\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1487,7 +1745,11 @@ var render = function() {
                                       staticClass: "custom-control-info mb-2",
                                       attrs: { value: "info" }
                                     },
-                                    [_vm._v("Info")]
+                                    [
+                                      _vm._v(
+                                        "Info\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1497,7 +1759,11 @@ var render = function() {
                                         "custom-control-warning mb-2",
                                       attrs: { value: "warning" }
                                     },
-                                    [_vm._v("Warning")]
+                                    [
+                                      _vm._v(
+                                        "Warning\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1506,7 +1772,11 @@ var render = function() {
                                       staticClass: "custom-control-danger mb-2",
                                       attrs: { value: "danger" }
                                     },
-                                    [_vm._v("Danger")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1515,7 +1785,11 @@ var render = function() {
                                       staticClass: "custom-control-light mb-2",
                                       attrs: { value: "light" }
                                     },
-                                    [_vm._v("Light")]
+                                    [
+                                      _vm._v(
+                                        "Light\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1524,7 +1798,11 @@ var render = function() {
                                       staticClass: "custom-control-dark mb-2",
                                       attrs: { value: "dark" }
                                     },
-                                    [_vm._v("Dark")]
+                                    [
+                                      _vm._v(
+                                        "Dark\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -1557,7 +1835,11 @@ var render = function() {
                                         "custom-control-primary mb-2",
                                       attrs: { value: "primary" }
                                     },
-                                    [_vm._v("Primary")]
+                                    [
+                                      _vm._v(
+                                        "Primary\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1567,7 +1849,11 @@ var render = function() {
                                         "custom-control-success mb-2",
                                       attrs: { value: "success" }
                                     },
-                                    [_vm._v("Success")]
+                                    [
+                                      _vm._v(
+                                        "Success\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1576,7 +1862,11 @@ var render = function() {
                                       staticClass: "custom-control-info mb-2",
                                       attrs: { value: "info" }
                                     },
-                                    [_vm._v("Info")]
+                                    [
+                                      _vm._v(
+                                        "Info\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1586,7 +1876,11 @@ var render = function() {
                                         "custom-control-warning mb-2",
                                       attrs: { value: "warning" }
                                     },
-                                    [_vm._v("Warning")]
+                                    [
+                                      _vm._v(
+                                        "Warning\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1595,7 +1889,11 @@ var render = function() {
                                       staticClass: "custom-control-danger mb-2",
                                       attrs: { value: "danger" }
                                     },
-                                    [_vm._v("Danger")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1604,7 +1902,11 @@ var render = function() {
                                       staticClass: "custom-control-light mb-2",
                                       attrs: { value: "light" }
                                     },
-                                    [_vm._v("Light")]
+                                    [
+                                      _vm._v(
+                                        "Light\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1613,7 +1915,11 @@ var render = function() {
                                       staticClass: "custom-control-dark mb-2",
                                       attrs: { value: "dark" }
                                     },
-                                    [_vm._v("Dark")]
+                                    [
+                                      _vm._v(
+                                        "Dark\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -1646,7 +1952,11 @@ var render = function() {
                                         "custom-control-lg custom-control-primary mb-2",
                                       attrs: { value: "primary" }
                                     },
-                                    [_vm._v("Primary")]
+                                    [
+                                      _vm._v(
+                                        "Primary\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1656,7 +1966,11 @@ var render = function() {
                                         "custom-control-lg custom-control-success mb-2",
                                       attrs: { value: "success" }
                                     },
-                                    [_vm._v("Success")]
+                                    [
+                                      _vm._v(
+                                        "Success\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1666,7 +1980,11 @@ var render = function() {
                                         "custom-control-lg custom-control-info mb-2",
                                       attrs: { value: "info" }
                                     },
-                                    [_vm._v("Info")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Info\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1676,7 +1994,11 @@ var render = function() {
                                         "custom-control-lg custom-control-warning mb-2",
                                       attrs: { value: "warning" }
                                     },
-                                    [_vm._v("Warning")]
+                                    [
+                                      _vm._v(
+                                        "Warning\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1686,7 +2008,11 @@ var render = function() {
                                         "custom-control-lg custom-control-danger mb-2",
                                       attrs: { value: "danger" }
                                     },
-                                    [_vm._v("Danger")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1696,7 +2022,11 @@ var render = function() {
                                         "custom-control-lg custom-control-light mb-2",
                                       attrs: { value: "light" }
                                     },
-                                    [_vm._v("Light")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Light\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1706,7 +2036,11 @@ var render = function() {
                                         "custom-control-lg custom-control-dark mb-2",
                                       attrs: { value: "dark" }
                                     },
-                                    [_vm._v("Dark")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Dark\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -1739,7 +2073,11 @@ var render = function() {
                                         "custom-control-lg custom-control-primary mb-2",
                                       attrs: { value: "primary" }
                                     },
-                                    [_vm._v("Primary")]
+                                    [
+                                      _vm._v(
+                                        "Primary\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1749,7 +2087,11 @@ var render = function() {
                                         "custom-control-lg custom-control-success mb-2",
                                       attrs: { value: "success" }
                                     },
-                                    [_vm._v("Success")]
+                                    [
+                                      _vm._v(
+                                        "Success\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1759,7 +2101,11 @@ var render = function() {
                                         "custom-control-lg custom-control-info mb-2",
                                       attrs: { value: "info" }
                                     },
-                                    [_vm._v("Info")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Info\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1769,7 +2115,11 @@ var render = function() {
                                         "custom-control-lg custom-control-warning mb-2",
                                       attrs: { value: "warning" }
                                     },
-                                    [_vm._v("Warning")]
+                                    [
+                                      _vm._v(
+                                        "Warning\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1779,7 +2129,11 @@ var render = function() {
                                         "custom-control-lg custom-control-danger mb-2",
                                       attrs: { value: "danger" }
                                     },
-                                    [_vm._v("Danger")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1789,7 +2143,11 @@ var render = function() {
                                         "custom-control-lg custom-control-light mb-2",
                                       attrs: { value: "light" }
                                     },
-                                    [_vm._v("Light")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Light\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1799,7 +2157,11 @@ var render = function() {
                                         "custom-control-lg custom-control-dark mb-2",
                                       attrs: { value: "dark" }
                                     },
-                                    [_vm._v("Dark")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Dark\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -1830,7 +2192,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You can easily use a different shape for your checkboxes\n          "
+                        "\n                        You can easily use a different shape for your checkboxes\n                    "
                       )
                     ])
                   ]),
@@ -1869,7 +2231,11 @@ var render = function() {
                                         "custom-control-primary custom-checkbox-square mb-2",
                                       attrs: { value: "s1" }
                                     },
-                                    [_vm._v("Square 1")]
+                                    [
+                                      _vm._v(
+                                        "Square 1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1879,7 +2245,11 @@ var render = function() {
                                         "custom-control-success custom-checkbox-square mb-2",
                                       attrs: { value: "s2" }
                                     },
-                                    [_vm._v("Square 2")]
+                                    [
+                                      _vm._v(
+                                        "Square 2\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1889,7 +2259,11 @@ var render = function() {
                                         "custom-control-warning custom-checkbox-square mb-2",
                                       attrs: { value: "s3" }
                                     },
-                                    [_vm._v("Square 3")]
+                                    [
+                                      _vm._v(
+                                        "Square 3\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -1922,7 +2296,11 @@ var render = function() {
                                         "custom-control-primary custom-checkbox-rounded-circle mb-2",
                                       attrs: { value: "c1" }
                                     },
-                                    [_vm._v("Circle 1")]
+                                    [
+                                      _vm._v(
+                                        "Circle 1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1932,7 +2310,11 @@ var render = function() {
                                         "custom-control-success custom-checkbox-rounded-circle mb-2",
                                       attrs: { value: "c2" }
                                     },
-                                    [_vm._v("Circle 2")]
+                                    [
+                                      _vm._v(
+                                        "Circle 2\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1942,7 +2324,11 @@ var render = function() {
                                         "custom-control-warning custom-checkbox-rounded-circle mb-2",
                                       attrs: { value: "c3" }
                                     },
-                                    [_vm._v("Circle 3")]
+                                    [
+                                      _vm._v(
+                                        "Circle 3\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -1975,7 +2361,11 @@ var render = function() {
                                         "custom-control-lg custom-control-danger custom-checkbox-square mb-2",
                                       attrs: { value: "s1" }
                                     },
-                                    [_vm._v("Square 1")]
+                                    [
+                                      _vm._v(
+                                        "Square 1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1985,7 +2375,11 @@ var render = function() {
                                         "custom-control-lg custom-control-info custom-checkbox-square mb-2",
                                       attrs: { value: "s2" }
                                     },
-                                    [_vm._v("Square 2")]
+                                    [
+                                      _vm._v(
+                                        "Square 2\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -1995,7 +2389,11 @@ var render = function() {
                                         "custom-control-lg custom-control-dark custom-checkbox-square mb-2",
                                       attrs: { value: "s3" }
                                     },
-                                    [_vm._v("Square 3")]
+                                    [
+                                      _vm._v(
+                                        "Square 3\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -2019,7 +2417,11 @@ var render = function() {
                                         "custom-control-lg custom-control-danger custom-checkbox-rounded-circle mb-2",
                                       attrs: { value: "c1" }
                                     },
-                                    [_vm._v("Circle 1")]
+                                    [
+                                      _vm._v(
+                                        "Circle 1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -2029,7 +2431,11 @@ var render = function() {
                                         "custom-control-lg custom-control-info custom-checkbox-rounded-circle mb-2",
                                       attrs: { value: "c2" }
                                     },
-                                    [_vm._v("Circle 2")]
+                                    [
+                                      _vm._v(
+                                        "Circle 2\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -2039,7 +2445,11 @@ var render = function() {
                                         "custom-control-lg custom-control-dark custom-checkbox-rounded-circle mb-2",
                                       attrs: { value: "c3" }
                                     },
-                                    [_vm._v("Circle 3")]
+                                    [
+                                      _vm._v(
+                                        "Circle 3\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -2077,7 +2487,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            These are the default Bootstrap custom radios\n          "
+                        "\n                        These are the default Bootstrap custom radios\n                    "
                       )
                     ])
                   ]),
@@ -2196,7 +2606,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You can use bigger controls if you like\n          "
+                        "\n                        You can use bigger controls if you like\n                    "
                       )
                     ])
                   ]),
@@ -2333,7 +2743,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You can easily use various colors for your custom radios\n          "
+                        "\n                        You can easily use various colors for your custom radios\n                    "
                       )
                     ])
                   ]),
@@ -2647,7 +3057,11 @@ var render = function() {
                                         "custom-control-lg custom-control-primary mb-1",
                                       attrs: { value: "1" }
                                     },
-                                    [_vm._v("Primary 1")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Primary 1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -2657,7 +3071,11 @@ var render = function() {
                                         "custom-control-lg custom-control-primary mb-1",
                                       attrs: { value: "2" }
                                     },
-                                    [_vm._v("Primary 2")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Primary 2\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -2684,7 +3102,11 @@ var render = function() {
                                         "custom-control-lg custom-control-info mb-1",
                                       attrs: { value: "1" }
                                     },
-                                    [_vm._v("Info 1")]
+                                    [
+                                      _vm._v(
+                                        "Info 1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -2694,7 +3116,11 @@ var render = function() {
                                         "custom-control-lg custom-control-info mb-1",
                                       attrs: { value: "2" }
                                     },
-                                    [_vm._v("Info 2")]
+                                    [
+                                      _vm._v(
+                                        "Info 2\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -2721,7 +3147,11 @@ var render = function() {
                                         "custom-control-lg custom-control-danger mb-1",
                                       attrs: { value: "1" }
                                     },
-                                    [_vm._v("Danger 1")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                    1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -2731,7 +3161,11 @@ var render = function() {
                                         "custom-control-lg custom-control-danger mb-1",
                                       attrs: { value: "2" }
                                     },
-                                    [_vm._v("Danger 2")]
+                                    [
+                                      _vm._v(
+                                        "Danger\n                                    2\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -2758,7 +3192,11 @@ var render = function() {
                                         "custom-control-lg custom-control-dark mb-1",
                                       attrs: { value: "1" }
                                     },
-                                    [_vm._v("Dark 1")]
+                                    [
+                                      _vm._v(
+                                        "Dark 1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -2768,7 +3206,11 @@ var render = function() {
                                         "custom-control-lg custom-control-dark mb-1",
                                       attrs: { value: "2" }
                                     },
-                                    [_vm._v("Dark 2")]
+                                    [
+                                      _vm._v(
+                                        "Dark 2\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -2802,7 +3244,11 @@ var render = function() {
                                         "custom-control-lg custom-control-success mb-1",
                                       attrs: { value: "1" }
                                     },
-                                    [_vm._v("Success 1")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Success 1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -2812,7 +3258,11 @@ var render = function() {
                                         "custom-control-lg custom-control-success mb-1",
                                       attrs: { value: "2" }
                                     },
-                                    [_vm._v("Success 2")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Success 2\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -2839,7 +3289,11 @@ var render = function() {
                                         "custom-control-lg custom-control-warning mb-1",
                                       attrs: { value: "1" }
                                     },
-                                    [_vm._v("Warning 1")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Warning 1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -2849,7 +3303,11 @@ var render = function() {
                                         "custom-control-lg custom-control-warning mb-1",
                                       attrs: { value: "2" }
                                     },
-                                    [_vm._v("Warning 2")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Warning 2\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -2876,7 +3334,11 @@ var render = function() {
                                         "custom-control-lg custom-control-light mb-1",
                                       attrs: { value: "1" }
                                     },
-                                    [_vm._v("Light 1")]
+                                    [
+                                      _vm._v(
+                                        "Light\n                                    1\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
@@ -2886,7 +3348,11 @@ var render = function() {
                                         "custom-control-lg custom-control-light mb-1",
                                       attrs: { value: "2" }
                                     },
-                                    [_vm._v("Light 2")]
+                                    [
+                                      _vm._v(
+                                        "Light\n                                    2\n                                "
+                                      )
+                                    ]
                                   )
                                 ],
                                 1

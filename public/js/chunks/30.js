@@ -141,6 +141,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     printPage: function printPage() {
@@ -184,7 +185,7 @@ var render = function() {
     [
       _c("base-page-heading", {
         staticClass: "d-print-none",
-        attrs: { title: "Invoice", subtitle: "Clean and professional design." },
+        attrs: { subtitle: "Clean and professional design.", title: "Invoice" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -235,7 +236,7 @@ var render = function() {
                         },
                         [
                           _c("i", { staticClass: "si si-printer mr-1" }),
-                          _vm._v(" Print Invoice\n        ")
+                          _vm._v(" Print Invoice\n                ")
                         ]
                       )
                     ]
@@ -255,13 +256,17 @@ var render = function() {
                       _c("p", { staticClass: "h3" }, [_vm._v("Company")]),
                       _vm._v(" "),
                       _c("address", [
-                        _vm._v("\n              Street Address"),
+                        _vm._v("\n                            Street Address"),
                         _c("br"),
-                        _vm._v("\n              State, City"),
+                        _vm._v("\n                            State, City"),
                         _c("br"),
-                        _vm._v("\n              Region, Postal Code"),
+                        _vm._v(
+                          "\n                            Region, Postal Code"
+                        ),
                         _c("br"),
-                        _vm._v("\n              ltd@example.com\n            ")
+                        _vm._v(
+                          "\n                            ltd@example.com\n                        "
+                        )
                       ])
                     ]),
                     _vm._v(" "),
@@ -272,14 +277,18 @@ var render = function() {
                         _c("p", { staticClass: "h3" }, [_vm._v("Client")]),
                         _vm._v(" "),
                         _c("address", [
-                          _vm._v("\n              Street Address"),
+                          _vm._v(
+                            "\n                            Street Address"
+                          ),
                           _c("br"),
-                          _vm._v("\n              State, City"),
-                          _c("br"),
-                          _vm._v("\n              Region, Postal Code"),
+                          _vm._v("\n                            State, City"),
                           _c("br"),
                           _vm._v(
-                            "\n              ctr@example.com\n            "
+                            "\n                            Region, Postal Code"
+                          ),
+                          _c("br"),
+                          _vm._v(
+                            "\n                            ctr@example.com\n                        "
                           )
                         ])
                       ]
@@ -290,8 +299,8 @@ var render = function() {
                     "b-table-simple",
                     {
                       attrs: {
-                        responsive: "",
                         bordered: "",
+                        responsive: "",
                         "table-class": "table-vcenter"
                       }
                     },
@@ -370,7 +379,7 @@ var render = function() {
                                 [
                                   _c(
                                     "b-badge",
-                                    { attrs: { variant: "primary", pill: "" } },
+                                    { attrs: { pill: "", variant: "primary" } },
                                     [_vm._v("1")]
                                   )
                                 ],
@@ -413,7 +422,7 @@ var render = function() {
                                 [
                                   _c(
                                     "b-badge",
-                                    { attrs: { variant: "primary", pill: "" } },
+                                    { attrs: { pill: "", variant: "primary" } },
                                     [_vm._v("1")]
                                   )
                                 ],
@@ -456,7 +465,7 @@ var render = function() {
                                 [
                                   _c(
                                     "b-badge",
-                                    { attrs: { variant: "primary", pill: "" } },
+                                    { attrs: { pill: "", variant: "primary" } },
                                     [_vm._v("1")]
                                   )
                                 ],
@@ -541,7 +550,11 @@ var render = function() {
                                     "font-w700 text-uppercase text-right bg-body-light",
                                   attrs: { colspan: "4" }
                                 },
-                                [_vm._v("Total Due")]
+                                [
+                                  _vm._v(
+                                    "Total Due\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
@@ -570,7 +583,7 @@ var render = function() {
                     },
                     [
                       _vm._v(
-                        "\n          Thank you very much for doing business with us. We look forward to working with you again!\n        "
+                        "\n                    Thank you very much for doing business with us. We look forward to working with you again!\n                "
                       )
                     ]
                   )

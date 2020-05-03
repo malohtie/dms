@@ -1,6 +1,4 @@
 /**
  * User Router Links
  */
-export default [
-
-]
+export default []

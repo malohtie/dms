@@ -39,6 +39,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 // Vue Gallery, for more info and examples you can check out https://github.com/RobinCK/vue-gallery
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -75,8 +78,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Gallery",
-          subtitle: "Clean and easy way to showcase your images."
+          subtitle: "Clean and easy way to showcase your images.",
+          title: "Gallery"
         },
         scopedSlots: _vm._u([
           {
@@ -132,7 +135,7 @@ var render = function() {
                 {
                   key: photoIndex,
                   staticClass: "animated fadeIn",
-                  attrs: { md: "6", lg: "4", xl: "3" }
+                  attrs: { lg: "4", md: "6", xl: "3" }
                 },
                 [
                   _c(

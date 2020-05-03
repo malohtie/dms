@@ -278,6 +278,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -381,8 +396,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Search",
-          subtitle: "Vital page found in most web applications."
+          subtitle: "Vital page found in most web applications.",
+          title: "Search"
         },
         scopedSlots: _vm._u([
           {
@@ -468,14 +483,14 @@ var render = function() {
             {
               staticClass: "block",
               attrs: {
-                "nav-class": "nav-tabs-block",
-                "content-class": "block-content"
+                "content-class": "block-content",
+                "nav-class": "nav-tabs-block"
               }
             },
             [
               _c(
                 "b-tab",
-                { attrs: { title: "Projects", active: "" } },
+                { attrs: { active: "", title: "Projects" } },
                 [
                   _c(
                     "div",
@@ -487,7 +502,7 @@ var render = function() {
                       _c("span", { staticClass: "text-primary font-w700" }, [
                         _vm._v("6")
                       ]),
-                      _vm._v(" projects found for "),
+                      _vm._v(" projects found for\n                    "),
                       _c("mark", { staticClass: "text-danger" }, [
                         _vm._v("HTML")
                       ])
@@ -565,7 +580,7 @@ var render = function() {
                                   },
                                   [
                                     _vm._v(
-                                      "\n                  Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in\n                  purus. Mauris tincidunt tincidunt turpis in porta.\n                "
+                                      "\n                                    Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac\n                                    cursus nibh sapien in\n                                    purus. Mauris tincidunt tincidunt turpis in porta.\n                                "
                                     )
                                   ]
                                 )
@@ -627,7 +642,7 @@ var render = function() {
                                   },
                                   [
                                     _vm._v(
-                                      "\n                  Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in\n                  purus. Mauris tincidunt tincidunt turpis in porta.\n                "
+                                      "\n                                    Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac\n                                    cursus nibh sapien in\n                                    purus. Mauris tincidunt tincidunt turpis in porta.\n                                "
                                     )
                                   ]
                                 )
@@ -689,7 +704,7 @@ var render = function() {
                                   },
                                   [
                                     _vm._v(
-                                      "\n                  Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in\n                  purus. Mauris tincidunt tincidunt turpis in porta.\n                "
+                                      "\n                                    Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac\n                                    cursus nibh sapien in\n                                    purus. Mauris tincidunt tincidunt turpis in porta.\n                                "
                                     )
                                   ]
                                 )
@@ -751,7 +766,7 @@ var render = function() {
                                   },
                                   [
                                     _vm._v(
-                                      "\n                  Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in\n                  purus. Mauris tincidunt tincidunt turpis in porta.\n                "
+                                      "\n                                    Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac\n                                    cursus nibh sapien in\n                                    purus. Mauris tincidunt tincidunt turpis in porta.\n                                "
                                     )
                                   ]
                                 )
@@ -813,7 +828,7 @@ var render = function() {
                                   },
                                   [
                                     _vm._v(
-                                      "\n                  Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in\n                  purus. Mauris tincidunt tincidunt turpis in porta.\n                "
+                                      "\n                                    Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac\n                                    cursus nibh sapien in\n                                    purus. Mauris tincidunt tincidunt turpis in porta.\n                                "
                                     )
                                   ]
                                 )
@@ -875,7 +890,7 @@ var render = function() {
                                   },
                                   [
                                     _vm._v(
-                                      "\n                  Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in\n                  purus. Mauris tincidunt tincidunt turpis in porta.\n                "
+                                      "\n                                    Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac\n                                    cursus nibh sapien in\n                                    purus. Mauris tincidunt tincidunt turpis in porta.\n                                "
                                     )
                                   ]
                                 )
@@ -926,8 +941,8 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-pagination", {
                     attrs: {
-                      "total-rows": _vm.rows,
                       "per-page": _vm.perPage,
+                      "total-rows": _vm.rows,
                       size: "sm"
                     },
                     model: {
@@ -956,7 +971,7 @@ var render = function() {
                       _c("span", { staticClass: "text-primary font-w700" }, [
                         _vm._v("192")
                       ]),
-                      _vm._v(" results found for "),
+                      _vm._v(" results found for\n                    "),
                       _c("mark", { staticClass: "text-danger" }, [
                         _vm._v("client")
                       ])
@@ -1040,7 +1055,7 @@ var render = function() {
                                 [
                                   _c(
                                     "b-badge",
-                                    { attrs: { variant: "primary", pill: "" } },
+                                    { attrs: { pill: "", variant: "primary" } },
                                     [_vm._v(_vm._s(user.id))]
                                   )
                                 ],
@@ -1069,7 +1084,8 @@ var render = function() {
                                 { staticClass: "d-none d-sm-table-cell" },
                                 [
                                   _vm._v(
-                                    "\n                client" + _vm._s(user.id)
+                                    "\n                                client" +
+                                      _vm._s(user.id)
                                   ),
                                   _c("em", { staticClass: "text-muted" }, [
                                     _vm._v("@example.com")
@@ -1162,8 +1178,8 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-pagination", {
                     attrs: {
-                      "total-rows": _vm.rows,
                       "per-page": _vm.perPage,
+                      "total-rows": _vm.rows,
                       size: "sm"
                     },
                     model: {
@@ -1192,7 +1208,7 @@ var render = function() {
                       _c("span", { staticClass: "text-primary font-w700" }, [
                         _vm._v("280")
                       ]),
-                      _vm._v(" websites found for "),
+                      _vm._v(" websites found for\n                    "),
                       _c("mark", { staticClass: "text-danger" }, [
                         _vm._v("dms")
                       ])
@@ -1218,7 +1234,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "Donec lacinia venenatis metus at bibendum? In hac habitasse platea\n              dictumst. Proin ac nibh rutrum lectus rhoncus eleifend. Sed porttitor pretium venenatis. Suspendisse\n              potenti. Aliquam quis ligula elit."
+                            "Donec lacinia venenatis metus at bibendum? In hac\n                            habitasse platea\n                            dictumst. Proin ac nibh rutrum lectus rhoncus eleifend. Sed porttitor pretium venenatis.\n                            Suspendisse\n                            potenti. Aliquam quis ligula elit."
                           )
                         ])
                       ])
@@ -1228,8 +1244,8 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-pagination", {
                     attrs: {
-                      "total-rows": _vm.rows,
                       "per-page": _vm.perPage,
+                      "total-rows": _vm.rows,
                       size: "sm"
                     },
                     model: {
@@ -1258,7 +1274,7 @@ var render = function() {
                       _c("span", { staticClass: "text-primary font-w700" }, [
                         _vm._v("85")
                       ]),
-                      _vm._v(" photos found for "),
+                      _vm._v(" photos found for\n                    "),
                       _c("mark", { staticClass: "text-danger" }, [
                         _vm._v("wallpaper")
                       ])
@@ -1269,122 +1285,122 @@ var render = function() {
                     "b-row",
                     { staticClass: "gutters-tiny items-push push" },
                     [
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo1.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo1.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo2.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo2.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo6.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo6.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo21.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo21.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo22.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo22.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo9.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo9.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo23.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo23.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo24.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo24.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo25.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo25.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo27.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo27.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo28.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo28.jpg"
                           }
                         })
                       ]),
                       _vm._v(" "),
-                      _c("b-col", { attrs: { md: "6", lg: "4", xl: "3" } }, [
+                      _c("b-col", { attrs: { lg: "4", md: "6", xl: "3" } }, [
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: " images/photos/photo30.jpg",
-                            alt: "Photo"
+                            alt: "Photo",
+                            src: " images/photos/photo30.jpg"
                           }
                         })
                       ])
@@ -1394,8 +1410,8 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-pagination", {
                     attrs: {
-                      "total-rows": _vm.rows,
                       "per-page": _vm.perPage,
+                      "total-rows": _vm.rows,
                       size: "sm"
                     },
                     model: {

@@ -20,9 +20,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Blank",
           subtitle:
-            "That feeling of delight when you start your awesome new project!"
+            "That feeling of delight when you start your awesome new project!",
+          title: "Blank"
         },
         scopedSlots: _vm._u([
           {
@@ -68,7 +68,7 @@ var staticRenderFns = [
         _c("small", [_vm._v("Subtitle")])
       ]),
       _vm._v(" "),
-      _c("p", [_vm._v("\n      ...\n    ")])
+      _c("p", [_vm._v("\n            ...\n        ")])
     ])
   }
 ]

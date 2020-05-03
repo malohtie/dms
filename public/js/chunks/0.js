@@ -104,6 +104,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 // Get Icons data
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -186,9 +190,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Icons",
           subtitle:
-            "A huge collection of multi-purpose, uniquely designed, font icons."
+            "A huge collection of multi-purpose, uniquely designed, font icons.",
+          title: "Icons"
         },
         scopedSlots: _vm._u([
           {
@@ -233,7 +237,7 @@ var render = function() {
                 }
               ],
               staticClass: "js-icon-search form-control font-size-base",
-              attrs: { type: "text", placeholder: "Try home or user.." },
+              attrs: { placeholder: "Try home or user..", type: "text" },
               domProps: { value: _vm.search },
               on: {
                 input: function($event) {
@@ -282,7 +286,7 @@ var render = function() {
                     "b-col",
                     {
                       key: "far-icon-" + index,
-                      attrs: { sm: "6", lg: "4", xl: "3" }
+                      attrs: { lg: "4", sm: "6", xl: "3" }
                     },
                     [
                       _c("p", [_c("i", { class: "far fa-2x fa-" + icon })]),
@@ -331,7 +335,7 @@ var render = function() {
                     "b-col",
                     {
                       key: "fa-icon-" + index,
-                      attrs: { sm: "6", lg: "4", xl: "3" }
+                      attrs: { lg: "4", sm: "6", xl: "3" }
                     },
                     [
                       _c("p", [_c("i", { class: "fa fa-2x fa-" + icon })]),
@@ -380,7 +384,7 @@ var render = function() {
                     "b-col",
                     {
                       key: "fab-icon-" + index,
-                      attrs: { sm: "6", lg: "4", xl: "3" }
+                      attrs: { lg: "4", sm: "6", xl: "3" }
                     },
                     [
                       _c("p", [_c("i", { class: "fab fa-2x fa-" + icon })]),
@@ -425,7 +429,7 @@ var render = function() {
                     "b-col",
                     {
                       key: "si-icon-" + index,
-                      attrs: { sm: "6", lg: "4", xl: "3" }
+                      attrs: { lg: "4", sm: "6", xl: "3" }
                     },
                     [
                       _c("p", [_c("i", { class: "si fa-2x si-" + icon })]),

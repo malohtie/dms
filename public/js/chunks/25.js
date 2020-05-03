@@ -65,7 +65,7 @@ var render = function() {
     "div",
     [
       _c("base-page-heading", {
-        attrs: { title: "Sidebar", subtitle: "Dark" },
+        attrs: { subtitle: "Dark", title: "Sidebar" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -106,7 +106,9 @@ var render = function() {
         [
           _c("base-block", [
             _c("p", { staticClass: "text-center" }, [
-              _vm._v("\n        You can have a dark themed Sidebar.\n      ")
+              _vm._v(
+                "\n                You can have a dark themed Sidebar.\n            "
+              )
             ])
           ])
         ],

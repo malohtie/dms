@@ -7,7 +7,11 @@
     @include media-breakpoint-up($breakpoint) {
         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
-        .flex#{$infix}-00-auto { flex: 0 0 auto; }
-        .flex#{$infix}-10-auto { flex: 1 0 auto; }
+        .flex#{$infix}-00-auto {
+            flex: 0 0 auto;
+        }
+        .flex#{$infix}-10-auto {
+            flex: 1 0 auto;
+        }
     }
 }

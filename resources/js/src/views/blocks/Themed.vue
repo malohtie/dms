@@ -1,894 +1,894 @@
 <template>
-  <div>
-    <!-- Hero -->
-    <base-page-heading title="Block Options" subtitle="Colorful blocks to match with your design.">
-      <template #extra>
-        <b-breadcrumb class="breadcrumb-alt">
-          <b-breadcrumb-item href="javascript:void(0)">Blocks</b-breadcrumb-item>
-          <b-breadcrumb-item active>Themed</b-breadcrumb-item>
-        </b-breadcrumb>
-      </template>
-    </base-page-heading>
-    <!-- END Hero -->
+    <div>
+        <!-- Hero -->
+        <base-page-heading subtitle="Colorful blocks to match with your design." title="Block Options">
+            <template #extra>
+                <b-breadcrumb class="breadcrumb-alt">
+                    <b-breadcrumb-item href="javascript:void(0)">Blocks</b-breadcrumb-item>
+                    <b-breadcrumb-item active>Themed</b-breadcrumb-item>
+                </b-breadcrumb>
+            </template>
+        </base-page-heading>
+        <!-- END Hero -->
 
-    <!-- Page Content -->
-    <div class="content">
-      <!-- Square Themed Blocks -->
-      <h2 class="content-heading">Themed Square</h2>
-      <b-row>
-        <b-col md="6" xl="3">
-          <base-block title="Primary" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Primary Light" header-class="bg-primary-light" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Primary Dark" header-class="bg-primary-dark" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Primary Darker" header-class="bg-primary-darker" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Success" header-class="bg-success" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Info" header-class="bg-info" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Warning" header-class="bg-warning" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Danger" header-class="bg-danger" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Gray" header-class="bg-gray" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Gray Dark" header-class="bg-muted" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Gray Darker" header-class="bg-gray-darker" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Black" header-class="bg-black" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Default" header-class="bg-default" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Default Light" header-class="bg-default-light" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Default Dark" header-class="bg-default-dark" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Default Darker" header-class="bg-default-darker" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Amethyst" header-class="bg-amethyst" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Amethyst Light" header-class="bg-amethyst-light" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Amethyst Dark" header-class="bg-amethyst-dark" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Amethyst Darker" header-class="bg-amethyst-darker" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="City" header-class="bg-city" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="City Light" header-class="bg-city-light" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="City Dark" header-class="bg-city-dark" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="City Darker" header-class="bg-city-darker" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Flat" header-class="bg-flat" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Flat Light" header-class="bg-flat-light" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Flat Dark" header-class="bg-flat-dark" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Flat Darker" header-class="bg-flat-darker" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Modern" header-class="bg-modern" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Modern Light" header-class="bg-modern-light" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Modern Dark" header-class="bg-modern-dark" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Modern Darker" header-class="bg-modern-darker" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Smooth" header-class="bg-smooth" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Smooth Light" header-class="bg-smooth-light" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Smooth Dark" header-class="bg-smooth-dark" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Smooth Darker" header-class="bg-smooth-darker" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-      </b-row>
-      <!-- END Square Themed Blocks -->
+        <!-- Page Content -->
+        <div class="content">
+            <!-- Square Themed Blocks -->
+            <h2 class="content-heading">Themed Square</h2>
+            <b-row>
+                <b-col md="6" xl="3">
+                    <base-block themed title="Primary">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-primary-light" themed title="Primary Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-primary-dark" themed title="Primary Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-primary-darker" themed title="Primary Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-success" themed title="Success">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-info" themed title="Info">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-warning" themed title="Warning">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-danger" themed title="Danger">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-gray" themed title="Gray">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-muted" themed title="Gray Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-gray-darker" themed title="Gray Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-black" themed title="Black">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-default" themed title="Default">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-default-light" themed title="Default Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-default-dark" themed title="Default Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-default-darker" themed title="Default Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-amethyst" themed title="Amethyst">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-amethyst-light" themed title="Amethyst Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-amethyst-dark" themed title="Amethyst Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-amethyst-darker" themed title="Amethyst Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-city" themed title="City">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-city-light" themed title="City Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-city-dark" themed title="City Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-city-darker" themed title="City Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-flat" themed title="Flat">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-flat-light" themed title="Flat Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-flat-dark" themed title="Flat Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-flat-darker" themed title="Flat Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-modern" themed title="Modern">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-modern-light" themed title="Modern Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-modern-dark" themed title="Modern Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-modern-darker" themed title="Modern Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-smooth" themed title="Smooth">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-smooth-light" themed title="Smooth Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-smooth-dark" themed title="Smooth Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-smooth-darker" themed title="Smooth Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+            </b-row>
+            <!-- END Square Themed Blocks -->
 
-      <!-- Rounded Themed Blocks -->
-      <h2 class="content-heading">Themed Rounded</h2>
-      <b-row>
-        <b-col md="6" xl="3">
-          <base-block title="Primary" themed>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Primary Light" header-class="bg-primary-light" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Primary Dark" header-class="bg-primary-dark" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Primary Darker" header-class="bg-primary-darker" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Success" header-class="bg-success" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Info" header-class="bg-info" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Warning" header-class="bg-warning" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Danger" header-class="bg-danger" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Gray" header-class="bg-gray" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Gray Dark" header-class="bg-muted" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Gray Darker" header-class="bg-gray-darker" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Black" header-class="bg-black" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Default" header-class="bg-default" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Default Light" header-class="bg-default-light" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Default Dark" header-class="bg-default-dark" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Default Darker" header-class="bg-default-darker" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Amethyst" header-class="bg-amethyst" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Amethyst Light" header-class="bg-amethyst-light" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Amethyst Dark" header-class="bg-amethyst-dark" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Amethyst Darker" header-class="bg-amethyst-darker" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="City" header-class="bg-city" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="City Light" header-class="bg-city-light" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="City Dark" header-class="bg-city-dark" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="City Darker" header-class="bg-city-darker" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Flat" header-class="bg-flat" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Flat Light" header-class="bg-flat-light" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Flat Dark" header-class="bg-flat-dark" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Flat Darker" header-class="bg-flat-darker" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Modern" header-class="bg-modern" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Modern Light" header-class="bg-modern-light" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Modern Dark" header-class="bg-modern-dark" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Modern Darker" header-class="bg-modern-darker" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Smooth" header-class="bg-smooth" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Smooth Light" header-class="bg-smooth-light" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Smooth Dark" header-class="bg-smooth-dark" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-        <b-col md="6" xl="3">
-          <base-block title="Smooth Darker" header-class="bg-smooth-darker" themed rounded>
-            <template #options>
-              <button type="button" class="btn-block-option">
-                <i class="si si-settings"></i>
-              </button>
-            </template>
-            <p>
-              Block’s content..
-            </p>
-          </base-block>
-        </b-col>
-      </b-row>
-      <!-- END Rounded Themed Blocks -->
+            <!-- Rounded Themed Blocks -->
+            <h2 class="content-heading">Themed Rounded</h2>
+            <b-row>
+                <b-col md="6" xl="3">
+                    <base-block themed title="Primary">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-primary-light" rounded themed title="Primary Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-primary-dark" rounded themed title="Primary Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-primary-darker" rounded themed title="Primary Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-success" rounded themed title="Success">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-info" rounded themed title="Info">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-warning" rounded themed title="Warning">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-danger" rounded themed title="Danger">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-gray" rounded themed title="Gray">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-muted" rounded themed title="Gray Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-gray-darker" rounded themed title="Gray Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-black" rounded themed title="Black">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-default" rounded themed title="Default">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-default-light" rounded themed title="Default Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-default-dark" rounded themed title="Default Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-default-darker" rounded themed title="Default Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-amethyst" rounded themed title="Amethyst">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-amethyst-light" rounded themed title="Amethyst Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-amethyst-dark" rounded themed title="Amethyst Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-amethyst-darker" rounded themed title="Amethyst Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-city" rounded themed title="City">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-city-light" rounded themed title="City Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-city-dark" rounded themed title="City Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-city-darker" rounded themed title="City Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-flat" rounded themed title="Flat">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-flat-light" rounded themed title="Flat Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-flat-dark" rounded themed title="Flat Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-flat-darker" rounded themed title="Flat Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-modern" rounded themed title="Modern">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-modern-light" rounded themed title="Modern Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-modern-dark" rounded themed title="Modern Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-modern-darker" rounded themed title="Modern Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-smooth" rounded themed title="Smooth">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-smooth-light" rounded themed title="Smooth Light">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-smooth-dark" rounded themed title="Smooth Dark">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+                <b-col md="6" xl="3">
+                    <base-block header-class="bg-smooth-darker" rounded themed title="Smooth Darker">
+                        <template #options>
+                            <button class="btn-block-option" type="button">
+                                <i class="si si-settings"></i>
+                            </button>
+                        </template>
+                        <p>
+                            Block’s content..
+                        </p>
+                    </base-block>
+                </b-col>
+            </b-row>
+            <!-- END Rounded Themed Blocks -->
+        </div>
+        <!-- END Page Content -->
     </div>
-    <!-- END Page Content -->
-  </div>
 </template>

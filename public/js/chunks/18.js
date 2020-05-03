@@ -35,6 +35,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   created: function created() {
     // Set example settings
@@ -65,7 +66,7 @@ var render = function() {
     "div",
     [
       _c("base-page-heading", {
-        attrs: { title: "Main Content", subtitle: "Full Width" },
+        attrs: { subtitle: "Full Width", title: "Main Content" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -107,7 +108,7 @@ var render = function() {
           _c("base-block", [
             _c("p", { staticClass: "text-center" }, [
               _vm._v(
-                "\n        Content always takes up all the available width of the main container. A maximum width is set for extra large screen widths.\n      "
+                "\n                Content always takes up all the available width of the main container. A maximum width is set for\n                extra large screen widths.\n            "
               )
             ])
           ])

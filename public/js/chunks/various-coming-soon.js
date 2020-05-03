@@ -90,6 +90,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
 // Vue Countdown, for more info and examples you can check out https://github.com/fengyuanchen/vue-countdown
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -175,7 +177,7 @@ var render = function() {
                             { staticClass: "font-size-sm text-white-75" },
                             [
                               _vm._v(
-                                "Stay tuned! We are working on it and it is coming soon!"
+                                "Stay tuned! We are working on it and it is coming\n                                soon!"
                               )
                             ]
                           )
@@ -324,9 +326,9 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                    " +
+                                            "\n                                        " +
                                               _vm._s(_vm.form.success) +
-                                              "\n                  "
+                                              "\n                                    "
                                           )
                                         ]
                                       )
@@ -339,9 +341,9 @@ var render = function() {
                                       _c("b-form-input", {
                                         staticClass: "border-0",
                                         attrs: {
-                                          type: "email",
                                           placeholder: "Enter your email..",
-                                          required: ""
+                                          required: "",
+                                          type: "email"
                                         },
                                         model: {
                                           value: _vm.form.email,
@@ -379,7 +381,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                    Don't worry, we hate spam.\n                  "
+                                        "\n                                        Don't worry, we hate spam.\n                                    "
                                       )
                                     ]
                                   )
@@ -398,13 +400,15 @@ var render = function() {
                         {
                           attrs: {
                             size: "sm",
-                            variant: "light",
-                            to: "/backend/pages/generic/blank"
+                            to: "/backend/pages/generic/blank",
+                            variant: "light"
                           }
                         },
                         [
                           _c("i", { staticClass: "fa fa-arrow-left mr-1" }),
-                          _vm._v(" Go Back to Dashboard\n            ")
+                          _vm._v(
+                            " Go Back to Dashboard\n                        "
+                          )
                         ]
                       )
                     ],

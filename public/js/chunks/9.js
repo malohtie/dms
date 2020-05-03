@@ -231,6 +231,29 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -296,8 +319,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Progress",
-          subtitle: "Vital activity components for your project."
+          subtitle: "Vital activity components for your project.",
+          title: "Progress"
         },
         scopedSlots: _vm._u([
           {
@@ -347,65 +370,65 @@ var render = function() {
                     [
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
-                          variant: "primary",
-                          label: "Loading..."
+                          variant: "primary"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
-                          variant: "secondary",
-                          label: "Loading..."
+                          variant: "secondary"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
-                          variant: "success",
-                          label: "Loading..."
+                          variant: "success"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
-                          variant: "danger",
-                          label: "Loading..."
+                          variant: "danger"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
-                          variant: "warning",
-                          label: "Loading..."
+                          variant: "warning"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
-                          variant: "info",
-                          label: "Loading..."
+                          variant: "info"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
-                          variant: "light",
-                          label: "Loading..."
+                          variant: "light"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
-                          variant: "dark",
-                          label: "Loading..."
+                          variant: "dark"
                         }
                       })
                     ],
@@ -418,73 +441,73 @@ var render = function() {
                     [
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
                           type: "grow",
-                          variant: "primary",
-                          label: "Loading..."
+                          variant: "primary"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
                           type: "grow",
-                          variant: "secondary",
-                          label: "Loading..."
+                          variant: "secondary"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
                           type: "grow",
-                          variant: "success",
-                          label: "Loading..."
+                          variant: "success"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
                           type: "grow",
-                          variant: "danger",
-                          label: "Loading..."
+                          variant: "danger"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
                           type: "grow",
-                          variant: "warning",
-                          label: "Loading..."
+                          variant: "warning"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
                           type: "grow",
-                          variant: "info",
-                          label: "Loading..."
+                          variant: "info"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
                           type: "grow",
-                          variant: "light",
-                          label: "Loading..."
+                          variant: "light"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           small: "",
                           type: "grow",
-                          variant: "dark",
-                          label: "Loading..."
+                          variant: "dark"
                         }
                       })
                     ],
@@ -496,35 +519,35 @@ var render = function() {
                     { attrs: { md: "6" } },
                     [
                       _c("b-spinner", {
-                        attrs: { variant: "primary", label: "Loading..." }
+                        attrs: { label: "Loading...", variant: "primary" }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
-                        attrs: { variant: "secondary", label: "Loading..." }
+                        attrs: { label: "Loading...", variant: "secondary" }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
-                        attrs: { variant: "success", label: "Loading..." }
+                        attrs: { label: "Loading...", variant: "success" }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
-                        attrs: { variant: "danger", label: "Loading..." }
+                        attrs: { label: "Loading...", variant: "danger" }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
-                        attrs: { variant: "warning", label: "Loading..." }
+                        attrs: { label: "Loading...", variant: "warning" }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
-                        attrs: { variant: "info", label: "Loading..." }
+                        attrs: { label: "Loading...", variant: "info" }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
-                        attrs: { variant: "light", label: "Loading..." }
+                        attrs: { label: "Loading...", variant: "light" }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
-                        attrs: { variant: "dark", label: "Loading..." }
+                        attrs: { label: "Loading...", variant: "dark" }
                       })
                     ],
                     1
@@ -536,65 +559,65 @@ var render = function() {
                     [
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           type: "grow",
-                          variant: "primary",
-                          label: "Loading..."
+                          variant: "primary"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           type: "grow",
-                          variant: "secondary",
-                          label: "Loading..."
+                          variant: "secondary"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           type: "grow",
-                          variant: "success",
-                          label: "Loading..."
+                          variant: "success"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           type: "grow",
-                          variant: "danger",
-                          label: "Loading..."
+                          variant: "danger"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           type: "grow",
-                          variant: "warning",
-                          label: "Loading..."
+                          variant: "warning"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           type: "grow",
-                          variant: "info",
-                          label: "Loading..."
+                          variant: "info"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           type: "grow",
-                          variant: "light",
-                          label: "Loading..."
+                          variant: "light"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-spinner", {
                         attrs: {
+                          label: "Loading...",
                           type: "grow",
-                          variant: "dark",
-                          label: "Loading..."
+                          variant: "dark"
                         }
                       })
                     ],
@@ -613,11 +636,11 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted mb-5" }, [
                 _vm._v(
-                  "\n        You can create a loading indicator by adding the class "
+                  "\n                You can create a loading indicator by adding the class "
                 ),
                 _c("code", [_vm._v("fa-spin")]),
                 _vm._v(
-                  " to any Font Awesome icon. Combining it with size classes and colors, you can get a lot of variations.\n      "
+                  " to any Font Awesome\n                icon. Combining it with size classes and colors, you can get a lot of variations.\n            "
                 )
               ]),
               _vm._v(" "),
@@ -750,11 +773,11 @@ var render = function() {
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupOneValue[0],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupOneValue[0].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupOneValue[0]
                             }
                           })
                         ],
@@ -770,11 +793,11 @@ var render = function() {
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupOneValue[1],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupOneValue[1].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupOneValue[1]
                             }
                           })
                         ],
@@ -790,11 +813,11 @@ var render = function() {
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupOneValue[2],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupOneValue[2].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupOneValue[2]
                             }
                           })
                         ],
@@ -810,11 +833,11 @@ var render = function() {
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupOneValue[3],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupOneValue[3].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupOneValue[3]
                             }
                           })
                         ],
@@ -830,11 +853,11 @@ var render = function() {
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupOneValue[4],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupOneValue[4].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupOneValue[4]
                             }
                           })
                         ],
@@ -887,18 +910,18 @@ var render = function() {
                           staticClass: "push",
                           attrs: {
                             max: _vm.max,
-                            variant: "primary",
-                            striped: ""
+                            striped: "",
+                            variant: "primary"
                           }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupTwoValue[0],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupTwoValue[0].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupTwoValue[0]
                             }
                           })
                         ],
@@ -911,18 +934,18 @@ var render = function() {
                           staticClass: "push",
                           attrs: {
                             max: _vm.max,
-                            variant: "warning",
-                            striped: ""
+                            striped: "",
+                            variant: "warning"
                           }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupTwoValue[1],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupTwoValue[1].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupTwoValue[1]
                             }
                           })
                         ],
@@ -935,18 +958,18 @@ var render = function() {
                           staticClass: "push",
                           attrs: {
                             max: _vm.max,
-                            variant: "danger",
-                            striped: ""
+                            striped: "",
+                            variant: "danger"
                           }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupTwoValue[2],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupTwoValue[2].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupTwoValue[2]
                             }
                           })
                         ],
@@ -957,16 +980,16 @@ var render = function() {
                         "b-progress",
                         {
                           staticClass: "push",
-                          attrs: { max: _vm.max, variant: "info", striped: "" }
+                          attrs: { max: _vm.max, striped: "", variant: "info" }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupTwoValue[3],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupTwoValue[3].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupTwoValue[3]
                             }
                           })
                         ],
@@ -979,18 +1002,18 @@ var render = function() {
                           staticClass: "push",
                           attrs: {
                             max: _vm.max,
-                            variant: "success",
-                            striped: ""
+                            striped: "",
+                            variant: "success"
                           }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupTwoValue[4],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupTwoValue[4].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupTwoValue[4]
                             }
                           })
                         ],
@@ -1043,18 +1066,18 @@ var render = function() {
                           staticClass: "push",
                           attrs: {
                             max: _vm.max,
-                            variant: "primary",
-                            animated: ""
+                            animated: "",
+                            variant: "primary"
                           }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupThreeValue[0],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupThreeValue[0].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupThreeValue[0]
                             }
                           })
                         ],
@@ -1067,18 +1090,18 @@ var render = function() {
                           staticClass: "push",
                           attrs: {
                             max: _vm.max,
-                            variant: "warning",
-                            animated: ""
+                            animated: "",
+                            variant: "warning"
                           }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupThreeValue[1],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupThreeValue[1].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupThreeValue[1]
                             }
                           })
                         ],
@@ -1091,18 +1114,18 @@ var render = function() {
                           staticClass: "push",
                           attrs: {
                             max: _vm.max,
-                            variant: "danger",
-                            animated: ""
+                            animated: "",
+                            variant: "danger"
                           }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupThreeValue[2],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupThreeValue[2].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupThreeValue[2]
                             }
                           })
                         ],
@@ -1113,16 +1136,16 @@ var render = function() {
                         "b-progress",
                         {
                           staticClass: "push",
-                          attrs: { max: _vm.max, variant: "info", animated: "" }
+                          attrs: { max: _vm.max, animated: "", variant: "info" }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupThreeValue[3],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupThreeValue[3].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupThreeValue[3]
                             }
                           })
                         ],
@@ -1135,18 +1158,18 @@ var render = function() {
                           staticClass: "push",
                           attrs: {
                             max: _vm.max,
-                            variant: "success",
-                            animated: ""
+                            animated: "",
+                            variant: "success"
                           }
                         },
                         [
                           _c("b-progress-bar", {
                             attrs: {
-                              value: _vm.groupThreeValue[4],
                               "label-html":
                                 "<span class='font-size-sm font-w600'>" +
                                 _vm.groupThreeValue[4].toFixed() +
-                                "%</span>"
+                                "%</span>",
+                              value: _vm.groupThreeValue[4]
                             }
                           })
                         ],
@@ -1196,74 +1219,74 @@ var render = function() {
                       _c("b-progress", {
                         staticClass: "push",
                         attrs: {
+                          max: _vm.max,
                           value: _vm.groupFourValue[0],
-                          max: _vm.max,
-                          variant: "primary",
-                          height: "10px"
+                          height: "10px",
+                          variant: "primary"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-progress", {
                         staticClass: "push",
                         attrs: {
+                          max: _vm.max,
                           value: _vm.groupFourValue[1],
-                          max: _vm.max,
-                          variant: "warning",
-                          height: "10px"
+                          height: "10px",
+                          variant: "warning"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-progress", {
                         staticClass: "push",
                         attrs: {
+                          max: _vm.max,
                           value: _vm.groupFourValue[2],
-                          max: _vm.max,
-                          variant: "danger",
-                          height: "10px"
+                          height: "10px",
+                          variant: "danger"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-progress", {
                         staticClass: "push",
                         attrs: {
+                          max: _vm.max,
                           value: _vm.groupFourValue[3],
-                          max: _vm.max,
-                          variant: "info",
                           height: "10px",
-                          striped: ""
+                          striped: "",
+                          variant: "info"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-progress", {
                         staticClass: "push",
                         attrs: {
+                          max: _vm.max,
                           value: _vm.groupFourValue[4],
-                          max: _vm.max,
-                          variant: "success",
                           height: "10px",
-                          striped: ""
+                          striped: "",
+                          variant: "success"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-progress", {
                         staticClass: "push",
                         attrs: {
+                          max: _vm.max,
                           value: _vm.groupFourValue[5],
-                          max: _vm.max,
-                          variant: "muted",
+                          animated: "",
                           height: "10px",
-                          animated: ""
+                          variant: "muted"
                         }
                       }),
                       _vm._v(" "),
                       _c("b-progress", {
                         staticClass: "push",
                         attrs: {
-                          value: _vm.groupFourValue[6],
                           max: _vm.max,
-                          variant: "dark",
+                          value: _vm.groupFourValue[6],
+                          animated: "",
                           height: "10px",
-                          animated: ""
+                          variant: "dark"
                         }
                       })
                     ],

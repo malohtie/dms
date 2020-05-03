@@ -227,6 +227,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Vue Gallery, for more info and examples you can check out https://github.com/RobinCK/vue-gallery
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -301,8 +321,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Timeline",
-          subtitle: "UI element that just works and looks great."
+          subtitle: "UI element that just works and looks great.",
+          title: "Timeline"
         },
         scopedSlots: _vm._u([
           {
@@ -322,7 +342,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-arrows-alt-h mr-1" }),
-                    _vm._v(" Toggle Timeline Mode\n      ")
+                    _vm._v(" Toggle Timeline Mode\n            ")
                   ]
                 )
               ]
@@ -350,7 +370,7 @@ var render = function() {
                   "base-block",
                   {
                     staticClass: "timeline-event-block",
-                    attrs: { title: "New Gallery", "header-bg": "" },
+                    attrs: { "header-bg": "", title: "New Gallery" },
                     scopedSlots: _vm._u([
                       {
                         key: "options",
@@ -362,7 +382,11 @@ var render = function() {
                                 staticClass:
                                   "timeline-event-time block-options-item font-size-sm font-w600"
                               },
-                              [_vm._v("\n              just now\n            ")]
+                              [
+                                _vm._v(
+                                  "\n                            just now\n                        "
+                                )
+                              ]
                             )
                           ]
                         },
@@ -396,7 +420,7 @@ var render = function() {
                           {
                             key: photoIndex,
                             staticClass: "animated fadeIn",
-                            attrs: { md: "6", lg: "4", xl: "3" }
+                            attrs: { lg: "4", md: "6", xl: "3" }
                           },
                           [
                             _c(
@@ -440,7 +464,7 @@ var render = function() {
                   "base-block",
                   {
                     staticClass: "timeline-event-block",
-                    attrs: { title: "Update", "header-bg": "" },
+                    attrs: { "header-bg": "", title: "Update" },
                     scopedSlots: _vm._u([
                       {
                         key: "options",
@@ -454,7 +478,7 @@ var render = function() {
                               },
                               [
                                 _vm._v(
-                                  "\n              10 min ago\n            "
+                                  "\n                            10 min ago\n                        "
                                 )
                               ]
                             )
@@ -485,8 +509,8 @@ var render = function() {
                                     _c("img", {
                                       staticClass: "img-avatar img-avatar48",
                                       attrs: {
-                                        src: "/images/avatars/avatar2.jpg",
-                                        alt: "Avatar"
+                                        alt: "Avatar",
+                                        src: "/images/avatars/avatar2.jpg"
                                       }
                                     })
                                   ]
@@ -509,7 +533,7 @@ var render = function() {
                             [_vm._v("Amanda Powell")]
                           ),
                           _vm._v(
-                            " Vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt sollicitudin sem nec ultrices. Sed at mi velit.\n            "
+                            " Vestibulum in vulputate\n                            at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Lorem\n                            ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt sollicitudin sem\n                            nec ultrices. Sed at mi velit.\n                        "
                           )
                         ]),
                         _vm._v(" "),
@@ -524,7 +548,7 @@ var render = function() {
                               _c("i", {
                                 staticClass: "fa fa-reply fa-fw text-muted"
                               }),
-                              _vm._v(" Reply\n              ")
+                              _vm._v(" Reply\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -538,7 +562,7 @@ var render = function() {
                               _c("i", {
                                 staticClass: "fa fa-redo fa-fw text-muted"
                               }),
-                              _vm._v(" Retweet\n              ")
+                              _vm._v(" Retweet\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -552,7 +576,7 @@ var render = function() {
                               _c("i", {
                                 staticClass: "fa fa-heart fa-fw text-muted"
                               }),
-                              _vm._v(" Like\n              ")
+                              _vm._v(" Like\n                            ")
                             ]
                           )
                         ])
@@ -575,7 +599,7 @@ var render = function() {
                   "base-block",
                   {
                     staticClass: "timeline-event-block",
-                    attrs: { title: "New Friends", "header-bg": "" },
+                    attrs: { "header-bg": "", title: "New Friends" },
                     scopedSlots: _vm._u([
                       {
                         key: "options",
@@ -589,7 +613,7 @@ var render = function() {
                               },
                               [
                                 _vm._v(
-                                  "\n              42 min ago\n            "
+                                  "\n                            42 min ago\n                        "
                                 )
                               ]
                             )
@@ -738,7 +762,7 @@ var render = function() {
                   "base-block",
                   {
                     staticClass: "timeline-event-block",
-                    attrs: { title: "Meeting", "header-bg": "" },
+                    attrs: { "header-bg": "", title: "Meeting" },
                     scopedSlots: _vm._u([
                       {
                         key: "options",
@@ -752,7 +776,7 @@ var render = function() {
                               },
                               [
                                 _vm._v(
-                                  "\n              3 hrs ago\n            "
+                                  "\n                            3 hrs ago\n                        "
                                 )
                               ]
                             )
@@ -796,7 +820,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("p", [
                           _vm._v(
-                            "\n              You have a meal meeting scheduled with "
+                            "\n                            You have a meal meeting scheduled with "
                           ),
                           _c(
                             "a",
@@ -804,9 +828,9 @@ var render = function() {
                               staticClass: "font-w600",
                               attrs: { href: "javascript:void(0)" }
                             },
-                            [_vm._v("Adam McCoy")]
+                            [_vm._v("Adam\n                            McCoy")]
                           ),
-                          _vm._v(" today at 16:18.\n            ")
+                          _vm._v(" today at 16:18.\n                        ")
                         ])
                       ]
                     )
@@ -827,7 +851,7 @@ var render = function() {
                   "base-block",
                   {
                     staticClass: "timeline-event-block",
-                    attrs: { title: "System", "header-bg": "" },
+                    attrs: { "header-bg": "", title: "System" },
                     scopedSlots: _vm._u([
                       {
                         key: "options",
@@ -841,7 +865,7 @@ var render = function() {
                               },
                               [
                                 _vm._v(
-                                  "\n              1 day ago\n            "
+                                  "\n                            1 day ago\n                        "
                                 )
                               ]
                             )
@@ -873,7 +897,7 @@ var render = function() {
                               [_vm._v("updated")]
                             ),
                             _vm._v(
-                              " to v" +
+                              "\n                                to v" +
                                 _vm._s(_vm.$store.getters.appVersion) +
                                 "!"
                             )
@@ -901,7 +925,7 @@ var render = function() {
                   "base-block",
                   {
                     staticClass: "timeline-event-block",
-                    attrs: { title: "Article", "header-bg": "" },
+                    attrs: { "header-bg": "", title: "Article" },
                     scopedSlots: _vm._u([
                       {
                         key: "options",
@@ -915,7 +939,7 @@ var render = function() {
                               },
                               [
                                 _vm._v(
-                                  "\n              2 days ago\n            "
+                                  "\n                            2 days ago\n                        "
                                 )
                               ]
                             )
@@ -929,13 +953,13 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                       )
                     ]),
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                        "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                       )
                     ]),
                     _vm._v(" "),
@@ -944,12 +968,16 @@ var render = function() {
                       {
                         staticClass: "push",
                         attrs: {
+                          href: "javascript:void(0)",
                           size: "sm",
-                          variant: "light",
-                          href: "javascript:void(0)"
+                          variant: "light"
                         }
                       },
-                      [_vm._v("\n            Read More..\n          ")]
+                      [
+                        _vm._v(
+                          "\n                        Read More..\n                    "
+                        )
+                      ]
                     )
                   ],
                   1

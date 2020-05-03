@@ -99,7 +99,7 @@ var render = function() {
                             "h1",
                             { staticClass: "display-4 font-w700 mb-3" },
                             [
-                              _vm._v("\n                dms "),
+                              _vm._v("\n                                dms "),
                               _c("span", { staticClass: "font-w300" }, [
                                 _vm._v("Vue Edition")
                               ])
@@ -111,11 +111,11 @@ var render = function() {
                             { staticClass: "font-size-lg text-muted mb-3" },
                             [
                               _vm._v(
-                                "\n                Build all your projects with one super flexible UI framework."
+                                "\n                                Build all your projects with one super flexible UI framework."
                               ),
                               _c("br"),
                               _vm._v(
-                                "Now rebuilt from scratch with Vue.js. Based on"
+                                "Now rebuilt from\n                                scratch with Vue.js. Based on"
                               ),
                               _c("br"),
                               _c(
@@ -125,9 +125,13 @@ var render = function() {
                                     href: "https://1.envato.market/AVD6j"
                                   }
                                 },
-                                [_vm._v("dms Remastered")]
+                                [
+                                  _vm._v(
+                                    "dms\n                                Remastered"
+                                  )
+                                ]
                               ),
-                              _vm._v(" design!\n              ")
+                              _vm._v(" design!\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -142,15 +146,15 @@ var render = function() {
                               ],
                               staticClass: "px-4 py-2 mr-2 mt-2",
                               attrs: {
-                                variant: "alt-success",
-                                href: "https://1.envato.market/5Noyb"
+                                href: "https://1.envato.market/5Noyb",
+                                variant: "alt-success"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-fw fa-shopping-cart mr-1"
                               }),
-                              _vm._v(" Purchase\n              ")
+                              _vm._v(" Purchase\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -165,15 +169,17 @@ var render = function() {
                               ],
                               staticClass: "px-4 py-2 mr-2 mt-2",
                               attrs: {
-                                variant: "alt-primary",
-                                to: "/backend/dashboard"
+                                to: "/backend/dashboard",
+                                variant: "alt-primary"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-fw fa-rocket mr-1"
                               }),
-                              _vm._v(" Live Preview\n              ")
+                              _vm._v(
+                                " Live Preview\n                            "
+                              )
                             ]
                           )
                         ],
@@ -205,8 +211,8 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "promo-image",
                                     attrs: {
-                                      src: "images/various/promo-dashboard.png",
-                                      alt: "dms Vue Promo Dashboard Image"
+                                      alt: "dms Vue Promo Dashboard Image",
+                                      src: "images/various/promo-dashboard.png"
                                     }
                                   })
                                 ]),
@@ -215,8 +221,8 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "promo-image",
                                     attrs: {
-                                      src: "images/various/promo-search.png",
-                                      alt: "dms Vue Promo Search Image"
+                                      alt: "dms Vue Promo Search Image",
+                                      src: "images/various/promo-search.png"
                                     }
                                   })
                                 ])
@@ -227,8 +233,8 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "promo-image",
                                     attrs: {
-                                      src: "images/various/promo-side.png",
-                                      alt: "dms Vue Promo Side Image"
+                                      alt: "dms Vue Promo Side Image",
+                                      src: "images/various/promo-side.png"
                                     }
                                   })
                                 ]),
@@ -237,8 +243,8 @@ var render = function() {
                                   _c("img", {
                                     staticClass: "promo-image",
                                     attrs: {
-                                      src: "images/various/promo-code-vue.png",
-                                      alt: "dms Vue Promo Code Image"
+                                      alt: "dms Vue Promo Code Image",
+                                      src: "images/various/promo-code-vue.png"
                                     }
                                   })
                                 ])
@@ -273,7 +279,7 @@ var render = function() {
             { staticClass: "py-5" },
             [
               _c("h2", { staticClass: "h1 font-w700 mb-3 text-center" }, [
-                _vm._v("\n          Vue Edition\n        ")
+                _vm._v("\n                    Vue Edition\n                ")
               ]),
               _vm._v(" "),
               _c(
@@ -284,7 +290,7 @@ var render = function() {
                 },
                 [
                   _vm._v(
-                    "\n          dms Vue Edition was carefully crafted for all your projects using the latest and greatest technology.\n        "
+                    "\n                    dms Vue Edition was carefully crafted for all your projects using the latest and greatest\n                    technology.\n                "
                   )
                 ]
               ),
@@ -296,7 +302,7 @@ var render = function() {
                     "b-col",
                     {
                       staticClass: "d-flex align-items-center",
-                      attrs: { "order-md": "1", md: "6", "offset-lg": "1" }
+                      attrs: { md: "6", "offset-lg": "1", "order-md": "1" }
                     },
                     [
                       _c(
@@ -317,9 +323,9 @@ var render = function() {
                                     "base-block",
                                     {
                                       attrs: {
-                                        rounded: "",
+                                        "content-full": "",
                                         "fx-shadow": "",
-                                        "content-full": ""
+                                        rounded: ""
                                       }
                                     },
                                     [
@@ -334,10 +340,10 @@ var render = function() {
                                             "svg",
                                             {
                                               attrs: {
-                                                version: "1.1",
-                                                width: "8em",
                                                 height: "8em",
+                                                version: "1.1",
                                                 viewBox: "0 0 261.76 226.69",
+                                                width: "8em",
                                                 xmlns:
                                                   "http://www.w3.org/2000/svg"
                                               }
@@ -370,6 +376,7 @@ var render = function() {
                                                       })
                                                     ]
                                                   ),
+                                                  _vm._v(" "),
                                                   _c(
                                                     "g",
                                                     {
@@ -408,9 +415,9 @@ var render = function() {
                                     "base-block",
                                     {
                                       attrs: {
-                                        rounded: "",
+                                        "content-full": "",
                                         "fx-shadow": "",
-                                        "content-full": ""
+                                        rounded: ""
                                       }
                                     },
                                     [
@@ -425,13 +432,13 @@ var render = function() {
                                             "svg",
                                             {
                                               attrs: {
-                                                xmlns:
-                                                  "http://www.w3.org/2000/svg",
-                                                width: "8em",
+                                                "clip-rule": "evenodd",
+                                                "fill-rule": "evenodd",
                                                 height: "8em",
                                                 viewBox: "0 0 2041 2160",
-                                                "clip-rule": "evenodd",
-                                                "fill-rule": "evenodd"
+                                                width: "8em",
+                                                xmlns:
+                                                  "http://www.w3.org/2000/svg"
                                               }
                                             },
                                             [
@@ -447,17 +454,17 @@ var render = function() {
                                               _vm._v(" "),
                                               _c("path", {
                                                 attrs: {
-                                                  "data-v-555a030c": "",
                                                   d:
                                                     "m1397 271-370 642-371-642h-592l963 1667 962-1667z",
+                                                  "data-v-555a030c": "",
                                                   fill: "#34495e"
                                                 }
                                               }),
                                               _vm._v(" "),
                                               _c("path", {
                                                 attrs: {
-                                                  "data-v-555a030c": "",
                                                   d: "m44 0h1952l-979 1696z",
+                                                  "data-v-555a030c": "",
                                                   fill: "#563d7c",
                                                   "fill-rule": "nonzero"
                                                 }
@@ -465,18 +472,18 @@ var render = function() {
                                               _vm._v(" "),
                                               _c("path", {
                                                 attrs: {
-                                                  "data-v-555a030c": "",
                                                   d:
                                                     "m1633 392-612 1061-613-1061h-408l1021 1768 1020-1768z",
+                                                  "data-v-555a030c": "",
                                                   fill: "#41b883"
                                                 }
                                               }),
                                               _vm._v(" "),
                                               _c("path", {
                                                 attrs: {
-                                                  "data-v-555a030c": "",
                                                   d:
                                                     "m767 196h339c62 0 112 14 150 43 38 28 56 71 56 129 0 36-8 66-25 91s-42 44-74 58v2c43 9 75 29 98 61 22 31 33 71 33 118 0 28-5 53-15 77s-25 44-46 61c-21 18-47 31-80 41-32 11-71 16-116 16h-320zm122 292h199c29 0 54-9 73-25 20-17 29-41 29-72 0-35-8-60-26-75-17-14-43-21-76-21h-199zm0 305h216c37 0 66-10 86-29s31-46 31-81-10-61-31-80-49-28-86-28h-216z",
+                                                  "data-v-555a030c": "",
                                                   fill: "#fff"
                                                 }
                                               })
@@ -500,17 +507,17 @@ var render = function() {
                   _vm._v(" "),
                   _c(
                     "b-col",
-                    { attrs: { "order-md": "0", md: "6", lg: "5" } },
+                    { attrs: { lg: "5", md: "6", "order-md": "0" } },
                     [
                       _c("h4", { staticClass: "h2 font-w700 mb-3" }, [
                         _vm._v(
-                          "\n              Amazing tools under the hood\n            "
+                          "\n                            Amazing tools under the hood\n                        "
                         )
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-lg text-muted mb-5" }, [
                         _vm._v(
-                          "\n              We used the best toolkits, built by passionate people, to recreate dms from scratch and craft a pure Vue.js based version.\n            "
+                          "\n                            We used the best toolkits, built by passionate people, to recreate dms from scratch and\n                            craft a pure Vue.js based version.\n                        "
                         )
                       ]),
                       _vm._v(" "),
@@ -531,13 +538,13 @@ var render = function() {
                         _c("div", { staticClass: "ml-4" }, [
                           _c("h5", { staticClass: "h4 mb-2" }, [
                             _vm._v(
-                              "\n                  Vue CLI\n                "
+                              "\n                                    Vue CLI\n                                "
                             )
                           ]),
                           _vm._v(" "),
                           _c("p", { staticClass: "text-muted" }, [
                             _vm._v(
-                              "\n                  Standard tooling for Vue.js development. Out-of-the-box support for Babel, TypeScript, ESLint, PostCSS, PWA, Unit Testing & End-to-end Testing.\n                "
+                              "\n                                    Standard tooling for Vue.js development. Out-of-the-box support for Babel,\n                                    TypeScript, ESLint, PostCSS, PWA, Unit Testing & End-to-end Testing.\n                                "
                             )
                           ])
                         ])
@@ -559,12 +566,14 @@ var render = function() {
                         _vm._v(" "),
                         _c("div", { staticClass: "ml-4" }, [
                           _c("h5", { staticClass: "h4 mb-2" }, [
-                            _vm._v("\n                  Vuex\n                ")
+                            _vm._v(
+                              "\n                                    Vuex\n                                "
+                            )
                           ]),
                           _vm._v(" "),
                           _c("p", { staticClass: "text-muted" }, [
                             _vm._v(
-                              "\n                  A state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion.\n                "
+                              "\n                                    A state management pattern + library for Vue.js applications. It serves as a\n                                    centralized store for all the components in an application, with rules ensuring\n                                    that the state can only be mutated in a predictable fashion.\n                                "
                             )
                           ])
                         ])
@@ -587,13 +596,13 @@ var render = function() {
                         _c("div", { staticClass: "ml-4" }, [
                           _c("h5", { staticClass: "h4 mb-2" }, [
                             _vm._v(
-                              "\n                  BootstrapVue\n                "
+                              "\n                                    BootstrapVue\n                                "
                             )
                           ]),
                           _vm._v(" "),
                           _c("p", { staticClass: "text-muted" }, [
                             _vm._v(
-                              "\n                  You can build responsive, mobile-first, and ARIA accessible projects on the web using Vue.js and the world's most popular front-end CSS library — Bootstrap 4.\n                "
+                              "\n                                    You can build responsive, mobile-first, and ARIA accessible projects on the web\n                                    using Vue.js and the world's most popular front-end CSS library — Bootstrap 4.\n                                "
                             )
                           ])
                         ])
@@ -617,7 +626,9 @@ var render = function() {
           { staticClass: "py-5 text-center" },
           [
             _c("h2", { staticClass: "h1 font-w700 mb-3 text-center" }, [
-              _vm._v("\n          Sophisticated Features\n        ")
+              _vm._v(
+                "\n                    Sophisticated Features\n                "
+              )
             ]),
             _vm._v(" "),
             _c(
@@ -628,7 +639,7 @@ var render = function() {
               },
               [
                 _vm._v(
-                  "\n          Comes packed with great features and development tools, based on dms Remastered design\n        "
+                  "\n                    Comes packed with great features and development tools, based on dms Remastered design\n                "
                 )
               ]
             ),
@@ -639,12 +650,12 @@ var render = function() {
               [
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -669,7 +680,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                The latest Bootstrap version powers the framework. Flexbox support and tons of new features are ready for you to use.\n              "
+                              "\n                                The latest Bootstrap version powers the framework. Flexbox support and tons of new\n                                features are ready for you to use.\n                            "
                             )
                           ]
                         )
@@ -681,12 +692,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -709,7 +720,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                Sass is used to override and extent Bootstrap in an intelligent way to ensure a perfect and modular workflow.\n              "
+                              "\n                                Sass is used to override and extent Bootstrap in an intelligent way to ensure a\n                                perfect and modular workflow.\n                            "
                             )
                           ]
                         )
@@ -721,12 +732,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -753,7 +764,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                ES6, the new major JavaScript release, is used, which enables us writing cleaner and better code.\n              "
+                              "\n                                ES6, the new major JavaScript release, is used, which enables us writing cleaner and\n                                better code.\n                            "
                             )
                           ]
                         )
@@ -765,12 +776,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -795,7 +806,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                The latest Font Awesome version is available, bringing you over 1300 freshly made icons to be used in your projects.\n              "
+                              "\n                                The latest Font Awesome version is available, bringing you over 1300 freshly made\n                                icons to be used in your projects.\n                            "
                             )
                           ]
                         )
@@ -807,12 +818,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -837,7 +848,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                Babel makes your JS code compatible with older browsers and webpack bundles your asset files together. Works out-of-the-box with Vue CLI.\n              "
+                              "\n                                Babel makes your JS code compatible with older browsers and webpack bundles your\n                                asset files together. Works out-of-the-box with Vue CLI.\n                            "
                             )
                           ]
                         )
@@ -849,12 +860,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -879,7 +890,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                Develop and manage your projects through an accompanying graphical user interface. Perfect for managing your tasks & dependencies.\n              "
+                              "\n                                Develop and manage your projects through an accompanying graphical user interface.\n                                Perfect for managing your tasks & dependencies.\n                            "
                             )
                           ]
                         )
@@ -891,12 +902,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -921,7 +932,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                When you edit a .vue file, all instances of that component will be swapped in without reloading the page. It also preserves current state.\n              "
+                              "\n                                When you edit a .vue file, all instances of that component will be swapped in\n                                without reloading the page. It also preserves current state.\n                            "
                             )
                           ]
                         )
@@ -933,12 +944,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -964,7 +975,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                Peace of mind when working with Sass. Use the latest CSS syntax and Autoprefixer will auto add any required prefixes for older browsers.\n              "
+                              "\n                                Peace of mind when working with Sass. Use the latest CSS syntax and Autoprefixer\n                                will auto add any required prefixes for older browsers.\n                            "
                             )
                           ]
                         )
@@ -976,12 +987,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -1006,7 +1017,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                Custom vital components are available to be used in your Vue.js templates, making it easier to structure your page content.\n              "
+                              "\n                                Custom vital components are available to be used in your Vue.js templates, making it\n                                easier to structure your page content.\n                            "
                             )
                           ]
                         )
@@ -1018,12 +1029,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -1048,7 +1059,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                Using the latest styles from dms Remastered version, you can be sure that all design elements are available in the Vue Edition as well.\n              "
+                              "\n                                Using the latest styles from dms Remastered version, you can be sure that all design\n                                elements are available in the Vue Edition as well.\n                            "
                             )
                           ]
                         )
@@ -1060,12 +1071,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -1090,7 +1101,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                Dark header, light sidebar, flexbox based layout, page overlay, header search and even more layout features are all available.\n              "
+                              "\n                                Dark header, light sidebar, flexbox based layout, page overlay, header search and\n                                even more layout features are all available.\n                            "
                             )
                           ]
                         )
@@ -1102,12 +1113,12 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "b-col",
-                  { attrs: { sm: "6", md: "4", xl: "3" } },
+                  { attrs: { md: "4", sm: "6", xl: "3" } },
                   [
                     _c(
                       "base-block",
                       {
-                        attrs: { rounded: "", "fx-pop": "", "content-full": "" }
+                        attrs: { "content-full": "", "fx-pop": "", rounded: "" }
                       },
                       [
                         _c(
@@ -1130,7 +1141,7 @@ var render = function() {
                           { staticClass: "font-size-sm text-muted text-left" },
                           [
                             _vm._v(
-                              "\n                Easily manipulate blocks and layout features on the fly from any component in your application. Either with buttons or JS code.\n              "
+                              "\n                                Easily manipulate blocks and layout features on the fly from any component in your\n                                application. Either with buttons or JS code.\n                            "
                             )
                           ]
                         )
@@ -1159,7 +1170,7 @@ var render = function() {
             [
               _c("h2", { staticClass: "h1 font-w700 mb-3 text-white" }, [
                 _vm._v(
-                  "\n          Trusted by over 3.900 developers and teams\n        "
+                  "\n                    Trusted by over 3.900 developers and teams\n                "
                 )
               ]),
               _vm._v(" "),
@@ -1176,13 +1187,21 @@ var render = function() {
                         staticClass:
                           "display-4 font-w700 text-primary-light mb-0"
                       },
-                      [_vm._v("\n              3.900+\n            ")]
+                      [
+                        _vm._v(
+                          "\n                            3.900+\n                        "
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "p",
                       { staticClass: "font-size-lg text-white-75 mb-0" },
-                      [_vm._v("\n              Purchases\n            ")]
+                      [
+                        _vm._v(
+                          "\n                            Purchases\n                        "
+                        )
+                      ]
                     )
                   ]),
                   _vm._v(" "),
@@ -1193,13 +1212,21 @@ var render = function() {
                         staticClass:
                           "display-4 font-w700 text-primary-light mb-0"
                       },
-                      [_vm._v("\n              250+\n            ")]
+                      [
+                        _vm._v(
+                          "\n                            250+\n                        "
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "p",
                       { staticClass: "font-size-lg text-white-75 mb-0" },
-                      [_vm._v("\n              5 Star Ratings\n            ")]
+                      [
+                        _vm._v(
+                          "\n                            5 Star Ratings\n                        "
+                        )
+                      ]
                     )
                   ]),
                   _vm._v(" "),
@@ -1210,13 +1237,21 @@ var render = function() {
                         staticClass:
                           "display-4 font-w700 text-primary-light mb-0"
                       },
-                      [_vm._v("\n              20\n            ")]
+                      [
+                        _vm._v(
+                          "\n                            20\n                        "
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "p",
                       { staticClass: "font-size-lg text-white-75 mb-0" },
-                      [_vm._v("\n              Free Updates\n            ")]
+                      [
+                        _vm._v(
+                          "\n                            Free Updates\n                        "
+                        )
+                      ]
                     )
                   ])
                 ],
@@ -1247,13 +1282,13 @@ var render = function() {
                 ],
                 staticClass: "px-4 py-2 mr-2 mt-2",
                 attrs: {
-                  variant: "alt-success",
-                  href: "https://1.envato.market/5Noyb"
+                  href: "https://1.envato.market/5Noyb",
+                  variant: "alt-success"
                 }
               },
               [
                 _c("i", { staticClass: "fa fa-fw fa-shopping-cart mr-1" }),
-                _vm._v(" Purchase\n        ")
+                _vm._v(" Purchase\n                ")
               ]
             ),
             _vm._v(" "),
@@ -1264,11 +1299,11 @@ var render = function() {
                   { name: "click-ripple", rawName: "v-click-ripple" }
                 ],
                 staticClass: "px-4 py-2 mr-2 mt-2",
-                attrs: { variant: "alt-primary", to: "/backend/dashboard" }
+                attrs: { to: "/backend/dashboard", variant: "alt-primary" }
               },
               [
                 _c("i", { staticClass: "fa fa-fw fa-rocket mr-1" }),
-                _vm._v(" Live Preview\n        ")
+                _vm._v(" Live Preview\n                ")
               ]
             )
           ],
@@ -1290,10 +1325,10 @@ var render = function() {
                 "b-col",
                 {
                   staticClass: "py-1 text-center text-sm-right",
-                  attrs: { sm: "6", "order-sm": "2" }
+                  attrs: { "order-sm": "2", sm: "6" }
                 },
                 [
-                  _vm._v("\n          Crafted with "),
+                  _vm._v("\n                    Crafted with "),
                   _c("i", { staticClass: "fa fa-heart text-danger" }),
                   _vm._v(" by "),
                   _c(
@@ -1311,7 +1346,7 @@ var render = function() {
                 "b-col",
                 {
                   staticClass: "py-1 text-center text-sm-left",
-                  attrs: { sm: "6", "order-sm": "1" }
+                  attrs: { "order-sm": "1", sm: "6" }
                 },
                 [
                   _c(
@@ -1333,7 +1368,7 @@ var render = function() {
                   _vm._v(
                     " © " +
                       _vm._s(_vm.$store.getters.appCopyright) +
-                      "\n        "
+                      "\n                "
                   )
                 ]
               )
@@ -1382,7 +1417,7 @@ var staticRenderFns = [
           [_vm._v("dms")]
         ),
         _vm._v(
-          " is one of the Best Seller and Best Rated admin templates on Themeforest. Its success made possible the development of Vue Edition.\n        "
+          " is one of the Best\n                    Seller and Best Rated admin templates on Themeforest. Its success made possible the development\n                    of Vue Edition.\n                "
         )
       ]
     )
@@ -1392,7 +1427,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("h2", { staticClass: "h1 font-w700 mb-3" }, [
-      _vm._v("\n          Crafted with "),
+      _vm._v("\n                    Crafted with "),
       _c("i", { staticClass: "fa fa-fw fa-heart text-city" }),
       _vm._v(" by "),
       _c(
@@ -1410,10 +1445,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "font-size-lg mb-6 mx-sm-6 mx-lg-9" }, [
-      _vm._v("\n          Elite author on Themeforest."),
+      _vm._v("\n                    Elite author on Themeforest."),
       _c("br"),
       _vm._v(
-        "Passionate web design and development with over 13.000 customers worldwide.\n        "
+        "Passionate web design and development with over 13.000 customers\n                    worldwide.\n                "
       )
     ])
   }

@@ -81,7 +81,7 @@ var render = function() {
     "div",
     [
       _c("base-page-heading", {
-        attrs: { title: "Page Layout", subtitle: "Flipped" },
+        attrs: { subtitle: "Flipped", title: "Page Layout" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -123,7 +123,7 @@ var render = function() {
           _c("base-block", [
             _c("p", { staticClass: "text-center" }, [
               _vm._v(
-                "\n        Right Sidebar, Left Side Overlay and a fixed Header.\n      "
+                "\n                Right Sidebar, Left Side Overlay and a fixed Header.\n            "
               )
             ])
           ])

@@ -125,7 +125,7 @@
             background-image: none; // Remove the gradient for the pressed/active state
         }
         border-color: darken($brand-primary, 12.5%);
-    
+
         &:focus {
             // Avoid using mixin so we can pass custom focus shadow properly
             @if $enable-shadows and $btn-active-box-shadow != none {
@@ -178,7 +178,7 @@
         color: color-yiq($brand-primary);
         background-color: $brand-primary;
         border-color: $brand-primary;
-    
+
         &:focus {
             // Avoid using mixin so we can pass custom focus shadow properly
             @if $enable-shadows and $btn-active-box-shadow != none {
@@ -212,7 +212,7 @@
         color: color-yiq($brand-primary);
         background-color: $brand-primary;
     }
-    
+
     a.badge-primary {
         @include hover-focus() {
             color: color-yiq($brand-primary);
@@ -437,12 +437,15 @@
         &[x-placement^="top"] {
             @extend .bs-popover-top;
         }
+
         &[x-placement^="right"] {
             @extend .bs-popover-right;
         }
+
         &[x-placement^="bottom"] {
             @extend .bs-popover-bottom;
         }
+
         &[x-placement^="left"] {
             @extend .bs-popover-left;
         }
@@ -578,35 +581,35 @@
                 @include gradient-bg($brand-primary);
                 border-color: $brand-primary;
             }
-    
+
             &:focus ~ .custom-control-label::before {
                 box-shadow: 0 0 0 1px $white, $input-btn-focus-box-shadow;
             }
-    
+
             &:focus:not(:checked) ~ .custom-control-label::before {
                 border-color: $brand-primary;
             }
-    
+
             &:not(:disabled):active ~ .custom-control-label::before {
                 background-color: $brand-lighter;
                 border-color: $brand-lighter;
             }
         }
-    
+
         .custom-checkbox {
             .custom-control-input:checked ~ .custom-control-label {
                 &::before {
                     @include gradient-bg($brand-primary);
                 }
             }
-    
+
             .custom-control-input:indeterminate ~ .custom-control-label {
                 &::before {
                     @include gradient-bg($brand-primary);
                 }
             }
         }
-    
+
         .custom-radio {
             .custom-control-input:checked ~ .custom-control-label {
                 &::before {
@@ -676,11 +679,21 @@
     }
 
     // Border
-    .border { border-color: $body-bg-dark !important; }
-    .border-top { border-top-color: $body-bg-dark !important; }
-    .border-right { border-right-color: $body-bg-dark !important; }
-    .border-bottom { border-bottom-color: $body-bg-dark !important; }
-    .border-left { border-left-color: $body-bg-dark !important; }
+    .border {
+        border-color: $body-bg-dark !important;
+    }
+    .border-top {
+        border-top-color: $body-bg-dark !important;
+    }
+    .border-right {
+        border-right-color: $body-bg-dark !important;
+    }
+    .border-bottom {
+        border-bottom-color: $body-bg-dark !important;
+    }
+    .border-left {
+        border-left-color: $body-bg-dark !important;
+    }
 
     @each $color, $value in $theme-colors {
         .border-#{$color} {
@@ -688,15 +701,29 @@
         }
     }
 
-    .border-primary { border-color: $brand-primary !important; }
-    .border-white { border-color: $white !important; }
-    .border-white-op { border-color: rgba($white,.1) !important; }
-    .border-black-op { border-color: rgba($black,.1) !important; }
+    .border-primary {
+        border-color: $brand-primary !important;
+    }
+    .border-white {
+        border-color: $white !important;
+    }
+    .border-white-op {
+        border-color: rgba($white, .1) !important;
+    }
+    .border-black-op {
+        border-color: rgba($black, .1) !important;
+    }
 
     // Main Structure
-    #page-header { background-color: $header-bg; }
-    #sidebar { background-color: $sidebar-bg; }
-    #side-overlay { background-color: $side-overlay-bg; }
+    #page-header {
+        background-color: $header-bg;
+    }
+    #sidebar {
+        background-color: $sidebar-bg;
+    }
+    #side-overlay {
+        background-color: $side-overlay-bg;
+    }
 
     // Layout/Style variations based on #page-container classes
     #page-container {
@@ -730,7 +757,9 @@
     }
 
     // Blocks
-    .block-header-default { background-color: $body-bg-light; }
+    .block-header-default {
+        background-color: $body-bg-light;
+    }
 
     // Block Variations
     .block {
@@ -860,14 +889,14 @@
     // Dark Sidebar Variation
     .nav-main-dark,
     .sidebar-dark #sidebar,
-    .page-header-dark #page-header  {
+    .page-header-dark #page-header {
         // Default links
         .nav-main-link {
-            color: rgba(255,255,255,.5);
+            color: rgba(255, 255, 255, .5);
 
             &:hover {
-                color: rgba(255,255,255,.5);
-                background-color: rgba(0,0,0,.2);
+                color: rgba(255, 255, 255, .5);
+                background-color: rgba(0, 0, 0, .2);
             }
 
             &.active {
@@ -878,7 +907,7 @@
         // Sub menus
         .nav-main-submenu {
             .nav-main-link {
-                color: rgba(255,255,255,.4);
+                color: rgba(255, 255, 255, .4);
 
                 &:hover,
                 &.active {
@@ -945,11 +974,11 @@
         &.ck-toolbar {
             background-color: $body-bg-light !important;
         }
-        
+
         &.ck-toolbar .ck.ck-toolbar__separator {
             background: $body-bg-dark !important;
         }
-        
+
         &.ck-toolbar,
         &.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
             border-color: $body-bg-dark !important;
@@ -1087,12 +1116,12 @@
     .vs__dropdown-option--highlight {
         background: $brand-primary;
     }
-    
+
     .vs__dropdown-toggle,
     .vs__dropdown-menu {
         border-color: $input-border-color;
     }
-    
+
     .vs__selected {
         background: $body-bg;
         border-color: $body-bg;

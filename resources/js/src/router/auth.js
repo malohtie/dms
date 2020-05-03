@@ -1,6 +1,4 @@
 /**
  * Auth Router Links
  */
-export default [
-
-]
+export default []

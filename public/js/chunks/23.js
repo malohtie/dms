@@ -40,6 +40,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   created: function created() {
     // Set example settings
@@ -77,7 +78,7 @@ var render = function() {
     "div",
     [
       _c("base-page-heading", {
-        attrs: { title: "Side Overlay", subtitle: "Disabled" },
+        attrs: { subtitle: "Disabled", title: "Side Overlay" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -119,7 +120,7 @@ var render = function() {
           _c("base-block", [
             _c("p", { staticClass: "text-center" }, [
               _vm._v(
-                "\n        You can easily disable the clickable Page Overlay which opens when Side Overlay Opens. Try opening Side Overlay to check it out.\n      "
+                "\n                You can easily disable the clickable Page Overlay which opens when Side Overlay Opens. Try opening\n                Side Overlay to check it out.\n            "
               )
             ]),
             _vm._v(" "),
@@ -132,7 +133,11 @@ var render = function() {
                   {
                     attrs: { action: "sideOverlayOpen", variant: "alt-primary" }
                   },
-                  [_vm._v("\n          Open the Side Overlay\n        ")]
+                  [
+                    _vm._v(
+                      "\n                    Open the Side Overlay\n                "
+                    )
+                  ]
                 )
               ],
               1

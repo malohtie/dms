@@ -1,588 +1,745 @@
 <template>
-  <div>
-    <!-- Hero -->
-    <base-page-heading title="Animations" subtitle="Rich animation library will bring your elements to life and engage your users.">
-      <template #extra>
-        <b-breadcrumb class="breadcrumb-alt">
-          <b-breadcrumb-item href="javascript:void(0)">Elements</b-breadcrumb-item>
-          <b-breadcrumb-item active>Animations</b-breadcrumb-item>
-        </b-breadcrumb>
-      </template>
-    </base-page-heading>
-    <!-- END Hero -->
+    <div>
+        <!-- Hero -->
+        <base-page-heading subtitle="Rich animation library will bring your elements to life and engage your users."
+                           title="Animations">
+            <template #extra>
+                <b-breadcrumb class="breadcrumb-alt">
+                    <b-breadcrumb-item href="javascript:void(0)">Elements</b-breadcrumb-item>
+                    <b-breadcrumb-item active>Animations</b-breadcrumb-item>
+                </b-breadcrumb>
+            </template>
+        </base-page-heading>
+        <!-- END Hero -->
 
-    <!-- Page Content -->
-    <div class="content">
-      <!-- Attention Seekers -->
-      <h2 class="content-heading">Attention Seekers</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ attentionSeekers.animated ? 'animated ' + attentionSeekers.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounce', 'attentionSeekers')">bounce</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('flash', 'attentionSeekers')">flash</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('pulse', 'attentionSeekers')">pulse</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rubberBand', 'attentionSeekers')">rubberBand</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('shake', 'attentionSeekers')">shake</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('swing', 'attentionSeekers')">swing</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('tada', 'attentionSeekers')">tada</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('wobble', 'attentionSeekers')">wobble</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('attentionSeekers')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Attention Seekers -->
+        <!-- Page Content -->
+        <div class="content">
+            <!-- Attention Seekers -->
+            <h2 class="content-heading">Attention Seekers</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ attentionSeekers.animated ? 'animated ' +
+                        attentionSeekers.animation : '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounce', 'attentionSeekers')" block variant="light">
+                                    bounce
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('flash', 'attentionSeekers')" block variant="light">
+                                    flash
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('pulse', 'attentionSeekers')" block variant="light">
+                                    pulse
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rubberBand', 'attentionSeekers')" block variant="light">
+                                    rubberBand
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('shake', 'attentionSeekers')" block variant="light">
+                                    shake
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('swing', 'attentionSeekers')" block variant="light">
+                                    swing
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('tada', 'attentionSeekers')" block variant="light">tada
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('wobble', 'attentionSeekers')" block variant="light">
+                                    wobble
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('attentionSeekers')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Attention Seekers -->
 
-      <!-- Bouncing Entrances -->
-      <h2 class="content-heading">Bouncing Entrances</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ bouncingEntrances.animated ? 'animated ' + bouncingEntrances.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceIn', 'bouncingEntrances')">bounceIn</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceInDown', 'bouncingEntrances')">bounceInDown</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceInLeft', 'bouncingEntrances')">bounceInLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceInRight', 'bouncingEntrances')">bounceInRight</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceInUp', 'bouncingEntrances')">bounceInUp</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('bouncingEntrances')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Bouncing Entrances -->
+            <!-- Bouncing Entrances -->
+            <h2 class="content-heading">Bouncing Entrances</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ bouncingEntrances.animated ? 'animated ' +
+                        bouncingEntrances.animation : '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceIn', 'bouncingEntrances')" block variant="light">
+                                    bounceIn
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceInDown', 'bouncingEntrances')" block
+                                          variant="light">bounceInDown
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceInLeft', 'bouncingEntrances')" block
+                                          variant="light">bounceInLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceInRight', 'bouncingEntrances')" block
+                                          variant="light">bounceInRight
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceInUp', 'bouncingEntrances')" block
+                                          variant="light">bounceInUp
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('bouncingEntrances')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Bouncing Entrances -->
 
-      <!-- Bouncing Exits -->
-      <h2 class="content-heading">Bouncing Exits</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ bouncingExits.animated ? 'animated ' + bouncingExits.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceOut', 'bouncingExits')">bounceOut</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceOutDown', 'bouncingExits')">bounceOutDown</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceOutLeft', 'bouncingExits')">bounceOutLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceOutRight', 'bouncingExits')">bounceOutRight</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('bounceOutUp', 'bouncingExits')">bounceOutUp</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('bouncingExits')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Bouncing Exits -->
+            <!-- Bouncing Exits -->
+            <h2 class="content-heading">Bouncing Exits</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ bouncingExits.animated ? 'animated ' +
+                        bouncingExits.animation : '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceOut', 'bouncingExits')" block variant="light">
+                                    bounceOut
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceOutDown', 'bouncingExits')" block variant="light">
+                                    bounceOutDown
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceOutLeft', 'bouncingExits')" block variant="light">
+                                    bounceOutLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceOutRight', 'bouncingExits')" block
+                                          variant="light">bounceOutRight
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('bounceOutUp', 'bouncingExits')" block variant="light">
+                                    bounceOutUp
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('bouncingExits')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Bouncing Exits -->
 
-      <!-- Fading Entrances -->
-      <h2 class="content-heading">Fading Entrances</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ fadingEntrances.animated ? 'animated ' + fadingEntrances.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeIn', 'fadingEntrances')">fadeIn</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeInDown', 'fadingEntrances')">fadeInDown</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeInDownBig', 'fadingEntrances')">fadeInDownBig</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeInLeft', 'fadingEntrances')">fadeInLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeInLeftBig', 'fadingEntrances')">fadeInLeftBig</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeInRight', 'fadingEntrances')">fadeInRight</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeInRightBig', 'fadingEntrances')">fadeInRightBig</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeInUp', 'fadingEntrances')">fadeInUp</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeInUpBig', 'fadingEntrances')">fadeInUpBig</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('fadingEntrances')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Fading Entrances -->
+            <!-- Fading Entrances -->
+            <h2 class="content-heading">Fading Entrances</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ fadingEntrances.animated ? 'animated ' +
+                        fadingEntrances.animation : '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeIn', 'fadingEntrances')" block variant="light">
+                                    fadeIn
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeInDown', 'fadingEntrances')" block variant="light">
+                                    fadeInDown
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeInDownBig', 'fadingEntrances')" block
+                                          variant="light">fadeInDownBig
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeInLeft', 'fadingEntrances')" block variant="light">
+                                    fadeInLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeInLeftBig', 'fadingEntrances')" block
+                                          variant="light">fadeInLeftBig
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeInRight', 'fadingEntrances')" block variant="light">
+                                    fadeInRight
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeInRightBig', 'fadingEntrances')" block
+                                          variant="light">fadeInRightBig
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeInUp', 'fadingEntrances')" block variant="light">
+                                    fadeInUp
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeInUpBig', 'fadingEntrances')" block variant="light">
+                                    fadeInUpBig
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('fadingEntrances')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Fading Entrances -->
 
-      <!-- Fading Exits -->
-      <h2 class="content-heading">Fading Exits</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ fadingExits.animated ? 'animated ' + fadingExits.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeOut', 'fadingExits')">fadeOut</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeOutDown', 'fadingExits')">fadeOutDown</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeOutDownBig', 'fadingExits')">fadeOutDownBig</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeOutLeft', 'fadingExits')">fadeOutLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeOutLeftBig', 'fadingExits')">fadeOutLeftBig</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeOutRight', 'fadingExits')">fadeOutRight</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeOutRightBig', 'fadingExits')">fadeOutRightBig</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeOutUp', 'fadingExits')">fadeOutUp</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('fadeOutUpBig', 'fadingExits')">fadeOutUpBig</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('fadingExits')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Fading Exits -->
+            <!-- Fading Exits -->
+            <h2 class="content-heading">Fading Exits</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ fadingExits.animated ? 'animated ' + fadingExits.animation :
+                        '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeOut', 'fadingExits')" block variant="light">
+                                    fadeOut
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeOutDown', 'fadingExits')" block variant="light">
+                                    fadeOutDown
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeOutDownBig', 'fadingExits')" block variant="light">
+                                    fadeOutDownBig
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeOutLeft', 'fadingExits')" block variant="light">
+                                    fadeOutLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeOutLeftBig', 'fadingExits')" block variant="light">
+                                    fadeOutLeftBig
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeOutRight', 'fadingExits')" block variant="light">
+                                    fadeOutRight
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeOutRightBig', 'fadingExits')" block variant="light">
+                                    fadeOutRightBig
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeOutUp', 'fadingExits')" block variant="light">
+                                    fadeOutUp
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('fadeOutUpBig', 'fadingExits')" block variant="light">
+                                    fadeOutUpBig
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('fadingExits')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Fading Exits -->
 
-      <!-- Flippers -->
-      <h2 class="content-heading">Flippers</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ flippers.animated ? 'animated ' + flippers.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('flip', 'flippers')">flip</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('flipInX', 'flippers')">flipInX</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('flipInY', 'flippers')">flipInY</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('flipOutX', 'flippers')">flipOutX</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('flipOutY', 'flippers')">flipOutY</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('flippers')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Flippers -->
+            <!-- Flippers -->
+            <h2 class="content-heading">Flippers</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ flippers.animated ? 'animated ' + flippers.animation : ''
+                        }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('flip', 'flippers')" block variant="light">flip
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('flipInX', 'flippers')" block variant="light">flipInX
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('flipInY', 'flippers')" block variant="light">flipInY
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('flipOutX', 'flippers')" block variant="light">flipOutX
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('flipOutY', 'flippers')" block variant="light">flipOutY
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('flippers')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Flippers -->
 
-      <!-- Lightspeed -->
-      <h2 class="content-heading">Lightspeed</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ lightspeed.animated ? 'animated ' + lightspeed.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('lightSpeedIn', 'lightspeed')">lightSpeedIn</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('lightSpeedOut', 'lightspeed')">lightSpeedOut</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('lightspeed')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Lightspeed -->
+            <!-- Lightspeed -->
+            <h2 class="content-heading">Lightspeed</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ lightspeed.animated ? 'animated ' + lightspeed.animation :
+                        '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('lightSpeedIn', 'lightspeed')" block variant="light">
+                                    lightSpeedIn
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('lightSpeedOut', 'lightspeed')" block variant="light">
+                                    lightSpeedOut
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('lightspeed')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Lightspeed -->
 
-      <!-- Rotating Entrances -->
-      <h2 class="content-heading">Rotating Entrances</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ rotatingEntrances.animated ? 'animated ' + rotatingEntrances.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateIn', 'rotatingEntrances')">rotateIn</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateInDownLeft', 'rotatingEntrances')">rotateInDownLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateInDownRight', 'rotatingEntrances')">rotateInDownRight</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateInDownLeft', 'rotatingEntrances')">rotateInDownLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateInUpRight', 'rotatingEntrances')">rotateInUpRight</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('rotatingEntrances')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Rotating Entrances -->
+            <!-- Rotating Entrances -->
+            <h2 class="content-heading">Rotating Entrances</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ rotatingEntrances.animated ? 'animated ' +
+                        rotatingEntrances.animation : '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateIn', 'rotatingEntrances')" block variant="light">
+                                    rotateIn
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateInDownLeft', 'rotatingEntrances')" block
+                                          variant="light">
+                                    rotateInDownLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateInDownRight', 'rotatingEntrances')" block
+                                          variant="light">
+                                    rotateInDownRight
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateInDownLeft', 'rotatingEntrances')" block
+                                          variant="light">
+                                    rotateInDownLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateInUpRight', 'rotatingEntrances')" block
+                                          variant="light">rotateInUpRight
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('rotatingEntrances')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Rotating Entrances -->
 
-      <!-- Rotating Exits -->
-      <h2 class="content-heading">Rotating Exits</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ rotatingExits.animated ? 'animated ' + rotatingExits.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateOut', 'rotatingExits')">rotateOut</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateOutDownLeft', 'rotatingExits')">rotateOutDownLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateOutDownRight', 'rotatingExits')">rotateOutDownRight</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateOutUpLeft', 'rotatingExits')">rotateOutUpLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rotateOutUpRight', 'rotatingExits')">rotateOutUpRight</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('rotatingExits')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Rotating Exits -->
+            <!-- Rotating Exits -->
+            <h2 class="content-heading">Rotating Exits</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ rotatingExits.animated ? 'animated ' +
+                        rotatingExits.animation : '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateOut', 'rotatingExits')" block variant="light">
+                                    rotateOut
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateOutDownLeft', 'rotatingExits')" block
+                                          variant="light">rotateOutDownLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateOutDownRight', 'rotatingExits')" block
+                                          variant="light">
+                                    rotateOutDownRight
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateOutUpLeft', 'rotatingExits')" block
+                                          variant="light">rotateOutUpLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rotateOutUpRight', 'rotatingExits')" block
+                                          variant="light">rotateOutUpRight
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('rotatingExits')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Rotating Exits -->
 
-      <!-- Sliding Entrances -->
-      <h2 class="content-heading">Sliding Entrances</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ slidingEntrances.animated ? 'animated ' + slidingEntrances.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('slideInUp', 'slidingEntrances')">slideInUp</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('slideInDown', 'slidingEntrances')">slideInDown</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('slideInLeft', 'slidingEntrances')">slideInLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('slideInRight', 'slidingEntrances')">slideInRight</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('slidingEntrances')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Sliding Entrances -->
+            <!-- Sliding Entrances -->
+            <h2 class="content-heading">Sliding Entrances</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ slidingEntrances.animated ? 'animated ' +
+                        slidingEntrances.animation : '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('slideInUp', 'slidingEntrances')" block variant="light">
+                                    slideInUp
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('slideInDown', 'slidingEntrances')" block
+                                          variant="light">slideInDown
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('slideInLeft', 'slidingEntrances')" block
+                                          variant="light">slideInLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('slideInRight', 'slidingEntrances')" block
+                                          variant="light">slideInRight
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('slidingEntrances')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Sliding Entrances -->
 
-      <!-- Sliding Exits -->
-      <h2 class="content-heading">Sliding Exits</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ slidingExits.animated ? 'animated ' + slidingExits.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('slideOutUp', 'slidingExits')">slideOutUp</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('slideOutDown', 'slidingExits')">slideOutDown</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('slideOutLeft', 'slidingExits')">slideOutLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('slideOutRight', 'slidingExits')">slideOutRight</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('slidingExits')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Sliding Exits -->
+            <!-- Sliding Exits -->
+            <h2 class="content-heading">Sliding Exits</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ slidingExits.animated ? 'animated ' + slidingExits.animation
+                        : '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('slideOutUp', 'slidingExits')" block variant="light">
+                                    slideOutUp
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('slideOutDown', 'slidingExits')" block variant="light">
+                                    slideOutDown
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('slideOutLeft', 'slidingExits')" block variant="light">
+                                    slideOutLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('slideOutRight', 'slidingExits')" block variant="light">
+                                    slideOutRight
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('slidingExits')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Sliding Exits -->
 
-      <!-- Zoom Entrances -->
-      <h2 class="content-heading">Zoom Entrances</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ zoomEntrances.animated ? 'animated ' + zoomEntrances.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomIn', 'zoomEntrances')">zoomIn</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomInDown', 'zoomEntrances')">zoomInDown</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomInLeft', 'zoomEntrances')">zoomInLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomInRight', 'zoomEntrances')">zoomInRight</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomInUp', 'zoomEntrances')">zoomInUp</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('zoomEntrances')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Zoom Entrances -->
+            <!-- Zoom Entrances -->
+            <h2 class="content-heading">Zoom Entrances</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ zoomEntrances.animated ? 'animated ' +
+                        zoomEntrances.animation : '' }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomIn', 'zoomEntrances')" block variant="light">
+                                    zoomIn
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomInDown', 'zoomEntrances')" block variant="light">
+                                    zoomInDown
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomInLeft', 'zoomEntrances')" block variant="light">
+                                    zoomInLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomInRight', 'zoomEntrances')" block variant="light">
+                                    zoomInRight
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomInUp', 'zoomEntrances')" block variant="light">
+                                    zoomInUp
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('zoomEntrances')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Zoom Entrances -->
 
-      <!-- Zoom Exits -->
-      <h2 class="content-heading">Zoom Exits</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ zoomExits.animated ? 'animated ' + zoomExits.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomOut', 'zoomExits')">zoomOut</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomOutDown', 'zoomExits')">zoomOutDown</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomOutLeft', 'zoomExits')">zoomOutLeft</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomOutRight', 'zoomExits')">zoomOutRight</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('zoomOutUp', 'zoomExits')">zoomOutUp</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('zoomExits')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Zoom Exits -->
+            <!-- Zoom Exits -->
+            <h2 class="content-heading">Zoom Exits</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ zoomExits.animated ? 'animated ' + zoomExits.animation : ''
+                        }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomOut', 'zoomExits')" block variant="light">zoomOut
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomOutDown', 'zoomExits')" block variant="light">
+                                    zoomOutDown
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomOutLeft', 'zoomExits')" block variant="light">
+                                    zoomOutLeft
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomOutRight', 'zoomExits')" block variant="light">
+                                    zoomOutRight
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('zoomOutUp', 'zoomExits')" block variant="light">
+                                    zoomOutUp
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('zoomExits')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Zoom Exits -->
 
-      <!-- Specials -->
-      <h2 class="content-heading">Specials</h2>
-      <base-block content-class="overflow-hidden">
-        <template #header>
-          <h3 class="block-title">
-            Active CSS classes: <small><code>{{ specials.animated ? 'animated ' + specials.animation : '' }}</code></small>
-          </h3>
-        </template>
-        <b-row>
-          <b-col lg="6">
-            <b-row class="items-push">
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('hinge', 'specials')">hinge</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rollIn', 'specials')">rollIn</b-button>
-              </b-col>
-              <b-col md="6">
-                <b-button variant="light" block @click="setAnimation('rollOut', 'specials')">rollOut</b-button>
-              </b-col>
-            </b-row>
-          </b-col>
-          <b-col lg="6" class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4">
-            <div :class="classContainer('specials')">
-              <img class="img-fluid" src="images/various/little-monster.png" alt="Cartoon" width="200">
-            </div>
-          </b-col>
-        </b-row>
-      </base-block>
-      <!-- END Specials -->
+            <!-- Specials -->
+            <h2 class="content-heading">Specials</h2>
+            <base-block content-class="overflow-hidden">
+                <template #header>
+                    <h3 class="block-title">
+                        Active CSS classes: <small><code>{{ specials.animated ? 'animated ' + specials.animation : ''
+                        }}</code></small>
+                    </h3>
+                </template>
+                <b-row>
+                    <b-col lg="6">
+                        <b-row class="items-push">
+                            <b-col md="6">
+                                <b-button @click="setAnimation('hinge', 'specials')" block variant="light">hinge
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rollIn', 'specials')" block variant="light">rollIn
+                                </b-button>
+                            </b-col>
+                            <b-col md="6">
+                                <b-button @click="setAnimation('rollOut', 'specials')" block variant="light">rollOut
+                                </b-button>
+                            </b-col>
+                        </b-row>
+                    </b-col>
+                    <b-col class="d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4" lg="6">
+                        <div :class="classContainer('specials')">
+                            <img alt="Cartoon" class="img-fluid" src="images/various/little-monster.png" width="200">
+                        </div>
+                    </b-col>
+                </b-row>
+            </base-block>
+            <!-- END Specials -->
+        </div>
+        <!-- END Page Content -->
     </div>
-    <!-- END Page Content -->
-  </div>
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      attentionSeekers: { animated: false, animation: '' },
-      bouncingEntrances: { animated: false, animation: '' },
-      bouncingExits: { animated: false, animation: '' },
-      fadingEntrances: { animated: false, animation: '' },
-      fadingExits: { animated: false, animation: '' },
-      flippers: { animated: false, animation: '' },
-      lightspeed: { animated: false, animation: '' },
-      rotatingEntrances: { animated: false, animation: '' },
-      rotatingExits: { animated: false, animation: '' },
-      slidingEntrances: { animated: false, animation: '' },
-      slidingExits: { animated: false, animation: '' },
-      zoomEntrances: { animated: false, animation: '' },
-      zoomExits: { animated: false, animation: '' },
-      specials: { animated: false, animation: '' }
-    }
-  },
-  methods: {
-    setAnimation (animation, section) {
-      // Remove animation classes
-      this[section]['animated'] = false
-      this[section]['animation'] = ''
+    export default {
+        data() {
+            return {
+                attentionSeekers: {animated: false, animation: ''},
+                bouncingEntrances: {animated: false, animation: ''},
+                bouncingExits: {animated: false, animation: ''},
+                fadingEntrances: {animated: false, animation: ''},
+                fadingExits: {animated: false, animation: ''},
+                flippers: {animated: false, animation: ''},
+                lightspeed: {animated: false, animation: ''},
+                rotatingEntrances: {animated: false, animation: ''},
+                rotatingExits: {animated: false, animation: ''},
+                slidingEntrances: {animated: false, animation: ''},
+                slidingExits: {animated: false, animation: ''},
+                zoomEntrances: {animated: false, animation: ''},
+                zoomExits: {animated: false, animation: ''},
+                specials: {animated: false, animation: ''}
+            }
+        },
+        methods: {
+            setAnimation(animation, section) {
+                // Remove animation classes
+                this[section]['animated'] = false
+                this[section]['animation'] = ''
 
-      // Add them again to trigger the animation
-      this[section]['animated'] = true
-      this[section]['animation'] = animation
-    },
-    classContainer (section) {
-      return {
-        'animated': this[section]['animated'],
-        [this[section]['animation']]: this[section]['animation']
-      }
+                // Add them again to trigger the animation
+                this[section]['animated'] = true
+                this[section]['animation'] = animation
+            },
+            classContainer(section) {
+                return {
+                    'animated': this[section]['animated'],
+                    [this[section]['animation']]: this[section]['animation']
+                }
+            }
+        }
     }
-  }
-}
 </script>

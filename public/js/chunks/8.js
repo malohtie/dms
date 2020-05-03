@@ -369,6 +369,23 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Get navigation data
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -402,9 +419,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Horizontal Navigation",
           subtitle:
-            "Easily adjust main navigation style to work horizontally as well."
+            "Easily adjust main navigation style to work horizontally as well.",
+          title: "Horizontal Navigation"
         },
         scopedSlots: _vm._u([
           {
@@ -464,10 +481,12 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
-                    _vm._v("\n          Menu - Hover Normal\n          "),
+                    _vm._v(
+                      "\n                    Menu - Hover Normal\n                    "
+                    ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
                 )
@@ -496,7 +515,9 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Left aligned, light themed\n      ")
+              _vm._v(
+                "\n                Left aligned, light themed\n            "
+              )
             ])
           ]),
           _vm._v(" "),
@@ -522,10 +543,12 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
-                    _vm._v("\n          Menu - Hover Normal Dark\n          "),
+                    _vm._v(
+                      "\n                    Menu - Hover Normal Dark\n                    "
+                    ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
                 )
@@ -555,7 +578,9 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Left aligned, dark themed\n      ")
+              _vm._v(
+                "\n                Left aligned, dark themed\n            "
+              )
             ])
           ]),
           _vm._v(" "),
@@ -581,10 +606,12 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
-                    _vm._v("\n          Menu - Hover Centered\n          "),
+                    _vm._v(
+                      "\n                    Menu - Hover Centered\n                    "
+                    ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
                 )
@@ -603,8 +630,8 @@ var render = function() {
                   attrs: {
                     nodes: _vm.navigation,
                     horizontal: "",
-                    "horizontal-hover": "",
-                    "horizontal-center": ""
+                    "horizontal-center": "",
+                    "horizontal-hover": ""
                   }
                 })
               ],
@@ -614,7 +641,9 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Center aligned, light themed\n      ")
+              _vm._v(
+                "\n                Center aligned, light themed\n            "
+              )
             ])
           ]),
           _vm._v(" "),
@@ -640,11 +669,11 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
                     _vm._v(
-                      "\n          Menu - Hover Centered Dark\n          "
+                      "\n                    Menu - Hover Centered Dark\n                    "
                     ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
@@ -665,8 +694,8 @@ var render = function() {
                     nodes: _vm.navigation,
                     dark: "",
                     horizontal: "",
-                    "horizontal-hover": "",
-                    "horizontal-center": ""
+                    "horizontal-center": "",
+                    "horizontal-hover": ""
                   }
                 })
               ],
@@ -676,7 +705,9 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Center aligned, dark themed\n      ")
+              _vm._v(
+                "\n                Center aligned, dark themed\n            "
+              )
             ])
           ]),
           _vm._v(" "),
@@ -702,10 +733,12 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
-                    _vm._v("\n          Menu - Hover Justified\n          "),
+                    _vm._v(
+                      "\n                    Menu - Hover Justified\n                    "
+                    ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
                 )
@@ -735,7 +768,7 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Justified, light themed\n      ")
+              _vm._v("\n                Justified, light themed\n            ")
             ])
           ]),
           _vm._v(" "),
@@ -762,11 +795,11 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
                     _vm._v(
-                      "\n          Menu - Hover Justified Dark\n          "
+                      "\n                    Menu - Hover Justified Dark\n                    "
                     ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
@@ -798,7 +831,7 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Justified, dark themed\n      ")
+              _vm._v("\n                Justified, dark themed\n            ")
             ])
           ]),
           _vm._v(" "),
@@ -828,10 +861,12 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
-                    _vm._v("\n          Menu - Click Normal\n          "),
+                    _vm._v(
+                      "\n                    Menu - Click Normal\n                    "
+                    ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
                 )
@@ -856,7 +891,9 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Left aligned, light themed\n      ")
+              _vm._v(
+                "\n                Left aligned, light themed\n            "
+              )
             ])
           ]),
           _vm._v(" "),
@@ -882,10 +919,12 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
-                    _vm._v("\n          Menu - Click Normal Dark\n          "),
+                    _vm._v(
+                      "\n                    Menu - Click Normal Dark\n                    "
+                    ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
                 )
@@ -910,7 +949,9 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Left aligned, dark themed\n      ")
+              _vm._v(
+                "\n                Left aligned, dark themed\n            "
+              )
             ])
           ]),
           _vm._v(" "),
@@ -936,10 +977,12 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
-                    _vm._v("\n          Menu - Click Centered\n          "),
+                    _vm._v(
+                      "\n                    Menu - Click Centered\n                    "
+                    ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
                 )
@@ -968,7 +1011,9 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Center aligned, light themed\n      ")
+              _vm._v(
+                "\n                Center aligned, light themed\n            "
+              )
             ])
           ]),
           _vm._v(" "),
@@ -994,11 +1039,11 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
                     _vm._v(
-                      "\n          Menu - Click Centered Dark\n          "
+                      "\n                    Menu - Click Centered Dark\n                    "
                     ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
@@ -1029,7 +1074,9 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Center aligned, dark themed\n      ")
+              _vm._v(
+                "\n                Center aligned, dark themed\n            "
+              )
             ])
           ]),
           _vm._v(" "),
@@ -1055,10 +1102,12 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
-                    _vm._v("\n          Menu - Click Justified\n          "),
+                    _vm._v(
+                      "\n                    Menu - Click Justified\n                    "
+                    ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
                 )
@@ -1087,7 +1136,7 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Justified, light themed\n      ")
+              _vm._v("\n                Justified, light themed\n            ")
             ])
           ]),
           _vm._v(" "),
@@ -1114,11 +1163,11 @@ var render = function() {
                     ],
                     staticClass:
                       "d-flex justify-content-between align-items-center",
-                    attrs: { variant: "light", block: "" }
+                    attrs: { block: "", variant: "light" }
                   },
                   [
                     _vm._v(
-                      "\n          Menu - Click Justified Dark\n          "
+                      "\n                    Menu - Click Justified Dark\n                    "
                     ),
                     _c("i", { staticClass: "fa fa-bars" })
                   ]
@@ -1149,7 +1198,7 @@ var render = function() {
           _vm._v(" "),
           _c("base-block", { staticClass: "d-none d-lg-block" }, [
             _c("p", { staticClass: "text-center py-8" }, [
-              _vm._v("\n        Justified, dark themed\n      ")
+              _vm._v("\n                Justified, dark themed\n            ")
             ])
           ])
         ],

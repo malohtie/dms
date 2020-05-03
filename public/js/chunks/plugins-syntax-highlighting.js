@@ -290,8 +290,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Highlight.js",
-          subtitle: "Beautiful syntax highlighting to showcase your code."
+          subtitle: "Beautiful syntax highlighting to showcase your code.",
+          title: "Highlight.js"
         },
         scopedSlots: _vm._u([
           {

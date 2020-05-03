@@ -20,9 +20,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Blank (Block)",
           subtitle:
-            "That feeling of delight when you start your awesome new project!"
+            "That feeling of delight when you start your awesome new project!",
+          title: "Blank (Block)"
         },
         scopedSlots: _vm._u([
           {
@@ -79,7 +79,12 @@ var render = function() {
                 }
               ])
             },
-            [_vm._v(" "), _c("p", [_vm._v("\n        Your content..\n      ")])]
+            [
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("\n                Your content..\n            ")
+              ])
+            ]
           )
         ],
         1

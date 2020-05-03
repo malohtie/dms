@@ -28,7 +28,7 @@ var render = function() {
               [
                 _c(
                   "b-col",
-                  { staticClass: "py-6", attrs: { md: "8", lg: "6", xl: "4" } },
+                  { staticClass: "py-6", attrs: { lg: "6", md: "8", xl: "4" } },
                   [
                     _c("div", { staticClass: "text-center" }, [
                       _c("p", [
@@ -39,7 +39,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("h1", { staticClass: "h4 mb-1" }, [
                         _vm._v(
-                          "\n                Sorry, we’re down for maintenance..\n              "
+                          "\n                                Sorry, we’re down for maintenance..\n                            "
                         )
                       ]),
                       _vm._v(" "),
@@ -48,7 +48,7 @@ var render = function() {
                         { staticClass: "h6 font-w400 text-muted mb-3" },
                         [
                           _vm._v(
-                            "\n                ..but we’ll be back shortly!\n              "
+                            "\n                                ..but we’ll be back shortly!\n                            "
                           )
                         ]
                       )
@@ -71,7 +71,7 @@ var render = function() {
             )
           )
         ]),
-        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n    ")
+        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n        ")
       ])
     ])
   ])

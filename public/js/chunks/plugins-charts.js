@@ -339,6 +339,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Chart.js, https://www.chartjs.org
  // Components using Vue Chart.js, for more info and examples you can check out https://github.com/apertureless/vue-chartjs
 
@@ -792,9 +810,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Charts",
           subtitle:
-            "Showcase your important data in a meaningful and empowering way."
+            "Showcase your important data in a meaningful and empowering way.",
+          title: "Charts"
         },
         scopedSlots: _vm._u([
           {
@@ -843,9 +861,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Lines",
+                        "content-class": "text-center",
                         "content-full": "",
-                        "content-class": "text-center"
+                        title: "Lines"
                       }
                     },
                     [
@@ -876,9 +894,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Bar",
+                        "content-class": "text-center",
                         "content-full": "",
-                        "content-class": "text-center"
+                        title: "Bar"
                       }
                     },
                     [
@@ -909,9 +927,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Radar",
+                        "content-class": "text-center",
                         "content-full": "",
-                        "content-class": "text-center"
+                        title: "Radar"
                       }
                     },
                     [
@@ -942,9 +960,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Polar Area",
+                        "content-class": "text-center",
                         "content-full": "",
-                        "content-class": "text-center"
+                        title: "Polar Area"
                       }
                     },
                     [
@@ -975,9 +993,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Pie",
+                        "content-class": "text-center",
                         "content-full": "",
-                        "content-class": "text-center"
+                        title: "Pie"
                       }
                     },
                     [
@@ -1008,9 +1026,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Doughnut",
+                        "content-class": "text-center",
                         "content-full": "",
-                        "content-class": "text-center"
+                        title: "Doughnut"
                       }
                     },
                     [
@@ -1050,7 +1068,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Simple", "content-full": "" },
+                      attrs: { "content-full": "", title: "Simple" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1101,16 +1119,18 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
+                                    "line-width": 3,
                                     percent: _vm.pieChartSimple[0],
-                                    "line-width": 3,
                                     size: 100,
                                     "bar-color": "#abe37d",
-                                    "track-color": "#eeeeee",
-                                    "scale-color": "#dddddd"
+                                    "scale-color": "#dddddd",
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
-                                  _vm._v("\n                80"),
+                                  _vm._v(
+                                    "\n                                80"
+                                  ),
                                   _c("small", { staticClass: "text-muted" }, [
                                     _vm._v("/100")
                                   ])
@@ -1131,17 +1151,17 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
+                                    "line-width": 3,
                                     percent: _vm.pieChartSimple[1],
-                                    "line-width": 3,
                                     size: 100,
                                     "bar-color": "#fadb7d",
-                                    "track-color": "#eeeeee",
-                                    "scale-color": "#dddddd"
+                                    "scale-color": "#dddddd",
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                45%\n              "
+                                    "\n                                45%\n                            "
                                   )
                                 ]
                               )
@@ -1160,17 +1180,17 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartSimple[2],
                                     "line-width": 3,
+                                    percent: _vm.pieChartSimple[2],
                                     size: 100,
                                     "bar-color": "#faad7d",
-                                    "track-color": "#eeeeee",
-                                    "scale-color": "#dddddd"
+                                    "scale-color": "#dddddd",
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                25mb\n              "
+                                    "\n                                25mb\n                            "
                                   )
                                 ]
                               )
@@ -1189,16 +1209,18 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartSimple[3],
                                     "line-width": 3,
+                                    percent: _vm.pieChartSimple[3],
+                                    "scale-length": 0,
                                     size: 100,
                                     "bar-color": "#abe37d",
-                                    "track-color": "#eeeeee",
-                                    "scale-length": 0
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
-                                  _vm._v("\n                80"),
+                                  _vm._v(
+                                    "\n                                80"
+                                  ),
                                   _c("small", { staticClass: "text-muted" }, [
                                     _vm._v("/100")
                                   ])
@@ -1219,17 +1241,17 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartSimple[4],
                                     "line-width": 3,
+                                    percent: _vm.pieChartSimple[4],
+                                    "scale-length": 0,
                                     size: 100,
                                     "bar-color": "#fadb7d",
-                                    "track-color": "#eeeeee",
-                                    "scale-length": 0
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                45%\n              "
+                                    "\n                                45%\n                            "
                                   )
                                 ]
                               )
@@ -1248,17 +1270,17 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartSimple[5],
                                     "line-width": 3,
+                                    percent: _vm.pieChartSimple[5],
+                                    "scale-length": 0,
                                     size: 100,
                                     "bar-color": "#faad7d",
-                                    "track-color": "#eeeeee",
-                                    "scale-length": 0
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
                                   _vm._v(
-                                    "\n                25.00mb\n              "
+                                    "\n                                25.00mb\n                            "
                                   )
                                 ]
                               )
@@ -1282,7 +1304,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Avatar", "content-full": "" },
+                      attrs: { "content-full": "", title: "Avatar" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1333,12 +1355,12 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartAvatar[0],
                                     "line-width": 3,
+                                    percent: _vm.pieChartAvatar[0],
                                     size: 100,
                                     "bar-color": "#abe37d",
-                                    "track-color": "#eeeeee",
-                                    "scale-color": "#dddddd"
+                                    "scale-color": "#dddddd",
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
@@ -1366,12 +1388,12 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartAvatar[1],
                                     "line-width": 3,
+                                    percent: _vm.pieChartAvatar[1],
                                     size: 100,
                                     "bar-color": "#fadb7d",
-                                    "track-color": "#eeeeee",
-                                    "scale-color": "#dddddd"
+                                    "scale-color": "#dddddd",
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
@@ -1399,12 +1421,12 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartAvatar[2],
                                     "line-width": 3,
+                                    percent: _vm.pieChartAvatar[2],
                                     size: 100,
                                     "bar-color": "#faad7d",
-                                    "track-color": "#eeeeee",
-                                    "scale-color": "#dddddd"
+                                    "scale-color": "#dddddd",
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
@@ -1432,12 +1454,12 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartAvatar[3],
                                     "line-width": 3,
+                                    percent: _vm.pieChartAvatar[3],
+                                    "scale-length": 0,
                                     size: 100,
                                     "bar-color": "#abe37d",
-                                    "track-color": "#eeeeee",
-                                    "scale-length": 0
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
@@ -1465,12 +1487,12 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartAvatar[4],
                                     "line-width": 3,
+                                    percent: _vm.pieChartAvatar[4],
+                                    "scale-length": 0,
                                     size: 100,
                                     "bar-color": "#fadb7d",
-                                    "track-color": "#eeeeee",
-                                    "scale-length": 0
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [
@@ -1498,12 +1520,12 @@ var render = function() {
                                 "vue-easy-pie-chart",
                                 {
                                   attrs: {
-                                    percent: _vm.pieChartAvatar[5],
                                     "line-width": 3,
+                                    percent: _vm.pieChartAvatar[5],
+                                    "scale-length": 0,
                                     size: 100,
                                     "bar-color": "#faad7d",
-                                    "track-color": "#eeeeee",
-                                    "scale-length": 0
+                                    "track-color": "#eeeeee"
                                   }
                                 },
                                 [

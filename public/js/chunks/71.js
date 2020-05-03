@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Carousel",
-          subtitle: "Flexible and mobile friendly content sliders."
+          subtitle: "Flexible and mobile friendly content sliders.",
+          title: "Carousel"
         },
         scopedSlots: _vm._u([
           {
@@ -66,8 +66,8 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Default with Indicators",
-                        "content-full": ""
+                        "content-full": "",
+                        title: "Default with Indicators"
                       }
                     },
                     [
@@ -75,9 +75,9 @@ var render = function() {
                         "b-carousel",
                         {
                           attrs: {
+                            interval: 4000,
                             controls: "",
-                            indicators: "",
-                            interval: 4000
+                            indicators: ""
                           }
                         },
                         [
@@ -114,8 +114,8 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Fade with Indicators",
-                        "content-full": ""
+                        "content-full": "",
+                        title: "Fade with Indicators"
                       }
                     },
                     [
@@ -123,10 +123,10 @@ var render = function() {
                         "b-carousel",
                         {
                           attrs: {
+                            interval: 4000,
+                            controls: "",
                             fade: "",
-                            controls: "",
-                            indicators: "",
-                            interval: 4000
+                            indicators: ""
                           }
                         },
                         [
@@ -163,8 +163,8 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "No animation with Indicators",
-                        "content-full": ""
+                        "content-full": "",
+                        title: "No animation with Indicators"
                       }
                     },
                     [
@@ -172,10 +172,10 @@ var render = function() {
                         "b-carousel",
                         {
                           attrs: {
-                            "no-animation": "",
+                            interval: 4000,
                             controls: "",
                             indicators: "",
-                            interval: 4000
+                            "no-animation": ""
                           }
                         },
                         [
@@ -210,11 +210,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Only Arrows", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Only Arrows" } },
                     [
                       _c(
                         "b-carousel",
-                        { attrs: { controls: "", interval: 4000 } },
+                        { attrs: { interval: 4000, controls: "" } },
                         [
                           _c("b-carousel-slide", {
                             attrs: { "img-src": "images/photos/photo30.jpg" }
@@ -249,14 +249,14 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Simple with No Pause on Hover",
-                        "content-full": ""
+                        "content-full": "",
+                        title: "Simple with No Pause on Hover"
                       }
                     },
                     [
                       _c(
                         "b-carousel",
-                        { attrs: { "no-hover-pause": "", interval: 4000 } },
+                        { attrs: { interval: 4000, "no-hover-pause": "" } },
                         [
                           _c("b-carousel-slide", {
                             attrs: { "img-src": "images/photos/photo31.jpg" }
@@ -289,12 +289,12 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "No autoplay", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "No autoplay" } },
                     [
                       _c(
                         "b-carousel",
                         {
-                          attrs: { controls: "", indicators: "", interval: 0 }
+                          attrs: { interval: 0, controls: "", indicators: "" }
                         },
                         [
                           _c("b-carousel-slide", {

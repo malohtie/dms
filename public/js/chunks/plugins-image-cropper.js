@@ -120,6 +120,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Vue Cropperjs, for more info and examples you can check out https://github.com/Agontuk/vue-cropperjs
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -240,8 +255,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Image Cropper",
-          subtitle: "Powered by Cropper.js plugin."
+          subtitle: "Powered by Cropper.js plugin.",
+          title: "Image Cropper"
         },
         scopedSlots: _vm._u([
           {
@@ -517,7 +532,7 @@ var render = function() {
                         }
                       }
                     },
-                    [_vm._v("\n          16:9\n        ")]
+                    [_vm._v("\n                    16:9\n                ")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -540,7 +555,7 @@ var render = function() {
                         }
                       }
                     },
-                    [_vm._v("\n          4:3\n        ")]
+                    [_vm._v("\n                    4:3\n                ")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -563,7 +578,7 @@ var render = function() {
                         }
                       }
                     },
-                    [_vm._v("\n          1:1\n        ")]
+                    [_vm._v("\n                    1:1\n                ")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -586,7 +601,7 @@ var render = function() {
                         }
                       }
                     },
-                    [_vm._v("\n          2:3\n        ")]
+                    [_vm._v("\n                    2:3\n                ")]
                   )
                 ],
                 1
@@ -613,7 +628,7 @@ var render = function() {
                     }
                   }
                 },
-                [_vm._v("\n        Free\n      ")]
+                [_vm._v("\n                Free\n            ")]
               ),
               _vm._v(" "),
               _c(

@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Form Layouts",
-          subtitle: "Multiple layouts to match any design requirement."
+          subtitle: "Multiple layouts to match any design requirement.",
+          title: "Form Layouts"
         },
         scopedSlots: _vm._u([
           {
@@ -65,7 +65,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            Using an inline layout can come really handy for small forms\n          "
+                        "\n                        Using an inline layout can come really handy for small forms\n                    "
                       )
                     ])
                   ]),
@@ -98,10 +98,10 @@ var render = function() {
                           _c("b-form-input", {
                             staticClass: "mb-2 mr-sm-2 mb-sm-0",
                             attrs: {
-                              type: "email",
                               id: "example-if-email",
                               name: "example-if-email",
-                              placeholder: "Email"
+                              placeholder: "Email",
+                              type: "email"
                             }
                           }),
                           _vm._v(" "),
@@ -117,10 +117,10 @@ var render = function() {
                           _c("b-form-input", {
                             staticClass: "mb-2 mr-sm-2 mb-sm-0",
                             attrs: {
-                              type: "password",
                               id: "example-if-password",
                               name: "example-if-password",
-                              placeholder: "Password"
+                              placeholder: "Password",
+                              type: "password"
                             }
                           }),
                           _vm._v(" "),
@@ -158,10 +158,10 @@ var render = function() {
                             staticClass:
                               "form-control-alt mb-2 mr-sm-2 mb-sm-0",
                             attrs: {
-                              type: "email",
                               id: "example-if-email2",
                               name: "example-if-email2",
-                              placeholder: "Email"
+                              placeholder: "Email",
+                              type: "email"
                             }
                           }),
                           _vm._v(" "),
@@ -178,10 +178,10 @@ var render = function() {
                             staticClass:
                               "form-control-alt mb-2 mr-sm-2 mb-sm-0",
                             attrs: {
-                              type: "password",
                               id: "example-if-password2",
                               name: "example-if-password2",
-                              placeholder: "Password"
+                              placeholder: "Password",
+                              type: "password"
                             }
                           }),
                           _vm._v(" "),
@@ -213,7 +213,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            An often used layout which is very easy to create with minimal markup\n          "
+                        "\n                        An often used layout which is very easy to create with minimal markup\n                    "
                       )
                     ])
                   ]),
@@ -245,8 +245,8 @@ var render = function() {
                               _c("b-form-input", {
                                 attrs: {
                                   id: "example-ltf-email",
-                                  type: "email",
-                                  placeholder: "Your Email.."
+                                  placeholder: "Your Email..",
+                                  type: "email"
                                 }
                               })
                             ],
@@ -265,8 +265,8 @@ var render = function() {
                               _c("b-form-input", {
                                 attrs: {
                                   id: "example-ltf-password",
-                                  type: "password",
-                                  placeholder: "Your Password.."
+                                  placeholder: "Your Password..",
+                                  type: "password"
                                 }
                               })
                             ],
@@ -314,8 +314,8 @@ var render = function() {
                                 staticClass: "form-control-alt",
                                 attrs: {
                                   id: "example-ltf-email2",
-                                  type: "email",
-                                  placeholder: "Your Email.."
+                                  placeholder: "Your Email..",
+                                  type: "email"
                                 }
                               })
                             ],
@@ -335,8 +335,8 @@ var render = function() {
                                 staticClass: "form-control-alt",
                                 attrs: {
                                   id: "example-ltf-password2",
-                                  type: "password",
-                                  placeholder: "Your Password.."
+                                  placeholder: "Your Password..",
+                                  type: "password"
                                 }
                               })
                             ],
@@ -377,7 +377,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            A horizontal layout is perfect for bigger forms\n          "
+                        "\n                        A horizontal layout is perfect for bigger forms\n                    "
                       )
                     ])
                   ]),
@@ -401,8 +401,8 @@ var render = function() {
                             "b-form-group",
                             {
                               attrs: {
-                                "label-cols-sm": "4",
                                 label: "Email",
+                                "label-cols-sm": "4",
                                 "label-for": "example-hf-email"
                               }
                             },
@@ -410,8 +410,8 @@ var render = function() {
                               _c("b-form-input", {
                                 attrs: {
                                   id: "example-hf-email",
-                                  type: "email",
-                                  placeholder: "Your Email.."
+                                  placeholder: "Your Email..",
+                                  type: "email"
                                 }
                               })
                             ],
@@ -422,8 +422,8 @@ var render = function() {
                             "b-form-group",
                             {
                               attrs: {
-                                "label-cols-sm": "4",
                                 label: "Password",
+                                "label-cols-sm": "4",
                                 "label-for": "example-hf-password"
                               }
                             },
@@ -431,8 +431,8 @@ var render = function() {
                               _c("b-form-input", {
                                 attrs: {
                                   id: "example-hf-password",
-                                  type: "password",
-                                  placeholder: "Your Password.."
+                                  placeholder: "Your Password..",
+                                  type: "password"
                                 }
                               })
                             ],
@@ -482,8 +482,8 @@ var render = function() {
                             "b-form-group",
                             {
                               attrs: {
-                                "label-cols-sm": "4",
                                 label: "Email",
+                                "label-cols-sm": "4",
                                 "label-for": "example-hf-email2"
                               }
                             },
@@ -492,8 +492,8 @@ var render = function() {
                                 staticClass: "form-control-alt",
                                 attrs: {
                                   id: "example-hf-email2",
-                                  type: "email",
-                                  placeholder: "Your Email.."
+                                  placeholder: "Your Email..",
+                                  type: "email"
                                 }
                               })
                             ],
@@ -504,8 +504,8 @@ var render = function() {
                             "b-form-group",
                             {
                               attrs: {
-                                "label-cols-sm": "4",
                                 label: "Password",
+                                "label-cols-sm": "4",
                                 "label-for": "example-hf-password2"
                               }
                             },
@@ -514,8 +514,8 @@ var render = function() {
                                 staticClass: "form-control-alt",
                                 attrs: {
                                   id: "example-hf-password2",
-                                  type: "password",
-                                  placeholder: "Your Password.."
+                                  placeholder: "Your Password..",
+                                  type: "password"
                                 }
                               })
                             ],
@@ -566,7 +566,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            Using the form grid you can create any input layout you could possibly imagine\n          "
+                        "\n                        Using the form grid you can create any input layout you could possibly imagine\n                    "
                       )
                     ])
                   ]),
@@ -797,7 +797,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            You could also include labels\n          "
+                        "\n                        You could also include labels\n                    "
                       )
                     ])
                   ]),

@@ -34,7 +34,7 @@
 
     @include media-breakpoint-up(lg) {
         width: $side-overlay-width;
-        box-shadow: 0 0 1.5rem rgba(0,0,0,.15);
+        box-shadow: 0 0 1.5rem rgba(0, 0, 0, .15);
         transform: translateX(110%) translateY(0) translateZ(0);
 
         .sidebar-r & {
@@ -54,7 +54,7 @@
         .side-overlay-hover &:hover,
         .side-overlay-o &,
         .side-overlay-o.side-overlay-hover & {
-            box-shadow: 0 0 1.25rem rgba($black,.3);
+            box-shadow: 0 0 1.25rem rgba($black, .3);
             transform: translateX(0) translateY(0) translateZ(0);
             opacity: 1;
         }

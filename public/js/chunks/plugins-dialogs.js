@@ -130,6 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 // Vue SweetAlert2, for more info and examples you can check out https://github.com/avil13/vue-sweetalert2
 
 
@@ -275,9 +276,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Dialogs",
           subtitle:
-            "Customizable and accesible popup boxes powered by SweetAlert2 plugin."
+            "Customizable and accesible popup boxes powered by SweetAlert2 plugin.",
+          title: "Dialogs"
         },
         scopedSlots: _vm._u([
           {
@@ -329,7 +330,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            A dialog showing a simple message\n          "
+                          "\n                        A dialog showing a simple message\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -340,7 +341,11 @@ var render = function() {
                           attrs: { variant: "light" },
                           on: { click: _vm.swalSimple }
                         },
-                        [_vm._v("\n            Launch Dialog\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Dialog\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -356,7 +361,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            A dialog showing a message after a successful operation\n          "
+                          "\n                        A dialog showing a message after a successful operation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -371,7 +376,7 @@ var render = function() {
                           _c("i", {
                             staticClass: "fa fa-check-circle text-success mr-1"
                           }),
-                          _vm._v(" Launch Dialog\n          ")
+                          _vm._v(" Launch Dialog\n                    ")
                         ]
                       )
                     ],
@@ -388,7 +393,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            A dialog showing an informational message\n          "
+                          "\n                        A dialog showing an informational message\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -403,7 +408,7 @@ var render = function() {
                           _c("i", {
                             staticClass: "fa fa-info-circle text-info mr-1"
                           }),
-                          _vm._v(" Launch Dialog\n          ")
+                          _vm._v(" Launch Dialog\n                    ")
                         ]
                       )
                     ],
@@ -420,7 +425,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            A dialog showing a warning message\n          "
+                          "\n                        A dialog showing a warning message\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -436,7 +441,7 @@ var render = function() {
                             staticClass:
                               "fa fa-exclamation-triangle text-warning mr-1"
                           }),
-                          _vm._v(" Launch Dialog\n          ")
+                          _vm._v(" Launch Dialog\n                    ")
                         ]
                       )
                     ],
@@ -453,7 +458,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            A dialog showing a message after a failed operation\n          "
+                          "\n                        A dialog showing a message after a failed operation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -468,7 +473,7 @@ var render = function() {
                           _c("i", {
                             staticClass: "fa fa-times-circle text-danger mr-1"
                           }),
-                          _vm._v(" Launch Dialog\n          ")
+                          _vm._v(" Launch Dialog\n                    ")
                         ]
                       )
                     ],
@@ -485,7 +490,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            A dialog showing a question message\n          "
+                          "\n                        A dialog showing a question message\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -500,7 +505,7 @@ var render = function() {
                           _c("i", {
                             staticClass: "fa fa-question-circle text-muted mr-1"
                           }),
-                          _vm._v(" Launch Dialog\n          ")
+                          _vm._v(" Launch Dialog\n                    ")
                         ]
                       )
                     ],
@@ -517,7 +522,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            A dialog showing a confirmation message\n          "
+                          "\n                        A dialog showing a confirmation message\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -532,7 +537,7 @@ var render = function() {
                           _c("i", {
                             staticClass: "fa fa-check-square text-muted mr-1"
                           }),
-                          _vm._v(" Launch Dialog\n          ")
+                          _vm._v(" Launch Dialog\n                    ")
                         ]
                       )
                     ],
@@ -549,7 +554,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            A dialog showing at the top right of the screen\n          "
+                          "\n                        A dialog showing at the top right of the screen\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -564,7 +569,7 @@ var render = function() {
                           _c("i", {
                             staticClass: "fa fa-bolt text-muted mr-1"
                           }),
-                          _vm._v(" Launch Dialog\n          ")
+                          _vm._v(" Launch Dialog\n                    ")
                         ]
                       )
                     ],

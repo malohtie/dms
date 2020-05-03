@@ -20,9 +20,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Color Themes",
           subtitle:
-            "Carefully picked colors that will inspire and make you more productive."
+            "Carefully picked colors that will inspire and make you more productive.",
+          title: "Color Themes"
         },
         scopedSlots: _vm._u([
           {
@@ -245,7 +245,7 @@ var render = function() {
                     "b-col",
                     {
                       staticClass: "py-4",
-                      attrs: { cols: "6", xl: "2", "offset-xl": "1" }
+                      attrs: { cols: "6", "offset-xl": "1", xl: "2" }
                     },
                     [
                       _c(
@@ -253,7 +253,7 @@ var render = function() {
                         {
                           staticClass:
                             "item item-link-pop item-circle bg-sidebar-light text-muted mx-auto mb-3",
-                          attrs: { tag: "a", action: "sidebarStyleLight" }
+                          attrs: { action: "sidebarStyleLight", tag: "a" }
                         },
                         [_c("i", { staticClass: "si si-drop" })]
                       ),
@@ -274,7 +274,7 @@ var render = function() {
                         {
                           staticClass:
                             "item item-link-pop item-circle bg-sidebar-dark text-white-75 mx-auto mb-3",
-                          attrs: { tag: "a", action: "sidebarStyleDark" }
+                          attrs: { action: "sidebarStyleDark", tag: "a" }
                         },
                         [_c("i", { staticClass: "si si-drop" })]
                       ),
@@ -290,7 +290,7 @@ var render = function() {
                     "b-col",
                     {
                       staticClass: "py-4",
-                      attrs: { cols: "6", xl: "2", "offset-xl": "2" }
+                      attrs: { cols: "6", "offset-xl": "2", xl: "2" }
                     },
                     [
                       _c(
@@ -298,7 +298,7 @@ var render = function() {
                         {
                           staticClass:
                             "item item-link-pop item-circle bg-header-light text-muted mx-auto mb-3",
-                          attrs: { tag: "a", action: "headerStyleLight" }
+                          attrs: { action: "headerStyleLight", tag: "a" }
                         },
                         [_c("i", { staticClass: "si si-drop" })]
                       ),
@@ -319,7 +319,7 @@ var render = function() {
                         {
                           staticClass:
                             "item item-link-pop item-circle bg-header-dark text-white-75 mx-auto mb-3",
-                          attrs: { tag: "a", action: "headerStyleDark" }
+                          attrs: { action: "headerStyleDark", tag: "a" }
                         },
                         [_c("i", { staticClass: "si si-drop" })]
                       ),
@@ -1122,7 +1122,7 @@ var render = function() {
                       attrs: { cols: "6", md: "4", xl: "2" }
                     },
                     [
-                      _vm._v(">\n          "),
+                      _vm._v(">\n                    "),
                       _c("div", { staticClass: "text-city-darker mb-3" }, [
                         _vm._v("City Darker")
                       ]),

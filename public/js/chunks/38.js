@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Block Options",
-          subtitle: "Colorful blocks to match with your design."
+          subtitle: "Colorful blocks to match with your design.",
+          title: "Block Options"
         },
         scopedSlots: _vm._u([
           {
@@ -69,7 +69,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Primary", themed: "" },
+                      attrs: { themed: "", title: "Primary" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -92,7 +92,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -108,9 +110,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Primary Light",
                         "header-class": "bg-primary-light",
-                        themed: ""
+                        themed: "",
+                        title: "Primary Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -134,7 +136,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -150,9 +154,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Primary Dark",
                         "header-class": "bg-primary-dark",
-                        themed: ""
+                        themed: "",
+                        title: "Primary Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -176,7 +180,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -192,9 +198,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Primary Darker",
                         "header-class": "bg-primary-darker",
-                        themed: ""
+                        themed: "",
+                        title: "Primary Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -218,7 +224,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -234,9 +242,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Success",
                         "header-class": "bg-success",
-                        themed: ""
+                        themed: "",
+                        title: "Success"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -260,7 +268,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -276,9 +286,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Info",
                         "header-class": "bg-info",
-                        themed: ""
+                        themed: "",
+                        title: "Info"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -302,7 +312,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -318,9 +330,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Warning",
                         "header-class": "bg-warning",
-                        themed: ""
+                        themed: "",
+                        title: "Warning"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -344,7 +356,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -360,9 +374,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Danger",
                         "header-class": "bg-danger",
-                        themed: ""
+                        themed: "",
+                        title: "Danger"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -386,7 +400,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -402,9 +418,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Gray",
                         "header-class": "bg-gray",
-                        themed: ""
+                        themed: "",
+                        title: "Gray"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -428,7 +444,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -444,9 +462,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Gray Dark",
                         "header-class": "bg-muted",
-                        themed: ""
+                        themed: "",
+                        title: "Gray Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -470,7 +488,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -486,9 +506,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Gray Darker",
                         "header-class": "bg-gray-darker",
-                        themed: ""
+                        themed: "",
+                        title: "Gray Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -512,7 +532,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -528,9 +550,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Black",
                         "header-class": "bg-black",
-                        themed: ""
+                        themed: "",
+                        title: "Black"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -554,7 +576,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -570,9 +594,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Default",
                         "header-class": "bg-default",
-                        themed: ""
+                        themed: "",
+                        title: "Default"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -596,7 +620,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -612,9 +638,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Default Light",
                         "header-class": "bg-default-light",
-                        themed: ""
+                        themed: "",
+                        title: "Default Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -638,7 +664,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -654,9 +682,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Default Dark",
                         "header-class": "bg-default-dark",
-                        themed: ""
+                        themed: "",
+                        title: "Default Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -680,7 +708,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -696,9 +726,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Default Darker",
                         "header-class": "bg-default-darker",
-                        themed: ""
+                        themed: "",
+                        title: "Default Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -722,7 +752,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -738,9 +770,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Amethyst",
                         "header-class": "bg-amethyst",
-                        themed: ""
+                        themed: "",
+                        title: "Amethyst"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -764,7 +796,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -780,9 +814,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Amethyst Light",
                         "header-class": "bg-amethyst-light",
-                        themed: ""
+                        themed: "",
+                        title: "Amethyst Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -806,7 +840,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -822,9 +858,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Amethyst Dark",
                         "header-class": "bg-amethyst-dark",
-                        themed: ""
+                        themed: "",
+                        title: "Amethyst Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -848,7 +884,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -864,9 +902,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Amethyst Darker",
                         "header-class": "bg-amethyst-darker",
-                        themed: ""
+                        themed: "",
+                        title: "Amethyst Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -890,7 +928,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -906,9 +946,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "City",
                         "header-class": "bg-city",
-                        themed: ""
+                        themed: "",
+                        title: "City"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -932,7 +972,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -948,9 +990,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "City Light",
                         "header-class": "bg-city-light",
-                        themed: ""
+                        themed: "",
+                        title: "City Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -974,7 +1016,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -990,9 +1034,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "City Dark",
                         "header-class": "bg-city-dark",
-                        themed: ""
+                        themed: "",
+                        title: "City Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1016,7 +1060,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1032,9 +1078,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "City Darker",
                         "header-class": "bg-city-darker",
-                        themed: ""
+                        themed: "",
+                        title: "City Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1058,7 +1104,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1074,9 +1122,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Flat",
                         "header-class": "bg-flat",
-                        themed: ""
+                        themed: "",
+                        title: "Flat"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1100,7 +1148,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1116,9 +1166,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Flat Light",
                         "header-class": "bg-flat-light",
-                        themed: ""
+                        themed: "",
+                        title: "Flat Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1142,7 +1192,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1158,9 +1210,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Flat Dark",
                         "header-class": "bg-flat-dark",
-                        themed: ""
+                        themed: "",
+                        title: "Flat Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1184,7 +1236,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1200,9 +1254,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Flat Darker",
                         "header-class": "bg-flat-darker",
-                        themed: ""
+                        themed: "",
+                        title: "Flat Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1226,7 +1280,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1242,9 +1298,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Modern",
                         "header-class": "bg-modern",
-                        themed: ""
+                        themed: "",
+                        title: "Modern"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1268,7 +1324,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1284,9 +1342,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Modern Light",
                         "header-class": "bg-modern-light",
-                        themed: ""
+                        themed: "",
+                        title: "Modern Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1310,7 +1368,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1326,9 +1386,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Modern Dark",
                         "header-class": "bg-modern-dark",
-                        themed: ""
+                        themed: "",
+                        title: "Modern Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1352,7 +1412,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1368,9 +1430,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Modern Darker",
                         "header-class": "bg-modern-darker",
-                        themed: ""
+                        themed: "",
+                        title: "Modern Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1394,7 +1456,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1410,9 +1474,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Smooth",
                         "header-class": "bg-smooth",
-                        themed: ""
+                        themed: "",
+                        title: "Smooth"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1436,7 +1500,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1452,9 +1518,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Smooth Light",
                         "header-class": "bg-smooth-light",
-                        themed: ""
+                        themed: "",
+                        title: "Smooth Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1478,7 +1544,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1494,9 +1562,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Smooth Dark",
                         "header-class": "bg-smooth-dark",
-                        themed: ""
+                        themed: "",
+                        title: "Smooth Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1520,7 +1588,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1536,9 +1606,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Smooth Darker",
                         "header-class": "bg-smooth-darker",
-                        themed: ""
+                        themed: "",
+                        title: "Smooth Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1562,7 +1632,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1587,7 +1659,7 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Primary", themed: "" },
+                      attrs: { themed: "", title: "Primary" },
                       scopedSlots: _vm._u([
                         {
                           key: "options",
@@ -1610,7 +1682,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1626,10 +1700,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Primary Light",
                         "header-class": "bg-primary-light",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Primary Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1653,7 +1727,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1669,10 +1745,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Primary Dark",
                         "header-class": "bg-primary-dark",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Primary Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1696,7 +1772,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1712,10 +1790,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Primary Darker",
                         "header-class": "bg-primary-darker",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Primary Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1739,7 +1817,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1755,10 +1835,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Success",
                         "header-class": "bg-success",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Success"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1782,7 +1862,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1798,10 +1880,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Info",
                         "header-class": "bg-info",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Info"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1825,7 +1907,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1841,10 +1925,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Warning",
                         "header-class": "bg-warning",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Warning"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1868,7 +1952,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1884,10 +1970,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Danger",
                         "header-class": "bg-danger",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Danger"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1911,7 +1997,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1927,10 +2015,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Gray",
                         "header-class": "bg-gray",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Gray"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1954,7 +2042,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -1970,10 +2060,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Gray Dark",
                         "header-class": "bg-muted",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Gray Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1997,7 +2087,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2013,10 +2105,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Gray Darker",
                         "header-class": "bg-gray-darker",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Gray Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2040,7 +2132,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2056,10 +2150,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Black",
                         "header-class": "bg-black",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Black"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2083,7 +2177,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2099,10 +2195,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Default",
                         "header-class": "bg-default",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Default"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2126,7 +2222,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2142,10 +2240,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Default Light",
                         "header-class": "bg-default-light",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Default Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2169,7 +2267,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2185,10 +2285,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Default Dark",
                         "header-class": "bg-default-dark",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Default Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2212,7 +2312,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2228,10 +2330,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Default Darker",
                         "header-class": "bg-default-darker",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Default Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2255,7 +2357,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2271,10 +2375,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Amethyst",
                         "header-class": "bg-amethyst",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Amethyst"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2298,7 +2402,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2314,10 +2420,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Amethyst Light",
                         "header-class": "bg-amethyst-light",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Amethyst Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2341,7 +2447,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2357,10 +2465,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Amethyst Dark",
                         "header-class": "bg-amethyst-dark",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Amethyst Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2384,7 +2492,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2400,10 +2510,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Amethyst Darker",
                         "header-class": "bg-amethyst-darker",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Amethyst Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2427,7 +2537,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2443,10 +2555,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "City",
                         "header-class": "bg-city",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "City"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2470,7 +2582,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2486,10 +2600,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "City Light",
                         "header-class": "bg-city-light",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "City Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2513,7 +2627,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2529,10 +2645,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "City Dark",
                         "header-class": "bg-city-dark",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "City Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2556,7 +2672,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2572,10 +2690,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "City Darker",
                         "header-class": "bg-city-darker",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "City Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2599,7 +2717,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2615,10 +2735,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Flat",
                         "header-class": "bg-flat",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Flat"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2642,7 +2762,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2658,10 +2780,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Flat Light",
                         "header-class": "bg-flat-light",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Flat Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2685,7 +2807,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2701,10 +2825,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Flat Dark",
                         "header-class": "bg-flat-dark",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Flat Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2728,7 +2852,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2744,10 +2870,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Flat Darker",
                         "header-class": "bg-flat-darker",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Flat Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2771,7 +2897,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2787,10 +2915,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Modern",
                         "header-class": "bg-modern",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Modern"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2814,7 +2942,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2830,10 +2960,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Modern Light",
                         "header-class": "bg-modern-light",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Modern Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2857,7 +2987,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2873,10 +3005,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Modern Dark",
                         "header-class": "bg-modern-dark",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Modern Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2900,7 +3032,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2916,10 +3050,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Modern Darker",
                         "header-class": "bg-modern-darker",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Modern Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2943,7 +3077,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -2959,10 +3095,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Smooth",
                         "header-class": "bg-smooth",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Smooth"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -2986,7 +3122,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -3002,10 +3140,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Smooth Light",
                         "header-class": "bg-smooth-light",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Smooth Light"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -3029,7 +3167,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -3045,10 +3185,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Smooth Dark",
                         "header-class": "bg-smooth-dark",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Smooth Dark"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -3072,7 +3212,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -3088,10 +3230,10 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Smooth Darker",
                         "header-class": "bg-smooth-darker",
+                        rounded: "",
                         themed: "",
-                        rounded: ""
+                        title: "Smooth Darker"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -3115,7 +3257,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )

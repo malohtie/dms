@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Ribbons",
-          subtitle: "Easily add cool ribbons to your blocks."
+          subtitle: "Easily add cool ribbons to your blocks.",
+          title: "Ribbons"
         },
         scopedSlots: _vm._u([
           {
@@ -275,7 +275,7 @@ var render = function() {
                           fn: function() {
                             return [
                               _c("i", { staticClass: "fa fa-check mr-1" }),
-                              _vm._v(" Crystal\n          ")
+                              _vm._v(" Crystal\n                    ")
                             ]
                           },
                           proxy: true
@@ -388,8 +388,8 @@ var render = function() {
                     {
                       attrs: {
                         ribbon: "",
-                        "ribbon-bottom": "",
-                        "ribbon-bookmark": ""
+                        "ribbon-bookmark": "",
+                        "ribbon-bottom": ""
                       },
                       scopedSlots: _vm._u([
                         {
@@ -425,9 +425,9 @@ var render = function() {
                     {
                       attrs: {
                         ribbon: "",
+                        "ribbon-bookmark": "",
                         "ribbon-bottom": "",
-                        "ribbon-left": "",
-                        "ribbon-bookmark": ""
+                        "ribbon-left": ""
                       },
                       scopedSlots: _vm._u([
                         {
@@ -463,8 +463,8 @@ var render = function() {
                     {
                       attrs: {
                         ribbon: "",
-                        "ribbon-left": "",
-                        "ribbon-bookmark": ""
+                        "ribbon-bookmark": "",
+                        "ribbon-left": ""
                       },
                       scopedSlots: _vm._u([
                         {
@@ -666,7 +666,7 @@ var render = function() {
                           fn: function() {
                             return [
                               _c("i", { staticClass: "fa fa-check mr-1" }),
-                              _vm._v(" Crystal\n          ")
+                              _vm._v(" Crystal\n                    ")
                             ]
                           },
                           proxy: true
@@ -1077,7 +1077,7 @@ var render = function() {
                           fn: function() {
                             return [
                               _c("i", { staticClass: "fa fa-check mr-1" }),
-                              _vm._v(" Crystal\n          ")
+                              _vm._v(" Crystal\n                    ")
                             ]
                           },
                           proxy: true

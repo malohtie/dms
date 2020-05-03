@@ -72,7 +72,7 @@ var render = function() {
     "div",
     [
       _c("base-page-heading", {
-        attrs: { title: "Side Overlay", subtitle: "Visible" },
+        attrs: { subtitle: "Visible", title: "Side Overlay" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -114,7 +114,7 @@ var render = function() {
           _c("base-block", [
             _c("p", { staticClass: "text-center" }, [
               _vm._v(
-                "\n        You can make the Side Overlay visible by default.\n      "
+                "\n                You can make the Side Overlay visible by default.\n            "
               )
             ])
           ])

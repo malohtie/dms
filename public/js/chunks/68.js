@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "FAQ",
-          subtitle: "Check out answers to the most common questions."
+          subtitle: "Check out answers to the most common questions.",
+          title: "FAQ"
         },
         scopedSlots: _vm._u([
           {
@@ -59,7 +59,7 @@ var render = function() {
             _c("div", { staticClass: "p-sm-4 p-xl-7" }, [
               _c("h2", { staticClass: "h3" }, [
                 _c("strong", [_vm._v("1.")]),
-                _vm._v(" Introduction\n        ")
+                _vm._v(" Introduction\n                ")
               ]),
               _vm._v(" "),
               _c(
@@ -87,7 +87,11 @@ var render = function() {
                                 staticClass: "text-muted",
                                 attrs: { href: "javascript:void(0)" }
                               },
-                              [_vm._v("Welcome to our service!")]
+                              [
+                                _vm._v(
+                                  "Welcome to our\n                                service!"
+                                )
+                              ]
                             )
                           ]
                         },
@@ -101,23 +105,23 @@ var render = function() {
                               "b-collapse",
                               {
                                 attrs: {
-                                  id: "faq1-q1",
-                                  visible: "",
                                   accordion: "faq1",
-                                  role: "tabpanel"
+                                  id: "faq1-q1",
+                                  role: "tabpanel",
+                                  visible: ""
                                 }
                               },
                               [
                                 _c("div", { staticClass: "block-content" }, [
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ]),
                                   _vm._v(" "),
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ])
                                 ])
@@ -165,23 +169,23 @@ var render = function() {
                               "b-collapse",
                               {
                                 attrs: {
-                                  id: "faq1-q2",
-                                  visible: "",
                                   accordion: "faq1",
-                                  role: "tabpanel"
+                                  id: "faq1-q2",
+                                  role: "tabpanel",
+                                  visible: ""
                                 }
                               },
                               [
                                 _c("div", { staticClass: "block-content" }, [
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ]),
                                   _vm._v(" "),
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ])
                                 ])
@@ -215,7 +219,11 @@ var render = function() {
                                 staticClass: "text-muted",
                                 attrs: { href: "javascript:void(0)" }
                               },
-                              [_vm._v("What are our values?")]
+                              [
+                                _vm._v(
+                                  "What are our\n                                values?"
+                                )
+                              ]
                             )
                           ]
                         },
@@ -229,23 +237,23 @@ var render = function() {
                               "b-collapse",
                               {
                                 attrs: {
-                                  id: "faq1-q3",
-                                  visible: "",
                                   accordion: "faq1",
-                                  role: "tabpanel"
+                                  id: "faq1-q3",
+                                  role: "tabpanel",
+                                  visible: ""
                                 }
                               },
                               [
                                 _c("div", { staticClass: "block-content" }, [
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ]),
                                   _vm._v(" "),
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ])
                                 ])
@@ -263,7 +271,7 @@ var render = function() {
               _vm._v(" "),
               _c("h2", { staticClass: "h3" }, [
                 _c("strong", [_vm._v("2.")]),
-                _vm._v(" Functionality\n        ")
+                _vm._v(" Functionality\n                ")
               ]),
               _vm._v(" "),
               _c(
@@ -291,7 +299,11 @@ var render = function() {
                                 staticClass: "text-muted",
                                 attrs: { href: "javascript:void(0)" }
                               },
-                              [_vm._v("What are the key features?")]
+                              [
+                                _vm._v(
+                                  "What are the key\n                                features?"
+                                )
+                              ]
                             )
                           ]
                         },
@@ -305,23 +317,23 @@ var render = function() {
                               "b-collapse",
                               {
                                 attrs: {
-                                  id: "faq2-q1",
-                                  visible: "",
                                   accordion: "faq2",
-                                  role: "tabpanel"
+                                  id: "faq2-q1",
+                                  role: "tabpanel",
+                                  visible: ""
                                 }
                               },
                               [
                                 _c("div", { staticClass: "block-content" }, [
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ]),
                                   _vm._v(" "),
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ])
                                 ])
@@ -355,7 +367,11 @@ var render = function() {
                                 staticClass: "text-muted",
                                 attrs: { href: "javascript:void(0)" }
                               },
-                              [_vm._v("Does your App support mobile devices?")]
+                              [
+                                _vm._v(
+                                  "Does your App support\n                                mobile devices?"
+                                )
+                              ]
                             )
                           ]
                         },
@@ -369,23 +385,23 @@ var render = function() {
                               "b-collapse",
                               {
                                 attrs: {
-                                  id: "faq2-q2",
-                                  visible: "",
                                   accordion: "faq2",
-                                  role: "tabpanel"
+                                  id: "faq2-q2",
+                                  role: "tabpanel",
+                                  visible: ""
                                 }
                               },
                               [
                                 _c("div", { staticClass: "block-content" }, [
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ]),
                                   _vm._v(" "),
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ])
                                 ])
@@ -419,7 +435,11 @@ var render = function() {
                                 staticClass: "text-muted",
                                 attrs: { href: "javascript:void(0)" }
                               },
-                              [_vm._v("Why should I choose your service?")]
+                              [
+                                _vm._v(
+                                  "Why should I choose\n                                your service?"
+                                )
+                              ]
                             )
                           ]
                         },
@@ -433,23 +453,23 @@ var render = function() {
                               "b-collapse",
                               {
                                 attrs: {
-                                  id: "faq2-q3",
-                                  visible: "",
                                   accordion: "faq2",
-                                  role: "tabpanel"
+                                  id: "faq2-q3",
+                                  role: "tabpanel",
+                                  visible: ""
                                 }
                               },
                               [
                                 _c("div", { staticClass: "block-content" }, [
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ]),
                                   _vm._v(" "),
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ])
                                 ])
@@ -483,7 +503,11 @@ var render = function() {
                                 staticClass: "text-muted",
                                 attrs: { href: "javascript:void(0)" }
                               },
-                              [_vm._v("Is my data secure?")]
+                              [
+                                _vm._v(
+                                  "Is my data\n                                secure?"
+                                )
+                              ]
                             )
                           ]
                         },
@@ -497,23 +521,23 @@ var render = function() {
                               "b-collapse",
                               {
                                 attrs: {
-                                  id: "faq2-q4",
-                                  visible: "",
                                   accordion: "faq2",
-                                  role: "tabpanel"
+                                  id: "faq2-q4",
+                                  role: "tabpanel",
+                                  visible: ""
                                 }
                               },
                               [
                                 _c("div", { staticClass: "block-content" }, [
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ]),
                                   _vm._v(" "),
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ])
                                 ])
@@ -531,7 +555,7 @@ var render = function() {
               _vm._v(" "),
               _c("h2", { staticClass: "h3" }, [
                 _c("strong", [_vm._v("3.")]),
-                _vm._v(" Payments\n        ")
+                _vm._v(" Payments\n                ")
               ]),
               _vm._v(" "),
               _c(
@@ -559,7 +583,11 @@ var render = function() {
                                 staticClass: "text-muted",
                                 attrs: { href: "javascript:void(0)" }
                               },
-                              [_vm._v("Is there any free plan?")]
+                              [
+                                _vm._v(
+                                  "Is there any free\n                                plan?"
+                                )
+                              ]
                             )
                           ]
                         },
@@ -573,23 +601,23 @@ var render = function() {
                               "b-collapse",
                               {
                                 attrs: {
-                                  id: "faq3-q1",
-                                  visible: "",
                                   accordion: "faq3",
-                                  role: "tabpanel"
+                                  id: "faq3-q1",
+                                  role: "tabpanel",
+                                  visible: ""
                                 }
                               },
                               [
                                 _c("div", { staticClass: "block-content" }, [
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ]),
                                   _vm._v(" "),
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ])
                                 ])
@@ -625,7 +653,7 @@ var render = function() {
                               },
                               [
                                 _vm._v(
-                                  "What are the available payment options?"
+                                  "What are the\n                                available payment options?"
                                 )
                               ]
                             )
@@ -641,23 +669,23 @@ var render = function() {
                               "b-collapse",
                               {
                                 attrs: {
-                                  id: "faq3-q2",
-                                  visible: "",
                                   accordion: "faq3",
-                                  role: "tabpanel"
+                                  id: "faq3-q2",
+                                  role: "tabpanel",
+                                  visible: ""
                                 }
                               },
                               [
                                 _c("div", { staticClass: "block-content" }, [
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ]),
                                   _vm._v(" "),
                                   _c("p", [
                                     _vm._v(
-                                      "\n                    Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                  "
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
                                     )
                                   ])
                                 ])

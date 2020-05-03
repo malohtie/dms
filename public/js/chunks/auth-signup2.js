@@ -122,6 +122,59 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Vuelidate, for more info and examples you can check out https://github.com/vuelidate/vuelidate
 
 
@@ -207,7 +260,7 @@ var render = function() {
               [
                 _c(
                   "b-col",
-                  { staticClass: "py-4", attrs: { md: "8", lg: "6", xl: "4" } },
+                  { staticClass: "py-4", attrs: { lg: "6", md: "8", xl: "4" } },
                   [
                     _c("div", { staticClass: "text-center" }, [
                       _c("p", { staticClass: "mb-2" }, [
@@ -218,7 +271,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("h1", { staticClass: "h4  mb-1" }, [
                         _vm._v(
-                          "\n                Create Account\n              "
+                          "\n                                Create Account\n                            "
                         )
                       ]),
                       _vm._v(" "),
@@ -227,7 +280,7 @@ var render = function() {
                         { staticClass: "h6 font-w400 text-muted mb-3" },
                         [
                           _vm._v(
-                            "\n                Get your access today in one easy step\n              "
+                            "\n                                Get your access today in one easy step\n                            "
                           )
                         ]
                       )
@@ -253,12 +306,12 @@ var render = function() {
                               _c("b-form-input", {
                                 staticClass: "form-control-alt",
                                 attrs: {
-                                  size: "lg",
+                                  state: !_vm.$v.form.username.$error && null,
+                                  "aria-describedby": "username-feedback",
                                   id: "username",
                                   name: "username",
                                   placeholder: "Username",
-                                  state: !_vm.$v.form.username.$error && null,
-                                  "aria-describedby": "username-feedback"
+                                  size: "lg"
                                 },
                                 model: {
                                   value: _vm.$v.form.username.$model,
@@ -283,13 +336,13 @@ var render = function() {
                               _c("b-form-input", {
                                 staticClass: "form-control-alt",
                                 attrs: {
-                                  type: "email",
-                                  size: "lg",
+                                  state: !_vm.$v.form.email.$error && null,
+                                  "aria-describedby": "email-feedback",
                                   id: "email",
                                   name: "email",
                                   placeholder: "Email",
-                                  state: !_vm.$v.form.email.$error && null,
-                                  "aria-describedby": "email-feedback"
+                                  size: "lg",
+                                  type: "email"
                                 },
                                 model: {
                                   value: _vm.$v.form.email.$model,
@@ -310,13 +363,13 @@ var render = function() {
                               _c("b-form-input", {
                                 staticClass: "form-control-alt",
                                 attrs: {
-                                  type: "password",
-                                  size: "lg",
+                                  state: !_vm.$v.form.password.$error && null,
+                                  "aria-describedby": "password-feedback",
                                   id: "password",
                                   name: "password",
                                   placeholder: "Password",
-                                  state: !_vm.$v.form.password.$error && null,
-                                  "aria-describedby": "password-feedback"
+                                  size: "lg",
+                                  type: "password"
                                 },
                                 model: {
                                   value: _vm.$v.form.password.$model,
@@ -341,13 +394,13 @@ var render = function() {
                               _c("b-form-input", {
                                 staticClass: "form-control-alt",
                                 attrs: {
-                                  type: "password",
-                                  size: "lg",
+                                  state: !_vm.$v.form.password2.$error && null,
+                                  "aria-describedby": "password2-feedback",
                                   id: "password2",
                                   name: "password2",
                                   placeholder: "Confirm Password",
-                                  state: !_vm.$v.form.password2.$error && null,
-                                  "aria-describedby": "password2-feedback"
+                                  size: "lg",
+                                  type: "password"
                                 },
                                 model: {
                                   value: _vm.$v.form.password2.$model,
@@ -380,11 +433,11 @@ var render = function() {
                                       "b-form-checkbox",
                                       {
                                         attrs: {
-                                          id: "terms",
-                                          name: "terms",
                                           state:
                                             !_vm.$v.form.terms.$error && null,
-                                          "aria-describedby": "terms-feedback"
+                                          "aria-describedby": "terms-feedback",
+                                          id: "terms",
+                                          name: "terms"
                                         },
                                         model: {
                                           value: _vm.$v.form.terms.$model,
@@ -398,7 +451,11 @@ var render = function() {
                                           expression: "$v.form.terms.$model"
                                         }
                                       },
-                                      [_vm._v("I agree to Terms & Conditions")]
+                                      [
+                                        _vm._v(
+                                          "I agree to Terms\n                                                & Conditions\n                                            "
+                                        )
+                                      ]
                                     )
                                   ],
                                   1
@@ -424,18 +481,22 @@ var render = function() {
                                         staticClass: "font-size-sm p-0",
                                         attrs: { variant: "link" }
                                       },
-                                      [_vm._v("View Terms")]
+                                      [
+                                        _vm._v(
+                                          "View Terms\n                                            "
+                                        )
+                                      ]
                                     ),
                                     _vm._v(" "),
                                     _c(
                                       "b-modal",
                                       {
                                         attrs: {
-                                          id: "one-signup-terms",
-                                          size: "lg",
                                           "body-class": "p-0",
                                           "hide-footer": "",
-                                          "hide-header": ""
+                                          "hide-header": "",
+                                          id: "one-signup-terms",
+                                          size: "lg"
                                         }
                                       },
                                       [
@@ -503,31 +564,31 @@ var render = function() {
                                               [
                                                 _c("p", [
                                                   _vm._v(
-                                                    "\n                              Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                            "
+                                                    "\n                                                            Dolor posuere proin blandit accumsan senectus netus\n                                                            nullam curae, ornare laoreet adipiscing luctus mauris\n                                                            adipiscing pretium eget fermentum, tristique lobortis\n                                                            est ut metus lobortis tortor tincidunt himenaeos\n                                                            habitant quis dictumst proin odio sagittis purus mi, nec\n                                                            taciti vestibulum quis in sit varius lorem sit metus mi.\n                                                        "
                                                   )
                                                 ]),
                                                 _vm._v(" "),
                                                 _c("p", [
                                                   _vm._v(
-                                                    "\n                              Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                            "
+                                                    "\n                                                            Dolor posuere proin blandit accumsan senectus netus\n                                                            nullam curae, ornare laoreet adipiscing luctus mauris\n                                                            adipiscing pretium eget fermentum, tristique lobortis\n                                                            est ut metus lobortis tortor tincidunt himenaeos\n                                                            habitant quis dictumst proin odio sagittis purus mi, nec\n                                                            taciti vestibulum quis in sit varius lorem sit metus mi.\n                                                        "
                                                   )
                                                 ]),
                                                 _vm._v(" "),
                                                 _c("p", [
                                                   _vm._v(
-                                                    "\n                              Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                            "
+                                                    "\n                                                            Dolor posuere proin blandit accumsan senectus netus\n                                                            nullam curae, ornare laoreet adipiscing luctus mauris\n                                                            adipiscing pretium eget fermentum, tristique lobortis\n                                                            est ut metus lobortis tortor tincidunt himenaeos\n                                                            habitant quis dictumst proin odio sagittis purus mi, nec\n                                                            taciti vestibulum quis in sit varius lorem sit metus mi.\n                                                        "
                                                   )
                                                 ]),
                                                 _vm._v(" "),
                                                 _c("p", [
                                                   _vm._v(
-                                                    "\n                              Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                            "
+                                                    "\n                                                            Dolor posuere proin blandit accumsan senectus netus\n                                                            nullam curae, ornare laoreet adipiscing luctus mauris\n                                                            adipiscing pretium eget fermentum, tristique lobortis\n                                                            est ut metus lobortis tortor tincidunt himenaeos\n                                                            habitant quis dictumst proin odio sagittis purus mi, nec\n                                                            taciti vestibulum quis in sit varius lorem sit metus mi.\n                                                        "
                                                   )
                                                 ]),
                                                 _vm._v(" "),
                                                 _c("p", [
                                                   _vm._v(
-                                                    "\n                              Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                            "
+                                                    "\n                                                            Dolor posuere proin blandit accumsan senectus netus\n                                                            nullam curae, ornare laoreet adipiscing luctus mauris\n                                                            adipiscing pretium eget fermentum, tristique lobortis\n                                                            est ut metus lobortis tortor tincidunt himenaeos\n                                                            habitant quis dictumst proin odio sagittis purus mi, nec\n                                                            taciti vestibulum quis in sit varius lorem sit metus mi.\n                                                        "
                                                   )
                                                 ])
                                               ]
@@ -544,8 +605,8 @@ var render = function() {
                                                   "b-button",
                                                   {
                                                     attrs: {
-                                                      variant: "light",
-                                                      size: "sm"
+                                                      size: "sm",
+                                                      variant: "light"
                                                     },
                                                     on: {
                                                       click: function($event) {
@@ -555,15 +616,19 @@ var render = function() {
                                                       }
                                                     }
                                                   },
-                                                  [_vm._v("Close")]
+                                                  [
+                                                    _vm._v(
+                                                      "Close\n                                                        "
+                                                    )
+                                                  ]
                                                 ),
                                                 _vm._v(" "),
                                                 _c(
                                                   "b-button",
                                                   {
                                                     attrs: {
-                                                      variant: "primary",
-                                                      size: "sm"
+                                                      size: "sm",
+                                                      variant: "primary"
                                                     },
                                                     on: {
                                                       click: function($event) {
@@ -573,7 +638,11 @@ var render = function() {
                                                       }
                                                     }
                                                   },
-                                                  [_vm._v("I Agree")]
+                                                  [
+                                                    _vm._v(
+                                                      "I Agree\n                                                        "
+                                                    )
+                                                  ]
                                                 )
                                               ],
                                               1
@@ -605,16 +674,18 @@ var render = function() {
                                   "b-button",
                                   {
                                     attrs: {
+                                      block: "",
                                       type: "submit",
-                                      variant: "success",
-                                      block: ""
+                                      variant: "success"
                                     }
                                   },
                                   [
                                     _c("i", {
                                       staticClass: "fa fa-fw fa-plus mr-1"
                                     }),
-                                    _vm._v(" Sign Up\n                  ")
+                                    _vm._v(
+                                      " Sign Up\n                                    "
+                                    )
                                   ]
                                 )
                               ],
@@ -645,7 +716,7 @@ var render = function() {
             )
           )
         ]),
-        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n    ")
+        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n        ")
       ])
     ])
   ])

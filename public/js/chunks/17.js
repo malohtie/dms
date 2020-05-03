@@ -35,6 +35,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   created: function created() {
     // Set example settings
@@ -72,7 +73,7 @@ var render = function() {
     "div",
     [
       _c("base-page-heading", {
-        attrs: { title: "Main Content", subtitle: "Boxed" },
+        attrs: { subtitle: "Boxed", title: "Main Content" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -114,7 +115,7 @@ var render = function() {
           _c("base-block", [
             _c("p", { staticClass: "text-center" }, [
               _vm._v(
-                "\n        Content has a max-width set, so on larger screens, the content is boxed (screen width greater than 991px).\n      "
+                "\n                Content has a max-width set, so on larger screens, the content is boxed (screen width greater than\n                991px).\n            "
               )
             ])
           ])

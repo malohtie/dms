@@ -54,13 +54,13 @@ var render = function() {
         [
           _c(
             "base-block",
-            { attrs: { title: "Sidebar Visibility", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Sidebar Visibility" } },
             [
               _c(
                 "b-table-simple",
                 {
                   staticClass: "text-vcenter mb-0",
-                  attrs: { striped: "", responsive: "" }
+                  attrs: { responsive: "", striped: "" }
                 },
                 [
                   _c(
@@ -118,12 +118,16 @@ var render = function() {
                                   staticClass: "mb-3",
                                   attrs: { action: "sidebarToggle", size: "sm" }
                                 },
-                                [_vm._v("Toggle Sidebar")]
+                                [
+                                  _vm._v(
+                                    "Toggle Sidebar\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Opens or Closes Sidebar based on its current state\n              "
+                                  "\n                                Opens or Closes Sidebar based on its current state\n                            "
                                 )
                               ])
                             ],
@@ -161,12 +165,16 @@ var render = function() {
                                   staticClass: "mb-3",
                                   attrs: { action: "sidebarOpen", size: "sm" }
                                 },
-                                [_vm._v("Open Sidebar")]
+                                [
+                                  _vm._v(
+                                    "Open Sidebar\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Opens Sidebar\n              "
+                                  "\n                                Opens Sidebar\n                            "
                                 )
                               ])
                             ],
@@ -204,12 +212,16 @@ var render = function() {
                                   staticClass: "mb-3",
                                   attrs: { action: "sidebarClose", size: "sm" }
                                 },
-                                [_vm._v("Close Sidebar")]
+                                [
+                                  _vm._v(
+                                    "Close Sidebar\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Closes Sidebar\n              "
+                                  "\n                                Closes Sidebar\n                            "
                                 )
                               ])
                             ],
@@ -246,13 +258,13 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Sidebar Position", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Sidebar Position" } },
             [
               _c(
                 "b-table-simple",
                 {
                   staticClass: "text-vcenter mb-0",
-                  attrs: { striped: "", responsive: "" }
+                  attrs: { responsive: "", striped: "" }
                 },
                 [
                   _c(
@@ -313,12 +325,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Toggle Sidebar Position")]
+                                [
+                                  _vm._v(
+                                    "Toggle\n                                Sidebar Position\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets Sidebar position to the left or to the right based on its current position\n              "
+                                  "\n                                Sets Sidebar position to the left or to the right based on its current position\n                            "
                                 )
                               ])
                             ],
@@ -336,7 +352,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sidebarPositionToggle">Toggle Sidebar Position</base-layout-modifier>'
+                                '<base-layout-modifier action="sidebarPositionToggle">Toggle\n                                Sidebar Position</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -359,12 +375,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Right Sidebar Position")]
+                                [
+                                  _vm._v(
+                                    "Right Sidebar\n                                Position\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Moves Sidebar to the right\n              "
+                                  "\n                                Moves Sidebar to the right\n                            "
                                 )
                               ])
                             ],
@@ -382,7 +402,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sidebarPositionRight">Right Sidebar Position</base-layout-modifier>'
+                                '<base-layout-modifier action="sidebarPositionRight">Right Sidebar\n                                Position</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -405,12 +425,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Left Sidebar Position")]
+                                [
+                                  _vm._v(
+                                    "Left Sidebar\n                                Position\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Moves Sidebar to the left\n              "
+                                  "\n                                Moves Sidebar to the left\n                            "
                                 )
                               ])
                             ],
@@ -428,7 +452,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sidebarPositionLeft">Left Sidebar Position</base-layout-modifier>'
+                                '<base-layout-modifier action="sidebarPositionLeft">Left Sidebar\n                                Position</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -447,13 +471,13 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Sidebar Mini", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Sidebar Mini" } },
             [
               _c(
                 "b-table-simple",
                 {
                   staticClass: "text-vcenter mb-0",
-                  attrs: { striped: "", responsive: "" }
+                  attrs: { responsive: "", striped: "" }
                 },
                 [
                   _c(
@@ -514,12 +538,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Toggle Mini Mode")]
+                                [
+                                  _vm._v(
+                                    "Toggle Mini\n                                Mode\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Toggles Sidebar mini mode\n              "
+                                  "\n                                Toggles Sidebar mini mode\n                            "
                                 )
                               ])
                             ],
@@ -557,12 +585,16 @@ var render = function() {
                                   staticClass: "mb-3",
                                   attrs: { action: "sidebarMiniOn", size: "sm" }
                                 },
-                                [_vm._v("Enable Mini Mode")]
+                                [
+                                  _vm._v(
+                                    "Enable Mini Mode\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Enables Sidebar mini mode\n              "
+                                  "\n                                Enables Sidebar mini mode\n                            "
                                 )
                               ])
                             ],
@@ -603,12 +635,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Disable Mini Mode")]
+                                [
+                                  _vm._v(
+                                    "Disable Mini Mode\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Disables Sidebar mini mode\n              "
+                                  "\n                                Disables Sidebar mini mode\n                            "
                                 )
                               ])
                             ],
@@ -645,13 +681,13 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Sidebar Styles", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Sidebar Styles" } },
             [
               _c(
                 "b-table-simple",
                 {
                   staticClass: "text-vcenter mb-0",
-                  attrs: { striped: "", responsive: "" }
+                  attrs: { responsive: "", striped: "" }
                 },
                 [
                   _c(
@@ -712,12 +748,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Toggle Sidebar Style")]
+                                [
+                                  _vm._v(
+                                    "Toggle Sidebar\n                                Style\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Toggles Sidebar style between light and dark variations\n              "
+                                  "\n                                Toggles Sidebar style between light and dark variations\n                            "
                                 )
                               ])
                             ],
@@ -735,7 +775,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sidebarStyleToggle">Toggle Sidebar Style</base-layout-modifier>'
+                                '<base-layout-modifier action="sidebarStyleToggle">Toggle Sidebar\n                                Style</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -758,12 +798,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Light Themed Sidebar")]
+                                [
+                                  _vm._v(
+                                    "Light Themed\n                                Sidebar\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets Sidebar to light variation\n              "
+                                  "\n                                Sets Sidebar to light variation\n                            "
                                 )
                               ])
                             ],
@@ -781,7 +825,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sidebarStyleLight">Light Themed Sidebar</base-layout-modifier>'
+                                '<base-layout-modifier action="sidebarStyleLight">Light Themed\n                                Sidebar</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -804,12 +848,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Dark Themed Sidebar")]
+                                [
+                                  _vm._v(
+                                    "Dark Themed\n                                Sidebar\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets Sidebar to dark variation\n              "
+                                  "\n                                Sets Sidebar to dark variation\n                            "
                                 )
                               ])
                             ],
@@ -827,7 +875,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sidebarStyleDark">Dark Themed Sidebar</base-layout-modifier>'
+                                '<base-layout-modifier action="sidebarStyleDark">Dark Themed\n                                Sidebar</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -846,13 +894,13 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Side Overlay Visibility", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Side Overlay Visibility" } },
             [
               _c(
                 "b-table-simple",
                 {
                   staticClass: "text-vcenter mb-0",
-                  attrs: { striped: "", responsive: "" }
+                  attrs: { responsive: "", striped: "" }
                 },
                 [
                   _c(
@@ -913,12 +961,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Toggle Side Overlay")]
+                                [
+                                  _vm._v(
+                                    "Toggle Side\n                                Overlay\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Opens or Closes Side Overlay based on its current state\n              "
+                                  "\n                                Opens or Closes Side Overlay based on its current state\n                            "
                                 )
                               ])
                             ],
@@ -936,7 +988,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sideOverlayToggle">Toggle Side Overlay</base-layout-modifier>'
+                                '<base-layout-modifier action="sideOverlayToggle">Toggle Side\n                                Overlay</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -959,12 +1011,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Open Side Overlay")]
+                                [
+                                  _vm._v(
+                                    "Open Side\n                                Overlay\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Opens Side Overlay\n              "
+                                  "\n                                Opens Side Overlay\n                            "
                                 )
                               ])
                             ],
@@ -1005,12 +1061,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Close Side Overlay")]
+                                [
+                                  _vm._v(
+                                    "Close Side\n                                Overlay\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Closes Side Overlay\n              "
+                                  "\n                                Closes Side Overlay\n                            "
                                 )
                               ])
                             ],
@@ -1047,13 +1107,13 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Side Overlay Hover Mode", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Side Overlay Hover Mode" } },
             [
               _c(
                 "b-table-simple",
                 {
                   staticClass: "text-vcenter mb-0",
-                  attrs: { striped: "", responsive: "" }
+                  attrs: { responsive: "", striped: "" }
                 },
                 [
                   _c(
@@ -1114,12 +1174,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Toggle Hover Mode")]
+                                [
+                                  _vm._v(
+                                    "Toggle\n                                Hover Mode\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Toggles Side Overlay hover mode\n              "
+                                  "\n                                Toggles Side Overlay hover mode\n                            "
                                 )
                               ])
                             ],
@@ -1137,7 +1201,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sideOverlayHoverToggle">Toggle Hover Mode</base-layout-modifier>'
+                                '<base-layout-modifier action="sideOverlayHoverToggle">Toggle Hover\n                                Mode</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -1160,12 +1224,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Enable Hover Mode")]
+                                [
+                                  _vm._v(
+                                    "Enable Hover\n                                Mode\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Enables Side Overlay hover mode\n              "
+                                  "\n                                Enables Side Overlay hover mode\n                            "
                                 )
                               ])
                             ],
@@ -1183,7 +1251,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sideOverlayHoverOn">Enable Hover Mode</base-layout-modifier>'
+                                '<base-layout-modifier action="sideOverlayHoverOn">Enable Hover\n                                Mode</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -1206,12 +1274,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Disable Hover Mode")]
+                                [
+                                  _vm._v(
+                                    "Disable Hover\n                                Mode\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Disables Side Overlay hover mode\n              "
+                                  "\n                                Disables Side Overlay hover mode\n                            "
                                 )
                               ])
                             ],
@@ -1229,7 +1301,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="sideOverlayHoverOff">Disable Hover Mode</base-layout-modifier>'
+                                '<base-layout-modifier action="sideOverlayHoverOff">Disable Hover\n                                Mode</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -1248,13 +1320,13 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Header Mode", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Header Mode" } },
             [
               _c(
                 "b-table-simple",
                 {
                   staticClass: "text-vcenter mb-0",
-                  attrs: { striped: "", responsive: "" }
+                  attrs: { responsive: "", striped: "" }
                 },
                 [
                   _c(
@@ -1312,12 +1384,16 @@ var render = function() {
                                   staticClass: "mb-3",
                                   attrs: { action: "headerToggle", size: "sm" }
                                 },
-                                [_vm._v("Toggle Header Mode")]
+                                [
+                                  _vm._v(
+                                    "Toggle Header Mode\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Toggles Header mode between static and fixed\n              "
+                                  "\n                                Toggles Header mode between static and fixed\n                            "
                                 )
                               ])
                             ],
@@ -1355,12 +1431,16 @@ var render = function() {
                                   staticClass: "mb-3",
                                   attrs: { action: "headerStatic", size: "sm" }
                                 },
-                                [_vm._v("Static Header")]
+                                [
+                                  _vm._v(
+                                    "Static Header\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets the Header to static mode\n              "
+                                  "\n                                Sets the Header to static mode\n                            "
                                 )
                               ])
                             ],
@@ -1398,12 +1478,16 @@ var render = function() {
                                   staticClass: "mb-3",
                                   attrs: { action: "headerFixed", size: "sm" }
                                 },
-                                [_vm._v("Fixed Header")]
+                                [
+                                  _vm._v(
+                                    "Fixed Header\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets the Header to fixed mode\n              "
+                                  "\n                                Sets the Header to fixed mode\n                            "
                                 )
                               ])
                             ],
@@ -1440,13 +1524,13 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Header Styles", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Header Styles" } },
             [
               _c(
                 "b-table-simple",
                 {
                   staticClass: "text-vcenter mb-0",
-                  attrs: { striped: "", responsive: "" }
+                  attrs: { responsive: "", striped: "" }
                 },
                 [
                   _c(
@@ -1507,12 +1591,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Toggle Header Style")]
+                                [
+                                  _vm._v(
+                                    "Toggle Header\n                                Style\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Toggles Header style between light and dark variations\n              "
+                                  "\n                                Toggles Header style between light and dark variations\n                            "
                                 )
                               ])
                             ],
@@ -1530,7 +1618,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="headerStyleToggle">Toggle Header Style</base-layout-modifier>'
+                                '<base-layout-modifier action="headerStyleToggle">Toggle Header\n                                Style</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -1553,12 +1641,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Light Themed Header")]
+                                [
+                                  _vm._v(
+                                    "Light Themed\n                                Header\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets Header to light variation\n              "
+                                  "\n                                Sets Header to light variation\n                            "
                                 )
                               ])
                             ],
@@ -1576,7 +1668,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="headerStyleLight">Light Themed Header</base-layout-modifier>'
+                                '<base-layout-modifier action="headerStyleLight">Light Themed\n                                Header</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -1599,12 +1691,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Dark Themed Header")]
+                                [
+                                  _vm._v(
+                                    "Dark Themed\n                                Header\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets Header to dark variation\n              "
+                                  "\n                                Sets Header to dark variation\n                            "
                                 )
                               ])
                             ],
@@ -1641,13 +1737,13 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Main Content", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Main Content" } },
             [
               _c(
                 "b-table-simple",
                 {
                   staticClass: "text-vcenter mb-0",
-                  attrs: { striped: "", responsive: "" }
+                  attrs: { responsive: "", striped: "" }
                 },
                 [
                   _c(
@@ -1708,12 +1804,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Boxed Content Layout")]
+                                [
+                                  _vm._v(
+                                    "Boxed Content\n                                Layout\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets the content layout to boxed\n              "
+                                  "\n                                Sets the content layout to boxed\n                            "
                                 )
                               ])
                             ],
@@ -1731,7 +1831,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="mainContentBoxed">Boxed Content Layout</base-layout-modifier>'
+                                '<base-layout-modifier action="mainContentBoxed">Boxed Content\n                                Layout</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -1754,12 +1854,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Narrow Content Layout")]
+                                [
+                                  _vm._v(
+                                    "Narrow Content\n                                Layout\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets the content layout to narrow\n              "
+                                  "\n                                Sets the content layout to narrow\n                            "
                                 )
                               ])
                             ],
@@ -1777,7 +1881,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="mainContentNarrow">Narrow Content Layout</base-layout-modifier>'
+                                '<base-layout-modifier action="mainContentNarrow">Narrow Content\n                                Layout</base-layout-modifier>'
                               )
                             ])
                           ])
@@ -1800,12 +1904,16 @@ var render = function() {
                                     size: "sm"
                                   }
                                 },
-                                [_vm._v("Full Width Content Layout")]
+                                [
+                                  _vm._v(
+                                    "Full Width Content\n                                Layout\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c("p", { staticClass: "font-size-sm mb-0" }, [
                                 _vm._v(
-                                  "\n                Sets the content layout to full width\n              "
+                                  "\n                                Sets the content layout to full width\n                            "
                                 )
                               ])
                             ],
@@ -1823,7 +1931,7 @@ var render = function() {
                           _c("b-td", [
                             _c("code", [
                               _vm._v(
-                                '<base-layout-modifier action="mainContentFull">Full Width Content Layout</base-layout-modifier>'
+                                '<base-layout-modifier action="mainContentFull">Full Width Content\n                                Layout</base-layout-modifier>'
                               )
                             ])
                           ])

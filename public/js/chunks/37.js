@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Blocks",
-          subtitle: "Solid foundation and integral part of the design."
+          subtitle: "Solid foundation and integral part of the design.",
+          title: "Blocks"
         },
         scopedSlots: _vm._u([
           {
@@ -68,34 +68,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Title", subtitle: "Subtitle" } },
-                    [
-                      _c("p", [
-                        _vm._v("\n            Simple block..\n          ")
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "6", xl: "3" } },
-                [
-                  _c(
-                    "base-block",
-                    {
-                      attrs: {
-                        title: "Title",
-                        subtitle: "Subtitle",
-                        "header-bg": ""
-                      }
-                    },
+                    { attrs: { subtitle: "Subtitle", title: "Title" } },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            With header background..\n          "
+                          "\n                        Simple block..\n                    "
                         )
                       ])
                     ]
@@ -112,14 +89,16 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        "header-bg": "",
                         subtitle: "Subtitle",
-                        bordered: ""
+                        title: "Title"
                       }
                     },
                     [
                       _c("p", [
-                        _vm._v("\n            Bordered block..\n          ")
+                        _vm._v(
+                          "\n                        With header background..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -135,16 +114,41 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
-                        subtitle: "Subtitle",
                         bordered: "",
-                        "header-bg": ""
+                        subtitle: "Subtitle",
+                        title: "Title"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Bordered block with header background..\n          "
+                          "\n                        Bordered block..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        bordered: "",
+                        "header-bg": "",
+                        subtitle: "Subtitle",
+                        title: "Title"
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Bordered block with header background..\n                    "
                         )
                       ])
                     ]
@@ -171,39 +175,15 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
-                        subtitle: "Subtitle",
-                        rounded: ""
-                      }
-                    },
-                    [
-                      _c("p", [
-                        _vm._v("\n            Simple block..\n          ")
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "6", xl: "3" } },
-                [
-                  _c(
-                    "base-block",
-                    {
-                      attrs: {
-                        title: "Title",
-                        subtitle: "Subtitle",
                         rounded: "",
-                        "header-bg": ""
+                        subtitle: "Subtitle",
+                        title: "Title"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            With header background..\n          "
+                          "\n                        Simple block..\n                    "
                         )
                       ])
                     ]
@@ -220,15 +200,17 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
-                        subtitle: "Subtitle",
+                        "header-bg": "",
                         rounded: "",
-                        bordered: ""
+                        subtitle: "Subtitle",
+                        title: "Title"
                       }
                     },
                     [
                       _c("p", [
-                        _vm._v("\n            Bordered block..\n          ")
+                        _vm._v(
+                          "\n                        With header background..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -244,17 +226,43 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
-                        subtitle: "Subtitle",
-                        rounded: "",
                         bordered: "",
-                        "header-bg": ""
+                        rounded: "",
+                        subtitle: "Subtitle",
+                        title: "Title"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Bordered block with header background..\n          "
+                          "\n                        Bordered block..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        bordered: "",
+                        "header-bg": "",
+                        rounded: "",
+                        subtitle: "Subtitle",
+                        title: "Title"
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Bordered block with header background..\n                    "
                         )
                       ])
                     ]
@@ -281,15 +289,15 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
                         subtitle: "Subtitle",
+                        title: "Title",
                         transparent: ""
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -306,15 +314,15 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
                         subtitle: "Subtitle",
+                        title: "Title",
                         transparent: ""
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -341,15 +349,15 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Shadow",
+                        "fx-shadow": "",
                         subtitle: "FX",
-                        "fx-shadow": ""
+                        title: "Shadow"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -364,36 +372,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Pop", subtitle: "FX", "fx-pop": "" } },
+                    { attrs: { "fx-pop": "", subtitle: "FX", title: "Pop" } },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
-                        )
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "6", xl: "3" } },
-                [
-                  _c(
-                    "base-block",
-                    {
-                      attrs: {
-                        title: "Rotate Right",
-                        subtitle: "FX",
-                        "fx-rotate-right": ""
-                      }
-                    },
-                    [
-                      _c("p", [
-                        _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -410,15 +393,40 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Rotate Left",
+                        "fx-rotate-right": "",
                         subtitle: "FX",
-                        "fx-rotate-left": ""
+                        title: "Rotate Right"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "fx-rotate-left": "",
+                        subtitle: "FX",
+                        title: "Rotate Left"
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -443,16 +451,16 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        href: "javascript:void(0)",
                         subtitle: "Subtitle",
                         tag: "a",
-                        href: "javascript:void(0)"
+                        title: "Title"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Default opacity hover effect..\n          "
+                          "\n                        Default opacity hover effect..\n                    "
                         )
                       ])
                     ]
@@ -469,17 +477,17 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        href: "javascript:void(0)",
+                        "link-rotate": "",
                         subtitle: "Subtitle",
                         tag: "a",
-                        href: "javascript:void(0)",
-                        "link-rotate": ""
+                        title: "Title"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Rotate hover effect..\n          "
+                          "\n                        Rotate hover effect..\n                    "
                         )
                       ])
                     ]
@@ -496,16 +504,18 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        href: "javascript:void(0)",
+                        "link-pop": "",
                         subtitle: "Subtitle",
                         tag: "a",
-                        href: "javascript:void(0)",
-                        "link-pop": ""
+                        title: "Title"
                       }
                     },
                     [
                       _c("p", [
-                        _vm._v("\n            Pop hover effect..\n          ")
+                        _vm._v(
+                          "\n                        Pop hover effect..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -521,17 +531,17 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Title",
+                        href: "javascript:void(0)",
+                        "link-shadow": "",
                         subtitle: "Subtitle",
                         tag: "a",
-                        href: "javascript:void(0)",
-                        "link-shadow": ""
+                        title: "Title"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Shadow hover effect..\n          "
+                          "\n                        Shadow hover effect..\n                    "
                         )
                       ])
                     ]
@@ -567,16 +577,16 @@ var render = function() {
                               "base-block",
                               {
                                 attrs: {
-                                  title: "Dashboard",
+                                  href: href,
                                   tag: "a",
-                                  href: href
+                                  title: "Dashboard"
                                 },
                                 on: { click: navigate }
                               },
                               [
                                 _c("p", [
                                   _vm._v(
-                                    "\n              Go to Dashboard\n            "
+                                    "\n                            Go to Dashboard\n                        "
                                   )
                                 ])
                               ]
@@ -607,16 +617,16 @@ var render = function() {
                               "base-block",
                               {
                                 attrs: {
-                                  title: "Landing",
+                                  href: href,
                                   tag: "a",
-                                  href: href
+                                  title: "Landing"
                                 },
                                 on: { click: navigate }
                               },
                               [
                                 _c("p", [
                                   _vm._v(
-                                    "\n              Go to Landing\n            "
+                                    "\n                            Go to Landing\n                        "
                                   )
                                 ])
                               ]
@@ -647,17 +657,17 @@ var render = function() {
                               "base-block",
                               {
                                 attrs: {
-                                  title: "Sign In",
+                                  href: href,
                                   subtitle: "Auth",
                                   tag: "a",
-                                  href: href
+                                  title: "Sign In"
                                 },
                                 on: { click: navigate }
                               },
                               [
                                 _c("p", [
                                   _vm._v(
-                                    "\n              Go to Sign In Page\n            "
+                                    "\n                            Go to Sign In Page\n                        "
                                   )
                                 ])
                               ]
@@ -688,17 +698,17 @@ var render = function() {
                               "base-block",
                               {
                                 attrs: {
-                                  title: "Sign Up",
+                                  href: href,
                                   subtitle: "Auth",
                                   tag: "a",
-                                  href: href
+                                  title: "Sign Up"
                                 },
                                 on: { click: navigate }
                               },
                               [
                                 _c("p", [
                                   _vm._v(
-                                    "\n              Go to Sign Up Page\n            "
+                                    "\n                            Go to Sign Up Page\n                        "
                                   )
                                 ])
                               ]

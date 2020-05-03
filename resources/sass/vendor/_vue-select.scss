@@ -9,7 +9,7 @@
 
 // Custom styles
 .vs__dropdown-option--highlight {
-	background: theme-color('primary');
+    background: theme-color('primary');
 }
 
 .vs__dropdown-toggle {
@@ -50,7 +50,7 @@
 }
 
 .vs--open .vs__open-indicator {
-	transform: scaleY(-1);
+    transform: scaleY(-1);
 }
 
 .vs__dropdown-option--selected {

@@ -794,17 +794,17 @@ var render = function() {
           [
             _c(
               "b-col",
-              { attrs: { cols: "6", md: "3", lg: "6", xl: "3" } },
+              { attrs: { cols: "6", lg: "6", md: "3", xl: "3" } },
               [
                 _c(
                   "base-block",
                   {
                     attrs: {
-                      tag: "a",
-                      rounded: "",
-                      "link-pop": "",
                       "content-full": "",
-                      href: "javascript:void(0)"
+                      href: "javascript:void(0)",
+                      "link-pop": "",
+                      rounded: "",
+                      tag: "a"
                     }
                   },
                   [
@@ -838,17 +838,17 @@ var render = function() {
             _vm._v(" "),
             _c(
               "b-col",
-              { attrs: { cols: "6", md: "3", lg: "6", xl: "3" } },
+              { attrs: { cols: "6", lg: "6", md: "3", xl: "3" } },
               [
                 _c(
                   "base-block",
                   {
                     attrs: {
-                      tag: "a",
-                      rounded: "",
-                      "link-pop": "",
                       "content-full": "",
-                      href: "javascript:void(0)"
+                      href: "javascript:void(0)",
+                      "link-pop": "",
+                      rounded: "",
+                      tag: "a"
                     }
                   },
                   [
@@ -882,17 +882,17 @@ var render = function() {
             _vm._v(" "),
             _c(
               "b-col",
-              { attrs: { cols: "6", md: "3", lg: "6", xl: "3" } },
+              { attrs: { cols: "6", lg: "6", md: "3", xl: "3" } },
               [
                 _c(
                   "base-block",
                   {
                     attrs: {
-                      tag: "a",
-                      rounded: "",
-                      "link-pop": "",
                       "content-full": "",
-                      href: "javascript:void(0)"
+                      href: "javascript:void(0)",
+                      "link-pop": "",
+                      rounded: "",
+                      tag: "a"
                     }
                   },
                   [
@@ -926,17 +926,17 @@ var render = function() {
             _vm._v(" "),
             _c(
               "b-col",
-              { attrs: { cols: "6", md: "3", lg: "6", xl: "3" } },
+              { attrs: { cols: "6", lg: "6", md: "3", xl: "3" } },
               [
                 _c(
                   "base-block",
                   {
                     attrs: {
-                      tag: "a",
-                      rounded: "",
-                      "link-pop": "",
                       "content-full": "",
-                      href: "javascript:void(0)"
+                      href: "javascript:void(0)",
+                      "link-pop": "",
+                      rounded: "",
+                      tag: "a"
                     }
                   },
                   [
@@ -979,7 +979,7 @@ var render = function() {
               { attrs: { lg: "6" } },
               [
                 _c("base-block", {
-                  attrs: { title: "Earnings in $", "header-bg": "" },
+                  attrs: { "header-bg": "", title: "Earnings in $" },
                   scopedSlots: _vm._u([
                     {
                       key: "options",
@@ -1114,7 +1114,7 @@ var render = function() {
               { attrs: { lg: "6" } },
               [
                 _c("base-block", {
-                  attrs: { title: "Sales", "header-bg": "" },
+                  attrs: { "header-bg": "", title: "Sales" },
                   scopedSlots: _vm._u([
                     {
                       key: "options",
@@ -1259,9 +1259,9 @@ var render = function() {
                   "base-block",
                   {
                     attrs: {
-                      title: "Latest Customers",
+                      "content-full": "",
                       "header-bg": "",
-                      "content-full": ""
+                      title: "Latest Customers"
                     },
                     scopedSlots: _vm._u([
                       {
@@ -1288,7 +1288,7 @@ var render = function() {
                       "b-table-simple",
                       {
                         staticClass: "table-vcenter font-size-sm mb-0",
-                        attrs: { striped: "", hover: "", borderless: "" }
+                        attrs: { borderless: "", hover: "", striped: "" }
                       },
                       [
                         _c(
@@ -1464,9 +1464,9 @@ var render = function() {
                   "base-block",
                   {
                     attrs: {
-                      title: "Latest Orders",
+                      "content-full": "",
                       "header-bg": "",
-                      "content-full": ""
+                      title: "Latest Orders"
                     },
                     scopedSlots: _vm._u([
                       {
@@ -1493,7 +1493,7 @@ var render = function() {
                       "b-table-simple",
                       {
                         staticClass: "table-vcenter font-size-sm mb-0",
-                        attrs: { striped: "", hover: "", borderless: "" }
+                        attrs: { borderless: "", hover: "", striped: "" }
                       },
                       [
                         _c(

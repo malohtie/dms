@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Images",
-          subtitle: "Bring your images to life with amazing animations."
+          subtitle: "Bring your images to life with amazing animations.",
+          title: "Images"
         },
         scopedSlots: _vm._u([
           {
@@ -67,7 +67,7 @@ var render = function() {
                 _c("div", { staticClass: "options-container" }, [
                   _c("img", {
                     staticClass: "img-fluid options-item",
-                    attrs: { src: "images/photos/photo1.jpg", alt: "Image" }
+                    attrs: { alt: "Image", src: "images/photos/photo1.jpg" }
                   }),
                   _vm._v(" "),
                   _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -89,16 +89,16 @@ var render = function() {
                           "b-button",
                           {
                             attrs: {
+                              href: "javascript:void(0)",
                               size: "sm",
-                              variant: "light",
-                              href: "javascript:void(0)"
+                              variant: "light"
                             }
                           },
                           [
                             _c("i", {
                               staticClass: "fa fa-pencil-alt text-primary mr-1"
                             }),
-                            _vm._v(" Edit\n              ")
+                            _vm._v(" Edit\n                            ")
                           ]
                         ),
                         _vm._v(" "),
@@ -106,16 +106,16 @@ var render = function() {
                           "b-button",
                           {
                             attrs: {
+                              href: "javascript:void(0)",
                               size: "sm",
-                              variant: "light",
-                              href: "javascript:void(0)"
+                              variant: "light"
                             }
                           },
                           [
                             _c("i", {
                               staticClass: "fa fa-times text-danger mr-1"
                             }),
-                            _vm._v(" Delete\n              ")
+                            _vm._v(" Delete\n                            ")
                           ]
                         )
                       ],
@@ -129,7 +129,7 @@ var render = function() {
                 _c("div", { staticClass: "options-container" }, [
                   _c("img", {
                     staticClass: "img-fluid options-item",
-                    attrs: { src: "images/photos/photo1.jpg", alt: "Image" }
+                    attrs: { alt: "Image", src: "images/photos/photo1.jpg" }
                   }),
                   _vm._v(" "),
                   _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -149,16 +149,16 @@ var render = function() {
                           "b-button",
                           {
                             attrs: {
+                              href: "javascript:void(0)",
                               size: "sm",
-                              variant: "light",
-                              href: "javascript:void(0)"
+                              variant: "light"
                             }
                           },
                           [
                             _c("i", {
                               staticClass: "fa fa-pencil-alt text-primary mr-1"
                             }),
-                            _vm._v(" Edit\n              ")
+                            _vm._v(" Edit\n                            ")
                           ]
                         ),
                         _vm._v(" "),
@@ -166,16 +166,16 @@ var render = function() {
                           "b-button",
                           {
                             attrs: {
+                              href: "javascript:void(0)",
                               size: "sm",
-                              variant: "light",
-                              href: "javascript:void(0)"
+                              variant: "light"
                             }
                           },
                           [
                             _c("i", {
                               staticClass: "fa fa-times text-danger mr-1"
                             }),
-                            _vm._v(" Delete\n              ")
+                            _vm._v(" Delete\n                            ")
                           ]
                         )
                       ],
@@ -189,7 +189,7 @@ var render = function() {
                 _c("div", { staticClass: "options-container" }, [
                   _c("img", {
                     staticClass: "img-fluid options-item",
-                    attrs: { src: "images/photos/photo1.jpg", alt: "Image" }
+                    attrs: { alt: "Image", src: "images/photos/photo1.jpg" }
                   }),
                   _vm._v(" "),
                   _c(
@@ -214,16 +214,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-thumbs-up text-success mr-1"
                               }),
-                              _vm._v(" Like\n              ")
+                              _vm._v(" Like\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -231,16 +231,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-save text-info mr-1"
                               }),
-                              _vm._v(" Save\n              ")
+                              _vm._v(" Save\n                            ")
                             ]
                           )
                         ],
@@ -267,7 +267,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo2.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo2.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -289,9 +289,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -299,7 +299,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -307,16 +307,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -334,7 +334,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo2.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo2.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -354,9 +354,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -364,7 +364,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -372,16 +372,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -399,7 +399,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo2.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo2.jpg" }
                     }),
                     _vm._v(" "),
                     _c(
@@ -426,9 +426,9 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
@@ -436,7 +436,7 @@ var render = function() {
                                   staticClass:
                                     "fa fa-thumbs-up text-success mr-1"
                                 }),
-                                _vm._v(" Like\n              ")
+                                _vm._v(" Like\n                            ")
                               ]
                             ),
                             _vm._v(" "),
@@ -444,16 +444,16 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
                                 _c("i", {
                                   staticClass: "fa fa-save text-info mr-1"
                                 }),
-                                _vm._v(" Save\n              ")
+                                _vm._v(" Save\n                            ")
                               ]
                             )
                           ],
@@ -481,7 +481,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo3.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo3.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -503,9 +503,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -513,7 +513,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -521,16 +521,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -548,7 +548,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo3.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo3.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -568,9 +568,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -578,7 +578,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -586,16 +586,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -613,7 +613,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo3.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo3.jpg" }
                     }),
                     _vm._v(" "),
                     _c(
@@ -640,9 +640,9 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
@@ -650,7 +650,7 @@ var render = function() {
                                   staticClass:
                                     "fa fa-thumbs-up text-success mr-1"
                                 }),
-                                _vm._v(" Like\n              ")
+                                _vm._v(" Like\n                            ")
                               ]
                             ),
                             _vm._v(" "),
@@ -658,16 +658,16 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
                                 _c("i", {
                                   staticClass: "fa fa-save text-info mr-1"
                                 }),
-                                _vm._v(" Save\n              ")
+                                _vm._v(" Save\n                            ")
                               ]
                             )
                           ],
@@ -695,7 +695,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo4.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo4.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -717,9 +717,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -727,7 +727,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -735,16 +735,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -762,7 +762,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo4.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo4.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -782,9 +782,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -792,7 +792,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -800,16 +800,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -827,7 +827,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo4.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo4.jpg" }
                     }),
                     _vm._v(" "),
                     _c(
@@ -854,9 +854,9 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
@@ -864,7 +864,7 @@ var render = function() {
                                   staticClass:
                                     "fa fa-thumbs-up text-success mr-1"
                                 }),
-                                _vm._v(" Like\n              ")
+                                _vm._v(" Like\n                            ")
                               ]
                             ),
                             _vm._v(" "),
@@ -872,16 +872,16 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
                                 _c("i", {
                                   staticClass: "fa fa-save text-info mr-1"
                                 }),
-                                _vm._v(" Save\n              ")
+                                _vm._v(" Save\n                            ")
                               ]
                             )
                           ],
@@ -912,7 +912,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo12.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo12.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -934,9 +934,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -944,7 +944,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -952,16 +952,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -982,7 +982,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo12.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo12.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -1002,9 +1002,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -1012,7 +1012,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -1020,16 +1020,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -1050,7 +1050,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo12.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo12.jpg" }
                     }),
                     _vm._v(" "),
                     _c(
@@ -1077,9 +1077,9 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
@@ -1087,7 +1087,7 @@ var render = function() {
                                   staticClass:
                                     "fa fa-thumbs-up text-success mr-1"
                                 }),
-                                _vm._v(" Like\n              ")
+                                _vm._v(" Like\n                            ")
                               ]
                             ),
                             _vm._v(" "),
@@ -1095,16 +1095,16 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
                                 _c("i", {
                                   staticClass: "fa fa-save text-info mr-1"
                                 }),
-                                _vm._v(" Save\n              ")
+                                _vm._v(" Save\n                            ")
                               ]
                             )
                           ],
@@ -1135,7 +1135,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo16.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo16.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -1157,9 +1157,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -1167,7 +1167,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -1175,16 +1175,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -1205,7 +1205,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo16.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo16.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -1225,9 +1225,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -1235,7 +1235,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -1243,16 +1243,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -1273,7 +1273,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo16.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo16.jpg" }
                     }),
                     _vm._v(" "),
                     _c(
@@ -1300,9 +1300,9 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
@@ -1310,7 +1310,7 @@ var render = function() {
                                   staticClass:
                                     "fa fa-thumbs-up text-success mr-1"
                                 }),
-                                _vm._v(" Like\n              ")
+                                _vm._v(" Like\n                            ")
                               ]
                             ),
                             _vm._v(" "),
@@ -1318,16 +1318,16 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
                                 _c("i", {
                                   staticClass: "fa fa-save text-info mr-1"
                                 }),
-                                _vm._v(" Save\n              ")
+                                _vm._v(" Save\n                            ")
                               ]
                             )
                           ],
@@ -1358,7 +1358,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo7.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo7.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -1380,9 +1380,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -1390,7 +1390,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -1398,16 +1398,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -1428,7 +1428,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo7.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo7.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -1448,9 +1448,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -1458,7 +1458,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -1466,16 +1466,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -1496,7 +1496,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo7.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo7.jpg" }
                     }),
                     _vm._v(" "),
                     _c(
@@ -1523,9 +1523,9 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
@@ -1533,7 +1533,7 @@ var render = function() {
                                   staticClass:
                                     "fa fa-thumbs-up text-success mr-1"
                                 }),
-                                _vm._v(" Like\n              ")
+                                _vm._v(" Like\n                            ")
                               ]
                             ),
                             _vm._v(" "),
@@ -1541,16 +1541,16 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
                                 _c("i", {
                                   staticClass: "fa fa-save text-info mr-1"
                                 }),
-                                _vm._v(" Save\n              ")
+                                _vm._v(" Save\n                            ")
                               ]
                             )
                           ],
@@ -1581,7 +1581,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo8.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo8.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -1603,9 +1603,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -1613,7 +1613,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -1621,16 +1621,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -1651,7 +1651,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo8.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo8.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -1671,9 +1671,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -1681,7 +1681,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -1689,16 +1689,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -1719,7 +1719,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo8.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo8.jpg" }
                     }),
                     _vm._v(" "),
                     _c(
@@ -1746,9 +1746,9 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
@@ -1756,7 +1756,7 @@ var render = function() {
                                   staticClass:
                                     "fa fa-thumbs-up text-success mr-1"
                                 }),
-                                _vm._v(" Like\n              ")
+                                _vm._v(" Like\n                            ")
                               ]
                             ),
                             _vm._v(" "),
@@ -1764,16 +1764,16 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
                                 _c("i", {
                                   staticClass: "fa fa-save text-info mr-1"
                                 }),
-                                _vm._v(" Save\n              ")
+                                _vm._v(" Save\n                            ")
                               ]
                             )
                           ],
@@ -1804,7 +1804,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo21.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo21.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -1826,9 +1826,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -1836,7 +1836,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -1844,16 +1844,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -1874,7 +1874,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo21.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo21.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -1894,9 +1894,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -1904,7 +1904,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -1912,16 +1912,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -1942,7 +1942,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo21.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo21.jpg" }
                     }),
                     _vm._v(" "),
                     _c(
@@ -1969,9 +1969,9 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
@@ -1979,7 +1979,7 @@ var render = function() {
                                   staticClass:
                                     "fa fa-thumbs-up text-success mr-1"
                                 }),
-                                _vm._v(" Like\n              ")
+                                _vm._v(" Like\n                            ")
                               ]
                             ),
                             _vm._v(" "),
@@ -1987,16 +1987,16 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
                                 _c("i", {
                                   staticClass: "fa fa-save text-info mr-1"
                                 }),
-                                _vm._v(" Save\n              ")
+                                _vm._v(" Save\n                            ")
                               ]
                             )
                           ],
@@ -2027,7 +2027,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo10.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo10.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-black-75" }, [
@@ -2049,9 +2049,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -2059,7 +2059,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -2067,16 +2067,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -2097,7 +2097,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo10.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo10.jpg" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "options-overlay bg-white-90" }, [
@@ -2117,9 +2117,9 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
@@ -2127,7 +2127,7 @@ var render = function() {
                                 staticClass:
                                   "fa fa-pencil-alt text-primary mr-1"
                               }),
-                              _vm._v(" Edit\n              ")
+                              _vm._v(" Edit\n                            ")
                             ]
                           ),
                           _vm._v(" "),
@@ -2135,16 +2135,16 @@ var render = function() {
                             "b-button",
                             {
                               attrs: {
+                                href: "javascript:void(0)",
                                 size: "sm",
-                                variant: "light",
-                                href: "javascript:void(0)"
+                                variant: "light"
                               }
                             },
                             [
                               _c("i", {
                                 staticClass: "fa fa-times text-danger mr-1"
                               }),
-                              _vm._v(" Delete\n              ")
+                              _vm._v(" Delete\n                            ")
                             ]
                           )
                         ],
@@ -2165,7 +2165,7 @@ var render = function() {
                   [
                     _c("img", {
                       staticClass: "img-fluid options-item",
-                      attrs: { src: "images/photos/photo10.jpg", alt: "Image" }
+                      attrs: { alt: "Image", src: "images/photos/photo10.jpg" }
                     }),
                     _vm._v(" "),
                     _c(
@@ -2192,9 +2192,9 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
@@ -2202,7 +2202,7 @@ var render = function() {
                                   staticClass:
                                     "fa fa-thumbs-up text-success mr-1"
                                 }),
-                                _vm._v(" Like\n              ")
+                                _vm._v(" Like\n                            ")
                               ]
                             ),
                             _vm._v(" "),
@@ -2210,16 +2210,16 @@ var render = function() {
                               "b-button",
                               {
                                 attrs: {
+                                  href: "javascript:void(0)",
                                   size: "sm",
-                                  variant: "light",
-                                  href: "javascript:void(0)"
+                                  variant: "light"
                                 }
                               },
                               [
                                 _c("i", {
                                   staticClass: "fa fa-save text-info mr-1"
                                 }),
-                                _vm._v(" Save\n              ")
+                                _vm._v(" Save\n                            ")
                               ]
                             )
                           ],

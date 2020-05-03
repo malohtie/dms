@@ -8,7 +8,9 @@
     display: none;
 }
 
-.smini-show { opacity: 0; }
+.smini-show {
+    opacity: 0;
+}
 
 .smini-show,
 .smini-hide {
@@ -99,16 +101,30 @@
         // Mini Mode (styles do not apply on hover)
         .sidebar-mini.sidebar-o &:not(:hover) {
             // Display helper classes
-            .smini-hide { opacity: 0; }
-            .smini-show { opacity: 1; }
+            .smini-hide {
+                opacity: 0;
+            }
 
-            .smini-hidden { display: none; }
+            .smini-show {
+                opacity: 1;
+            }
 
-            .smini-visible { display: inline-block; }
-            .smini-visible-block { display: block; }
+            .smini-hidden {
+                display: none;
+            }
+
+            .smini-visible {
+                display: inline-block;
+            }
+
+            .smini-visible-block {
+                display: block;
+            }
 
             // Main navigation
-            .nav-main > .nav-main-item > .nav-main-submenu { display: none; }
+            .nav-main > .nav-main-item > .nav-main-submenu {
+                display: none;
+            }
 
             .nav-main .nav-main-heading,
             .nav-main .nav-main-link-name,

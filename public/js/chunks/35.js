@@ -134,6 +134,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -199,8 +208,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Responsive Tables",
-          subtitle: "Mobile friendly tables that work across all screen sizes."
+          subtitle: "Mobile friendly tables that work across all screen sizes.",
+          title: "Responsive Tables"
         },
         scopedSlots: _vm._u([
           {
@@ -261,28 +270,28 @@ var render = function() {
               _vm._v(" "),
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        The first way to make a table responsive is to add the "
+                  "\n                The first way to make a table responsive is to add the "
                 ),
                 _c("code", [_vm._v("responsive")]),
                 _vm._v(
-                  " property. This way, the table will be horizontally scrollable and all data will be accessible on smaller screens.\n        You could also specify a value to apply the horizontal scrolling on different screen widths: "
+                  " property. This way,\n                the table will be horizontally scrollable and all data will be accessible on smaller screens.\n                You could also specify a value to apply the horizontal scrolling on different screen widths: "
                 ),
                 _c("code", [_vm._v("sm")]),
-                _vm._v(", "),
+                _vm._v(",\n                "),
                 _c("code", [_vm._v("md")]),
                 _vm._v(", "),
                 _c("code", [_vm._v("lg")]),
                 _vm._v(", "),
                 _c("code", [_vm._v("xl")]),
-                _vm._v(".\n      ")
+                _vm._v(".\n            ")
               ]),
               _vm._v(" "),
               _c(
                 "b-table-simple",
                 {
                   attrs: {
-                    responsive: "",
                     bordered: "",
+                    responsive: "",
                     striped: "",
                     "table-class": "table-vcenter"
                   }
@@ -354,16 +363,19 @@ var render = function() {
                             [
                               _c("a", { attrs: { href: "" + user.href } }, [
                                 _vm._v(
-                                  "\n                " +
+                                  "\n                                " +
                                     _vm._s(user.name) +
-                                    "\n              "
+                                    "\n                            "
                                 )
                               ])
                             ]
                           ),
                           _vm._v(" "),
                           _c("b-td", { staticClass: "font-size-sm" }, [
-                            _vm._v("\n              client" + _vm._s(user.id)),
+                            _vm._v(
+                              "\n                            client" +
+                                _vm._s(user.id)
+                            ),
                             _c("em", { staticClass: "text-muted" }, [
                               _vm._v("@example.com")
                             ])
@@ -449,22 +461,24 @@ var render = function() {
                 "p",
                 { staticClass: "font-size-sm text-muted" },
                 [
-                  _vm._v("\n        The second way is to use "),
+                  _vm._v(
+                    "\n                The second way is to use\n                "
+                  ),
                   _c(
                     "router-link",
                     { attrs: { to: "/backend/elements/grid" } },
                     [_vm._v("responsive utility CSS classes")]
                   ),
                   _vm._v(
-                    " for hiding columns in various screen resolutions. This way you can hide less important columns and keep the most valuable on smaller screens.\n        At the following example the "
+                    "\n                for hiding columns in various screen resolutions. This way you can hide less important columns and\n                keep the most valuable on smaller screens.\n                At the following example the "
                   ),
                   _c("strong", [_vm._v("Access")]),
                   _vm._v(
-                    " column isn't visible on small and extra small screens and "
+                    " column isn't visible on small and extra small\n                screens and "
                   ),
                   _c("strong", [_vm._v("Email")]),
                   _vm._v(
-                    " column isn't visible on extra small screens.\n      "
+                    " column isn't visible on extra small screens.\n            "
                   )
                 ],
                 1
@@ -556,9 +570,9 @@ var render = function() {
                             [
                               _c("a", { attrs: { href: "" + user.href } }, [
                                 _vm._v(
-                                  "\n                " +
+                                  "\n                                " +
                                     _vm._s(user.name) +
-                                    "\n              "
+                                    "\n                            "
                                 )
                               ])
                             ]
@@ -571,7 +585,8 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n              client" + _vm._s(user.id)
+                                "\n                            client" +
+                                  _vm._s(user.id)
                               ),
                               _c("em", { staticClass: "text-muted" }, [
                                 _vm._v("@example.com")

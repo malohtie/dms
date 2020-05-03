@@ -20,15 +20,15 @@ var render = function() {
       "div",
       { staticClass: "content" },
       [
-        _c("base-block", { attrs: { rounded: "", "content-full": "" } }, [
+        _c("base-block", { attrs: { "content-full": "", rounded: "" } }, [
           _c("div", { staticClass: "py-4 text-center" }, [
             _c("h1", { staticClass: "mb-2" }, [
-              _vm._v("\n          Dashboard\n        ")
+              _vm._v("\n                    Dashboard\n                ")
             ]),
             _vm._v(" "),
             _c("h2", { staticClass: "h4 font-w400 text-muted mb-0" }, [
               _vm._v(
-                "\n          Welcome to your app, everything looks great!\n        "
+                "\n                    Welcome to your app, everything looks great!\n                "
               )
             ])
           ])

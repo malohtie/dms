@@ -20,9 +20,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Alerts",
           subtitle:
-            "Inform your users about important events happenning in your app."
+            "Inform your users about important events happenning in your app.",
+          title: "Alerts"
         },
         scopedSlots: _vm._u([
           {
@@ -69,7 +69,7 @@ var render = function() {
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Use the colors which better fit the type of message you want to pass\n          "
+                          "\n                        Use the colors which better fit the type of message you want to pass\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -77,15 +77,15 @@ var render = function() {
                         "b-alert",
                         {
                           attrs: {
-                            variant: "primary",
+                            dismissible: "",
                             show: "",
-                            dismissible: ""
+                            variant: "primary"
                           }
                         },
                         [
                           _c("p", { staticClass: "mb-0" }, [
                             _vm._v(
-                              "\n              This is a primary message with a "
+                              "\n                            This is a primary message with a "
                             ),
                             _c(
                               "a",
@@ -95,7 +95,7 @@ var render = function() {
                               },
                               [_vm._v("link")]
                             ),
-                            _vm._v("!\n            ")
+                            _vm._v("!\n                        ")
                           ])
                         ]
                       ),
@@ -104,15 +104,15 @@ var render = function() {
                         "b-alert",
                         {
                           attrs: {
-                            variant: "secondary",
+                            dismissible: "",
                             show: "",
-                            dismissible: ""
+                            variant: "secondary"
                           }
                         },
                         [
                           _c("p", { staticClass: "mb-0" }, [
                             _vm._v(
-                              "\n              This is a secondary message with a "
+                              "\n                            This is a secondary message with a "
                             ),
                             _c(
                               "a",
@@ -122,7 +122,7 @@ var render = function() {
                               },
                               [_vm._v("link")]
                             ),
-                            _vm._v("!\n            ")
+                            _vm._v("!\n                        ")
                           ])
                         ]
                       ),
@@ -131,15 +131,15 @@ var render = function() {
                         "b-alert",
                         {
                           attrs: {
-                            variant: "success",
+                            dismissible: "",
                             show: "",
-                            dismissible: ""
+                            variant: "success"
                           }
                         },
                         [
                           _c("p", { staticClass: "mb-0" }, [
                             _vm._v(
-                              "\n              This is a successful message with a "
+                              "\n                            This is a successful message with a "
                             ),
                             _c(
                               "a",
@@ -149,7 +149,7 @@ var render = function() {
                               },
                               [_vm._v("link")]
                             ),
-                            _vm._v("!\n            ")
+                            _vm._v("!\n                        ")
                           ])
                         ]
                       ),
@@ -157,12 +157,12 @@ var render = function() {
                       _c(
                         "b-alert",
                         {
-                          attrs: { variant: "info", show: "", dismissible: "" }
+                          attrs: { dismissible: "", show: "", variant: "info" }
                         },
                         [
                           _c("p", { staticClass: "mb-0" }, [
                             _vm._v(
-                              "\n              This is an informational message with a "
+                              "\n                            This is an informational message with a "
                             ),
                             _c(
                               "a",
@@ -172,7 +172,7 @@ var render = function() {
                               },
                               [_vm._v("link")]
                             ),
-                            _vm._v("!\n            ")
+                            _vm._v("!\n                        ")
                           ])
                         ]
                       ),
@@ -181,15 +181,15 @@ var render = function() {
                         "b-alert",
                         {
                           attrs: {
-                            variant: "warning",
+                            dismissible: "",
                             show: "",
-                            dismissible: ""
+                            variant: "warning"
                           }
                         },
                         [
                           _c("p", { staticClass: "mb-0" }, [
                             _vm._v(
-                              "\n              This is a warning message with a "
+                              "\n                            This is a warning message with a "
                             ),
                             _c(
                               "a",
@@ -199,7 +199,7 @@ var render = function() {
                               },
                               [_vm._v("link")]
                             ),
-                            _vm._v("!\n            ")
+                            _vm._v("!\n                        ")
                           ])
                         ]
                       ),
@@ -208,15 +208,15 @@ var render = function() {
                         "b-alert",
                         {
                           attrs: {
-                            variant: "danger",
+                            dismissible: "",
                             show: "",
-                            dismissible: ""
+                            variant: "danger"
                           }
                         },
                         [
                           _c("p", { staticClass: "mb-0" }, [
                             _vm._v(
-                              "\n              This is an error message with a "
+                              "\n                            This is an error message with a "
                             ),
                             _c(
                               "a",
@@ -226,7 +226,7 @@ var render = function() {
                               },
                               [_vm._v("link")]
                             ),
-                            _vm._v("!\n            ")
+                            _vm._v("!\n                        ")
                           ])
                         ]
                       ),
@@ -234,12 +234,12 @@ var render = function() {
                       _c(
                         "b-alert",
                         {
-                          attrs: { variant: "dark", show: "", dismissible: "" }
+                          attrs: { dismissible: "", show: "", variant: "dark" }
                         },
                         [
                           _c("p", { staticClass: "mb-0" }, [
                             _vm._v(
-                              "\n              This is a dark message with a "
+                              "\n                            This is a dark message with a "
                             ),
                             _c(
                               "a",
@@ -249,7 +249,7 @@ var render = function() {
                               },
                               [_vm._v("link")]
                             ),
-                            _vm._v("!\n            ")
+                            _vm._v("!\n                        ")
                           ])
                         ]
                       ),
@@ -257,12 +257,12 @@ var render = function() {
                       _c(
                         "b-alert",
                         {
-                          attrs: { variant: "light", show: "", dismissible: "" }
+                          attrs: { dismissible: "", show: "", variant: "light" }
                         },
                         [
                           _c("p", { staticClass: "mb-0" }, [
                             _vm._v(
-                              "\n              This is a light message with a "
+                              "\n                            This is a light message with a "
                             ),
                             _c(
                               "a",
@@ -272,7 +272,7 @@ var render = function() {
                               },
                               [_vm._v("link")]
                             ),
-                            _vm._v("!\n            ")
+                            _vm._v("!\n                        ")
                           ])
                         ]
                       )
@@ -293,7 +293,7 @@ var render = function() {
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Choose an icon of your preference and easily add it to an alert message\n          "
+                          "\n                        Choose an icon of your preference and easily add it to an alert message\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -302,9 +302,9 @@ var render = function() {
                         {
                           staticClass: "d-flex align-items-center",
                           attrs: {
-                            variant: "primary",
+                            dismissible: "",
                             show: "",
-                            dismissible: ""
+                            variant: "primary"
                           }
                         },
                         [
@@ -323,7 +323,7 @@ var render = function() {
                                 },
                                 [_vm._v("link")]
                               ),
-                              _vm._v("!")
+                              _vm._v("!\n                            ")
                             ])
                           ])
                         ]
@@ -333,7 +333,7 @@ var render = function() {
                         "b-alert",
                         {
                           staticClass: "d-flex align-items-center",
-                          attrs: { variant: "secondary", show: "" }
+                          attrs: { show: "", variant: "secondary" }
                         },
                         [
                           _c("div", { staticClass: "flex-00-auto" }, [
@@ -351,7 +351,7 @@ var render = function() {
                                 },
                                 [_vm._v("link")]
                               ),
-                              _vm._v("!")
+                              _vm._v("!\n                            ")
                             ])
                           ])
                         ]
@@ -361,7 +361,7 @@ var render = function() {
                         "b-alert",
                         {
                           staticClass: "d-flex align-items-center",
-                          attrs: { variant: "success", show: "" }
+                          attrs: { show: "", variant: "success" }
                         },
                         [
                           _c("div", { staticClass: "flex-00-auto" }, [
@@ -379,7 +379,7 @@ var render = function() {
                                 },
                                 [_vm._v("link")]
                               ),
-                              _vm._v("!")
+                              _vm._v("!\n                            ")
                             ])
                           ])
                         ]
@@ -389,7 +389,7 @@ var render = function() {
                         "b-alert",
                         {
                           staticClass: "d-flex align-items-center",
-                          attrs: { variant: "info", show: "" }
+                          attrs: { show: "", variant: "info" }
                         },
                         [
                           _c("div", { staticClass: "flex-00-auto" }, [
@@ -409,7 +409,7 @@ var render = function() {
                                 },
                                 [_vm._v("link")]
                               ),
-                              _vm._v("!")
+                              _vm._v("!\n                            ")
                             ])
                           ])
                         ]
@@ -420,7 +420,7 @@ var render = function() {
                         {
                           staticClass:
                             "d-flex align-items-center justify-content-between",
-                          attrs: { variant: "warning", show: "" }
+                          attrs: { show: "", variant: "warning" }
                         },
                         [
                           _c("div", { staticClass: "flex-fill mr-3" }, [
@@ -434,7 +434,7 @@ var render = function() {
                                 },
                                 [_vm._v("link")]
                               ),
-                              _vm._v("!")
+                              _vm._v("!\n                            ")
                             ])
                           ]),
                           _vm._v(" "),
@@ -451,7 +451,7 @@ var render = function() {
                         {
                           staticClass:
                             "d-flex align-items-center justify-content-between",
-                          attrs: { variant: "danger", show: "" }
+                          attrs: { show: "", variant: "danger" }
                         },
                         [
                           _c("div", { staticClass: "flex-fill mr-3" }, [
@@ -465,7 +465,7 @@ var render = function() {
                                 },
                                 [_vm._v("link")]
                               ),
-                              _vm._v("!")
+                              _vm._v("!\n                            ")
                             ])
                           ]),
                           _vm._v(" "),
@@ -480,7 +480,7 @@ var render = function() {
                         {
                           staticClass:
                             "d-flex align-items-center justify-content-between",
-                          attrs: { variant: "dark", show: "" }
+                          attrs: { show: "", variant: "dark" }
                         },
                         [
                           _c("div", { staticClass: "flex-fill mr-3" }, [
@@ -494,7 +494,7 @@ var render = function() {
                                 },
                                 [_vm._v("link")]
                               ),
-                              _vm._v("!")
+                              _vm._v("!\n                            ")
                             ])
                           ]),
                           _vm._v(" "),
@@ -509,7 +509,7 @@ var render = function() {
                         {
                           staticClass:
                             "d-flex align-items-center justify-content-between",
-                          attrs: { variant: "light", show: "" }
+                          attrs: { show: "", variant: "light" }
                         },
                         [
                           _c("div", { staticClass: "flex-fill mr-3" }, [
@@ -523,7 +523,7 @@ var render = function() {
                                 },
                                 [_vm._v("link")]
                               ),
-                              _vm._v("!")
+                              _vm._v("!\n                            ")
                             ])
                           ]),
                           _vm._v(" "),
@@ -549,7 +549,7 @@ var render = function() {
                     [
                       _c("p", { staticClass: "text-muted" }, [
                         _vm._v(
-                          "\n            You can also add titles to your alert messages\n          "
+                          "\n                        You can also add titles to your alert messages\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -564,9 +564,9 @@ var render = function() {
                                 "b-alert",
                                 {
                                   attrs: {
-                                    variant: "primary",
+                                    dismissible: "",
                                     show: "",
-                                    dismissible: ""
+                                    variant: "primary"
                                   }
                                 },
                                 [
@@ -581,7 +581,7 @@ var render = function() {
                                   _vm._v(" "),
                                   _c("p", { staticClass: "mb-0" }, [
                                     _vm._v(
-                                      "\n                  This is a primary message with a "
+                                      "\n                                    This is a primary message with a "
                                     ),
                                     _c(
                                       "a",
@@ -591,7 +591,9 @@ var render = function() {
                                       },
                                       [_vm._v("link")]
                                     ),
-                                    _vm._v("!\n                ")
+                                    _vm._v(
+                                      "!\n                                "
+                                    )
                                   ])
                                 ]
                               ),
@@ -600,9 +602,9 @@ var render = function() {
                                 "b-alert",
                                 {
                                   attrs: {
-                                    variant: "secondary",
+                                    dismissible: "",
                                     show: "",
-                                    dismissible: ""
+                                    variant: "secondary"
                                   }
                                 },
                                 [
@@ -617,7 +619,7 @@ var render = function() {
                                   _vm._v(" "),
                                   _c("p", { staticClass: "mb-0" }, [
                                     _vm._v(
-                                      "\n                  This is a secondary message with a "
+                                      "\n                                    This is a secondary message with a "
                                     ),
                                     _c(
                                       "a",
@@ -627,7 +629,9 @@ var render = function() {
                                       },
                                       [_vm._v("link")]
                                     ),
-                                    _vm._v("!\n                ")
+                                    _vm._v(
+                                      "!\n                                "
+                                    )
                                   ])
                                 ]
                               ),
@@ -636,9 +640,9 @@ var render = function() {
                                 "b-alert",
                                 {
                                   attrs: {
-                                    variant: "success",
+                                    dismissible: "",
                                     show: "",
-                                    dismissible: ""
+                                    variant: "success"
                                   }
                                 },
                                 [
@@ -653,7 +657,7 @@ var render = function() {
                                   _vm._v(" "),
                                   _c("p", { staticClass: "mb-0" }, [
                                     _vm._v(
-                                      "\n                  This is a successful message with a "
+                                      "\n                                    This is a successful message with a "
                                     ),
                                     _c(
                                       "a",
@@ -663,7 +667,9 @@ var render = function() {
                                       },
                                       [_vm._v("link")]
                                     ),
-                                    _vm._v("!\n                ")
+                                    _vm._v(
+                                      "!\n                                "
+                                    )
                                   ])
                                 ]
                               ),
@@ -672,9 +678,9 @@ var render = function() {
                                 "b-alert",
                                 {
                                   attrs: {
-                                    variant: "info",
+                                    dismissible: "",
                                     show: "",
-                                    dismissible: ""
+                                    variant: "info"
                                   }
                                 },
                                 [
@@ -689,7 +695,7 @@ var render = function() {
                                   _vm._v(" "),
                                   _c("p", { staticClass: "mb-0" }, [
                                     _vm._v(
-                                      "\n                  This is an informational message with a "
+                                      "\n                                    This is an informational message with a "
                                     ),
                                     _c(
                                       "a",
@@ -699,7 +705,9 @@ var render = function() {
                                       },
                                       [_vm._v("link")]
                                     ),
-                                    _vm._v("!\n                ")
+                                    _vm._v(
+                                      "!\n                                "
+                                    )
                                   ])
                                 ]
                               )
@@ -715,9 +723,9 @@ var render = function() {
                                 "b-alert",
                                 {
                                   attrs: {
-                                    variant: "warning",
+                                    dismissible: "",
                                     show: "",
-                                    dismissible: ""
+                                    variant: "warning"
                                   }
                                 },
                                 [
@@ -732,7 +740,7 @@ var render = function() {
                                   _vm._v(" "),
                                   _c("p", { staticClass: "mb-0" }, [
                                     _vm._v(
-                                      "\n                  This is a warning message with a "
+                                      "\n                                    This is a warning message with a "
                                     ),
                                     _c(
                                       "a",
@@ -742,7 +750,9 @@ var render = function() {
                                       },
                                       [_vm._v("link")]
                                     ),
-                                    _vm._v("!\n                ")
+                                    _vm._v(
+                                      "!\n                                "
+                                    )
                                   ])
                                 ]
                               ),
@@ -751,9 +761,9 @@ var render = function() {
                                 "b-alert",
                                 {
                                   attrs: {
-                                    variant: "danger",
+                                    dismissible: "",
                                     show: "",
-                                    dismissible: ""
+                                    variant: "danger"
                                   }
                                 },
                                 [
@@ -768,7 +778,7 @@ var render = function() {
                                   _vm._v(" "),
                                   _c("p", { staticClass: "mb-0" }, [
                                     _vm._v(
-                                      "\n                  This is an error message with a "
+                                      "\n                                    This is an error message with a "
                                     ),
                                     _c(
                                       "a",
@@ -778,7 +788,9 @@ var render = function() {
                                       },
                                       [_vm._v("link")]
                                     ),
-                                    _vm._v("!\n                ")
+                                    _vm._v(
+                                      "!\n                                "
+                                    )
                                   ])
                                 ]
                               ),
@@ -787,9 +799,9 @@ var render = function() {
                                 "b-alert",
                                 {
                                   attrs: {
-                                    variant: "dark",
+                                    dismissible: "",
                                     show: "",
-                                    dismissible: ""
+                                    variant: "dark"
                                   }
                                 },
                                 [
@@ -804,7 +816,7 @@ var render = function() {
                                   _vm._v(" "),
                                   _c("p", { staticClass: "mb-0" }, [
                                     _vm._v(
-                                      "\n                  This is a dark message with a "
+                                      "\n                                    This is a dark message with a "
                                     ),
                                     _c(
                                       "a",
@@ -814,7 +826,9 @@ var render = function() {
                                       },
                                       [_vm._v("link")]
                                     ),
-                                    _vm._v("!\n                ")
+                                    _vm._v(
+                                      "!\n                                "
+                                    )
                                   ])
                                 ]
                               ),
@@ -823,9 +837,9 @@ var render = function() {
                                 "b-alert",
                                 {
                                   attrs: {
-                                    variant: "light",
+                                    dismissible: "",
                                     show: "",
-                                    dismissible: ""
+                                    variant: "light"
                                   }
                                 },
                                 [
@@ -840,7 +854,7 @@ var render = function() {
                                   _vm._v(" "),
                                   _c("p", { staticClass: "mb-0" }, [
                                     _vm._v(
-                                      "\n                  This is a light message with a "
+                                      "\n                                    This is a light message with a "
                                     ),
                                     _c(
                                       "a",
@@ -850,7 +864,9 @@ var render = function() {
                                       },
                                       [_vm._v("link")]
                                     ),
-                                    _vm._v("!\n                ")
+                                    _vm._v(
+                                      "!\n                                "
+                                    )
                                   ])
                                 ]
                               )

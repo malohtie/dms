@@ -9,21 +9,19 @@ import router from './router'
 // import router from './router/starter'
 import App from './App.vue'
 import store from './store'
-
 // Bootstrap Vue
 import BootstrapVue from 'bootstrap-vue'
-// Register global plugins
-Vue.use(BootstrapVue)
-
 import './globalComponents'
 import './globalDirectives'
+// Register global plugins
+Vue.use(BootstrapVue)
 
 // Disable tip shown in dev console when in development mode
 Vue.config.productionTip = false
 //Vue.config.devtools = true
 // Craft new application
 new Vue({
-  store,
-  router,
-  render: h => h(App)
+    store,
+    router,
+    render: h => h(App)
 }).$mount('#app')

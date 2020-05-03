@@ -560,6 +560,163 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -660,9 +817,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Animations",
           subtitle:
-            "Rich animation library will bring your elements to life and engage your users."
+            "Rich animation library will bring your elements to life and engage your users.",
+          title: "Animations"
         },
         scopedSlots: _vm._u([
           {
@@ -710,7 +867,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -749,7 +906,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -759,7 +916,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounce")]
+                                [
+                                  _vm._v(
+                                    "\n                                bounce\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -772,7 +933,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -782,7 +943,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("flash")]
+                                [
+                                  _vm._v(
+                                    "\n                                flash\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -795,7 +960,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -805,7 +970,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("pulse")]
+                                [
+                                  _vm._v(
+                                    "\n                                pulse\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -818,7 +987,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -828,7 +997,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rubberBand")]
+                                [
+                                  _vm._v(
+                                    "\n                                rubberBand\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -841,7 +1014,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -851,7 +1024,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("shake")]
+                                [
+                                  _vm._v(
+                                    "\n                                shake\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -864,7 +1041,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -874,7 +1051,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("swing")]
+                                [
+                                  _vm._v(
+                                    "\n                                swing\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -887,7 +1068,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -897,7 +1078,7 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("tada")]
+                                [_vm._v("tada\n                            ")]
                               )
                             ],
                             1
@@ -910,7 +1091,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -920,7 +1101,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("wobble")]
+                                [
+                                  _vm._v(
+                                    "\n                                wobble\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -947,8 +1132,8 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: "images/various/little-monster.png",
                               alt: "Cartoon",
+                              src: "images/various/little-monster.png",
                               width: "200"
                             }
                           })
@@ -977,7 +1162,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -1017,7 +1202,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1027,7 +1212,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceIn")]
+                                [
+                                  _vm._v(
+                                    "\n                                bounceIn\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1040,7 +1229,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1050,7 +1239,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceInDown")]
+                                [
+                                  _vm._v(
+                                    "bounceInDown\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1063,7 +1256,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1073,7 +1266,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceInLeft")]
+                                [
+                                  _vm._v(
+                                    "bounceInLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1086,7 +1283,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1096,7 +1293,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceInRight")]
+                                [
+                                  _vm._v(
+                                    "bounceInRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1109,7 +1310,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1119,7 +1320,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceInUp")]
+                                [
+                                  _vm._v(
+                                    "bounceInUp\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1146,8 +1351,8 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: "images/various/little-monster.png",
                               alt: "Cartoon",
+                              src: "images/various/little-monster.png",
                               width: "200"
                             }
                           })
@@ -1176,7 +1381,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -1215,7 +1420,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1225,7 +1430,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceOut")]
+                                [
+                                  _vm._v(
+                                    "\n                                bounceOut\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1238,7 +1447,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1248,7 +1457,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceOutDown")]
+                                [
+                                  _vm._v(
+                                    "\n                                bounceOutDown\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1261,7 +1474,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1271,7 +1484,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceOutLeft")]
+                                [
+                                  _vm._v(
+                                    "\n                                bounceOutLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1284,7 +1501,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1294,7 +1511,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceOutRight")]
+                                [
+                                  _vm._v(
+                                    "bounceOutRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1307,7 +1528,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1317,7 +1538,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("bounceOutUp")]
+                                [
+                                  _vm._v(
+                                    "\n                                bounceOutUp\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1344,8 +1569,8 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: "images/various/little-monster.png",
                               alt: "Cartoon",
+                              src: "images/various/little-monster.png",
                               width: "200"
                             }
                           })
@@ -1374,7 +1599,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -1413,7 +1638,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1423,7 +1648,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeIn")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeIn\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1436,7 +1665,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1446,7 +1675,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeInDown")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInDown\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1459,7 +1692,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1469,7 +1702,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeInDownBig")]
+                                [
+                                  _vm._v(
+                                    "fadeInDownBig\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1482,7 +1719,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1492,7 +1729,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeInLeft")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1505,7 +1746,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1515,7 +1756,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeInLeftBig")]
+                                [
+                                  _vm._v(
+                                    "fadeInLeftBig\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1528,7 +1773,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1538,7 +1783,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeInRight")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1551,7 +1800,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1561,7 +1810,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeInRightBig")]
+                                [
+                                  _vm._v(
+                                    "fadeInRightBig\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1574,7 +1827,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1584,7 +1837,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeInUp")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInUp\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1597,7 +1854,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1607,7 +1864,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeInUpBig")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInUpBig\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1634,8 +1895,8 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: "images/various/little-monster.png",
                               alt: "Cartoon",
+                              src: "images/various/little-monster.png",
                               width: "200"
                             }
                           })
@@ -1664,7 +1925,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -1703,7 +1964,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1713,7 +1974,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeOut")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOut\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1726,7 +1991,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1736,7 +2001,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeOutDown")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutDown\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1749,7 +2018,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1759,7 +2028,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeOutDownBig")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutDownBig\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1772,7 +2045,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1782,7 +2055,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeOutLeft")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1795,7 +2072,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1805,7 +2082,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeOutLeftBig")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutLeftBig\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1818,7 +2099,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1828,7 +2109,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeOutRight")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1841,7 +2126,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1851,7 +2136,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeOutRightBig")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutRightBig\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1864,7 +2153,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1874,7 +2163,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeOutUp")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutUp\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1887,7 +2180,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1897,7 +2190,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("fadeOutUpBig")]
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutUpBig\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -1921,8 +2218,8 @@ var render = function() {
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: "images/various/little-monster.png",
                             alt: "Cartoon",
+                            src: "images/various/little-monster.png",
                             width: "200"
                           }
                         })
@@ -1948,7 +2245,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -1987,7 +2284,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -1997,7 +2294,7 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("flip")]
+                                [_vm._v("flip\n                            ")]
                               )
                             ],
                             1
@@ -2010,7 +2307,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2020,7 +2317,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("flipInX")]
+                                [
+                                  _vm._v(
+                                    "flipInX\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2033,7 +2334,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2043,7 +2344,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("flipInY")]
+                                [
+                                  _vm._v(
+                                    "flipInY\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2056,7 +2361,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2066,7 +2371,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("flipOutX")]
+                                [
+                                  _vm._v(
+                                    "flipOutX\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2079,7 +2388,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2089,7 +2398,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("flipOutY")]
+                                [
+                                  _vm._v(
+                                    "flipOutY\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2113,8 +2426,8 @@ var render = function() {
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: "images/various/little-monster.png",
                             alt: "Cartoon",
+                            src: "images/various/little-monster.png",
                             width: "200"
                           }
                         })
@@ -2140,7 +2453,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -2179,7 +2492,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2189,7 +2502,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("lightSpeedIn")]
+                                [
+                                  _vm._v(
+                                    "\n                                lightSpeedIn\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2202,7 +2519,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2212,7 +2529,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("lightSpeedOut")]
+                                [
+                                  _vm._v(
+                                    "\n                                lightSpeedOut\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2236,8 +2557,8 @@ var render = function() {
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: "images/various/little-monster.png",
                             alt: "Cartoon",
+                            src: "images/various/little-monster.png",
                             width: "200"
                           }
                         })
@@ -2265,7 +2586,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -2305,7 +2626,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2315,7 +2636,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateIn")]
+                                [
+                                  _vm._v(
+                                    "\n                                rotateIn\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2328,7 +2653,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2338,7 +2663,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateInDownLeft")]
+                                [
+                                  _vm._v(
+                                    "\n                                rotateInDownLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2351,7 +2680,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2361,7 +2690,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateInDownRight")]
+                                [
+                                  _vm._v(
+                                    "\n                                rotateInDownRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2374,7 +2707,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2384,7 +2717,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateInDownLeft")]
+                                [
+                                  _vm._v(
+                                    "\n                                rotateInDownLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2397,7 +2734,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2407,7 +2744,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateInUpRight")]
+                                [
+                                  _vm._v(
+                                    "rotateInUpRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2434,8 +2775,8 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: "images/various/little-monster.png",
                               alt: "Cartoon",
+                              src: "images/various/little-monster.png",
                               width: "200"
                             }
                           })
@@ -2464,7 +2805,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -2503,7 +2844,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2513,7 +2854,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateOut")]
+                                [
+                                  _vm._v(
+                                    "\n                                rotateOut\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2526,7 +2871,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2536,7 +2881,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateOutDownLeft")]
+                                [
+                                  _vm._v(
+                                    "rotateOutDownLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2549,7 +2898,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2559,7 +2908,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateOutDownRight")]
+                                [
+                                  _vm._v(
+                                    "\n                                rotateOutDownRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2572,7 +2925,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2582,7 +2935,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateOutUpLeft")]
+                                [
+                                  _vm._v(
+                                    "rotateOutUpLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2595,7 +2952,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2605,7 +2962,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rotateOutUpRight")]
+                                [
+                                  _vm._v(
+                                    "rotateOutUpRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2632,8 +2993,8 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: "images/various/little-monster.png",
                               alt: "Cartoon",
+                              src: "images/various/little-monster.png",
                               width: "200"
                             }
                           })
@@ -2662,7 +3023,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -2701,7 +3062,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2711,7 +3072,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("slideInUp")]
+                                [
+                                  _vm._v(
+                                    "\n                                slideInUp\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2724,7 +3089,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2734,7 +3099,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("slideInDown")]
+                                [
+                                  _vm._v(
+                                    "slideInDown\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2747,7 +3116,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2757,7 +3126,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("slideInLeft")]
+                                [
+                                  _vm._v(
+                                    "slideInLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2770,7 +3143,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2780,7 +3153,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("slideInRight")]
+                                [
+                                  _vm._v(
+                                    "slideInRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2807,8 +3184,8 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: "images/various/little-monster.png",
                               alt: "Cartoon",
+                              src: "images/various/little-monster.png",
                               width: "200"
                             }
                           })
@@ -2837,7 +3214,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -2876,7 +3253,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2886,7 +3263,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("slideOutUp")]
+                                [
+                                  _vm._v(
+                                    "\n                                slideOutUp\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2899,7 +3280,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2909,7 +3290,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("slideOutDown")]
+                                [
+                                  _vm._v(
+                                    "\n                                slideOutDown\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2922,7 +3307,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2932,7 +3317,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("slideOutLeft")]
+                                [
+                                  _vm._v(
+                                    "\n                                slideOutLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2945,7 +3334,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -2955,7 +3344,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("slideOutRight")]
+                                [
+                                  _vm._v(
+                                    "\n                                slideOutRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -2979,8 +3372,8 @@ var render = function() {
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: "images/various/little-monster.png",
                             alt: "Cartoon",
+                            src: "images/various/little-monster.png",
                             width: "200"
                           }
                         })
@@ -3008,7 +3401,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -3047,7 +3440,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3057,7 +3450,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomIn")]
+                                [
+                                  _vm._v(
+                                    "\n                                zoomIn\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3070,7 +3467,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3080,7 +3477,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomInDown")]
+                                [
+                                  _vm._v(
+                                    "\n                                zoomInDown\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3093,7 +3494,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3103,7 +3504,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomInLeft")]
+                                [
+                                  _vm._v(
+                                    "\n                                zoomInLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3116,7 +3521,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3126,7 +3531,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomInRight")]
+                                [
+                                  _vm._v(
+                                    "\n                                zoomInRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3139,7 +3548,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3149,7 +3558,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomInUp")]
+                                [
+                                  _vm._v(
+                                    "\n                                zoomInUp\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3176,8 +3589,8 @@ var render = function() {
                           _c("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                              src: "images/various/little-monster.png",
                               alt: "Cartoon",
+                              src: "images/various/little-monster.png",
                               width: "200"
                             }
                           })
@@ -3204,7 +3617,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -3243,7 +3656,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3253,7 +3666,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomOut")]
+                                [
+                                  _vm._v(
+                                    "zoomOut\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3266,7 +3683,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3276,7 +3693,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomOutDown")]
+                                [
+                                  _vm._v(
+                                    "\n                                zoomOutDown\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3289,7 +3710,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3299,7 +3720,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomOutLeft")]
+                                [
+                                  _vm._v(
+                                    "\n                                zoomOutLeft\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3312,7 +3737,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3322,7 +3747,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomOutRight")]
+                                [
+                                  _vm._v(
+                                    "\n                                zoomOutRight\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3335,7 +3764,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3345,7 +3774,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("zoomOutUp")]
+                                [
+                                  _vm._v(
+                                    "\n                                zoomOutUp\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3369,8 +3802,8 @@ var render = function() {
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: "images/various/little-monster.png",
                             alt: "Cartoon",
+                            src: "images/various/little-monster.png",
                             width: "200"
                           }
                         })
@@ -3396,7 +3829,7 @@ var render = function() {
                   fn: function() {
                     return [
                       _c("h3", { staticClass: "block-title" }, [
-                        _vm._v("\n          Active CSS classes: "),
+                        _vm._v("\n                    Active CSS classes: "),
                         _c("small", [
                           _c("code", [
                             _vm._v(
@@ -3435,7 +3868,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3445,7 +3878,7 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("hinge")]
+                                [_vm._v("hinge\n                            ")]
                               )
                             ],
                             1
@@ -3458,7 +3891,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3468,7 +3901,7 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rollIn")]
+                                [_vm._v("rollIn\n                            ")]
                               )
                             ],
                             1
@@ -3481,7 +3914,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", block: "" },
+                                  attrs: { block: "", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.setAnimation(
@@ -3491,7 +3924,11 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("rollOut")]
+                                [
+                                  _vm._v(
+                                    "rollOut\n                            "
+                                  )
+                                ]
                               )
                             ],
                             1
@@ -3515,8 +3952,8 @@ var render = function() {
                         _c("img", {
                           staticClass: "img-fluid",
                           attrs: {
-                            src: "images/various/little-monster.png",
                             alt: "Cartoon",
+                            src: "images/various/little-monster.png",
                             width: "200"
                           }
                         })

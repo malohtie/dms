@@ -341,6 +341,94 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     loadData: function loadData(ref) {
@@ -380,8 +468,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Block API",
-          subtitle: "Powerful way to manipulate any block you want."
+          subtitle: "Powerful way to manipulate any block you want.",
+          title: "Block API"
         },
         scopedSlots: _vm._u([
           {
@@ -421,10 +509,10 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted mb-0" }, [
                 _vm._v(
-                  "\n        Using block API is easy. You will just have to use the ref property of your block to call the related function. For example, to set the state of a block with ref set to "
+                  "\n                Using block API is easy. You will just have to use the ref property of your block to call the\n                related function. For example, to set the state of a block with ref set to\n                "
                 ),
                 _c("strong", [_vm._v("testBlock")]),
-                _vm._v(" to loading, you will have to call:\n      ")
+                _vm._v(" to loading, you will have to call:\n            ")
               ]),
               _vm._v(" "),
               _c("p", [
@@ -443,8 +531,8 @@ var render = function() {
                         "b-table-simple",
                         {
                           attrs: {
-                            responsive: "",
                             bordered: "",
+                            responsive: "",
                             striped: "",
                             "table-class": "table-vcenter mb-0"
                           }
@@ -487,9 +575,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-primary",
-                                            block: ""
+                                            variant: "alt-primary"
                                           },
                                           on: {
                                             click: function($event) {
@@ -497,7 +585,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Toggle Content")]
+                                        [
+                                          _vm._v(
+                                            "Toggle Content\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -522,9 +614,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-primary",
-                                            block: ""
+                                            variant: "alt-primary"
                                           },
                                           on: {
                                             click: function($event) {
@@ -532,7 +624,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Hide Content")]
+                                        [
+                                          _vm._v(
+                                            "Hide Content\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -557,9 +653,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-primary",
-                                            block: ""
+                                            variant: "alt-primary"
                                           },
                                           on: {
                                             click: function($event) {
@@ -567,7 +663,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Show Content")]
+                                        [
+                                          _vm._v(
+                                            "Show Content\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -592,9 +692,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-warning",
-                                            block: ""
+                                            variant: "alt-warning"
                                           },
                                           on: {
                                             click: function($event) {
@@ -602,7 +702,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Toggle State")]
+                                        [
+                                          _vm._v(
+                                            "Toggle State\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -627,9 +731,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-warning",
-                                            block: ""
+                                            variant: "alt-warning"
                                           },
                                           on: {
                                             click: function($event) {
@@ -637,7 +741,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("State Loading")]
+                                        [
+                                          _vm._v(
+                                            "State Loading\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -662,9 +770,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-warning",
-                                            block: ""
+                                            variant: "alt-warning"
                                           },
                                           on: {
                                             click: function($event) {
@@ -672,7 +780,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("State Normal")]
+                                        [
+                                          _vm._v(
+                                            "State Normal\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -697,9 +809,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-danger",
-                                            block: ""
+                                            variant: "alt-danger"
                                           },
                                           on: {
                                             click: function($event) {
@@ -707,7 +819,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Toggle Fullscreen")]
+                                        [
+                                          _vm._v(
+                                            "Toggle Fullscreen\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -734,9 +850,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-danger",
-                                            block: ""
+                                            variant: "alt-danger"
                                           },
                                           on: {
                                             click: function($event) {
@@ -744,7 +860,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Fullscreen On")]
+                                        [
+                                          _vm._v(
+                                            "Fullscreen On\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -769,9 +889,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-danger",
-                                            block: ""
+                                            variant: "alt-danger"
                                           },
                                           on: {
                                             click: function($event) {
@@ -779,7 +899,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Fullscreen Off")]
+                                        [
+                                          _vm._v(
+                                            "Fullscreen Off\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -804,9 +928,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-info",
-                                            block: ""
+                                            variant: "alt-info"
                                           },
                                           on: {
                                             click: function($event) {
@@ -814,7 +938,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Toggle Pinned")]
+                                        [
+                                          _vm._v(
+                                            "Toggle Pinned\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -839,9 +967,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-info",
-                                            block: ""
+                                            variant: "alt-info"
                                           },
                                           on: {
                                             click: function($event) {
@@ -849,7 +977,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Pinned On")]
+                                        [
+                                          _vm._v(
+                                            "Pinned On\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -874,9 +1006,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-info",
-                                            block: ""
+                                            variant: "alt-info"
                                           },
                                           on: {
                                             click: function($event) {
@@ -884,7 +1016,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Pinned Off")]
+                                        [
+                                          _vm._v(
+                                            "Pinned Off\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -909,9 +1045,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-dark",
-                                            block: ""
+                                            variant: "alt-dark"
                                           },
                                           on: {
                                             click: function($event) {
@@ -919,7 +1055,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Close")]
+                                        [
+                                          _vm._v(
+                                            "\n                                        Close\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -944,9 +1084,9 @@ var render = function() {
                                         "b-button",
                                         {
                                           attrs: {
+                                            block: "",
                                             size: "sm",
-                                            variant: "alt-dark",
-                                            block: ""
+                                            variant: "alt-dark"
                                           },
                                           on: {
                                             click: function($event) {
@@ -954,7 +1094,11 @@ var render = function() {
                                             }
                                           }
                                         },
-                                        [_vm._v("Open")]
+                                        [
+                                          _vm._v(
+                                            "\n                                        Open\n                                    "
+                                          )
+                                        ]
                                       )
                                     ],
                                     1
@@ -987,17 +1131,17 @@ var render = function() {
                         {
                           ref: "testBlock",
                           attrs: {
-                            title: "Test Block",
                             bordered: "",
-                            "header-bg": "",
+                            "btn-option-content": "",
                             "btn-option-fullscreen": "",
-                            "btn-option-content": ""
+                            "header-bg": "",
+                            title: "Test Block"
                           }
                         },
                         [
                           _c("p", [
                             _vm._v(
-                              "\n              Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n            "
+                              "\n                            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad\n                            feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis\n                            ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing\n                            risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet\n                            consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis\n                            quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor\n                            enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id\n                            leo dictum lorem, inceptos nibh orci.\n                        "
                             )
                           ])
                         ]
@@ -1027,14 +1171,14 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Toggle Content",
-                        "btn-option-content": ""
+                        "btn-option-content": "",
+                        title: "Toggle Content"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1049,11 +1193,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Close", "btn-option-close": "" } },
+                    { attrs: { "btn-option-close": "", title: "Close" } },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1069,12 +1213,12 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Maximize", "btn-option-fullscreen": "" }
+                      attrs: { "btn-option-fullscreen": "", title: "Maximize" }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1120,7 +1264,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1135,11 +1279,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Pinned", "btn-option-pinned": "" } },
+                    { attrs: { "btn-option-pinned": "", title: "Pinned" } },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1156,16 +1300,16 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Content",
-                        subtitle: "Hidden by default",
                         "btn-option-content": "",
-                        "mode-content-hide": ""
+                        "mode-content-hide": "",
+                        subtitle: "Hidden by default",
+                        title: "Content"
                       }
                     },
                     [
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1183,11 +1327,11 @@ var render = function() {
                     {
                       ref: "testBlock2",
                       attrs: {
-                        title: "All Options",
+                        "btn-option-close": "",
+                        "btn-option-content": "",
                         "btn-option-fullscreen": "",
                         "btn-option-pinned": "",
-                        "btn-option-content": "",
-                        "btn-option-close": ""
+                        title: "All Options"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1217,7 +1361,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                          "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                         )
                       ])
                     ]
@@ -1273,7 +1417,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1322,7 +1466,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1369,7 +1513,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1416,7 +1560,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1463,7 +1607,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1510,7 +1654,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1557,7 +1701,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1606,7 +1750,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]

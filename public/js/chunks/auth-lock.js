@@ -64,6 +64,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 // Vuelidate, for more info and examples you can check out https://github.com/vuelidate/vuelidate
 
 
@@ -135,16 +141,16 @@ var render = function() {
               [
                 _c(
                   "b-col",
-                  { attrs: { md: "8", lg: "6", xl: "4" } },
+                  { attrs: { lg: "6", md: "8", xl: "4" } },
                   [
                     _c(
                       "base-block",
                       {
                         staticClass: "mb-0",
                         attrs: {
-                          title: "Account Locked",
                           "header-class": "bg-danger",
-                          themed: ""
+                          themed: "",
+                          title: "Account Locked"
                         },
                         scopedSlots: _vm._u([
                           {
@@ -193,14 +199,14 @@ var render = function() {
                             _c("img", {
                               staticClass: "img-avatar img-avatar96",
                               attrs: {
-                                src: "/images/avatars/avatar10.jpg",
-                                alt: "Avatar"
+                                alt: "Avatar",
+                                src: "/images/avatars/avatar10.jpg"
                               }
                             }),
                             _vm._v(" "),
                             _c("p", { staticClass: "font-w600 my-2" }, [
                               _vm._v(
-                                "\n                user@example.com\n              "
+                                "\n                                user@example.com\n                            "
                               )
                             ]),
                             _vm._v(" "),
@@ -223,14 +229,14 @@ var render = function() {
                                     _c("b-form-input", {
                                       staticClass: "form-control-alt",
                                       attrs: {
-                                        type: "password",
-                                        size: "lg",
+                                        state:
+                                          !_vm.$v.form.password.$error && null,
+                                        "aria-describedby": "password-feedback",
                                         id: "password",
                                         name: "password",
                                         placeholder: "Password",
-                                        state:
-                                          !_vm.$v.form.password.$error && null,
-                                        "aria-describedby": "password-feedback"
+                                        size: "lg",
+                                        type: "password"
                                       },
                                       model: {
                                         value: _vm.$v.form.password.$model,
@@ -250,7 +256,7 @@ var render = function() {
                                       { attrs: { id: "password-feedback" } },
                                       [
                                         _vm._v(
-                                          "\n                    Please enter your password\n                  "
+                                          "\n                                        Please enter your password\n                                    "
                                         )
                                       ]
                                     )
@@ -273,9 +279,9 @@ var render = function() {
                                           "b-button",
                                           {
                                             attrs: {
+                                              block: "",
                                               type: "submit",
-                                              variant: "light",
-                                              block: ""
+                                              variant: "light"
                                             }
                                           },
                                           [
@@ -284,7 +290,7 @@ var render = function() {
                                                 "fa fa-fw fa-lock-open mr-1"
                                             }),
                                             _vm._v(
-                                              " Unlock\n                    "
+                                              " Unlock\n                                        "
                                             )
                                           ]
                                         )
@@ -328,7 +334,9 @@ var render = function() {
                 )
               )
             ]),
-            _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n    ")
+            _vm._v(
+              " © " + _vm._s(_vm.$store.getters.appCopyright) + "\n        "
+            )
           ]
         )
       ])

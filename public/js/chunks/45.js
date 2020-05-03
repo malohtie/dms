@@ -20,9 +20,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Modals",
           subtitle:
-            "Add dialogs to your site for lightboxes, user notifications, or completely custom content."
+            "Add dialogs to your site for lightboxes, user notifications, or completely custom content.",
+          title: "Modals"
         },
         scopedSlots: _vm._u([
           {
@@ -71,12 +71,12 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Default Variation", "content-full": "" }
+                      attrs: { "content-full": "", title: "Default Variation" }
                     },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Modals are completely customizable and here we present the default one\n          "
+                          "\n                        Modals are completely customizable and here we present the default one\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -90,9 +90,13 @@ var render = function() {
                               modifiers: { "modal-block-normal": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -102,10 +106,10 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-normal",
                         "body-class": "p-0",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-normal"
                       }
                     },
                     [
@@ -154,13 +158,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -176,7 +180,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -185,13 +189,13 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [_vm._v("Close\n                            ")]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -202,7 +206,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -222,11 +226,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Size: Small", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Size: Small" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            If you don’t have much content, you can use the small size variation\n          "
+                          "\n                        If you don’t have much content, you can use the small size variation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -240,9 +244,13 @@ var render = function() {
                               modifiers: { "modal-block-small": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -252,11 +260,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-small",
-                        size: "sm",
                         "body-class": "p-0",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-small",
+                        size: "sm"
                       }
                     },
                     [
@@ -305,7 +313,7 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -321,7 +329,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -330,13 +338,13 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [_vm._v("Close\n                            ")]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -347,7 +355,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -367,11 +375,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Size: Large", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Size: Large" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            If you need more space you can use the large size variation\n          "
+                          "\n                        If you need more space you can use the large size variation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -385,9 +393,13 @@ var render = function() {
                               modifiers: { "modal-block-large": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -397,11 +409,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-large",
-                        size: "lg",
                         "body-class": "p-0",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-large",
+                        size: "lg"
                       }
                     },
                     [
@@ -450,13 +462,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -472,7 +484,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -481,13 +493,13 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [_vm._v("Close\n                            ")]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -498,7 +510,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -519,12 +531,12 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Size: Extra Large", "content-full": "" }
+                      attrs: { "content-full": "", title: "Size: Extra Large" }
                     },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Do you need even more space? Go for the extra large modal\n          "
+                          "\n                        Do you need even more space? Go for the extra large modal\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -538,9 +550,13 @@ var render = function() {
                               modifiers: { "modal-block-extra-large": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -550,11 +566,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-extra-large",
-                        size: "xl",
                         "body-class": "p-0",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-extra-large",
+                        size: "xl"
                       }
                     },
                     [
@@ -603,19 +619,19 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n              "
+                                  "\n                                Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad\n                                feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante\n                                convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan\n                                adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames\n                                aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo\n                                turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis\n                                congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi\n                                viverra luctus id leo dictum lorem, inceptos nibh orci.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n              "
+                                  "\n                                Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad\n                                feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante\n                                convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan\n                                adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames\n                                aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo\n                                turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis\n                                congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi\n                                viverra luctus id leo dictum lorem, inceptos nibh orci.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n              "
+                                  "\n                                Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad\n                                feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante\n                                convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan\n                                adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames\n                                aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo\n                                turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis\n                                congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi\n                                viverra luctus id leo dictum lorem, inceptos nibh orci.\n                            "
                                 )
                               ])
                             ]
@@ -631,7 +647,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -640,13 +656,17 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -657,7 +677,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -677,11 +697,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Position: Top", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Position: Top" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            You can position your modals at the top of the screen\n          "
+                          "\n                        You can position your modals at the top of the screen\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -695,9 +715,13 @@ var render = function() {
                               modifiers: { "modal-block-top": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -707,11 +731,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-top",
-                        "dialog-class": "modal-dialog-top",
                         "body-class": "p-0",
+                        "dialog-class": "modal-dialog-top",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-top"
                       }
                     },
                     [
@@ -760,13 +784,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -782,7 +806,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -791,13 +815,13 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [_vm._v("Close\n                            ")]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -808,7 +832,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -830,14 +854,14 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Position: Vertically Centered",
-                        "content-full": ""
+                        "content-full": "",
+                        title: "Position: Vertically Centered"
                       }
                     },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            You can center your modals in the middle of the screen\n          "
+                          "\n                        You can center your modals in the middle of the screen\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -851,9 +875,13 @@ var render = function() {
                               modifiers: { "modal-block-vcenter": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -863,11 +891,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-vcenter",
                         "body-class": "p-0",
                         centered: "",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-vcenter"
                       }
                     },
                     [
@@ -916,13 +944,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -938,7 +966,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -947,13 +975,17 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -964,7 +996,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -993,11 +1025,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Fade In", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Fade In" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            The default modal animation\n          "
+                          "\n                        The default modal animation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -1011,9 +1043,13 @@ var render = function() {
                               modifiers: { "modal-block-fadein": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -1023,10 +1059,10 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-fadein",
                         "body-class": "p-0",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-fadein"
                       }
                     },
                     [
@@ -1075,13 +1111,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -1097,7 +1133,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1106,13 +1142,13 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [_vm._v("Close\n                            ")]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1123,7 +1159,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -1143,10 +1179,12 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Pop In", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Pop In" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
-                        _vm._v("\n            Poping in animation\n          ")
+                        _vm._v(
+                          "\n                        Poping in animation\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c(
@@ -1159,9 +1197,13 @@ var render = function() {
                               modifiers: { "modal-block-popin": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -1171,11 +1213,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-popin",
-                        "dialog-class": "modal-dialog-popin",
                         "body-class": "p-0",
+                        "dialog-class": "modal-dialog-popin",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-popin"
                       }
                     },
                     [
@@ -1224,13 +1266,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -1246,7 +1288,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1255,13 +1297,13 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [_vm._v("Close\n                            ")]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1272,7 +1314,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -1292,10 +1334,12 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Pop Out", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Pop Out" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
-                        _vm._v("\n            Poping out animation\n          ")
+                        _vm._v(
+                          "\n                        Poping out animation\n                    "
+                        )
                       ]),
                       _vm._v(" "),
                       _c(
@@ -1308,9 +1352,13 @@ var render = function() {
                               modifiers: { "modal-block-popout": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -1320,11 +1368,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-popout",
-                        "dialog-class": "modal-dialog-popout",
                         "body-class": "p-0",
+                        "dialog-class": "modal-dialog-popout",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-popout"
                       }
                     },
                     [
@@ -1373,13 +1421,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -1395,7 +1443,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1404,13 +1452,13 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [_vm._v("Close\n                            ")]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1421,7 +1469,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -1441,11 +1489,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Slide Up", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Slide Up" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Sliding from up animation\n          "
+                          "\n                        Sliding from up animation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -1459,9 +1507,13 @@ var render = function() {
                               modifiers: { "modal-block-slideup": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -1471,11 +1523,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-slideup",
-                        "dialog-class": "modal-dialog-slideup",
                         "body-class": "p-0",
+                        "dialog-class": "modal-dialog-slideup",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-slideup"
                       }
                     },
                     [
@@ -1524,13 +1576,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -1546,7 +1598,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1555,13 +1607,17 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1572,7 +1628,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -1592,11 +1648,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Slide Right", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Slide Right" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Sliding from right animation\n          "
+                          "\n                        Sliding from right animation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -1610,9 +1666,13 @@ var render = function() {
                               modifiers: { "modal-block-slideright": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -1622,11 +1682,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-slideright",
-                        "dialog-class": "modal-dialog-slideright",
                         "body-class": "p-0",
+                        "dialog-class": "modal-dialog-slideright",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-slideright"
                       }
                     },
                     [
@@ -1675,13 +1735,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -1697,7 +1757,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1706,13 +1766,17 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1723,7 +1787,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -1743,11 +1807,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Slide Left", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Slide Left" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Sliding from left animation\n          "
+                          "\n                        Sliding from left animation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -1761,9 +1825,13 @@ var render = function() {
                               modifiers: { "modal-block-slideleft": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -1773,11 +1841,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-slideleft",
-                        "dialog-class": "modal-dialog-slideleft",
                         "body-class": "p-0",
+                        "dialog-class": "modal-dialog-slideleft",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-slideleft"
                       }
                     },
                     [
@@ -1826,13 +1894,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -1848,7 +1916,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1857,13 +1925,17 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -1874,7 +1946,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -1894,11 +1966,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "From Right", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "From Right" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Coming from right with rotation animation\n          "
+                          "\n                        Coming from right with rotation animation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -1912,9 +1984,13 @@ var render = function() {
                               modifiers: { "modal-block-fromright": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -1924,11 +2000,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-fromright",
-                        "dialog-class": "modal-dialog-fromright",
                         "body-class": "p-0",
+                        "dialog-class": "modal-dialog-fromright",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-fromright"
                       }
                     },
                     [
@@ -1977,13 +2053,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -1999,7 +2075,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -2008,13 +2084,17 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -2025,7 +2105,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -2045,11 +2125,11 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "From Left", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "From Left" } },
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Coming from left with rotation animation\n          "
+                          "\n                        Coming from left with rotation animation\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -2063,9 +2143,13 @@ var render = function() {
                               modifiers: { "modal-block-fromleft": true }
                             }
                           ],
-                          attrs: { variant: "primary", size: "sm" }
+                          attrs: { size: "sm", variant: "primary" }
                         },
-                        [_vm._v("\n            Launch Modal\n          ")]
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -2075,11 +2159,11 @@ var render = function() {
                     "b-modal",
                     {
                       attrs: {
-                        id: "modal-block-fromleft",
-                        "dialog-class": "modal-dialog-fromleft",
                         "body-class": "p-0",
+                        "dialog-class": "modal-dialog-fromleft",
                         "hide-footer": "",
-                        "hide-header": ""
+                        "hide-header": "",
+                        id: "modal-block-fromleft"
                       }
                     },
                     [
@@ -2128,13 +2212,13 @@ var render = function() {
                             [
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ]),
                               _vm._v(" "),
                               _c("p", [
                                 _vm._v(
-                                  "\n                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n              "
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
                                 )
                               ])
                             ]
@@ -2150,7 +2234,7 @@ var render = function() {
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "light", size: "sm" },
+                                  attrs: { size: "sm", variant: "light" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -2159,13 +2243,17 @@ var render = function() {
                                     }
                                   }
                                 },
-                                [_vm._v("Close")]
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "b-button",
                                 {
-                                  attrs: { variant: "primary", size: "sm" },
+                                  attrs: { size: "sm", variant: "primary" },
                                   on: {
                                     click: function($event) {
                                       return _vm.$bvModal.hide(
@@ -2176,7 +2264,7 @@ var render = function() {
                                 },
                                 [
                                   _c("i", { staticClass: "fa fa-check mr-1" }),
-                                  _vm._v(" Ok\n              ")
+                                  _vm._v(" Ok\n                            ")
                                 ]
                               )
                             ],
@@ -2205,7 +2293,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("h2", { staticClass: "content-heading" }, [
-      _vm._v("\n      Bootstrap Modals "),
+      _vm._v("\n            Bootstrap Modals "),
       _c("small", [_vm._v("Animations")])
     ])
   }

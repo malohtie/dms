@@ -4,8 +4,8 @@
         <div class="content">
             <!-- Stats -->
             <b-row>
-                <b-col cols="6" md="3" lg="6" xl="3">
-                    <base-block tag="a" rounded link-pop content-full href="javascript:void(0)">
+                <b-col cols="6" lg="6" md="3" xl="3">
+                    <base-block content-full href="javascript:void(0)" link-pop rounded tag="a">
                         <div class="font-size-sm font-w600 text-uppercase text-muted">
                             Visitors
                         </div>
@@ -14,8 +14,8 @@
                         </div>
                     </base-block>
                 </b-col>
-                <b-col cols="6" md="3" lg="6" xl="3">
-                    <base-block tag="a" rounded link-pop content-full href="javascript:void(0)">
+                <b-col cols="6" lg="6" md="3" xl="3">
+                    <base-block content-full href="javascript:void(0)" link-pop rounded tag="a">
                         <div class="font-size-sm font-w600 text-uppercase text-muted">
                             Sales
                         </div>
@@ -24,8 +24,8 @@
                         </div>
                     </base-block>
                 </b-col>
-                <b-col cols="6" md="3" lg="6" xl="3">
-                    <base-block tag="a" rounded link-pop content-full href="javascript:void(0)">
+                <b-col cols="6" lg="6" md="3" xl="3">
+                    <base-block content-full href="javascript:void(0)" link-pop rounded tag="a">
                         <div class="font-size-sm font-w600 text-uppercase text-muted">
                             Earnings
                         </div>
@@ -34,8 +34,8 @@
                         </div>
                     </base-block>
                 </b-col>
-                <b-col cols="6" md="3" lg="6" xl="3">
-                    <base-block tag="a" rounded link-pop content-full href="javascript:void(0)">
+                <b-col cols="6" lg="6" md="3" xl="3">
+                    <base-block content-full href="javascript:void(0)" link-pop rounded tag="a">
                         <div class="font-size-sm font-w600 text-uppercase text-muted">
                             Avg Sale
                         </div>
@@ -51,9 +51,9 @@
             <b-row>
                 <b-col lg="6">
                     <!-- Earnings Chart -->
-                    <base-block title="Earnings in $" header-bg>
+                    <base-block header-bg title="Earnings in $">
                         <template #options>
-                            <button type="button" class="btn-block-option">
+                            <button class="btn-block-option" type="button">
                                 <i class="si si-settings"></i>
                             </button>
                         </template>
@@ -90,9 +90,9 @@
                 </b-col>
                 <b-col lg="6">
                     <!-- Sales Chart -->
-                    <base-block title="Sales" header-bg>
+                    <base-block header-bg title="Sales">
                         <template #options>
-                            <button type="button" class="btn-block-option">
+                            <button class="btn-block-option" type="button">
                                 <i class="si si-settings"></i>
                             </button>
                         </template>
@@ -134,13 +134,13 @@
             <b-row class="row-deck">
                 <!-- Latest Customers -->
                 <b-col xl="6">
-                    <base-block title="Latest Customers" header-bg content-full>
+                    <base-block content-full header-bg title="Latest Customers">
                         <template #options>
-                            <button type="button" class="btn-block-option">
+                            <button class="btn-block-option" type="button">
                                 <i class="si si-settings"></i>
                             </button>
                         </template>
-                        <b-table-simple striped hover borderless class="table-vcenter font-size-sm mb-0">
+                        <b-table-simple borderless class="table-vcenter font-size-sm mb-0" hover striped>
                             <b-thead>
                                 <b-tr>
                                     <b-th class="font-w700" style="width: 80px;">ID</b-th>
@@ -155,13 +155,13 @@
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
-                                <b-tr v-for="customer in latestCustomers" :key="customer.id">
+                                <b-tr :key="customer.id" v-for="customer in latestCustomers">
                                     <b-td class="font-w600">
                                         {{ customer.id }}
                                     </b-td>
                                     <b-td class="d-none d-sm-table-cell text-center">
-                                        <img class="img-avatar img-avatar32"
-                                             :src="`/images/avatars/${customer.avatar}.jpg`" alt="Avatar">
+                                        <img :src="`/images/avatars/${customer.avatar}.jpg`"
+                                             alt="Avatar" class="img-avatar img-avatar32">
                                     </b-td>
                                     <b-td>
                                         <a class="link-fx font-w600" href="javascript:void(0)">{{ customer.name }}</a>
@@ -183,13 +183,13 @@
 
                 <!-- Latest Orders -->
                 <b-col xl="6">
-                    <base-block title="Latest Orders" header-bg content-full>
+                    <base-block content-full header-bg title="Latest Orders">
                         <template #options>
-                            <button type="button" class="btn-block-option">
+                            <button class="btn-block-option" type="button">
                                 <i class="si si-settings"></i>
                             </button>
                         </template>
-                        <b-table-simple striped hover borderless class="table-vcenter font-size-sm mb-0">
+                        <b-table-simple borderless class="table-vcenter font-size-sm mb-0" hover striped>
                             <b-thead>
                                 <b-tr>
                                     <b-th class="font-w700">ID</b-th>
@@ -202,7 +202,7 @@
                                 </b-tr>
                             </b-thead>
                             <b-tbody>
-                                <b-tr v-for="order in latestOrders" :key="order.id">
+                                <b-tr :key="order.id" v-for="order in latestOrders">
                                     <b-td>
                                         <a class="font-w600" href="javascript:void(0)">#{{ order.id }}</a>
                                     </b-td>
@@ -210,8 +210,8 @@
                                         {{ order.date }}
                                     </b-td>
                                     <b-td>
-                                        <span class="font-w600"
-                                              :class="`text-${order.stateVariant}`">{{ order.state }}</span>
+                                        <span :class="`text-${order.stateVariant}`"
+                                              class="font-w600">{{ order.state }}</span>
                                     </b-td>
                                     <b-td class="d-none d-sm-table-cell text-right">
                                         {{ order.total }}

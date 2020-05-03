@@ -357,6 +357,41 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -475,9 +510,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Form Elements",
           subtitle:
-            "Carefully designed elements that will ensure a great experience for your users."
+            "Carefully designed elements that will ensure a great experience for your users.",
+          title: "Form Elements"
         },
         scopedSlots: _vm._u([
           {
@@ -513,7 +548,7 @@ var render = function() {
         [
           _c(
             "base-block",
-            { attrs: { title: "Basic", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Basic" } },
             [
               _c(
                 "b-form",
@@ -525,7 +560,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              The most often used inputs you know and love\n            "
+                            "\n                            The most often used inputs you know and love\n                        "
                           )
                         ])
                       ]),
@@ -565,8 +600,8 @@ var render = function() {
                               _c("b-form-input", {
                                 attrs: {
                                   id: "example-email-input",
-                                  type: "email",
-                                  placeholder: "Email Input"
+                                  placeholder: "Email Input",
+                                  type: "email"
                                 }
                               })
                             ],
@@ -585,8 +620,8 @@ var render = function() {
                               _c("b-form-input", {
                                 attrs: {
                                   id: "example-password-input",
-                                  type: "password",
-                                  placeholder: "Password Input"
+                                  placeholder: "Password Input",
+                                  type: "password"
                                 }
                               })
                             ],
@@ -605,8 +640,8 @@ var render = function() {
                               _c("b-form-textarea", {
                                 attrs: {
                                   id: "example-textarea-input",
-                                  rows: "4",
-                                  placeholder: "Textarea content.."
+                                  placeholder: "Textarea content..",
+                                  rows: "4"
                                 }
                               })
                             ],
@@ -626,7 +661,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Browser’s default select boxes, showcasing both simple and multiple selections\n            "
+                            "\n                            Browser’s default select boxes, showcasing both simple and multiple selections\n                        "
                           )
                         ])
                       ]),
@@ -646,8 +681,8 @@ var render = function() {
                             [
                               _c("b-form-select", {
                                 attrs: {
-                                  id: "example-select",
                                   options: _vm.options,
+                                  id: "example-select",
                                   plain: ""
                                 },
                                 model: {
@@ -673,11 +708,11 @@ var render = function() {
                             [
                               _c("b-form-select", {
                                 attrs: {
-                                  id: "example-select-multiple",
                                   options: _vm.optionsMultiple,
-                                  size: "5",
+                                  id: "example-select-multiple",
                                   multiple: "",
-                                  plain: ""
+                                  plain: "",
+                                  size: "5"
                                 },
                                 model: {
                                   value: _vm.selectedMultiple,
@@ -704,7 +739,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Browser’s default checkboxes and radios in various layouts\n            "
+                            "\n                            Browser’s default checkboxes and radios in various layouts\n                        "
                           )
                         ])
                       ]),
@@ -832,7 +867,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Browser’s default file inputs, showcasing both single and multiple files\n            "
+                            "\n                            Browser’s default file inputs, showcasing both single and multiple files\n                        "
                           )
                         ])
                       ]),
@@ -869,8 +904,8 @@ var render = function() {
                               _c("b-form-file", {
                                 attrs: {
                                   id: "example-file-input-multiple",
-                                  plain: "",
-                                  multiple: ""
+                                  multiple: "",
+                                  plain: ""
                                 }
                               })
                             ],
@@ -891,7 +926,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Alternative Style", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Alternative Style" } },
             [
               _c(
                 "b-form",
@@ -903,7 +938,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              You can enable an alternative style with background color\n            "
+                            "\n                            You can enable an alternative style with background color\n                        "
                           )
                         ])
                       ]),
@@ -945,8 +980,8 @@ var render = function() {
                                 staticClass: "form-control-alt",
                                 attrs: {
                                   id: "example-password-input-alt",
-                                  type: "password",
-                                  placeholder: "Password Input"
+                                  placeholder: "Password Input",
+                                  type: "password"
                                 }
                               })
                             ],
@@ -966,8 +1001,8 @@ var render = function() {
                                 staticClass: "form-control-alt",
                                 attrs: {
                                   id: "example-textarea-input-alt",
-                                  rows: "7",
-                                  placeholder: "Textarea content.."
+                                  placeholder: "Textarea content..",
+                                  rows: "7"
                                 }
                               })
                             ],
@@ -988,7 +1023,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Custom Controls", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Custom Controls" } },
             [
               _c(
                 "b-form",
@@ -1000,7 +1035,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              A custom style is also included for checkboxes, radios, select boxes and files inputs as well\n            "
+                            "\n                            A custom style is also included for checkboxes, radios, select boxes and files inputs as\n                            well\n                        "
                           )
                         ])
                       ]),
@@ -1021,8 +1056,8 @@ var render = function() {
                               _c("b-form-checkbox-group", {
                                 attrs: {
                                   options: _vm.optionsCheckboxes,
-                                  switches: "",
-                                  stacked: ""
+                                  stacked: "",
+                                  switches: ""
                                 },
                                 model: {
                                   value: _vm.selectedCheckboxes,
@@ -1171,8 +1206,8 @@ var render = function() {
                             [
                               _c("b-form-select", {
                                 attrs: {
-                                  id: "example-select-custom",
-                                  options: _vm.options
+                                  options: _vm.options,
+                                  id: "example-select-custom"
                                 },
                                 model: {
                                   value: _vm.selected,
@@ -1197,10 +1232,10 @@ var render = function() {
                             [
                               _c("b-form-select", {
                                 attrs: {
-                                  id: "example-select-multiple-custom",
                                   options: _vm.optionsMultiple,
-                                  size: "5",
-                                  multiple: ""
+                                  id: "example-select-multiple-custom",
+                                  multiple: "",
+                                  size: "5"
                                 },
                                 model: {
                                   value: _vm.selectedMultiple,
@@ -1265,7 +1300,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Static", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Static" } },
             [
               _c(
                 "b-form",
@@ -1277,7 +1312,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              You can easily have static readonly inputs with different styles\n            "
+                            "\n                            You can easily have static readonly inputs with different styles\n                        "
                           )
                         ])
                       ]),
@@ -1299,8 +1334,8 @@ var render = function() {
                                 attrs: {
                                   id: "example-static-input-plain",
                                   placeholder: "Text Input",
-                                  value: "email@example.com",
-                                  plaintext: ""
+                                  plaintext: "",
+                                  value: "email@example.com"
                                 }
                               })
                             ],
@@ -1320,8 +1355,8 @@ var render = function() {
                                 attrs: {
                                   id: "example-static-input-readonly",
                                   placeholder: "Text Input",
-                                  value: "email@example.com",
-                                  readonly: ""
+                                  readonly: "",
+                                  value: "email@example.com"
                                 }
                               })
                             ],
@@ -1342,7 +1377,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "States", "content-full": "" } },
+            { attrs: { "content-full": "", title: "States" } },
             [
               _c(
                 "b-form",
@@ -1354,7 +1389,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              There are various states an input can have\n            "
+                            "\n                            There are various states an input can have\n                        "
                           )
                         ])
                       ]),
@@ -1374,8 +1409,8 @@ var render = function() {
                             [
                               _c("b-form-input", {
                                 attrs: {
-                                  id: "example-text-input-valid",
                                   state: true,
+                                  id: "example-text-input-valid",
                                   placeholder: "Default Style.."
                                 }
                               })
@@ -1389,8 +1424,8 @@ var render = function() {
                               _c("b-form-input", {
                                 staticClass: "form-control-alt",
                                 attrs: {
-                                  id: "example-text-input-valid-alt",
                                   state: true,
+                                  id: "example-text-input-valid-alt",
                                   placeholder: "Alternative Style.."
                                 }
                               }),
@@ -1404,7 +1439,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                Valid feedback\n              "
+                                    "\n                                Valid feedback\n                            "
                                   )
                                 ]
                               )
@@ -1423,8 +1458,8 @@ var render = function() {
                             [
                               _c("b-form-input", {
                                 attrs: {
-                                  id: "example-text-input-invalid",
                                   state: false,
+                                  id: "example-text-input-invalid",
                                   placeholder: "Default Style.."
                                 }
                               })
@@ -1438,8 +1473,8 @@ var render = function() {
                               _c("b-form-input", {
                                 staticClass: "form-control-alt",
                                 attrs: {
-                                  id: "example-text-input-invalid-alt",
                                   state: false,
+                                  id: "example-text-input-invalid-alt",
                                   placeholder: "Alternative Style.."
                                 }
                               }),
@@ -1454,7 +1489,7 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                Invalid feedback\n              "
+                                    "\n                                Invalid feedback\n                            "
                                   )
                                 ]
                               )
@@ -1473,9 +1508,9 @@ var render = function() {
                             [
                               _c("b-form-input", {
                                 attrs: {
+                                  disabled: "",
                                   id: "example-disabled-input",
-                                  placeholder: "Disabled State..",
-                                  disabled: ""
+                                  placeholder: "Disabled State.."
                                 }
                               })
                             ],
@@ -1496,7 +1531,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Sizes", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Sizes" } },
             [
               _c(
                 "b-form",
@@ -1508,7 +1543,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              You can also alter the size of your inputs\n            "
+                            "\n                            You can also alter the size of your inputs\n                        "
                           )
                         ])
                       ]),
@@ -1529,8 +1564,8 @@ var render = function() {
                               _c("b-form-input", {
                                 attrs: {
                                   id: "example-text-input-sm",
-                                  size: "sm",
-                                  placeholder: 'size="sm"'
+                                  placeholder: 'size="sm"',
+                                  size: "sm"
                                 }
                               })
                             ],
@@ -1544,8 +1579,8 @@ var render = function() {
                                 staticClass: "form-control-alt",
                                 attrs: {
                                   id: "example-text-input-sm-alt",
-                                  size: "sm",
-                                  placeholder: 'size="sm"'
+                                  placeholder: 'size="sm"',
+                                  size: "sm"
                                 }
                               })
                             ],
@@ -1597,8 +1632,8 @@ var render = function() {
                               _c("b-form-input", {
                                 attrs: {
                                   id: "example-text-input-lg",
-                                  size: "lg",
-                                  placeholder: 'size="lg"'
+                                  placeholder: 'size="lg"',
+                                  size: "lg"
                                 }
                               })
                             ],
@@ -1612,8 +1647,8 @@ var render = function() {
                                 staticClass: "form-control-alt",
                                 attrs: {
                                   id: "example-text-input-lg-alt",
-                                  size: "lg",
-                                  placeholder: 'size="lg"'
+                                  placeholder: 'size="lg"',
+                                  size: "lg"
                                 }
                               })
                             ],
@@ -1634,7 +1669,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "base-block",
-            { attrs: { title: "Grid Sizes", "content-full": "" } },
+            { attrs: { "content-full": "", title: "Grid Sizes" } },
             [
               _c(
                 "b-form",
@@ -1646,7 +1681,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              You can also take advantage of the grid to manipulate your input width\n            "
+                            "\n                            You can also take advantage of the grid to manipulate your input width\n                        "
                           )
                         ])
                       ]),

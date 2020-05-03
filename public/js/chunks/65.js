@@ -19,7 +19,7 @@ var render = function() {
     "div",
     [
       _c("base-page-heading", {
-        attrs: { title: "Error Pages", subtitle: "All pages in one spot!" },
+        attrs: { subtitle: "All pages in one spot!", title: "Error Pages" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -67,11 +67,11 @@ var render = function() {
                           "base-block",
                           {
                             attrs: {
-                              tag: "a",
+                              href: href,
                               "content-class": "text-center",
-                              rounded: "",
                               "link-shadow": "",
-                              href: href
+                              rounded: "",
+                              tag: "a"
                             },
                             on: { click: navigate }
                           },
@@ -118,11 +118,11 @@ var render = function() {
                           "base-block",
                           {
                             attrs: {
-                              tag: "a",
+                              href: href,
                               "content-class": "text-center",
-                              rounded: "",
                               "link-shadow": "",
-                              href: href
+                              rounded: "",
+                              tag: "a"
                             },
                             on: { click: navigate }
                           },
@@ -169,11 +169,11 @@ var render = function() {
                           "base-block",
                           {
                             attrs: {
-                              tag: "a",
+                              href: href,
                               "content-class": "text-center",
-                              rounded: "",
                               "link-shadow": "",
-                              href: href
+                              rounded: "",
+                              tag: "a"
                             },
                             on: { click: navigate }
                           },
@@ -220,11 +220,11 @@ var render = function() {
                           "base-block",
                           {
                             attrs: {
-                              tag: "a",
+                              href: href,
                               "content-class": "text-center",
-                              rounded: "",
                               "link-shadow": "",
-                              href: href
+                              rounded: "",
+                              tag: "a"
                             },
                             on: { click: navigate }
                           },
@@ -271,11 +271,11 @@ var render = function() {
                           "base-block",
                           {
                             attrs: {
-                              tag: "a",
+                              href: href,
                               "content-class": "text-center",
-                              rounded: "",
                               "link-shadow": "",
-                              href: href
+                              rounded: "",
+                              tag: "a"
                             },
                             on: { click: navigate }
                           },
@@ -322,11 +322,11 @@ var render = function() {
                           "base-block",
                           {
                             attrs: {
-                              tag: "a",
+                              href: href,
                               "content-class": "text-center",
-                              rounded: "",
                               "link-shadow": "",
-                              href: href
+                              rounded: "",
+                              tag: "a"
                             },
                             on: { click: navigate }
                           },

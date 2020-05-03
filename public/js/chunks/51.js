@@ -20,9 +20,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Input Groups",
           subtitle:
-            "Enrich your form inputs with buttons and extra text content."
+            "Enrich your form inputs with buttons and extra text content.",
+          title: "Input Groups"
         },
         scopedSlots: _vm._u([
           {
@@ -66,7 +66,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            Prepend or Append Text next to your inputs, useful if you would like to add extra info\n          "
+                        "\n                        Prepend or Append Text next to your inputs, useful if you would like to add extra info\n                    "
                       )
                     ])
                   ]),
@@ -123,7 +123,7 @@ var render = function() {
                             [
                               _c(
                                 "b-input-group",
-                                { attrs: { prepend: "$", append: ",00" } },
+                                { attrs: { append: ",00", prepend: "$" } },
                                 [
                                   _c("b-form-input", {
                                     attrs: { placeholder: "00" }
@@ -287,7 +287,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            Prepend or Append Icons next to your inputs to visualize the context\n          "
+                        "\n                        Prepend or Append Icons next to your inputs to visualize the context\n                    "
                       )
                     ])
                   ]),
@@ -595,7 +595,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            Prepend or Append Buttons next to your inputs to add related actions\n          "
+                        "\n                        Prepend or Append Buttons next to your inputs to add related actions\n                    "
                       )
                     ])
                   ]),
@@ -631,7 +631,9 @@ var render = function() {
                                           _c("i", {
                                             staticClass: "fa fa-search mr-1"
                                           }),
-                                          _vm._v(" Search\n                  ")
+                                          _vm._v(
+                                            " Search\n                                    "
+                                          )
                                         ]
                                       )
                                     ],
@@ -657,8 +659,8 @@ var render = function() {
                                 [
                                   _c("b-form-input", {
                                     attrs: {
-                                      type: "email",
-                                      placeholder: "Email"
+                                      placeholder: "Email",
+                                      type: "email"
                                     }
                                   }),
                                   _vm._v(" "),
@@ -746,7 +748,9 @@ var render = function() {
                                           _c("i", {
                                             staticClass: "fa fa-search mr-1"
                                           }),
-                                          _vm._v(" Search\n                  ")
+                                          _vm._v(
+                                            " Search\n                                    "
+                                          )
                                         ]
                                       )
                                     ],
@@ -774,8 +778,8 @@ var render = function() {
                                   _c("b-form-input", {
                                     staticClass: "form-control-alt",
                                     attrs: {
-                                      type: "email",
-                                      placeholder: "Email"
+                                      placeholder: "Email",
+                                      type: "email"
                                     }
                                   }),
                                   _vm._v(" "),
@@ -864,7 +868,9 @@ var render = function() {
                                           _c("i", {
                                             staticClass: "fa fa-search mr-1"
                                           }),
-                                          _vm._v(" Search\n                  ")
+                                          _vm._v(
+                                            " Search\n                                    "
+                                          )
                                         ]
                                       )
                                     ],
@@ -892,8 +898,8 @@ var render = function() {
                                   _c("b-form-input", {
                                     staticClass: "form-control-alt",
                                     attrs: {
-                                      type: "email",
-                                      placeholder: "Email"
+                                      placeholder: "Email",
+                                      type: "email"
                                     }
                                   }),
                                   _vm._v(" "),
@@ -986,7 +992,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            Prepend or Append dropdowns next to your inputs\n          "
+                        "\n                        Prepend or Append dropdowns next to your inputs\n                    "
                       )
                     ])
                   ]),
@@ -1019,8 +1025,8 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            text: "Options",
                                             split: "",
+                                            text: "Options",
                                             variant: "primary"
                                           }
                                         },
@@ -1031,7 +1037,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1041,7 +1047,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1053,7 +1059,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1082,8 +1088,8 @@ var render = function() {
                                 [
                                   _c("b-form-input", {
                                     attrs: {
-                                      type: "email",
-                                      placeholder: "Email"
+                                      placeholder: "Email",
+                                      type: "email"
                                     }
                                   }),
                                   _vm._v(" "),
@@ -1094,8 +1100,8 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            variant: "primary",
-                                            right: ""
+                                            right: "",
+                                            variant: "primary"
                                           }
                                         },
                                         [
@@ -1105,7 +1111,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1115,7 +1121,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1127,7 +1133,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1157,8 +1163,8 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            variant: "primary",
-                                            dropup: ""
+                                            dropup: "",
+                                            variant: "primary"
                                           }
                                         },
                                         [
@@ -1168,7 +1174,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1178,7 +1184,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1190,7 +1196,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1211,9 +1217,9 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            variant: "primary",
                                             dropup: "",
-                                            right: ""
+                                            right: "",
+                                            variant: "primary"
                                           }
                                         },
                                         [
@@ -1223,7 +1229,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1233,7 +1239,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1245,7 +1251,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1275,8 +1281,8 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            text: "Options",
                                             split: "",
+                                            text: "Options",
                                             variant: "dark"
                                           }
                                         },
@@ -1287,7 +1293,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1297,7 +1303,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1309,7 +1315,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1338,8 +1344,8 @@ var render = function() {
                                 [
                                   _c("b-form-input", {
                                     attrs: {
-                                      type: "email",
-                                      placeholder: "Email"
+                                      placeholder: "Email",
+                                      type: "email"
                                     }
                                   }),
                                   _vm._v(" "),
@@ -1349,7 +1355,7 @@ var render = function() {
                                       _c(
                                         "b-dropdown",
                                         {
-                                          attrs: { variant: "dark", right: "" }
+                                          attrs: { right: "", variant: "dark" }
                                         },
                                         [
                                           _c("b-dropdown-item", [
@@ -1358,7 +1364,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1368,7 +1374,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1380,7 +1386,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1409,7 +1415,7 @@ var render = function() {
                                       _c(
                                         "b-dropdown",
                                         {
-                                          attrs: { variant: "dark", dropup: "" }
+                                          attrs: { dropup: "", variant: "dark" }
                                         },
                                         [
                                           _c("b-dropdown-item", [
@@ -1418,7 +1424,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1428,7 +1434,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1440,7 +1446,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1461,9 +1467,9 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            variant: "dark",
                                             dropup: "",
-                                            right: ""
+                                            right: "",
+                                            variant: "dark"
                                           }
                                         },
                                         [
@@ -1473,7 +1479,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1483,7 +1489,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1495,7 +1501,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1525,8 +1531,8 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            text: "Options",
                                             split: "",
+                                            text: "Options",
                                             variant: "alt-primary"
                                           }
                                         },
@@ -1537,7 +1543,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1547,7 +1553,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1559,7 +1565,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1588,8 +1594,8 @@ var render = function() {
                                 [
                                   _c("b-form-input", {
                                     attrs: {
-                                      type: "email",
-                                      placeholder: "Email"
+                                      placeholder: "Email",
+                                      type: "email"
                                     }
                                   }),
                                   _vm._v(" "),
@@ -1600,8 +1606,8 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            variant: "alt-primary",
-                                            right: ""
+                                            right: "",
+                                            variant: "alt-primary"
                                           }
                                         },
                                         [
@@ -1611,7 +1617,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1621,7 +1627,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1633,7 +1639,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1663,8 +1669,8 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            variant: "alt-primary",
-                                            dropup: ""
+                                            dropup: "",
+                                            variant: "alt-primary"
                                           }
                                         },
                                         [
@@ -1674,7 +1680,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1684,7 +1690,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1696,7 +1702,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],
@@ -1717,9 +1723,9 @@ var render = function() {
                                         "b-dropdown",
                                         {
                                           attrs: {
-                                            variant: "alt-primary",
                                             dropup: "",
-                                            right: ""
+                                            right: "",
+                                            variant: "alt-primary"
                                           }
                                         },
                                         [
@@ -1729,7 +1735,7 @@ var render = function() {
                                                 "far fa-fw fa-bell mr-1"
                                             }),
                                             _vm._v(
-                                              " News\n                    "
+                                              " News\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1739,7 +1745,7 @@ var render = function() {
                                                 "far fa-fw fa-envelope mr-1"
                                             }),
                                             _vm._v(
-                                              " Messages\n                    "
+                                              " Messages\n                                        "
                                             )
                                           ]),
                                           _vm._v(" "),
@@ -1751,7 +1757,7 @@ var render = function() {
                                                 "fa fa-fw fa-pencil-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Edit Profile\n                    "
+                                              " Edit Profile\n                                        "
                                             )
                                           ])
                                         ],

@@ -49,10 +49,14 @@
     }
 
     @include media-breakpoint-up(xl) {
-        &.content-narrow { width: $space-narrow !important; }
+        &.content-narrow {
+            width: $space-narrow !important;
+        }
     }
 
-    &.content-boxed { max-width: $space-boxed !important; }
+    &.content-boxed {
+        max-width: $space-boxed !important;
+    }
 
     &.content-top {
         padding-top: $header-height + $space-mobile;

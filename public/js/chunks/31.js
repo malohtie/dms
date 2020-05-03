@@ -317,6 +317,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -376,7 +379,7 @@ var render = function() {
             _c("div", { staticClass: "my-3" }, [
               _c("img", {
                 staticClass: "img-avatar img-avatar-thumb",
-                attrs: { src: "/images/avatars/avatar13.jpg", alt: "Avatar" }
+                attrs: { alt: "Avatar", src: "/images/avatars/avatar13.jpg" }
               })
             ]),
             _vm._v(" "),
@@ -531,7 +534,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                    just now\n                  "
+                                        "\n                                    just now\n                                "
                                       )
                                     ]
                                   )
@@ -545,13 +548,13 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", { staticClass: "font-w600 mb-2" }, [
                             _vm._v(
-                              "\n                + 290 Page Likes\n              "
+                              "\n                                + 290 Page Likes\n                            "
                             )
                           ]),
                           _vm._v(" "),
                           _c("p", [
                             _vm._v(
-                              "\n                This is great, keep it up!\n              "
+                              "\n                                This is great, keep it up!\n                            "
                             )
                           ])
                         ]
@@ -588,7 +591,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                  4 hrs ago\n                "
+                                        "\n                                    4 hrs ago\n                                "
                                       )
                                     ]
                                   )
@@ -602,7 +605,7 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", { staticClass: "font-w600 mb-2" }, [
                             _vm._v(
-                              "\n                3 New Products were added!\n              "
+                              "\n                                3 New Products were added!\n                            "
                             )
                           ]),
                           _vm._v(" "),
@@ -684,7 +687,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                  12 hrs ago\n                "
+                                        "\n                                    12 hrs ago\n                                "
                                       )
                                     ]
                                   )
@@ -698,13 +701,13 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", { staticClass: "font-w600 mb-2" }, [
                             _vm._v(
-                              "\n                + 1150 Followers\n              "
+                              "\n                                + 1150 Followers\n                            "
                             )
                           ]),
                           _vm._v(" "),
                           _c("p", [
                             _vm._v(
-                              "\n                You’re getting more and more followers, keep it up!\n              "
+                              "\n                                You’re getting more and more followers, keep it up!\n                            "
                             )
                           ])
                         ]
@@ -741,7 +744,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                  1 day ago\n                "
+                                        "\n                                    1 day ago\n                                "
                                       )
                                     ]
                                   )
@@ -755,16 +758,18 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", { staticClass: "font-w600 mb-2" }, [
                             _vm._v(
-                              "\n                Database backup completed!\n              "
+                              "\n                                Database backup completed!\n                            "
                             )
                           ]),
                           _vm._v(" "),
                           _c("p", [
-                            _vm._v("\n                Download the "),
+                            _vm._v(
+                              "\n                                Download the "
+                            ),
                             _c("a", { attrs: { href: "javascript:void(0)" } }, [
                               _vm._v("latest backup")
                             ]),
-                            _vm._v(".\n              ")
+                            _vm._v(".\n                            ")
                           ])
                         ]
                       )
@@ -800,7 +805,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                  1 week ago\n                "
+                                        "\n                                    1 week ago\n                                "
                                       )
                                     ]
                                   )
@@ -814,18 +819,18 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", { staticClass: "font-w600 mb-2" }, [
                             _vm._v(
-                              "\n                App updated to v2.02\n              "
+                              "\n                                App updated to v2.02\n                            "
                             )
                           ]),
                           _vm._v(" "),
                           _c("p", [
                             _vm._v(
-                              "\n                Check the complete changelog at the "
+                              "\n                                Check the complete changelog at the "
                             ),
                             _c("a", { attrs: { href: "javascript:void(0)" } }, [
                               _vm._v("activity page")
                             ]),
-                            _vm._v(".\n              ")
+                            _vm._v(".\n                            ")
                           ])
                         ]
                       )
@@ -861,7 +866,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                  2 months ago\n                "
+                                        "\n                                    2 months ago\n                                "
                                       )
                                     ]
                                   )
@@ -875,7 +880,7 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", { staticClass: "font-w600 mb-2" }, [
                             _vm._v(
-                              "\n                1 New Product was added!\n              "
+                              "\n                                1 New Product was added!\n                            "
                             )
                           ]),
                           _vm._v(" "),
@@ -918,7 +923,7 @@ var render = function() {
                               _c("i", {
                                 staticClass: "fa fa-briefcase text-muted mr-1"
                               }),
-                              _vm._v(" Products\n          ")
+                              _vm._v(" Products\n                    ")
                             ]
                           },
                           proxy: true
@@ -1076,7 +1081,7 @@ var render = function() {
                               _c("i", {
                                 staticClass: "fa fa-pencil-alt text-muted mr-1"
                               }),
-                              _vm._v(" Ratings\n          ")
+                              _vm._v(" Ratings\n                    ")
                             ]
                           },
                           proxy: true
@@ -1123,7 +1128,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("p", { staticClass: "mb-0" }, [
                           _vm._v(
-                            "\n              Flawless design execution! I'm really impressed with the product, it really helped me build my app so fast! Thank you!\n            "
+                            "\n                            Flawless design execution! I'm really impressed with the product, it really helped me\n                            build my app so fast! Thank you!\n                        "
                           )
                         ])
                       ]),
@@ -1166,7 +1171,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("p", { staticClass: "mb-0" }, [
                           _vm._v(
-                            "\n              Great value for money and awesome support! Would buy again and again! Thanks!\n            "
+                            "\n                            Great value for money and awesome support! Would buy again and again! Thanks!\n                        "
                           )
                         ])
                       ]),
@@ -1209,7 +1214,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("p", { staticClass: "mb-0" }, [
                           _vm._v(
-                            "\n              Working great in all my devices, quality and quantity in a great package! Thank you!\n            "
+                            "\n                            Working great in all my devices, quality and quantity in a great package! Thank you!\n                        "
                           )
                         ])
                       ]),
@@ -1241,7 +1246,7 @@ var render = function() {
                               _c("i", {
                                 staticClass: "fa fa-share-alt text-muted mr-1"
                               }),
-                              _vm._v(" Followers\n          ")
+                              _vm._v(" Followers\n                    ")
                             ]
                           },
                           proxy: true

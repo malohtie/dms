@@ -126,6 +126,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Vue Star Rating, for more info and examples you can check out https://github.com/craigh411/vue-star-rating
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -168,9 +196,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Rating",
           subtitle:
-            "Adding rating functionality to your pages has never been easier."
+            "Adding rating functionality to your pages has never been easier.",
+          title: "Rating"
         },
         scopedSlots: _vm._u([
           {
@@ -222,7 +250,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            Setting up rating is just a component away "
+                          "\n                        Setting up rating is just a component away "
                         ),
                         _vm.starRatingSimple
                           ? _c("span", [
@@ -232,7 +260,7 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("star-rating", {
-                        attrs: { "star-size": 24, "show-rating": false },
+                        attrs: { "show-rating": false, "star-size": 24 },
                         model: {
                           value: _vm.starRatingSimple,
                           callback: function($$v) {
@@ -255,7 +283,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            You can easily set a default score "
+                          "\n                        You can easily set a default score "
                         ),
                         _vm.starRatingPredefined
                           ? _c("span", [
@@ -267,7 +295,7 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("star-rating", {
-                        attrs: { "star-size": 24, "show-rating": false },
+                        attrs: { "show-rating": false, "star-size": 24 },
                         model: {
                           value: _vm.starRatingPredefined,
                           callback: function($$v) {
@@ -290,7 +318,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            You can easily set the number of stars "
+                          "\n                        You can easily set the number of stars "
                         ),
                         _vm.starRatingMore
                           ? _c("span", [
@@ -301,9 +329,9 @@ var render = function() {
                       _vm._v(" "),
                       _c("star-rating", {
                         attrs: {
-                          "star-size": 24,
+                          "max-rating": 10,
                           "show-rating": false,
-                          "max-rating": 10
+                          "star-size": 24
                         },
                         model: {
                           value: _vm.starRatingMore,
@@ -324,7 +352,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                       _vm._v(
-                        "\n            You can also add a reset button to your rating "
+                        "\n                        You can also add a reset button to your rating "
                       ),
                       _vm.starRatingReset
                         ? _c("span", [
@@ -352,7 +380,7 @@ var render = function() {
                         ),
                         _vm._v(" "),
                         _c("star-rating", {
-                          attrs: { "star-size": 24, "show-rating": false },
+                          attrs: { "show-rating": false, "star-size": 24 },
                           model: {
                             value: _vm.starRatingReset,
                             callback: function($$v) {
@@ -375,7 +403,9 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
-                        _vm._v("\n            You can have half stars "),
+                        _vm._v(
+                          "\n                        You can have half stars "
+                        ),
                         _vm.starRatingIncrement
                           ? _c("span", [
                               _vm._v(
@@ -387,9 +417,9 @@ var render = function() {
                       _vm._v(" "),
                       _c("star-rating", {
                         attrs: {
-                          "star-size": 24,
+                          increment: 0.5,
                           "show-rating": false,
-                          increment: 0.5
+                          "star-size": 24
                         },
                         model: {
                           value: _vm.starRatingIncrement,
@@ -412,7 +442,9 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
-                        _vm._v("\n            You can even have fluid stars "),
+                        _vm._v(
+                          "\n                        You can even have fluid stars "
+                        ),
                         _vm.starRatingFluid
                           ? _c("span", [
                               _vm._v("(" + _vm._s(_vm.starRatingFluid) + ")")
@@ -422,9 +454,9 @@ var render = function() {
                       _vm._v(" "),
                       _c("star-rating", {
                         attrs: {
-                          "star-size": 24,
-                          increment: 0.01,
                           "fixed-points": 2,
+                          increment: 0.01,
+                          "star-size": 24,
                           "text-class": "font-size-sm text-muted"
                         },
                         model: {
@@ -449,7 +481,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            You can set the colors to what ever you like "
+                          "\n                        You can set the colors to what ever you like "
                         ),
                         _vm.starRatingColors
                           ? _c("span", [
@@ -461,9 +493,7 @@ var render = function() {
                       _c("star-rating", {
                         staticClass: "mb-2",
                         attrs: {
-                          "star-size": 24,
                           "show-rating": false,
-                          "active-color": "#5c80d1",
                           "star-points": [
                             23,
                             2,
@@ -485,7 +515,9 @@ var render = function() {
                             19,
                             31,
                             17
-                          ]
+                          ],
+                          "star-size": 24,
+                          "active-color": "#5c80d1"
                         },
                         model: {
                           value: _vm.starRatingColors,
@@ -499,9 +531,7 @@ var render = function() {
                       _c("star-rating", {
                         staticClass: "mb-2",
                         attrs: {
-                          "star-size": 24,
                           "show-rating": false,
-                          "active-color": "#46c37b",
                           "star-points": [
                             23,
                             2,
@@ -523,7 +553,9 @@ var render = function() {
                             19,
                             31,
                             17
-                          ]
+                          ],
+                          "star-size": 24,
+                          "active-color": "#46c37b"
                         },
                         model: {
                           value: _vm.starRatingColors,
@@ -537,9 +569,7 @@ var render = function() {
                       _c("star-rating", {
                         staticClass: "mb-2",
                         attrs: {
-                          "star-size": 24,
                           "show-rating": false,
-                          "active-color": "#70b9eb",
                           "star-points": [
                             23,
                             2,
@@ -561,7 +591,9 @@ var render = function() {
                             19,
                             31,
                             17
-                          ]
+                          ],
+                          "star-size": 24,
+                          "active-color": "#70b9eb"
                         },
                         model: {
                           value: _vm.starRatingColors,
@@ -575,9 +607,7 @@ var render = function() {
                       _c("star-rating", {
                         staticClass: "mb-2",
                         attrs: {
-                          "star-size": 24,
                           "show-rating": false,
-                          "active-color": "#f3b760",
                           "star-points": [
                             23,
                             2,
@@ -599,7 +629,9 @@ var render = function() {
                             19,
                             31,
                             17
-                          ]
+                          ],
+                          "star-size": 24,
+                          "active-color": "#f3b760"
                         },
                         model: {
                           value: _vm.starRatingColors,
@@ -613,9 +645,7 @@ var render = function() {
                       _c("star-rating", {
                         staticClass: "mb-2",
                         attrs: {
-                          "star-size": 24,
                           "show-rating": false,
-                          "active-color": "#d26a5c",
                           "star-points": [
                             23,
                             2,
@@ -637,7 +667,9 @@ var render = function() {
                             19,
                             31,
                             17
-                          ]
+                          ],
+                          "star-size": 24,
+                          "active-color": "#d26a5c"
                         },
                         model: {
                           value: _vm.starRatingColors,
@@ -661,7 +693,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", { staticClass: "font-size-sm text-muted mb-2" }, [
                         _vm._v(
-                          "\n            Changing the size of the stars is also possible "
+                          "\n                        Changing the size of the stars is also possible "
                         ),
                         _vm.starRatingSize
                           ? _c("span", [
@@ -673,7 +705,6 @@ var render = function() {
                       _c("star-rating", {
                         staticClass: "mb-1",
                         attrs: {
-                          "star-size": 16,
                           "show-rating": false,
                           "star-points": [
                             23,
@@ -696,7 +727,8 @@ var render = function() {
                             19,
                             31,
                             17
-                          ]
+                          ],
+                          "star-size": 16
                         },
                         model: {
                           value: _vm.starRatingSize,
@@ -710,7 +742,6 @@ var render = function() {
                       _c("star-rating", {
                         staticClass: "mb-1",
                         attrs: {
-                          "star-size": 24,
                           "show-rating": false,
                           "star-points": [
                             23,
@@ -733,7 +764,8 @@ var render = function() {
                             19,
                             31,
                             17
-                          ]
+                          ],
+                          "star-size": 24
                         },
                         model: {
                           value: _vm.starRatingSize,
@@ -747,7 +779,6 @@ var render = function() {
                       _c("star-rating", {
                         staticClass: "mb-1",
                         attrs: {
-                          "star-size": 32,
                           "show-rating": false,
                           "star-points": [
                             23,
@@ -770,7 +801,8 @@ var render = function() {
                             19,
                             31,
                             17
-                          ]
+                          ],
+                          "star-size": 32
                         },
                         model: {
                           value: _vm.starRatingSize,
@@ -784,7 +816,6 @@ var render = function() {
                       _c("star-rating", {
                         staticClass: "mb-1",
                         attrs: {
-                          "star-size": 48,
                           "show-rating": false,
                           "star-points": [
                             23,
@@ -807,7 +838,8 @@ var render = function() {
                             19,
                             31,
                             17
-                          ]
+                          ],
+                          "star-size": 48
                         },
                         model: {
                           value: _vm.starRatingSize,

@@ -74,6 +74,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Vuelidate, for more info and examples you can check out https://github.com/vuelidate/vuelidate
 
 
@@ -150,15 +162,15 @@ var render = function() {
               [
                 _c(
                   "b-col",
-                  { attrs: { md: "8", lg: "6", xl: "4" } },
+                  { attrs: { lg: "6", md: "8", xl: "4" } },
                   [
                     _c(
                       "base-block",
                       {
                         staticClass: "mb-0",
                         attrs: {
-                          themed: "",
                           "fx-shadow": "",
+                          themed: "",
                           title: "Sign In"
                         },
                         scopedSlots: _vm._u([
@@ -173,7 +185,11 @@ var render = function() {
                                       "btn-block-option font-size-sm",
                                     attrs: { to: "/auth/reminder" }
                                   },
-                                  [_vm._v("Forgot Password?")]
+                                  [
+                                    _vm._v(
+                                      "Forgot\n                                Password?\n                            "
+                                    )
+                                  ]
                                 ),
                                 _vm._v(" "),
                                 _c(
@@ -234,15 +250,15 @@ var render = function() {
                                       _c("b-form-input", {
                                         staticClass: "form-control-alt",
                                         attrs: {
-                                          size: "lg",
-                                          id: "username",
-                                          name: "username",
-                                          placeholder: "Username",
                                           state:
                                             !_vm.$v.form.username.$error &&
                                             null,
                                           "aria-describedby":
-                                            "username-feedback"
+                                            "username-feedback",
+                                          id: "username",
+                                          name: "username",
+                                          placeholder: "Username",
+                                          size: "lg"
                                         },
                                         model: {
                                           value: _vm.$v.form.username.$model,
@@ -262,7 +278,7 @@ var render = function() {
                                         { attrs: { id: "username-feedback" } },
                                         [
                                           _vm._v(
-                                            "\n                      Please enter your username\n                    "
+                                            "\n                                            Please enter your username\n                                        "
                                           )
                                         ]
                                       )
@@ -277,16 +293,16 @@ var render = function() {
                                       _c("b-form-input", {
                                         staticClass: "form-control-alt",
                                         attrs: {
-                                          type: "password",
-                                          size: "lg",
-                                          id: "password",
-                                          name: "password",
-                                          placeholder: "Password",
                                           state:
                                             !_vm.$v.form.password.$error &&
                                             null,
                                           "aria-describedby":
-                                            "password-feedback"
+                                            "password-feedback",
+                                          id: "password",
+                                          name: "password",
+                                          placeholder: "Password",
+                                          size: "lg",
+                                          type: "password"
                                         },
                                         model: {
                                           value: _vm.$v.form.password.$model,
@@ -306,7 +322,7 @@ var render = function() {
                                         { attrs: { id: "password-feedback" } },
                                         [
                                           _vm._v(
-                                            "\n                      Please enter your password\n                    "
+                                            "\n                                            Please enter your password\n                                        "
                                           )
                                         ]
                                       )
@@ -345,9 +361,9 @@ var render = function() {
                                           "b-button",
                                           {
                                             attrs: {
+                                              block: "",
                                               type: "submit",
-                                              variant: "primary",
-                                              block: ""
+                                              variant: "primary"
                                             }
                                           },
                                           [
@@ -356,7 +372,7 @@ var render = function() {
                                                 "fa fa-fw fa-sign-in-alt mr-1"
                                             }),
                                             _vm._v(
-                                              " Sign In\n                    "
+                                              " Sign In\n                                        "
                                             )
                                           ]
                                         )
@@ -400,7 +416,9 @@ var render = function() {
                 )
               )
             ]),
-            _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n    ")
+            _vm._v(
+              " © " + _vm._s(_vm.$store.getters.appCopyright) + "\n        "
+            )
           ]
         )
       ])

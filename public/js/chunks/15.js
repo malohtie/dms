@@ -90,7 +90,7 @@ var render = function() {
     "div",
     [
       _c("base-page-heading", {
-        attrs: { title: "Header", subtitle: "Static Dark" },
+        attrs: { subtitle: "Static Dark", title: "Header" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -131,7 +131,9 @@ var render = function() {
         [
           _c("base-block", [
             _c("p", { staticClass: "text-center" }, [
-              _vm._v("\n        A static, dark themed Header.\n      ")
+              _vm._v(
+                "\n                A static, dark themed Header.\n            "
+              )
             ])
           ]),
           _vm._v(" "),

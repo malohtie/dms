@@ -3,7 +3,9 @@
 // --------------------------------------------------
 
 // Helpers
-.no-transition { transition: none !important; }
+.no-transition {
+    transition: none !important;
+}
 
 // Ripple effect (mostly for buttons usage)
 .click-ripple {

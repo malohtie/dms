@@ -542,8 +542,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Table Styles",
-          subtitle: "Multiple style options to match your preferences."
+          subtitle: "Multiple style options to match your preferences.",
+          title: "Table Styles"
         },
         scopedSlots: _vm._u([
           {
@@ -647,9 +647,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "text-center" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(user.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -662,9 +662,9 @@ var render = function() {
                                         { attrs: { href: "" + user.href } },
                                         [
                                           _vm._v(
-                                            "\n                    " +
+                                            "\n                                        " +
                                               _vm._s(user.name) +
-                                              "\n                  "
+                                              "\n                                    "
                                           )
                                         ]
                                       )
@@ -829,9 +829,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "text-center" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(user.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -844,9 +844,9 @@ var render = function() {
                                         { attrs: { href: "" + user.href } },
                                         [
                                           _vm._v(
-                                            "\n                    " +
+                                            "\n                                        " +
                                               _vm._s(user.name) +
-                                              "\n                  "
+                                              "\n                                    "
                                           )
                                         ]
                                       )
@@ -961,8 +961,8 @@ var render = function() {
                         "b-table-simple",
                         {
                           attrs: {
-                            responsive: "",
                             hover: "",
+                            responsive: "",
                             "table-class": "table-vcenter"
                           }
                         },
@@ -1017,9 +1017,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "text-center" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(user.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -1032,9 +1032,9 @@ var render = function() {
                                         { attrs: { href: "" + user.href } },
                                         [
                                           _vm._v(
-                                            "\n                    " +
+                                            "\n                                        " +
                                               _vm._s(user.name) +
-                                              "\n                  "
+                                              "\n                                    "
                                           )
                                         ]
                                       )
@@ -1143,8 +1143,8 @@ var render = function() {
                         "b-table-simple",
                         {
                           attrs: {
-                            responsive: "",
                             bordered: "",
+                            responsive: "",
                             "table-class": "table-vcenter"
                           }
                         },
@@ -1199,9 +1199,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "text-center" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(user.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -1214,9 +1214,9 @@ var render = function() {
                                         { attrs: { href: "" + user.href } },
                                         [
                                           _vm._v(
-                                            "\n                    " +
+                                            "\n                                        " +
                                               _vm._s(user.name) +
-                                              "\n                  "
+                                              "\n                                    "
                                           )
                                         ]
                                       )
@@ -1332,8 +1332,8 @@ var render = function() {
                         "b-table-simple",
                         {
                           attrs: {
-                            responsive: "",
                             borderless: "",
+                            responsive: "",
                             "table-class": "table-vcenter"
                           }
                         },
@@ -1388,9 +1388,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "text-center" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(user.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -1403,9 +1403,9 @@ var render = function() {
                                         { attrs: { href: "" + user.href } },
                                         [
                                           _vm._v(
-                                            "\n                    " +
+                                            "\n                                        " +
                                               _vm._s(user.name) +
-                                              "\n                  "
+                                              "\n                                    "
                                           )
                                         ]
                                       )
@@ -1570,9 +1570,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "text-center" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(user.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -1585,9 +1585,9 @@ var render = function() {
                                         { attrs: { href: "" + user.href } },
                                         [
                                           _vm._v(
-                                            "\n                    " +
+                                            "\n                                        " +
                                               _vm._s(user.name) +
-                                              "\n                  "
+                                              "\n                                    "
                                           )
                                         ]
                                       )
@@ -1758,9 +1758,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "text-center" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(user.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -1773,9 +1773,9 @@ var render = function() {
                                         { attrs: { href: "" + user.href } },
                                         [
                                           _vm._v(
-                                            "\n                    " +
+                                            "\n                                        " +
                                               _vm._s(user.name) +
-                                              "\n                  "
+                                              "\n                                    "
                                           )
                                         ]
                                       )
@@ -1940,9 +1940,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "text-center" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(user.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -1955,9 +1955,9 @@ var render = function() {
                                         { attrs: { href: "" + user.href } },
                                         [
                                           _vm._v(
-                                            "\n                    " +
+                                            "\n                                        " +
                                               _vm._s(user.name) +
-                                              "\n                  "
+                                              "\n                                    "
                                           )
                                         ]
                                       )
@@ -2049,9 +2049,9 @@ var render = function() {
                         "b-table-simple",
                         {
                           attrs: {
-                            responsive: "",
                             borderless: "",
                             hover: "",
+                            responsive: "",
                             "table-class": "table-vcenter"
                           }
                         },
@@ -2100,9 +2100,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "text-center" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(user.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -2111,9 +2111,9 @@ var render = function() {
                                     { staticClass: "font-w600 font-size-sm" },
                                     [
                                       _vm._v(
-                                        "\n                  " +
+                                        "\n                                    " +
                                           _vm._s(user.name) +
-                                          "\n                "
+                                          "\n                                "
                                       )
                                     ]
                                   ),

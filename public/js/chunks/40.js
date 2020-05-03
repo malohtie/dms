@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Button Groups",
-          subtitle: "Group a series of buttons together on a single line."
+          subtitle: "Group a series of buttons together on a single line.",
+          title: "Button Groups"
         },
         scopedSlots: _vm._u([
           {
@@ -63,7 +63,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        Group a series of buttons together on a single line with the button group\n      "
+                  "\n                Group a series of buttons together on a single line with the button group\n            "
                 )
               ]),
               _vm._v(" "),
@@ -779,7 +779,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can easily have a small or large size for all button group variations\n      "
+                  "\n                You can easily have a small or large size for all button group variations\n            "
                 )
               ]),
               _vm._v(" "),
@@ -1165,7 +1165,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        Make a set of buttons appear vertically stacked rather than horizontally.\n      "
+                  "\n                Make a set of buttons appear vertically stacked rather than horizontally.\n            "
                 )
               ]),
               _vm._v(" "),
@@ -1736,7 +1736,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        Combine sets of button groups into button toolbars for more complex components\n      "
+                  "\n                Combine sets of button groups into button toolbars for more complex components\n            "
                 )
               ]),
               _vm._v(" "),
@@ -3673,7 +3673,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can easily have a small or large size for all toolbar variations\n      "
+                  "\n                You can easily have a small or large size for all toolbar variations\n            "
                 )
               ]),
               _vm._v(" "),
@@ -4199,7 +4199,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        Using icons is ideal for creating useful toolbars\n      "
+                  "\n                Using icons is ideal for creating useful toolbars\n            "
                 )
               ]),
               _vm._v(" "),

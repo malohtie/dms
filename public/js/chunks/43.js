@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Grid",
-          subtitle: "Smart and super flexible for building awesome interfaces."
+          subtitle: "Smart and super flexible for building awesome interfaces.",
+          title: "Grid"
         },
         scopedSlots: _vm._u([
           {
@@ -264,7 +264,7 @@ var render = function() {
             [
               _c(
                 "b-col",
-                { attrs: { sm: "6", lg: "3" } },
+                { attrs: { lg: "3", sm: "6" } },
                 [
                   _c("base-block", [
                     _c("p", [
@@ -279,7 +279,7 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "b-col",
-                { attrs: { sm: "6", lg: "3" } },
+                { attrs: { lg: "3", sm: "6" } },
                 [
                   _c("base-block", [
                     _c("p", [
@@ -294,7 +294,7 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "b-col",
-                { attrs: { sm: "6", lg: "3" } },
+                { attrs: { lg: "3", sm: "6" } },
                 [
                   _c("base-block", [
                     _c("p", [
@@ -309,7 +309,7 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "b-col",
-                { attrs: { sm: "6", lg: "3" } },
+                { attrs: { lg: "3", sm: "6" } },
                 [
                   _c("base-block", [
                     _c("p", [
@@ -528,15 +528,27 @@ var render = function() {
                 { attrs: { cols: "3" } },
                 [
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ])
                 ],
                 1
@@ -547,15 +559,27 @@ var render = function() {
                 { attrs: { cols: "3" } },
                 [
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ])
                 ],
                 1
@@ -566,15 +590,27 @@ var render = function() {
                 { attrs: { cols: "3" } },
                 [
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ])
                 ],
                 1
@@ -585,15 +621,27 @@ var render = function() {
                 { attrs: { cols: "3" } },
                 [
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ])
                 ],
                 1
@@ -613,15 +661,27 @@ var render = function() {
                 { attrs: { cols: "3" } },
                 [
                   _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", { staticClass: "mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ])
                 ],
                 1
@@ -632,15 +692,27 @@ var render = function() {
                 { attrs: { cols: "3" } },
                 [
                   _c("base-block", { staticClass: "mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", { staticClass: "mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ])
                 ],
                 1
@@ -651,15 +723,27 @@ var render = function() {
                 { attrs: { cols: "3" } },
                 [
                   _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", { staticClass: "mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ])
                 ],
                 1
@@ -670,15 +754,27 @@ var render = function() {
                 { attrs: { cols: "3" } },
                 [
                   _c("base-block", { staticClass: "mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("base-block", { staticClass: "mb-0" }, [
-                    _c("p", [_vm._v("\n            ...\n          ")])
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
                   ])
                 ],
                 1
@@ -724,7 +820,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -762,7 +860,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -800,7 +900,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -838,7 +940,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -876,7 +980,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -914,7 +1020,9 @@ var render = function() {
                     [
                       _vm._v(" "),
                       _c("p", [
-                        _vm._v("\n            Block’s content..\n          ")
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
                       ])
                     ]
                   )
@@ -964,7 +1072,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n            proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst\n                        proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1004,7 +1112,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat\n            accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur\n            tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                          "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat\n                        accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames\n                        aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis\n                        quisque etiam egestas vulputate massa, curabitur\n                        tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis\n                        vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n                    "
                         )
                       ])
                     ]
@@ -1044,7 +1152,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n            Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n            proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n          "
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst\n                        proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                    "
                         )
                       ])
                     ]
@@ -1073,7 +1181,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                       )
                     ])
                   ]),
@@ -1083,7 +1191,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                       )
                     ])
                   ])
@@ -1100,7 +1208,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                       )
                     ])
                   ]),
@@ -1110,7 +1218,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                       )
                     ])
                   ]),
@@ -1120,7 +1228,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                       )
                     ])
                   ])
@@ -1137,7 +1245,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                       )
                     ])
                   ]),
@@ -1147,7 +1255,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Felis ullamcorper curae erat nulla luctus sociosqu phasellus posuere habitasse sollicitudin, libero sit potenti leo ultricies etiam blandit id platea augue, erat habitant fermentum lorem commodo taciti tristique etiam curabitur suscipit lacinia habitasse amet mauris eu eget ipsum nec magna in, adipiscing risus aenean turpis proin duis fringilla praesent ornare lorem eros malesuada vitae nullam diam velit potenti consectetur, vehicula accumsan risus lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc, interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat ornare tempor nullam donec vitae etiam tellus.\n          "
+                        "\n                        Felis ullamcorper curae erat nulla luctus sociosqu phasellus posuere habitasse sollicitudin,\n                        libero sit potenti leo ultricies etiam blandit id platea augue, erat habitant fermentum\n                        lorem commodo taciti tristique etiam curabitur suscipit lacinia habitasse amet mauris eu\n                        eget ipsum nec magna in, adipiscing risus aenean turpis proin duis fringilla praesent ornare\n                        lorem eros malesuada vitae nullam diam velit potenti consectetur, vehicula accumsan risus\n                        lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac\n                        justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus\n                        potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id\n                        tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer\n                        lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce\n                        lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut\n                        commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla\n                        laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc,\n                        interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat\n                        ornare tempor nullam donec vitae etiam tellus.\n                    "
                       )
                     ])
                   ])
@@ -1164,7 +1272,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Felis ullamcorper curae erat nulla luctus sociosqu phasellus posuere habitasse sollicitudin, libero sit potenti leo ultricies etiam blandit id platea augue, erat habitant fermentum lorem commodo taciti tristique etiam curabitur suscipit lacinia habitasse amet mauris eu eget ipsum nec magna in, adipiscing risus aenean turpis proin duis fringilla praesent ornare lorem eros malesuada vitae nullam diam velit potenti consectetur, vehicula accumsan risus lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc, interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat ornare tempor nullam donec vitae etiam tellus.\n          "
+                        "\n                        Felis ullamcorper curae erat nulla luctus sociosqu phasellus posuere habitasse sollicitudin,\n                        libero sit potenti leo ultricies etiam blandit id platea augue, erat habitant fermentum\n                        lorem commodo taciti tristique etiam curabitur suscipit lacinia habitasse amet mauris eu\n                        eget ipsum nec magna in, adipiscing risus aenean turpis proin duis fringilla praesent ornare\n                        lorem eros malesuada vitae nullam diam velit potenti consectetur, vehicula accumsan risus\n                        lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac\n                        justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus\n                        potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id\n                        tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer\n                        lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce\n                        lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut\n                        commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla\n                        laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc,\n                        interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat\n                        ornare tempor nullam donec vitae etiam tellus.\n                    "
                       )
                     ])
                   ]),
@@ -1174,7 +1282,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                       )
                     ])
                   ])
@@ -1188,12 +1296,12 @@ var render = function() {
           _c(
             "base-block",
             {
-              attrs: { title: "Responsive Utility Classes", "content-full": "" }
+              attrs: { "content-full": "", title: "Responsive Utility Classes" }
             },
             [
               _c("p", [
                 _vm._v(
-                  "For faster mobile-friendly development, use these utility classes for showing and hiding content by device via media query."
+                  "For faster mobile-friendly development, use these utility classes for showing and hiding content by\n                device via media query."
                 )
               ]),
               _vm._v(" "),
@@ -1201,7 +1309,7 @@ var render = function() {
                 "b-table-simple",
                 {
                   staticClass: "text-center mb-0",
-                  attrs: { hover: "", bordered: "", responsive: "" }
+                  attrs: { bordered: "", hover: "", responsive: "" }
                 },
                 [
                   _c(
@@ -1213,7 +1321,9 @@ var render = function() {
                           _c("b-th", { staticStyle: { "min-width": "100px" } }),
                           _vm._v(" "),
                           _c("b-th", [
-                            _vm._v("\n              Extra small devices"),
+                            _vm._v(
+                              "\n                            Extra small devices"
+                            ),
                             _c("br"),
                             _vm._v(" "),
                             _c(
@@ -1224,7 +1334,9 @@ var render = function() {
                           ]),
                           _vm._v(" "),
                           _c("b-th", [
-                            _vm._v("\n              Small devices"),
+                            _vm._v(
+                              "\n                            Small devices"
+                            ),
                             _c("br"),
                             _vm._v(" "),
                             _c(
@@ -1235,7 +1347,9 @@ var render = function() {
                           ]),
                           _vm._v(" "),
                           _c("b-th", [
-                            _vm._v("\n              Medium devices"),
+                            _vm._v(
+                              "\n                            Medium devices"
+                            ),
                             _c("br"),
                             _vm._v(" "),
                             _c(
@@ -1246,7 +1360,9 @@ var render = function() {
                           ]),
                           _vm._v(" "),
                           _c("b-th", [
-                            _vm._v("\n              Large devices"),
+                            _vm._v(
+                              "\n                            Large devices"
+                            ),
                             _c("br"),
                             _vm._v(" "),
                             _c(
@@ -1257,7 +1373,9 @@ var render = function() {
                           ]),
                           _vm._v(" "),
                           _c("b-th", [
-                            _vm._v("\n              Extra large devices"),
+                            _vm._v(
+                              "\n                            Extra large devices"
+                            ),
                             _c("br"),
                             _vm._v(" "),
                             _c(
@@ -1280,7 +1398,9 @@ var render = function() {
                         "b-tr",
                         [
                           _c("b-td", { attrs: { colspan: "6" } }, [
-                            _vm._v("\n              Available options for "),
+                            _vm._v(
+                              "\n                            Available options for "
+                            ),
                             _c("code", [_vm._v("*")]),
                             _vm._v(": "),
                             _c("code", [_vm._v("inline")]),

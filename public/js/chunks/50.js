@@ -20,9 +20,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Typography",
           subtitle:
-            "Good Typography not only looks good but also reinforces the meaning of the content."
+            "Good Typography not only looks good but also reinforces the meaning of the content.",
+          title: "Typography"
         },
         scopedSlots: _vm._u([
           {
@@ -67,7 +67,7 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Bold", subtitle: "(600 - Default)" } },
+                    { attrs: { subtitle: "(600 - Default)", title: "Bold" } },
                     [
                       _c("h1", [
                         _vm._v("h1. Title "),
@@ -105,7 +105,7 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Extra Bold", subtitle: "(700)" } },
+                    { attrs: { subtitle: "(700)", title: "Extra Bold" } },
                     [
                       _c("h1", { staticClass: "font-w700" }, [
                         _vm._v("h1. Title "),
@@ -143,7 +143,7 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Normal", subtitle: "(400)" } },
+                    { attrs: { subtitle: "(400)", title: "Normal" } },
                     [
                       _c("h1", { staticClass: "font-w400" }, [
                         _vm._v("h1. Title "),
@@ -181,7 +181,7 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Light", subtitle: "(300)" } },
+                    { attrs: { subtitle: "(300)", title: "Light" } },
                     [
                       _c("h1", { staticClass: "font-w400" }, [
                         _vm._v("h1. Title "),
@@ -484,9 +484,13 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-col", { attrs: { xl: "6" } }, [
                     _c("p", [
-                      _vm._v("You can use the mark tag to "),
+                      _vm._v(
+                        "You can use the mark tag to\n                        "
+                      ),
                       _c("mark", [_vm._v("highlight")]),
-                      _vm._v(" text.")
+                      _vm._v(
+                        "\n                        text.\n                    "
+                      )
                     ]),
                     _vm._v(" "),
                     _c("p", [
@@ -610,7 +614,11 @@ var render = function() {
                             staticClass: "link-fx text-success",
                             attrs: { href: "javascript:void(0)" }
                           },
-                          [_vm._v("Success link with effect")]
+                          [
+                            _vm._v(
+                              "Success link with effect\n                        "
+                            )
+                          ]
                         )
                       ],
                       1
@@ -640,7 +648,11 @@ var render = function() {
                             staticClass: "link-fx text-warning",
                             attrs: { href: "javascript:void(0)" }
                           },
-                          [_vm._v("Warning link with effect")]
+                          [
+                            _vm._v(
+                              "Warning link with effect\n                        "
+                            )
+                          ]
                         )
                       ],
                       1
@@ -655,7 +667,11 @@ var render = function() {
                             staticClass: "link-fx text-danger",
                             attrs: { href: "javascript:void(0)" }
                           },
-                          [_vm._v("Danger link with effect")]
+                          [
+                            _vm._v(
+                              "Danger link with effect\n                        "
+                            )
+                          ]
                         )
                       ],
                       1
@@ -851,7 +867,9 @@ var render = function() {
                       _c("li", [_vm._v("Second item")]),
                       _vm._v(" "),
                       _c("li", [
-                        _vm._v("\n              Sublist\n              "),
+                        _vm._v(
+                          "\n                            Sublist\n                            "
+                        ),
                         _c("ul", [
                           _c("li", [_vm._v("First subitem")]),
                           _vm._v(" "),
@@ -874,7 +892,9 @@ var render = function() {
                       _c("li", [_vm._v("Second item")]),
                       _vm._v(" "),
                       _c("li", [
-                        _vm._v("\n              Sublist\n              "),
+                        _vm._v(
+                          "\n                            Sublist\n                            "
+                        ),
                         _c("ol", [
                           _c("li", [_vm._v("First subitem")]),
                           _vm._v(" "),
@@ -896,28 +916,34 @@ var render = function() {
                         _c("span", { staticClass: "fa-li" }, [
                           _c("i", { staticClass: "fa fa-arrow-right" })
                         ]),
-                        _vm._v("\n              First item\n            ")
+                        _vm._v(
+                          "\n                            First item\n                        "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("li", [
                         _c("span", { staticClass: "fa-li" }, [
                           _c("i", { staticClass: "fa fa-arrow-right" })
                         ]),
-                        _vm._v("\n              Second item\n            ")
+                        _vm._v(
+                          "\n                            Second item\n                        "
+                        )
                       ]),
                       _vm._v(" "),
                       _c("li", [
                         _c("span", { staticClass: "fa-li" }, [
                           _c("i", { staticClass: "fa fa-arrow-right" })
                         ]),
-                        _vm._v("\n              Sublist\n              "),
+                        _vm._v(
+                          "\n                            Sublist\n                            "
+                        ),
                         _c("ul", { staticClass: "fa-ul" }, [
                           _c("li", [
                             _c("span", { staticClass: "fa-li" }, [
                               _c("i", { staticClass: "fa fa-angle-right" })
                             ]),
                             _vm._v(
-                              "\n                  First subitem\n                "
+                              "\n                                    First subitem\n                                "
                             )
                           ]),
                           _vm._v(" "),
@@ -926,7 +952,7 @@ var render = function() {
                               _c("i", { staticClass: "fa fa-angle-right" })
                             ]),
                             _vm._v(
-                              "\n                  Second subitem\n                "
+                              "\n                                    Second subitem\n                                "
                             )
                           ]),
                           _vm._v(" "),
@@ -935,7 +961,7 @@ var render = function() {
                               _c("i", { staticClass: "fa fa-angle-right" })
                             ]),
                             _vm._v(
-                              "\n                  Second subitem\n                "
+                              "\n                                    Second subitem\n                                "
                             )
                           ])
                         ])
@@ -945,7 +971,9 @@ var render = function() {
                         _c("span", { staticClass: "fa-li" }, [
                           _c("i", { staticClass: "fa fa-arrow-right" })
                         ]),
-                        _vm._v("\n              Third item\n            ")
+                        _vm._v(
+                          "\n                            Third item\n                        "
+                        )
                       ])
                     ])
                   ]),
@@ -959,7 +987,9 @@ var render = function() {
                       _c("li", [_vm._v("Second item")]),
                       _vm._v(" "),
                       _c("li", [
-                        _vm._v("\n              Sublist\n              "),
+                        _vm._v(
+                          "\n                            Sublist\n                            "
+                        ),
                         _c("ul", [
                           _c("li", [_vm._v("First subitem")]),
                           _vm._v(" "),
@@ -1144,13 +1174,17 @@ var render = function() {
                     _c("address", [
                       _c("strong", [_vm._v("Twitter, Inc.")]),
                       _c("br"),
-                      _vm._v("\n            795 Folsom Ave, Suite 600"),
+                      _vm._v(
+                        "\n                        795 Folsom Ave, Suite 600"
+                      ),
                       _c("br"),
-                      _vm._v("\n            San Francisco, CA 94107"),
+                      _vm._v(
+                        "\n                        San Francisco, CA 94107"
+                      ),
                       _c("br"),
                       _vm._v(" "),
                       _c("abbr", { attrs: { title: "Phone" } }, [_vm._v("P:")]),
-                      _vm._v(" (123) 456-7890\n          ")
+                      _vm._v(" (123) 456-7890\n                    ")
                     ]),
                     _vm._v(" "),
                     _c("address", [
@@ -1182,7 +1216,7 @@ var render = function() {
                   _c("base-block", { attrs: { title: "Lead" } }, [
                     _c("p", { staticClass: "lead" }, [
                       _vm._v(
-                        "\n            This is a lead paragraph. You can use it you highlight your main point before your article. It is great for such usage.\n          "
+                        "\n                        This is a lead paragraph. You can use it you highlight your main point before your article.\n                        It is great for such usage.\n                    "
                       )
                     ])
                   ])
@@ -1197,13 +1231,13 @@ var render = function() {
                   _c("base-block", { attrs: { title: "Normal" } }, [
                     _c("p", [
                       _vm._v(
-                        "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                       )
                     ]),
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n          "
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
                       )
                     ])
                   ])

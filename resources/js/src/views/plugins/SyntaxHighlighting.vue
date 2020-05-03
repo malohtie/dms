@@ -1,20 +1,20 @@
 <template>
-  <div>
-    <!-- Hero -->
-    <base-page-heading title="Highlight.js" subtitle="Beautiful syntax highlighting to showcase your code.">
-      <template #extra>
-        <b-breadcrumb class="breadcrumb-alt">
-          <b-breadcrumb-item href="javascript:void(0)">Plugins</b-breadcrumb-item>
-          <b-breadcrumb-item active>Syntax Highlighting</b-breadcrumb-item>
-        </b-breadcrumb>
-      </template>
-    </base-page-heading>
-    <!-- END Hero -->
+    <div>
+        <!-- Hero -->
+        <base-page-heading subtitle="Beautiful syntax highlighting to showcase your code." title="Highlight.js">
+            <template #extra>
+                <b-breadcrumb class="breadcrumb-alt">
+                    <b-breadcrumb-item href="javascript:void(0)">Plugins</b-breadcrumb-item>
+                    <b-breadcrumb-item active>Syntax Highlighting</b-breadcrumb-item>
+                </b-breadcrumb>
+            </template>
+        </base-page-heading>
+        <!-- END Hero -->
 
-    <!-- Page Content -->
-    <div class="content">
-      <!-- HTML -->
-      <base-block title="HTML">
+        <!-- Page Content -->
+        <div class="content">
+            <!-- HTML -->
+            <base-block title="HTML">
         <pre v-highlightjs><code class="html">&lt;!doctype html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -26,11 +26,11 @@
     &lt;!-- Your content --&gt;
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
-      </base-block>
-      <!-- END HTML -->
+            </base-block>
+            <!-- END HTML -->
 
-      <!-- CSS -->
-      <base-block title="CSS">
+            <!-- CSS -->
+            <base-block title="CSS">
         <pre v-highlightjs><code class="css">/*
 =================================================================
 SECTION
@@ -62,11 +62,11 @@ selector {
 selector {
 
 }</code></pre>
-      </base-block>
-      <!-- END CSS -->
+            </base-block>
+            <!-- END CSS -->
 
-      <!-- SCSS -->
-      <base-block title="SCSS">
+            <!-- SCSS -->
+            <base-block title="SCSS">
         <pre v-highlightjs><code class="scss">$font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
@@ -74,11 +74,11 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
 }</code></pre>
-      </base-block>
-      <!-- END SCSS -->
+            </base-block>
+            <!-- END SCSS -->
 
-      <!-- Less -->
-      <base-block title="Less">
+            <!-- Less -->
+            <base-block title="Less">
         <pre v-highlightjs><code class="less">@base: #f938ab;
 
 .box-shadow(@style, @c) when (iscolor(@c)) {
@@ -95,11 +95,11 @@ body {
   border-color: lighten(@base, 30%);
   div { .box-shadow(0 0 5px, 30%) }
 }</code></pre>
-      </base-block>
-      <!-- END Less -->
+            </base-block>
+            <!-- END Less -->
 
-      <!-- JavaScript -->
-      <base-block title="JavaScript">
+            <!-- JavaScript -->
+            <base-block title="JavaScript">
         <pre v-highlightjs><code class="javascript">/*
  *  Document   : app.js
  *  Author     : pixelcave
@@ -121,11 +121,11 @@ var App = function() {
 
 // Initialize app when page loads
 jQuery(function(){ App.init(); });</code></pre>
-      </base-block>
-      <!-- END JavaScript -->
+            </base-block>
+            <!-- END JavaScript -->
 
-      <!-- PHP -->
-      <base-block title="PHP">
+            <!-- PHP -->
+            <base-block title="PHP">
         <pre v-highlightjs><code class="php">&lt;?php
 class App {
   function home()
@@ -143,11 +143,11 @@ class App {
     // ...
   }
 }</code></pre>
-      </base-block>
-      <!-- END PHP -->
+            </base-block>
+            <!-- END PHP -->
 
-      <!-- Ruby -->
-      <base-block title="Ruby">
+            <!-- Ruby -->
+            <base-block title="Ruby">
         <pre v-highlightjs><code class="ruby"># Output "I love Ruby"
 say = "I love Ruby"
 puts say
@@ -159,19 +159,19 @@ puts say.upcase
 # Output "I *love* Ruby"
 # five times
 5.times { puts say }</code></pre>
-      </base-block>
-      <!-- END Ruby -->
+            </base-block>
+            <!-- END Ruby -->
 
-      <!-- Python -->
-      <base-block title="Python">
+            <!-- Python -->
+            <base-block title="Python">
         <pre v-highlightjs><code class="python">name = raw_input('What is your name?\n')
 
 print 'Hi, %s.' % name</code></pre>
-      </base-block>
-      <!-- END Python -->
+            </base-block>
+            <!-- END Python -->
 
-      <!-- JSON -->
-      <base-block title="JSON">
+            <!-- JSON -->
+            <base-block title="JSON">
         <pre v-highlightjs><code class="json">{
   "menu": {
     "id": "file",
@@ -185,25 +185,25 @@ print 'Hi, %s.' % name</code></pre>
     }
   }
 }</code></pre>
-      </base-block>
-      <!-- END JSON -->
+            </base-block>
+            <!-- END JSON -->
+        </div>
+        <!-- END Page Content -->
     </div>
-    <!-- END Page Content -->
-  </div>
 </template>
 
 <style lang="scss">
-// Highlight.js
-@import '~highlight.js/scss/github-gist.scss';
+    // Highlight.js
+    @import '~highlight.js/scss/github-gist.scss';
 </style>
 
 <script>
-// Vue Highlight.js, for more info and examples you can check out https://github.com/metachris/vue-highlightjs
-import Vue from 'vue'
-import VueHighlightJS from 'vue-highlightjs'
+    // Vue Highlight.js, for more info and examples you can check out https://github.com/metachris/vue-highlightjs
+    import Vue from 'vue'
+    import VueHighlightJS from 'vue-highlightjs'
 
-// Register Vue Highlight.js
-Vue.use(VueHighlightJS)
+    // Register Vue Highlight.js
+    Vue.use(VueHighlightJS)
 
-export default {}
+    export default {}
 </script>

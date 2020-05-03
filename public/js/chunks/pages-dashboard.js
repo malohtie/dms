@@ -281,6 +281,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Chart.js, https://www.chartjs.org
  // Line Chart component using Vue Chart.js, for more info and examples you can check out https://github.com/apertureless/vue-chartjs
 
@@ -817,7 +832,7 @@ var render = function() {
                   ]),
                   _vm._v(" "),
                   _c("h2", { staticClass: "h4 font-w400 text-white-75 mb-0" }, [
-                    _vm._v("Welcome\n            Administrator")
+                    _vm._v("Welcome\n                        Administrator")
                   ])
                 ]),
                 _vm._v(" "),
@@ -833,13 +848,13 @@ var render = function() {
                         ],
                         staticClass: "px-4 py-2",
                         attrs: {
-                          variant: "primary",
-                          href: "javascript:void(0)"
+                          href: "javascript:void(0)",
+                          variant: "primary"
                         }
                       },
                       [
                         _c("i", { staticClass: "fa fa-plus mr-1" }),
-                        _vm._v(" New Project\n          ")
+                        _vm._v(" New Project\n                    ")
                       ]
                     )
                   ],
@@ -860,18 +875,18 @@ var render = function() {
             [
               _c(
                 "b-col",
-                { attrs: { cols: "6", md: "3", lg: "6", xl: "3" } },
+                { attrs: { cols: "6", lg: "6", md: "3", xl: "3" } },
                 [
                   _c(
                     "base-block",
                     {
                       staticClass: "border-left border-primary border-4x",
                       attrs: {
-                        tag: "a",
-                        rounded: "",
-                        "link-pop": "",
                         "content-full": "",
-                        href: "javascript:void(0)"
+                        href: "javascript:void(0)",
+                        "link-pop": "",
+                        rounded: "",
+                        tag: "a"
                       }
                     },
                     [
@@ -881,13 +896,21 @@ var render = function() {
                           staticClass:
                             "font-size-sm font-w600 text-uppercase text-muted"
                         },
-                        [_vm._v("\n              Visitors\n            ")]
+                        [
+                          _vm._v(
+                            "\n                        Visitors\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c(
                         "div",
                         { staticClass: "font-size-h2 font-w400 text-dark" },
-                        [_vm._v("\n              120,580\n            ")]
+                        [
+                          _vm._v(
+                            "\n                        120,580\n                    "
+                          )
+                        ]
                       )
                     ]
                   )
@@ -897,18 +920,18 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "b-col",
-                { attrs: { cols: "6", md: "3", lg: "6", xl: "3" } },
+                { attrs: { cols: "6", lg: "6", md: "3", xl: "3" } },
                 [
                   _c(
                     "base-block",
                     {
                       staticClass: "border-left border-primary border-4x",
                       attrs: {
-                        tag: "a",
-                        rounded: "",
-                        "link-pop": "",
                         "content-full": "",
-                        href: "javascript:void(0)"
+                        href: "javascript:void(0)",
+                        "link-pop": "",
+                        rounded: "",
+                        tag: "a"
                       }
                     },
                     [
@@ -918,13 +941,21 @@ var render = function() {
                           staticClass:
                             "font-size-sm font-w600 text-uppercase text-muted"
                         },
-                        [_vm._v("\n              Sales\n            ")]
+                        [
+                          _vm._v(
+                            "\n                        Sales\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c(
                         "div",
                         { staticClass: "font-size-h2 font-w400 text-dark" },
-                        [_vm._v("\n              150\n            ")]
+                        [
+                          _vm._v(
+                            "\n                        150\n                    "
+                          )
+                        ]
                       )
                     ]
                   )
@@ -934,18 +965,18 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "b-col",
-                { attrs: { cols: "6", md: "3", lg: "6", xl: "3" } },
+                { attrs: { cols: "6", lg: "6", md: "3", xl: "3" } },
                 [
                   _c(
                     "base-block",
                     {
                       staticClass: "border-left border-primary border-4x",
                       attrs: {
-                        tag: "a",
-                        rounded: "",
-                        "link-pop": "",
                         "content-full": "",
-                        href: "javascript:void(0)"
+                        href: "javascript:void(0)",
+                        "link-pop": "",
+                        rounded: "",
+                        tag: "a"
                       }
                     },
                     [
@@ -955,13 +986,21 @@ var render = function() {
                           staticClass:
                             "font-size-sm font-w600 text-uppercase text-muted"
                         },
-                        [_vm._v("\n              Earnings\n            ")]
+                        [
+                          _vm._v(
+                            "\n                        Earnings\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c(
                         "div",
                         { staticClass: "font-size-h2 font-w400 text-dark" },
-                        [_vm._v("\n              $3,200\n            ")]
+                        [
+                          _vm._v(
+                            "\n                        $3,200\n                    "
+                          )
+                        ]
                       )
                     ]
                   )
@@ -971,18 +1010,18 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "b-col",
-                { attrs: { cols: "6", md: "3", lg: "6", xl: "3" } },
+                { attrs: { cols: "6", lg: "6", md: "3", xl: "3" } },
                 [
                   _c(
                     "base-block",
                     {
                       staticClass: "border-left border-primary border-4x",
                       attrs: {
-                        tag: "a",
-                        rounded: "",
-                        "link-pop": "",
                         "content-full": "",
-                        href: "javascript:void(0)"
+                        href: "javascript:void(0)",
+                        "link-pop": "",
+                        rounded: "",
+                        tag: "a"
                       }
                     },
                     [
@@ -992,13 +1031,21 @@ var render = function() {
                           staticClass:
                             "font-size-sm font-w600 text-uppercase text-muted"
                         },
-                        [_vm._v("\n              Avg Sale\n            ")]
+                        [
+                          _vm._v(
+                            "\n                        Avg Sale\n                    "
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c(
                         "div",
                         { staticClass: "font-size-h2 font-w400 text-dark" },
-                        [_vm._v("\n              $21\n            ")]
+                        [
+                          _vm._v(
+                            "\n                        $21\n                    "
+                          )
+                        ]
                       )
                     ]
                   )
@@ -1017,7 +1064,7 @@ var render = function() {
                 { attrs: { lg: "6" } },
                 [
                   _c("base-block", {
-                    attrs: { title: "Earnings in $", "header-bg": "" },
+                    attrs: { "header-bg": "", title: "Earnings in $" },
                     scopedSlots: _vm._u([
                       {
                         key: "options",
@@ -1154,7 +1201,7 @@ var render = function() {
                 { attrs: { lg: "6" } },
                 [
                   _c("base-block", {
-                    attrs: { title: "Sales", "header-bg": "" },
+                    attrs: { "header-bg": "", title: "Sales" },
                     scopedSlots: _vm._u([
                       {
                         key: "options",
@@ -1301,9 +1348,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Latest Customers",
+                        "content-full": "",
                         "header-bg": "",
-                        "content-full": ""
+                        title: "Latest Customers"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1330,7 +1377,7 @@ var render = function() {
                         "b-table-simple",
                         {
                           staticClass: "table-vcenter font-size-sm mb-0",
-                          attrs: { striped: "", hover: "", borderless: "" }
+                          attrs: { borderless: "", hover: "", striped: "" }
                         },
                         [
                           _c(
@@ -1355,7 +1402,11 @@ var render = function() {
                                         "d-none d-lg-table-cell font-w700 text-center",
                                       staticStyle: { width: "100px" }
                                     },
-                                    [_vm._v("Photo")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Photo\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c("b-th", { staticClass: "font-w700" }, [
@@ -1369,7 +1420,11 @@ var render = function() {
                                         "d-none d-sm-table-cell font-w700 text-center",
                                       staticStyle: { width: "80px" }
                                     },
-                                    [_vm._v("Orders")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Orders\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c("b-th", {
@@ -1392,9 +1447,9 @@ var render = function() {
                                 [
                                   _c("b-td", { staticClass: "font-w600" }, [
                                     _vm._v(
-                                      "\n                  " +
+                                      "\n                                    " +
                                         _vm._s(customer.id) +
-                                        "\n                "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
@@ -1498,9 +1553,9 @@ var render = function() {
                     "base-block",
                     {
                       attrs: {
-                        title: "Latest Orders",
+                        "content-full": "",
                         "header-bg": "",
-                        "content-full": ""
+                        title: "Latest Orders"
                       },
                       scopedSlots: _vm._u([
                         {
@@ -1527,7 +1582,7 @@ var render = function() {
                         "b-table-simple",
                         {
                           staticClass: "table-vcenter font-size-sm mb-0",
-                          attrs: { striped: "", hover: "", borderless: "" }
+                          attrs: { borderless: "", hover: "", striped: "" }
                         },
                         [
                           _c(
@@ -1560,7 +1615,11 @@ var render = function() {
                                         "d-none d-sm-table-cell font-w700 text-right",
                                       staticStyle: { width: "120px" }
                                     },
-                                    [_vm._v("Total")]
+                                    [
+                                      _vm._v(
+                                        "\n                                    Total\n                                "
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c("b-th", {
@@ -1597,9 +1656,9 @@ var render = function() {
                                     { staticClass: "d-none d-sm-table-cell" },
                                     [
                                       _vm._v(
-                                        "\n                  " +
+                                        "\n                                    " +
                                           _vm._s(order.date) +
-                                          "\n                "
+                                          "\n                                "
                                       )
                                     ]
                                   ),
@@ -1623,9 +1682,9 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                  " +
+                                        "\n                                    " +
                                           _vm._s(order.total) +
-                                          "\n                "
+                                          "\n                                "
                                       )
                                     ]
                                   ),

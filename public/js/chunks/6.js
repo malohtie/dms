@@ -435,6 +435,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     clickDropdownFormExample: function clickDropdownFormExample() {
@@ -466,9 +474,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Dropdowns",
           subtitle:
-            "Toggle contextual overlays for displaying lists of links and more."
+            "Toggle contextual overlays for displaying lists of links and more.",
+          title: "Dropdowns"
         },
         scopedSlots: _vm._u([
           {
@@ -508,7 +516,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can easily attach a dropdown to a default button and add various actions\n      "
+                  "\n                You can easily attach a dropdown to a default button and add various actions\n            "
                 )
               ]),
               _vm._v(" "),
@@ -525,8 +533,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-primary",
-                            variant: "primary",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "primary"
                           }
                         },
                         [
@@ -565,8 +573,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-secondary",
-                            variant: "secondary",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "secondary"
                           }
                         },
                         [
@@ -605,8 +613,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-success",
-                            variant: "success",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "success"
                           }
                         },
                         [
@@ -645,8 +653,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-info",
-                            variant: "info",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "info"
                           }
                         },
                         [
@@ -685,8 +693,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-warning",
-                            variant: "warning",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "warning"
                           }
                         },
                         [
@@ -725,8 +733,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-danger",
-                            variant: "danger",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "danger"
                           }
                         },
                         [
@@ -765,8 +773,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-dark",
-                            variant: "dark",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "dark"
                           }
                         },
                         [
@@ -805,8 +813,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-light",
-                            variant: "light",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "light"
                           }
                         },
                         [
@@ -841,7 +849,7 @@ var render = function() {
               _vm._v(" "),
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can also add dropdowns to alternate styled buttons\n      "
+                  "\n                You can also add dropdowns to alternate styled buttons\n            "
                 )
               ]),
               _vm._v(" "),
@@ -858,8 +866,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-alt-primary",
-                            variant: "alt-primary",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "alt-primary"
                           }
                         },
                         [
@@ -898,8 +906,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-alt-secondary",
-                            variant: "alt-secondary",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "alt-secondary"
                           }
                         },
                         [
@@ -938,8 +946,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-alt-success",
-                            variant: "alt-success",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "alt-success"
                           }
                         },
                         [
@@ -978,8 +986,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-alt-info",
-                            variant: "alt-info",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "alt-info"
                           }
                         },
                         [
@@ -1018,8 +1026,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-alt-warning",
-                            variant: "alt-warning",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "alt-warning"
                           }
                         },
                         [
@@ -1058,8 +1066,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-alt-danger",
-                            variant: "alt-danger",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "alt-danger"
                           }
                         },
                         [
@@ -1098,8 +1106,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-alt-dark",
-                            variant: "alt-dark",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "alt-dark"
                           }
                         },
                         [
@@ -1138,8 +1146,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-alt-light",
-                            variant: "alt-light",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "alt-light"
                           }
                         },
                         [
@@ -1174,7 +1182,7 @@ var render = function() {
               _vm._v(" "),
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can also add dropdowns to outline styled buttons\n      "
+                  "\n                You can also add dropdowns to outline styled buttons\n            "
                 )
               ]),
               _vm._v(" "),
@@ -1191,8 +1199,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-outline-primary",
-                            variant: "outline-primary",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "outline-primary"
                           }
                         },
                         [
@@ -1231,8 +1239,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-outline-secondary",
-                            variant: "outline-secondary",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "outline-secondary"
                           }
                         },
                         [
@@ -1271,8 +1279,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-outline-success",
-                            variant: "outline-success",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "outline-success"
                           }
                         },
                         [
@@ -1311,8 +1319,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-outline-info",
-                            variant: "outline-info",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "outline-info"
                           }
                         },
                         [
@@ -1351,8 +1359,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-outline-warning",
-                            variant: "outline-warning",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "outline-warning"
                           }
                         },
                         [
@@ -1391,8 +1399,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-outline-danger",
-                            variant: "outline-danger",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "outline-danger"
                           }
                         },
                         [
@@ -1431,8 +1439,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-outline-dark",
-                            variant: "outline-dark",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "outline-dark"
                           }
                         },
                         [
@@ -1471,8 +1479,8 @@ var render = function() {
                         {
                           attrs: {
                             id: "dropdown-default-outline-light",
-                            variant: "outline-light",
-                            text: "Dropdown"
+                            text: "Dropdown",
+                            variant: "outline-light"
                           }
                         },
                         [
@@ -1522,7 +1530,7 @@ var render = function() {
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            Grouping your dropdowns with separate buttons is really easy\n          "
+                          "\n                        Grouping your dropdowns with separate buttons is really easy\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -1539,9 +1547,9 @@ var render = function() {
                                 {
                                   attrs: {
                                     id: "dropdown-split-primary",
-                                    variant: "primary",
+                                    split: "",
                                     text: "Action",
-                                    split: ""
+                                    variant: "primary"
                                   }
                                 },
                                 [
@@ -1586,9 +1594,9 @@ var render = function() {
                                 {
                                   attrs: {
                                     id: "dropdown-split-danger",
-                                    variant: "alt-danger",
+                                    split: "",
                                     text: "Action",
-                                    split: ""
+                                    variant: "alt-danger"
                                   }
                                 },
                                 [
@@ -1633,9 +1641,9 @@ var render = function() {
                                 {
                                   attrs: {
                                     id: "dropdown-split-warning",
-                                    variant: "warning",
+                                    split: "",
                                     text: "Action",
-                                    split: ""
+                                    variant: "warning"
                                   }
                                 },
                                 [
@@ -1690,7 +1698,7 @@ var render = function() {
                     [
                       _c("p", { staticClass: "font-size-sm text-muted" }, [
                         _vm._v(
-                          "\n            You can align your dropmenus to the right of buttons\n          "
+                          "\n                        You can align your dropmenus to the right of buttons\n                    "
                         )
                       ]),
                       _vm._v(" "),
@@ -1707,9 +1715,9 @@ var render = function() {
                                 {
                                   attrs: {
                                     id: "dropdown-align-primary",
-                                    variant: "primary",
+                                    right: "",
                                     text: "From Right",
-                                    right: ""
+                                    variant: "primary"
                                   }
                                 },
                                 [
@@ -1748,9 +1756,9 @@ var render = function() {
                                 {
                                   attrs: {
                                     id: "dropdown-align-alt-primary",
-                                    variant: "alt-primary",
+                                    right: "",
                                     text: "From Right",
-                                    right: ""
+                                    variant: "alt-primary"
                                   }
                                 },
                                 [
@@ -1798,7 +1806,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can also use forms inside your dropdowns\n      "
+                  "\n                You can also use forms inside your dropdowns\n            "
                 )
               ]),
               _vm._v(" "),
@@ -1809,8 +1817,8 @@ var render = function() {
                   staticClass: "push",
                   attrs: {
                     id: "dropdown-content-rich-primary",
-                    variant: "primary",
-                    text: "Example form in dropdown"
+                    text: "Example form in dropdown",
+                    variant: "primary"
                   }
                 },
                 [
@@ -1855,8 +1863,8 @@ var render = function() {
                           _c("b-form-input", {
                             attrs: {
                               id: "dropdown-content-form-password",
-                              type: "password",
-                              placeholder: "Password"
+                              placeholder: "Password",
+                              type: "password"
                             }
                           })
                         ],
@@ -1901,7 +1909,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can position your dropdown relative to your button\n      "
+                  "\n                You can position your dropdown relative to your button\n            "
                 )
               ]),
               _vm._v(" "),
@@ -1920,10 +1928,10 @@ var render = function() {
                           "b-dropdown",
                           {
                             attrs: {
+                              dropup: "",
                               id: "dropdown-dropup-secondary",
-                              variant: "secondary",
                               text: "Up",
-                              dropup: ""
+                              variant: "secondary"
                             }
                           },
                           [
@@ -1961,10 +1969,10 @@ var render = function() {
                           "b-dropdown",
                           {
                             attrs: {
+                              dropup: "",
                               id: "dropdown-dropup-alt-secondary",
-                              variant: "alt-secondary",
                               text: "Up",
-                              dropup: ""
+                              variant: "alt-secondary"
                             }
                           },
                           [
@@ -2002,10 +2010,10 @@ var render = function() {
                           "b-dropdown",
                           {
                             attrs: {
+                              dropup: "",
                               id: "dropdown-dropup-outline-secondary",
-                              variant: "outline-secondary",
                               text: "Up",
-                              dropup: ""
+                              variant: "outline-secondary"
                             }
                           },
                           [
@@ -2047,10 +2055,10 @@ var render = function() {
                           "b-dropdown",
                           {
                             attrs: {
+                              dropright: "",
                               id: "dropdown-dropright-primary",
-                              variant: "primary",
                               text: "Right",
-                              dropright: ""
+                              variant: "primary"
                             }
                           },
                           [
@@ -2088,10 +2096,10 @@ var render = function() {
                           "b-dropdown",
                           {
                             attrs: {
+                              dropright: "",
                               id: "dropdown-dropright-alt-primary",
-                              variant: "alt-primary",
                               text: "Right",
-                              dropright: ""
+                              variant: "alt-primary"
                             }
                           },
                           [
@@ -2129,10 +2137,10 @@ var render = function() {
                           "b-dropdown",
                           {
                             attrs: {
+                              dropright: "",
                               id: "dropdown-dropright-outline-primary",
-                              variant: "outline-primary",
                               text: "Right",
-                              dropright: ""
+                              variant: "outline-primary"
                             }
                           },
                           [
@@ -2177,10 +2185,10 @@ var render = function() {
                             "b-dropdown",
                             {
                               attrs: {
+                                dropleft: "",
                                 id: "dropdown-dropleft-dark",
-                                variant: "dark",
                                 text: "Left",
-                                dropleft: ""
+                                variant: "dark"
                               }
                             },
                             [
@@ -2218,10 +2226,10 @@ var render = function() {
                             "b-dropdown",
                             {
                               attrs: {
+                                dropleft: "",
                                 id: "dropdown-dropleft-alt-dark",
-                                variant: "alt-dark",
                                 text: "Left",
-                                dropleft: ""
+                                variant: "alt-dark"
                               }
                             },
                             [
@@ -2259,10 +2267,10 @@ var render = function() {
                             "b-dropdown",
                             {
                               attrs: {
+                                dropleft: "",
                                 id: "dropdown-dropleft-outline-dark",
-                                variant: "outline-dark",
                                 text: "Left",
-                                dropleft: ""
+                                variant: "outline-dark"
                               }
                             },
                             [

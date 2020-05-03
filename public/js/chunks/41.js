@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Buttons",
-          subtitle: "Custom buttons styles to fulfill any design approach."
+          subtitle: "Custom buttons styles to fulfill any design approach.",
+          title: "Buttons"
         },
         scopedSlots: _vm._u([
           {
@@ -63,7 +63,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        The default button style with various colors to choose from. Prefer using 2 or max 3 button color variations in your web project to make it easier and more accesible for your users.\n      "
+                  "\n                The default button style with various colors to choose from. Prefer using 2 or max 3 button color\n                variations in your web project to make it easier and more accesible for your users.\n            "
                 )
               ]),
               _vm._v(" "),
@@ -203,7 +203,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        The alternate button style offers a more subtle design style.\n      "
+                  "\n                The alternate button style offers a more subtle design style.\n            "
                 )
               ]),
               _vm._v(" "),
@@ -343,7 +343,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        Outline styles are also available for all previous color variations\n      "
+                  "\n                Outline styles are also available for all previous color variations\n            "
                 )
               ]),
               _vm._v(" "),
@@ -493,7 +493,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        Inspired by Material design, adding a ripple animation on click is just an attribute away "
+                  "\n                Inspired by Material design, adding a ripple animation on click is just an attribute away "
                 ),
                 _c("code", [_vm._v("v-click-ripple")])
               ]),
@@ -961,9 +961,9 @@ var render = function() {
             { attrs: { title: "Small Size" } },
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
-                _vm._v("\n        You can use "),
+                _vm._v("\n                You can use "),
                 _c("code", [_vm._v('size="sm"')]),
-                _vm._v(" to make your buttons larger\n      ")
+                _vm._v(" to make your buttons larger\n            ")
               ]),
               _vm._v(" "),
               _c(
@@ -1307,9 +1307,9 @@ var render = function() {
             { attrs: { title: "Large Size" } },
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
-                _vm._v("\n        You can use "),
+                _vm._v("\n                You can use "),
                 _c("code", [_vm._v('size="lg"')]),
-                _vm._v(" to make your buttons larger\n      ")
+                _vm._v(" to make your buttons larger\n            ")
               ]),
               _vm._v(" "),
               _c(
@@ -1654,7 +1654,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can remove border radius from your buttons if you are looking for a sharp look by using the class "
+                  "\n                You can remove border radius from your buttons if you are looking for a sharp look by using the\n                class "
                 ),
                 _c("code", [_vm._v("btn-square")])
               ]),
@@ -2073,7 +2073,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        Fully rounded buttons are available for all available button styles by using the class "
+                  "\n                Fully rounded buttons are available for all available button styles by using the class "
                 ),
                 _c("code", [_vm._v("btn-rounded")])
               ]),
@@ -2492,7 +2492,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        If an action is not available in a specific state of your website/app, you can easily disable your buttons\n      "
+                  "\n                If an action is not available in a specific state of your website/app, you can easily disable your\n                buttons\n            "
                 )
               ]),
               _vm._v(" "),
@@ -2506,7 +2506,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "primary", disabled: "" } },
+                        { attrs: { disabled: "", variant: "primary" } },
                         [_vm._v("Primary")]
                       )
                     ],
@@ -2519,7 +2519,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "secondary", disabled: "" } },
+                        { attrs: { disabled: "", variant: "secondary" } },
                         [_vm._v("Secondary")]
                       )
                     ],
@@ -2532,7 +2532,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "success", disabled: "" } },
+                        { attrs: { disabled: "", variant: "success" } },
                         [_vm._v("Success")]
                       )
                     ],
@@ -2545,7 +2545,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "info", disabled: "" } },
+                        { attrs: { disabled: "", variant: "info" } },
                         [_vm._v("Info")]
                       )
                     ],
@@ -2558,7 +2558,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "warning", disabled: "" } },
+                        { attrs: { disabled: "", variant: "warning" } },
                         [_vm._v("Warning")]
                       )
                     ],
@@ -2571,7 +2571,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "danger", disabled: "" } },
+                        { attrs: { disabled: "", variant: "danger" } },
                         [_vm._v("Danger")]
                       )
                     ],
@@ -2584,7 +2584,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "dark", disabled: "" } },
+                        { attrs: { disabled: "", variant: "dark" } },
                         [_vm._v("Dark")]
                       )
                     ],
@@ -2597,7 +2597,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "light", disabled: "" } },
+                        { attrs: { disabled: "", variant: "light" } },
                         [_vm._v("Light")]
                       )
                     ],
@@ -2617,7 +2617,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "alt-primary", disabled: "" } },
+                        { attrs: { disabled: "", variant: "alt-primary" } },
                         [_vm._v("Primary")]
                       )
                     ],
@@ -2630,7 +2630,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "alt-secondary", disabled: "" } },
+                        { attrs: { disabled: "", variant: "alt-secondary" } },
                         [_vm._v("Secondary")]
                       )
                     ],
@@ -2643,7 +2643,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "alt-success", disabled: "" } },
+                        { attrs: { disabled: "", variant: "alt-success" } },
                         [_vm._v("Success")]
                       )
                     ],
@@ -2656,7 +2656,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "alt-info", disabled: "" } },
+                        { attrs: { disabled: "", variant: "alt-info" } },
                         [_vm._v("Info")]
                       )
                     ],
@@ -2669,7 +2669,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "alt-warning", disabled: "" } },
+                        { attrs: { disabled: "", variant: "alt-warning" } },
                         [_vm._v("Warning")]
                       )
                     ],
@@ -2682,7 +2682,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "alt-danger", disabled: "" } },
+                        { attrs: { disabled: "", variant: "alt-danger" } },
                         [_vm._v("Danger")]
                       )
                     ],
@@ -2695,7 +2695,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "alt-dark", disabled: "" } },
+                        { attrs: { disabled: "", variant: "alt-dark" } },
                         [_vm._v("Dark")]
                       )
                     ],
@@ -2708,7 +2708,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "alt-light", disabled: "" } },
+                        { attrs: { disabled: "", variant: "alt-light" } },
                         [_vm._v("Light")]
                       )
                     ],
@@ -2728,7 +2728,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "outline-primary", disabled: "" } },
+                        { attrs: { disabled: "", variant: "outline-primary" } },
                         [_vm._v("Primary")]
                       )
                     ],
@@ -2742,7 +2742,7 @@ var render = function() {
                       _c(
                         "b-button",
                         {
-                          attrs: { variant: "outline-secondary", disabled: "" }
+                          attrs: { disabled: "", variant: "outline-secondary" }
                         },
                         [_vm._v("Secondary")]
                       )
@@ -2756,7 +2756,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "outline-success", disabled: "" } },
+                        { attrs: { disabled: "", variant: "outline-success" } },
                         [_vm._v("Success")]
                       )
                     ],
@@ -2769,7 +2769,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "outline-info", disabled: "" } },
+                        { attrs: { disabled: "", variant: "outline-info" } },
                         [_vm._v("Info")]
                       )
                     ],
@@ -2782,7 +2782,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "outline-warning", disabled: "" } },
+                        { attrs: { disabled: "", variant: "outline-warning" } },
                         [_vm._v("Warning")]
                       )
                     ],
@@ -2795,7 +2795,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "outline-danger", disabled: "" } },
+                        { attrs: { disabled: "", variant: "outline-danger" } },
                         [_vm._v("Danger")]
                       )
                     ],
@@ -2808,7 +2808,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "outline-dark", disabled: "" } },
+                        { attrs: { disabled: "", variant: "outline-dark" } },
                         [_vm._v("Dark")]
                       )
                     ],
@@ -2821,7 +2821,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        { attrs: { variant: "outline-light", disabled: "" } },
+                        { attrs: { disabled: "", variant: "outline-light" } },
                         [_vm._v("Light")]
                       )
                     ],
@@ -2839,14 +2839,16 @@ var render = function() {
               "p",
               { staticClass: "font-size-sm text-muted" },
               [
-                _vm._v("\n        You can use any of the "),
+                _vm._v(
+                  "\n                You can use any of the\n                "
+                ),
                 _c(
                   "router-link",
                   { attrs: { to: "/backend/elements/icons" } },
                   [_vm._v("available icons")]
                 ),
                 _vm._v(
-                  " in your buttons to visualize its intended action\n      "
+                  "\n                in your buttons to visualize its intended action\n            "
                 )
               ],
               1
@@ -2861,7 +2863,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "success" } },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-plus mr-1" }),
-                    _vm._v(" Add User\n        ")
+                    _vm._v(" Add User\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2870,7 +2872,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "info" } },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-download mr-1" }),
-                    _vm._v(" Download\n        ")
+                    _vm._v(" Download\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2881,7 +2883,7 @@ var render = function() {
                     _c("i", {
                       staticClass: "fa fa-fw fa-exclamation-triangle mr-1"
                     }),
-                    _vm._v(" Are you sure?\n        ")
+                    _vm._v(" Are you sure?\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2890,7 +2892,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "primary" } },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-upload mr-1" }),
-                    _vm._v(" Upload\n        ")
+                    _vm._v(" Upload\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2899,7 +2901,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "secondary" } },
                   [
                     _c("i", { staticClass: "fab fa-fw fa-bluetooth-b mr-1" }),
-                    _vm._v(" 3 Connections\n        ")
+                    _vm._v(" 3 Connections\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2908,7 +2910,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "danger" } },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-times mr-1" }),
-                    _vm._v(" Delete\n        ")
+                    _vm._v(" Delete\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2917,7 +2919,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "primary" } },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-thumbs-up mr-1" }),
-                    _vm._v(" Like\n        ")
+                    _vm._v(" Like\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2926,7 +2928,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "secondary" } },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-play mr-1" }),
-                    _vm._v(" Play\n        ")
+                    _vm._v(" Play\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2935,7 +2937,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "dark" } },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-box mr-1" }),
-                    _vm._v(" 10 Products\n        ")
+                    _vm._v(" 10 Products\n                ")
                   ]
                 )
               ],
@@ -2954,7 +2956,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-plus mr-1" }),
-                    _vm._v(" Add User\n        ")
+                    _vm._v(" Add User\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2963,7 +2965,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "alt-info" } },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-download mr-1" }),
-                    _vm._v(" Download\n        ")
+                    _vm._v(" Download\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2977,7 +2979,7 @@ var render = function() {
                     _c("i", {
                       staticClass: "fa fa-fw fa-exclamation-triangle mr-1"
                     }),
-                    _vm._v(" Are you sure?\n        ")
+                    _vm._v(" Are you sure?\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -2989,7 +2991,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-upload mr-1" }),
-                    _vm._v(" Upload\n        ")
+                    _vm._v(" Upload\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3001,7 +3003,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fab fa-fw fa-bluetooth-b mr-1" }),
-                    _vm._v(" 3 Connections\n        ")
+                    _vm._v(" 3 Connections\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3013,7 +3015,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-times mr-1" }),
-                    _vm._v(" Delete\n        ")
+                    _vm._v(" Delete\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3025,7 +3027,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-thumbs-up mr-1" }),
-                    _vm._v(" Like\n        ")
+                    _vm._v(" Like\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3037,7 +3039,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-play mr-1" }),
-                    _vm._v(" Play\n        ")
+                    _vm._v(" Play\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3046,7 +3048,7 @@ var render = function() {
                   { staticClass: "mr-1 mb-3", attrs: { variant: "alt-dark" } },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-box mr-1" }),
-                    _vm._v(" 10 Products\n        ")
+                    _vm._v(" 10 Products\n                ")
                   ]
                 )
               ],
@@ -3065,7 +3067,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-plus mr-1" }),
-                    _vm._v(" Add User\n        ")
+                    _vm._v(" Add User\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3077,7 +3079,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-download mr-1" }),
-                    _vm._v(" Download\n        ")
+                    _vm._v(" Download\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3091,7 +3093,7 @@ var render = function() {
                     _c("i", {
                       staticClass: "fa fa-fw fa-exclamation-triangle mr-1"
                     }),
-                    _vm._v(" Are you sure?\n        ")
+                    _vm._v(" Are you sure?\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3103,7 +3105,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-upload mr-1" }),
-                    _vm._v(" Upload\n        ")
+                    _vm._v(" Upload\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3115,7 +3117,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fab fa-fw fa-bluetooth-b mr-1" }),
-                    _vm._v(" 3 Connections\n        ")
+                    _vm._v(" 3 Connections\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3127,7 +3129,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-times mr-1" }),
-                    _vm._v(" Delete\n        ")
+                    _vm._v(" Delete\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3139,7 +3141,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-thumbs-up mr-1" }),
-                    _vm._v(" Like\n        ")
+                    _vm._v(" Like\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3151,7 +3153,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-play mr-1" }),
-                    _vm._v(" Play\n        ")
+                    _vm._v(" Play\n                ")
                   ]
                 ),
                 _vm._v(" "),
@@ -3163,7 +3165,7 @@ var render = function() {
                   },
                   [
                     _c("i", { staticClass: "fa fa-fw fa-box mr-1" }),
-                    _vm._v(" 10 Products\n        ")
+                    _vm._v(" 10 Products\n                ")
                   ]
                 )
               ],
@@ -3177,7 +3179,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        Mix any of the available classes to create the button style you want to use in your project\n      "
+                  "\n                Mix any of the available classes to create the button style you want to use in your project\n            "
                 )
               ]),
               _vm._v(" "),
@@ -3189,7 +3191,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fa fa-fw fa-wifi mr-1" }),
-                  _vm._v(" Wifi Available\n      ")
+                  _vm._v(" Wifi Available\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3201,7 +3203,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fa fa-fw fa-times mr-1" }),
-                  _vm._v(" Remove\n      ")
+                  _vm._v(" Remove\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3228,7 +3230,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fab fa-fw fa-instagram mr-1" }),
-                  _vm._v(" Post your image\n      ")
+                  _vm._v(" Post your image\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3249,7 +3251,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fab fa-fw fa-youtube mr-1" }),
-                  _vm._v(" YouTube\n      ")
+                  _vm._v(" YouTube\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3261,7 +3263,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "far fa-fw fa-envelope mr-1" }),
-                  _vm._v(" Messages\n      ")
+                  _vm._v(" Messages\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3273,7 +3275,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fab fa-fw fa-dribbble mr-1" }),
-                  _vm._v(" Dribbble\n      ")
+                  _vm._v(" Dribbble\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3285,7 +3287,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fa fa-fw fa-archive mr-1" }),
-                  _vm._v(" Archive\n      ")
+                  _vm._v(" Archive\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3297,7 +3299,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fa fa-fw fa-wrench mr-1" }),
-                  _vm._v(" Preferences\n      ")
+                  _vm._v(" Preferences\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3309,7 +3311,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fa fa-fw fa-cog mr-1" }),
-                  _vm._v(" Options\n      ")
+                  _vm._v(" Options\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3321,7 +3323,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fab fa-fw fa-instagram mr-1" }),
-                  _vm._v(" Instagram\n      ")
+                  _vm._v(" Instagram\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3333,7 +3335,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fa fa-fw fa-rocket mr-1" }),
-                  _vm._v(" Test\n      ")
+                  _vm._v(" Test\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3345,7 +3347,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fa fa-fw fa-image mr-1" }),
-                  _vm._v(" Picture\n      ")
+                  _vm._v(" Picture\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3357,7 +3359,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fa fa-fw fa-tint mr-1" }),
-                  _vm._v(" Themes\n      ")
+                  _vm._v(" Themes\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3369,7 +3371,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "fa fa-fw fa-arrow-down mr-1" }),
-                  _vm._v(" Down\n      ")
+                  _vm._v(" Down\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3381,7 +3383,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "si si-rocket mr-1" }),
-                  _vm._v(" Launch Product\n      ")
+                  _vm._v(" Launch Product\n            ")
                 ]
               ),
               _vm._v(" "),
@@ -3393,7 +3395,7 @@ var render = function() {
                 },
                 [
                   _c("i", { staticClass: "si si-chemistry mr-1" }),
-                  _vm._v(" Lab\n      ")
+                  _vm._v(" Lab\n            ")
                 ]
               )
             ],

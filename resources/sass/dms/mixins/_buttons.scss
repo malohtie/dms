@@ -7,7 +7,7 @@
                             $hover-background: darken($background, 7.5%), $hover-text-color: $text-color,
                             $active-background: darken($background, 12%), $active-text-color: darken($text-color, 15%)) {
     $btn-alt-box-shadow: 0 0 0 0.2rem rgba($active-background, .25);
-    
+
     color: $text-color;
     @include gradient-bg($background);
     border-color: $background;

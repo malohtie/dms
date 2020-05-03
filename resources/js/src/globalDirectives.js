@@ -1,5 +1,4 @@
 import Vue from 'vue'
-
 // Custom directives
 import clickRipple from '@/directives/clickRipple'
 import toggleClass from '@/directives/toggleClass'

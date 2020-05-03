@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Popovers",
-          subtitle: "Similar to the ones found in iOS."
+          subtitle: "Similar to the ones found in iOS.",
+          title: "Popovers"
         },
         scopedSlots: _vm._u([
           {
@@ -60,7 +60,7 @@ var render = function() {
             { attrs: { title: "Default" } },
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
-                _vm._v("\n        Show popovers on hover\n      ")
+                _vm._v("\n                Show popovers on hover\n            ")
               ]),
               _vm._v(" "),
               _c(
@@ -90,13 +90,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "primary",
                             block: "",
-                            title: "Top Popover"
+                            size: "sm",
+                            title: "Top Popover",
+                            variant: "primary"
                           }
                         },
-                        [_vm._v("Top")]
+                        [_vm._v("Top\n                    ")]
                       )
                     ],
                     1
@@ -125,13 +125,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "primary",
                             block: "",
-                            title: "Right Popover"
+                            size: "sm",
+                            title: "Right Popover",
+                            variant: "primary"
                           }
                         },
-                        [_vm._v("Right")]
+                        [_vm._v("Right\n                    ")]
                       )
                     ],
                     1
@@ -160,13 +160,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "primary",
                             block: "",
-                            title: "Bottom Popover"
+                            size: "sm",
+                            title: "Bottom Popover",
+                            variant: "primary"
                           }
                         },
-                        [_vm._v("Bottom")]
+                        [_vm._v("Bottom\n                    ")]
                       )
                     ],
                     1
@@ -195,13 +195,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "primary",
                             block: "",
-                            title: "Left Popover"
+                            size: "sm",
+                            title: "Left Popover",
+                            variant: "primary"
                           }
                         },
-                        [_vm._v("Left")]
+                        [_vm._v("Left\n                    ")]
                       )
                     ],
                     1
@@ -218,7 +218,7 @@ var render = function() {
             { attrs: { title: "Click Triggered" } },
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
-                _vm._v("\n        Show popovers on hover\n      ")
+                _vm._v("\n                Show popovers on hover\n            ")
               ]),
               _vm._v(" "),
               _c(
@@ -248,13 +248,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Top Popover"
+                            size: "sm",
+                            title: "Top Popover",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Top")]
+                        [_vm._v("Top\n                    ")]
                       )
                     ],
                     1
@@ -283,13 +283,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Right Popover"
+                            size: "sm",
+                            title: "Right Popover",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Right")]
+                        [_vm._v("Right\n                    ")]
                       )
                     ],
                     1
@@ -318,13 +318,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Bottom Popover"
+                            size: "sm",
+                            title: "Bottom Popover",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Bottom")]
+                        [_vm._v("Bottom\n                    ")]
                       )
                     ],
                     1
@@ -353,13 +353,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Left Popover"
+                            size: "sm",
+                            title: "Left Popover",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Left")]
+                        [_vm._v("Left\n                    ")]
                       )
                     ],
                     1
@@ -377,7 +377,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can enable a fade animation to your popovers\n      "
+                  "\n                You can enable a fade animation to your popovers\n            "
                 )
               ]),
               _vm._v(" "),
@@ -404,13 +404,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Top Popover"
+                            size: "sm",
+                            title: "Top Popover",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Top")]
+                        [_vm._v("Top\n                    ")]
                       )
                     ],
                     1
@@ -435,13 +435,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Right Popover"
+                            size: "sm",
+                            title: "Right Popover",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Right")]
+                        [_vm._v("Right\n                    ")]
                       )
                     ],
                     1
@@ -466,13 +466,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Bottom Popover"
+                            size: "sm",
+                            title: "Bottom Popover",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Bottom")]
+                        [_vm._v("Bottom\n                    ")]
                       )
                     ],
                     1
@@ -497,13 +497,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Left Popover"
+                            size: "sm",
+                            title: "Left Popover",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Left")]
+                        [_vm._v("Left\n                    ")]
                       )
                     ],
                     1
@@ -521,7 +521,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can add HTML in your popovers as well\n      "
+                  "\n                You can add HTML in your popovers as well\n            "
                 )
               ]),
               _vm._v(" "),
@@ -553,13 +553,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Popover Title"
+                            size: "sm",
+                            title: "Popover Title",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Top")]
+                        [_vm._v("Top\n                    ")]
                       )
                     ],
                     1
@@ -589,13 +589,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Popover Title"
+                            size: "sm",
+                            title: "Popover Title",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Right")]
+                        [_vm._v("Right\n                    ")]
                       )
                     ],
                     1
@@ -625,13 +625,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Popover Title"
+                            size: "sm",
+                            title: "Popover Title",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Bottom")]
+                        [_vm._v("Bottom\n                    ")]
                       )
                     ],
                     1
@@ -661,13 +661,13 @@ var render = function() {
                             }
                           ],
                           attrs: {
-                            size: "sm",
-                            variant: "secondary",
                             block: "",
-                            title: "Popover Title"
+                            size: "sm",
+                            title: "Popover Title",
+                            variant: "secondary"
                           }
                         },
-                        [_vm._v("Left")]
+                        [_vm._v("Left\n                    ")]
                       )
                     ],
                     1

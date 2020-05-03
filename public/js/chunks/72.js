@@ -20,9 +20,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Pricing Tables",
           subtitle:
-            "Clean and responsive pricing tables that will improve your conversions."
+            "Clean and responsive pricing tables that will improve your conversions.",
+          title: "Pricing Tables"
         },
         scopedSlots: _vm._u([
           {
@@ -68,10 +68,10 @@ var render = function() {
                   _c("base-block", {
                     staticClass: "text-center",
                     attrs: {
-                      tag: "a",
-                      title: "Developer",
                       href: "javascript:void(0)",
-                      "link-shadow": ""
+                      "link-shadow": "",
+                      tag: "a",
+                      title: "Developer"
                     },
                     scopedSlots: _vm._u([
                       {
@@ -100,22 +100,30 @@ var render = function() {
                               _c("div", { staticClass: "font-size-sm py-2" }, [
                                 _c("p", [
                                   _c("strong", [_vm._v("2")]),
-                                  _vm._v(" Projects\n                ")
+                                  _vm._v(
+                                    " Projects\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("10GB")]),
-                                  _vm._v(" Storage\n                ")
+                                  _vm._v(
+                                    " Storage\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("15")]),
-                                  _vm._v(" Clients\n                ")
+                                  _vm._v(
+                                    " Clients\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("Email")]),
-                                  _vm._v(" Support\n                ")
+                                  _vm._v(
+                                    " Support\n                                "
+                                  )
                                 ])
                               ])
                             ]),
@@ -151,10 +159,10 @@ var render = function() {
                   _c("base-block", {
                     staticClass: "text-center",
                     attrs: {
-                      tag: "a",
-                      title: "Startup",
                       href: "javascript:void(0)",
-                      "link-shadow": ""
+                      "link-shadow": "",
+                      tag: "a",
+                      title: "Startup"
                     },
                     scopedSlots: _vm._u([
                       {
@@ -183,22 +191,30 @@ var render = function() {
                               _c("div", { staticClass: "font-size-sm py-2" }, [
                                 _c("p", [
                                   _c("strong", [_vm._v("10")]),
-                                  _vm._v(" Projects\n                ")
+                                  _vm._v(
+                                    " Projects\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("30GB")]),
-                                  _vm._v(" Storage\n                ")
+                                  _vm._v(
+                                    " Storage\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("100")]),
-                                  _vm._v(" Clients\n                ")
+                                  _vm._v(
+                                    " Clients\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("FULL")]),
-                                  _vm._v(" Support\n                ")
+                                  _vm._v(
+                                    " Support\n                                "
+                                  )
                                 ])
                               ])
                             ]),
@@ -234,10 +250,10 @@ var render = function() {
                   _c("base-block", {
                     staticClass: "text-center",
                     attrs: {
-                      tag: "a",
+                      "fx-shadow": "",
                       href: "javascript:void(0)",
                       "link-shadow": "",
-                      "fx-shadow": "",
+                      tag: "a",
                       themed: ""
                     },
                     scopedSlots: _vm._u([
@@ -247,7 +263,7 @@ var render = function() {
                           return [
                             _c("h3", { staticClass: "block-title" }, [
                               _c("i", { staticClass: "fa fa-thumbs-up mr-1" }),
-                              _vm._v(" Business\n            ")
+                              _vm._v(" Business\n                        ")
                             ])
                           ]
                         },
@@ -279,22 +295,30 @@ var render = function() {
                               _c("div", { staticClass: "font-size-sm py-2" }, [
                                 _c("p", [
                                   _c("strong", [_vm._v("50")]),
-                                  _vm._v(" Projects\n                ")
+                                  _vm._v(
+                                    " Projects\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("100GB")]),
-                                  _vm._v(" Storage\n                ")
+                                  _vm._v(
+                                    " Storage\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("1000")]),
-                                  _vm._v(" Clients\n                ")
+                                  _vm._v(
+                                    " Clients\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("FULL")]),
-                                  _vm._v(" Support\n                ")
+                                  _vm._v(
+                                    " Support\n                                "
+                                  )
                                 ])
                               ])
                             ]),
@@ -330,10 +354,10 @@ var render = function() {
                   _c("base-block", {
                     staticClass: "text-center",
                     attrs: {
-                      tag: "a",
-                      title: "VIP",
                       href: "javascript:void(0)",
-                      "link-shadow": ""
+                      "link-shadow": "",
+                      tag: "a",
+                      title: "VIP"
                     },
                     scopedSlots: _vm._u([
                       {
@@ -362,22 +386,30 @@ var render = function() {
                               _c("div", { staticClass: "font-size-sm py-2" }, [
                                 _c("p", [
                                   _c("strong", [_vm._v("Unlimited")]),
-                                  _vm._v(" Projects\n                ")
+                                  _vm._v(
+                                    " Projects\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("Unlimited")]),
-                                  _vm._v(" Storage\n                ")
+                                  _vm._v(
+                                    " Storage\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("Unlimited")]),
-                                  _vm._v(" Clients\n                ")
+                                  _vm._v(
+                                    " Clients\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("FULL")]),
-                                  _vm._v(" Support\n                ")
+                                  _vm._v(
+                                    " Support\n                                "
+                                  )
                                 ])
                               ])
                             ]),
@@ -421,9 +453,9 @@ var render = function() {
                   _c("base-block", {
                     staticClass: "text-center",
                     attrs: {
+                      href: "javascript:void(0)",
                       tag: "a",
-                      title: "Developer",
-                      href: "javascript:void(0)"
+                      title: "Developer"
                     },
                     scopedSlots: _vm._u([
                       {
@@ -455,22 +487,30 @@ var render = function() {
                               _c("div", { staticClass: "font-size-sm py-2" }, [
                                 _c("p", [
                                   _c("strong", [_vm._v("2")]),
-                                  _vm._v(" Projects\n                ")
+                                  _vm._v(
+                                    " Projects\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("10GB")]),
-                                  _vm._v(" Storage\n                ")
+                                  _vm._v(
+                                    " Storage\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("15")]),
-                                  _vm._v(" Clients\n                ")
+                                  _vm._v(
+                                    " Clients\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("Email")]),
-                                  _vm._v(" Support\n                ")
+                                  _vm._v(
+                                    " Support\n                                "
+                                  )
                                 ])
                               ])
                             ]),
@@ -509,10 +549,10 @@ var render = function() {
                   _c("base-block", {
                     staticClass: "text-center",
                     attrs: {
-                      tag: "a",
-                      title: "Startup",
                       href: "javascript:void(0)",
-                      "link-rotate": ""
+                      "link-rotate": "",
+                      tag: "a",
+                      title: "Startup"
                     },
                     scopedSlots: _vm._u([
                       {
@@ -544,22 +584,30 @@ var render = function() {
                               _c("div", { staticClass: "font-size-sm py-2" }, [
                                 _c("p", [
                                   _c("strong", [_vm._v("10")]),
-                                  _vm._v(" Projects\n                ")
+                                  _vm._v(
+                                    " Projects\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("30GB")]),
-                                  _vm._v(" Storage\n                ")
+                                  _vm._v(
+                                    " Storage\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("100")]),
-                                  _vm._v(" Clients\n                ")
+                                  _vm._v(
+                                    " Clients\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("FULL")]),
-                                  _vm._v(" Support\n                ")
+                                  _vm._v(
+                                    " Support\n                                "
+                                  )
                                 ])
                               ])
                             ]),
@@ -598,10 +646,10 @@ var render = function() {
                   _c("base-block", {
                     staticClass: "text-center",
                     attrs: {
-                      tag: "a",
-                      title: "Business",
                       href: "javascript:void(0)",
-                      "link-shadow": ""
+                      "link-shadow": "",
+                      tag: "a",
+                      title: "Business"
                     },
                     scopedSlots: _vm._u([
                       {
@@ -633,22 +681,30 @@ var render = function() {
                               _c("div", { staticClass: "font-size-sm py-2" }, [
                                 _c("p", [
                                   _c("strong", [_vm._v("50")]),
-                                  _vm._v(" Projects\n                ")
+                                  _vm._v(
+                                    " Projects\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("100GB")]),
-                                  _vm._v(" Storage\n                ")
+                                  _vm._v(
+                                    " Storage\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("1000")]),
-                                  _vm._v(" Clients\n                ")
+                                  _vm._v(
+                                    " Clients\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("FULL")]),
-                                  _vm._v(" Support\n                ")
+                                  _vm._v(
+                                    " Support\n                                "
+                                  )
                                 ])
                               ])
                             ]),
@@ -687,10 +743,10 @@ var render = function() {
                   _c("base-block", {
                     staticClass: "text-center",
                     attrs: {
-                      tag: "a",
-                      title: "VIP",
                       href: "javascript:void(0)",
-                      "link-pop": ""
+                      "link-pop": "",
+                      tag: "a",
+                      title: "VIP"
                     },
                     scopedSlots: _vm._u([
                       {
@@ -722,22 +778,30 @@ var render = function() {
                               _c("div", { staticClass: "font-size-sm py-2" }, [
                                 _c("p", [
                                   _c("strong", [_vm._v("Unlimited")]),
-                                  _vm._v(" Projects\n                ")
+                                  _vm._v(
+                                    " Projects\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("Unlimited")]),
-                                  _vm._v(" Storage\n                ")
+                                  _vm._v(
+                                    " Storage\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("Unlimited")]),
-                                  _vm._v(" Clients\n                ")
+                                  _vm._v(
+                                    " Clients\n                                "
+                                  )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", [
                                   _c("strong", [_vm._v("FULL")]),
-                                  _vm._v(" Support\n                ")
+                                  _vm._v(
+                                    " Support\n                                "
+                                  )
                                 ])
                               ])
                             ]),
@@ -782,9 +846,9 @@ var render = function() {
                 "b-table-simple",
                 {
                   attrs: {
-                    responsive: "",
                     borderless: "",
                     hover: "",
+                    responsive: "",
                     "table-class": "table-vcenter text-center mb-0"
                   }
                 },
@@ -807,7 +871,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("th", { staticClass: "py-3" }, [
                           _c("i", { staticClass: "fa fa-thumbs-up mr-1" }),
-                          _vm._v(" Business\n            ")
+                          _vm._v(" Business\n                        ")
                         ]),
                         _vm._v(" "),
                         _c("th", { staticClass: "py-3" }, [_vm._v("VIP")])

@@ -95,6 +95,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -206,8 +207,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Table Helpers",
-          subtitle: "Custom functionality to further enrich your tables."
+          subtitle: "Custom functionality to further enrich your tables.",
+          title: "Table Helpers"
         },
         scopedSlots: _vm._u([
           {
@@ -267,7 +268,7 @@ var render = function() {
             [
               _vm._v(" "),
               _c("p", { staticClass: "font-size-sm text-muted" }, [
-                _vm._v("\n        Sorting By: "),
+                _vm._v("\n                Sorting By: "),
                 _c("strong", [_vm._v(_vm._s(_vm.sortBy))]),
                 _vm._v(", Sort Direction: "),
                 _c("strong", [
@@ -277,12 +278,12 @@ var render = function() {
               _vm._v(" "),
               _c("b-table", {
                 attrs: {
-                  items: _vm.users,
                   fields: _vm.fields,
+                  items: _vm.users,
                   "sort-by": _vm.sortBy,
                   "sort-desc": _vm.sortDesc,
-                  responsive: "",
                   bordered: "",
+                  responsive: "",
                   striped: "",
                   "table-class": "table-vcenter"
                 },
@@ -375,11 +376,11 @@ var render = function() {
               _c("b-table", {
                 ref: "selectableTable",
                 attrs: {
-                  selectable: "",
-                  "select-variant": "active",
-                  items: _vm.users,
                   fields: _vm.fields2,
+                  items: _vm.users,
                   responsive: "",
+                  "select-variant": "active",
+                  selectable: "",
                   "table-class": "table-vcenter"
                 },
                 on: { "row-selected": _vm.onRowSelected },
@@ -419,7 +420,7 @@ var render = function() {
               }),
               _vm._v(" "),
               _c("p", { staticClass: "font-size-sm text-muted" }, [
-                _vm._v("\n        Selected Rows: "),
+                _vm._v("\n                Selected Rows: "),
                 _c("strong", [_vm._v(_vm._s(_vm.selected))])
               ])
             ],

@@ -108,7 +108,7 @@
     list-style: none;
     height: 0;
     overflow: hidden;
-    background-color: rgba(0,0,0,.02);
+    background-color: rgba(0, 0, 0, .02);
 
     .nav-main-item {
         opacity: 0;
@@ -209,7 +209,7 @@
             padding-left: 0;
             z-index: $zindex-dropdown - 5;
             background-color: $body-bg;
-            box-shadow: 0 .25rem 2rem rgba(0,0,0,.08);
+            box-shadow: 0 .25rem 2rem rgba(0, 0, 0, .08);
 
             &.nav-main-submenu-right {
                 left: auto;
@@ -312,23 +312,23 @@
 // Dark Sidebar Variation
 .nav-main-dark,
 .sidebar-dark #sidebar,
-.page-header-dark #page-header  {
+.page-header-dark #page-header {
     // Headings
     .nav-main-heading {
-        color: rgba(255,255,255,.4);
+        color: rgba(255, 255, 255, .4);
     }
 
     // Default links
     .nav-main-link {
-        color: rgba(255,255,255,.5);
+        color: rgba(255, 255, 255, .5);
 
         > .nav-main-link-icon {
-            color: rgba(255,255,255,.2);
+            color: rgba(255, 255, 255, .2);
         }
 
         &:hover {
-            color: rgba(255,255,255,.5);
-            background-color: rgba(0,0,0,.2);
+            color: rgba(255, 255, 255, .5);
+            background-color: rgba(0, 0, 0, .2);
 
             > .nav-main-link-icon {
                 color: $white;
@@ -346,10 +346,10 @@
 
     // Sub menus
     .nav-main-submenu {
-        background-color: rgba(0,0,0,.15);
+        background-color: rgba(0, 0, 0, .15);
 
         .nav-main-link {
-            color: rgba(255,255,255,.4);
+            color: rgba(255, 255, 255, .4);
 
             &:hover,
             &.active {
@@ -367,7 +367,7 @@
         }
 
         > .nav-main-submenu {
-            background-color: rgba(0,0,0,.15);
+            background-color: rgba(0, 0, 0, .15);
         }
     }
 

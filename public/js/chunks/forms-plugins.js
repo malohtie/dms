@@ -453,6 +453,47 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Flatpickr, for more info and examples you can check out https://github.com/ankurk91/vue-flatpickr-component
  // Vue Color, for more info and examples you can check out https://github.com/xiaokaike/vue-color
 
@@ -638,9 +679,9 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Form Plugins",
           subtitle:
-            "Carefully integrated Vue plugins that will enhance your forms with great features."
+            "Carefully integrated Vue plugins that will enhance your forms with great features.",
+          title: "Form Plugins"
         },
         scopedSlots: _vm._u([
           {
@@ -700,7 +741,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              You can easily change the date format to match your preference\n            "
+                            "\n                            You can easily change the date format to match your preference\n                        "
                           )
                         ])
                       ]),
@@ -748,9 +789,9 @@ var render = function() {
                               _c("flat-pickr", {
                                 staticClass: "form-control bg-white",
                                 attrs: {
+                                  config: _vm.configCustom,
                                   id: "example-flatpickr-custom",
-                                  placeholder: "d-m-Y",
-                                  config: _vm.configCustom
+                                  placeholder: "d-m-Y"
                                 },
                                 model: {
                                   value: _vm.dateCustom,
@@ -776,9 +817,9 @@ var render = function() {
                               _c("flat-pickr", {
                                 staticClass: "form-control bg-white",
                                 attrs: {
+                                  config: _vm.configFriendly,
                                   id: "example-flatpickr-friendly",
-                                  placeholder: "F j, Y",
-                                  config: _vm.configFriendly
+                                  placeholder: "F j, Y"
                                 },
                                 model: {
                                   value: _vm.dateFriendly,
@@ -810,7 +851,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              A date range mode is available, very useful for booking or calendar web apps\n            "
+                            "\n                            A date range mode is available, very useful for booking or calendar web apps\n                        "
                           )
                         ])
                       ]),
@@ -825,9 +866,9 @@ var render = function() {
                               _c("flat-pickr", {
                                 staticClass: "form-control bg-white",
                                 attrs: {
+                                  config: _vm.configRange,
                                   id: "example-flatpickr-range",
-                                  placeholder: "Select Date Range",
-                                  config: _vm.configRange
+                                  placeholder: "Select Date Range"
                                 },
                                 model: {
                                   value: _vm.dateRange,
@@ -859,7 +900,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              You can also enable a standalone or integrated timepicker\n            "
+                            "\n                            You can also enable a standalone or integrated timepicker\n                        "
                           )
                         ])
                       ]),
@@ -880,8 +921,8 @@ var render = function() {
                               _c("flat-pickr", {
                                 staticClass: "form-control bg-white",
                                 attrs: {
-                                  id: "example-flatpickr-time-standalone",
-                                  config: _vm.configTimeStandalone
+                                  config: _vm.configTimeStandalone,
+                                  id: "example-flatpickr-time-standalone"
                                 },
                                 model: {
                                   value: _vm.timeStandalone,
@@ -908,8 +949,8 @@ var render = function() {
                               _c("flat-pickr", {
                                 staticClass: "form-control bg-white",
                                 attrs: {
-                                  id: "example-flatpickr-time-standalone-24",
-                                  config: _vm.configTimeStandalone24
+                                  config: _vm.configTimeStandalone24,
+                                  id: "example-flatpickr-time-standalone-24"
                                 },
                                 model: {
                                   value: _vm.timeStandalone24,
@@ -935,8 +976,8 @@ var render = function() {
                               _c("flat-pickr", {
                                 staticClass: "form-control bg-white",
                                 attrs: {
-                                  id: "example-flatpickr-datetime",
-                                  config: _vm.configDateTime
+                                  config: _vm.configDateTime,
+                                  id: "example-flatpickr-datetime"
                                 },
                                 model: {
                                   value: _vm.timeDateTime,
@@ -963,8 +1004,8 @@ var render = function() {
                               _c("flat-pickr", {
                                 staticClass: "form-control bg-white",
                                 attrs: {
-                                  id: "example-flatpickr-datetime24",
-                                  config: _vm.configDateTime24
+                                  config: _vm.configDateTime24,
+                                  id: "example-flatpickr-datetime24"
                                 },
                                 model: {
                                   value: _vm.timeDateTime24,
@@ -996,7 +1037,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              The plugin also supports an inline mode\n            "
+                            "\n                            The plugin also supports an inline mode\n                        "
                           )
                         ])
                       ]),
@@ -1011,9 +1052,9 @@ var render = function() {
                               _c("flat-pickr", {
                                 staticClass: "form-control bg-white",
                                 attrs: {
+                                  config: _vm.configInlineDefault,
                                   id: "example-flatpickr-inline",
-                                  placeholder: "Inline Datepicker",
-                                  config: _vm.configInlineDefault
+                                  placeholder: "Inline Datepicker"
                                 },
                                 model: {
                                   value: _vm.inlineDefault,
@@ -1033,9 +1074,9 @@ var render = function() {
                               _c("flat-pickr", {
                                 staticClass: "form-control bg-white",
                                 attrs: {
+                                  config: _vm.configInlineTime,
                                   id: "example-flatpickr-inline-time",
-                                  placeholder: "Inline Datetimepicker",
-                                  config: _vm.configInlineTime
+                                  placeholder: "Inline Datetimepicker"
                                 },
                                 model: {
                                   value: _vm.inlineTime,
@@ -1087,7 +1128,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Chrome variation\n            "
+                            "\n                            Chrome variation\n                        "
                           )
                         ])
                       ]),
@@ -1124,7 +1165,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Photoshop variation\n            "
+                            "\n                            Photoshop variation\n                        "
                           )
                         ])
                       ]),
@@ -1164,7 +1205,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Sketch variation\n            "
+                            "\n                            Sketch variation\n                        "
                           )
                         ])
                       ]),
@@ -1201,7 +1242,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Slider variation\n            "
+                            "\n                            Slider variation\n                        "
                           )
                         ])
                       ]),
@@ -1239,7 +1280,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Swatches variation\n            "
+                            "\n                            Swatches variation\n                        "
                           )
                         ])
                       ]),
@@ -1276,7 +1317,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Material variation\n            "
+                            "\n                            Material variation\n                        "
                           )
                         ])
                       ]),
@@ -1313,7 +1354,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Compact variation\n            "
+                            "\n                            Compact variation\n                        "
                           )
                         ])
                       ]),
@@ -1376,7 +1417,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              You can easily set a max character length with live feedback to your inputs\n            "
+                            "\n                            You can easily set a max character length with live feedback to your inputs\n                        "
                           )
                         ])
                       ]),
@@ -1420,8 +1461,8 @@ var render = function() {
                                 [
                                   _c("b-form-input", {
                                     attrs: {
-                                      id: "example-maxlength-group",
-                                      maxlength: _vm.customMaxLength
+                                      maxlength: _vm.customMaxLength,
+                                      id: "example-maxlength-group"
                                     },
                                     model: {
                                       value: _vm.customMaxLengthValue,
@@ -1450,8 +1491,8 @@ var render = function() {
                             [
                               _c("b-form-input", {
                                 attrs: {
-                                  id: "example-maxlength-feedback-visible",
-                                  maxlength: _vm.customMaxLength2
+                                  maxlength: _vm.customMaxLength2,
+                                  id: "example-maxlength-feedback-visible"
                                 },
                                 model: {
                                   value: _vm.customMaxLengthValue2,
@@ -1470,12 +1511,12 @@ var render = function() {
                                 },
                                 [
                                   _vm._v(
-                                    "\n                " +
+                                    "\n                                " +
                                       _vm._s(
                                         _vm.customMaxLength2 -
                                           _vm.customMaxLengthValue2.length
                                       ) +
-                                      " characters left\n              "
+                                      " characters left\n                            "
                                   )
                                 ]
                               )
@@ -1494,8 +1535,8 @@ var render = function() {
                             [
                               _c("b-form-input", {
                                 attrs: {
-                                  id: "example-maxlength-feedback-fadein",
-                                  maxlength: _vm.customMaxLength3
+                                  maxlength: _vm.customMaxLength3,
+                                  id: "example-maxlength-feedback-fadein"
                                 },
                                 model: {
                                   value: _vm.customMaxLengthValue3,
@@ -1517,12 +1558,12 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                " +
+                                        "\n                                " +
                                           _vm._s(
                                             _vm.customMaxLength3 -
                                               _vm.customMaxLengthValue3.length
                                           ) +
-                                          " characters left\n              "
+                                          " characters left\n                            "
                                       )
                                     ]
                                   )
@@ -1569,7 +1610,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Default select input turns into a dynamic list\n            "
+                            "\n                            Default select input turns into a dynamic list\n                        "
                           )
                         ])
                       ]),
@@ -1616,7 +1657,7 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              Default multiple select input turns into a tags input\n            "
+                            "\n                            Default multiple select input turns into a tags input\n                        "
                           )
                         ])
                       ]),
@@ -1630,8 +1671,8 @@ var render = function() {
                             [
                               _c("v-select", {
                                 attrs: {
-                                  multiple: "",
                                   options: _vm.vSelectOptionsMultiple,
+                                  multiple: "",
                                   placeholder: "Choose multiple values.."
                                 },
                                 model: {
@@ -1684,27 +1725,29 @@ var render = function() {
                       _c("b-col", { attrs: { lg: "4" } }, [
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
                           _vm._v(
-                            "\n              It enables to easily enter a value following a specific format by adding a mask\n            "
+                            "\n                            It enables to easily enter a value following a specific format by adding a mask\n                        "
                           )
                         ]),
                         _vm._v(" "),
                         _c("p", { staticClass: "font-size-sm text-muted" }, [
-                          _vm._v("\n              1 – number"),
+                          _vm._v("\n                            1 – number"),
                           _c("br"),
-                          _vm._v("\n              a – letter"),
-                          _c("br"),
-                          _vm._v(
-                            "\n              A – letter, forced to upper case when entered"
-                          ),
-                          _c("br"),
-                          _vm._v("\n              * – alphanumeric"),
+                          _vm._v("\n                            a – letter"),
                           _c("br"),
                           _vm._v(
-                            "\n              # – alphanumeric, forced to upper case when entered"
+                            "\n                            A – letter, forced to upper case when entered"
                           ),
                           _c("br"),
                           _vm._v(
-                            "\n              + – any character\n            "
+                            "\n                            * – alphanumeric"
+                          ),
+                          _c("br"),
+                          _vm._v(
+                            "\n                            # – alphanumeric, forced to upper case when entered"
+                          ),
+                          _c("br"),
+                          _vm._v(
+                            "\n                            + – any character\n                        "
                           )
                         ])
                       ]),
@@ -1726,8 +1769,8 @@ var render = function() {
                                 staticClass: "form-control",
                                 attrs: {
                                   id: "example-masked-date1",
-                                  placeholder: "11/11/1111",
-                                  mask: "11/11/1111"
+                                  mask: "11/11/1111",
+                                  placeholder: "11/11/1111"
                                 }
                               })
                             ],
@@ -1747,8 +1790,8 @@ var render = function() {
                                 staticClass: "form-control",
                                 attrs: {
                                   id: "example-masked-date2",
-                                  placeholder: "11-11-1111",
-                                  mask: "11-11-1111"
+                                  mask: "11-11-1111",
+                                  placeholder: "11-11-1111"
                                 }
                               })
                             ],
@@ -1768,8 +1811,8 @@ var render = function() {
                                 staticClass: "form-control",
                                 attrs: {
                                   id: "example-masked-phone",
-                                  placeholder: "+1 (000) 0000-00",
-                                  mask: "\\+\\1 (111) 1111-11"
+                                  mask: "\\+\\1 (111) 1111-11",
+                                  placeholder: "+1 (000) 0000-00"
                                 }
                               })
                             ],
@@ -1789,8 +1832,8 @@ var render = function() {
                                 staticClass: "form-control",
                                 attrs: {
                                   id: "example-masked-taxid",
-                                  placeholder: "11-1111111",
-                                  mask: "11-1111111"
+                                  mask: "11-1111111",
+                                  placeholder: "11-1111111"
                                 }
                               })
                             ],
@@ -1810,8 +1853,8 @@ var render = function() {
                                 staticClass: "form-control",
                                 attrs: {
                                   id: "example-masked-ssn",
-                                  placeholder: "111-11-1111",
-                                  mask: "111-11-1111"
+                                  mask: "111-11-1111",
+                                  placeholder: "111-11-1111"
                                 }
                               })
                             ],
@@ -1831,8 +1874,8 @@ var render = function() {
                                 staticClass: "form-control",
                                 attrs: {
                                   id: "example-masked-pkey",
-                                  placeholder: "a*-111-a111",
-                                  mask: "a*-111-a111"
+                                  mask: "a*-111-a111",
+                                  placeholder: "a*-111-a111"
                                 }
                               })
                             ],
@@ -1852,8 +1895,8 @@ var render = function() {
                                 staticClass: "form-control",
                                 attrs: {
                                   id: "example-masked-time",
-                                  placeholder: "11:11",
-                                  mask: "11:11"
+                                  mask: "11:11",
+                                  placeholder: "11:11"
                                 }
                               })
                             ],
@@ -1889,7 +1932,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            A highly customized slider component\n          "
+                        "\n                        A highly customized slider component\n                    "
                       )
                     ])
                   ]),
@@ -1935,8 +1978,8 @@ var render = function() {
                               attrs: {
                                 dotSize: 18,
                                 marks: [0, 1000],
-                                min: 0,
                                 max: 1000,
+                                min: 0,
                                 tooltip: "always"
                               },
                               model: {
@@ -1963,8 +2006,8 @@ var render = function() {
                               attrs: {
                                 dotSize: 18,
                                 marks: [0, 250, 500, 750, 1000],
-                                min: 0,
                                 max: 1000,
+                                min: 0,
                                 tooltip: "always"
                               },
                               model: {
@@ -1991,8 +2034,8 @@ var render = function() {
                               attrs: {
                                 dotSize: 18,
                                 marks: [0, 250, 500, 750, 1000],
-                                min: 0,
                                 max: 1000,
+                                min: 0,
                                 tooltip: "always"
                               },
                               model: {
@@ -2019,8 +2062,8 @@ var render = function() {
                               attrs: {
                                 dotSize: 18,
                                 marks: [-500, -250, 0, 250, 500],
-                                min: -500,
                                 max: 500,
+                                min: -500,
                                 tooltip: "always"
                               },
                               model: {
@@ -2046,10 +2089,10 @@ var render = function() {
                             _c("vue-slider", {
                               attrs: {
                                 dotSize: 18,
-                                marks: [-500, -250, 0, 250, 500],
                                 interval: 50,
-                                min: -500,
+                                marks: [-500, -250, 0, 250, 500],
                                 max: 500,
+                                min: -500,
                                 tooltip: "always"
                               },
                               model: {
@@ -2074,9 +2117,9 @@ var render = function() {
                           [
                             _c("vue-slider", {
                               attrs: {
+                                data: _vm.sliderDataCustom,
                                 dotSize: 18,
                                 marks: true,
-                                data: _vm.sliderDataCustom,
                                 tooltip: "always"
                               },
                               model: {
@@ -2118,7 +2161,7 @@ var render = function() {
                   _c("b-col", { attrs: { lg: "4" } }, [
                     _c("p", { staticClass: "font-size-sm text-muted" }, [
                       _vm._v(
-                        "\n            Drag and drop sections for your file uploads\n          "
+                        "\n                        Drag and drop sections for your file uploads\n                    "
                       )
                     ])
                   ]),
@@ -2129,7 +2172,7 @@ var render = function() {
                     [
                       _c("vue-dropzone", {
                         ref: "myVueDropzone",
-                        attrs: { id: "dropzone", options: _vm.dropzoneOptions }
+                        attrs: { options: _vm.dropzoneOptions, id: "dropzone" }
                       })
                     ],
                     1

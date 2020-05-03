@@ -79,6 +79,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // Vuelidate, for more info and examples you can check out https://github.com/vuelidate/vuelidate
 
 
@@ -148,7 +159,7 @@ var render = function() {
               [
                 _c(
                   "b-col",
-                  { staticClass: "py-4", attrs: { md: "8", lg: "6", xl: "4" } },
+                  { staticClass: "py-4", attrs: { lg: "6", md: "8", xl: "4" } },
                   [
                     _c("div", { staticClass: "text-center" }, [
                       _c("p", { staticClass: "mb-2" }, [
@@ -158,7 +169,9 @@ var render = function() {
                       ]),
                       _vm._v(" "),
                       _c("h1", { staticClass: "h4 mb-1" }, [
-                        _vm._v("\n                Sign In\n              ")
+                        _vm._v(
+                          "\n                                Sign In\n                            "
+                        )
                       ]),
                       _vm._v(" "),
                       _c(
@@ -166,7 +179,7 @@ var render = function() {
                         { staticClass: "h6 font-w400 text-muted mb-3" },
                         [
                           _vm._v(
-                            "\n                A perfect match for your project\n              "
+                            "\n                                A perfect match for your project\n                            "
                           )
                         ]
                       )
@@ -192,12 +205,12 @@ var render = function() {
                               _c("b-form-input", {
                                 staticClass: "form-control-alt",
                                 attrs: {
-                                  size: "lg",
+                                  state: !_vm.$v.form.username.$error && null,
+                                  "aria-describedby": "username-feedback",
                                   id: "username",
                                   name: "username",
                                   placeholder: "Username",
-                                  state: !_vm.$v.form.username.$error && null,
-                                  "aria-describedby": "username-feedback"
+                                  size: "lg"
                                 },
                                 model: {
                                   value: _vm.$v.form.username.$model,
@@ -222,13 +235,13 @@ var render = function() {
                               _c("b-form-input", {
                                 staticClass: "form-control-alt",
                                 attrs: {
-                                  type: "password",
-                                  size: "lg",
+                                  state: !_vm.$v.form.password.$error && null,
+                                  "aria-describedby": "password-feedback",
                                   id: "password",
                                   name: "password",
                                   placeholder: "Password",
-                                  state: !_vm.$v.form.password.$error && null,
-                                  "aria-describedby": "password-feedback"
+                                  size: "lg",
+                                  type: "password"
                                 },
                                 model: {
                                   value: _vm.$v.form.password.$model,
@@ -263,7 +276,11 @@ var render = function() {
                                       switch: ""
                                     }
                                   },
-                                  [_vm._v("Remember Me")]
+                                  [
+                                    _vm._v(
+                                      "Remember Me\n                                        "
+                                    )
+                                  ]
                                 ),
                                 _vm._v(" "),
                                 _c(
@@ -276,7 +293,11 @@ var render = function() {
                                         staticClass: "font-size-sm",
                                         attrs: { to: "/auth/reminder2" }
                                       },
-                                      [_vm._v("Forgot Password?")]
+                                      [
+                                        _vm._v(
+                                          "Forgot\n                                                Password?\n                                            "
+                                        )
+                                      ]
                                     )
                                   ],
                                   1
@@ -302,9 +323,9 @@ var render = function() {
                                   "b-button",
                                   {
                                     attrs: {
+                                      block: "",
                                       type: "submit",
-                                      variant: "primary",
-                                      block: ""
+                                      variant: "primary"
                                     }
                                   },
                                   [
@@ -312,7 +333,9 @@ var render = function() {
                                       staticClass:
                                         "fa fa-fw fa-sign-in-alt mr-1"
                                     }),
-                                    _vm._v(" Sign In\n                  ")
+                                    _vm._v(
+                                      " Sign In\n                                    "
+                                    )
                                   ]
                                 )
                               ],
@@ -343,7 +366,7 @@ var render = function() {
             )
           )
         ]),
-        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n    ")
+        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n        ")
       ])
     ])
   ])

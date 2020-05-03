@@ -20,8 +20,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Tooltips",
-          subtitle: "Attach optional info to an element."
+          subtitle: "Attach optional info to an element.",
+          title: "Tooltips"
         },
         scopedSlots: _vm._u([
           {
@@ -60,7 +60,7 @@ var render = function() {
             { attrs: { title: "Default" } },
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
-                _vm._v("\n        Show tooltips on hover\n      ")
+                _vm._v("\n                Show tooltips on hover\n            ")
               ]),
               _vm._v(" "),
               _c(
@@ -87,9 +87,9 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "primary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "primary" }
                         },
-                        [_vm._v("Top")]
+                        [_vm._v("Top\n                    ")]
                       )
                     ],
                     1
@@ -115,9 +115,13 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "primary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "primary" }
                         },
-                        [_vm._v("Right")]
+                        [
+                          _vm._v(
+                            "\n                        Right\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -143,9 +147,13 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "primary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "primary" }
                         },
-                        [_vm._v("Bottom")]
+                        [
+                          _vm._v(
+                            "\n                        Bottom\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -171,9 +179,13 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "primary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "primary" }
                         },
-                        [_vm._v("Left")]
+                        [
+                          _vm._v(
+                            "\n                        Left\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -190,7 +202,7 @@ var render = function() {
             { attrs: { title: "Click Triggered" } },
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
-                _vm._v("\n        Show tooltips on hover\n      ")
+                _vm._v("\n                Show tooltips on hover\n            ")
               ]),
               _vm._v(" "),
               _c(
@@ -217,9 +229,9 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Top")]
+                        [_vm._v("Top\n                    ")]
                       )
                     ],
                     1
@@ -245,9 +257,13 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Right")]
+                        [
+                          _vm._v(
+                            "\n                        Right\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -273,9 +289,9 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Bottom")]
+                        [_vm._v("Bottom\n                    ")]
                       )
                     ],
                     1
@@ -301,9 +317,13 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Left")]
+                        [
+                          _vm._v(
+                            "\n                        Left\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -321,7 +341,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can enable a fade animation to your tooltips\n      "
+                  "\n                You can enable a fade animation to your tooltips\n            "
                 )
               ]),
               _vm._v(" "),
@@ -345,9 +365,9 @@ var render = function() {
                               modifiers: { hover: true, top: true }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Top")]
+                        [_vm._v("Top\n                    ")]
                       )
                     ],
                     1
@@ -369,9 +389,9 @@ var render = function() {
                               modifiers: { hover: true, right: true }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Right")]
+                        [_vm._v("Right\n                    ")]
                       )
                     ],
                     1
@@ -393,9 +413,13 @@ var render = function() {
                               modifiers: { hover: true, bottom: true }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Bottom")]
+                        [
+                          _vm._v(
+                            "\n                        Bottom\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -417,9 +441,9 @@ var render = function() {
                               modifiers: { hover: true, left: true }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Left")]
+                        [_vm._v("Left\n                    ")]
                       )
                     ],
                     1
@@ -437,7 +461,7 @@ var render = function() {
             [
               _c("p", { staticClass: "font-size-sm text-muted" }, [
                 _vm._v(
-                  "\n        You can add HTML in your tooltips as well\n      "
+                  "\n                You can add HTML in your tooltips as well\n            "
                 )
               ]),
               _vm._v(" "),
@@ -468,9 +492,13 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Top")]
+                        [
+                          _vm._v(
+                            "\n                        Top\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -499,9 +527,13 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Right")]
+                        [
+                          _vm._v(
+                            "\n                        Right\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -530,9 +562,13 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Bottom")]
+                        [
+                          _vm._v(
+                            "\n                        Bottom\n                    "
+                          )
+                        ]
                       )
                     ],
                     1
@@ -561,9 +597,13 @@ var render = function() {
                               }
                             }
                           ],
-                          attrs: { size: "sm", variant: "secondary", block: "" }
+                          attrs: { block: "", size: "sm", variant: "secondary" }
                         },
-                        [_vm._v("Left")]
+                        [
+                          _vm._v(
+                            "\n                        Left\n                    "
+                          )
+                        ]
                       )
                     ],
                     1

@@ -265,6 +265,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -313,8 +345,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Block Forms",
-          subtitle: "Easily integrated in your blocks."
+          subtitle: "Easily integrated in your blocks.",
+          title: "Block Forms"
         },
         scopedSlots: _vm._u([
           {
@@ -357,12 +389,12 @@ var render = function() {
                 [
                   _c(
                     "b-form",
-                    { on: { submit: _vm.onSubmit, reset: _vm.onReset } },
+                    { on: { reset: _vm.onReset, submit: _vm.onSubmit } },
                     [
                       _c(
                         "base-block",
                         {
-                          attrs: { title: "Block Form", "header-bg": "" },
+                          attrs: { "header-bg": "", title: "Block Form" },
                           scopedSlots: _vm._u([
                             {
                               key: "options",
@@ -372,14 +404,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "submit",
                                         size: "sm",
+                                        type: "submit",
                                         variant: "primary"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Submit\n              "
+                                        "\n                                Submit\n                            "
                                       )
                                     ]
                                   ),
@@ -388,14 +420,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "reset",
                                         size: "sm",
+                                        type: "reset",
                                         variant: "secondary"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Reset\n              "
+                                        "\n                                Reset\n                            "
                                       )
                                     ]
                                   )
@@ -416,7 +448,7 @@ var render = function() {
                             [
                               _c(
                                 "b-col",
-                                { attrs: { sm: "10", md: "8" } },
+                                { attrs: { md: "8", sm: "10" } },
                                 [
                                   _c(
                                     "b-form-group",
@@ -458,8 +490,8 @@ var render = function() {
                                         staticClass: "form-control-alt",
                                         attrs: {
                                           id: "block-form1-password",
-                                          type: "password",
-                                          placeholder: "Enter your password.."
+                                          placeholder: "Enter your password..",
+                                          type: "password"
                                         },
                                         model: {
                                           value: _vm.form.password,
@@ -496,7 +528,7 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                    Remember Me?\n                  "
+                                            "\n                                        Remember Me?\n                                    "
                                           )
                                         ]
                                       )
@@ -525,15 +557,15 @@ var render = function() {
                 [
                   _c(
                     "b-form",
-                    { on: { submit: _vm.onSubmit, reset: _vm.onReset } },
+                    { on: { reset: _vm.onReset, submit: _vm.onSubmit } },
                     [
                       _c(
                         "base-block",
                         {
                           attrs: {
-                            title: "Block Form",
                             "header-bg": "",
-                            "header-rtl": ""
+                            "header-rtl": "",
+                            title: "Block Form"
                           },
                           scopedSlots: _vm._u([
                             {
@@ -544,14 +576,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "submit",
                                         size: "sm",
+                                        type: "submit",
                                         variant: "primary"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Submit\n              "
+                                        "\n                                Submit\n                            "
                                       )
                                     ]
                                   ),
@@ -560,14 +592,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "reset",
                                         size: "sm",
+                                        type: "reset",
                                         variant: "secondary"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Reset\n              "
+                                        "\n                                Reset\n                            "
                                       )
                                     ]
                                   )
@@ -588,7 +620,7 @@ var render = function() {
                             [
                               _c(
                                 "b-col",
-                                { attrs: { sm: "10", md: "8" } },
+                                { attrs: { md: "8", sm: "10" } },
                                 [
                                   _c(
                                     "b-form-group",
@@ -630,8 +662,8 @@ var render = function() {
                                         staticClass: "form-control-alt",
                                         attrs: {
                                           id: "block-form2-password",
-                                          type: "password",
-                                          placeholder: "Enter your password.."
+                                          placeholder: "Enter your password..",
+                                          type: "password"
                                         },
                                         model: {
                                           value: _vm.form.password,
@@ -668,7 +700,7 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                    Remember Me?\n                  "
+                                            "\n                                        Remember Me?\n                                    "
                                           )
                                         ]
                                       )
@@ -697,12 +729,12 @@ var render = function() {
                 [
                   _c(
                     "b-form",
-                    { on: { submit: _vm.onSubmit, reset: _vm.onReset } },
+                    { on: { reset: _vm.onReset, submit: _vm.onSubmit } },
                     [
                       _c(
                         "base-block",
                         {
-                          attrs: { title: "Block Form", "header-bg": "" },
+                          attrs: { "header-bg": "", title: "Block Form" },
                           scopedSlots: _vm._u([
                             {
                               key: "options",
@@ -712,14 +744,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "submit",
                                         size: "sm",
+                                        type: "submit",
                                         variant: "outline-primary"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Submit\n              "
+                                        "\n                                Submit\n                            "
                                       )
                                     ]
                                   ),
@@ -728,14 +760,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "reset",
                                         size: "sm",
+                                        type: "reset",
                                         variant: "outline-danger"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Reset\n              "
+                                        "\n                                Reset\n                            "
                                       )
                                     ]
                                   )
@@ -756,7 +788,7 @@ var render = function() {
                             [
                               _c(
                                 "b-col",
-                                { attrs: { sm: "10", md: "8" } },
+                                { attrs: { md: "8", sm: "10" } },
                                 [
                                   _c(
                                     "b-form-group",
@@ -798,8 +830,8 @@ var render = function() {
                                         staticClass: "form-control-alt",
                                         attrs: {
                                           id: "block-form3-password",
-                                          type: "password",
-                                          placeholder: "Enter your password.."
+                                          placeholder: "Enter your password..",
+                                          type: "password"
                                         },
                                         model: {
                                           value: _vm.form.password,
@@ -836,7 +868,7 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                    Remember Me?\n                  "
+                                            "\n                                        Remember Me?\n                                    "
                                           )
                                         ]
                                       )
@@ -865,15 +897,15 @@ var render = function() {
                 [
                   _c(
                     "b-form",
-                    { on: { submit: _vm.onSubmit, reset: _vm.onReset } },
+                    { on: { reset: _vm.onReset, submit: _vm.onSubmit } },
                     [
                       _c(
                         "base-block",
                         {
                           attrs: {
-                            title: "Block Form",
                             "header-bg": "",
-                            "header-rtl": ""
+                            "header-rtl": "",
+                            title: "Block Form"
                           },
                           scopedSlots: _vm._u([
                             {
@@ -884,14 +916,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "submit",
                                         size: "sm",
+                                        type: "submit",
                                         variant: "outline-primary"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Submit\n              "
+                                        "\n                                Submit\n                            "
                                       )
                                     ]
                                   ),
@@ -900,14 +932,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "reset",
                                         size: "sm",
+                                        type: "reset",
                                         variant: "outline-danger"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Reset\n              "
+                                        "\n                                Reset\n                            "
                                       )
                                     ]
                                   )
@@ -928,7 +960,7 @@ var render = function() {
                             [
                               _c(
                                 "b-col",
-                                { attrs: { sm: "10", md: "8" } },
+                                { attrs: { md: "8", sm: "10" } },
                                 [
                                   _c(
                                     "b-form-group",
@@ -970,8 +1002,8 @@ var render = function() {
                                         staticClass: "form-control-alt",
                                         attrs: {
                                           id: "block-form4-password",
-                                          type: "password",
-                                          placeholder: "Enter your password.."
+                                          placeholder: "Enter your password..",
+                                          type: "password"
                                         },
                                         model: {
                                           value: _vm.form.password,
@@ -1008,7 +1040,7 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                    Remember Me?\n                  "
+                                            "\n                                        Remember Me?\n                                    "
                                           )
                                         ]
                                       )
@@ -1037,12 +1069,12 @@ var render = function() {
                 [
                   _c(
                     "b-form",
-                    { on: { submit: _vm.onSubmit, reset: _vm.onReset } },
+                    { on: { reset: _vm.onReset, submit: _vm.onSubmit } },
                     [
                       _c(
                         "base-block",
                         {
-                          attrs: { title: "Block Form", "header-bg": "" },
+                          attrs: { "header-bg": "", title: "Block Form" },
                           scopedSlots: _vm._u([
                             {
                               key: "options",
@@ -1056,7 +1088,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Submit\n              "
+                                        "\n                                Submit\n                            "
                                       )
                                     ]
                                   ),
@@ -1069,7 +1101,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Reset\n              "
+                                        "\n                                Reset\n                            "
                                       )
                                     ]
                                   )
@@ -1090,7 +1122,7 @@ var render = function() {
                             [
                               _c(
                                 "b-col",
-                                { attrs: { sm: "10", md: "8" } },
+                                { attrs: { md: "8", sm: "10" } },
                                 [
                                   _c(
                                     "b-form-group",
@@ -1132,8 +1164,8 @@ var render = function() {
                                         staticClass: "form-control-alt",
                                         attrs: {
                                           id: "block-form5-password",
-                                          type: "password",
-                                          placeholder: "Enter your password.."
+                                          placeholder: "Enter your password..",
+                                          type: "password"
                                         },
                                         model: {
                                           value: _vm.form.password,
@@ -1170,7 +1202,7 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                    Remember Me?\n                  "
+                                            "\n                                        Remember Me?\n                                    "
                                           )
                                         ]
                                       )
@@ -1199,15 +1231,15 @@ var render = function() {
                 [
                   _c(
                     "b-form",
-                    { on: { submit: _vm.onSubmit, reset: _vm.onReset } },
+                    { on: { reset: _vm.onReset, submit: _vm.onSubmit } },
                     [
                       _c(
                         "base-block",
                         {
                           attrs: {
-                            title: "Block Form",
                             "header-bg": "",
-                            "header-rtl": ""
+                            "header-rtl": "",
+                            title: "Block Form"
                           },
                           scopedSlots: _vm._u([
                             {
@@ -1222,7 +1254,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Submit\n              "
+                                        "\n                                Submit\n                            "
                                       )
                                     ]
                                   ),
@@ -1235,7 +1267,7 @@ var render = function() {
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Reset\n              "
+                                        "\n                                Reset\n                            "
                                       )
                                     ]
                                   )
@@ -1256,7 +1288,7 @@ var render = function() {
                             [
                               _c(
                                 "b-col",
-                                { attrs: { sm: "10", md: "8" } },
+                                { attrs: { md: "8", sm: "10" } },
                                 [
                                   _c(
                                     "b-form-group",
@@ -1298,8 +1330,8 @@ var render = function() {
                                         staticClass: "form-control-alt",
                                         attrs: {
                                           id: "block-form6-password",
-                                          type: "password",
-                                          placeholder: "Enter your password.."
+                                          placeholder: "Enter your password..",
+                                          type: "password"
                                         },
                                         model: {
                                           value: _vm.form.password,
@@ -1336,7 +1368,7 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                    Remember Me?\n                  "
+                                            "\n                                        Remember Me?\n                                    "
                                           )
                                         ]
                                       )
@@ -1365,12 +1397,12 @@ var render = function() {
                 [
                   _c(
                     "b-form",
-                    { on: { submit: _vm.onSubmit, reset: _vm.onReset } },
+                    { on: { reset: _vm.onReset, submit: _vm.onSubmit } },
                     [
                       _c(
                         "base-block",
                         {
-                          attrs: { title: "Block Form", "header-bg": "" },
+                          attrs: { "header-bg": "", title: "Block Form" },
                           scopedSlots: _vm._u([
                             {
                               key: "options",
@@ -1380,14 +1412,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "submit",
                                         size: "sm",
+                                        type: "submit",
                                         variant: "alt-primary"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Submit\n              "
+                                        "\n                                Submit\n                            "
                                       )
                                     ]
                                   ),
@@ -1396,14 +1428,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "reset",
                                         size: "sm",
+                                        type: "reset",
                                         variant: "alt-danger"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Reset\n              "
+                                        "\n                                Reset\n                            "
                                       )
                                     ]
                                   )
@@ -1424,7 +1456,7 @@ var render = function() {
                             [
                               _c(
                                 "b-col",
-                                { attrs: { sm: "10", md: "8" } },
+                                { attrs: { md: "8", sm: "10" } },
                                 [
                                   _c(
                                     "b-form-group",
@@ -1466,8 +1498,8 @@ var render = function() {
                                         staticClass: "form-control-alt",
                                         attrs: {
                                           id: "block-form7-password",
-                                          type: "password",
-                                          placeholder: "Enter your password.."
+                                          placeholder: "Enter your password..",
+                                          type: "password"
                                         },
                                         model: {
                                           value: _vm.form.password,
@@ -1504,7 +1536,7 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                    Remember Me?\n                  "
+                                            "\n                                        Remember Me?\n                                    "
                                           )
                                         ]
                                       )
@@ -1533,15 +1565,15 @@ var render = function() {
                 [
                   _c(
                     "b-form",
-                    { on: { submit: _vm.onSubmit, reset: _vm.onReset } },
+                    { on: { reset: _vm.onReset, submit: _vm.onSubmit } },
                     [
                       _c(
                         "base-block",
                         {
                           attrs: {
-                            title: "Block Form",
                             "header-bg": "",
-                            "header-rtl": ""
+                            "header-rtl": "",
+                            title: "Block Form"
                           },
                           scopedSlots: _vm._u([
                             {
@@ -1552,14 +1584,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "submit",
                                         size: "sm",
+                                        type: "submit",
                                         variant: "alt-primary"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Submit\n              "
+                                        "\n                                Submit\n                            "
                                       )
                                     ]
                                   ),
@@ -1568,14 +1600,14 @@ var render = function() {
                                     "b-button",
                                     {
                                       attrs: {
-                                        type: "reset",
                                         size: "sm",
+                                        type: "reset",
                                         variant: "alt-danger"
                                       }
                                     },
                                     [
                                       _vm._v(
-                                        "\n                Reset\n              "
+                                        "\n                                Reset\n                            "
                                       )
                                     ]
                                   )
@@ -1596,7 +1628,7 @@ var render = function() {
                             [
                               _c(
                                 "b-col",
-                                { attrs: { sm: "10", md: "8" } },
+                                { attrs: { md: "8", sm: "10" } },
                                 [
                                   _c(
                                     "b-form-group",
@@ -1638,8 +1670,8 @@ var render = function() {
                                         staticClass: "form-control-alt",
                                         attrs: {
                                           id: "block-form8-password",
-                                          type: "password",
-                                          placeholder: "Enter your password.."
+                                          placeholder: "Enter your password..",
+                                          type: "password"
                                         },
                                         model: {
                                           value: _vm.form.password,
@@ -1676,7 +1708,7 @@ var render = function() {
                                         },
                                         [
                                           _vm._v(
-                                            "\n                    Remember Me?\n                  "
+                                            "\n                                        Remember Me?\n                                    "
                                           )
                                         ]
                                       )

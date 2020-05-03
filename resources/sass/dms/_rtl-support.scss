@@ -30,18 +30,18 @@
             .content-header {
                 transform: translateX(-($sidebar-width - $sidebar-mini-width)) translateY(0) translateZ(0);
             }
-            
+
             &:hover {
                 .content-side,
                 .content-header {
                     transform: translateX(0);
                 }
             }
-    
+
             &:not(:hover) {
                 .nav-main {
                     transform: translateX($space-side);
-    
+
                     .nav-main-link-icon {
                         transform: translateX(-1rem);
                     }
@@ -73,7 +73,7 @@
         &.nav-main-link-submenu {
             padding-right: $space-side;
             padding-left: 2rem;
-    
+
             &::before,
             &::after {
                 right: auto;
@@ -85,7 +85,7 @@
             }
         }
     }
-    
+
     .nav-main-submenu {
         padding-right: 2.25rem;
         padding-left: 0;
@@ -98,7 +98,7 @@
                 padding-left: 2rem;
             }
         }
-    
+
         .nav-main-submenu {
             padding-right: .75rem;
             padding-left: 0;
@@ -121,13 +121,13 @@
             .nav-main-link-submenu::before {
                 content: '\f107';
             }
-            
+
             // Sub menus
             .nav-main-submenu {
                 left: auto;
                 right: 0;
                 padding-left: auto;
-                padding-right: 0;          
+                padding-right: 0;
 
                 &.nav-main-submenu-left {
                     right: auto;

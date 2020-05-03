@@ -315,6 +315,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -415,8 +433,8 @@ var render = function() {
     [
       _c("base-page-heading", {
         attrs: {
-          title: "Navigation",
-          subtitle: "UI components that will make navigating an easy task."
+          subtitle: "UI components that will make navigating an easy task.",
+          title: "Navigation"
         },
         scopedSlots: _vm._u([
           {
@@ -462,7 +480,7 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Default", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Default" } },
                     [
                       _c(
                         "div",
@@ -470,8 +488,8 @@ var render = function() {
                         [
                           _c("b-pagination", {
                             attrs: {
-                              "total-rows": _vm.rows,
                               "per-page": _vm.perPage,
+                              "total-rows": _vm.rows,
                               size: "sm"
                             },
                             model: {
@@ -485,8 +503,8 @@ var render = function() {
                           _vm._v(" "),
                           _c("b-pagination", {
                             attrs: {
-                              "total-rows": _vm.rows,
-                              "per-page": _vm.perPage
+                              "per-page": _vm.perPage,
+                              "total-rows": _vm.rows
                             },
                             model: {
                               value: _vm.currentPage,
@@ -499,8 +517,8 @@ var render = function() {
                           _vm._v(" "),
                           _c("b-pagination", {
                             attrs: {
-                              "total-rows": _vm.rows,
                               "per-page": _vm.perPage,
+                              "total-rows": _vm.rows,
                               size: "lg"
                             },
                             model: {
@@ -527,13 +545,13 @@ var render = function() {
                   _c(
                     "base-block",
                     {
-                      attrs: { title: "Alternative Styles", "content-full": "" }
+                      attrs: { "content-full": "", title: "Alternative Styles" }
                     },
                     [
                       _c("b-pagination", {
                         attrs: {
-                          "total-rows": _vm.rows,
                           "per-page": _vm.perPage,
+                          "total-rows": _vm.rows,
                           "hide-goto-end-buttons": ""
                         },
                         scopedSlots: _vm._u([
@@ -571,8 +589,8 @@ var render = function() {
                       _vm._v(" "),
                       _c("b-pagination", {
                         attrs: {
-                          "total-rows": _vm.rows,
                           "per-page": _vm.perPage,
+                          "total-rows": _vm.rows,
                           "hide-goto-end-buttons": ""
                         },
                         scopedSlots: _vm._u([
@@ -606,8 +624,8 @@ var render = function() {
                       _vm._v(" "),
                       _c("b-pagination", {
                         attrs: {
-                          "total-rows": _vm.rows,
                           "per-page": _vm.perPage,
+                          "total-rows": _vm.rows,
                           "hide-goto-end-buttons": ""
                         },
                         scopedSlots: _vm._u([
@@ -650,12 +668,12 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Alignment", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Alignment" } },
                     [
                       _c("b-pagination", {
                         attrs: {
-                          "total-rows": _vm.rows,
-                          "per-page": _vm.perPage
+                          "per-page": _vm.perPage,
+                          "total-rows": _vm.rows
                         },
                         model: {
                           value: _vm.currentPage,
@@ -668,8 +686,8 @@ var render = function() {
                       _vm._v(" "),
                       _c("b-pagination", {
                         attrs: {
-                          "total-rows": _vm.rows,
                           "per-page": _vm.perPage,
+                          "total-rows": _vm.rows,
                           align: "center"
                         },
                         model: {
@@ -683,8 +701,8 @@ var render = function() {
                       _vm._v(" "),
                       _c("b-pagination", {
                         attrs: {
-                          "total-rows": _vm.rows,
                           "per-page": _vm.perPage,
+                          "total-rows": _vm.rows,
                           align: "right"
                         },
                         model: {
@@ -717,7 +735,7 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Default", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Default" } },
                     [
                       _c(
                         "b-breadcrumb",
@@ -747,7 +765,7 @@ var render = function() {
                 [
                   _c(
                     "base-block",
-                    { attrs: { title: "Alternative", "content-full": "" } },
+                    { attrs: { "content-full": "", title: "Alternative" } },
                     [
                       _c(
                         "b-breadcrumb",
@@ -857,7 +875,7 @@ var render = function() {
                             { staticClass: "mr-1", attrs: { active: "" } },
                             [
                               _c("i", { staticClass: "fa fa-fw fa-home mr-1" }),
-                              _vm._v(" Home\n            ")
+                              _vm._v(" Home\n                        ")
                             ]
                           ),
                           _vm._v(" "),
@@ -865,7 +883,7 @@ var render = function() {
                             _c("i", {
                               staticClass: "fa fa-fw fa-pencil-alt mr-1"
                             }),
-                            _vm._v(" Settings\n            ")
+                            _vm._v(" Settings\n                        ")
                           ]),
                           _vm._v(" "),
                           _c("b-nav-item", [
@@ -887,7 +905,7 @@ var render = function() {
                             { staticClass: "mb-1", attrs: { active: "" } },
                             [
                               _c("i", { staticClass: "fa fa-fw fa-home mr-1" }),
-                              _vm._v(" Home\n            ")
+                              _vm._v(" Home\n                        ")
                             ]
                           ),
                           _vm._v(" "),
@@ -895,12 +913,12 @@ var render = function() {
                             _c("i", {
                               staticClass: "fa fa-fw fa-pencil-alt mr-1"
                             }),
-                            _vm._v(" Settings\n            ")
+                            _vm._v(" Settings\n                        ")
                           ]),
                           _vm._v(" "),
                           _c("b-nav-item", [
                             _c("i", { staticClass: "fa fa-fw fa-wrench mr-1" }),
-                            _vm._v(" Tools\n            ")
+                            _vm._v(" Tools\n                        ")
                           ])
                         ],
                         1
@@ -928,7 +946,9 @@ var render = function() {
                             "b-nav-item",
                             { staticClass: "mr-1", attrs: { active: "" } },
                             [
-                              _vm._v("\n              Home "),
+                              _vm._v(
+                                "\n                            Home\n                            "
+                              ),
                               _c(
                                 "b-badge",
                                 { staticClass: "ml-1", attrs: { pill: "" } },
@@ -942,7 +962,9 @@ var render = function() {
                             "b-nav-item",
                             { staticClass: "mr-1" },
                             [
-                              _vm._v("\n              Settings "),
+                              _vm._v(
+                                "\n                            Settings\n                            "
+                              ),
                               _c(
                                 "b-badge",
                                 { staticClass: "ml-1", attrs: { pill: "" } },
@@ -970,7 +992,9 @@ var render = function() {
                             "b-nav-item",
                             { staticClass: "mb-1", attrs: { active: "" } },
                             [
-                              _vm._v("\n              Home "),
+                              _vm._v(
+                                "\n                            Home\n                            "
+                              ),
                               _c(
                                 "b-badge",
                                 { staticClass: "ml-1", attrs: { pill: "" } },
@@ -984,7 +1008,9 @@ var render = function() {
                             "b-nav-item",
                             { staticClass: "mb-1" },
                             [
-                              _vm._v("\n              Settings "),
+                              _vm._v(
+                                "\n                            Settings\n                            "
+                              ),
                               _c(
                                 "b-badge",
                                 { staticClass: "ml-1", attrs: { pill: "" } },
@@ -1017,7 +1043,7 @@ var render = function() {
                         "b-nav",
                         {
                           staticClass: "push",
-                          attrs: { pills: "", justified: "" }
+                          attrs: { justified: "", pills: "" }
                         },
                         [
                           _c(
@@ -1039,7 +1065,7 @@ var render = function() {
                         "b-nav",
                         {
                           staticClass: "push",
-                          attrs: { pills: "", justified: "" }
+                          attrs: { justified: "", pills: "" }
                         },
                         [
                           _c(
@@ -1120,13 +1146,13 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n              This is a simple\n              "
+                                "\n                            This is a simple\n                            "
                               ),
                               _c(
                                 "b-badge",
                                 {
                                   staticClass: "ml-1",
-                                  attrs: { variant: "info", pill: "" }
+                                  attrs: { pill: "", variant: "info" }
                                 },
                                 [_vm._v("5")]
                               )
@@ -1142,13 +1168,13 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n              List Group\n              "
+                                "\n                            List Group\n                            "
                               ),
                               _c(
                                 "b-badge",
                                 {
                                   staticClass: "ml-1",
-                                  attrs: { variant: "success", pill: "" }
+                                  attrs: { pill: "", variant: "success" }
                                 },
                                 [_vm._v("4")]
                               )
@@ -1164,13 +1190,13 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n              For showcasing\n              "
+                                "\n                            For showcasing\n                            "
                               ),
                               _c(
                                 "b-badge",
                                 {
                                   staticClass: "ml-1",
-                                  attrs: { variant: "danger", pill: "" }
+                                  attrs: { pill: "", variant: "danger" }
                                 },
                                 [_vm._v("8")]
                               )
@@ -1186,13 +1212,13 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n              A list of items\n              "
+                                "\n                            A list of items\n                            "
                               ),
                               _c(
                                 "b-badge",
                                 {
                                   staticClass: "ml-1",
-                                  attrs: { variant: "warning", pill: "" }
+                                  attrs: { pill: "", variant: "warning" }
                                 },
                                 [_vm._v("7")]
                               )
@@ -1226,11 +1252,11 @@ var render = function() {
                             {
                               staticClass:
                                 "d-flex justify-content-between align-items-center",
-                              attrs: { href: "javascript:void(0)", active: "" }
+                              attrs: { active: "", href: "javascript:void(0)" }
                             },
                             [
                               _vm._v(
-                                "\n              This is a simple\n              "
+                                "\n                            This is a simple\n                            "
                               ),
                               _c(
                                 "b-badge",
@@ -1250,7 +1276,7 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n              List Group\n              "
+                                "\n                            List Group\n                            "
                               ),
                               _c(
                                 "b-badge",
@@ -1266,7 +1292,7 @@ var render = function() {
                             { attrs: { href: "javascript:void(0)" } },
                             [
                               _vm._v(
-                                "\n              For showcasing\n            "
+                                "\n                            For showcasing\n                        "
                               )
                             ]
                           ),
@@ -1280,7 +1306,7 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n              A list of items\n              "
+                                "\n                            A list of items\n                            "
                               ),
                               _c(
                                 "b-badge",

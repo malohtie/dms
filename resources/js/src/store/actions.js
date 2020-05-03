@@ -1,6 +1,4 @@
 /**
  * Default Actions
  */
-export default  {
-
-}
+export default {}

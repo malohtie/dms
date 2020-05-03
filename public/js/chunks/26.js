@@ -77,7 +77,7 @@ var render = function() {
     "div",
     [
       _c("base-page-heading", {
-        attrs: { title: "Sidebar", subtitle: "Hidden" },
+        attrs: { subtitle: "Hidden", title: "Sidebar" },
         scopedSlots: _vm._u([
           {
             key: "extra",
@@ -119,7 +119,7 @@ var render = function() {
           _c("base-block", [
             _c("p", { staticClass: "text-center" }, [
               _vm._v(
-                "\n        You can hide the main sidebar by default.\n      "
+                "\n                You can hide the main sidebar by default.\n            "
               )
             ]),
             _vm._v(" "),
@@ -130,7 +130,11 @@ var render = function() {
                 _c(
                   "base-layout-modifier",
                   { attrs: { action: "sidebarOpen", variant: "alt-primary" } },
-                  [_vm._v("\n          Open the Sidebar\n        ")]
+                  [
+                    _vm._v(
+                      "\n                    Open the Sidebar\n                "
+                    )
+                  ]
                 )
               ],
               1

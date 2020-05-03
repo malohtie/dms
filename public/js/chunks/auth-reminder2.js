@@ -70,6 +70,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 // Vuelidate, for more info and examples you can check out https://github.com/vuelidate/vuelidate
 
 
@@ -134,7 +138,7 @@ var render = function() {
               [
                 _c(
                   "b-col",
-                  { staticClass: "py-4", attrs: { md: "8", lg: "6", xl: "4" } },
+                  { staticClass: "py-4", attrs: { lg: "6", md: "8", xl: "4" } },
                   [
                     _c("div", { staticClass: "text-center" }, [
                       _c("p", { staticClass: "mb-2" }, [
@@ -145,7 +149,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("h1", { staticClass: "h4 mb-1" }, [
                         _vm._v(
-                          "\n                Password Reminder\n              "
+                          "\n                                Password Reminder\n                            "
                         )
                       ]),
                       _vm._v(" "),
@@ -154,7 +158,7 @@ var render = function() {
                         { staticClass: "h6 font-w400 text-muted mb-3" },
                         [
                           _vm._v(
-                            "\n                Please provide your account’s email and we will send you your password.\n              "
+                            "\n                                Please provide your account’s email and we will send you your password.\n                            "
                           )
                         ]
                       )
@@ -179,12 +183,12 @@ var render = function() {
                             _c("b-form-input", {
                               staticClass: "form-control-alt",
                               attrs: {
-                                size: "lg",
+                                state: !_vm.$v.form.reminder.$error && null,
+                                "aria-describedby": "reminder-feedback",
                                 id: "reminder",
                                 name: "reminder",
                                 placeholder: "Username or Email",
-                                state: !_vm.$v.form.reminder.$error && null,
-                                "aria-describedby": "reminder-feedback"
+                                size: "lg"
                               },
                               model: {
                                 value: _vm.$v.form.reminder.$model,
@@ -210,16 +214,18 @@ var render = function() {
                                   "b-button",
                                   {
                                     attrs: {
+                                      block: "",
                                       type: "submit",
-                                      variant: "primary",
-                                      block: ""
+                                      variant: "primary"
                                     }
                                   },
                                   [
                                     _c("i", {
                                       staticClass: "fa fa-fw fa-envelope mr-1"
                                     }),
-                                    _vm._v(" Send Mail\n                  ")
+                                    _vm._v(
+                                      " Send Mail\n                                    "
+                                    )
                                   ]
                                 )
                               ],
@@ -266,7 +272,7 @@ var render = function() {
             )
           )
         ]),
-        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n    ")
+        _vm._v(" © " + _vm._s(_vm.$store.getters.appCopyright) + "\n        ")
       ])
     ])
   ])

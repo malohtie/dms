@@ -5,10 +5,10 @@
 // Vue and Vue Router
 import Vue from 'vue'
 import Router from 'vue-router'
-Vue.use(Router)
-
 import adminRoutes from './admin'
 import landingRoutes from "./landing";
+
+Vue.use(Router)
 
 // Router Configuration
 export default new Router({
