@@ -7,7 +7,7 @@ import Router from 'vue-router'
 // Main layouts
 import LayoutBackend from '@/layouts/variations/Backend.vue'
 import LayoutBackendBoxed from '@/layouts/variations/BackendBoxed.vue'
-import LayoutSimple from '@/layouts/variations/Simple.vue'
+import LayoutSimple from '@/layouts/variations/Empty.vue'
 
 // Register Vue Router
 Vue.use(Router)
