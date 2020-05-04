@@ -4,13 +4,13 @@
 export default [
     {
         path: '/',
-        redirect: '/landing',
-        component: () => import("@/layouts/variations/Simple"),
+        redirect: '/home',
+        component: () => import("@/layouts/variations/Empty"),
         children: [
             {
-                path: '/landing',
-                name: 'Landing',
-                component: () => import("@/views/starter/Landing.vue")
+                path: '/home',
+                name: 'Home',
+                component: () => import("@/views/dms-landing/Landing")
             }
         ]
     }

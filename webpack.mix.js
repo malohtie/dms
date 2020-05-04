@@ -1,5 +1,6 @@
 const mix = require('laravel-mix');
 const config = require('./webpack.config');
+const obfuscator = require('webpack-obfuscator');
 require('dotenv').config();
 /*
  |--------------------------------------------------------------------------
@@ -23,7 +24,12 @@ if (mix.inProduction()) {
         output: {
             publicPath: '/',
             chunkFilename: 'js/chunks/[name].[chunkhash].js',
-        }
+        },
+        plugins: [
+            new obfuscator({
+                rotateUnicodeArray: true
+            })
+        ]
     });
 }
 else{

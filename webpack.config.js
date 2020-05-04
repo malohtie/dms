@@ -1,5 +1,4 @@
 const path = require('path')
-//const obfuscator = require('webpack-obfuscator');
 
 module.exports = {
     module: {
@@ -23,10 +22,5 @@ module.exports = {
             '@assets': path.resolve(__dirname, 'resources/assets'),
             '@sass': path.resolve(__dirname, 'resources/sass')
         }
-    },
-    plugins: [
-        /*new obfuscator({
-            rotateUnicodeArray: true
-        })*/
-    ]
+    }
 }

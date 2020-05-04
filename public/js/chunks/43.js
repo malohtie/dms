@@ -1,1 +1,1861 @@
-var a43_0x2976=['md=\x226\x22\x20offset-md=\x223\x22','webpackJsonp','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Felis\x20ullamcorper\x20curae\x20erat\x20nulla\x20luctus\x20sociosqu\x20phasellus\x20posuere\x20habitasse\x20sollicitudin,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20libero\x20sit\x20potenti\x20leo\x20ultricies\x20etiam\x20blandit\x20id\x20platea\x20augue,\x20erat\x20habitant\x20fermentum\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20lorem\x20commodo\x20taciti\x20tristique\x20etiam\x20curabitur\x20suscipit\x20lacinia\x20habitasse\x20amet\x20mauris\x20eu\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20eget\x20ipsum\x20nec\x20magna\x20in,\x20adipiscing\x20risus\x20aenean\x20turpis\x20proin\x20duis\x20fringilla\x20praesent\x20ornare\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20lorem\x20eros\x20malesuada\x20vitae\x20nullam\x20diam\x20velit\x20potenti\x20consectetur,\x20vehicula\x20accumsan\x20risus\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20lectus\x20tortor\x20etiam\x20facilisis\x20tempus\x20sapien\x20tortor,\x20mi\x20vestibulum\x20taciti\x20dapibus\x20viverra\x20ac\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justo\x20vivamus\x20erat\x20phasellus\x20turpis\x20nisi\x20class\x20praesent\x20duis\x20ligula,\x20vel\x20ornare\x20faucibus\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20potenti\x20nibh\x20turpis,\x20at\x20id\x20semper\x20nunc\x20dui\x20blandit.\x20Enim\x20et\x20nec\x20habitasse\x20ultricies\x20id\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20tortor\x20curabitur,\x20consectetur\x20eu\x20inceptos\x20ante\x20conubia\x20tempor\x20platea\x20odio,\x20sed\x20sem\x20integer\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20lacinia\x20cras\x20non\x20risus\x20euismod\x20turpis\x20platea\x20erat\x20ultrices\x20iaculis\x20rutrum\x20taciti,\x20fusce\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20lobortis\x20adipiscing\x20dapibus\x20habitant\x20sodales\x20gravida\x20pulvinar,\x20elementum\x20mi\x20tempus\x20ut\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20commodo\x20congue\x20ipsum\x20justo\x20nec\x20dui\x20cursus\x20scelerisque\x20elementum\x20volutpat\x20tellus\x20nulla\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20laoreet\x20taciti,\x20nibh\x20suspendisse\x20primis\x20arcu\x20integer\x20vulputate\x20etiam\x20ligula\x20lobortis\x20nunc,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20interdum\x20commodo\x20libero\x20aliquam\x20suscipit\x20phasellus\x20sollicitudin\x20arcu\x20varius\x20venenatis\x20erat\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ornare\x20tempor\x20nullam\x20donec\x20vitae\x20etiam\x20tellus.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.d-lg-*','__file','Mixed\x20Grid','Columns\x20never\x20collapse','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Small\x20devices','b-table-simple','\x20and\x20','lg=\x223\x22','Useful\x20for\x20tiles/widgets','Grid\x20with\x20Offsets\x20','.d-md-none','No\x20gutters','md=\x224\x22\x20offset-md=\x222\x22','Blocks\x20in\x20Grid','_withStripped','inline-flex','flex','.d-sm-none','text-center','content','row','xl=\x223\x22','Columns\x20collapse\x20at\x20576px','exports','items-push','inline','default','breadcrumb-alt','col-lg-4\x20class=\x22mr-auto\x22','12\x20Columns','Elements','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Extra\x20large\x20devices','btn-block-option','text-center\x20mb-0','Equal\x20Blocks\x20in\x20Grid','small','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Potenti\x20elit\x20lectus\x20augue\x20eget\x20iaculis\x20vitae\x20etiam,\x20ullamcorper\x20etiam\x20bibendum\x20ad\x20feugiat\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20magna\x20accumsan\x20dolor,\x20nibh\x20molestie\x20cras\x20hac\x20ac\x20ad\x20massa,\x20fusce\x20ante\x20convallis\x20ante\x20urna\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20molestie\x20vulputate\x20bibendum\x20tempus\x20ante\x20justo\x20arcu\x20erat\x20accumsan\x20adipiscing\x20risus,\x20libero\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20condimentum\x20venenatis\x20sit\x20nisl\x20nisi\x20ultricies\x20sed,\x20fames\x20aliquet\x20consectetur\x20consequat\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20nostra\x20molestie\x20neque\x20nullam\x20scelerisque\x20neque\x20commodo\x20turpis\x20quisque\x20etiam\x20egestas\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20vulputate\x20massa,\x20curabitur\x20tellus\x20massa\x20venenatis\x20congue\x20dolor\x20enim\x20integer\x20luctus,\x20nisi\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20suscipit\x20gravida\x20fames\x20quis\x20vulputate\x20nisi\x20viverra\x20luctus\x20id\x20leo\x20dictum\x20lorem,\x20inceptos\x20nibh\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20orci.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','justify-content-center','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Large\x20devices','b-row','b-th','Mobile,\x20Tablets\x20and\x20Desktop','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','mr-auto','\x20in\x20','Columns\x20collapse\x20at\x20992px','si\x20si-check\x20text-success','Desktops\x20(≥1200px)','sm\x20Grid\x20','ml-auto','bg-body-dark\x20mb-0','b-breadcrumb','options','gutters-tiny','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4&','table-cell','b-thead','col-lg-4\x20class=\x22ml-auto\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Available\x20options\x20for\x20','row-deck','b-breadcrumb-item','.d-sm-*','resources/js/src/views/elements/Grid.vue','push','Portrait\x20phones\x20(<576px)','cols=\x223\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Potenti\x20elit\x20lectus\x20augue\x20eget\x20iaculis\x20vitae\x20etiam,\x20ullamcorper\x20etiam\x20bibendum\x20ad\x20feugiat\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20magna\x20accumsan\x20dolor,\x20nibh\x20molestie\x20cras\x20hac\x20ac\x20ad\x20massa,\x20fusce\x20ante\x20convallis\x20ante\x20urna\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20molestie\x20vulputate\x20bibendum\x20tempus\x20ante\x20justo\x20arcu\x20erat\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20accumsan\x20adipiscing\x20risus,\x20libero\x20condimentum\x20venenatis\x20sit\x20nisl\x20nisi\x20ultricies\x20sed,\x20fames\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20aliquet\x20consectetur\x20consequat\x20nostra\x20molestie\x20neque\x20nullam\x20scelerisque\x20neque\x20commodo\x20turpis\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20quisque\x20etiam\x20egestas\x20vulputate\x20massa,\x20curabitur\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20tellus\x20massa\x20venenatis\x20congue\x20dolor\x20enim\x20integer\x20luctus,\x20nisi\x20suscipit\x20gravida\x20fames\x20quis\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20vulputate\x20nisi\x20viverra\x20luctus\x20id\x20leo\x20dictum\x20lorem,\x20inceptos\x20nibh\x20orci.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.d-none','font-w400\x20text-muted','extra','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Extra\x20small\x20devices','.d-md-*','For\x20complex\x20layouts','Flat\x20Grid\x20','_self','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Medium\x20devices','sm=\x223\x22','./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4&','b-td','Columns\x20collapse\x20at\x20768px','si\x20si-settings','Bootstrap\x20Grid','md=\x226\x22','block','Responsive\x20Utility\x20Classes','base-block','base-page-heading','b-tbody','b-col','si\x20si-close\x20text-danger','Block','mb-0','button','justify-content-center\x20text-center','div','staticRenderFns','content-heading','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','Flexible\x20Grid','md=\x223\x22','md=\x224\x22\x20offset-md=\x223\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x20laoreet\x20adipiscing\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x20tristique\x20lobortis\x20est\x20ut\x20metus\x20lobortis\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x20quis\x20dictumst\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x20sit\x20varius\x20lorem\x20sit\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','render','Landscape\x20phones\x20(≥576px\x20-\x20<768px)','$createElement','code','Desktops\x20(≥992px\x20-\x20<1200px)','Grid','.d-xl-*','Paragraphs\x20in\x20Grid','b-tr'];(function(_0x58b958,_0x2976a2){var _0x66cc37=function(_0x3b64cd){while(--_0x3b64cd){_0x58b958['push'](_0x58b958['shift']());}};_0x66cc37(++_0x2976a2);}(a43_0x2976,0x1d9));var a43_0x66cc=function(_0x58b958,_0x2976a2){_0x58b958=_0x58b958-0x0;var _0x66cc37=a43_0x2976[_0x58b958];return _0x66cc37;};(window[a43_0x66cc('0x67')]=window[a43_0x66cc('0x67')]||[])[a43_0x66cc('0x36')]([[0x2b],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4&':function(_0x31fdc2,_0x1ea56c,_0x327237){'use strict';_0x327237['r'](_0x1ea56c);_0x327237['d'](_0x1ea56c,a43_0x66cc('0x5d'),function(){return _0x4f9fb6;});_0x327237['d'](_0x1ea56c,a43_0x66cc('0x56'),function(){return _0x5e94aa;});var _0x4f9fb6=function(){var _0x1d7584=this;var _0x576371=_0x1d7584[a43_0x66cc('0x5f')];var _0x2c878b=_0x1d7584[a43_0x66cc('0x41')]['_c']||_0x576371;return _0x2c878b(a43_0x66cc('0x55'),[_0x2c878b(a43_0x66cc('0x4d'),{'attrs':{'subtitle':'Smart\x20and\x20super\x20flexible\x20for\x20building\x20awesome\x20interfaces.','title':'Grid'},'scopedSlots':_0x1d7584['_u']([{'key':a43_0x66cc('0x3c'),'fn':function(){return[_0x2c878b(a43_0x66cc('0x29'),{'staticClass':a43_0x66cc('0x11')},[_0x2c878b('b-breadcrumb-item',{'attrs':{'href':'javascript:void(0)'}},[_0x1d7584['_v'](a43_0x66cc('0x14'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x33'),{'attrs':{'active':''}},[_0x1d7584['_v'](a43_0x66cc('0x62'))])],0x1)];},'proxy':!![]}])}),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x55'),{'staticClass':a43_0x66cc('0x9')},[_0x1d7584['_m'](0x0),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x8')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x38'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x38'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x38'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x38'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x1d7584['_m'](0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':'text-center'},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'sm':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x43'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'sm':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b('code',[_0x1d7584['_v'](a43_0x66cc('0x43'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'sm':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x43'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'sm':'3'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b('code',[_0x1d7584['_v'](a43_0x66cc('0x43'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x1d7584['_m'](0x2),_0x1d7584['_v']('\x20'),_0x2c878b('b-row',{'staticClass':a43_0x66cc('0x8')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x5a'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x5a'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'md':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('md=\x223\x22')])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'md':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b('code',[_0x1d7584['_v']('md=\x223\x22')])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x1d7584['_m'](0x3),_0x1d7584['_v']('\x20'),_0x2c878b('b-row',{'staticClass':a43_0x66cc('0x8')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'lg':'3'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x70'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'lg':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('lg=\x223\x22')])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'lg':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x70'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'lg':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x70'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x1d7584['_m'](0x4),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x8')},[_0x2c878b('b-col',{'attrs':{'xl':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0xb'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'xl':'3'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0xb'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'xl':'3'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0xb'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'xl':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0xb'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x1d7584['_m'](0x5),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x8')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'lg':'3','sm':'6'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x49'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0xb'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'lg':'3','sm':'6'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x49'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('xl=\x223\x22')])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'lg':'3','sm':'6'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x49'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0xb'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'lg':'3','sm':'6'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x49'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0xb'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x1d7584['_m'](0x6),_0x1d7584['_v']('\x20'),_0x2c878b('b-row',{'staticClass':'text-center'},[_0x2c878b('b-col',{'attrs':{'md':'4','offset-md':'1'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('md=\x224\x22\x20offset-md=\x221\x22')])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'4','offset-md':'2'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b('code',[_0x1d7584['_v'](a43_0x66cc('0x2'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x8')},[_0x2c878b('b-col',{'attrs':{'md':'4','offset-md':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b('code',[_0x1d7584['_v'](a43_0x66cc('0x5b'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x8')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'4','offset-md':'6'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('md=\x224\x22\x20offset-md=\x226\x22')])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x8')},[_0x2c878b('b-col',{'attrs':{'md':'6','offset-md':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x66'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x8')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'3','offset-md':'1'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('md=\x223\x22\x20offset-md=\x221\x22')])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'3','offset-md':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('md=\x223\x22\x20offset-md-4')])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':'text-center'},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'3'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x5a'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'staticClass':a43_0x66cc('0x27'),'attrs':{'md':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('md=\x223\x22\x20class=\x22ml-auto\x22')])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-row',{'staticClass':a43_0x66cc('0x8')},[_0x2c878b('b-col',{'staticClass':a43_0x66cc('0x27'),'attrs':{'lg':'4'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x2c878b('code',[_0x1d7584['_v'](a43_0x66cc('0x30'))])])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'staticClass':a43_0x66cc('0x21'),'attrs':{'lg':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x12'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x54')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('md=\x226\x22')]),_0x1d7584['_v'](a43_0x66cc('0x6f')),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x1b'))]),_0x1d7584['_v'](a43_0x66cc('0x22')),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0xa'))])])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x1d7584['_m'](0x7),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x2b')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b('base-block',[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x1d7584['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x1d7584['_v']('\x20'),_0x2c878b('base-block',[_0x2c878b('p',[_0x1d7584['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b('base-block',[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x1d7584['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x1d7584['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x1d7584['_m'](0x8),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'attrs':{'no-gutters':''}},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b('base-block',{'staticClass':a43_0x66cc('0x28')},[_0x2c878b('p',[_0x1d7584['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),{'staticClass':a43_0x66cc('0x52')},[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),{'staticClass':a43_0x66cc('0x28')},[_0x2c878b('p',[_0x1d7584['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),{'staticClass':a43_0x66cc('0x52')},[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),{'staticClass':a43_0x66cc('0x28')},[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),{'staticClass':a43_0x66cc('0x52')},[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),{'staticClass':a43_0x66cc('0x28')},[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),{'staticClass':a43_0x66cc('0x52')},[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b('base-block',{'staticClass':'bg-body-dark\x20mb-0'},[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'cols':'3'}},[_0x2c878b(a43_0x66cc('0x4c'),{'staticClass':a43_0x66cc('0x52')},[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),{'staticClass':a43_0x66cc('0x28')},[_0x2c878b('p',[_0x1d7584['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x1d7584['_v']('\x20'),_0x2c878b('base-block',{'staticClass':a43_0x66cc('0x52')},[_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x2c'))])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('h2',{'staticClass':a43_0x66cc('0x57')},[_0x1d7584['_v'](a43_0x66cc('0x3'))]),_0x1d7584['_v']('\x20'),_0x2c878b('b-row',[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'6','xl':'4'}},[_0x2c878b('base-block',{'attrs':{'title':'Block'},'scopedSlots':_0x1d7584['_u']([{'key':'options','fn':function(){return[_0x2c878b(a43_0x66cc('0x53'),{'staticClass':a43_0x66cc('0x16'),'attrs':{'type':a43_0x66cc('0x53')}},[_0x2c878b('i',{'staticClass':a43_0x66cc('0x47')})])];},'proxy':!![]}])},[_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x20'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'6','xl':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),{'attrs':{'title':a43_0x66cc('0x51')},'scopedSlots':_0x1d7584['_u']([{'key':'options','fn':function(){return[_0x2c878b(a43_0x66cc('0x53'),{'staticClass':a43_0x66cc('0x16'),'attrs':{'type':'button'}},[_0x2c878b('i',{'staticClass':a43_0x66cc('0x47')})])];},'proxy':!![]}])},[_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x20'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'6','xl':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),{'attrs':{'title':a43_0x66cc('0x51')},'scopedSlots':_0x1d7584['_u']([{'key':a43_0x66cc('0x2a'),'fn':function(){return[_0x2c878b(a43_0x66cc('0x53'),{'staticClass':a43_0x66cc('0x16'),'attrs':{'type':a43_0x66cc('0x53')}},[_0x2c878b('i',{'staticClass':a43_0x66cc('0x47')})])];},'proxy':!![]}])},[_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x20'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'md':'6','xl':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),{'attrs':{'title':'Block'},'scopedSlots':_0x1d7584['_u']([{'key':a43_0x66cc('0x2a'),'fn':function(){return[_0x2c878b(a43_0x66cc('0x53'),{'staticClass':'btn-block-option','attrs':{'type':a43_0x66cc('0x53')}},[_0x2c878b('i',{'staticClass':a43_0x66cc('0x47')})])];},'proxy':!![]}])},[_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x20'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'6','xl':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),{'attrs':{'title':a43_0x66cc('0x51')},'scopedSlots':_0x1d7584['_u']([{'key':a43_0x66cc('0x2a'),'fn':function(){return[_0x2c878b('button',{'staticClass':a43_0x66cc('0x16'),'attrs':{'type':a43_0x66cc('0x53')}},[_0x2c878b('i',{'staticClass':a43_0x66cc('0x47')})])];},'proxy':!![]}])},[_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x20'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'6','xl':'4'}},[_0x2c878b('base-block',{'attrs':{'title':a43_0x66cc('0x51')},'scopedSlots':_0x1d7584['_u']([{'key':a43_0x66cc('0x2a'),'fn':function(){return[_0x2c878b('button',{'staticClass':a43_0x66cc('0x16'),'attrs':{'type':a43_0x66cc('0x53')}},[_0x2c878b('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x20'))])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('h2',{'staticClass':'content-heading'},[_0x1d7584['_v'](a43_0x66cc('0x18'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0x32')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'sm':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),{'attrs':{'title':'Block'},'scopedSlots':_0x1d7584['_u']([{'key':a43_0x66cc('0x2a'),'fn':function(){return[_0x2c878b(a43_0x66cc('0x53'),{'staticClass':a43_0x66cc('0x16'),'attrs':{'type':a43_0x66cc('0x53')}},[_0x2c878b('i',{'staticClass':a43_0x66cc('0x47')})])];},'proxy':!![]}])},[_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x5c'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'sm':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),{'attrs':{'title':a43_0x66cc('0x51')},'scopedSlots':_0x1d7584['_u']([{'key':a43_0x66cc('0x2a'),'fn':function(){return[_0x2c878b(a43_0x66cc('0x53'),{'staticClass':a43_0x66cc('0x16'),'attrs':{'type':a43_0x66cc('0x53')}},[_0x2c878b('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x39'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'sm':'4'}},[_0x2c878b(a43_0x66cc('0x4c'),{'attrs':{'title':a43_0x66cc('0x51')},'scopedSlots':_0x1d7584['_u']([{'key':'options','fn':function(){return[_0x2c878b(a43_0x66cc('0x53'),{'staticClass':a43_0x66cc('0x16'),'attrs':{'type':a43_0x66cc('0x53')}},[_0x2c878b('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x5c'))])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('h2',{'staticClass':a43_0x66cc('0x57')},[_0x1d7584['_v'](a43_0x66cc('0x64'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),{'attrs':{'title':'Example'}},[_0x2c878b('b-row',{'staticClass':a43_0x66cc('0xe')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'6'}},[_0x2c878b('h3',[_0x1d7584['_v'](a43_0x66cc('0x59'))]),_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x1a'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'6'}},[_0x2c878b('h3',[_0x1d7584['_v']('Many\x20Options')]),_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x1a'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1d'),{'staticClass':a43_0x66cc('0xe')},[_0x2c878b('b-col',{'attrs':{'md':'4'}},[_0x2c878b('h3',{},[_0x1d7584['_v']('For\x20all\x20screen\x20sizes')]),_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x1a'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'4'}},[_0x2c878b('h3',[_0x1d7584['_v']('Easy\x20to\x20use')]),_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x1a'))])]),_0x1d7584['_v']('\x20'),_0x2c878b('b-col',{'attrs':{'md':'4'}},[_0x2c878b('h3',[_0x1d7584['_v'](a43_0x66cc('0x48'))]),_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x1a'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-row',{'staticClass':'items-push'},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'4'}},[_0x2c878b('h3',[_0x1d7584['_v'](a43_0x66cc('0x13'))]),_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Potenti\x20elit\x20lectus\x20augue\x20eget\x20iaculis\x20vitae\x20etiam,\x20ullamcorper\x20etiam\x20bibendum\x20ad\x20feugiat\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20magna\x20accumsan\x20dolor,\x20nibh\x20molestie\x20cras\x20hac\x20ac\x20ad\x20massa,\x20fusce\x20ante\x20convallis\x20ante\x20urna\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20molestie\x20vulputate\x20bibendum\x20tempus\x20ante\x20justo\x20arcu\x20erat\x20accumsan\x20adipiscing\x20risus,\x20libero\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20condimentum\x20venenatis\x20sit\x20nisl\x20nisi\x20ultricies\x20sed,\x20fames\x20aliquet\x20consectetur\x20consequat\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20nostra\x20molestie\x20neque\x20nullam\x20scelerisque\x20neque\x20commodo\x20turpis\x20quisque\x20etiam\x20egestas\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20vulputate\x20massa,\x20curabitur\x20tellus\x20massa\x20venenatis\x20congue\x20dolor\x20enim\x20integer\x20luctus,\x20nisi\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20suscipit\x20gravida\x20fames\x20quis\x20vulputate\x20nisi\x20viverra\x20luctus\x20id\x20leo\x20dictum\x20lorem,\x20inceptos\x20nibh\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20orci.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'8'}},[_0x2c878b('h3',[_0x1d7584['_v']('Multiple\x20Layouts')]),_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x68'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-row',{'staticClass':a43_0x66cc('0xe')},[_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'8'}},[_0x2c878b('h3',[_0x1d7584['_v'](a43_0x66cc('0x1f'))]),_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x68'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4f'),{'attrs':{'md':'4'}},[_0x2c878b('h3',[_0x1d7584['_v'](a43_0x66cc('0x6b'))]),_0x1d7584['_v']('\x20'),_0x2c878b('p',[_0x1d7584['_v'](a43_0x66cc('0x1a'))])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4c'),{'attrs':{'content-full':'','title':a43_0x66cc('0x4b')}},[_0x2c878b('p',[_0x1d7584['_v']('For\x20faster\x20mobile-friendly\x20development,\x20use\x20these\x20utility\x20classes\x20for\x20showing\x20and\x20hiding\x20content\x20by\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20device\x20via\x20media\x20query.')]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x6e'),{'staticClass':a43_0x66cc('0x17'),'attrs':{'bordered':'','hover':'','responsive':''}},[_0x2c878b(a43_0x66cc('0x2f'),[_0x2c878b(a43_0x66cc('0x65'),[_0x2c878b('b-th',{'staticStyle':{'min-width':'100px'}}),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1e'),[_0x1d7584['_v'](a43_0x66cc('0x3d')),_0x2c878b('br'),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x19'),{'staticClass':a43_0x66cc('0x3b')},[_0x1d7584['_v'](a43_0x66cc('0x37'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1e'),[_0x1d7584['_v'](a43_0x66cc('0x6d')),_0x2c878b('br'),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x19'),{'staticClass':'font-w400\x20text-muted'},[_0x1d7584['_v'](a43_0x66cc('0x5e'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1e'),[_0x1d7584['_v'](a43_0x66cc('0x42')),_0x2c878b('br'),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x19'),{'staticClass':a43_0x66cc('0x3b')},[_0x1d7584['_v']('Tablets\x20(≥768px\x20-\x20<992px)')])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1e'),[_0x1d7584['_v'](a43_0x66cc('0x1c')),_0x2c878b('br'),_0x1d7584['_v']('\x20'),_0x2c878b('small',{'staticClass':a43_0x66cc('0x3b')},[_0x1d7584['_v'](a43_0x66cc('0x61'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x1e'),[_0x1d7584['_v'](a43_0x66cc('0x15')),_0x2c878b('br'),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x19'),{'staticClass':'font-w400\x20text-muted'},[_0x1d7584['_v'](a43_0x66cc('0x25'))])])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-tbody',[_0x2c878b(a43_0x66cc('0x65'),[_0x2c878b(a43_0x66cc('0x45'),{'attrs':{'colspan':'6'}},[_0x1d7584['_v'](a43_0x66cc('0x31')),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('*')]),_0x1d7584['_v'](':\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0xf'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('inline-block')]),_0x1d7584['_v']('\x20'),_0x2c878b('code',[_0x1d7584['_v'](a43_0x66cc('0x4a'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('table')]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x2e'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x6'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x5'))])])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x65'),[_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('.d-none')]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x34'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x65'),[_0x2c878b('b-td',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x3a'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x3e'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':'si\x20si-close\x20text-danger'})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x65'),[_0x2c878b('b-td',[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x3a'))]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x69'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':'si\x20si-close\x20text-danger'})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x65'),[_0x2c878b('b-td',[_0x2c878b('code',[_0x1d7584['_v'](a43_0x66cc('0x3a'))]),_0x1d7584['_v']('\x20'),_0x2c878b('code',[_0x1d7584['_v'](a43_0x66cc('0x63'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':'si\x20si-close\x20text-danger'})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':'si\x20si-close\x20text-danger'})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':'si\x20si-close\x20text-danger'})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b('b-tbody',[_0x2c878b('b-tr',[_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v']('.d-none')])]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})])],0x1)],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x4e'),[_0x2c878b('b-tr',[_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x7'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x65'),[_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b(a43_0x66cc('0x60'),[_0x1d7584['_v'](a43_0x66cc('0x0'))])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':'si\x20si-check\x20text-success'})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':'si\x20si-check\x20text-success'})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':'si\x20si-close\x20text-danger'})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x65'),[_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('code',[_0x1d7584['_v']('.d-lg-none')])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':'si\x20si-check\x20text-success'})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':'si\x20si-close\x20text-danger'})])],0x1),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x65'),[_0x2c878b('b-td',[_0x2c878b('code',[_0x1d7584['_v']('.d-xl-none')])]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b(a43_0x66cc('0x45'),[_0x2c878b('i',{'staticClass':a43_0x66cc('0x24')})]),_0x1d7584['_v']('\x20'),_0x2c878b('b-td',[_0x2c878b('i',{'staticClass':a43_0x66cc('0x50')})])],0x1)],0x1)],0x1)],0x1)],0x1)],0x1);};var _0x5e94aa=[function(){var _0xd4c618=this;var _0x3035f2=_0xd4c618['$createElement'];var _0x5304e7=_0xd4c618[a43_0x66cc('0x41')]['_c']||_0x3035f2;return _0x5304e7('h2',{'staticClass':'content-heading'},[_0xd4c618['_v']('Grid\x20'),_0x5304e7(a43_0x66cc('0x19'),[_0xd4c618['_v'](a43_0x66cc('0x6c'))])]);},function(){var _0x3f5c4a=this;var _0x5534ee=_0x3f5c4a[a43_0x66cc('0x5f')];var _0x5d448e=_0x3f5c4a[a43_0x66cc('0x41')]['_c']||_0x5534ee;return _0x5d448e('h2',{'staticClass':a43_0x66cc('0x57')},[_0x3f5c4a['_v'](a43_0x66cc('0x26')),_0x5d448e(a43_0x66cc('0x19'),[_0x3f5c4a['_v'](a43_0x66cc('0xc'))])]);},function(){var _0x3837d6=this;var _0x2081b8=_0x3837d6['$createElement'];var _0x3eb86c=_0x3837d6['_self']['_c']||_0x2081b8;return _0x3eb86c('h2',{'staticClass':a43_0x66cc('0x57')},[_0x3837d6['_v']('md\x20Grid\x20'),_0x3eb86c(a43_0x66cc('0x19'),[_0x3837d6['_v'](a43_0x66cc('0x46'))])]);},function(){var _0x569117=this;var _0x2187af=_0x569117['$createElement'];var _0x4d621c=_0x569117['_self']['_c']||_0x2187af;return _0x4d621c('h2',{'staticClass':'content-heading'},[_0x569117['_v']('lg\x20Grid\x20'),_0x4d621c(a43_0x66cc('0x19'),[_0x569117['_v'](a43_0x66cc('0x23'))])]);},function(){var _0x3798ad=this;var _0x57c34c=_0x3798ad[a43_0x66cc('0x5f')];var _0x32d194=_0x3798ad['_self']['_c']||_0x57c34c;return _0x32d194('h2',{'staticClass':a43_0x66cc('0x57')},[_0x3798ad['_v']('xl\x20Grid\x20'),_0x32d194(a43_0x66cc('0x19'),[_0x3798ad['_v']('Columns\x20collapse\x20at\x201200px')])]);},function(){var _0x91b6af=this;var _0x4f4137=_0x91b6af[a43_0x66cc('0x5f')];var _0x5d7b8b=_0x91b6af[a43_0x66cc('0x41')]['_c']||_0x4f4137;return _0x5d7b8b('h2',{'staticClass':a43_0x66cc('0x57')},[_0x91b6af['_v']('Mixed\x20Grid\x20'),_0x5d7b8b(a43_0x66cc('0x19'),[_0x91b6af['_v'](a43_0x66cc('0x3f'))])]);},function(){var _0x48ec34=this;var _0x3a105f=_0x48ec34[a43_0x66cc('0x5f')];var _0x2f2943=_0x48ec34['_self']['_c']||_0x3a105f;return _0x2f2943('h2',{'staticClass':a43_0x66cc('0x57')},[_0x48ec34['_v'](a43_0x66cc('0x72')),_0x2f2943('small',[_0x48ec34['_v']('For\x20complex\x20layouts')])]);},function(){var _0x3d544a=this;var _0x43c0a7=_0x3d544a[a43_0x66cc('0x5f')];var _0x51b623=_0x3d544a[a43_0x66cc('0x41')]['_c']||_0x43c0a7;return _0x51b623('h2',{'staticClass':a43_0x66cc('0x57')},[_0x3d544a['_v']('Small\x20Grid\x20Gutters\x20'),_0x51b623(a43_0x66cc('0x19'),[_0x3d544a['_v'](a43_0x66cc('0x71'))])]);},function(){var _0x539de6=this;var _0x408b1d=_0x539de6['$createElement'];var _0x399d04=_0x539de6[a43_0x66cc('0x41')]['_c']||_0x408b1d;return _0x399d04('h2',{'staticClass':'content-heading'},[_0x539de6['_v'](a43_0x66cc('0x40')),_0x399d04(a43_0x66cc('0x19'),[_0x539de6['_v'](a43_0x66cc('0x1'))])]);}];_0x4f9fb6[a43_0x66cc('0x4')]=!![];},'./resources/js/src/views/elements/Grid.vue':function(_0x6d60c3,_0x130e1b,_0x4fb33c){'use strict';_0x4fb33c['r'](_0x130e1b);var _0x3dcac1=_0x4fb33c(a43_0x66cc('0x44'));var _0x552e48=_0x4fb33c(a43_0x66cc('0x58'));var _0x4e88ab={};var _0x4d0a57=Object(_0x552e48[a43_0x66cc('0x10')])(_0x4e88ab,_0x3dcac1['render'],_0x3dcac1[a43_0x66cc('0x56')],![],null,null,null);if(![]){var _0x5e1efa;}_0x4d0a57['options'][a43_0x66cc('0x6a')]=a43_0x66cc('0x35');_0x130e1b[a43_0x66cc('0x10')]=_0x4d0a57[a43_0x66cc('0xd')];},'./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4&':function(_0x48b15d,_0x474b28,_0x118dce){'use strict';_0x118dce['r'](_0x474b28);var _0x32e47c=_0x118dce(a43_0x66cc('0x2d'));_0x118dce['d'](_0x474b28,'render',function(){return _0x32e47c[a43_0x66cc('0x5d')];});_0x118dce['d'](_0x474b28,a43_0x66cc('0x56'),function(){return _0x32e47c[a43_0x66cc('0x56')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[43],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Smart and super flexible for building awesome interfaces.",
+          title: "Grid"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Grid")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('cols="3"')])])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('cols="3"')])])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('cols="3"')])])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('cols="3"')])])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { sm: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('sm="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { sm: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('sm="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { sm: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('sm="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { sm: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('sm="3"')])])])],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('md="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('md="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('md="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('md="3"')])])])],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { lg: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('lg="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('lg="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('lg="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('lg="3"')])])])],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { xl: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('xl="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { xl: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('xl="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { xl: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('xl="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { xl: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('xl="3"')])])])],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(5),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { lg: "3", sm: "6" } },
+                [
+                  _c("base-block", [
+                    _c("p", [
+                      _c("code", [_vm._v('md="6"')]),
+                      _vm._v(" "),
+                      _c("code", [_vm._v('xl="3"')])
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "3", sm: "6" } },
+                [
+                  _c("base-block", [
+                    _c("p", [
+                      _c("code", [_vm._v('md="6"')]),
+                      _vm._v(" "),
+                      _c("code", [_vm._v('xl="3"')])
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "3", sm: "6" } },
+                [
+                  _c("base-block", [
+                    _c("p", [
+                      _c("code", [_vm._v('md="6"')]),
+                      _vm._v(" "),
+                      _c("code", [_vm._v('xl="3"')])
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "3", sm: "6" } },
+                [
+                  _c("base-block", [
+                    _c("p", [
+                      _c("code", [_vm._v('md="6"')]),
+                      _vm._v(" "),
+                      _c("code", [_vm._v('xl="3"')])
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(6),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "4", "offset-md": "1" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('md="4" offset-md="1"')])])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "4", "offset-md": "2" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('md="4" offset-md="2"')])])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "4", "offset-md": "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('md="4" offset-md="3"')])])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "4", "offset-md": "6" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('md="4" offset-md="6"')])])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6", "offset-md": "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('md="6" offset-md="3"')])])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "3", "offset-md": "1" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('md="3" offset-md="1"')])])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "3", "offset-md": "4" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('md="3" offset-md-4')])])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "3" } },
+                [_c("base-block", [_c("p", [_c("code", [_vm._v('md="3"')])])])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { staticClass: "ml-auto", attrs: { md: "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('md="3" class="ml-auto"')])])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "text-center" },
+            [
+              _c(
+                "b-col",
+                { staticClass: "ml-auto", attrs: { lg: "4" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('col-lg-4 class="ml-auto"')])])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { staticClass: "mr-auto", attrs: { lg: "4" } },
+                [
+                  _c("base-block", [
+                    _c("p", [_c("code", [_vm._v('col-lg-4 class="mr-auto"')])])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "justify-content-center text-center" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "4" } },
+                [
+                  _c("base-block", [
+                    _c("p", [
+                      _c("code", [_vm._v('md="6"')]),
+                      _vm._v(" and "),
+                      _c("code", [_vm._v("justify-content-center")]),
+                      _vm._v(" in "),
+                      _c("code", [_vm._v("row")])
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(7),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "gutters-tiny" },
+            [
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(8),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { attrs: { "no-gutters": "" } },
+            [
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", { staticClass: "mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", { staticClass: "mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", { staticClass: "mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", { staticClass: "mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "3" } },
+                [
+                  _c("base-block", { staticClass: "mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", { staticClass: "bg-body-dark mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("base-block", { staticClass: "mb-0" }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        ...\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Blocks in Grid")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "4" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Block" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "4" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Block" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "4" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Block" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "4" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Block" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "4" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Block" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "4" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Block" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Equal Blocks in Grid")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "row-deck" },
+            [
+              _c(
+                "b-col",
+                { attrs: { sm: "4" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Block" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst\n                        proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { sm: "4" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Block" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat\n                        accumsan adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames\n                        aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis\n                        quisque etiam egestas vulputate massa, curabitur\n                        tellus massa venenatis congue dolor enim integer luctus, nisi suscipit gravida fames quis\n                        vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh orci.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { sm: "4" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { title: "Block" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst\n                        proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Paragraphs in Grid")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Example" } },
+            [
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { md: "6" } }, [
+                    _c("h3", [_vm._v("Flexible Grid")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "6" } }, [
+                    _c("h3", [_vm._v("Many Options")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { md: "4" } }, [
+                    _c("h3", {}, [_vm._v("For all screen sizes")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "4" } }, [
+                    _c("h3", [_vm._v("Easy to use")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "4" } }, [
+                    _c("h3", [_vm._v("Bootstrap Grid")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { md: "4" } }, [
+                    _c("h3", [_vm._v("12 Columns")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "8" } }, [
+                    _c("h3", [_vm._v("Multiple Layouts")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Felis ullamcorper curae erat nulla luctus sociosqu phasellus posuere habitasse sollicitudin,\n                        libero sit potenti leo ultricies etiam blandit id platea augue, erat habitant fermentum\n                        lorem commodo taciti tristique etiam curabitur suscipit lacinia habitasse amet mauris eu\n                        eget ipsum nec magna in, adipiscing risus aenean turpis proin duis fringilla praesent ornare\n                        lorem eros malesuada vitae nullam diam velit potenti consectetur, vehicula accumsan risus\n                        lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac\n                        justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus\n                        potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id\n                        tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer\n                        lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce\n                        lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut\n                        commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla\n                        laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc,\n                        interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat\n                        ornare tempor nullam donec vitae etiam tellus.\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { md: "8" } }, [
+                    _c("h3", [_vm._v("Mobile, Tablets and Desktop")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Felis ullamcorper curae erat nulla luctus sociosqu phasellus posuere habitasse sollicitudin,\n                        libero sit potenti leo ultricies etiam blandit id platea augue, erat habitant fermentum\n                        lorem commodo taciti tristique etiam curabitur suscipit lacinia habitasse amet mauris eu\n                        eget ipsum nec magna in, adipiscing risus aenean turpis proin duis fringilla praesent ornare\n                        lorem eros malesuada vitae nullam diam velit potenti consectetur, vehicula accumsan risus\n                        lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac\n                        justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus\n                        potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id\n                        tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer\n                        lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce\n                        lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut\n                        commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla\n                        laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc,\n                        interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat\n                        ornare tempor nullam donec vitae etiam tellus.\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "4" } }, [
+                    _c("h3", [_vm._v("Mixed Grid")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-full": "", title: "Responsive Utility Classes" }
+            },
+            [
+              _c("p", [
+                _vm._v(
+                  "For faster mobile-friendly development, use these utility classes for showing and hiding content by\n                device via media query."
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-table-simple",
+                {
+                  staticClass: "text-center mb-0",
+                  attrs: { bordered: "", hover: "", responsive: "" }
+                },
+                [
+                  _c(
+                    "b-thead",
+                    [
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-th", { staticStyle: { "min-width": "100px" } }),
+                          _vm._v(" "),
+                          _c("b-th", [
+                            _vm._v(
+                              "\n                            Extra small devices"
+                            ),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "small",
+                              { staticClass: "font-w400 text-muted" },
+                              [_vm._v("Portrait phones (<576px)")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("b-th", [
+                            _vm._v(
+                              "\n                            Small devices"
+                            ),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "small",
+                              { staticClass: "font-w400 text-muted" },
+                              [_vm._v("Landscape phones (≥576px - <768px)")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("b-th", [
+                            _vm._v(
+                              "\n                            Medium devices"
+                            ),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "small",
+                              { staticClass: "font-w400 text-muted" },
+                              [_vm._v("Tablets (≥768px - <992px)")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("b-th", [
+                            _vm._v(
+                              "\n                            Large devices"
+                            ),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "small",
+                              { staticClass: "font-w400 text-muted" },
+                              [_vm._v("Desktops (≥992px - <1200px)")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("b-th", [
+                            _vm._v(
+                              "\n                            Extra large devices"
+                            ),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "small",
+                              { staticClass: "font-w400 text-muted" },
+                              [_vm._v("Desktops (≥1200px)")]
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tbody",
+                    [
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", { attrs: { colspan: "6" } }, [
+                            _vm._v(
+                              "\n                            Available options for "
+                            ),
+                            _c("code", [_vm._v("*")]),
+                            _vm._v(": "),
+                            _c("code", [_vm._v("inline")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v("inline-block")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v("block")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v("table")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v("table-cell")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v("flex")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v("inline-flex")])
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", [
+                            _c("code", [_vm._v(".d-none")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v(".d-sm-*")])
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", [
+                            _c("code", [_vm._v(".d-none")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v(".d-md-*")])
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", [
+                            _c("code", [_vm._v(".d-none")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v(".d-lg-*")])
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", [
+                            _c("code", [_vm._v(".d-none")]),
+                            _vm._v(" "),
+                            _c("code", [_vm._v(".d-xl-*")])
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tbody",
+                    [
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", [_c("code", [_vm._v(".d-none")])]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tbody",
+                    [
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", [_c("code", [_vm._v(".d-sm-none")])]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", [_c("code", [_vm._v(".d-md-none")])]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", [_c("code", [_vm._v(".d-lg-none")])]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tr",
+                        [
+                          _c("b-td", [_c("code", [_vm._v(".d-xl-none")])]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-check text-success" })
+                          ]),
+                          _vm._v(" "),
+                          _c("b-td", [
+                            _c("i", { staticClass: "si si-close text-danger" })
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("Grid "),
+      _c("small", [_vm._v("Columns never collapse")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("sm Grid "),
+      _c("small", [_vm._v("Columns collapse at 576px")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("md Grid "),
+      _c("small", [_vm._v("Columns collapse at 768px")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("lg Grid "),
+      _c("small", [_vm._v("Columns collapse at 992px")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("xl Grid "),
+      _c("small", [_vm._v("Columns collapse at 1200px")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("Mixed Grid "),
+      _c("small", [_vm._v("For complex layouts")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("Grid with Offsets "),
+      _c("small", [_vm._v("For complex layouts")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("Small Grid Gutters "),
+      _c("small", [_vm._v("Useful for tiles/widgets")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("Flat Grid "),
+      _c("small", [_vm._v("No gutters")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Grid.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/src/views/elements/Grid.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Grid_vue_vue_type_template_id_50c46fe4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Grid.vue?vue&type=template&id=50c46fe4& */ "./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Grid_vue_vue_type_template_id_50c46fe4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Grid_vue_vue_type_template_id_50c46fe4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Grid.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4& ***!
+  \*********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grid_vue_vue_type_template_id_50c46fe4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Grid.vue?vue&type=template&id=50c46fe4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Grid.vue?vue&type=template&id=50c46fe4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grid_vue_vue_type_template_id_50c46fe4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grid_vue_vue_type_template_id_50c46fe4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

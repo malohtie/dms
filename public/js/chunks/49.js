@@ -1,1 +1,684 @@
-var a49_0x1852=['Attach\x20optional\x20info\x20to\x20an\x20element.','\x27Left\x20Tooltip\x27','\x27Bottom\x20Tooltip\x27','resources/js/src/views/elements/Tooltips.vue','b-breadcrumb-item','secondary','\x27<img\x20class=\x5c\x27img-avatar\x5c\x27\x20src=\x5c\x27/images/avatars/avatar10.jpg\x5c\x27\x20alt=\x5c\x27\x5c\x27>\x27','Top\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Show\x20tooltips\x20on\x20hover\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-row','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20add\x20HTML\x20in\x20your\x20tooltips\x20as\x20well\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v-b-tooltip.hover.html.nofade.bottom','content','v-b-tooltip.hover.nofade.left','push','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Right\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v-b-tooltip.hover.nofade.bottom','extra','./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&','_withStripped','Default','b-col','Right\x20Tooltip','Top\x20Tooltip','b-tooltip','default','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Bottom\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v-b-tooltip.click.nofade.left','v-b-tooltip.hover.top','v-b-tooltip.click.nofade.top','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&','Right\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Animation','b-button','render','__file','Bottom\x20Tooltip','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Top\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v-b-tooltip.hover.bottom','v-b-tooltip.hover.left','\x27Top\x20Tooltip\x27','b-breadcrumb','$createElement','Left\x20Tooltip','v-b-tooltip.hover.html.nofade.left','v-b-tooltip.hover.html.nofade.top','div','base-block','font-size-sm\x20text-muted','primary','items-push\x20text-center','\x27Right\x20Tooltip\x27','Tooltips','<img\x20class=\x27img-avatar\x27\x20src=\x27/images/avatars/avatar10.jpg\x27\x20alt=\x27\x27>','Click\x20Triggered','v-b-tooltip.hover.nofade.right','exports','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20enable\x20a\x20fade\x20animation\x20to\x20your\x20tooltips\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','javascript:void(0)','staticRenderFns','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','_self','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Left\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'];(function(_0x17b78f,_0x1852c4){var _0x55bd0c=function(_0x5de45d){while(--_0x5de45d){_0x17b78f['push'](_0x17b78f['shift']());}};_0x55bd0c(++_0x1852c4);}(a49_0x1852,0xc7));var a49_0x55bd=function(_0x17b78f,_0x1852c4){_0x17b78f=_0x17b78f-0x0;var _0x55bd0c=a49_0x1852[_0x17b78f];return _0x55bd0c;};(window['webpackJsonp']=window['webpackJsonp']||[])[a49_0x55bd('0x4')]([[0x31],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&':function(_0x1601ff,_0x4680fa,_0x4a5034){'use strict';_0x4a5034['r'](_0x4680fa);_0x4a5034['d'](_0x4680fa,a49_0x55bd('0x18'),function(){return _0x1f172f;});_0x4a5034['d'](_0x4680fa,a49_0x55bd('0x31'),function(){return _0x2391d4;});var _0x1f172f=function(){var _0x8c5682=this;var _0x455546=_0x8c5682[a49_0x55bd('0x20')];var _0x5e8fe7=_0x8c5682[a49_0x55bd('0x33')]['_c']||_0x455546;return _0x5e8fe7(a49_0x55bd('0x24'),[_0x5e8fe7('base-page-heading',{'attrs':{'subtitle':a49_0x55bd('0x35'),'title':a49_0x55bd('0x2a')},'scopedSlots':_0x8c5682['_u']([{'key':a49_0x55bd('0x7'),'fn':function(){return[_0x5e8fe7(a49_0x55bd('0x1f'),{'staticClass':'breadcrumb-alt'},[_0x5e8fe7(a49_0x55bd('0x39'),{'attrs':{'href':a49_0x55bd('0x30')}},[_0x8c5682['_v']('Elements')]),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0x39'),{'attrs':{'active':''}},[_0x8c5682['_v'](a49_0x55bd('0x2a'))])],0x1)];},'proxy':!![]}])}),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0x24'),{'staticClass':a49_0x55bd('0x2')},[_0x5e8fe7('base-block',{'attrs':{'title':a49_0x55bd('0xa')}},[_0x5e8fe7('p',{'staticClass':a49_0x55bd('0x26')},[_0x8c5682['_v'](a49_0x55bd('0x3d'))]),_0x8c5682['_v']('\x20'),_0x5e8fe7('b-row',{'staticClass':a49_0x55bd('0x28')},[_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7('b-button',{'directives':[{'name':a49_0x55bd('0xe'),'rawName':'v-b-tooltip.hover.nofade.top','value':'Top\x20Tooltip','expression':'\x27Top\x20Tooltip\x27','modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x27')}},[_0x8c5682['_v']('Top\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7('b-button',{'directives':[{'name':'b-tooltip','rawName':a49_0x55bd('0x2d'),'value':'Right\x20Tooltip','expression':a49_0x55bd('0x29'),'modifiers':{'hover':!![],'nofade':!![],'right':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x27')}},[_0x8c5682['_v'](a49_0x55bd('0x5'))])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':a49_0x55bd('0xe'),'rawName':a49_0x55bd('0x6'),'value':a49_0x55bd('0x1a'),'expression':'\x27Bottom\x20Tooltip\x27','modifiers':{'hover':!![],'nofade':!![],'bottom':!![]}}],'attrs':{'block':'','size':'sm','variant':'primary'}},[_0x8c5682['_v'](a49_0x55bd('0x10'))])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':a49_0x55bd('0xe'),'rawName':a49_0x55bd('0x3'),'value':a49_0x55bd('0x21'),'expression':a49_0x55bd('0x36'),'modifiers':{'hover':!![],'nofade':!![],'left':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x27')}},[_0x8c5682['_v'](a49_0x55bd('0x34'))])],0x1)],0x1)],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0x25'),{'attrs':{'title':a49_0x55bd('0x2c')}},[_0x5e8fe7('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x8c5682['_v'](a49_0x55bd('0x3d'))]),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0x3e'),{'staticClass':a49_0x55bd('0x28')},[_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':'b-tooltip','rawName':a49_0x55bd('0x13'),'value':a49_0x55bd('0xd'),'expression':a49_0x55bd('0x1e'),'modifiers':{'click':!![],'nofade':!![],'top':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x3a')}},[_0x8c5682['_v'](a49_0x55bd('0x3c'))])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':a49_0x55bd('0xe'),'rawName':'v-b-tooltip.click.nofade.right','value':a49_0x55bd('0xc'),'expression':'\x27Right\x20Tooltip\x27','modifiers':{'click':!![],'nofade':!![],'right':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x3a')}},[_0x8c5682['_v'](a49_0x55bd('0x5'))])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':a49_0x55bd('0xe'),'rawName':'v-b-tooltip.click.nofade.bottom','value':a49_0x55bd('0x1a'),'expression':a49_0x55bd('0x37'),'modifiers':{'click':!![],'nofade':!![],'bottom':!![]}}],'attrs':{'block':'','size':'sm','variant':'secondary'}},[_0x8c5682['_v']('Bottom\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':a49_0x55bd('0xe'),'rawName':a49_0x55bd('0x11'),'value':a49_0x55bd('0x21'),'expression':a49_0x55bd('0x36'),'modifiers':{'click':!![],'nofade':!![],'left':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x3a')}},[_0x8c5682['_v'](a49_0x55bd('0x34'))])],0x1)],0x1)],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0x25'),{'attrs':{'title':a49_0x55bd('0x16')}},[_0x5e8fe7('p',{'staticClass':a49_0x55bd('0x26')},[_0x8c5682['_v'](a49_0x55bd('0x2f'))]),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0x3e'),{'staticClass':a49_0x55bd('0x28')},[_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7('b-button',{'directives':[{'name':'b-tooltip','rawName':a49_0x55bd('0x12'),'value':a49_0x55bd('0xd'),'expression':a49_0x55bd('0x1e'),'modifiers':{'hover':!![],'top':!![]}}],'attrs':{'block':'','size':'sm','variant':'secondary'}},[_0x8c5682['_v']('Top\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':a49_0x55bd('0xe'),'rawName':'v-b-tooltip.hover.right','value':'Right\x20Tooltip','expression':a49_0x55bd('0x29'),'modifiers':{'hover':!![],'right':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x3a')}},[_0x8c5682['_v'](a49_0x55bd('0x15'))])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':'b-tooltip','rawName':a49_0x55bd('0x1c'),'value':a49_0x55bd('0x1a'),'expression':a49_0x55bd('0x37'),'modifiers':{'hover':!![],'bottom':!![]}}],'attrs':{'block':'','size':'sm','variant':'secondary'}},[_0x8c5682['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Bottom\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7('b-col',{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':'b-tooltip','rawName':a49_0x55bd('0x1d'),'value':a49_0x55bd('0x21'),'expression':a49_0x55bd('0x36'),'modifiers':{'hover':!![],'left':!![]}}],'attrs':{'block':'','size':'sm','variant':'secondary'}},[_0x8c5682['_v']('Left\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)],0x1)],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0x25'),{'attrs':{'title':'HTML'}},[_0x5e8fe7('p',{'staticClass':a49_0x55bd('0x26')},[_0x8c5682['_v'](a49_0x55bd('0x0'))]),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0x3e'),{'staticClass':'items-push\x20text-center'},[_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':'b-tooltip','rawName':a49_0x55bd('0x23'),'value':a49_0x55bd('0x2b'),'expression':a49_0x55bd('0x3b'),'modifiers':{'hover':!![],'html':!![],'nofade':!![],'top':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x3a')}},[_0x8c5682['_v'](a49_0x55bd('0x1b'))])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7('b-col',{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':a49_0x55bd('0xe'),'rawName':'v-b-tooltip.hover.html.nofade.right','value':'<img\x20class=\x27img-avatar\x27\x20src=\x27/images/avatars/avatar10.jpg\x27\x20alt=\x27\x27>','expression':a49_0x55bd('0x3b'),'modifiers':{'hover':!![],'html':!![],'nofade':!![],'right':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x3a')}},[_0x8c5682['_v'](a49_0x55bd('0x5'))])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7('b-col',{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':'b-tooltip','rawName':a49_0x55bd('0x1'),'value':'<img\x20class=\x27img-avatar\x27\x20src=\x27/images/avatars/avatar10.jpg\x27\x20alt=\x27\x27>','expression':a49_0x55bd('0x3b'),'modifiers':{'hover':!![],'html':!![],'nofade':!![],'bottom':!![]}}],'attrs':{'block':'','size':'sm','variant':'secondary'}},[_0x8c5682['_v'](a49_0x55bd('0x10'))])],0x1),_0x8c5682['_v']('\x20'),_0x5e8fe7(a49_0x55bd('0xb'),{'attrs':{'sm':'6','xl':'3'}},[_0x5e8fe7(a49_0x55bd('0x17'),{'directives':[{'name':'b-tooltip','rawName':a49_0x55bd('0x22'),'value':a49_0x55bd('0x2b'),'expression':a49_0x55bd('0x3b'),'modifiers':{'hover':!![],'html':!![],'nofade':!![],'left':!![]}}],'attrs':{'block':'','size':'sm','variant':a49_0x55bd('0x3a')}},[_0x8c5682['_v'](a49_0x55bd('0x34'))])],0x1)],0x1)],0x1)],0x1)],0x1);};var _0x2391d4=[];_0x1f172f[a49_0x55bd('0x9')]=!![];},'./resources/js/src/views/elements/Tooltips.vue':function(_0xe8e27b,_0x1a08e3,_0x239cde){'use strict';_0x239cde['r'](_0x1a08e3);var _0x21765d=_0x239cde(a49_0x55bd('0x8'));var _0x4676ff=_0x239cde(a49_0x55bd('0x32'));var _0x27a94a={};var _0x3a4b37=Object(_0x4676ff[a49_0x55bd('0xf')])(_0x27a94a,_0x21765d[a49_0x55bd('0x18')],_0x21765d[a49_0x55bd('0x31')],![],null,null,null);if(![]){var _0x42b952;}_0x3a4b37['options'][a49_0x55bd('0x19')]=a49_0x55bd('0x38');_0x1a08e3[a49_0x55bd('0xf')]=_0x3a4b37[a49_0x55bd('0x2e')];},'./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&':function(_0x4e52ef,_0x448cea,_0x351ff6){'use strict';_0x351ff6['r'](_0x448cea);var _0x6ea4b7=_0x351ff6(a49_0x55bd('0x14'));_0x351ff6['d'](_0x448cea,a49_0x55bd('0x18'),function(){return _0x6ea4b7[a49_0x55bd('0x18')];});_0x351ff6['d'](_0x448cea,'staticRenderFns',function(){return _0x6ea4b7[a49_0x55bd('0x31')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[49],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Attach optional info to an element.",
+          title: "Tooltips"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Tooltips")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { attrs: { title: "Default" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v("\n                Show tooltips on hover\n            ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.nofade.top",
+                              value: "Top Tooltip",
+                              expression: "'Top Tooltip'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                top: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "primary" }
+                        },
+                        [_vm._v("Top\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.nofade.right",
+                              value: "Right Tooltip",
+                              expression: "'Right Tooltip'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                right: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Right\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.nofade.bottom",
+                              value: "Bottom Tooltip",
+                              expression: "'Bottom Tooltip'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                bottom: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Bottom\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.nofade.left",
+                              value: "Left Tooltip",
+                              expression: "'Left Tooltip'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                left: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Left\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Click Triggered" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v("\n                Show tooltips on hover\n            ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.click.nofade.top",
+                              value: "Top Tooltip",
+                              expression: "'Top Tooltip'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                top: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [_vm._v("Top\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.click.nofade.right",
+                              value: "Right Tooltip",
+                              expression: "'Right Tooltip'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                right: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Right\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.click.nofade.bottom",
+                              value: "Bottom Tooltip",
+                              expression: "'Bottom Tooltip'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                bottom: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [_vm._v("Bottom\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.click.nofade.left",
+                              value: "Left Tooltip",
+                              expression: "'Left Tooltip'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                left: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Left\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Animation" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                You can enable a fade animation to your tooltips\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.top",
+                              value: "Top Tooltip",
+                              expression: "'Top Tooltip'",
+                              modifiers: { hover: true, top: true }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [_vm._v("Top\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.right",
+                              value: "Right Tooltip",
+                              expression: "'Right Tooltip'",
+                              modifiers: { hover: true, right: true }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [_vm._v("Right\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.bottom",
+                              value: "Bottom Tooltip",
+                              expression: "'Bottom Tooltip'",
+                              modifiers: { hover: true, bottom: true }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Bottom\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.left",
+                              value: "Left Tooltip",
+                              expression: "'Left Tooltip'",
+                              modifiers: { hover: true, left: true }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [_vm._v("Left\n                    ")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "HTML" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                You can add HTML in your tooltips as well\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.html.nofade.top",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                top: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Top\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.html.nofade.right",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                right: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Right\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.html.nofade.bottom",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                bottom: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Bottom\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-tooltip",
+                              rawName: "v-b-tooltip.hover.html.nofade.left",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                left: true
+                              }
+                            }
+                          ],
+                          attrs: { block: "", size: "sm", variant: "secondary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Left\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Tooltips.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/src/views/elements/Tooltips.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tooltips.vue?vue&type=template&id=28ea4d6e& */ "./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Tooltips.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tooltips.vue?vue&type=template&id=28ea4d6e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tooltips.vue?vue&type=template&id=28ea4d6e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tooltips_vue_vue_type_template_id_28ea4d6e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

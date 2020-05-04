@@ -1,1 +1,2023 @@
-var a11_0x58f5=['\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20also\x20alter\x20the\x20size\x20of\x20your\x20inputs\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Alternative\x20Style..','Sizes','Default\x20Style..','States','Valid\x20State','Select','Option\x20#2','b-form-invalid-feedback','example-password-input','content','example-text-input-lg','b-col','Option\x20#4','example-text-input','selectedCheckboxes','example-textarea-input-alt','b-form-input','b-breadcrumb-item','Invalid\x20State','base-page-heading','_self','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','Label\x20in\x20the\x20Grid','cols=\x229\x22','push','./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js&','Option\x20#7','example-file-input-multiple-custom','example-select-multiple','Option\x203','Option\x202','selectedRadios','b-form-select','example-select','example-text-input-normal','Select\x20Multiple','Option\x20#9','resources/js/src/views/forms/Elements.vue','Large','example-text-input-sm','b-form-radio-group','example-password-input-alt','example-static-input-readonly','Inline\x20Switches','size=\x22sm\x22','Option\x20#1','size=\x22lg\x22','form-control-alt','Inline\x20Checkboxes','b-form','example-text-input-valid','email@example.com','Please\x20select','cols=\x228\x22','Option\x20#8','cols=\x2210\x22','Elements','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Browser’s\x20default\x20select\x20boxes,\x20showcasing\x20both\x20simple\x20and\x20multiple\x20selections\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','example-text-input-normal-alt','example-text-input-invalid-alt','Forms','$createElement','webpackJsonp','options','cols=\x223\x22','b-form-checkbox-group','cols=\x226\x22','example-text-input-sm-alt','example-email-input','cols=\x224\x22','b-form-textarea','default','selectedMultiple','font-size-sm\x20text-muted','staticRenderFns','example-file-input-multiple','example-text-input-invalid','Password','example-file-input','b-row','Textarea','render','javascript:void(0)','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20enable\x20an\x20alternative\x20style\x20with\x20background\x20color\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Option\x201','Plain\x20Text','optionsRadios','Normal','example-disabled-input','example-file-input-custom','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Browser’s\x20default\x20checkboxes\x20and\x20radios\x20in\x20various\x20layouts\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Email\x20Input','Password\x20Input','Textarea\x20content..','example-static-input-plain','Inline\x20Radios','Bootstrap’s\x20Custom\x20File\x20Input\x20(Multiple)','_withStripped','optionsMultiple','example-select-multiple-custom','Disabled\x20State..','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Valid\x20feedback\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','extra','example-select-custom','selected','div','Custom\x20Controls','Option\x20#6','example-text-input-lg-alt','b-form-group','example-text-input-alt','optionsCheckboxes','Checkboxes','Radios','Option\x20#3','Text\x20Input','cols=\x225\x22','Switches','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20The\x20most\x20often\x20used\x20inputs\x20you\x20know\x20and\x20love\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Form\x20Elements','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20also\x20take\x20advantage\x20of\x20the\x20grid\x20to\x20manipulate\x20your\x20input\x20width\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Option\x20#5','font-w600','example-text-input-invalid-alt-feedback','./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe&','b-form-file','example-textarea-input','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20There\x20are\x20various\x20states\x20an\x20input\x20can\x20have\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-form-valid-feedback','Bootstrap’s\x20Custom\x20File\x20Input','File\x20Input','Option\x20#10','base-block'];(function(_0x6ac72d,_0x58f5f7){var _0x418359=function(_0x1b2b45){while(--_0x1b2b45){_0x6ac72d['push'](_0x6ac72d['shift']());}};_0x418359(++_0x58f5f7);}(a11_0x58f5,0x80));var a11_0x4183=function(_0x6ac72d,_0x58f5f7){_0x6ac72d=_0x6ac72d-0x0;var _0x418359=a11_0x58f5[_0x6ac72d];return _0x418359;};(window[a11_0x4183('0x45')]=window[a11_0x4183('0x45')]||[])[a11_0x4183('0x1f')]([[0xb],{'./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js&':function(_0x36d161,_0x226e49,_0x18e7f6){'use strict';_0x18e7f6['r'](_0x226e49);_0x226e49[a11_0x4183('0x4e')]={'data':function _0x27a5c2(){return{'selected':null,'options':[{'value':null,'text':a11_0x4183('0x3b')},{'value':0x1,'text':a11_0x4183('0x34')},{'value':0x2,'text':a11_0x4183('0xd')},{'value':0x3,'text':a11_0x4183('0x79')},{'value':0x4,'text':a11_0x4183('0x13')},{'value':0x5,'text':a11_0x4183('0x80')},{'value':0x6,'text':a11_0x4183('0x72')},{'value':0x7,'text':a11_0x4183('0x21')},{'value':0x8,'text':a11_0x4183('0x3d')},{'value':0x9,'text':a11_0x4183('0x2b')},{'value':0xa,'text':a11_0x4183('0x4')}],'selectedMultiple':[],'optionsMultiple':[{'value':0x1,'text':a11_0x4183('0x34')},{'value':0x2,'text':a11_0x4183('0xd')},{'value':0x3,'text':a11_0x4183('0x79')},{'value':0x4,'text':a11_0x4183('0x13')},{'value':0x5,'text':a11_0x4183('0x80')},{'value':0x6,'text':a11_0x4183('0x72')},{'value':0x7,'text':a11_0x4183('0x21')},{'value':0x8,'text':a11_0x4183('0x3d')},{'value':0x9,'text':a11_0x4183('0x2b')},{'value':0xa,'text':a11_0x4183('0x4')}],'selectedCheckboxes':[],'optionsCheckboxes':[{'value':0x1,'text':a11_0x4183('0x5b')},{'value':0x2,'text':a11_0x4183('0x25')},{'value':0x3,'text':a11_0x4183('0x24')}],'selectedRadios':[],'optionsRadios':[{'value':0x1,'text':'Option\x201'},{'value':0x2,'text':'Option\x202'},{'value':0x3,'text':'Option\x203'}]};}};},'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe&':function(_0x46654f,_0x1405e0,_0x7e5086){'use strict';_0x7e5086['r'](_0x1405e0);_0x7e5086['d'](_0x1405e0,a11_0x4183('0x58'),function(){return _0x24b28d;});_0x7e5086['d'](_0x1405e0,a11_0x4183('0x51'),function(){return _0x199798;});var _0x24b28d=function(){var _0x6fd4cf=this;var _0x5549f9=_0x6fd4cf[a11_0x4183('0x44')];var _0x283514=_0x6fd4cf[a11_0x4183('0x1b')]['_c']||_0x5549f9;return _0x283514('div',[_0x283514(a11_0x4183('0x1a'),{'attrs':{'subtitle':'Carefully\x20designed\x20elements\x20that\x20will\x20ensure\x20a\x20great\x20experience\x20for\x20your\x20users.','title':a11_0x4183('0x7e')},'scopedSlots':_0x6fd4cf['_u']([{'key':a11_0x4183('0x6d'),'fn':function(){return[_0x283514('b-breadcrumb',{'staticClass':'breadcrumb-alt'},[_0x283514(a11_0x4183('0x18'),{'attrs':{'href':a11_0x4183('0x59')}},[_0x6fd4cf['_v'](a11_0x4183('0x43'))]),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x18'),{'attrs':{'active':''}},[_0x6fd4cf['_v'](a11_0x4183('0x3f'))])],0x1)];},'proxy':!![]}])}),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x70'),{'staticClass':a11_0x4183('0x10')},[_0x283514(a11_0x4183('0x5'),{'attrs':{'content-full':'','title':'Basic'}},[_0x283514('b-form',[_0x283514(a11_0x4183('0x56'),{'staticClass':a11_0x4183('0x1f')},[_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':a11_0x4183('0x50')},[_0x6fd4cf['_v'](a11_0x4183('0x7d'))])]),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'8','xl':'5'}},[_0x283514('b-form-group',{'attrs':{'label':'Text','label-for':a11_0x4183('0x14')}},[_0x283514(a11_0x4183('0x17'),{'attrs':{'id':a11_0x4183('0x14'),'placeholder':a11_0x4183('0x7a')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':'Email','label-for':a11_0x4183('0x4b')}},[_0x283514(a11_0x4183('0x17'),{'attrs':{'id':a11_0x4183('0x4b'),'placeholder':a11_0x4183('0x62'),'type':'email'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x54'),'label-for':a11_0x4183('0xf')}},[_0x283514(a11_0x4183('0x17'),{'attrs':{'id':a11_0x4183('0xf'),'placeholder':a11_0x4183('0x63'),'type':'password'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x57'),'label-for':a11_0x4183('0x85')}},[_0x283514('b-form-textarea',{'attrs':{'id':a11_0x4183('0x85'),'placeholder':a11_0x4183('0x64'),'rows':'4'}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x56'),{'staticClass':a11_0x4183('0x1f')},[_0x283514('b-col',{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x6fd4cf['_v'](a11_0x4183('0x40'))])]),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'8','xl':'5'}},[_0x283514(a11_0x4183('0x74'),{'attrs':{'label':'Select','label-for':'example-select'}},[_0x283514(a11_0x4183('0x27'),{'attrs':{'options':_0x6fd4cf[a11_0x4183('0x46')],'id':a11_0x4183('0x28'),'plain':''},'model':{'value':_0x6fd4cf[a11_0x4183('0x6f')],'callback':function(_0x434052){_0x6fd4cf[a11_0x4183('0x6f')]=_0x434052;},'expression':a11_0x4183('0x6f')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x2a'),'label-for':a11_0x4183('0x23')}},[_0x283514(a11_0x4183('0x27'),{'attrs':{'options':_0x6fd4cf[a11_0x4183('0x69')],'id':a11_0x4183('0x23'),'multiple':'','plain':'','size':'5'},'model':{'value':_0x6fd4cf[a11_0x4183('0x4f')],'callback':function(_0x195c8f){_0x6fd4cf[a11_0x4183('0x4f')]=_0x195c8f;},'expression':a11_0x4183('0x4f')}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x56'),{'staticClass':a11_0x4183('0x1f')},[_0x283514('b-col',{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x6fd4cf['_v'](a11_0x4183('0x61'))])]),_0x6fd4cf['_v']('\x20'),_0x283514('b-col',{'attrs':{'lg':'8','xl':'5'}},[_0x283514('b-form-group',{'attrs':{'label':a11_0x4183('0x77'),'label-class':a11_0x4183('0x81')}},[_0x283514('b-form-checkbox-group',{'attrs':{'options':_0x6fd4cf[a11_0x4183('0x76')],'plain':'','stacked':''},'model':{'value':_0x6fd4cf[a11_0x4183('0x15')],'callback':function(_0x8d50a0){_0x6fd4cf[a11_0x4183('0x15')]=_0x8d50a0;},'expression':a11_0x4183('0x15')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x37'),'label-class':a11_0x4183('0x81')}},[_0x283514(a11_0x4183('0x48'),{'attrs':{'options':_0x6fd4cf[a11_0x4183('0x76')],'plain':''},'model':{'value':_0x6fd4cf[a11_0x4183('0x15')],'callback':function(_0x4c6abf){_0x6fd4cf['selectedCheckboxes']=_0x4c6abf;},'expression':a11_0x4183('0x15')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x78'),'label-class':'font-w600'}},[_0x283514(a11_0x4183('0x2f'),{'attrs':{'options':_0x6fd4cf['optionsRadios'],'plain':'','stacked':''},'model':{'value':_0x6fd4cf['selectedRadios'],'callback':function(_0x3a0564){_0x6fd4cf[a11_0x4183('0x26')]=_0x3a0564;},'expression':a11_0x4183('0x26')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x66'),'label-class':'font-w600'}},[_0x283514(a11_0x4183('0x2f'),{'attrs':{'options':_0x6fd4cf[a11_0x4183('0x5d')],'plain':''},'model':{'value':_0x6fd4cf[a11_0x4183('0x26')],'callback':function(_0x37ee84){_0x6fd4cf[a11_0x4183('0x26')]=_0x37ee84;},'expression':a11_0x4183('0x26')}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x56'),{'staticClass':a11_0x4183('0x1f')},[_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':a11_0x4183('0x50')},[_0x6fd4cf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Browser’s\x20default\x20file\x20inputs,\x20showcasing\x20both\x20single\x20and\x20multiple\x20files\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'8','xl':'5'}},[_0x283514('b-form-group',{'attrs':{'label':a11_0x4183('0x3'),'label-for':'example-file-input'}},[_0x283514('b-form-file',{'attrs':{'id':a11_0x4183('0x55'),'plain':''}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':'File\x20Input\x20(Multiple)','label-for':a11_0x4183('0x52')}},[_0x283514(a11_0x4183('0x84'),{'attrs':{'id':a11_0x4183('0x52'),'multiple':'','plain':''}})],0x1)],0x1)],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x5'),{'attrs':{'content-full':'','title':'Alternative\x20Style'}},[_0x283514('b-form',[_0x283514(a11_0x4183('0x56'),{'staticClass':a11_0x4183('0x1f')},[_0x283514('b-col',{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':a11_0x4183('0x50')},[_0x6fd4cf['_v'](a11_0x4183('0x5a'))])]),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'8','xl':'5'}},[_0x283514(a11_0x4183('0x74'),{'attrs':{'label':'Text','label-for':a11_0x4183('0x75')}},[_0x283514(a11_0x4183('0x17'),{'staticClass':a11_0x4183('0x36'),'attrs':{'id':a11_0x4183('0x75'),'placeholder':a11_0x4183('0x7a')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':'Password','label-for':a11_0x4183('0x30')}},[_0x283514(a11_0x4183('0x17'),{'staticClass':'form-control-alt','attrs':{'id':a11_0x4183('0x30'),'placeholder':a11_0x4183('0x63'),'type':'password'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('b-form-group',{'attrs':{'label':a11_0x4183('0x57'),'label-for':a11_0x4183('0x16')}},[_0x283514(a11_0x4183('0x4d'),{'staticClass':a11_0x4183('0x36'),'attrs':{'id':'example-textarea-input-alt','placeholder':a11_0x4183('0x64'),'rows':'7'}})],0x1)],0x1)],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('base-block',{'attrs':{'content-full':'','title':a11_0x4183('0x71')}},[_0x283514(a11_0x4183('0x38'),[_0x283514(a11_0x4183('0x56'),{'staticClass':a11_0x4183('0x1f')},[_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':a11_0x4183('0x50')},[_0x6fd4cf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20A\x20custom\x20style\x20is\x20also\x20included\x20for\x20checkboxes,\x20radios,\x20select\x20boxes\x20and\x20files\x20inputs\x20as\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20well\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'8','xl':'5'}},[_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x7c'),'label-class':a11_0x4183('0x81')}},[_0x283514('b-form-checkbox-group',{'attrs':{'options':_0x6fd4cf['optionsCheckboxes'],'stacked':'','switches':''},'model':{'value':_0x6fd4cf[a11_0x4183('0x15')],'callback':function(_0x2e89e9){_0x6fd4cf[a11_0x4183('0x15')]=_0x2e89e9;},'expression':a11_0x4183('0x15')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('b-form-group',{'attrs':{'label':a11_0x4183('0x32'),'label-class':a11_0x4183('0x81')}},[_0x283514(a11_0x4183('0x48'),{'attrs':{'options':_0x6fd4cf[a11_0x4183('0x76')],'switches':''},'model':{'value':_0x6fd4cf[a11_0x4183('0x15')],'callback':function(_0x556ab9){_0x6fd4cf[a11_0x4183('0x15')]=_0x556ab9;},'expression':a11_0x4183('0x15')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x77'),'label-class':'font-w600'}},[_0x283514(a11_0x4183('0x48'),{'attrs':{'options':_0x6fd4cf['optionsCheckboxes'],'stacked':''},'model':{'value':_0x6fd4cf['selectedCheckboxes'],'callback':function(_0x16a04d){_0x6fd4cf[a11_0x4183('0x15')]=_0x16a04d;},'expression':a11_0x4183('0x15')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x37'),'label-class':a11_0x4183('0x81')}},[_0x283514(a11_0x4183('0x48'),{'attrs':{'options':_0x6fd4cf['optionsCheckboxes']},'model':{'value':_0x6fd4cf[a11_0x4183('0x15')],'callback':function(_0x4bd5fc){_0x6fd4cf[a11_0x4183('0x15')]=_0x4bd5fc;},'expression':'selectedCheckboxes'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x78'),'label-class':a11_0x4183('0x81')}},[_0x283514(a11_0x4183('0x2f'),{'attrs':{'options':_0x6fd4cf[a11_0x4183('0x5d')],'stacked':''},'model':{'value':_0x6fd4cf['selectedRadios'],'callback':function(_0x1783ae){_0x6fd4cf['selectedRadios']=_0x1783ae;},'expression':a11_0x4183('0x26')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x66'),'label-class':'font-w600'}},[_0x283514('b-form-radio-group',{'attrs':{'options':_0x6fd4cf[a11_0x4183('0x5d')]},'model':{'value':_0x6fd4cf[a11_0x4183('0x26')],'callback':function(_0x27e24e){_0x6fd4cf[a11_0x4183('0x26')]=_0x27e24e;},'expression':'selectedRadios'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0xc'),'label-for':a11_0x4183('0x6e')}},[_0x283514(a11_0x4183('0x27'),{'attrs':{'options':_0x6fd4cf['options'],'id':a11_0x4183('0x6e')},'model':{'value':_0x6fd4cf[a11_0x4183('0x6f')],'callback':function(_0x2aae89){_0x6fd4cf[a11_0x4183('0x6f')]=_0x2aae89;},'expression':a11_0x4183('0x6f')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('b-form-group',{'attrs':{'label':'Select\x20Multiple','label-for':a11_0x4183('0x6a')}},[_0x283514(a11_0x4183('0x27'),{'attrs':{'options':_0x6fd4cf[a11_0x4183('0x69')],'id':'example-select-multiple-custom','multiple':'','size':'5'},'model':{'value':_0x6fd4cf['selectedMultiple'],'callback':function(_0x10ed87){_0x6fd4cf[a11_0x4183('0x4f')]=_0x10ed87;},'expression':a11_0x4183('0x4f')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x2'),'label-for':a11_0x4183('0x60')}},[_0x283514('b-form-file',{'attrs':{'id':a11_0x4183('0x60')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x67'),'label-for':a11_0x4183('0x22')}},[_0x283514('b-form-file',{'attrs':{'id':'example-file-input-multiple-custom','multiple':''}})],0x1)],0x1)],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('base-block',{'attrs':{'content-full':'','title':'Static'}},[_0x283514(a11_0x4183('0x38'),[_0x283514('b-row',{'staticClass':'push'},[_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':a11_0x4183('0x50')},[_0x6fd4cf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20easily\x20have\x20static\x20readonly\x20inputs\x20with\x20different\x20styles\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x6fd4cf['_v']('\x20'),_0x283514('b-col',{'attrs':{'lg':'8','xl':'5'}},[_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x5c'),'label-for':'example-static-input-plain'}},[_0x283514(a11_0x4183('0x17'),{'attrs':{'id':a11_0x4183('0x65'),'placeholder':'Text\x20Input','plaintext':'','value':a11_0x4183('0x3a')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':'Read\x20Only','label-for':'example-static-input-readonly'}},[_0x283514(a11_0x4183('0x17'),{'attrs':{'id':a11_0x4183('0x31'),'placeholder':a11_0x4183('0x7a'),'readonly':'','value':a11_0x4183('0x3a')}})],0x1)],0x1)],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x5'),{'attrs':{'content-full':'','title':a11_0x4183('0xa')}},[_0x283514(a11_0x4183('0x38'),[_0x283514(a11_0x4183('0x56'),{'staticClass':a11_0x4183('0x1f')},[_0x283514('b-col',{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':a11_0x4183('0x50')},[_0x6fd4cf['_v'](a11_0x4183('0x0'))])]),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'8','xl':'5'}},[_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0xb'),'label-for':'example-text-input-valid'}},[_0x283514(a11_0x4183('0x17'),{'attrs':{'state':!![],'id':a11_0x4183('0x39'),'placeholder':a11_0x4183('0x9')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('b-form-group',[_0x283514(a11_0x4183('0x17'),{'staticClass':'form-control-alt','attrs':{'state':!![],'id':'example-text-input-valid-alt','placeholder':'Alternative\x20Style..'}}),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x1'),{'attrs':{'id':'example-text-input-valid-alt-feedback'}},[_0x6fd4cf['_v'](a11_0x4183('0x6c'))])],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x19'),'label-for':'example-text-input-invalid'}},[_0x283514(a11_0x4183('0x17'),{'attrs':{'state':![],'id':a11_0x4183('0x53'),'placeholder':a11_0x4183('0x9')}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'staticClass':a11_0x4183('0x36'),'attrs':{'state':![],'id':a11_0x4183('0x42'),'placeholder':a11_0x4183('0x7')}}),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0xe'),{'attrs':{'id':a11_0x4183('0x82')}},[_0x6fd4cf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Invalid\x20feedback\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':'Disabled','label-for':'example-disabled-input'}},[_0x283514(a11_0x4183('0x17'),{'attrs':{'disabled':'','id':a11_0x4183('0x5f'),'placeholder':a11_0x4183('0x6b')}})],0x1)],0x1)],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x5'),{'attrs':{'content-full':'','title':a11_0x4183('0x8')}},[_0x283514(a11_0x4183('0x38'),[_0x283514(a11_0x4183('0x56'),{'staticClass':a11_0x4183('0x1f')},[_0x283514('b-col',{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x6fd4cf['_v'](a11_0x4183('0x6'))])]),_0x6fd4cf['_v']('\x20'),_0x283514('b-col',{'attrs':{'lg':'8','xl':'5'}},[_0x283514(a11_0x4183('0x74'),{'attrs':{'label':'Small','label-for':a11_0x4183('0x2e')}},[_0x283514('b-form-input',{'attrs':{'id':a11_0x4183('0x2e'),'placeholder':a11_0x4183('0x33'),'size':'sm'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'staticClass':a11_0x4183('0x36'),'attrs':{'id':a11_0x4183('0x4a'),'placeholder':a11_0x4183('0x33'),'size':'sm'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x5e'),'label-for':'example-text-normal-sm'}},[_0x283514('b-form-input',{'attrs':{'id':a11_0x4183('0x29'),'placeholder':'..'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),[_0x283514('b-form-input',{'staticClass':a11_0x4183('0x36'),'attrs':{'id':a11_0x4183('0x41'),'placeholder':'..'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x2d'),'label-for':a11_0x4183('0x11')}},[_0x283514('b-form-input',{'attrs':{'id':a11_0x4183('0x11'),'placeholder':a11_0x4183('0x35'),'size':'lg'}})],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'staticClass':a11_0x4183('0x36'),'attrs':{'id':a11_0x4183('0x73'),'placeholder':a11_0x4183('0x35'),'size':'lg'}})],0x1)],0x1)],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('base-block',{'attrs':{'content-full':'','title':'Grid\x20Sizes'}},[_0x283514(a11_0x4183('0x38'),[_0x283514(a11_0x4183('0x56'),{'staticClass':a11_0x4183('0x1f')},[_0x283514(a11_0x4183('0x12'),{'attrs':{'lg':'4'}},[_0x283514('p',{'staticClass':a11_0x4183('0x50')},[_0x6fd4cf['_v'](a11_0x4183('0x7f'))])]),_0x6fd4cf['_v']('\x20'),_0x283514('b-col',{'attrs':{'lg':'8'}},[_0x283514(a11_0x4183('0x56'),[_0x283514(a11_0x4183('0x12'),{'attrs':{'cols':'3'}},[_0x283514(a11_0x4183('0x74'),{'attrs':{'label':a11_0x4183('0x1d'),'label-class':a11_0x4183('0x81')}},[_0x283514(a11_0x4183('0x17'),{'attrs':{'placeholder':a11_0x4183('0x47')}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x56'),[_0x283514(a11_0x4183('0x12'),{'attrs':{'cols':'4'}},[_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'attrs':{'placeholder':a11_0x4183('0x4c')}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x56'),[_0x283514(a11_0x4183('0x12'),{'attrs':{'cols':'5'}},[_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'attrs':{'placeholder':a11_0x4183('0x7b')}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('b-row',[_0x283514(a11_0x4183('0x12'),{'attrs':{'cols':'6'}},[_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'attrs':{'placeholder':a11_0x4183('0x49')}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x56'),[_0x283514(a11_0x4183('0x12'),{'attrs':{'cols':'7'}},[_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'attrs':{'placeholder':'cols=\x227\x22'}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('b-row',[_0x283514('b-col',{'attrs':{'cols':'8'}},[_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'attrs':{'placeholder':a11_0x4183('0x3c')}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x56'),[_0x283514(a11_0x4183('0x12'),{'attrs':{'cols':'9'}},[_0x283514('b-form-group',[_0x283514('b-form-input',{'attrs':{'placeholder':a11_0x4183('0x1e')}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514('b-row',[_0x283514(a11_0x4183('0x12'),{'attrs':{'cols':'10'}},[_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'attrs':{'placeholder':a11_0x4183('0x3e')}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x56'),[_0x283514('b-col',{'attrs':{'cols':'11'}},[_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'attrs':{'placeholder':'cols=\x2211\x22'}})],0x1)],0x1)],0x1),_0x6fd4cf['_v']('\x20'),_0x283514(a11_0x4183('0x56'),[_0x283514(a11_0x4183('0x12'),{'attrs':{'cols':'12'}},[_0x283514(a11_0x4183('0x74'),[_0x283514(a11_0x4183('0x17'),{'attrs':{'placeholder':'cols=\x2212\x22'}})],0x1)],0x1)],0x1)],0x1)],0x1)],0x1)],0x1)],0x1)],0x1);};var _0x199798=[];_0x24b28d[a11_0x4183('0x68')]=!![];},'./resources/js/src/views/forms/Elements.vue':function(_0x278bcb,_0x384729,_0x3a48e1){'use strict';_0x3a48e1['r'](_0x384729);var _0x479d24=_0x3a48e1(a11_0x4183('0x83'));var _0x1cd85e=_0x3a48e1(a11_0x4183('0x20'));var _0x518c59=_0x3a48e1(a11_0x4183('0x1c'));var _0x117c83=Object(_0x518c59[a11_0x4183('0x4e')])(_0x1cd85e[a11_0x4183('0x4e')],_0x479d24[a11_0x4183('0x58')],_0x479d24[a11_0x4183('0x51')],![],null,null,null);if(![]){var _0x182646;}_0x117c83[a11_0x4183('0x46')]['__file']=a11_0x4183('0x2c');_0x384729[a11_0x4183('0x4e')]=_0x117c83['exports'];},'./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js&':function(_0x30ef7a,_0x421d78,_0x947e37){'use strict';_0x947e37['r'](_0x421d78);var _0x3e6f1b=_0x947e37('./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js&');_0x421d78[a11_0x4183('0x4e')]=_0x3e6f1b[a11_0x4183('0x4e')];},'./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe&':function(_0x576c7e,_0x2f3732,_0x56e5ef){'use strict';_0x56e5ef['r'](_0x2f3732);var _0x45603c=_0x56e5ef('./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe&');_0x56e5ef['d'](_0x2f3732,a11_0x4183('0x58'),function(){return _0x45603c['render'];});_0x56e5ef['d'](_0x2f3732,a11_0x4183('0x51'),function(){return _0x45603c['staticRenderFns'];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[11],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      selected: null,
+      options: [{
+        value: null,
+        text: 'Please select'
+      }, {
+        value: 1,
+        text: 'Option #1'
+      }, {
+        value: 2,
+        text: 'Option #2'
+      }, {
+        value: 3,
+        text: 'Option #3'
+      }, {
+        value: 4,
+        text: 'Option #4'
+      }, {
+        value: 5,
+        text: 'Option #5'
+      }, {
+        value: 6,
+        text: 'Option #6'
+      }, {
+        value: 7,
+        text: 'Option #7'
+      }, {
+        value: 8,
+        text: 'Option #8'
+      }, {
+        value: 9,
+        text: 'Option #9'
+      }, {
+        value: 10,
+        text: 'Option #10'
+      }],
+      selectedMultiple: [],
+      optionsMultiple: [{
+        value: 1,
+        text: 'Option #1'
+      }, {
+        value: 2,
+        text: 'Option #2'
+      }, {
+        value: 3,
+        text: 'Option #3'
+      }, {
+        value: 4,
+        text: 'Option #4'
+      }, {
+        value: 5,
+        text: 'Option #5'
+      }, {
+        value: 6,
+        text: 'Option #6'
+      }, {
+        value: 7,
+        text: 'Option #7'
+      }, {
+        value: 8,
+        text: 'Option #8'
+      }, {
+        value: 9,
+        text: 'Option #9'
+      }, {
+        value: 10,
+        text: 'Option #10'
+      }],
+      selectedCheckboxes: [],
+      optionsCheckboxes: [{
+        value: 1,
+        text: 'Option 1'
+      }, {
+        value: 2,
+        text: 'Option 2'
+      }, {
+        value: 3,
+        text: 'Option 3'
+      }],
+      selectedRadios: [],
+      optionsRadios: [{
+        value: 1,
+        text: 'Option 1'
+      }, {
+        value: 2,
+        text: 'Option 2'
+      }, {
+        value: 3,
+        text: 'Option 3'
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle:
+            "Carefully designed elements that will ensure a great experience for your users.",
+          title: "Form Elements"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Forms")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Elements")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { attrs: { "content-full": "", title: "Basic" } },
+            [
+              _c(
+                "b-form",
+                [
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            The most often used inputs you know and love\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8", xl: "5" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Text",
+                                "label-for": "example-text-input"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  id: "example-text-input",
+                                  placeholder: "Text Input"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Email",
+                                "label-for": "example-email-input"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  id: "example-email-input",
+                                  placeholder: "Email Input",
+                                  type: "email"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Password",
+                                "label-for": "example-password-input"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  id: "example-password-input",
+                                  placeholder: "Password Input",
+                                  type: "password"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Textarea",
+                                "label-for": "example-textarea-input"
+                              }
+                            },
+                            [
+                              _c("b-form-textarea", {
+                                attrs: {
+                                  id: "example-textarea-input",
+                                  placeholder: "Textarea content..",
+                                  rows: "4"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            Browser’s default select boxes, showcasing both simple and multiple selections\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8", xl: "5" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Select",
+                                "label-for": "example-select"
+                              }
+                            },
+                            [
+                              _c("b-form-select", {
+                                attrs: {
+                                  options: _vm.options,
+                                  id: "example-select",
+                                  plain: ""
+                                },
+                                model: {
+                                  value: _vm.selected,
+                                  callback: function($$v) {
+                                    _vm.selected = $$v
+                                  },
+                                  expression: "selected"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Select Multiple",
+                                "label-for": "example-select-multiple"
+                              }
+                            },
+                            [
+                              _c("b-form-select", {
+                                attrs: {
+                                  options: _vm.optionsMultiple,
+                                  id: "example-select-multiple",
+                                  multiple: "",
+                                  plain: "",
+                                  size: "5"
+                                },
+                                model: {
+                                  value: _vm.selectedMultiple,
+                                  callback: function($$v) {
+                                    _vm.selectedMultiple = $$v
+                                  },
+                                  expression: "selectedMultiple"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            Browser’s default checkboxes and radios in various layouts\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8", xl: "5" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Checkboxes",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-checkbox-group", {
+                                attrs: {
+                                  options: _vm.optionsCheckboxes,
+                                  plain: "",
+                                  stacked: ""
+                                },
+                                model: {
+                                  value: _vm.selectedCheckboxes,
+                                  callback: function($$v) {
+                                    _vm.selectedCheckboxes = $$v
+                                  },
+                                  expression: "selectedCheckboxes"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Inline Checkboxes",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-checkbox-group", {
+                                attrs: {
+                                  options: _vm.optionsCheckboxes,
+                                  plain: ""
+                                },
+                                model: {
+                                  value: _vm.selectedCheckboxes,
+                                  callback: function($$v) {
+                                    _vm.selectedCheckboxes = $$v
+                                  },
+                                  expression: "selectedCheckboxes"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Radios",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-radio-group", {
+                                attrs: {
+                                  options: _vm.optionsRadios,
+                                  plain: "",
+                                  stacked: ""
+                                },
+                                model: {
+                                  value: _vm.selectedRadios,
+                                  callback: function($$v) {
+                                    _vm.selectedRadios = $$v
+                                  },
+                                  expression: "selectedRadios"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Inline Radios",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-radio-group", {
+                                attrs: {
+                                  options: _vm.optionsRadios,
+                                  plain: ""
+                                },
+                                model: {
+                                  value: _vm.selectedRadios,
+                                  callback: function($$v) {
+                                    _vm.selectedRadios = $$v
+                                  },
+                                  expression: "selectedRadios"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            Browser’s default file inputs, showcasing both single and multiple files\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8", xl: "5" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "File Input",
+                                "label-for": "example-file-input"
+                              }
+                            },
+                            [
+                              _c("b-form-file", {
+                                attrs: { id: "example-file-input", plain: "" }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "File Input (Multiple)",
+                                "label-for": "example-file-input-multiple"
+                              }
+                            },
+                            [
+                              _c("b-form-file", {
+                                attrs: {
+                                  id: "example-file-input-multiple",
+                                  multiple: "",
+                                  plain: ""
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { "content-full": "", title: "Alternative Style" } },
+            [
+              _c(
+                "b-form",
+                [
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            You can enable an alternative style with background color\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8", xl: "5" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Text",
+                                "label-for": "example-text-input-alt"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                staticClass: "form-control-alt",
+                                attrs: {
+                                  id: "example-text-input-alt",
+                                  placeholder: "Text Input"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Password",
+                                "label-for": "example-password-input-alt"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                staticClass: "form-control-alt",
+                                attrs: {
+                                  id: "example-password-input-alt",
+                                  placeholder: "Password Input",
+                                  type: "password"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Textarea",
+                                "label-for": "example-textarea-input-alt"
+                              }
+                            },
+                            [
+                              _c("b-form-textarea", {
+                                staticClass: "form-control-alt",
+                                attrs: {
+                                  id: "example-textarea-input-alt",
+                                  placeholder: "Textarea content..",
+                                  rows: "7"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { "content-full": "", title: "Custom Controls" } },
+            [
+              _c(
+                "b-form",
+                [
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            A custom style is also included for checkboxes, radios, select boxes and files inputs as\n                            well\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8", xl: "5" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Switches",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-checkbox-group", {
+                                attrs: {
+                                  options: _vm.optionsCheckboxes,
+                                  stacked: "",
+                                  switches: ""
+                                },
+                                model: {
+                                  value: _vm.selectedCheckboxes,
+                                  callback: function($$v) {
+                                    _vm.selectedCheckboxes = $$v
+                                  },
+                                  expression: "selectedCheckboxes"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Inline Switches",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-checkbox-group", {
+                                attrs: {
+                                  options: _vm.optionsCheckboxes,
+                                  switches: ""
+                                },
+                                model: {
+                                  value: _vm.selectedCheckboxes,
+                                  callback: function($$v) {
+                                    _vm.selectedCheckboxes = $$v
+                                  },
+                                  expression: "selectedCheckboxes"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Checkboxes",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-checkbox-group", {
+                                attrs: {
+                                  options: _vm.optionsCheckboxes,
+                                  stacked: ""
+                                },
+                                model: {
+                                  value: _vm.selectedCheckboxes,
+                                  callback: function($$v) {
+                                    _vm.selectedCheckboxes = $$v
+                                  },
+                                  expression: "selectedCheckboxes"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Inline Checkboxes",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-checkbox-group", {
+                                attrs: { options: _vm.optionsCheckboxes },
+                                model: {
+                                  value: _vm.selectedCheckboxes,
+                                  callback: function($$v) {
+                                    _vm.selectedCheckboxes = $$v
+                                  },
+                                  expression: "selectedCheckboxes"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Radios",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-radio-group", {
+                                attrs: {
+                                  options: _vm.optionsRadios,
+                                  stacked: ""
+                                },
+                                model: {
+                                  value: _vm.selectedRadios,
+                                  callback: function($$v) {
+                                    _vm.selectedRadios = $$v
+                                  },
+                                  expression: "selectedRadios"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Inline Radios",
+                                "label-class": "font-w600"
+                              }
+                            },
+                            [
+                              _c("b-form-radio-group", {
+                                attrs: { options: _vm.optionsRadios },
+                                model: {
+                                  value: _vm.selectedRadios,
+                                  callback: function($$v) {
+                                    _vm.selectedRadios = $$v
+                                  },
+                                  expression: "selectedRadios"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Select",
+                                "label-for": "example-select-custom"
+                              }
+                            },
+                            [
+                              _c("b-form-select", {
+                                attrs: {
+                                  options: _vm.options,
+                                  id: "example-select-custom"
+                                },
+                                model: {
+                                  value: _vm.selected,
+                                  callback: function($$v) {
+                                    _vm.selected = $$v
+                                  },
+                                  expression: "selected"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Select Multiple",
+                                "label-for": "example-select-multiple-custom"
+                              }
+                            },
+                            [
+                              _c("b-form-select", {
+                                attrs: {
+                                  options: _vm.optionsMultiple,
+                                  id: "example-select-multiple-custom",
+                                  multiple: "",
+                                  size: "5"
+                                },
+                                model: {
+                                  value: _vm.selectedMultiple,
+                                  callback: function($$v) {
+                                    _vm.selectedMultiple = $$v
+                                  },
+                                  expression: "selectedMultiple"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Bootstrap’s Custom File Input",
+                                "label-for": "example-file-input-custom"
+                              }
+                            },
+                            [
+                              _c("b-form-file", {
+                                attrs: { id: "example-file-input-custom" }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label:
+                                  "Bootstrap’s Custom File Input (Multiple)",
+                                "label-for":
+                                  "example-file-input-multiple-custom"
+                              }
+                            },
+                            [
+                              _c("b-form-file", {
+                                attrs: {
+                                  id: "example-file-input-multiple-custom",
+                                  multiple: ""
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { "content-full": "", title: "Static" } },
+            [
+              _c(
+                "b-form",
+                [
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            You can easily have static readonly inputs with different styles\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8", xl: "5" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Plain Text",
+                                "label-for": "example-static-input-plain"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  id: "example-static-input-plain",
+                                  placeholder: "Text Input",
+                                  plaintext: "",
+                                  value: "email@example.com"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Read Only",
+                                "label-for": "example-static-input-readonly"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  id: "example-static-input-readonly",
+                                  placeholder: "Text Input",
+                                  readonly: "",
+                                  value: "email@example.com"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { "content-full": "", title: "States" } },
+            [
+              _c(
+                "b-form",
+                [
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            There are various states an input can have\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8", xl: "5" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Valid State",
+                                "label-for": "example-text-input-valid"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  state: true,
+                                  id: "example-text-input-valid",
+                                  placeholder: "Default Style.."
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("b-form-input", {
+                                staticClass: "form-control-alt",
+                                attrs: {
+                                  state: true,
+                                  id: "example-text-input-valid-alt",
+                                  placeholder: "Alternative Style.."
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "b-form-valid-feedback",
+                                {
+                                  attrs: {
+                                    id: "example-text-input-valid-alt-feedback"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Valid feedback\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Invalid State",
+                                "label-for": "example-text-input-invalid"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  state: false,
+                                  id: "example-text-input-invalid",
+                                  placeholder: "Default Style.."
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("b-form-input", {
+                                staticClass: "form-control-alt",
+                                attrs: {
+                                  state: false,
+                                  id: "example-text-input-invalid-alt",
+                                  placeholder: "Alternative Style.."
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "b-form-invalid-feedback",
+                                {
+                                  attrs: {
+                                    id:
+                                      "example-text-input-invalid-alt-feedback"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Invalid feedback\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Disabled",
+                                "label-for": "example-disabled-input"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  disabled: "",
+                                  id: "example-disabled-input",
+                                  placeholder: "Disabled State.."
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { "content-full": "", title: "Sizes" } },
+            [
+              _c(
+                "b-form",
+                [
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            You can also alter the size of your inputs\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8", xl: "5" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Small",
+                                "label-for": "example-text-input-sm"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  id: "example-text-input-sm",
+                                  placeholder: 'size="sm"',
+                                  size: "sm"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("b-form-input", {
+                                staticClass: "form-control-alt",
+                                attrs: {
+                                  id: "example-text-input-sm-alt",
+                                  placeholder: 'size="sm"',
+                                  size: "sm"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Normal",
+                                "label-for": "example-text-normal-sm"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  id: "example-text-input-normal",
+                                  placeholder: ".."
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("b-form-input", {
+                                staticClass: "form-control-alt",
+                                attrs: {
+                                  id: "example-text-input-normal-alt",
+                                  placeholder: ".."
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "Large",
+                                "label-for": "example-text-input-lg"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  id: "example-text-input-lg",
+                                  placeholder: 'size="lg"',
+                                  size: "lg"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("b-form-input", {
+                                staticClass: "form-control-alt",
+                                attrs: {
+                                  id: "example-text-input-lg-alt",
+                                  placeholder: 'size="lg"',
+                                  size: "lg"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { "content-full": "", title: "Grid Sizes" } },
+            [
+              _c(
+                "b-form",
+                [
+                  _c(
+                    "b-row",
+                    { staticClass: "push" },
+                    [
+                      _c("b-col", { attrs: { lg: "4" } }, [
+                        _c("p", { staticClass: "font-size-sm text-muted" }, [
+                          _vm._v(
+                            "\n                            You can also take advantage of the grid to manipulate your input width\n                        "
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { lg: "8" } },
+                        [
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "3" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    {
+                                      attrs: {
+                                        label: "Label in the Grid",
+                                        "label-class": "font-w600"
+                                      }
+                                    },
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="3"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "4" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="4"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "5" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="5"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "6" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="6"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "7" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="7"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "8" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="8"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "9" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="9"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "10" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="10"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "11" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="11"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                { attrs: { cols: "12" } },
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    [
+                                      _c("b-form-input", {
+                                        attrs: { placeholder: 'cols="12"' }
+                                      })
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/Elements.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/src/views/forms/Elements.vue ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Elements_vue_vue_type_template_id_ed1645fe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Elements.vue?vue&type=template&id=ed1645fe& */ "./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe&");
+/* harmony import */ var _Elements_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Elements.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Elements_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Elements_vue_vue_type_template_id_ed1645fe___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Elements_vue_vue_type_template_id_ed1645fe___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/Elements.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Elements_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Elements.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/Elements.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Elements_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe& ***!
+  \**********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Elements_vue_vue_type_template_id_ed1645fe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Elements.vue?vue&type=template&id=ed1645fe& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/Elements.vue?vue&type=template&id=ed1645fe&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Elements_vue_vue_type_template_id_ed1645fe___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Elements_vue_vue_type_template_id_ed1645fe___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

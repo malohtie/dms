@@ -1,1 +1,1853 @@
-var a51_0x2e04=['With\x20Text','Name','render','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','div','Forms','form-control-alt','b-dropdown-item','email','extra','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Prepend\x20or\x20Append\x20dropdowns\x20next\x20to\x20your\x20inputs\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Options','alt-dark','b-input-group-append','form-group','font-size-sm\x20text-muted','breadcrumb-alt','far\x20fa-user','base-page-heading','b-col','\x20News\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20Edit\x20Profile\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-input-group','alt-info','b-dropdown','staticRenderFns','primary','preventDefault','base-block','info','Input\x20Groups','b-button','__file','\x20Messages\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','si\x20si-wallet','dark','b-input-group-prepend','Search',',00','alt-primary','far\x20fa-envelope','With\x20Icons','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Prepend\x20or\x20Append\x20Buttons\x20next\x20to\x20your\x20inputs\x20to\x20add\x20related\x20actions\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-input-group-text','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Prepend\x20or\x20Append\x20Text\x20next\x20to\x20your\x20inputs,\x20useful\x20if\x20you\x20would\x20like\x20to\x20add\x20extra\x20info\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','content','b-breadcrumb-item','fab\x20fa-facebook-f','append','b-row','$createElement','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Prepend\x20or\x20Append\x20Icons\x20next\x20to\x20your\x20inputs\x20to\x20visualize\x20the\x20context\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','javascript:void(0)','Submit','fab\x20fa-twitter','fa\x20fa-fw\x20fa-pencil-alt\x20mr-1','far\x20fa-fw\x20fa-bell\x20mr-1','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8&','default','.00','input-group-text-alt','b-breadcrumb','b-form-input','fa\x20fa-euro-sign','./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8&','fa\x20fa-search\x20mr-1','b-dropdown-divider','push','b-form','\x20Search\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Email','resources/js/src/views/forms/InputGroups.vue','webpackJsonp','far\x20fa-fw\x20fa-envelope\x20mr-1','With\x20Buttons','options','prepend'];(function(_0x8765a,_0x2e0449){var _0x9992dd=function(_0xd51e2){while(--_0xd51e2){_0x8765a['push'](_0x8765a['shift']());}};_0x9992dd(++_0x2e0449);}(a51_0x2e04,0x66));var a51_0x9992=function(_0x8765a,_0x2e0449){_0x8765a=_0x8765a-0x0;var _0x9992dd=a51_0x2e04[_0x8765a];return _0x9992dd;};(window[a51_0x9992('0x2f')]=window['webpackJsonp']||[])[a51_0x9992('0x2a')]([[0x33],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8&':function(_0x49efcd,_0x38fa92,_0x5c87aa){'use strict';_0x5c87aa['r'](_0x38fa92);_0x5c87aa['d'](_0x38fa92,a51_0x9992('0x36'),function(){return _0x761cb4;});_0x5c87aa['d'](_0x38fa92,a51_0x9992('0x0'),function(){return _0x9fd650;});var _0x761cb4=function(){var _0xe804ae=this;var _0x3af035=_0xe804ae[a51_0x9992('0x19')];var _0x2f1ecf=_0xe804ae['_self']['_c']||_0x3af035;return _0x2f1ecf(a51_0x9992('0x38'),[_0x2f1ecf(a51_0x9992('0x46'),{'attrs':{'subtitle':'Enrich\x20your\x20form\x20inputs\x20with\x20buttons\x20and\x20extra\x20text\x20content.','title':'Input\x20Groups'},'scopedSlots':_0xe804ae['_u']([{'key':a51_0x9992('0x3d'),'fn':function(){return[_0x2f1ecf(a51_0x9992('0x24'),{'staticClass':a51_0x9992('0x44')},[_0x2f1ecf(a51_0x9992('0x15'),{'attrs':{'href':a51_0x9992('0x1b')}},[_0xe804ae['_v'](a51_0x9992('0x39'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x15'),{'attrs':{'active':''}},[_0xe804ae['_v'](a51_0x9992('0x5'))])],0x1)];},'proxy':!![]}])}),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x14')},[_0x2f1ecf('base-block',{'attrs':{'title':a51_0x9992('0x34')}},[_0x2f1ecf(a51_0x9992('0x18'),[_0x2f1ecf(a51_0x9992('0x47'),{'attrs':{'lg':'4'}},[_0x2f1ecf('p',{'staticClass':a51_0x9992('0x43')},[_0xe804ae['_v'](a51_0x9992('0x13'))])]),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-col',{'attrs':{'lg':'8','xl':'5'}},[_0x2f1ecf(a51_0x9992('0x2b'),{'on':{'submit':function(_0xf12f80){_0xf12f80[a51_0x9992('0x2')]();}}},[_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':'form-group'},[_0x2f1ecf('b-input-group',{'attrs':{'prepend':a51_0x9992('0x35')}},[_0x2f1ecf(a51_0x9992('0x25'))],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'attrs':{'append':a51_0x9992('0x2d')}},[_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'type':a51_0x9992('0x3c')}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':'form-group'},[_0x2f1ecf(a51_0x9992('0x4a'),{'attrs':{'append':a51_0x9992('0xd'),'prepend':'$'}},[_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':'00'}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf('div',{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'scopedSlots':_0xe804ae['_u']([{'key':a51_0x9992('0x33'),'fn':function(){return[_0x2f1ecf('b-input-group-text',{'staticClass':a51_0x9992('0x23')},[_0xe804ae['_v'](a51_0x9992('0x35'))])];},'proxy':!![]}])},[_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':'form-control-alt'})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'scopedSlots':_0xe804ae['_u']([{'key':a51_0x9992('0x17'),'fn':function(){return[_0x2f1ecf(a51_0x9992('0x12'),{'staticClass':a51_0x9992('0x23')},[_0xe804ae['_v'](a51_0x9992('0x2d'))])];},'proxy':!![]}])},[_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':a51_0x9992('0x3a'),'attrs':{'type':a51_0x9992('0x3c')}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'scopedSlots':_0xe804ae['_u']([{'key':a51_0x9992('0x33'),'fn':function(){return[_0x2f1ecf(a51_0x9992('0x12'),{'staticClass':a51_0x9992('0x23')},[_0xe804ae['_v']('$')])];},'proxy':!![]},{'key':a51_0x9992('0x17'),'fn':function(){return[_0x2f1ecf(a51_0x9992('0x12'),{'staticClass':a51_0x9992('0x23')},[_0xe804ae['_v'](a51_0x9992('0xd'))])];},'proxy':!![]}])},[_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':a51_0x9992('0x3a'),'attrs':{'placeholder':'00'}})],0x1)],0x1)])],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3'),{'attrs':{'title':a51_0x9992('0x10')}},[_0x2f1ecf(a51_0x9992('0x18'),[_0x2f1ecf('b-col',{'attrs':{'lg':'4'}},[_0x2f1ecf('p',{'staticClass':'font-size-sm\x20text-muted'},[_0xe804ae['_v'](a51_0x9992('0x1a'))])]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x47'),{'attrs':{'lg':'8','xl':'5'}},[_0x2f1ecf(a51_0x9992('0x2b'),{'on':{'submit':function(_0xc3f5d8){_0xc3f5d8[a51_0x9992('0x2')]();}}},[_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'scopedSlots':_0xe804ae['_u']([{'key':a51_0x9992('0x33'),'fn':function(){return[_0x2f1ecf(a51_0x9992('0x12'),{'staticClass':a51_0x9992('0x23')},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x45')})])];},'proxy':!![]}])},[_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'))],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'scopedSlots':_0xe804ae['_u']([{'key':a51_0x9992('0x17'),'fn':function(){return[_0x2f1ecf(a51_0x9992('0x12'),{'staticClass':a51_0x9992('0x23')},[_0x2f1ecf('i',{'staticClass':'far\x20fa-envelope'})])];},'proxy':!![]}])},[_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'type':a51_0x9992('0x3c')}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'attrs':{'append':a51_0x9992('0x22')},'scopedSlots':_0xe804ae['_u']([{'key':'prepend','fn':function(){return[_0x2f1ecf(a51_0x9992('0x12'),{'staticClass':a51_0x9992('0x23')},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x26')})])];},'proxy':!![]}])},[_0xe804ae['_v']('\x20'),_0x2f1ecf('b-form-input',{'attrs':{'placeholder':'00'}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'scopedSlots':_0xe804ae['_u']([{'key':'prepend','fn':function(){return[_0x2f1ecf('b-input-group-text',{'staticClass':a51_0x9992('0x23')},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x45')})])];},'proxy':!![]}])},[_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':a51_0x9992('0x3a')})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'scopedSlots':_0xe804ae['_u']([{'key':a51_0x9992('0x17'),'fn':function(){return[_0x2f1ecf(a51_0x9992('0x12'),{'staticClass':a51_0x9992('0x23')},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0xf')})])];},'proxy':!![]}])},[_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':'form-control-alt','attrs':{'type':'email'}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),{'scopedSlots':_0xe804ae['_u']([{'key':a51_0x9992('0x33'),'fn':function(){return[_0x2f1ecf('b-input-group-text',{'staticClass':a51_0x9992('0x23')},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x26')})])];},'proxy':!![]},{'key':a51_0x9992('0x17'),'fn':function(){return[_0x2f1ecf(a51_0x9992('0x12'),{'staticClass':a51_0x9992('0x23')},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x9')})])];},'proxy':!![]}])},[_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':a51_0x9992('0x3a'),'attrs':{'placeholder':'00'}})],0x1)],0x1)])],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3'),{'attrs':{'title':a51_0x9992('0x31')}},[_0x2f1ecf(a51_0x9992('0x18'),[_0x2f1ecf('b-col',{'attrs':{'lg':'4'}},[_0x2f1ecf('p',{'staticClass':a51_0x9992('0x43')},[_0xe804ae['_v'](a51_0x9992('0x11'))])]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x47'),{'attrs':{'lg':'8','xl':'5'}},[_0x2f1ecf(a51_0x9992('0x2b'),{'on':{'submit':function(_0x3b8a62){_0x3b8a62[a51_0x9992('0x2')]();}}},[_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf(a51_0x9992('0x6'),{'attrs':{'variant':'primary'}},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x28')}),_0xe804ae['_v'](a51_0x9992('0x2c'))])],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-form-input',{'attrs':{'placeholder':a51_0x9992('0x35')}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':a51_0x9992('0x2d'),'type':'email'}}),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x41'),[_0x2f1ecf(a51_0x9992('0x6'),{'attrs':{'variant':a51_0x9992('0xa')}},[_0xe804ae['_v'](a51_0x9992('0x1c'))])],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf('b-input-group-prepend',[_0x2f1ecf(a51_0x9992('0x6'),{'attrs':{'variant':a51_0x9992('0x1')}},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x16')})])],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':a51_0x9992('0xc')}}),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x41'),[_0x2f1ecf(a51_0x9992('0x6'),{'attrs':{'variant':a51_0x9992('0x4')}},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1d')})])],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf('b-input-group',[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf(a51_0x9992('0x6'),{'attrs':{'variant':a51_0x9992('0x1')}},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x28')}),_0xe804ae['_v'](a51_0x9992('0x2c'))])],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-form-input',{'staticClass':'form-control-alt','attrs':{'placeholder':a51_0x9992('0x35')}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf('b-input-group',[_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':a51_0x9992('0x3a'),'attrs':{'placeholder':a51_0x9992('0x2d'),'type':a51_0x9992('0x3c')}}),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x41'),[_0x2f1ecf(a51_0x9992('0x6'),{'attrs':{'variant':'dark'}},[_0xe804ae['_v'](a51_0x9992('0x1c'))])],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf('b-input-group-prepend',[_0x2f1ecf(a51_0x9992('0x6'),{'attrs':{'variant':a51_0x9992('0x1')}},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x16')})])],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':a51_0x9992('0x3a'),'attrs':{'placeholder':a51_0x9992('0xc')}}),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-input-group-append',[_0x2f1ecf(a51_0x9992('0x6'),{'attrs':{'variant':'info'}},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1d')})])],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf('b-button',{'attrs':{'variant':a51_0x9992('0xe')}},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x28')}),_0xe804ae['_v']('\x20Search\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':a51_0x9992('0x3a'),'attrs':{'placeholder':a51_0x9992('0x35')}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':'form-control-alt','attrs':{'placeholder':a51_0x9992('0x2d'),'type':a51_0x9992('0x3c')}}),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x41'),[_0x2f1ecf(a51_0x9992('0x6'),{'attrs':{'variant':a51_0x9992('0x40')}},[_0xe804ae['_v'](a51_0x9992('0x1c'))])],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf('b-input-group',[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf('b-button',{'attrs':{'variant':a51_0x9992('0xe')}},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x16')})])],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'staticClass':a51_0x9992('0x3a'),'attrs':{'placeholder':a51_0x9992('0xc')}}),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x41'),[_0x2f1ecf('b-button',{'attrs':{'variant':a51_0x9992('0x4b')}},[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1d')})])],0x1)],0x1)],0x1)])],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3'),{'attrs':{'title':'With\x20Dropdowns'}},[_0x2f1ecf(a51_0x9992('0x18'),[_0x2f1ecf(a51_0x9992('0x47'),{'attrs':{'lg':'4'}},[_0x2f1ecf('p',{'staticClass':a51_0x9992('0x43')},[_0xe804ae['_v'](a51_0x9992('0x3e'))])]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x47'),{'attrs':{'lg':'8','xl':'5'}},[_0x2f1ecf(a51_0x9992('0x2b'),{'on':{'submit':function(_0x4d8c7e){_0x4d8c7e[a51_0x9992('0x2')]();}}},[_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf('b-input-group',[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'split':'','text':'Options','variant':a51_0x9992('0x1')}},[_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':'far\x20fa-fw\x20fa-bell\x20mr-1'}),_0xe804ae['_v']('\x20News\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1e')}),_0xe804ae['_v'](a51_0x9992('0x49'))])],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':a51_0x9992('0x35')}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf('b-form-input',{'attrs':{'placeholder':'Email','type':'email'}}),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-input-group-append',[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'right':'','variant':a51_0x9992('0x1')}},[_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1f')}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1e')}),_0xe804ae['_v'](a51_0x9992('0x49'))])],0x1)],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf('div',{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'dropup':'','variant':a51_0x9992('0x1')}},[_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':'far\x20fa-fw\x20fa-bell\x20mr-1'}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-dropdown-divider'),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1e')}),_0xe804ae['_v'](a51_0x9992('0x49'))])],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':'..'}}),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x41'),[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'dropup':'','right':'','variant':a51_0x9992('0x1')}},[_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':'far\x20fa-fw\x20fa-bell\x20mr-1'}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':'far\x20fa-fw\x20fa-envelope\x20mr-1'}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-dropdown-divider'),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1e')}),_0xe804ae['_v'](a51_0x9992('0x49'))])],0x1)],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'split':'','text':'Options','variant':a51_0x9992('0xa')}},[_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1f')}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':'fa\x20fa-fw\x20fa-pencil-alt\x20mr-1'}),_0xe804ae['_v'](a51_0x9992('0x49'))])],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':a51_0x9992('0x35')}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':'Email','type':a51_0x9992('0x3c')}}),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-input-group-append',[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'right':'','variant':'dark'}},[_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':'far\x20fa-fw\x20fa-bell\x20mr-1'}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v']('\x20Messages\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1e')}),_0xe804ae['_v'](a51_0x9992('0x49'))])],0x1)],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf('div',{'staticClass':'form-group'},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf('b-dropdown',{'attrs':{'dropup':'','variant':a51_0x9992('0xa')}},[_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':'far\x20fa-fw\x20fa-bell\x20mr-1'}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':'far\x20fa-fw\x20fa-envelope\x20mr-1'}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1e')}),_0xe804ae['_v'](a51_0x9992('0x49'))])],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':'..'}}),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-input-group-append',[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'dropup':'','right':'','variant':a51_0x9992('0xa')}},[_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1f')}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':'fa\x20fa-fw\x20fa-pencil-alt\x20mr-1'}),_0xe804ae['_v']('\x20Edit\x20Profile\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':a51_0x9992('0x42')},[_0x2f1ecf('b-input-group',[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'split':'','text':a51_0x9992('0x3f'),'variant':a51_0x9992('0xe')}},[_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1f')}),_0xe804ae['_v']('\x20News\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':'fa\x20fa-fw\x20fa-pencil-alt\x20mr-1'}),_0xe804ae['_v']('\x20Edit\x20Profile\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-form-input',{'attrs':{'placeholder':a51_0x9992('0x35')}})],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf('div',{'staticClass':'form-group'},[_0x2f1ecf(a51_0x9992('0x4a'),[_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':'Email','type':a51_0x9992('0x3c')}}),_0xe804ae['_v']('\x20'),_0x2f1ecf('b-input-group-append',[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'right':'','variant':'alt-primary'}},[_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1f')}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1e')}),_0xe804ae['_v']('\x20Edit\x20Profile\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)],0x1)],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x38'),{'staticClass':'form-group'},[_0x2f1ecf('b-input-group',[_0x2f1ecf(a51_0x9992('0xb'),[_0x2f1ecf(a51_0x9992('0x4c'),{'attrs':{'dropup':'','variant':a51_0x9992('0xe')}},[_0x2f1ecf('b-dropdown-item',[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1f')}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1e')}),_0xe804ae['_v'](a51_0x9992('0x49'))])],0x1)],0x1),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x25'),{'attrs':{'placeholder':'..'}}),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x41'),[_0x2f1ecf('b-dropdown',{'attrs':{'dropup':'','right':'','variant':a51_0x9992('0xe')}},[_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1f')}),_0xe804ae['_v'](a51_0x9992('0x48'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x30')}),_0xe804ae['_v'](a51_0x9992('0x8'))]),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x29')),_0xe804ae['_v']('\x20'),_0x2f1ecf(a51_0x9992('0x3b'),[_0x2f1ecf('i',{'staticClass':a51_0x9992('0x1e')}),_0xe804ae['_v']('\x20Edit\x20Profile\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)],0x1)],0x1)],0x1)])],0x1)],0x1)],0x1)],0x1)],0x1);};var _0x9fd650=[];_0x761cb4['_withStripped']=!![];},'./resources/js/src/views/forms/InputGroups.vue':function(_0x566f1c,_0x3933e9,_0x3f5aa2){'use strict';_0x3f5aa2['r'](_0x3933e9);var _0x4bbcaa=_0x3f5aa2(a51_0x9992('0x27'));var _0x4345c8=_0x3f5aa2(a51_0x9992('0x37'));var _0x1771d5={};var _0x5ee544=Object(_0x4345c8[a51_0x9992('0x21')])(_0x1771d5,_0x4bbcaa[a51_0x9992('0x36')],_0x4bbcaa['staticRenderFns'],![],null,null,null);if(![]){var _0xa21be;}_0x5ee544[a51_0x9992('0x32')][a51_0x9992('0x7')]=a51_0x9992('0x2e');_0x3933e9['default']=_0x5ee544['exports'];},'./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8&':function(_0x281856,_0x38a760,_0x4f2616){'use strict';_0x4f2616['r'](_0x38a760);var _0x47d66b=_0x4f2616(a51_0x9992('0x20'));_0x4f2616['d'](_0x38a760,a51_0x9992('0x36'),function(){return _0x47d66b['render'];});_0x4f2616['d'](_0x38a760,a51_0x9992('0x0'),function(){return _0x47d66b[a51_0x9992('0x0')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[51],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle:
+            "Enrich your form inputs with buttons and extra text content.",
+          title: "Input Groups"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Forms")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Input Groups")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { attrs: { title: "With Text" } },
+            [
+              _c(
+                "b-row",
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n                        Prepend or Append Text next to your inputs, useful if you would like to add extra info\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8", xl: "5" } },
+                    [
+                      _c(
+                        "b-form",
+                        {
+                          on: {
+                            submit: function($event) {
+                              $event.preventDefault()
+                            }
+                          }
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                { attrs: { prepend: "Name" } },
+                                [_c("b-form-input")],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                { attrs: { append: "Email" } },
+                                [
+                                  _c("b-form-input", {
+                                    attrs: { type: "email" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                { attrs: { append: ",00", prepend: "$" } },
+                                [
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: "00" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                {
+                                  scopedSlots: _vm._u([
+                                    {
+                                      key: "prepend",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [_vm._v("Name")]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ])
+                                },
+                                [
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt"
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                {
+                                  scopedSlots: _vm._u([
+                                    {
+                                      key: "append",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [_vm._v("Email")]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ])
+                                },
+                                [
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: { type: "email" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                {
+                                  scopedSlots: _vm._u([
+                                    {
+                                      key: "prepend",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [_vm._v("$")]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    },
+                                    {
+                                      key: "append",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [_vm._v(",00")]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ])
+                                },
+                                [
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: { placeholder: "00" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "With Icons" } },
+            [
+              _c(
+                "b-row",
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n                        Prepend or Append Icons next to your inputs to visualize the context\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8", xl: "5" } },
+                    [
+                      _c(
+                        "b-form",
+                        {
+                          on: {
+                            submit: function($event) {
+                              $event.preventDefault()
+                            }
+                          }
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                {
+                                  scopedSlots: _vm._u([
+                                    {
+                                      key: "prepend",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "far fa-user"
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ])
+                                },
+                                [_vm._v(" "), _c("b-form-input")],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                {
+                                  scopedSlots: _vm._u([
+                                    {
+                                      key: "append",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "far fa-envelope"
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ])
+                                },
+                                [
+                                  _c("b-form-input", {
+                                    attrs: { type: "email" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                {
+                                  attrs: { append: ".00" },
+                                  scopedSlots: _vm._u([
+                                    {
+                                      key: "prepend",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-euro-sign"
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ])
+                                },
+                                [
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: "00" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                {
+                                  scopedSlots: _vm._u([
+                                    {
+                                      key: "prepend",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "far fa-user"
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ])
+                                },
+                                [
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt"
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                {
+                                  scopedSlots: _vm._u([
+                                    {
+                                      key: "append",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "far fa-envelope"
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ])
+                                },
+                                [
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: { type: "email" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                {
+                                  scopedSlots: _vm._u([
+                                    {
+                                      key: "prepend",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "fa fa-euro-sign"
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    },
+                                    {
+                                      key: "append",
+                                      fn: function() {
+                                        return [
+                                          _c(
+                                            "b-input-group-text",
+                                            {
+                                              staticClass:
+                                                "input-group-text-alt"
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass: "si si-wallet"
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ])
+                                },
+                                [
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: { placeholder: "00" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "With Buttons" } },
+            [
+              _c(
+                "b-row",
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n                        Prepend or Append Buttons next to your inputs to add related actions\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8", xl: "5" } },
+                    [
+                      _c(
+                        "b-form",
+                        {
+                          on: {
+                            submit: function($event) {
+                              $event.preventDefault()
+                            }
+                          }
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "primary" } },
+                                        [
+                                          _c("i", {
+                                            staticClass: "fa fa-search mr-1"
+                                          }),
+                                          _vm._v(
+                                            " Search\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: "Name" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c("b-form-input", {
+                                    attrs: {
+                                      placeholder: "Email",
+                                      type: "email"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "dark" } },
+                                        [_vm._v("Submit")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "primary" } },
+                                        [
+                                          _c("i", {
+                                            staticClass: "fab fa-facebook-f"
+                                          })
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: "Search" }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "info" } },
+                                        [
+                                          _c("i", {
+                                            staticClass: "fab fa-twitter"
+                                          })
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "primary" } },
+                                        [
+                                          _c("i", {
+                                            staticClass: "fa fa-search mr-1"
+                                          }),
+                                          _vm._v(
+                                            " Search\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: { placeholder: "Name" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: {
+                                      placeholder: "Email",
+                                      type: "email"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "dark" } },
+                                        [_vm._v("Submit")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "primary" } },
+                                        [
+                                          _c("i", {
+                                            staticClass: "fab fa-facebook-f"
+                                          })
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: { placeholder: "Search" }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "info" } },
+                                        [
+                                          _c("i", {
+                                            staticClass: "fab fa-twitter"
+                                          })
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "alt-primary" } },
+                                        [
+                                          _c("i", {
+                                            staticClass: "fa fa-search mr-1"
+                                          }),
+                                          _vm._v(
+                                            " Search\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: { placeholder: "Name" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: {
+                                      placeholder: "Email",
+                                      type: "email"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "alt-dark" } },
+                                        [_vm._v("Submit")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "alt-primary" } },
+                                        [
+                                          _c("i", {
+                                            staticClass: "fab fa-facebook-f"
+                                          })
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    staticClass: "form-control-alt",
+                                    attrs: { placeholder: "Search" }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        { attrs: { variant: "alt-info" } },
+                                        [
+                                          _c("i", {
+                                            staticClass: "fab fa-twitter"
+                                          })
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "With Dropdowns" } },
+            [
+              _c(
+                "b-row",
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n                        Prepend or Append dropdowns next to your inputs\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8", xl: "5" } },
+                    [
+                      _c(
+                        "b-form",
+                        {
+                          on: {
+                            submit: function($event) {
+                              $event.preventDefault()
+                            }
+                          }
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            split: "",
+                                            text: "Options",
+                                            variant: "primary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: "Name" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c("b-form-input", {
+                                    attrs: {
+                                      placeholder: "Email",
+                                      type: "email"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            right: "",
+                                            variant: "primary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            dropup: "",
+                                            variant: "primary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: ".." }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            dropup: "",
+                                            right: "",
+                                            variant: "primary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            split: "",
+                                            text: "Options",
+                                            variant: "dark"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: "Name" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c("b-form-input", {
+                                    attrs: {
+                                      placeholder: "Email",
+                                      type: "email"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: { right: "", variant: "dark" }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: { dropup: "", variant: "dark" }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: ".." }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            dropup: "",
+                                            right: "",
+                                            variant: "dark"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            split: "",
+                                            text: "Options",
+                                            variant: "alt-primary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: "Name" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c("b-form-input", {
+                                    attrs: {
+                                      placeholder: "Email",
+                                      type: "email"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            right: "",
+                                            variant: "alt-primary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "form-group" },
+                            [
+                              _c(
+                                "b-input-group",
+                                [
+                                  _c(
+                                    "b-input-group-prepend",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            dropup: "",
+                                            variant: "alt-primary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-form-input", {
+                                    attrs: { placeholder: ".." }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-input-group-append",
+                                    [
+                                      _c(
+                                        "b-dropdown",
+                                        {
+                                          attrs: {
+                                            dropup: "",
+                                            right: "",
+                                            variant: "alt-primary"
+                                          }
+                                        },
+                                        [
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-bell mr-1"
+                                            }),
+                                            _vm._v(
+                                              " News\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "far fa-fw fa-envelope mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Messages\n                                        "
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-divider"),
+                                          _vm._v(" "),
+                                          _c("b-dropdown-item", [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-fw fa-pencil-alt mr-1"
+                                            }),
+                                            _vm._v(
+                                              " Edit Profile\n                                        "
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/InputGroups.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/src/views/forms/InputGroups.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _InputGroups_vue_vue_type_template_id_0b2670b8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./InputGroups.vue?vue&type=template&id=0b2670b8& */ "./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _InputGroups_vue_vue_type_template_id_0b2670b8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _InputGroups_vue_vue_type_template_id_0b2670b8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/InputGroups.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InputGroups_vue_vue_type_template_id_0b2670b8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./InputGroups.vue?vue&type=template&id=0b2670b8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/InputGroups.vue?vue&type=template&id=0b2670b8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InputGroups_vue_vue_type_template_id_0b2670b8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InputGroups_vue_vue_type_template_id_0b2670b8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

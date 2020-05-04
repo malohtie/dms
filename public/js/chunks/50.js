@@ -1,1 +1,1317 @@
-var a50_0x78f8=['fa\x20fa-times-circle','b-link','display-2','Bold','text-warning','\x20Display\x203','Addresses','success','display-4','p-3\x20bg-success-light\x20text-success','This\x20text\x20has\x20the\x20gray\x20light\x20color..','Dark','text-primary-dark','blockquote','display-3','p-3\x20bg-warning','Warning\x20Badge\x20link','breadcrumb-alt','base-block','link-fx','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sublist\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','row-deck','Pills','First\x20subitem','Danger','resources/js/src/views/elements/Typography.vue','h3.\x20Title\x20','font-w400','Badge\x20link','Danger\x20link','fa\x20fa-exclamation-circle','Title','Subtitle','text-primary-lighter','text-gray','_withStripped','first.last@example.com','extra','h1.\x20Title\x20','b-col','Lead','Be\x20yourself;\x20everyone\x20else\x20is\x20already\x20taken.','fa\x20fa-info-circle','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Third\x20item\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Third\x20item','The\x20following\x20snippet\x20of\x20text\x20is\x20','Warning\x20link','rendered\x20as\x20bold\x20text','Danger\x20link\x20with\x20effect\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','text-gray-dark','div','Second\x20subitem','d-none\x20d-sm-inline-block','b-row','staticRenderFns','Success\x20Light','\x20Display\x202','Twitter,\x20Inc.','items-push','This\x20text\x20has\x20the\x20primary\x20darker\x20color..','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20First\x20item\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','lead','Full\x20Name','Don\x27t\x20cry\x20because\x20it\x27s\x20over,\x20smile\x20because\x20it\x20happened.','h2.\x20Title\x20','Info\x20Light','p-3\x20bg-warning-light\x20text-warning','(300)','danger','webpackJsonp','b-breadcrumb','text-danger','Warning\x20Light','p-3\x20bg-primary','text-gray-darker','span','content-heading','default','p-3\x20bg-primary-light','First\x20item','javascript:void(0)','mb-0','display-1','Second\x20item','\x20Display\x204','warning','(400)','text-primary-darker','(600\x20-\x20Default)','address','This\x20text\x20has\x20the\x20danger\x20color..','Unordered\x20List','(700)','info','abbr','_self','Danger\x20Badge\x20link','Contextual\x20Colors','Links','rendered\x20as\x20italicized\x20text','Dr.\x20Seuss','text-success','Lighter','text-gray-lighter','render','Unstyled\x20List','b-breadcrumb-item','blockquote-footer','content','\x20Attention','Danger\x20Light','Info\x20link','Primary','Info','$createElement','\x20Settings','fa\x20fa-check','Good\x20Typography\x20not\x20only\x20looks\x20good\x20but\x20also\x20reinforces\x20the\x20meaning\x20of\x20the\x20content.','Typography','fa\x20fa-arrow-right','mailto:#','You\x20can\x20use\x20the\x20mark\x20tag\x20to\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Ordered\x20List','This\x20text\x20has\x20the\x20gray\x20darker\x20color..','footer','Headings','small','h5.\x20Title\x20','Extra\x20Bold','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd&','push','text-white\x20font-w600','p-3\x20bg-danger-light\x20text-danger','fa\x20fa-cog','fa-ul','fa\x20fa-home','text-primary','\x20Home','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','font-w700','list-unstyled','Warning\x20link\x20with\x20effect\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Link\x20with\x20effect','Third\x20subitem','options','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20This\x20is\x20a\x20lead\x20paragraph.\x20You\x20can\x20use\x20it\x20you\x20highlight\x20your\x20main\x20point\x20before\x20your\x20article.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20It\x20is\x20great\x20for\x20such\x20usage.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Muted','\x20Error','blockquote\x20text-right','Icon\x20List','Elements','strong','p-3\x20bg-primary-dark','p-3\x20bg-muted','This\x20text\x20has\x20the\x20primary\x20color\x20..','This\x20line\x20of\x20text\x20is\x20meant\x20to\x20be\x20treated\x20as\x20deleted\x20text.','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Potenti\x20elit\x20lectus\x20augue\x20eget\x20iaculis\x20vitae\x20etiam,\x20ullamcorper\x20etiam\x20bibendum\x20ad\x20feugiat\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20magna\x20accumsan\x20dolor,\x20nibh\x20molestie\x20cras\x20hac\x20ac\x20ad\x20massa,\x20fusce\x20ante\x20convallis\x20ante\x20urna\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20molestie\x20vulputate\x20bibendum\x20tempus\x20ante\x20justo\x20arcu\x20erat\x20accumsan\x20adipiscing\x20risus,\x20libero\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20condimentum\x20venenatis\x20sit\x20nisl\x20nisi\x20ultricies\x20sed,\x20fames\x20aliquet\x20consectetur\x20consequat\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20nostra\x20molestie\x20neque\x20nullam\x20scelerisque\x20neque\x20commodo\x20turpis\x20quisque\x20etiam\x20egestas\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20vulputate\x20massa,\x20curabitur\x20tellus\x20massa\x20venenatis\x20congue\x20dolor\x20enim\x20integer\x20luctus,\x20nisi\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20suscipit\x20gravida\x20fames\x20quis\x20vulputate\x20nisi\x20viverra\x20luctus\x20id\x20leo\x20dictum\x20lorem,\x20inceptos\x20nibh\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20orci.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Second\x20subitem\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Normal','fa-li','This\x20text\x20has\x20the\x20gray\x20dark\x20color..','\x20More\x20Info','\x20Display\x201','Success','Badges','This\x20text\x20has\x20the\x20gray\x20color\x20..','p-3\x20bg-primary-lighter','text-muted','Darker','This\x20text\x20has\x20the\x20info\x20color..','Success\x20Badge\x20link','fa\x20fa-angle-right','text-primary-light','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20San\x20Francisco,\x20CA\x2094107','exports','Phone','Warning','Success\x20link\x20with\x20effect\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Oscar\x20Wilde','p-3\x20bg-success','This\x20text\x20has\x20the\x20primary\x20light\x20color..','b-badge','h4.\x20Title\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Second\x20item\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Default','text-info','./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd&','Muted\x20Light','primary'];(function(_0x2e1961,_0x78f8b4){var _0x15abf6=function(_0x2decd8){while(--_0x2decd8){_0x2e1961['push'](_0x2e1961['shift']());}};_0x15abf6(++_0x78f8b4);}(a50_0x78f8,0x125));var a50_0x15ab=function(_0x2e1961,_0x78f8b4){_0x2e1961=_0x2e1961-0x0;var _0x15abf6=a50_0x78f8[_0x2e1961];return _0x15abf6;};(window[a50_0x15ab('0x9a')]=window[a50_0x15ab('0x9a')]||[])[a50_0x15ab('0x1a')]([[0x32],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd&':function(_0x10448b,_0x5d66c9,_0xceb5f0){'use strict';_0xceb5f0['r'](_0x5d66c9);_0xceb5f0['d'](_0x5d66c9,'render',function(){return _0x17a15c;});_0xceb5f0['d'](_0x5d66c9,a50_0x15ab('0x8b'),function(){return _0x20bbc2;});var _0x17a15c=function(){var _0x2053b2=this;var _0x5f2f21=_0x2053b2[a50_0x15ab('0xa')];var _0x5618ef=_0x2053b2[a50_0x15ab('0xb4')]['_c']||_0x5f2f21;return _0x5618ef('div',[_0x5618ef('base-page-heading',{'attrs':{'subtitle':a50_0x15ab('0xd'),'title':a50_0x15ab('0xe')},'scopedSlots':_0x2053b2['_u']([{'key':a50_0x15ab('0x7a'),'fn':function(){return[_0x5618ef(a50_0x15ab('0x9b'),{'staticClass':a50_0x15ab('0x66')},[_0x5618ef(a50_0x15ab('0x2'),{'attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v'](a50_0x15ab('0x2e'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x2'),{'attrs':{'active':''}},[_0x2053b2['_v'](a50_0x15ab('0xe'))])],0x1)];},'proxy':!![]}])}),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x87'),{'staticClass':a50_0x15ab('0x4')},[_0x5618ef('h2',{'staticClass':a50_0x15ab('0xa1')},[_0x2053b2['_v']('Headings')]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x8a'),[_0x5618ef('b-col',{'attrs':{'lg':'6'}},[_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'subtitle':a50_0x15ab('0xad'),'title':a50_0x15ab('0x58')}},[_0x5618ef('h1',[_0x2053b2['_v'](a50_0x15ab('0x7b')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h2',[_0x2053b2['_v'](a50_0x15ab('0x95')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h3',[_0x2053b2['_v'](a50_0x15ab('0x6f')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h4',[_0x2053b2['_v'](a50_0x15ab('0x4e')),_0x5618ef('small',[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h5',[_0x2053b2['_v'](a50_0x15ab('0x17')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])])])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'lg':'6'}},[_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'subtitle':a50_0x15ab('0xb1'),'title':a50_0x15ab('0x18')}},[_0x5618ef('h1',{'staticClass':a50_0x15ab('0x23')},[_0x2053b2['_v'](a50_0x15ab('0x7b')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h2',{'staticClass':'font-w700'},[_0x2053b2['_v']('h2.\x20Title\x20'),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h3',{'staticClass':a50_0x15ab('0x23')},[_0x2053b2['_v'](a50_0x15ab('0x6f')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h4',{'staticClass':'font-w700'},[_0x2053b2['_v'](a50_0x15ab('0x4e')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h5',{'staticClass':'font-w700'},[_0x2053b2['_v'](a50_0x15ab('0x17')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])])])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'lg':'6'}},[_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'subtitle':a50_0x15ab('0xab'),'title':a50_0x15ab('0x36')}},[_0x5618ef('h1',{'staticClass':a50_0x15ab('0x70')},[_0x2053b2['_v'](a50_0x15ab('0x7b')),_0x5618ef('small',[_0x2053b2['_v']('Subtitle')])]),_0x2053b2['_v']('\x20'),_0x5618ef('h2',{'staticClass':'font-w400'},[_0x2053b2['_v'](a50_0x15ab('0x95')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h3',{'staticClass':a50_0x15ab('0x70')},[_0x2053b2['_v'](a50_0x15ab('0x6f')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v']('Subtitle')])]),_0x2053b2['_v']('\x20'),_0x5618ef('h4',{'staticClass':a50_0x15ab('0x70')},[_0x2053b2['_v'](a50_0x15ab('0x4e')),_0x5618ef('small',[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h5',{'staticClass':'font-w400'},[_0x2053b2['_v'](a50_0x15ab('0x17')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])])])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('b-col',{'attrs':{'lg':'6'}},[_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'subtitle':a50_0x15ab('0x98'),'title':'Light'}},[_0x5618ef('h1',{'staticClass':a50_0x15ab('0x70')},[_0x2053b2['_v'](a50_0x15ab('0x7b')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h2',{'staticClass':a50_0x15ab('0x70')},[_0x2053b2['_v']('h2.\x20Title\x20'),_0x5618ef('small',[_0x2053b2['_v']('Subtitle')])]),_0x2053b2['_v']('\x20'),_0x5618ef('h3',{'staticClass':a50_0x15ab('0x70')},[_0x2053b2['_v'](a50_0x15ab('0x6f')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h4',{'staticClass':'font-w400'},[_0x2053b2['_v'](a50_0x15ab('0x4e')),_0x5618ef('small',[_0x2053b2['_v'](a50_0x15ab('0x75'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('h5',{'staticClass':'font-w400'},[_0x2053b2['_v'](a50_0x15ab('0x17')),_0x5618ef(a50_0x15ab('0x16'),[_0x2053b2['_v'](a50_0x15ab('0x75'))])])])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'cols':'12'}},[_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'title':a50_0x15ab('0x15')}},[_0x5618ef('b-row',[_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'lg':'6'}},[_0x5618ef('h2',{'staticClass':a50_0x15ab('0xa7')},[_0x5618ef(a50_0x15ab('0xa0'),{'staticClass':a50_0x15ab('0x89')},[_0x2053b2['_v'](a50_0x15ab('0x74'))]),_0x2053b2['_v'](a50_0x15ab('0x3a'))]),_0x2053b2['_v']('\x20'),_0x5618ef('h2',{'staticClass':a50_0x15ab('0x57')},[_0x5618ef(a50_0x15ab('0xa0'),{'staticClass':a50_0x15ab('0x89')},[_0x2053b2['_v'](a50_0x15ab('0x74'))]),_0x2053b2['_v'](a50_0x15ab('0x8d'))])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'lg':'6'}},[_0x5618ef('h2',{'staticClass':a50_0x15ab('0x63')},[_0x5618ef(a50_0x15ab('0xa0'),{'staticClass':a50_0x15ab('0x89')},[_0x2053b2['_v'](a50_0x15ab('0x74'))]),_0x2053b2['_v'](a50_0x15ab('0x5a'))]),_0x2053b2['_v']('\x20'),_0x5618ef('h2',{'staticClass':a50_0x15ab('0x5d')},[_0x5618ef(a50_0x15ab('0xa0'),{'staticClass':'d-none\x20d-sm-inline-block'},[_0x2053b2['_v']('Title')]),_0x2053b2['_v'](a50_0x15ab('0xa9'))])])],0x1)],0x1)],0x1)],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('h2',{'staticClass':a50_0x15ab('0xa1')},[_0x2053b2['_v']('Typography')]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'title':a50_0x15ab('0x3c')}},[_0x5618ef(a50_0x15ab('0x8a'),[_0x5618ef('b-col',{'attrs':{'md':'6'}},[_0x5618ef('h3',{'staticClass':'h4'},[_0x2053b2['_v'](a50_0x15ab('0x50'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef('b-badge',[_0x2053b2['_v'](a50_0x15ab('0x50'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'variant':a50_0x15ab('0x54')}},[_0x2053b2['_v'](a50_0x15ab('0x8'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'variant':a50_0x15ab('0x5c')}},[_0x2053b2['_v'](a50_0x15ab('0x3b'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'variant':a50_0x15ab('0xb2')}},[_0x2053b2['_v'](a50_0x15ab('0x9'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'variant':a50_0x15ab('0xaa')}},[_0x2053b2['_v'](a50_0x15ab('0x48'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'variant':a50_0x15ab('0x99')}},[_0x2053b2['_v'](a50_0x15ab('0x6d'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef('b-badge',[_0x5618ef('i',{'staticClass':a50_0x15ab('0x1f')}),_0x2053b2['_v'](a50_0x15ab('0x21'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'variant':'primary'}},[_0x5618ef('i',{'staticClass':'fa\x20fa-cog'}),_0x2053b2['_v'](a50_0x15ab('0xb'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'variant':'success'}},[_0x5618ef('i',{'staticClass':a50_0x15ab('0xc')}),_0x2053b2['_v']('\x20Great!')]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'variant':a50_0x15ab('0xb2')}},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x7f')}),_0x2053b2['_v'](a50_0x15ab('0x39'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'variant':'warning'}},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x73')}),_0x2053b2['_v'](a50_0x15ab('0x5'))]),_0x2053b2['_v']('\x20'),_0x5618ef('b-badge',{'attrs':{'variant':a50_0x15ab('0x99')}},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x55')}),_0x2053b2['_v'](a50_0x15ab('0x2b'))])],0x1)]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':'6'}},[_0x5618ef('h3',{'staticClass':'h4'},[_0x2053b2['_v'](a50_0x15ab('0x6b'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef('b-badge',{'attrs':{'pill':''}},[_0x2053b2['_v'](a50_0x15ab('0x50'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':'','variant':a50_0x15ab('0x54')}},[_0x2053b2['_v'](a50_0x15ab('0x8'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':'','variant':a50_0x15ab('0x5c')}},[_0x2053b2['_v']('Success')]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':'','variant':a50_0x15ab('0xb2')}},[_0x2053b2['_v'](a50_0x15ab('0x9'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':'','variant':a50_0x15ab('0xaa')}},[_0x2053b2['_v'](a50_0x15ab('0x48'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':'','variant':a50_0x15ab('0x99')}},[_0x2053b2['_v'](a50_0x15ab('0x6d'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':''}},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x1f')}),_0x2053b2['_v'](a50_0x15ab('0x21'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':'','variant':a50_0x15ab('0x54')}},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x1d')}),_0x2053b2['_v']('\x20Settings')]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':'','variant':a50_0x15ab('0x5c')}},[_0x5618ef('i',{'staticClass':a50_0x15ab('0xc')}),_0x2053b2['_v']('\x20Great!')]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':'','variant':'info'}},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x7f')}),_0x2053b2['_v'](a50_0x15ab('0x39'))]),_0x2053b2['_v']('\x20'),_0x5618ef('b-badge',{'attrs':{'pill':'','variant':a50_0x15ab('0xaa')}},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x73')}),_0x2053b2['_v']('\x20Attention')]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'pill':'','variant':a50_0x15ab('0x99')}},[_0x5618ef('i',{'staticClass':'fa\x20fa-times-circle'}),_0x2053b2['_v'](a50_0x15ab('0x2b'))])],0x1)])],0x1)],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'title':'Text'}},[_0x5618ef(a50_0x15ab('0x8a'),[_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'xl':'6'}},[_0x5618ef('p',[_0x2053b2['_v'](a50_0x15ab('0x82')),_0x5618ef(a50_0x15ab('0x2f'),[_0x2053b2['_v'](a50_0x15ab('0x84'))]),_0x2053b2['_v']('.')]),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x2053b2['_v'](a50_0x15ab('0x82')),_0x5618ef('em',[_0x2053b2['_v'](a50_0x15ab('0xb8'))]),_0x2053b2['_v']('.')])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'xl':'6'}},[_0x5618ef('p',[_0x2053b2['_v'](a50_0x15ab('0x11')),_0x5618ef('mark',[_0x2053b2['_v']('highlight')]),_0x2053b2['_v'](a50_0x15ab('0x22'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef('del',[_0x2053b2['_v'](a50_0x15ab('0x33'))])])])],0x1)],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'title':a50_0x15ab('0xb7')}},[_0x5618ef(a50_0x15ab('0x8a'),[_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':'4'}},[_0x5618ef('p',[_0x5618ef('b-link',{'attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v']('Default\x20link')])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x56'),{'staticClass':a50_0x15ab('0xba'),'attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v']('Success\x20link')])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x56'),{'staticClass':'text-info','attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v'](a50_0x15ab('0x7'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x56'),{'staticClass':a50_0x15ab('0x59'),'attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v'](a50_0x15ab('0x83'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x56'),{'staticClass':a50_0x15ab('0x9c'),'attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v'](a50_0x15ab('0x72'))])],0x1)]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':'4'}},[_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x56'),{'staticClass':a50_0x15ab('0x68'),'attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v'](a50_0x15ab('0x26'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x56'),{'staticClass':'link-fx\x20text-success','attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v'](a50_0x15ab('0x49'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef('b-link',{'staticClass':'link-fx\x20text-info','attrs':{'href':'javascript:void(0)'}},[_0x2053b2['_v']('Info\x20link\x20with\x20effect')])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x56'),{'staticClass':'link-fx\x20text-warning','attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v'](a50_0x15ab('0x25'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x56'),{'staticClass':'link-fx\x20text-danger','attrs':{'href':a50_0x15ab('0xa5')}},[_0x2053b2['_v'](a50_0x15ab('0x85'))])],0x1)]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':'4'}},[_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'href':a50_0x15ab('0xa5'),'variant':a50_0x15ab('0x54')}},[_0x2053b2['_v'](a50_0x15ab('0x71'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'href':a50_0x15ab('0xa5'),'variant':a50_0x15ab('0x5c')}},[_0x2053b2['_v'](a50_0x15ab('0x42'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'href':a50_0x15ab('0xa5'),'variant':a50_0x15ab('0xb2')}},[_0x2053b2['_v']('Info\x20Badge\x20link')])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'href':a50_0x15ab('0xa5'),'variant':a50_0x15ab('0xaa')}},[_0x2053b2['_v'](a50_0x15ab('0x65'))])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x5618ef(a50_0x15ab('0x4d'),{'attrs':{'href':a50_0x15ab('0xa5'),'variant':a50_0x15ab('0x99')}},[_0x2053b2['_v'](a50_0x15ab('0xb5'))])],0x1)])],0x1)],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('base-block',{'attrs':{'title':a50_0x15ab('0xb6')}},[_0x5618ef(a50_0x15ab('0x8a'),[_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'sm':'4'}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0xba')},[_0x2053b2['_v']('This\x20text\x20has\x20the\x20success\x20color..')]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':a50_0x15ab('0x51')},[_0x2053b2['_v'](a50_0x15ab('0x41'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':'text-warning'},[_0x2053b2['_v']('This\x20text\x20has\x20the\x20warning\x20color..')]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':'text-danger'},[_0x2053b2['_v'](a50_0x15ab('0xaf'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':a50_0x15ab('0x3f')},[_0x2053b2['_v']('This\x20text\x20has\x20the\x20muted\x20color..')])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'sm':'4'}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0xac')},[_0x2053b2['_v'](a50_0x15ab('0x90'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':a50_0x15ab('0x61')},[_0x2053b2['_v']('This\x20text\x20has\x20the\x20primary\x20dark\x20color..')]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':a50_0x15ab('0x20')},[_0x2053b2['_v'](a50_0x15ab('0x32'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':a50_0x15ab('0x44')},[_0x2053b2['_v'](a50_0x15ab('0x4c'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':a50_0x15ab('0x76')},[_0x2053b2['_v']('This\x20text\x20has\x20the\x20primary\x20lighter\x20color..')])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'sm':'4'}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x9f')},[_0x2053b2['_v'](a50_0x15ab('0x13'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':a50_0x15ab('0x86')},[_0x2053b2['_v'](a50_0x15ab('0x38'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':a50_0x15ab('0x77')},[_0x2053b2['_v'](a50_0x15ab('0x3d'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':'text-gray-light'},[_0x2053b2['_v'](a50_0x15ab('0x5f'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',{'staticClass':a50_0x15ab('0xbc')},[_0x2053b2['_v']('This\x20text\x20has\x20the\x20gray\x20lighter\x20color..')])])],0x1)],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'title':a50_0x15ab('0xb6')}},[_0x5618ef(a50_0x15ab('0x8a'),{'staticClass':a50_0x15ab('0x8f')},[_0x5618ef('b-col',{'attrs':{'lg':'3'}},[_0x5618ef('h3',[_0x2053b2['_v'](a50_0x15ab('0xb0'))]),_0x2053b2['_v']('\x20'),_0x5618ef('ul',[_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0xa4'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0xa8'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sublist\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'),_0x5618ef('ul',[_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x6c'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x88'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v']('Third\x20subitem')])])]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x81'))])])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'lg':'3'}},[_0x5618ef('h3',[_0x2053b2['_v'](a50_0x15ab('0x12'))]),_0x2053b2['_v']('\x20'),_0x5618ef('ol',[_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0xa4'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v']('Second\x20item')]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sublist\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'),_0x5618ef('ol',[_0x5618ef('li',[_0x2053b2['_v']('First\x20subitem')]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x88'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x27'))])])]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x81'))])])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'lg':'3'}},[_0x5618ef('h3',[_0x2053b2['_v'](a50_0x15ab('0x2d'))]),_0x2053b2['_v']('\x20'),_0x5618ef('ul',{'staticClass':a50_0x15ab('0x1e')},[_0x5618ef('li',[_0x5618ef(a50_0x15ab('0xa0'),{'staticClass':a50_0x15ab('0x37')},[_0x5618ef('i',{'staticClass':'fa\x20fa-arrow-right'})]),_0x2053b2['_v'](a50_0x15ab('0x91'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x5618ef('span',{'staticClass':a50_0x15ab('0x37')},[_0x5618ef('i',{'staticClass':a50_0x15ab('0xf')})]),_0x2053b2['_v'](a50_0x15ab('0x4f'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x5618ef(a50_0x15ab('0xa0'),{'staticClass':'fa-li'},[_0x5618ef('i',{'staticClass':a50_0x15ab('0xf')})]),_0x2053b2['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sublist\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'),_0x5618ef('ul',{'staticClass':a50_0x15ab('0x1e')},[_0x5618ef('li',[_0x5618ef(a50_0x15ab('0xa0'),{'staticClass':a50_0x15ab('0x37')},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x43')})]),_0x2053b2['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20First\x20subitem\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x5618ef(a50_0x15ab('0xa0'),{'staticClass':a50_0x15ab('0x37')},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x43')})]),_0x2053b2['_v'](a50_0x15ab('0x35'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x5618ef('span',{'staticClass':'fa-li'},[_0x5618ef('i',{'staticClass':a50_0x15ab('0x43')})]),_0x2053b2['_v'](a50_0x15ab('0x35'))])])]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x5618ef('span',{'staticClass':a50_0x15ab('0x37')},[_0x5618ef('i',{'staticClass':a50_0x15ab('0xf')})]),_0x2053b2['_v'](a50_0x15ab('0x80'))])])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'lg':'3'}},[_0x5618ef('h3',[_0x2053b2['_v'](a50_0x15ab('0x1'))]),_0x2053b2['_v']('\x20'),_0x5618ef('ul',{'staticClass':a50_0x15ab('0x24')},[_0x5618ef('li',[_0x2053b2['_v']('First\x20item')]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0xa8'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x69')),_0x5618ef('ul',[_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x6c'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x88'))]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v'](a50_0x15ab('0x27'))])])]),_0x2053b2['_v']('\x20'),_0x5618ef('li',[_0x2053b2['_v']('Third\x20item')])])])],0x1)],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x67'),{'staticClass':'Contextual\x20Backgrounds'},[_0x5618ef(a50_0x15ab('0x8a'),{'staticClass':a50_0x15ab('0x1b')},[_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x4b')},[_0x2053b2['_v']('Success')])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':'p-3\x20bg-info'},[_0x2053b2['_v']('Info')])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x64')},[_0x2053b2['_v'](a50_0x15ab('0x48'))])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':'p-3\x20bg-danger'},[_0x2053b2['_v']('Danger')])]),_0x2053b2['_v']('\x20'),_0x5618ef('b-col',{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x31')},[_0x2053b2['_v'](a50_0x15ab('0x2a'))])])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x8a'),{'staticClass':a50_0x15ab('0x1b')},[_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x5e')},[_0x2053b2['_v'](a50_0x15ab('0x8c'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('b-col',{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':'p-3\x20bg-info-light\x20text-info'},[_0x2053b2['_v'](a50_0x15ab('0x96'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('b-col',{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x97')},[_0x2053b2['_v'](a50_0x15ab('0x9d'))])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x1c')},[_0x2053b2['_v'](a50_0x15ab('0x6'))])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':'p-3\x20bg-gray-light\x20text-gray-darker'},[_0x2053b2['_v'](a50_0x15ab('0x53'))])])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x8a'),{'staticClass':a50_0x15ab('0x1b')},[_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':'p-3\x20bg-primary-darker'},[_0x2053b2['_v'](a50_0x15ab('0x40'))])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x30')},[_0x2053b2['_v'](a50_0x15ab('0x60'))])]),_0x2053b2['_v']('\x20'),_0x5618ef('b-col',{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x9e')},[_0x2053b2['_v']('Primary')])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0xa3')},[_0x2053b2['_v']('Light')])]),_0x2053b2['_v']('\x20'),_0x5618ef('b-col',{'attrs':{'md':''}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x3e')},[_0x2053b2['_v'](a50_0x15ab('0xbb'))])])],0x1)],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x8a'),{'staticClass':a50_0x15ab('0x6a')},[_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':'6'}},[_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'title':'Blockquotes'}},[_0x5618ef(a50_0x15ab('0x62'),{'staticClass':'blockquote'},[_0x5618ef('p',{'staticClass':a50_0x15ab('0xa6')},[_0x2053b2['_v'](a50_0x15ab('0x7e'))]),_0x2053b2['_v']('\x20'),_0x5618ef('footer',{'staticClass':a50_0x15ab('0x3')},[_0x2053b2['_v'](a50_0x15ab('0x4a'))])]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x62'),{'staticClass':a50_0x15ab('0x2c')},[_0x5618ef('p',{'staticClass':a50_0x15ab('0xa6')},[_0x2053b2['_v'](a50_0x15ab('0x94'))]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x14'),{'staticClass':a50_0x15ab('0x3')},[_0x2053b2['_v'](a50_0x15ab('0xb9'))])])])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':'6'}},[_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'title':a50_0x15ab('0x5b')}},[_0x5618ef(a50_0x15ab('0xae'),[_0x5618ef(a50_0x15ab('0x2f'),[_0x2053b2['_v'](a50_0x15ab('0x8e'))]),_0x5618ef('br'),_0x2053b2['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20795\x20Folsom\x20Ave,\x20Suite\x20600'),_0x5618ef('br'),_0x2053b2['_v'](a50_0x15ab('0x45')),_0x5618ef('br'),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0xb3'),{'attrs':{'title':a50_0x15ab('0x47')}},[_0x2053b2['_v']('P:')]),_0x2053b2['_v']('\x20(123)\x20456-7890\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0xae'),[_0x5618ef('strong',[_0x2053b2['_v'](a50_0x15ab('0x93'))]),_0x5618ef('br'),_0x2053b2['_v']('\x20'),_0x5618ef('a',{'attrs':{'href':a50_0x15ab('0x10')}},[_0x2053b2['_v'](a50_0x15ab('0x79'))])])])],0x1)],0x1),_0x2053b2['_v']('\x20'),_0x5618ef('h2',{'staticClass':'content-heading'},[_0x2053b2['_v']('Paragraphs')]),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x8a'),{'staticClass':'row-deck'},[_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':'4'}},[_0x5618ef('base-block',{'attrs':{'title':a50_0x15ab('0x7d')}},[_0x5618ef('p',{'staticClass':a50_0x15ab('0x92')},[_0x2053b2['_v'](a50_0x15ab('0x29'))])])],0x1),_0x2053b2['_v']('\x20'),_0x5618ef(a50_0x15ab('0x7c'),{'attrs':{'md':'8'}},[_0x5618ef(a50_0x15ab('0x67'),{'attrs':{'title':a50_0x15ab('0x36')}},[_0x5618ef('p',[_0x2053b2['_v'](a50_0x15ab('0x34'))]),_0x2053b2['_v']('\x20'),_0x5618ef('p',[_0x2053b2['_v'](a50_0x15ab('0x34'))])])],0x1)],0x1)],0x1)],0x1);};var _0x20bbc2=[];_0x17a15c[a50_0x15ab('0x78')]=!![];},'./resources/js/src/views/elements/Typography.vue':function(_0x3866cf,_0x48c947,_0x4771af){'use strict';_0x4771af['r'](_0x48c947);var _0x39b6b4=_0x4771af(a50_0x15ab('0x52'));var _0x212baa=_0x4771af('./node_modules/vue-loader/lib/runtime/componentNormalizer.js');var _0x2f7d3b={};var _0x13b7e5=Object(_0x212baa[a50_0x15ab('0xa2')])(_0x2f7d3b,_0x39b6b4[a50_0x15ab('0x0')],_0x39b6b4[a50_0x15ab('0x8b')],![],null,null,null);if(![]){var _0x31f8d2;}_0x13b7e5[a50_0x15ab('0x28')]['__file']=a50_0x15ab('0x6e');_0x48c947[a50_0x15ab('0xa2')]=_0x13b7e5[a50_0x15ab('0x46')];},'./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd&':function(_0x37150a,_0x3e2335,_0x2bf929){'use strict';_0x2bf929['r'](_0x3e2335);var _0x2160b8=_0x2bf929(a50_0x15ab('0x19'));_0x2bf929['d'](_0x3e2335,a50_0x15ab('0x0'),function(){return _0x2160b8[a50_0x15ab('0x0')];});_0x2bf929['d'](_0x3e2335,a50_0x15ab('0x8b'),function(){return _0x2160b8[a50_0x15ab('0x8b')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[50],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle:
+            "Good Typography not only looks good but also reinforces the meaning of the content.",
+          title: "Typography"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Typography")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Headings")]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { subtitle: "(600 - Default)", title: "Bold" } },
+                    [
+                      _c("h1", [
+                        _vm._v("h1. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h2", [
+                        _vm._v("h2. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", [
+                        _vm._v("h3. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", [
+                        _vm._v("h4. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h5", [
+                        _vm._v("h5. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { subtitle: "(700)", title: "Extra Bold" } },
+                    [
+                      _c("h1", { staticClass: "font-w700" }, [
+                        _vm._v("h1. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h2", { staticClass: "font-w700" }, [
+                        _vm._v("h2. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "font-w700" }, [
+                        _vm._v("h3. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "font-w700" }, [
+                        _vm._v("h4. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "font-w700" }, [
+                        _vm._v("h5. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { subtitle: "(400)", title: "Normal" } },
+                    [
+                      _c("h1", { staticClass: "font-w400" }, [
+                        _vm._v("h1. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h2", { staticClass: "font-w400" }, [
+                        _vm._v("h2. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "font-w400" }, [
+                        _vm._v("h3. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "font-w400" }, [
+                        _vm._v("h4. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "font-w400" }, [
+                        _vm._v("h5. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { subtitle: "(300)", title: "Light" } },
+                    [
+                      _c("h1", { staticClass: "font-w400" }, [
+                        _vm._v("h1. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h2", { staticClass: "font-w400" }, [
+                        _vm._v("h2. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "font-w400" }, [
+                        _vm._v("h3. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "font-w400" }, [
+                        _vm._v("h4. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ]),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "font-w400" }, [
+                        _vm._v("h5. Title "),
+                        _c("small", [_vm._v("Subtitle")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "12" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { title: "Headings" } },
+                    [
+                      _c(
+                        "b-row",
+                        [
+                          _c("b-col", { attrs: { lg: "6" } }, [
+                            _c("h2", { staticClass: "display-1" }, [
+                              _c(
+                                "span",
+                                { staticClass: "d-none d-sm-inline-block" },
+                                [_vm._v("Title")]
+                              ),
+                              _vm._v(" Display 1")
+                            ]),
+                            _vm._v(" "),
+                            _c("h2", { staticClass: "display-2" }, [
+                              _c(
+                                "span",
+                                { staticClass: "d-none d-sm-inline-block" },
+                                [_vm._v("Title")]
+                              ),
+                              _vm._v(" Display 2")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("b-col", { attrs: { lg: "6" } }, [
+                            _c("h2", { staticClass: "display-3" }, [
+                              _c(
+                                "span",
+                                { staticClass: "d-none d-sm-inline-block" },
+                                [_vm._v("Title")]
+                              ),
+                              _vm._v(" Display 3")
+                            ]),
+                            _vm._v(" "),
+                            _c("h2", { staticClass: "display-4" }, [
+                              _c(
+                                "span",
+                                { staticClass: "d-none d-sm-inline-block" },
+                                [_vm._v("Title")]
+                              ),
+                              _vm._v(" Display 4")
+                            ])
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Typography")]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Badges" } },
+            [
+              _c(
+                "b-row",
+                [
+                  _c("b-col", { attrs: { md: "6" } }, [
+                    _c("h3", { staticClass: "h4" }, [_vm._v("Default")]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c("b-badge", [_vm._v("Default")]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "primary" } }, [
+                          _vm._v("Primary")
+                        ]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "success" } }, [
+                          _vm._v("Success")
+                        ]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "info" } }, [
+                          _vm._v("Info")
+                        ]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "warning" } }, [
+                          _vm._v("Warning")
+                        ]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "danger" } }, [
+                          _vm._v("Danger")
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c("b-badge", [
+                          _c("i", { staticClass: "fa fa-home" }),
+                          _vm._v(" Home")
+                        ]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "primary" } }, [
+                          _c("i", { staticClass: "fa fa-cog" }),
+                          _vm._v(" Settings")
+                        ]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "success" } }, [
+                          _c("i", { staticClass: "fa fa-check" }),
+                          _vm._v(" Great!")
+                        ]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "info" } }, [
+                          _c("i", { staticClass: "fa fa-info-circle" }),
+                          _vm._v(" More Info")
+                        ]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "warning" } }, [
+                          _c("i", { staticClass: "fa fa-exclamation-circle" }),
+                          _vm._v(" Attention")
+                        ]),
+                        _vm._v(" "),
+                        _c("b-badge", { attrs: { variant: "danger" } }, [
+                          _c("i", { staticClass: "fa fa-times-circle" }),
+                          _vm._v(" Error")
+                        ])
+                      ],
+                      1
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "6" } }, [
+                    _c("h3", { staticClass: "h4" }, [_vm._v("Pills")]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c("b-badge", { attrs: { pill: "" } }, [
+                          _vm._v("Default")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "primary" } },
+                          [_vm._v("Primary")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "success" } },
+                          [_vm._v("Success")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "info" } },
+                          [_vm._v("Info")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "warning" } },
+                          [_vm._v("Warning")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "danger" } },
+                          [_vm._v("Danger")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c("b-badge", { attrs: { pill: "" } }, [
+                          _c("i", { staticClass: "fa fa-home" }),
+                          _vm._v(" Home")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "primary" } },
+                          [
+                            _c("i", { staticClass: "fa fa-cog" }),
+                            _vm._v(" Settings")
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "success" } },
+                          [
+                            _c("i", { staticClass: "fa fa-check" }),
+                            _vm._v(" Great!")
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "info" } },
+                          [
+                            _c("i", { staticClass: "fa fa-info-circle" }),
+                            _vm._v(" More Info")
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "warning" } },
+                          [
+                            _c("i", {
+                              staticClass: "fa fa-exclamation-circle"
+                            }),
+                            _vm._v(" Attention")
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "b-badge",
+                          { attrs: { pill: "", variant: "danger" } },
+                          [
+                            _c("i", { staticClass: "fa fa-times-circle" }),
+                            _vm._v(" Error")
+                          ]
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Text" } },
+            [
+              _c(
+                "b-row",
+                [
+                  _c("b-col", { attrs: { xl: "6" } }, [
+                    _c("p", [
+                      _vm._v("The following snippet of text is "),
+                      _c("strong", [_vm._v("rendered as bold text")]),
+                      _vm._v(".")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v("The following snippet of text is "),
+                      _c("em", [_vm._v("rendered as italicized text")]),
+                      _vm._v(".")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { xl: "6" } }, [
+                    _c("p", [
+                      _vm._v(
+                        "You can use the mark tag to\n                        "
+                      ),
+                      _c("mark", [_vm._v("highlight")]),
+                      _vm._v(
+                        "\n                        text.\n                    "
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("del", [
+                        _vm._v(
+                          "This line of text is meant to be treated as deleted text."
+                        )
+                      ])
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Links" } },
+            [
+              _c(
+                "b-row",
+                [
+                  _c("b-col", { attrs: { md: "4" } }, [
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          { attrs: { href: "javascript:void(0)" } },
+                          [_vm._v("Default link")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          {
+                            staticClass: "text-success",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Success link")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          {
+                            staticClass: "text-info",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Info link")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          {
+                            staticClass: "text-warning",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Warning link")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          {
+                            staticClass: "text-danger",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Danger link")]
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "4" } }, [
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          {
+                            staticClass: "link-fx",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Link with effect")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          {
+                            staticClass: "link-fx text-success",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [
+                            _vm._v(
+                              "Success link with effect\n                        "
+                            )
+                          ]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          {
+                            staticClass: "link-fx text-info",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Info link with effect")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          {
+                            staticClass: "link-fx text-warning",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [
+                            _vm._v(
+                              "Warning link with effect\n                        "
+                            )
+                          ]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-link",
+                          {
+                            staticClass: "link-fx text-danger",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [
+                            _vm._v(
+                              "Danger link with effect\n                        "
+                            )
+                          ]
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "4" } }, [
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-badge",
+                          {
+                            attrs: {
+                              href: "javascript:void(0)",
+                              variant: "primary"
+                            }
+                          },
+                          [_vm._v("Badge link")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-badge",
+                          {
+                            attrs: {
+                              href: "javascript:void(0)",
+                              variant: "success"
+                            }
+                          },
+                          [_vm._v("Success Badge link")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-badge",
+                          {
+                            attrs: {
+                              href: "javascript:void(0)",
+                              variant: "info"
+                            }
+                          },
+                          [_vm._v("Info Badge link")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-badge",
+                          {
+                            attrs: {
+                              href: "javascript:void(0)",
+                              variant: "warning"
+                            }
+                          },
+                          [_vm._v("Warning Badge link")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "b-badge",
+                          {
+                            attrs: {
+                              href: "javascript:void(0)",
+                              variant: "danger"
+                            }
+                          },
+                          [_vm._v("Danger Badge link")]
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Contextual Colors" } },
+            [
+              _c(
+                "b-row",
+                [
+                  _c("b-col", { attrs: { sm: "4" } }, [
+                    _c("p", { staticClass: "text-success" }, [
+                      _vm._v("This text has the success color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-info" }, [
+                      _vm._v("This text has the info color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-warning" }, [
+                      _vm._v("This text has the warning color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-danger" }, [
+                      _vm._v("This text has the danger color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-muted" }, [
+                      _vm._v("This text has the muted color..")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { sm: "4" } }, [
+                    _c("p", { staticClass: "text-primary-darker" }, [
+                      _vm._v("This text has the primary darker color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-primary-dark" }, [
+                      _vm._v("This text has the primary dark color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-primary" }, [
+                      _vm._v("This text has the primary color ..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-primary-light" }, [
+                      _vm._v("This text has the primary light color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-primary-lighter" }, [
+                      _vm._v("This text has the primary lighter color..")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { sm: "4" } }, [
+                    _c("p", { staticClass: "text-gray-darker" }, [
+                      _vm._v("This text has the gray darker color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-gray-dark" }, [
+                      _vm._v("This text has the gray dark color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-gray" }, [
+                      _vm._v("This text has the gray color ..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-gray-light" }, [
+                      _vm._v("This text has the gray light color..")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-gray-lighter" }, [
+                      _vm._v("This text has the gray lighter color..")
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Contextual Colors" } },
+            [
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { lg: "3" } }, [
+                    _c("h3", [_vm._v("Unordered List")]),
+                    _vm._v(" "),
+                    _c("ul", [
+                      _c("li", [_vm._v("First item")]),
+                      _vm._v(" "),
+                      _c("li", [_vm._v("Second item")]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _vm._v(
+                          "\n                            Sublist\n                            "
+                        ),
+                        _c("ul", [
+                          _c("li", [_vm._v("First subitem")]),
+                          _vm._v(" "),
+                          _c("li", [_vm._v("Second subitem")]),
+                          _vm._v(" "),
+                          _c("li", [_vm._v("Third subitem")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [_vm._v("Third item")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { lg: "3" } }, [
+                    _c("h3", [_vm._v("Ordered List")]),
+                    _vm._v(" "),
+                    _c("ol", [
+                      _c("li", [_vm._v("First item")]),
+                      _vm._v(" "),
+                      _c("li", [_vm._v("Second item")]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _vm._v(
+                          "\n                            Sublist\n                            "
+                        ),
+                        _c("ol", [
+                          _c("li", [_vm._v("First subitem")]),
+                          _vm._v(" "),
+                          _c("li", [_vm._v("Second subitem")]),
+                          _vm._v(" "),
+                          _c("li", [_vm._v("Third subitem")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [_vm._v("Third item")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { lg: "3" } }, [
+                    _c("h3", [_vm._v("Icon List")]),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "fa-ul" }, [
+                      _c("li", [
+                        _c("span", { staticClass: "fa-li" }, [
+                          _c("i", { staticClass: "fa fa-arrow-right" })
+                        ]),
+                        _vm._v(
+                          "\n                            First item\n                        "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("span", { staticClass: "fa-li" }, [
+                          _c("i", { staticClass: "fa fa-arrow-right" })
+                        ]),
+                        _vm._v(
+                          "\n                            Second item\n                        "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("span", { staticClass: "fa-li" }, [
+                          _c("i", { staticClass: "fa fa-arrow-right" })
+                        ]),
+                        _vm._v(
+                          "\n                            Sublist\n                            "
+                        ),
+                        _c("ul", { staticClass: "fa-ul" }, [
+                          _c("li", [
+                            _c("span", { staticClass: "fa-li" }, [
+                              _c("i", { staticClass: "fa fa-angle-right" })
+                            ]),
+                            _vm._v(
+                              "\n                                    First subitem\n                                "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("span", { staticClass: "fa-li" }, [
+                              _c("i", { staticClass: "fa fa-angle-right" })
+                            ]),
+                            _vm._v(
+                              "\n                                    Second subitem\n                                "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("span", { staticClass: "fa-li" }, [
+                              _c("i", { staticClass: "fa fa-angle-right" })
+                            ]),
+                            _vm._v(
+                              "\n                                    Second subitem\n                                "
+                            )
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("span", { staticClass: "fa-li" }, [
+                          _c("i", { staticClass: "fa fa-arrow-right" })
+                        ]),
+                        _vm._v(
+                          "\n                            Third item\n                        "
+                        )
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { lg: "3" } }, [
+                    _c("h3", [_vm._v("Unstyled List")]),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "list-unstyled" }, [
+                      _c("li", [_vm._v("First item")]),
+                      _vm._v(" "),
+                      _c("li", [_vm._v("Second item")]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _vm._v(
+                          "\n                            Sublist\n                            "
+                        ),
+                        _c("ul", [
+                          _c("li", [_vm._v("First subitem")]),
+                          _vm._v(" "),
+                          _c("li", [_vm._v("Second subitem")]),
+                          _vm._v(" "),
+                          _c("li", [_vm._v("Third subitem")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [_vm._v("Third item")])
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { staticClass: "Contextual Backgrounds" },
+            [
+              _c(
+                "b-row",
+                { staticClass: "text-white font-w600" },
+                [
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-success" }, [
+                      _vm._v("Success")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-info" }, [_vm._v("Info")])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-warning" }, [
+                      _vm._v("Warning")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-danger" }, [
+                      _vm._v("Danger")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-muted" }, [_vm._v("Muted")])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "text-white font-w600" },
+                [
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c(
+                      "p",
+                      { staticClass: "p-3 bg-success-light text-success" },
+                      [_vm._v("Success Light")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-info-light text-info" }, [
+                      _vm._v("Info Light")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c(
+                      "p",
+                      { staticClass: "p-3 bg-warning-light text-warning" },
+                      [_vm._v("Warning Light")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c(
+                      "p",
+                      { staticClass: "p-3 bg-danger-light text-danger" },
+                      [_vm._v("Danger Light")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c(
+                      "p",
+                      { staticClass: "p-3 bg-gray-light text-gray-darker" },
+                      [_vm._v("Muted Light")]
+                    )
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "text-white font-w600" },
+                [
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-primary-darker" }, [
+                      _vm._v("Darker")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-primary-dark" }, [
+                      _vm._v("Dark")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-primary" }, [
+                      _vm._v("Primary")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-primary-light" }, [
+                      _vm._v("Light")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "" } }, [
+                    _c("p", { staticClass: "p-3 bg-primary-lighter" }, [
+                      _vm._v("Lighter")
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "row-deck" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c("base-block", { attrs: { title: "Blockquotes" } }, [
+                    _c("blockquote", { staticClass: "blockquote" }, [
+                      _c("p", { staticClass: "mb-0" }, [
+                        _vm._v("Be yourself; everyone else is already taken.")
+                      ]),
+                      _vm._v(" "),
+                      _c("footer", { staticClass: "blockquote-footer" }, [
+                        _vm._v("Oscar Wilde")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("blockquote", { staticClass: "blockquote text-right" }, [
+                      _c("p", { staticClass: "mb-0" }, [
+                        _vm._v(
+                          "Don't cry because it's over, smile because it happened."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("footer", { staticClass: "blockquote-footer" }, [
+                        _vm._v("Dr. Seuss")
+                      ])
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c("base-block", { attrs: { title: "Addresses" } }, [
+                    _c("address", [
+                      _c("strong", [_vm._v("Twitter, Inc.")]),
+                      _c("br"),
+                      _vm._v(
+                        "\n                        795 Folsom Ave, Suite 600"
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "\n                        San Francisco, CA 94107"
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("abbr", { attrs: { title: "Phone" } }, [_vm._v("P:")]),
+                      _vm._v(" (123) 456-7890\n                    ")
+                    ]),
+                    _vm._v(" "),
+                    _c("address", [
+                      _c("strong", [_vm._v("Full Name")]),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("a", { attrs: { href: "mailto:#" } }, [
+                        _vm._v("first.last@example.com")
+                      ])
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Paragraphs")]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "row-deck" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "4" } },
+                [
+                  _c("base-block", { attrs: { title: "Lead" } }, [
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "\n                        This is a lead paragraph. You can use it you highlight your main point before your article.\n                        It is great for such usage.\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "8" } },
+                [
+                  _c("base-block", { attrs: { title: "Normal" } }, [
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Typography.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/src/views/elements/Typography.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Typography_vue_vue_type_template_id_2bd6e0cd___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Typography.vue?vue&type=template&id=2bd6e0cd& */ "./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Typography_vue_vue_type_template_id_2bd6e0cd___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Typography_vue_vue_type_template_id_2bd6e0cd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Typography.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Typography_vue_vue_type_template_id_2bd6e0cd___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Typography.vue?vue&type=template&id=2bd6e0cd& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Typography.vue?vue&type=template&id=2bd6e0cd&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Typography_vue_vue_type_template_id_2bd6e0cd___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Typography_vue_vue_type_template_id_2bd6e0cd___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

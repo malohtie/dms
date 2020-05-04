@@ -1,1 +1,3339 @@
-var a38_0xb4b4=['Danger','bg-muted','bg-smooth-darker','Gray','bg-amethyst-light','bg-gray-darker','b-breadcrumb-item','Amethyst\x20Dark','Themed\x20Rounded','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bg-modern-light','bg-flat-light','_self','City\x20Dark','$createElement','Primary','Primary\x20Light','Primary\x20Darker','b-col','base-block','bg-default-light','City\x20Light','staticRenderFns','bg-gray','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea&','b-breadcrumb','breadcrumb-alt','default','Primary\x20Dark','bg-amethyst-dark','bg-amethyst-darker','options','Amethyst\x20Light','webpackJsonp','bg-modern','bg-modern-dark','render','Modern\x20Light','bg-modern-darker','bg-flat-darker','bg-info','extra','Modern\x20Dark','bg-smooth-light','Gray\x20Dark','Smooth\x20Darker','si\x20si-settings','Default\x20Light','bg-default-dark','bg-smooth','bg-city-darker','bg-city-dark','Default','Warning','Colorful\x20blocks\x20to\x20match\x20with\x20your\x20design.','Flat\x20Darker','City\x20Darker','bg-warning','base-page-heading','Flat\x20Light','Flat\x20Dark','Modern','Default\x20Dark','Success','Smooth\x20Light','bg-flat','__file','Gray\x20Darker','btn-block-option','bg-flat-dark','Themed\x20Square','bg-city','content','button','Smooth\x20Dark','Block\x20Options','bg-default','exports','b-row','push','bg-amethyst','content-heading','Info','Amethyst','bg-primary-dark','bg-primary-darker','bg-black','Default\x20Darker','Smooth','bg-primary-light','bg-default-darker','div','City','bg-success','Amethyst\x20Darker','Black','bg-danger','bg-smooth-dark'];(function(_0x492930,_0xb4b4d0){var _0x7ad0b2=function(_0xda48ae){while(--_0xda48ae){_0x492930['push'](_0x492930['shift']());}};_0x7ad0b2(++_0xb4b4d0);}(a38_0xb4b4,0x197));var a38_0x7ad0=function(_0x492930,_0xb4b4d0){_0x492930=_0x492930-0x0;var _0x7ad0b2=a38_0xb4b4[_0x492930];return _0x7ad0b2;};(window[a38_0x7ad0('0x12')]=window[a38_0x7ad0('0x12')]||[])[a38_0x7ad0('0x40')]([[0x26],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea&':function(_0x5eeb82,_0x2b520b,_0x25797b){'use strict';_0x25797b['r'](_0x2b520b);_0x25797b['d'](_0x2b520b,a38_0x7ad0('0x15'),function(){return _0x64ee78;});_0x25797b['d'](_0x2b520b,a38_0x7ad0('0x7'),function(){return _0x1929cf;});var _0x64ee78=function(){var _0x45ee17=this;var _0x2c0e80=_0x45ee17[a38_0x7ad0('0x61')];var _0x16af92=_0x45ee17[a38_0x7ad0('0x5f')]['_c']||_0x2c0e80;return _0x16af92(a38_0x7ad0('0x4c'),[_0x16af92(a38_0x7ad0('0x2b'),{'attrs':{'subtitle':a38_0x7ad0('0x27'),'title':a38_0x7ad0('0x3c')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x1a'),'fn':function(){return[_0x16af92(a38_0x7ad0('0xa'),{'staticClass':a38_0x7ad0('0xb')},[_0x16af92(a38_0x7ad0('0x59'),{'attrs':{'href':'javascript:void(0)'}},[_0x45ee17['_v']('Blocks')]),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x59'),{'attrs':{'active':''}},[_0x45ee17['_v']('Themed')])],0x1)];},'proxy':!![]}])}),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x4c'),{'staticClass':a38_0x7ad0('0x39')},[_0x16af92('h2',{'staticClass':a38_0x7ad0('0x42')},[_0x45ee17['_v'](a38_0x7ad0('0x37'))]),_0x45ee17['_v']('\x20'),_0x16af92('b-row',[_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'themed':'','title':a38_0x7ad0('0x0')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x4a'),'themed':'','title':a38_0x7ad0('0x1')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x45'),'themed':'','title':a38_0x7ad0('0xd')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x46'),'themed':'','title':a38_0x7ad0('0x2')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x4e'),'themed':'','title':'Success'},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x19'),'themed':'','title':a38_0x7ad0('0x43')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x2a'),'themed':'','title':a38_0x7ad0('0x26')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x51'),'themed':'','title':a38_0x7ad0('0x53')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x8'),'themed':'','title':'Gray'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x54'),'themed':'','title':a38_0x7ad0('0x1d')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x58'),'themed':'','title':a38_0x7ad0('0x34')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x47'),'themed':'','title':'Black'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x3d'),'themed':'','title':a38_0x7ad0('0x25')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x5'),'themed':'','title':a38_0x7ad0('0x20')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x21'),'themed':'','title':a38_0x7ad0('0x2f')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x4b'),'themed':'','title':a38_0x7ad0('0x48')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x41'),'themed':'','title':'Amethyst'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x57'),'themed':'','title':a38_0x7ad0('0x11')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0xe'),'themed':'','title':a38_0x7ad0('0x5a')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0xf'),'themed':'','title':a38_0x7ad0('0x4f')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x38'),'themed':'','title':a38_0x7ad0('0x4d')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-city-light','themed':'','title':a38_0x7ad0('0x6')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-city-dark','themed':'','title':a38_0x7ad0('0x60')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92('button',{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x23'),'themed':'','title':a38_0x7ad0('0x29')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x32'),'themed':'','title':'Flat'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x5e'),'themed':'','title':a38_0x7ad0('0x2c')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x36'),'themed':'','title':a38_0x7ad0('0x2d')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-flat-darker','themed':'','title':a38_0x7ad0('0x28')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x13'),'themed':'','title':a38_0x7ad0('0x2e')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x5d'),'themed':'','title':a38_0x7ad0('0x16')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x14'),'themed':'','title':a38_0x7ad0('0x1b')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x17'),'themed':'','title':'Modern\x20Darker'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x22'),'themed':'','title':a38_0x7ad0('0x49')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x1c'),'themed':'','title':a38_0x7ad0('0x31')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x52'),'themed':'','title':'Smooth\x20Dark'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x55'),'themed':'','title':a38_0x7ad0('0x1e')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1)],0x1),_0x45ee17['_v']('\x20'),_0x16af92('h2',{'staticClass':a38_0x7ad0('0x42')},[_0x45ee17['_v'](a38_0x7ad0('0x5b'))]),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3f'),[_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'themed':'','title':a38_0x7ad0('0x0')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x4a'),'rounded':'','themed':'','title':a38_0x7ad0('0x1')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x45'),'rounded':'','themed':'','title':a38_0x7ad0('0xd')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x46'),'rounded':'','themed':'','title':a38_0x7ad0('0x2')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-success','rounded':'','themed':'','title':a38_0x7ad0('0x30')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x19'),'rounded':'','themed':'','title':'Info'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-warning','rounded':'','themed':'','title':'Warning'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x51'),'rounded':'','themed':'','title':a38_0x7ad0('0x53')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x8'),'rounded':'','themed':'','title':a38_0x7ad0('0x56')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x54'),'rounded':'','themed':'','title':a38_0x7ad0('0x1d')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-gray-darker','rounded':'','themed':'','title':a38_0x7ad0('0x34')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x47'),'rounded':'','themed':'','title':a38_0x7ad0('0x50')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x3d'),'rounded':'','themed':'','title':'Default'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':'btn-block-option','attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x5'),'rounded':'','themed':'','title':a38_0x7ad0('0x20')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x21'),'rounded':'','themed':'','title':'Default\x20Dark'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x4b'),'rounded':'','themed':'','title':a38_0x7ad0('0x48')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x41'),'rounded':'','themed':'','title':a38_0x7ad0('0x44')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':'btn-block-option','attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x57'),'rounded':'','themed':'','title':a38_0x7ad0('0x11')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-amethyst-dark','rounded':'','themed':'','title':a38_0x7ad0('0x5a')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0xf'),'rounded':'','themed':'','title':a38_0x7ad0('0x4f')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x38'),'rounded':'','themed':'','title':'City'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-city-light','rounded':'','themed':'','title':a38_0x7ad0('0x6')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x24'),'rounded':'','themed':'','title':a38_0x7ad0('0x60')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x23'),'rounded':'','themed':'','title':a38_0x7ad0('0x29')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-flat','rounded':'','themed':'','title':'Flat'},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x5e'),'rounded':'','themed':'','title':a38_0x7ad0('0x2c')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x36'),'rounded':'','themed':'','title':'Flat\x20Dark'},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x18'),'rounded':'','themed':'','title':a38_0x7ad0('0x28')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':'btn-block-option','attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x13'),'rounded':'','themed':'','title':a38_0x7ad0('0x2e')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-modern-light','rounded':'','themed':'','title':a38_0x7ad0('0x16')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x14'),'rounded':'','themed':'','title':a38_0x7ad0('0x1b')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-modern-darker','rounded':'','themed':'','title':'Modern\x20Darker'},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x22'),'rounded':'','themed':'','title':a38_0x7ad0('0x49')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92(a38_0x7ad0('0x3'),{'attrs':{'md':'6','xl':'3'}},[_0x16af92('base-block',{'attrs':{'header-class':a38_0x7ad0('0x1c'),'rounded':'','themed':'','title':a38_0x7ad0('0x31')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':'btn-block-option','attrs':{'type':'button'}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':'bg-smooth-dark','rounded':'','themed':'','title':a38_0x7ad0('0x3b')},'scopedSlots':_0x45ee17['_u']([{'key':a38_0x7ad0('0x10'),'fn':function(){return[_0x16af92('button',{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':a38_0x7ad0('0x1f')})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v'](a38_0x7ad0('0x5c'))])])],0x1),_0x45ee17['_v']('\x20'),_0x16af92('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x16af92(a38_0x7ad0('0x4'),{'attrs':{'header-class':a38_0x7ad0('0x55'),'rounded':'','themed':'','title':a38_0x7ad0('0x1e')},'scopedSlots':_0x45ee17['_u']([{'key':'options','fn':function(){return[_0x16af92(a38_0x7ad0('0x3a'),{'staticClass':a38_0x7ad0('0x35'),'attrs':{'type':a38_0x7ad0('0x3a')}},[_0x16af92('i',{'staticClass':'si\x20si-settings'})])];},'proxy':!![]}])},[_0x45ee17['_v']('\x20'),_0x16af92('p',[_0x45ee17['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Block’s\x20content..\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])],0x1)],0x1)],0x1)],0x1);};var _0x1929cf=[];_0x64ee78['_withStripped']=!![];},'./resources/js/src/views/blocks/Themed.vue':function(_0x2cb979,_0x5b5fb7,_0x18f851){'use strict';_0x18f851['r'](_0x5b5fb7);var _0x49ebee=_0x18f851('./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea&');var _0x4fb295=_0x18f851('./node_modules/vue-loader/lib/runtime/componentNormalizer.js');var _0x4302ed={};var _0x348ab8=Object(_0x4fb295[a38_0x7ad0('0xc')])(_0x4302ed,_0x49ebee[a38_0x7ad0('0x15')],_0x49ebee['staticRenderFns'],![],null,null,null);if(![]){var _0x44e691;}_0x348ab8['options'][a38_0x7ad0('0x33')]='resources/js/src/views/blocks/Themed.vue';_0x5b5fb7['default']=_0x348ab8[a38_0x7ad0('0x3e')];},'./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea&':function(_0x4d1f59,_0x1053c7,_0x31bdec){'use strict';_0x31bdec['r'](_0x1053c7);var _0x3d14cf=_0x31bdec(a38_0x7ad0('0x9'));_0x31bdec['d'](_0x1053c7,a38_0x7ad0('0x15'),function(){return _0x3d14cf[a38_0x7ad0('0x15')];});_0x31bdec['d'](_0x1053c7,'staticRenderFns',function(){return _0x3d14cf[a38_0x7ad0('0x7')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[38],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Colorful blocks to match with your design.",
+          title: "Block Options"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Blocks")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Themed")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Themed Square")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { themed: "", title: "Primary" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-primary-light",
+                        themed: "",
+                        title: "Primary Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-primary-dark",
+                        themed: "",
+                        title: "Primary Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-primary-darker",
+                        themed: "",
+                        title: "Primary Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-success",
+                        themed: "",
+                        title: "Success"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-info",
+                        themed: "",
+                        title: "Info"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-warning",
+                        themed: "",
+                        title: "Warning"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-danger",
+                        themed: "",
+                        title: "Danger"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-gray",
+                        themed: "",
+                        title: "Gray"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-muted",
+                        themed: "",
+                        title: "Gray Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-gray-darker",
+                        themed: "",
+                        title: "Gray Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-black",
+                        themed: "",
+                        title: "Black"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-default",
+                        themed: "",
+                        title: "Default"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-default-light",
+                        themed: "",
+                        title: "Default Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-default-dark",
+                        themed: "",
+                        title: "Default Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-default-darker",
+                        themed: "",
+                        title: "Default Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-amethyst",
+                        themed: "",
+                        title: "Amethyst"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-amethyst-light",
+                        themed: "",
+                        title: "Amethyst Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-amethyst-dark",
+                        themed: "",
+                        title: "Amethyst Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-amethyst-darker",
+                        themed: "",
+                        title: "Amethyst Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-city",
+                        themed: "",
+                        title: "City"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-city-light",
+                        themed: "",
+                        title: "City Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-city-dark",
+                        themed: "",
+                        title: "City Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-city-darker",
+                        themed: "",
+                        title: "City Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-flat",
+                        themed: "",
+                        title: "Flat"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-flat-light",
+                        themed: "",
+                        title: "Flat Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-flat-dark",
+                        themed: "",
+                        title: "Flat Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-flat-darker",
+                        themed: "",
+                        title: "Flat Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-modern",
+                        themed: "",
+                        title: "Modern"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-modern-light",
+                        themed: "",
+                        title: "Modern Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-modern-dark",
+                        themed: "",
+                        title: "Modern Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-modern-darker",
+                        themed: "",
+                        title: "Modern Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-smooth",
+                        themed: "",
+                        title: "Smooth"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-smooth-light",
+                        themed: "",
+                        title: "Smooth Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-smooth-dark",
+                        themed: "",
+                        title: "Smooth Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-smooth-darker",
+                        themed: "",
+                        title: "Smooth Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Themed Rounded")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { themed: "", title: "Primary" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-primary-light",
+                        rounded: "",
+                        themed: "",
+                        title: "Primary Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-primary-dark",
+                        rounded: "",
+                        themed: "",
+                        title: "Primary Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-primary-darker",
+                        rounded: "",
+                        themed: "",
+                        title: "Primary Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-success",
+                        rounded: "",
+                        themed: "",
+                        title: "Success"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-info",
+                        rounded: "",
+                        themed: "",
+                        title: "Info"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-warning",
+                        rounded: "",
+                        themed: "",
+                        title: "Warning"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-danger",
+                        rounded: "",
+                        themed: "",
+                        title: "Danger"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-gray",
+                        rounded: "",
+                        themed: "",
+                        title: "Gray"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-muted",
+                        rounded: "",
+                        themed: "",
+                        title: "Gray Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-gray-darker",
+                        rounded: "",
+                        themed: "",
+                        title: "Gray Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-black",
+                        rounded: "",
+                        themed: "",
+                        title: "Black"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-default",
+                        rounded: "",
+                        themed: "",
+                        title: "Default"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-default-light",
+                        rounded: "",
+                        themed: "",
+                        title: "Default Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-default-dark",
+                        rounded: "",
+                        themed: "",
+                        title: "Default Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-default-darker",
+                        rounded: "",
+                        themed: "",
+                        title: "Default Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-amethyst",
+                        rounded: "",
+                        themed: "",
+                        title: "Amethyst"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-amethyst-light",
+                        rounded: "",
+                        themed: "",
+                        title: "Amethyst Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-amethyst-dark",
+                        rounded: "",
+                        themed: "",
+                        title: "Amethyst Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-amethyst-darker",
+                        rounded: "",
+                        themed: "",
+                        title: "Amethyst Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-city",
+                        rounded: "",
+                        themed: "",
+                        title: "City"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-city-light",
+                        rounded: "",
+                        themed: "",
+                        title: "City Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-city-dark",
+                        rounded: "",
+                        themed: "",
+                        title: "City Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-city-darker",
+                        rounded: "",
+                        themed: "",
+                        title: "City Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-flat",
+                        rounded: "",
+                        themed: "",
+                        title: "Flat"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-flat-light",
+                        rounded: "",
+                        themed: "",
+                        title: "Flat Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-flat-dark",
+                        rounded: "",
+                        themed: "",
+                        title: "Flat Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-flat-darker",
+                        rounded: "",
+                        themed: "",
+                        title: "Flat Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-modern",
+                        rounded: "",
+                        themed: "",
+                        title: "Modern"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-modern-light",
+                        rounded: "",
+                        themed: "",
+                        title: "Modern Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-modern-dark",
+                        rounded: "",
+                        themed: "",
+                        title: "Modern Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-modern-darker",
+                        rounded: "",
+                        themed: "",
+                        title: "Modern Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-smooth",
+                        rounded: "",
+                        themed: "",
+                        title: "Smooth"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-smooth-light",
+                        rounded: "",
+                        themed: "",
+                        title: "Smooth Light"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-smooth-dark",
+                        rounded: "",
+                        themed: "",
+                        title: "Smooth Dark"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "header-class": "bg-smooth-darker",
+                        rounded: "",
+                        themed: "",
+                        title: "Smooth Darker"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" }
+                                },
+                                [_c("i", { staticClass: "si si-settings" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Block’s content..\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/blocks/Themed.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/src/views/blocks/Themed.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Themed_vue_vue_type_template_id_35fe0bea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Themed.vue?vue&type=template&id=35fe0bea& */ "./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Themed_vue_vue_type_template_id_35fe0bea___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Themed_vue_vue_type_template_id_35fe0bea___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/blocks/Themed.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea& ***!
+  \*********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Themed_vue_vue_type_template_id_35fe0bea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Themed.vue?vue&type=template&id=35fe0bea& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Themed.vue?vue&type=template&id=35fe0bea&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Themed_vue_vue_type_template_id_35fe0bea___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Themed_vue_vue_type_template_id_35fe0bea___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

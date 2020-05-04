@@ -1,1 +1,514 @@
-var a54_0x4ccf=['Authentication','col-md-6','render','b-breadcrumb-item','webpackJsonp','breadcrumb-alt','Alternative','base-block','Lock\x20Screen\x202','href','/auth/signup2','Password\x20Reminder\x202','content-heading','fa\x20fa-user-plus\x20fa-2x\x20text-success','/auth/signup','All\x20pages\x20in\x20one\x20spot!','staticRenderFns','text-center','_withStripped','/auth/signin2','Lock\x20Screen','div','javascript:void(0)','__file','navigate','b-breadcrumb','All','fa\x20fa-life-ring\x20fa-2x\x20text-modern','base-page-heading','Password\x20Reminder','fa\x20fa-lock\x20fa-2x\x20text-city','/auth/lock2','default','py-5','Sign\x20In','extra','Sign\x20In\x202','font-size-lg','router-link','Sign\x20Up','./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2&','fa\x20fa-sign-in-alt\x20fa-2x\x20text-default','mb-3','Original','push','row'];(function(_0x4457f4,_0x4ccf2d){var _0x306495=function(_0x3a2cb8){while(--_0x3a2cb8){_0x4457f4['push'](_0x4457f4['shift']());}};_0x306495(++_0x4ccf2d);}(a54_0x4ccf,0x183));var a54_0x3064=function(_0x4457f4,_0x4ccf2d){_0x4457f4=_0x4457f4-0x0;var _0x306495=a54_0x4ccf[_0x4457f4];return _0x306495;};(window[a54_0x3064('0x1f')]=window[a54_0x3064('0x1f')]||[])[a54_0x3064('0x19')]([[0x36],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2&':function(_0x1c9f4e,_0x4a5e2e,_0x5926d0){'use strict';_0x5926d0['r'](_0x4a5e2e);_0x5926d0['d'](_0x4a5e2e,a54_0x3064('0x1d'),function(){return _0x10edc3;});_0x5926d0['d'](_0x4a5e2e,a54_0x3064('0x2b'),function(){return _0x1a48d5;});var _0x10edc3=function(){var _0x464ead=this;var _0x5f5baf=_0x464ead['$createElement'];var _0x11d5d0=_0x464ead['_self']['_c']||_0x5f5baf;return _0x11d5d0('div',[_0x11d5d0(a54_0x3064('0x9'),{'attrs':{'subtitle':a54_0x3064('0x2a'),'title':a54_0x3064('0x1b')},'scopedSlots':_0x464ead['_u']([{'key':a54_0x3064('0x10'),'fn':function(){return[_0x11d5d0(a54_0x3064('0x6'),{'staticClass':a54_0x3064('0x20')},[_0x11d5d0(a54_0x3064('0x1e'),{'attrs':{'href':a54_0x3064('0x3')}},[_0x464ead['_v'](a54_0x3064('0x1b'))]),_0x464ead['_v']('\x20'),_0x11d5d0(a54_0x3064('0x1e'),{'attrs':{'active':''}},[_0x464ead['_v'](a54_0x3064('0x7'))])],0x1)];},'proxy':!![]}])}),_0x464ead['_v']('\x20'),_0x11d5d0('div',{'staticClass':'content'},[_0x11d5d0('h2',{'staticClass':a54_0x3064('0x27')},[_0x464ead['_v'](a54_0x3064('0x18'))]),_0x464ead['_v']('\x20'),_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'row'},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0x1c')},[_0x11d5d0(a54_0x3064('0x13'),{'attrs':{'to':'/auth/signin'},'scopedSlots':_0x464ead['_u']([{'key':a54_0x3064('0xd'),'fn':function(_0x1885f9){var _0xd9c8a8=_0x1885f9[a54_0x3064('0x24')];var _0x70ba10=_0x1885f9[a54_0x3064('0x5')];return[_0x11d5d0(a54_0x3064('0x22'),{'attrs':{'href':_0xd9c8a8,'content-class':a54_0x3064('0x2c'),'link-shadow':'','rounded':'','tag':'a'},'on':{'click':_0x70ba10}},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'py-5'},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0x17')},[_0x11d5d0('i',{'staticClass':a54_0x3064('0x16')})]),_0x464ead['_v']('\x20'),_0x11d5d0('p',{'staticClass':'font-size-lg'},[_0x464ead['_v'](a54_0x3064('0xf'))])])])];}}])})],0x1),_0x464ead['_v']('\x20'),_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'col-md-6'},[_0x11d5d0('router-link',{'attrs':{'to':a54_0x3064('0x29')},'scopedSlots':_0x464ead['_u']([{'key':a54_0x3064('0xd'),'fn':function(_0x3f8e80){var _0x48c7c3=_0x3f8e80[a54_0x3064('0x24')];var _0x56c228=_0x3f8e80[a54_0x3064('0x5')];return[_0x11d5d0(a54_0x3064('0x22'),{'attrs':{'href':_0x48c7c3,'content-class':a54_0x3064('0x2c'),'link-shadow':'','rounded':'','tag':'a'},'on':{'click':_0x56c228}},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0xe')},[_0x11d5d0('div',{'staticClass':'mb-3'},[_0x11d5d0('i',{'staticClass':a54_0x3064('0x28')})]),_0x464ead['_v']('\x20'),_0x11d5d0('p',{'staticClass':a54_0x3064('0x12')},[_0x464ead['_v'](a54_0x3064('0x14'))])])])];}}])})],0x1),_0x464ead['_v']('\x20'),_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'col-md-6'},[_0x11d5d0(a54_0x3064('0x13'),{'attrs':{'to':'/auth/lock'},'scopedSlots':_0x464ead['_u']([{'key':a54_0x3064('0xd'),'fn':function(_0x2c719b){var _0x2f4ad3=_0x2c719b[a54_0x3064('0x24')];var _0x3eff0d=_0x2c719b[a54_0x3064('0x5')];return[_0x11d5d0(a54_0x3064('0x22'),{'attrs':{'href':_0x2f4ad3,'content-class':a54_0x3064('0x2c'),'link-shadow':'','rounded':'','tag':'a'},'on':{'click':_0x3eff0d}},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0xe')},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'mb-3'},[_0x11d5d0('i',{'staticClass':a54_0x3064('0xb')})]),_0x464ead['_v']('\x20'),_0x11d5d0('p',{'staticClass':a54_0x3064('0x12')},[_0x464ead['_v'](a54_0x3064('0x1'))])])])];}}])})],0x1),_0x464ead['_v']('\x20'),_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'col-md-6'},[_0x11d5d0(a54_0x3064('0x13'),{'attrs':{'to':'/auth/reminder'},'scopedSlots':_0x464ead['_u']([{'key':a54_0x3064('0xd'),'fn':function(_0x499649){var _0x18cb0f=_0x499649['href'];var _0x26273d=_0x499649[a54_0x3064('0x5')];return[_0x11d5d0(a54_0x3064('0x22'),{'attrs':{'href':_0x18cb0f,'content-class':a54_0x3064('0x2c'),'link-shadow':'','rounded':'','tag':'a'},'on':{'click':_0x26273d}},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0xe')},[_0x11d5d0('div',{'staticClass':'mb-3'},[_0x11d5d0('i',{'staticClass':a54_0x3064('0x8')})]),_0x464ead['_v']('\x20'),_0x11d5d0('p',{'staticClass':a54_0x3064('0x12')},[_0x464ead['_v'](a54_0x3064('0xa'))])])])];}}])})],0x1)]),_0x464ead['_v']('\x20'),_0x11d5d0('h2',{'staticClass':'content-heading'},[_0x464ead['_v'](a54_0x3064('0x21'))]),_0x464ead['_v']('\x20'),_0x11d5d0('div',{'staticClass':a54_0x3064('0x1a')},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'col-md-6'},[_0x11d5d0('router-link',{'attrs':{'to':a54_0x3064('0x0')},'scopedSlots':_0x464ead['_u']([{'key':'default','fn':function(_0x21cc43){var _0x371b02=_0x21cc43[a54_0x3064('0x24')];var _0x57691e=_0x21cc43['navigate'];return[_0x11d5d0(a54_0x3064('0x22'),{'attrs':{'href':_0x371b02,'content-class':a54_0x3064('0x2c'),'link-shadow':'','rounded':'','tag':'a'},'on':{'click':_0x57691e}},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'py-5'},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0x17')},[_0x11d5d0('i',{'staticClass':'fa\x20fa-sign-in-alt\x20fa-2x\x20text-default'})]),_0x464ead['_v']('\x20'),_0x11d5d0('p',{'staticClass':a54_0x3064('0x12')},[_0x464ead['_v'](a54_0x3064('0x11'))])])])];}}])})],0x1),_0x464ead['_v']('\x20'),_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0x1c')},[_0x11d5d0(a54_0x3064('0x13'),{'attrs':{'to':a54_0x3064('0x25')},'scopedSlots':_0x464ead['_u']([{'key':a54_0x3064('0xd'),'fn':function(_0x1dc393){var _0x139f06=_0x1dc393[a54_0x3064('0x24')];var _0x23918f=_0x1dc393['navigate'];return[_0x11d5d0('base-block',{'attrs':{'href':_0x139f06,'content-class':a54_0x3064('0x2c'),'link-shadow':'','rounded':'','tag':'a'},'on':{'click':_0x23918f}},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0xe')},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'mb-3'},[_0x11d5d0('i',{'staticClass':'fa\x20fa-user-plus\x20fa-2x\x20text-success'})]),_0x464ead['_v']('\x20'),_0x11d5d0('p',{'staticClass':'font-size-lg'},[_0x464ead['_v']('Sign\x20Up\x202')])])])];}}])})],0x1),_0x464ead['_v']('\x20'),_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'col-md-6'},[_0x11d5d0('router-link',{'attrs':{'to':a54_0x3064('0xc')},'scopedSlots':_0x464ead['_u']([{'key':a54_0x3064('0xd'),'fn':function(_0x395e0e){var _0x151caf=_0x395e0e[a54_0x3064('0x24')];var _0x226fc4=_0x395e0e[a54_0x3064('0x5')];return[_0x11d5d0(a54_0x3064('0x22'),{'attrs':{'href':_0x151caf,'content-class':a54_0x3064('0x2c'),'link-shadow':'','rounded':'','tag':'a'},'on':{'click':_0x226fc4}},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0xe')},[_0x11d5d0('div',{'staticClass':'mb-3'},[_0x11d5d0('i',{'staticClass':'fa\x20fa-lock\x20fa-2x\x20text-city'})]),_0x464ead['_v']('\x20'),_0x11d5d0('p',{'staticClass':a54_0x3064('0x12')},[_0x464ead['_v'](a54_0x3064('0x23'))])])])];}}])})],0x1),_0x464ead['_v']('\x20'),_0x11d5d0(a54_0x3064('0x2'),{'staticClass':'col-md-6'},[_0x11d5d0(a54_0x3064('0x13'),{'attrs':{'to':'/auth/reminder2'},'scopedSlots':_0x464ead['_u']([{'key':a54_0x3064('0xd'),'fn':function(_0x4ccdae){var _0x5b6a17=_0x4ccdae[a54_0x3064('0x24')];var _0xd50f5a=_0x4ccdae['navigate'];return[_0x11d5d0('base-block',{'attrs':{'href':_0x5b6a17,'content-class':a54_0x3064('0x2c'),'link-shadow':'','rounded':'','tag':'a'},'on':{'click':_0xd50f5a}},[_0x11d5d0(a54_0x3064('0x2'),{'staticClass':a54_0x3064('0xe')},[_0x11d5d0('div',{'staticClass':'mb-3'},[_0x11d5d0('i',{'staticClass':'fa\x20fa-life-ring\x20fa-2x\x20text-modern'})]),_0x464ead['_v']('\x20'),_0x11d5d0('p',{'staticClass':a54_0x3064('0x12')},[_0x464ead['_v'](a54_0x3064('0x26'))])])])];}}])})],0x1)])])],0x1);};var _0x1a48d5=[];_0x10edc3[a54_0x3064('0x2d')]=!![];},'./resources/js/src/views/pages/auth/All.vue':function(_0x3ee722,_0x56969e,_0x3592ff){'use strict';_0x3592ff['r'](_0x56969e);var _0xefbeff=_0x3592ff(a54_0x3064('0x15'));var _0x1ef847=_0x3592ff('./node_modules/vue-loader/lib/runtime/componentNormalizer.js');var _0x5d4c3f={};var _0x384c6c=Object(_0x1ef847[a54_0x3064('0xd')])(_0x5d4c3f,_0xefbeff[a54_0x3064('0x1d')],_0xefbeff[a54_0x3064('0x2b')],![],null,null,null);if(![]){var _0x5262d9;}_0x384c6c['options'][a54_0x3064('0x4')]='resources/js/src/views/pages/auth/All.vue';_0x56969e[a54_0x3064('0xd')]=_0x384c6c['exports'];},'./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2&':function(_0x5b3a89,_0x43c4d6,_0x13c2da){'use strict';_0x13c2da['r'](_0x43c4d6);var _0x239326=_0x13c2da('./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2&');_0x13c2da['d'](_0x43c4d6,a54_0x3064('0x1d'),function(){return _0x239326[a54_0x3064('0x1d')];});_0x13c2da['d'](_0x43c4d6,a54_0x3064('0x2b'),function(){return _0x239326[a54_0x3064('0x2b')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[54],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: { subtitle: "All pages in one spot!", title: "Authentication" },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Authentication")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("All")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "content" }, [
+        _c("h2", { staticClass: "content-heading" }, [_vm._v("Original")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-md-6" },
+            [
+              _c("router-link", {
+                attrs: { to: "/auth/signin" },
+                scopedSlots: _vm._u([
+                  {
+                    key: "default",
+                    fn: function(ref) {
+                      var href = ref.href
+                      var navigate = ref.navigate
+                      return [
+                        _c(
+                          "base-block",
+                          {
+                            attrs: {
+                              href: href,
+                              "content-class": "text-center",
+                              "link-shadow": "",
+                              rounded: "",
+                              tag: "a"
+                            },
+                            on: { click: navigate }
+                          },
+                          [
+                            _c("div", { staticClass: "py-5" }, [
+                              _c("div", { staticClass: "mb-3" }, [
+                                _c("i", {
+                                  staticClass:
+                                    "fa fa-sign-in-alt fa-2x text-default"
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c("p", { staticClass: "font-size-lg" }, [
+                                _vm._v("Sign In")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]
+                    }
+                  }
+                ])
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-md-6" },
+            [
+              _c("router-link", {
+                attrs: { to: "/auth/signup" },
+                scopedSlots: _vm._u([
+                  {
+                    key: "default",
+                    fn: function(ref) {
+                      var href = ref.href
+                      var navigate = ref.navigate
+                      return [
+                        _c(
+                          "base-block",
+                          {
+                            attrs: {
+                              href: href,
+                              "content-class": "text-center",
+                              "link-shadow": "",
+                              rounded: "",
+                              tag: "a"
+                            },
+                            on: { click: navigate }
+                          },
+                          [
+                            _c("div", { staticClass: "py-5" }, [
+                              _c("div", { staticClass: "mb-3" }, [
+                                _c("i", {
+                                  staticClass:
+                                    "fa fa-user-plus fa-2x text-success"
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c("p", { staticClass: "font-size-lg" }, [
+                                _vm._v("Sign Up")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]
+                    }
+                  }
+                ])
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-md-6" },
+            [
+              _c("router-link", {
+                attrs: { to: "/auth/lock" },
+                scopedSlots: _vm._u([
+                  {
+                    key: "default",
+                    fn: function(ref) {
+                      var href = ref.href
+                      var navigate = ref.navigate
+                      return [
+                        _c(
+                          "base-block",
+                          {
+                            attrs: {
+                              href: href,
+                              "content-class": "text-center",
+                              "link-shadow": "",
+                              rounded: "",
+                              tag: "a"
+                            },
+                            on: { click: navigate }
+                          },
+                          [
+                            _c("div", { staticClass: "py-5" }, [
+                              _c("div", { staticClass: "mb-3" }, [
+                                _c("i", {
+                                  staticClass: "fa fa-lock fa-2x text-city"
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c("p", { staticClass: "font-size-lg" }, [
+                                _vm._v("Lock Screen")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]
+                    }
+                  }
+                ])
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-md-6" },
+            [
+              _c("router-link", {
+                attrs: { to: "/auth/reminder" },
+                scopedSlots: _vm._u([
+                  {
+                    key: "default",
+                    fn: function(ref) {
+                      var href = ref.href
+                      var navigate = ref.navigate
+                      return [
+                        _c(
+                          "base-block",
+                          {
+                            attrs: {
+                              href: href,
+                              "content-class": "text-center",
+                              "link-shadow": "",
+                              rounded: "",
+                              tag: "a"
+                            },
+                            on: { click: navigate }
+                          },
+                          [
+                            _c("div", { staticClass: "py-5" }, [
+                              _c("div", { staticClass: "mb-3" }, [
+                                _c("i", {
+                                  staticClass:
+                                    "fa fa-life-ring fa-2x text-modern"
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c("p", { staticClass: "font-size-lg" }, [
+                                _vm._v("Password Reminder")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]
+                    }
+                  }
+                ])
+              })
+            ],
+            1
+          )
+        ]),
+        _vm._v(" "),
+        _c("h2", { staticClass: "content-heading" }, [_vm._v("Alternative")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-md-6" },
+            [
+              _c("router-link", {
+                attrs: { to: "/auth/signin2" },
+                scopedSlots: _vm._u([
+                  {
+                    key: "default",
+                    fn: function(ref) {
+                      var href = ref.href
+                      var navigate = ref.navigate
+                      return [
+                        _c(
+                          "base-block",
+                          {
+                            attrs: {
+                              href: href,
+                              "content-class": "text-center",
+                              "link-shadow": "",
+                              rounded: "",
+                              tag: "a"
+                            },
+                            on: { click: navigate }
+                          },
+                          [
+                            _c("div", { staticClass: "py-5" }, [
+                              _c("div", { staticClass: "mb-3" }, [
+                                _c("i", {
+                                  staticClass:
+                                    "fa fa-sign-in-alt fa-2x text-default"
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c("p", { staticClass: "font-size-lg" }, [
+                                _vm._v("Sign In 2")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]
+                    }
+                  }
+                ])
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-md-6" },
+            [
+              _c("router-link", {
+                attrs: { to: "/auth/signup2" },
+                scopedSlots: _vm._u([
+                  {
+                    key: "default",
+                    fn: function(ref) {
+                      var href = ref.href
+                      var navigate = ref.navigate
+                      return [
+                        _c(
+                          "base-block",
+                          {
+                            attrs: {
+                              href: href,
+                              "content-class": "text-center",
+                              "link-shadow": "",
+                              rounded: "",
+                              tag: "a"
+                            },
+                            on: { click: navigate }
+                          },
+                          [
+                            _c("div", { staticClass: "py-5" }, [
+                              _c("div", { staticClass: "mb-3" }, [
+                                _c("i", {
+                                  staticClass:
+                                    "fa fa-user-plus fa-2x text-success"
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c("p", { staticClass: "font-size-lg" }, [
+                                _vm._v("Sign Up 2")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]
+                    }
+                  }
+                ])
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-md-6" },
+            [
+              _c("router-link", {
+                attrs: { to: "/auth/lock2" },
+                scopedSlots: _vm._u([
+                  {
+                    key: "default",
+                    fn: function(ref) {
+                      var href = ref.href
+                      var navigate = ref.navigate
+                      return [
+                        _c(
+                          "base-block",
+                          {
+                            attrs: {
+                              href: href,
+                              "content-class": "text-center",
+                              "link-shadow": "",
+                              rounded: "",
+                              tag: "a"
+                            },
+                            on: { click: navigate }
+                          },
+                          [
+                            _c("div", { staticClass: "py-5" }, [
+                              _c("div", { staticClass: "mb-3" }, [
+                                _c("i", {
+                                  staticClass: "fa fa-lock fa-2x text-city"
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c("p", { staticClass: "font-size-lg" }, [
+                                _vm._v("Lock Screen 2")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]
+                    }
+                  }
+                ])
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-md-6" },
+            [
+              _c("router-link", {
+                attrs: { to: "/auth/reminder2" },
+                scopedSlots: _vm._u([
+                  {
+                    key: "default",
+                    fn: function(ref) {
+                      var href = ref.href
+                      var navigate = ref.navigate
+                      return [
+                        _c(
+                          "base-block",
+                          {
+                            attrs: {
+                              href: href,
+                              "content-class": "text-center",
+                              "link-shadow": "",
+                              rounded: "",
+                              tag: "a"
+                            },
+                            on: { click: navigate }
+                          },
+                          [
+                            _c("div", { staticClass: "py-5" }, [
+                              _c("div", { staticClass: "mb-3" }, [
+                                _c("i", {
+                                  staticClass:
+                                    "fa fa-life-ring fa-2x text-modern"
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c("p", { staticClass: "font-size-lg" }, [
+                                _vm._v("Password Reminder 2")
+                              ])
+                            ])
+                          ]
+                        )
+                      ]
+                    }
+                  }
+                ])
+              })
+            ],
+            1
+          )
+        ])
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/pages/auth/All.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/src/views/pages/auth/All.vue ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _All_vue_vue_type_template_id_efa784e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./All.vue?vue&type=template&id=efa784e2& */ "./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _All_vue_vue_type_template_id_efa784e2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _All_vue_vue_type_template_id_efa784e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/pages/auth/All.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2& ***!
+  \**********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_All_vue_vue_type_template_id_efa784e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./All.vue?vue&type=template&id=efa784e2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/auth/All.vue?vue&type=template&id=efa784e2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_All_vue_vue_type_template_id_efa784e2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_All_vue_vue_type_template_id_efa784e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

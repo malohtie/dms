@@ -1,1 +1,2360 @@
-var a45_0x3517=['modal-block-top','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x20laoreet\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x20tristique\x20lobortis\x20est\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x20quis\x20dictumst\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x20sit\x20varius\x20lorem\x20sit\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-button','modal-block-popout','webpackJsonp','content','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Coming\x20from\x20right\x20with\x20rotation\x20animation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','modal-dialog-fromright','modal-block-normal','\x20Ok\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20The\x20default\x20modal\x20animation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','font-size-sm\x20text-muted','Modals','b-row','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20center\x20your\x20modals\x20in\x20the\x20middle\x20of\x20the\x20screen\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fa\x20fa-fw\x20fa-times','fa\x20fa-check\x20mr-1','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sliding\x20from\x20right\x20animation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v-b-modal.modal-block-large','_withStripped','b-col','modal-block-fromright','v-b-modal.modal-block-popout','block-header\x20bg-primary-dark','p-0','modal-block-popin','base-page-heading','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Modals\x20are\x20completely\x20customizable\x20and\x20here\x20we\x20present\x20the\x20default\x20one\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sliding\x20from\x20up\x20animation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','breadcrumb-alt','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Coming\x20from\x20left\x20with\x20rotation\x20animation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Position:\x20Top','$bvModal','b-breadcrumb-item','Elements','button','block-title','modal-block-fadein','__file','options','v-b-modal.modal-block-small','extra','staticRenderFns','modal-block-large','modal-dialog-slideup','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8&','Slide\x20Up','modal-block-extra-large','modal-block-fromleft','div','primary','small','light','javascript:void(0)','v-b-modal.modal-block-fromleft','Modal\x20Title','Close\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Launch\x20Modal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-breadcrumb','Size:\x20Large','block-options','modal-block-slideleft','default','Fade\x20In','Size:\x20Extra\x20Large','modal-block-slideright','From\x20Right','v-b-modal.modal-block-extra-large','base-block','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sliding\x20from\x20left\x20animation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Close\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v-b-modal.modal-block-slideleft','btn-block-option','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20If\x20you\x20don’t\x20have\x20much\x20content,\x20you\x20can\x20use\x20the\x20small\x20size\x20variation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','modal-block-vcenter','modal-dialog-slideleft','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20position\x20your\x20modals\x20at\x20the\x20top\x20of\x20the\x20screen\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','modal-block-small','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Poping\x20in\x20animation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','block-content\x20font-size-sm','block-content\x20block-content-full\x20text-right\x20border-top','modal-dialog-popin','hide','block\x20block-themed\x20block-transparent\x20mb-0','v-b-modal.modal-block-fadein','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Potenti\x20elit\x20lectus\x20augue\x20eget\x20iaculis\x20vitae\x20etiam,\x20ullamcorper\x20etiam\x20bibendum\x20ad\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20feugiat\x20magna\x20accumsan\x20dolor,\x20nibh\x20molestie\x20cras\x20hac\x20ac\x20ad\x20massa,\x20fusce\x20ante\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20convallis\x20ante\x20urna\x20molestie\x20vulputate\x20bibendum\x20tempus\x20ante\x20justo\x20arcu\x20erat\x20accumsan\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20adipiscing\x20risus,\x20libero\x20condimentum\x20venenatis\x20sit\x20nisl\x20nisi\x20ultricies\x20sed,\x20fames\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20aliquet\x20consectetur\x20consequat\x20nostra\x20molestie\x20neque\x20nullam\x20scelerisque\x20neque\x20commodo\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20turpis\x20quisque\x20etiam\x20egestas\x20vulputate\x20massa,\x20curabitur\x20tellus\x20massa\x20venenatis\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20congue\x20dolor\x20enim\x20integer\x20luctus,\x20nisi\x20suscipit\x20gravida\x20fames\x20quis\x20vulputate\x20nisi\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20viverra\x20luctus\x20id\x20leo\x20dictum\x20lorem,\x20inceptos\x20nibh\x20orci.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','render','row-deck','_self','Pop\x20In','./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8&','content-heading','modal-block-slideup','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Poping\x20out\x20animation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-modal','Slide\x20Right','Size:\x20Small','$createElement','v-b-modal.modal-block-normal','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','resources/js/src/views/elements/Modals.vue','From\x20Left','Add\x20dialogs\x20to\x20your\x20site\x20for\x20lightboxes,\x20user\x20notifications,\x20or\x20completely\x20custom\x20content.'];(function(_0x372613,_0x35179d){var _0x190966=function(_0x298ac5){while(--_0x298ac5){_0x372613['push'](_0x372613['shift']());}};_0x190966(++_0x35179d);}(a45_0x3517,0x14b));var a45_0x1909=function(_0x372613,_0x35179d){_0x372613=_0x372613-0x0;var _0x190966=a45_0x3517[_0x372613];return _0x190966;};(window[a45_0x1909('0x55')]=window[a45_0x1909('0x55')]||[])['push']([[0x2d],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8&':function(_0x1028f6,_0x52a770,_0x5193e4){'use strict';_0x5193e4['r'](_0x52a770);_0x5193e4['d'](_0x52a770,a45_0x1909('0x40'),function(){return _0x11a291;});_0x5193e4['d'](_0x52a770,'staticRenderFns',function(){return _0x1d28cf;});var _0x11a291=function(){var _0x8133c3=this;var _0x4b7df6=_0x8133c3[a45_0x1909('0x4b')];var _0xe9cc1d=_0x8133c3[a45_0x1909('0x42')]['_c']||_0x4b7df6;return _0xe9cc1d(a45_0x1909('0x1b'),[_0xe9cc1d(a45_0x1909('0x4'),{'attrs':{'subtitle':a45_0x1909('0x50'),'title':'Modals'},'scopedSlots':_0x8133c3['_u']([{'key':a45_0x1909('0x13'),'fn':function(){return[_0xe9cc1d(a45_0x1909('0x24'),{'staticClass':a45_0x1909('0x7')},[_0xe9cc1d(a45_0x1909('0xb'),{'attrs':{'href':a45_0x1909('0x1f')}},[_0x8133c3['_v'](a45_0x1909('0xc'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0xb'),{'attrs':{'active':''}},[_0x8133c3['_v'](a45_0x1909('0x5d'))])],0x1)];},'proxy':!![]}])}),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x56')},[_0xe9cc1d('h2',{'staticClass':a45_0x1909('0x45')},[_0x8133c3['_v']('Bootstrap\x20Modals')]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x5e'),{'staticClass':a45_0x1909('0x41')},[_0xe9cc1d('b-col',{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':'Default\x20Variation'}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v'](a45_0x1909('0x5'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':a45_0x1909('0x48'),'rawName':a45_0x1909('0x4c'),'modifiers':{'modal-block-normal':!![]}}],'attrs':{'size':'sm','variant':a45_0x1909('0x1c')}},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Launch\x20Modal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-modal',{'attrs':{'body-class':a45_0x1909('0x2'),'hide-footer':'','hide-header':'','id':'modal-block-normal'}},[_0xe9cc1d('div',{'staticClass':a45_0x1909('0x3d')},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x26')},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':a45_0x1909('0x32'),'attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0x3722b1){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')]('modal-block-normal');}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x60')})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-content\x20font-size-sm'},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-content\x20block-content-full\x20text-right\x20border-top'},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x4b7e88){return _0x8133c3[a45_0x1909('0xa')]['hide'](a45_0x1909('0x59'));}}},[_0x8133c3['_v'](a45_0x1909('0x22'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x44f5c3){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x59'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x61')}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d('base-block',{'attrs':{'content-full':'','title':a45_0x1909('0x4a')}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v'](a45_0x1909('0x33'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':a45_0x1909('0x48'),'rawName':a45_0x1909('0x12'),'modifiers':{'modal-block-small':!![]}}],'attrs':{'size':'sm','variant':'primary'}},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Launch\x20Modal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x48'),{'attrs':{'body-class':'p-0','hide-footer':'','hide-header':'','id':a45_0x1909('0x37'),'size':'sm'}},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block\x20block-themed\x20block-transparent\x20mb-0'},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-options'},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':'btn-block-option','attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0x2ee004){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x37'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x60')})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-content\x20font-size-sm'},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3a')},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x43db5c){return _0x8133c3[a45_0x1909('0xa')]['hide'](a45_0x1909('0x37'));}}},[_0x8133c3['_v'](a45_0x1909('0x22'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x3c1c3c){return _0x8133c3[a45_0x1909('0xa')]['hide']('modal-block-small');}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x61')}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d('base-block',{'attrs':{'content-full':'','title':a45_0x1909('0x25')}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20If\x20you\x20need\x20more\x20space\x20you\x20can\x20use\x20the\x20large\x20size\x20variation\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':a45_0x1909('0x48'),'rawName':a45_0x1909('0x63'),'modifiers':{'modal-block-large':!![]}}],'attrs':{'size':'sm','variant':a45_0x1909('0x1c')}},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Launch\x20Modal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-modal',{'attrs':{'body-class':'p-0','hide-footer':'','hide-header':'','id':a45_0x1909('0x15'),'size':'lg'}},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3d')},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':'block-title'},[_0x8133c3['_v']('Modal\x20Title')]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-options'},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':a45_0x1909('0x32'),'attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0x4e575f){return _0x8133c3['$bvModal'][a45_0x1909('0x3c')](a45_0x1909('0x15'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x60')})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x39')},[_0xe9cc1d('p',[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x20laoreet\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x20tristique\x20lobortis\x20est\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x20quis\x20dictumst\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x20sit\x20varius\x20lorem\x20sit\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-content\x20block-content-full\x20text-right\x20border-top'},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':'light'},'on':{'click':function(_0x100d86){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x15'));}}},[_0x8133c3['_v'](a45_0x1909('0x22'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':'primary'},'on':{'click':function(_0x3337d4){return _0x8133c3['$bvModal'][a45_0x1909('0x3c')](a45_0x1909('0x15'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-check\x20mr-1'}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':a45_0x1909('0x2a')}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Do\x20you\x20need\x20even\x20more\x20space?\x20Go\x20for\x20the\x20extra\x20large\x20modal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':'b-modal','rawName':a45_0x1909('0x2d'),'modifiers':{'modal-block-extra-large':!![]}}],'attrs':{'size':'sm','variant':a45_0x1909('0x1c')}},[_0x8133c3['_v'](a45_0x1909('0x23'))])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-modal',{'attrs':{'body-class':'p-0','hide-footer':'','hide-header':'','id':a45_0x1909('0x19'),'size':'xl'}},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block\x20block-themed\x20block-transparent\x20mb-0'},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x26')},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':a45_0x1909('0x32'),'attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0x132aa0){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x19'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x60')})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-content\x20font-size-sm'},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x3f'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x3f'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Potenti\x20elit\x20lectus\x20augue\x20eget\x20iaculis\x20vitae\x20etiam,\x20ullamcorper\x20etiam\x20bibendum\x20ad\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20feugiat\x20magna\x20accumsan\x20dolor,\x20nibh\x20molestie\x20cras\x20hac\x20ac\x20ad\x20massa,\x20fusce\x20ante\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20convallis\x20ante\x20urna\x20molestie\x20vulputate\x20bibendum\x20tempus\x20ante\x20justo\x20arcu\x20erat\x20accumsan\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20adipiscing\x20risus,\x20libero\x20condimentum\x20venenatis\x20sit\x20nisl\x20nisi\x20ultricies\x20sed,\x20fames\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20aliquet\x20consectetur\x20consequat\x20nostra\x20molestie\x20neque\x20nullam\x20scelerisque\x20neque\x20commodo\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20turpis\x20quisque\x20etiam\x20egestas\x20vulputate\x20massa,\x20curabitur\x20tellus\x20massa\x20venenatis\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20congue\x20dolor\x20enim\x20integer\x20luctus,\x20nisi\x20suscipit\x20gravida\x20fames\x20quis\x20vulputate\x20nisi\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20viverra\x20luctus\x20id\x20leo\x20dictum\x20lorem,\x20inceptos\x20nibh\x20orci.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3a')},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x430632){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')]('modal-block-extra-large');}}},[_0x8133c3['_v'](a45_0x1909('0x30'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-button',{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x401fd3){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x19'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-check\x20mr-1'}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':a45_0x1909('0x9')}},[_0xe9cc1d('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x8133c3['_v'](a45_0x1909('0x36'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':a45_0x1909('0x48'),'rawName':'v-b-modal.modal-block-top','modifiers':{'modal-block-top':!![]}}],'attrs':{'size':'sm','variant':a45_0x1909('0x1c')}},[_0x8133c3['_v'](a45_0x1909('0x23'))])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x48'),{'attrs':{'body-class':a45_0x1909('0x2'),'dialog-class':'modal-dialog-top','hide-footer':'','hide-header':'','id':a45_0x1909('0x51')}},[_0xe9cc1d('div',{'staticClass':'block\x20block-themed\x20block-transparent\x20mb-0'},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':'block-title'},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x26')},[_0xe9cc1d('button',{'staticClass':a45_0x1909('0x32'),'attrs':{'type':'button'},'on':{'click':function(_0x465c77){return _0x8133c3['$bvModal'][a45_0x1909('0x3c')](a45_0x1909('0x51'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x60')})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':a45_0x1909('0x39')},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3a')},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0xc6eb90){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x51'));}}},[_0x8133c3['_v'](a45_0x1909('0x22'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-button',{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x6344d2){return _0x8133c3[a45_0x1909('0xa')]['hide'](a45_0x1909('0x51'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x61')}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d('base-block',{'attrs':{'content-full':'','title':'Position:\x20Vertically\x20Centered'}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v'](a45_0x1909('0x5f'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':'b-modal','rawName':'v-b-modal.modal-block-vcenter','modifiers':{'modal-block-vcenter':!![]}}],'attrs':{'size':'sm','variant':'primary'}},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Launch\x20Modal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-modal',{'attrs':{'body-class':a45_0x1909('0x2'),'centered':'','hide-footer':'','hide-header':'','id':a45_0x1909('0x34')}},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3d')},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v']('Modal\x20Title')]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':'block-options'},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':'btn-block-option','attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0x10bece){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x34'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x60')})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x39')},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':'block-content\x20block-content-full\x20text-right\x20border-top'},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x52b17d){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x34'));}}},[_0x8133c3['_v'](a45_0x1909('0x30'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-button',{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x538ea7){return _0x8133c3['$bvModal'][a45_0x1909('0x3c')](a45_0x1909('0x34'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x61')}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1)],0x1),_0x8133c3['_v']('\x20'),_0x8133c3['_m'](0x0),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-row',{'staticClass':a45_0x1909('0x41')},[_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':a45_0x1909('0x29')}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v'](a45_0x1909('0x5b'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-button',{'directives':[{'name':a45_0x1909('0x48'),'rawName':a45_0x1909('0x3e'),'modifiers':{'modal-block-fadein':!![]}}],'attrs':{'size':'sm','variant':a45_0x1909('0x1c')}},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Launch\x20Modal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x48'),{'attrs':{'body-class':a45_0x1909('0x2'),'hide-footer':'','hide-header':'','id':a45_0x1909('0xf')}},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3d')},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x26')},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':a45_0x1909('0x32'),'attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0xa87d57){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0xf'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-fw\x20fa-times'})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x39')},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3a')},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x59c2da){return _0x8133c3[a45_0x1909('0xa')]['hide'](a45_0x1909('0xf'));}}},[_0x8133c3['_v'](a45_0x1909('0x22'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x41600b){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0xf'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-check\x20mr-1'}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':a45_0x1909('0x43')}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v'](a45_0x1909('0x38'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':'b-modal','rawName':'v-b-modal.modal-block-popin','modifiers':{'modal-block-popin':!![]}}],'attrs':{'size':'sm','variant':a45_0x1909('0x1c')}},[_0x8133c3['_v'](a45_0x1909('0x23'))])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-modal',{'attrs':{'body-class':'p-0','dialog-class':a45_0x1909('0x3b'),'hide-footer':'','hide-header':'','id':a45_0x1909('0x3')}},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block\x20block-themed\x20block-transparent\x20mb-0'},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':'block-options'},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':a45_0x1909('0x32'),'attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0x369953){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x3'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x60')})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x39')},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x20laoreet\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x20tristique\x20lobortis\x20est\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x20quis\x20dictumst\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x20sit\x20varius\x20lorem\x20sit\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3a')},[_0xe9cc1d('b-button',{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x8ab03c){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x3'));}}},[_0x8133c3['_v'](a45_0x1909('0x22'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x198fe4){return _0x8133c3[a45_0x1909('0xa')]['hide'](a45_0x1909('0x3'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x61')}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':'Pop\x20Out'}},[_0xe9cc1d('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x8133c3['_v'](a45_0x1909('0x47'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-button',{'directives':[{'name':a45_0x1909('0x48'),'rawName':a45_0x1909('0x0'),'modifiers':{'modal-block-popout':!![]}}],'attrs':{'size':'sm','variant':a45_0x1909('0x1c')}},[_0x8133c3['_v'](a45_0x1909('0x23'))])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x48'),{'attrs':{'body-class':'p-0','dialog-class':'modal-dialog-popout','hide-footer':'','hide-header':'','id':a45_0x1909('0x54')}},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3d')},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x26')},[_0xe9cc1d('button',{'staticClass':a45_0x1909('0x32'),'attrs':{'type':'button'},'on':{'click':function(_0x8da330){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x54'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-fw\x20fa-times'})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-content\x20font-size-sm'},[_0xe9cc1d('p',[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x20laoreet\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x20tristique\x20lobortis\x20est\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x20quis\x20dictumst\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x20sit\x20varius\x20lorem\x20sit\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3a')},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x4ccbe7){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x54'));}}},[_0x8133c3['_v'](a45_0x1909('0x22'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x41e584){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x54'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-check\x20mr-1'}),_0x8133c3['_v']('\x20Ok\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':a45_0x1909('0x18')}},[_0xe9cc1d('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x8133c3['_v'](a45_0x1909('0x6'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':a45_0x1909('0x48'),'rawName':'v-b-modal.modal-block-slideup','modifiers':{'modal-block-slideup':!![]}}],'attrs':{'size':'sm','variant':a45_0x1909('0x1c')}},[_0x8133c3['_v'](a45_0x1909('0x23'))])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x48'),{'attrs':{'body-class':a45_0x1909('0x2'),'dialog-class':a45_0x1909('0x16'),'hide-footer':'','hide-header':'','id':'modal-block-slideup'}},[_0xe9cc1d('div',{'staticClass':a45_0x1909('0x3d')},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-header\x20bg-primary-dark'},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x26')},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':a45_0x1909('0x32'),'attrs':{'type':'button'},'on':{'click':function(_0x4758ce){return _0x8133c3[a45_0x1909('0xa')]['hide'](a45_0x1909('0x46'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x60')})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x39')},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x20laoreet\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x20tristique\x20lobortis\x20est\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x20quis\x20dictumst\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x20sit\x20varius\x20lorem\x20sit\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-content\x20block-content-full\x20text-right\x20border-top'},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x3cec05){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x46'));}}},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Close\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':'primary'},'on':{'click':function(_0x4a9644){return _0x8133c3['$bvModal']['hide'](a45_0x1909('0x46'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-check\x20mr-1'}),_0x8133c3['_v']('\x20Ok\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d('base-block',{'attrs':{'content-full':'','title':a45_0x1909('0x49')}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v'](a45_0x1909('0x62'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':a45_0x1909('0x48'),'rawName':'v-b-modal.modal-block-slideright','modifiers':{'modal-block-slideright':!![]}}],'attrs':{'size':'sm','variant':'primary'}},[_0x8133c3['_v'](a45_0x1909('0x23'))])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x48'),{'attrs':{'body-class':'p-0','dialog-class':'modal-dialog-slideright','hide-footer':'','hide-header':'','id':a45_0x1909('0x2b')}},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3d')},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':'block-title'},[_0x8133c3['_v']('Modal\x20Title')]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-options'},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':a45_0x1909('0x32'),'attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0x4b5e85){return _0x8133c3['$bvModal'][a45_0x1909('0x3c')](a45_0x1909('0x2b'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-fw\x20fa-times'})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':a45_0x1909('0x39')},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-content\x20block-content-full\x20text-right\x20border-top'},[_0xe9cc1d('b-button',{'attrs':{'size':'sm','variant':'light'},'on':{'click':function(_0x25af9a){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')]('modal-block-slideright');}}},[_0x8133c3['_v'](a45_0x1909('0x30'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x38a658){return _0x8133c3['$bvModal']['hide']('modal-block-slideright');}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x61')}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':'Slide\x20Left'}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v'](a45_0x1909('0x2f'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':a45_0x1909('0x48'),'rawName':a45_0x1909('0x31'),'modifiers':{'modal-block-slideleft':!![]}}],'attrs':{'size':'sm','variant':a45_0x1909('0x1c')}},[_0x8133c3['_v'](a45_0x1909('0x23'))])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x48'),{'attrs':{'body-class':a45_0x1909('0x2'),'dialog-class':a45_0x1909('0x35'),'hide-footer':'','hide-header':'','id':a45_0x1909('0x27')}},[_0xe9cc1d('div',{'staticClass':'block\x20block-themed\x20block-transparent\x20mb-0'},[_0xe9cc1d('div',{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':a45_0x1909('0x26')},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':a45_0x1909('0x32'),'attrs':{'type':'button'},'on':{'click':function(_0x39f7a7){return _0x8133c3['$bvModal']['hide'](a45_0x1909('0x27'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-fw\x20fa-times'})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':a45_0x1909('0x39')},[_0xe9cc1d('p',[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x20laoreet\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x20tristique\x20lobortis\x20est\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x20quis\x20dictumst\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x20sit\x20varius\x20lorem\x20sit\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':a45_0x1909('0x3a')},[_0xe9cc1d('b-button',{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x298c5d){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x27'));}}},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Close\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-button',{'attrs':{'size':'sm','variant':'primary'},'on':{'click':function(_0x57a69a){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x27'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x61')}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':a45_0x1909('0x2c')}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v'](a45_0x1909('0x57'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-button',{'directives':[{'name':a45_0x1909('0x48'),'rawName':'v-b-modal.modal-block-fromright','modifiers':{'modal-block-fromright':!![]}}],'attrs':{'size':'sm','variant':'primary'}},[_0x8133c3['_v'](a45_0x1909('0x23'))])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-modal',{'attrs':{'body-class':a45_0x1909('0x2'),'dialog-class':a45_0x1909('0x58'),'hide-footer':'','hide-header':'','id':a45_0x1909('0x66')}},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3d')},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v']('Modal\x20Title')]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':a45_0x1909('0x26')},[_0xe9cc1d(a45_0x1909('0xd'),{'staticClass':a45_0x1909('0x32'),'attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0xf33ea4){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')]('modal-block-fromright');}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x60')})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x39')},[_0xe9cc1d('p',[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x20laoreet\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x20tristique\x20lobortis\x20est\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x20quis\x20dictumst\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x20sit\x20varius\x20lorem\x20sit\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3a')},[_0xe9cc1d('b-button',{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0x431bbd){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x66'));}}},[_0x8133c3['_v'](a45_0x1909('0x30'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x4e42bf){return _0x8133c3[a45_0x1909('0xa')]['hide']('modal-block-fromright');}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x61')}),_0x8133c3['_v'](a45_0x1909('0x5a'))])],0x1)])])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x65'),{'attrs':{'md':'6'}},[_0xe9cc1d(a45_0x1909('0x2e'),{'attrs':{'content-full':'','title':a45_0x1909('0x4f')}},[_0xe9cc1d('p',{'staticClass':a45_0x1909('0x5c')},[_0x8133c3['_v'](a45_0x1909('0x8'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x53'),{'directives':[{'name':a45_0x1909('0x48'),'rawName':a45_0x1909('0x20'),'modifiers':{'modal-block-fromleft':!![]}}],'attrs':{'size':'sm','variant':'primary'}},[_0x8133c3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Launch\x20Modal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x48'),{'attrs':{'body-class':a45_0x1909('0x2'),'dialog-class':'modal-dialog-fromleft','hide-footer':'','hide-header':'','id':a45_0x1909('0x1a')}},[_0xe9cc1d('div',{'staticClass':a45_0x1909('0x3d')},[_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x1')},[_0xe9cc1d('h3',{'staticClass':a45_0x1909('0xe')},[_0x8133c3['_v'](a45_0x1909('0x21'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('div',{'staticClass':a45_0x1909('0x26')},[_0xe9cc1d('button',{'staticClass':a45_0x1909('0x32'),'attrs':{'type':a45_0x1909('0xd')},'on':{'click':function(_0x2b74cf){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x1a'));}}},[_0xe9cc1d('i',{'staticClass':'fa\x20fa-fw\x20fa-times'})])])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':'block-content\x20font-size-sm'},[_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('p',[_0x8133c3['_v'](a45_0x1909('0x52'))])]),_0x8133c3['_v']('\x20'),_0xe9cc1d(a45_0x1909('0x1b'),{'staticClass':a45_0x1909('0x3a')},[_0xe9cc1d(a45_0x1909('0x53'),{'attrs':{'size':'sm','variant':a45_0x1909('0x1e')},'on':{'click':function(_0xe1ef9){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')]('modal-block-fromleft');}}},[_0x8133c3['_v'](a45_0x1909('0x30'))]),_0x8133c3['_v']('\x20'),_0xe9cc1d('b-button',{'attrs':{'size':'sm','variant':a45_0x1909('0x1c')},'on':{'click':function(_0x5c1111){return _0x8133c3[a45_0x1909('0xa')][a45_0x1909('0x3c')](a45_0x1909('0x1a'));}}},[_0xe9cc1d('i',{'staticClass':a45_0x1909('0x61')}),_0x8133c3['_v']('\x20Ok\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)])])],0x1)],0x1)],0x1)],0x1);};var _0x1d28cf=[function(){var _0x3f63d1=this;var _0x31a7fd=_0x3f63d1[a45_0x1909('0x4b')];var _0x3eb8f6=_0x3f63d1['_self']['_c']||_0x31a7fd;return _0x3eb8f6('h2',{'staticClass':a45_0x1909('0x45')},[_0x3f63d1['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Bootstrap\x20Modals\x20'),_0x3eb8f6(a45_0x1909('0x1d'),[_0x3f63d1['_v']('Animations')])]);}];_0x11a291[a45_0x1909('0x64')]=!![];},'./resources/js/src/views/elements/Modals.vue':function(_0x4f6955,_0x4eeba5,_0x3589a9){'use strict';_0x3589a9['r'](_0x4eeba5);var _0x1290e6=_0x3589a9(a45_0x1909('0x44'));var _0x4d6570=_0x3589a9(a45_0x1909('0x4d'));var _0x2c755f={};var _0x6061c7=Object(_0x4d6570['default'])(_0x2c755f,_0x1290e6[a45_0x1909('0x40')],_0x1290e6[a45_0x1909('0x14')],![],null,null,null);if(![]){var _0x17fa7c;}_0x6061c7[a45_0x1909('0x11')][a45_0x1909('0x10')]=a45_0x1909('0x4e');_0x4eeba5[a45_0x1909('0x28')]=_0x6061c7['exports'];},'./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8&':function(_0x4e3a7f,_0x4e639c,_0x3f1754){'use strict';_0x3f1754['r'](_0x4e639c);var _0x2b8d01=_0x3f1754(a45_0x1909('0x17'));_0x3f1754['d'](_0x4e639c,a45_0x1909('0x40'),function(){return _0x2b8d01[a45_0x1909('0x40')];});_0x3f1754['d'](_0x4e639c,a45_0x1909('0x14'),function(){return _0x2b8d01[a45_0x1909('0x14')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[45],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle:
+            "Add dialogs to your site for lightboxes, user notifications, or completely custom content.",
+          title: "Modals"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Modals")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Bootstrap Modals")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "row-deck" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { "content-full": "", title: "Default Variation" }
+                    },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        Modals are completely customizable and here we present the default one\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-normal",
+                              modifiers: { "modal-block-normal": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-normal"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-normal"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-normal"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("Close\n                            ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-normal"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "Size: Small" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        If you don’t have much content, you can use the small size variation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-small",
+                              modifiers: { "modal-block-small": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-small",
+                        size: "sm"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-small"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-small"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("Close\n                            ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-small"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "Size: Large" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        If you need more space you can use the large size variation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-large",
+                              modifiers: { "modal-block-large": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-large",
+                        size: "lg"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-large"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-large"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("Close\n                            ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-large"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { "content-full": "", title: "Size: Extra Large" }
+                    },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        Do you need even more space? Go for the extra large modal\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-extra-large",
+                              modifiers: { "modal-block-extra-large": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-extra-large",
+                        size: "xl"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-extra-large"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad\n                                feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante\n                                convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan\n                                adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames\n                                aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo\n                                turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis\n                                congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi\n                                viverra luctus id leo dictum lorem, inceptos nibh orci.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad\n                                feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante\n                                convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan\n                                adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames\n                                aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo\n                                turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis\n                                congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi\n                                viverra luctus id leo dictum lorem, inceptos nibh orci.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad\n                                feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante\n                                convallis ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan\n                                adipiscing risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames\n                                aliquet consectetur consequat nostra molestie neque nullam scelerisque neque commodo\n                                turpis quisque etiam egestas vulputate massa, curabitur tellus massa venenatis\n                                congue dolor enim integer luctus, nisi suscipit gravida fames quis vulputate nisi\n                                viverra luctus id leo dictum lorem, inceptos nibh orci.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-extra-large"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-extra-large"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "Position: Top" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        You can position your modals at the top of the screen\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-top",
+                              modifiers: { "modal-block-top": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "dialog-class": "modal-dialog-top",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-top"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-top"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-top"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("Close\n                            ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-top"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "content-full": "",
+                        title: "Position: Vertically Centered"
+                      }
+                    },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        You can center your modals in the middle of the screen\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-vcenter",
+                              modifiers: { "modal-block-vcenter": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        centered: "",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-vcenter"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-vcenter"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-vcenter"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-vcenter"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            { staticClass: "row-deck" },
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "Fade In" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        The default modal animation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-fadein",
+                              modifiers: { "modal-block-fadein": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-fadein"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-fadein"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-fadein"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("Close\n                            ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-fadein"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "Pop In" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        Poping in animation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-popin",
+                              modifiers: { "modal-block-popin": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "dialog-class": "modal-dialog-popin",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-popin"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-popin"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-popin"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("Close\n                            ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-popin"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "Pop Out" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        Poping out animation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-popout",
+                              modifiers: { "modal-block-popout": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "dialog-class": "modal-dialog-popout",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-popout"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-popout"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-popout"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("Close\n                            ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-popout"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "Slide Up" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        Sliding from up animation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-slideup",
+                              modifiers: { "modal-block-slideup": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "dialog-class": "modal-dialog-slideup",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-slideup"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-slideup"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-slideup"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-slideup"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "Slide Right" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        Sliding from right animation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-slideright",
+                              modifiers: { "modal-block-slideright": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "dialog-class": "modal-dialog-slideright",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-slideright"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-slideright"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-slideright"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-slideright"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "Slide Left" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        Sliding from left animation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-slideleft",
+                              modifiers: { "modal-block-slideleft": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "dialog-class": "modal-dialog-slideleft",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-slideleft"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-slideleft"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-slideleft"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-slideleft"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "From Right" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        Coming from right with rotation animation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-fromright",
+                              modifiers: { "modal-block-fromright": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "dialog-class": "modal-dialog-fromright",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-fromright"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-fromright"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-fromright"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-fromright"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "content-full": "", title: "From Left" } },
+                    [
+                      _c("p", { staticClass: "font-size-sm text-muted" }, [
+                        _vm._v(
+                          "\n                        Coming from left with rotation animation\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-modal",
+                              rawName: "v-b-modal.modal-block-fromleft",
+                              modifiers: { "modal-block-fromleft": true }
+                            }
+                          ],
+                          attrs: { size: "sm", variant: "primary" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Launch Modal\n                    "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-modal",
+                    {
+                      attrs: {
+                        "body-class": "p-0",
+                        "dialog-class": "modal-dialog-fromleft",
+                        "hide-footer": "",
+                        "hide-header": "",
+                        id: "modal-block-fromleft"
+                      }
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "block block-themed block-transparent mb-0"
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "block-header bg-primary-dark" },
+                            [
+                              _c("h3", { staticClass: "block-title" }, [
+                                _vm._v("Modal Title")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "block-options" }, [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "btn-block-option",
+                                    attrs: { type: "button" },
+                                    on: {
+                                      click: function($event) {
+                                        return _vm.$bvModal.hide(
+                                          "modal-block-fromleft"
+                                        )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-fw fa-times"
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "block-content font-size-sm" },
+                            [
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("p", [
+                                _vm._v(
+                                  "\n                                Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet\n                                adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis est\n                                ut metus lobortis tortor tincidunt himenaeos habitant quis dictumst\n                                proin odio sagittis purus mi, nec taciti vestibulum quis in sit varius lorem sit\n                                metus mi.\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "block-content block-content-full text-right border-top"
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-fromleft"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                Close\n                            "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.$bvModal.hide(
+                                        "modal-block-fromleft"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-check mr-1" }),
+                                  _vm._v(" Ok\n                            ")
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", { staticClass: "content-heading" }, [
+      _vm._v("\n            Bootstrap Modals "),
+      _c("small", [_vm._v("Animations")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Modals.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/src/views/elements/Modals.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Modals_vue_vue_type_template_id_1c85f2f8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modals.vue?vue&type=template&id=1c85f2f8& */ "./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Modals_vue_vue_type_template_id_1c85f2f8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Modals_vue_vue_type_template_id_1c85f2f8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Modals.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modals_vue_vue_type_template_id_1c85f2f8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Modals.vue?vue&type=template&id=1c85f2f8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Modals.vue?vue&type=template&id=1c85f2f8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modals_vue_vue_type_template_id_1c85f2f8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Modals_vue_vue_type_template_id_1c85f2f8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

@@ -1,1 +1,3471 @@
-var a41_0x24a7=['fab\x20fa-fw\x20fa-instagram\x20mr-1','variant=\x22alt-dark\x22','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3&','size=\x22lg\x22','b-breadcrumb-item','options','Effects','outline-success','b-breadcrumb','Light','mt-2','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20If\x20an\x20action\x20is\x20not\x20available\x20in\x20a\x20specific\x20state\x20of\x20your\x20website/app,\x20you\x20can\x20easily\x20disable\x20your\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20buttons\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','primary','outline-warning','Styles','warning','fa\x20fa-fw\x20fa-cog\x20mr-1','Outline','click-ripple','btn-square','b-button','\x20Download\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','_withStripped','font-size-sm\x20text-muted','alt-dark','outline-primary','btn-rounded','Large\x20Size','\x20Launch\x20Product\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Primary','fa\x20fa-fw\x20fa-wifi\x20mr-1','breadcrumb-alt','b-col','info','fa\x20fa-fw\x20fa-check','code','Elements','variant=\x22alt-info\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Inspired\x20by\x20Material\x20design,\x20adding\x20a\x20ripple\x20animation\x20on\x20click\x20is\x20just\x20an\x20attribute\x20away\x20','Secondary','\x20Options\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20in\x20your\x20buttons\x20to\x20visualize\x20its\x20intended\x20action\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20use\x20','variant=\x22danger\x22','variant=\x22primary\x22','Warning','\x20Messages\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Alternate','items-push\x20text-center\x20text-sm-left\x20mb-4','btn-rounded\x20mr-1\x20mb-3','resources/js/src/views/elements/Buttons.vue','\x20Preferences\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20remove\x20border\x20radius\x20from\x20your\x20buttons\x20if\x20you\x20are\x20looking\x20for\x20a\x20sharp\x20look\x20by\x20using\x20the\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class\x20','\x20Are\x20you\x20sure?\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','items-push-2x\x20text-center\x20text-sm-left','content','fa\x20fa-fw\x20fa-exclamation-circle','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Mix\x20any\x20of\x20the\x20available\x20classes\x20to\x20create\x20the\x20button\x20style\x20you\x20want\x20to\x20use\x20in\x20your\x20project\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','outline-dark','alt-warning','variant=\x22outline-warning\x22','outline-secondary','__file','Success','outline-info','fa\x20fa-fw\x20fa-thumbs-up\x20mr-1','\x20Lab\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','push','fa\x20fa-fw\x20fa-image\x20mr-1','light','fa\x20fa-fw\x20fa-exclamation-triangle\x20mr-1','\x20Wifi\x20Available\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x2010\x20Products\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20to\x20make\x20your\x20buttons\x20larger\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20Post\x20your\x20image\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','alt-success','Be\x20Creative','alt-primary','Info','fa\x20fa-fw\x20fa-rocket\x20mr-1','size=\x22sm\x22','fa\x20fa-fw\x20fa-archive\x20mr-1','alt-info','render','Disabled','base-page-heading','fa\x20fa-fw\x20fa-upload\x20mr-1','content-heading','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20The\x20default\x20button\x20style\x20with\x20various\x20colors\x20to\x20choose\x20from.\x20Prefer\x20using\x202\x20or\x20max\x203\x20button\x20color\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20variations\x20in\x20your\x20web\x20project\x20to\x20make\x20it\x20easier\x20and\x20more\x20accesible\x20for\x20your\x20users.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','variant=\x22outline-info\x22','Ripple','alt-secondary','\x20Like\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20Picture\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20Upload\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20Delete\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','variant=\x22dark\x22','outline-light','variant=\x22outline-danger\x22','default','Buttons','btn-square\x20mr-1\x20mb-3','variant=\x22outline-dark\x22','staticRenderFns','\x20YouTube\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','base-block','variant=\x22outline-light\x22','fa\x20fa-fw\x20fa-times\x20mr-1','variant=\x22outline-secondary\x22','fab\x20fa-fw\x20fa-bluetooth-b\x20mr-1','fa\x20fa-fw\x20fa-download\x20mr-1','variant=\x22light\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20use\x20any\x20of\x20the\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','$createElement','\x20Play\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','variant=\x22warning\x22','\x20Instagram\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','available\x20icons','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Fully\x20rounded\x20buttons\x20are\x20available\x20for\x20all\x20available\x20button\x20styles\x20by\x20using\x20the\x20class\x20','v-click-ripple','variant=\x22outline-success\x22','fa\x20fa-fw\x20fa-play\x20mr-1','extra','javascript:void(0)','b-row','variant=\x22alt-success\x22','variant=\x22info\x22','fa\x20fa-fw\x20fa-pencil-alt','router-link','Dark','fa\x20fa-fw\x20fa-arrow-down\x20mr-1','variant=\x22alt-primary\x22','fab\x20fa-fw\x20fa-dribbble\x20mr-1','/backend/elements/icons','danger','si\x20si-chemistry\x20mr-1','fab\x20fa-fw\x20fa-youtube\x20mr-1','fa\x20fa-fw\x20fa-wrench\x20mr-1','\x20Archive\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','alt-light','variant=\x22alt-warning\x22','Button','\x20Dribbble\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Danger','fa\x20fa-fw\x20fa-box\x20mr-1','secondary','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20The\x20alternate\x20button\x20style\x20offers\x20a\x20more\x20subtle\x20design\x20style.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fa\x20fa-fw\x20fa-tint\x20mr-1','success','mr-1\x20mb-3','btn-rounded\x20px-4\x20mr-1\x20mb-3','mb-4','\x20Remove\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20Add\x20User\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','\x203\x20Connections\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','webpackJsonp','div','dark','si\x20si-rocket\x20mr-1','variant=\x22alt-secondary\x22','outline-danger','\x20Down\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','alt-danger'];(function(_0x234f8b,_0x24a7e1){var _0x5c73b3=function(_0x5bd3a5){while(--_0x5bd3a5){_0x234f8b['push'](_0x234f8b['shift']());}};_0x5c73b3(++_0x24a7e1);}(a41_0x24a7,0xf8));var a41_0x5c73=function(_0x234f8b,_0x24a7e1){_0x234f8b=_0x234f8b-0x0;var _0x5c73b3=a41_0x24a7[_0x234f8b];return _0x5c73b3;};(window['webpackJsonp']=window[a41_0x5c73('0x48')]||[])[a41_0x5c73('0x93')]([[0x29],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3&':function(_0xfd615a,_0x41ede3,_0xe7cbd0){'use strict';_0xe7cbd0['r'](_0x41ede3);_0xe7cbd0['d'](_0x41ede3,a41_0x5c73('0xa3'),function(){return _0x29bb8a;});_0xe7cbd0['d'](_0x41ede3,a41_0x5c73('0x13'),function(){return _0x2d8ea6;});var _0x29bb8a=function(){var _0x3358a3=this;var _0x2a4c1c=_0x3358a3[a41_0x5c73('0x1d')];var _0x1b8815=_0x3358a3['_self']['_c']||_0x2a4c1c;return _0x1b8815(a41_0x5c73('0x49'),[_0x1b8815(a41_0x5c73('0x1'),{'attrs':{'subtitle':'Custom\x20buttons\x20styles\x20to\x20fulfill\x20any\x20design\x20approach.','title':a41_0x5c73('0x10')},'scopedSlots':_0x3358a3['_u']([{'key':a41_0x5c73('0x26'),'fn':function(){return[_0x1b8815(a41_0x5c73('0x58'),{'staticClass':a41_0x5c73('0x6f')},[_0x1b8815(a41_0x5c73('0x54'),{'attrs':{'href':a41_0x5c73('0x27')}},[_0x3358a3['_v'](a41_0x5c73('0x74'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x54'),{'attrs':{'active':''}},[_0x3358a3['_v'](a41_0x5c73('0x39'))])],0x1)];},'proxy':!![]}])}),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x87')},[_0x1b8815('h2',{'staticClass':'content-heading'},[_0x3358a3['_v'](a41_0x5c73('0x5e'))]),_0x3358a3['_v']('\x20'),_0x1b8815('base-block',{'attrs':{'title':'Default'}},[_0x1b8815('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x3358a3['_v'](a41_0x5c73('0x4'))]),_0x3358a3['_v']('\x20'),_0x1b8815('b-row',{'staticClass':'items-push-2x\x20text-center\x20text-sm-left'},[_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':'primary'}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':'mt-2'},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x7c'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':'secondary'}},[_0x3358a3['_v']('Secondary')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v']('variant=\x22secondary\x22')])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'variant':'success'}},[_0x3358a3['_v']('Success')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v']('variant=\x22success\x22')])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'variant':a41_0x5c73('0x71')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x2a'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':'warning'}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x1f'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':a41_0x5c73('0x32')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x7b'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'variant':a41_0x5c73('0x4a')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0xc'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'variant':a41_0x5c73('0x95')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815('code',[_0x3358a3['_v'](a41_0x5c73('0x1b'))])])],0x1)],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x15'),{'attrs':{'title':a41_0x5c73('0x7f')}},[_0x1b8815('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x3358a3['_v'](a41_0x5c73('0x3e'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x86')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':'alt-primary'}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x2f'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'variant':a41_0x5c73('0x7')}},[_0x3358a3['_v'](a41_0x5c73('0x77'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x4c'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':a41_0x5c73('0x9b')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))]),_0x3358a3['_v']('\x20'),_0x1b8815('div',{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x29'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':a41_0x5c73('0xa2')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))]),_0x3358a3['_v']('\x20'),_0x1b8815('div',{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x75'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'variant':a41_0x5c73('0x8b')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':'mt-2'},[_0x1b8815('code',[_0x3358a3['_v'](a41_0x5c73('0x38'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':a41_0x5c73('0x4f')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))]),_0x3358a3['_v']('\x20'),_0x1b8815('div',{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v']('variant=\x22alt-danger\x22')])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':a41_0x5c73('0x68')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))]),_0x3358a3['_v']('\x20'),_0x1b8815('div',{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x51'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':a41_0x5c73('0x37')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':'mt-2'},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v']('variant=\x22alt-light\x22')])])],0x1)],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('base-block',{'attrs':{'title':a41_0x5c73('0x61')}},[_0x1b8815('p',{'staticClass':a41_0x5c73('0x67')},[_0x3358a3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Outline\x20styles\x20are\x20also\x20available\x20for\x20all\x20previous\x20color\x20variations\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x86')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':a41_0x5c73('0x69')}},[_0x3358a3['_v']('Primary')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x7c'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':'outline-secondary'}},[_0x3358a3['_v'](a41_0x5c73('0x77'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x18'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'variant':a41_0x5c73('0x57')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x24'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':a41_0x5c73('0x90')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815('code',[_0x3358a3['_v'](a41_0x5c73('0x5'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':a41_0x5c73('0x5d')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))]),_0x3358a3['_v']('\x20'),_0x1b8815('div',{'staticClass':'mt-2'},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x8c'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'variant':a41_0x5c73('0x4d')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))]),_0x3358a3['_v']('\x20'),_0x1b8815('div',{'staticClass':'mt-2'},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0xe'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'variant':'outline-dark'}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x12'))])])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'variant':a41_0x5c73('0xd')}},[_0x3358a3['_v']('Light')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x5a')},[_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x16'))])])],0x1)],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('h2',{'staticClass':a41_0x5c73('0x3')},[_0x3358a3['_v'](a41_0x5c73('0x56'))]),_0x3358a3['_v']('\x20'),_0x1b8815('base-block',{'attrs':{'title':a41_0x5c73('0x6')}},[_0x1b8815('p',{'staticClass':a41_0x5c73('0x67')},[_0x3358a3['_v'](a41_0x5c73('0x76')),_0x1b8815('code',[_0x3358a3['_v'](a41_0x5c73('0x23'))])]),_0x3358a3['_v']('\x20'),_0x1b8815('b-row',{'staticClass':'items-push\x20text-center\x20text-sm-left\x20mb-4'},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x5c')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':'click-ripple','rawName':a41_0x5c73('0x23')}],'attrs':{'variant':'secondary'}},[_0x3358a3['_v']('Secondary')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':'success'}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x71')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':'warning'}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':'danger'}},[_0x3358a3['_v']('Danger')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x4a')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':'v-click-ripple'}],'attrs':{'variant':a41_0x5c73('0x95')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x80')},[_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':'click-ripple','rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x9d')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x7')}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':'alt-success'}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0xa2')}},[_0x3358a3['_v']('Info')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x8b')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':'v-click-ripple'}],'attrs':{'variant':'alt-danger'}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x68')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x37')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':'items-push\x20text-center\x20text-sm-left\x20mb-4'},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':'click-ripple','rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x69')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':'click-ripple','rawName':a41_0x5c73('0x23')}],'attrs':{'variant':'outline-secondary'}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x57')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x90')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':'click-ripple','rawName':'v-click-ripple'}],'attrs':{'variant':a41_0x5c73('0x5d')}},[_0x3358a3['_v']('Warning')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':a41_0x5c73('0x62'),'rawName':a41_0x5c73('0x23')}],'attrs':{'variant':'outline-danger'}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':'click-ripple','rawName':a41_0x5c73('0x23')}],'attrs':{'variant':a41_0x5c73('0x8a')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'directives':[{'name':'click-ripple','rawName':'v-click-ripple'}],'attrs':{'variant':a41_0x5c73('0xd')}},[_0x3358a3['_v']('Light')])],0x1)],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('h2',{'staticClass':a41_0x5c73('0x3')},[_0x3358a3['_v']('Variations')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x15'),{'attrs':{'title':'Small\x20Size'}},[_0x1b8815('p',{'staticClass':a41_0x5c73('0x67')},[_0x3358a3['_v'](a41_0x5c73('0x7a')),_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0xa0'))]),_0x3358a3['_v'](a41_0x5c73('0x99'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x80')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'sm','variant':'primary'}},[_0x3358a3['_v']('Primary')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'sm','variant':'secondary'}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x40')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'sm','variant':'info'}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'sm','variant':'warning'}},[_0x3358a3['_v']('Warning')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':'danger'}},[_0x3358a3['_v']('Danger')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x4a')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x95')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-row',{'staticClass':a41_0x5c73('0x80')},[_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x9d')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':'alt-secondary'}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'sm','variant':a41_0x5c73('0x9b')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':'alt-info'}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x8b')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x4f')}},[_0x3358a3['_v']('Danger')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x68')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x37')}},[_0x3358a3['_v']('Light')])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x80')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'sm','variant':'outline-primary'}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'sm','variant':a41_0x5c73('0x8d')}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x57')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x90')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x5d')}},[_0x3358a3['_v']('Warning')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0x4d')}},[_0x3358a3['_v']('Danger')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'sm','variant':a41_0x5c73('0x8a')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'sm','variant':a41_0x5c73('0xd')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x15'),{'attrs':{'title':a41_0x5c73('0x6b')}},[_0x1b8815('p',{'staticClass':a41_0x5c73('0x67')},[_0x3358a3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20use\x20'),_0x1b8815('code',[_0x3358a3['_v'](a41_0x5c73('0x53'))]),_0x3358a3['_v'](a41_0x5c73('0x99'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':'items-push\x20text-center\x20text-sm-left\x20mb-4'},[_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':a41_0x5c73('0x5c')}},[_0x3358a3['_v']('Primary')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':a41_0x5c73('0x3d')}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':a41_0x5c73('0x40')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':a41_0x5c73('0x71')}},[_0x3358a3['_v']('Info')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':a41_0x5c73('0x5f')}},[_0x3358a3['_v']('Warning')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':a41_0x5c73('0x32')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':'dark'}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':'light'}},[_0x3358a3['_v']('Light')])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x80')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':a41_0x5c73('0x9d')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':a41_0x5c73('0x7')}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':a41_0x5c73('0x9b')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':a41_0x5c73('0xa2')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':a41_0x5c73('0x8b')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':'alt-danger'}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':'alt-dark'}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':a41_0x5c73('0x37')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x80')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':'outline-primary'}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':'outline-secondary'}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':a41_0x5c73('0x57')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':a41_0x5c73('0x90')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':a41_0x5c73('0x5d')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':a41_0x5c73('0x4d')}},[_0x3358a3['_v']('Danger')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'size':'lg','variant':a41_0x5c73('0x8a')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'size':'lg','variant':a41_0x5c73('0xd')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x15'),{'attrs':{'title':'Square'}},[_0x1b8815('p',{'staticClass':a41_0x5c73('0x67')},[_0x3358a3['_v'](a41_0x5c73('0x84')),_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v']('btn-square')])]),_0x3358a3['_v']('\x20'),_0x1b8815('b-row',{'staticClass':a41_0x5c73('0x80')},[_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x5c')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x3d')}},[_0x3358a3['_v']('Secondary')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x40')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-square','attrs':{'variant':a41_0x5c73('0x71')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x5f')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':'danger'}},[_0x3358a3['_v']('Danger')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x4a')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x95')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-row',{'staticClass':a41_0x5c73('0x80')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':'alt-primary'}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':'alt-secondary'}},[_0x3358a3['_v']('Secondary')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-square','attrs':{'variant':a41_0x5c73('0x9b')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-square','attrs':{'variant':a41_0x5c73('0xa2')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':'btn-square','attrs':{'variant':a41_0x5c73('0x8b')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x4f')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':'alt-dark'}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':'alt-light'}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x80')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-square','attrs':{'variant':a41_0x5c73('0x69')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':'outline-secondary'}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x57')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x90')}},[_0x3358a3['_v']('Info')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0x5d')}},[_0x3358a3['_v']('Warning')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':'outline-danger'}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-square','attrs':{'variant':a41_0x5c73('0x8a')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x63'),'attrs':{'variant':a41_0x5c73('0xd')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x15'),{'attrs':{'title':'Rounded'}},[_0x1b8815('p',{'staticClass':a41_0x5c73('0x67')},[_0x3358a3['_v'](a41_0x5c73('0x22')),_0x1b8815(a41_0x5c73('0x73'),[_0x3358a3['_v'](a41_0x5c73('0x6a'))])]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x80')},[_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-rounded','attrs':{'variant':a41_0x5c73('0x5c')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x3d')}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x40')}},[_0x3358a3['_v']('Success')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x71')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x5f')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-rounded','attrs':{'variant':'danger'}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x4a')}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x95')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':'items-push\x20text-center\x20text-sm-left\x20mb-4'},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x9d')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':'btn-rounded','attrs':{'variant':a41_0x5c73('0x7')}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-rounded','attrs':{'variant':a41_0x5c73('0x9b')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0xa2')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x8b')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x4f')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x68')}},[_0x3358a3['_v']('Dark')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':'alt-light'}},[_0x3358a3['_v']('Light')])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x28'),{'staticClass':a41_0x5c73('0x80')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x69')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':'btn-rounded','attrs':{'variant':a41_0x5c73('0x8d')}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-rounded','attrs':{'variant':'outline-success'}},[_0x3358a3['_v']('Success')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x90')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x5d')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':a41_0x5c73('0x4d')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x6a'),'attrs':{'variant':'outline-dark'}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'btn-rounded','attrs':{'variant':a41_0x5c73('0xd')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x15'),{'attrs':{'title':a41_0x5c73('0x0')}},[_0x1b8815('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x3358a3['_v'](a41_0x5c73('0x5b'))]),_0x3358a3['_v']('\x20'),_0x1b8815('b-row',{'staticClass':a41_0x5c73('0x80')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x5c')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x3d')}},[_0x3358a3['_v']('Secondary')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':'success'}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':'info'}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x5f')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x32')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'disabled':'','variant':'dark'}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x95')}},[_0x3358a3['_v']('Light')])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-row',{'staticClass':a41_0x5c73('0x80')},[_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':'alt-primary'}},[_0x3358a3['_v']('Primary')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x7')}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x9b')}},[_0x3358a3['_v']('Success')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0xa2')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':'alt-warning'}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x4f')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x68')}},[_0x3358a3['_v']('Dark')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x37')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-row',{'staticClass':a41_0x5c73('0x80')},[_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'disabled':'','variant':a41_0x5c73('0x69')}},[_0x3358a3['_v'](a41_0x5c73('0x6d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':'outline-secondary'}},[_0x3358a3['_v'](a41_0x5c73('0x77'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x57')}},[_0x3358a3['_v'](a41_0x5c73('0x8f'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x90')}},[_0x3358a3['_v'](a41_0x5c73('0x9e'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'disabled':'','variant':a41_0x5c73('0x5d')}},[_0x3358a3['_v'](a41_0x5c73('0x7d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0x4d')}},[_0x3358a3['_v'](a41_0x5c73('0x3b'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815('b-col',{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815('b-button',{'attrs':{'disabled':'','variant':'outline-dark'}},[_0x3358a3['_v'](a41_0x5c73('0x2d'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x70'),{'attrs':{'sm':'6','xl':'4'}},[_0x1b8815(a41_0x5c73('0x64'),{'attrs':{'disabled':'','variant':a41_0x5c73('0xd')}},[_0x3358a3['_v'](a41_0x5c73('0x59'))])],0x1)],0x1)],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x15'),{'attrs':{'title':'Icons'}},[_0x1b8815('p',{'staticClass':a41_0x5c73('0x67')},[_0x3358a3['_v'](a41_0x5c73('0x1c')),_0x1b8815(a41_0x5c73('0x2c'),{'attrs':{'to':a41_0x5c73('0x31')}},[_0x3358a3['_v'](a41_0x5c73('0x21'))]),_0x3358a3['_v'](a41_0x5c73('0x79'))],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x43')},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x40')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-plus\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x45'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x71')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-download\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x65'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x5f')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x96')}),_0x3358a3['_v'](a41_0x5c73('0x85'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x5c')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x2')}),_0x3358a3['_v']('\x20Upload\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3358a3['_v']('\x20'),_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x3d')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x19')}),_0x3358a3['_v']('\x203\x20Connections\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'variant':a41_0x5c73('0x32')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x17')}),_0x3358a3['_v'](a41_0x5c73('0xb'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'variant':'primary'}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-thumbs-up\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x8'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'variant':a41_0x5c73('0x3d')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x25')}),_0x3358a3['_v'](a41_0x5c73('0x1e'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x4a')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x3c')}),_0x3358a3['_v']('\x2010\x20Products\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x43')},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x9b')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-plus\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x45'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0xa2')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x1a')}),_0x3358a3['_v'](a41_0x5c73('0x65'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x8b')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x96')}),_0x3358a3['_v'](a41_0x5c73('0x85'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x9d')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-upload\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0xa'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x7')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x19')}),_0x3358a3['_v'](a41_0x5c73('0x47'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x4f')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x17')}),_0x3358a3['_v'](a41_0x5c73('0xb'))]),_0x3358a3['_v']('\x20'),_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x9d')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-thumbs-up\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x8'))]),_0x3358a3['_v']('\x20'),_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x7')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x25')}),_0x3358a3['_v'](a41_0x5c73('0x1e'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':'alt-dark'}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x3c')}),_0x3358a3['_v'](a41_0x5c73('0x98'))])],0x1),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x49'),{'staticClass':a41_0x5c73('0x43')},[_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x57')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-plus\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x45'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'variant':a41_0x5c73('0x90')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-download\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x65'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x5d')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-exclamation-triangle\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x85'))]),_0x3358a3['_v']('\x20'),_0x1b8815('b-button',{'staticClass':'mr-1\x20mb-3','attrs':{'variant':a41_0x5c73('0x69')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-upload\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0xa'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x8d')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x19')}),_0x3358a3['_v'](a41_0x5c73('0x47'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x4d')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x17')}),_0x3358a3['_v'](a41_0x5c73('0xb'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x69')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x91')}),_0x3358a3['_v']('\x20Like\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x8d')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x25')}),_0x3358a3['_v']('\x20Play\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'variant':a41_0x5c73('0x8a')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-box\x20mr-1'}),_0x3358a3['_v']('\x2010\x20Products\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x15'),{'attrs':{'title':a41_0x5c73('0x9c')}},[_0x1b8815('p',{'staticClass':a41_0x5c73('0x67')},[_0x3358a3['_v'](a41_0x5c73('0x89'))]),_0x3358a3['_v']('\x20'),_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x11'),'attrs':{'size':'lg','variant':a41_0x5c73('0x3d')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x6e')}),_0x3358a3['_v'](a41_0x5c73('0x97'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x81'),'attrs':{'variant':a41_0x5c73('0x4f')}},[_0x1b8815('i',{'staticClass':'fa\x20fa-fw\x20fa-times\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x44'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'variant':a41_0x5c73('0x40')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x72')})]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'size':'sm','variant':a41_0x5c73('0x5f')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x88')})]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'size':'lg','variant':a41_0x5c73('0x69')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x50')}),_0x3358a3['_v'](a41_0x5c73('0x9a'))]),_0x3358a3['_v']('\x20'),_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x81'),'attrs':{'variant':a41_0x5c73('0x40')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x2b')})]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'size':'lg','variant':a41_0x5c73('0x3d')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x34')}),_0x3358a3['_v'](a41_0x5c73('0x14'))]),_0x3358a3['_v']('\x20'),_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x11'),'attrs':{'size':'sm','variant':a41_0x5c73('0x5d')}},[_0x1b8815('i',{'staticClass':'far\x20fa-fw\x20fa-envelope\x20mr-1'}),_0x3358a3['_v'](a41_0x5c73('0x7e'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'size':'sm','variant':a41_0x5c73('0x4a')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x30')}),_0x3358a3['_v'](a41_0x5c73('0x3a'))]),_0x3358a3['_v']('\x20'),_0x1b8815('b-button',{'staticClass':a41_0x5c73('0x41'),'attrs':{'size':'sm','variant':a41_0x5c73('0x5c')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0xa1')}),_0x3358a3['_v'](a41_0x5c73('0x36'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'size':'sm','variant':a41_0x5c73('0x3d')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x35')}),_0x3358a3['_v'](a41_0x5c73('0x83'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x11'),'attrs':{'size':'lg','variant':'light'}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x60')}),_0x3358a3['_v'](a41_0x5c73('0x78'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'size':'lg','variant':'alt-warning'}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x50')}),_0x3358a3['_v'](a41_0x5c73('0x20'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'size':'sm','variant':a41_0x5c73('0x9d')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x9f')}),_0x3358a3['_v']('\x20Test\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x81'),'attrs':{'size':'sm','variant':a41_0x5c73('0x8a')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x94')}),_0x3358a3['_v'](a41_0x5c73('0x9'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x41'),'attrs':{'size':'lg','variant':a41_0x5c73('0x5f')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x3f')}),_0x3358a3['_v']('\x20Themes\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':'mr-1\x20mb-3','attrs':{'size':'sm','variant':a41_0x5c73('0x5c')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x2e')}),_0x3358a3['_v'](a41_0x5c73('0x4e'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x42'),'attrs':{'size':'lg','variant':a41_0x5c73('0x9b')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x4b')}),_0x3358a3['_v'](a41_0x5c73('0x6c'))]),_0x3358a3['_v']('\x20'),_0x1b8815(a41_0x5c73('0x64'),{'staticClass':a41_0x5c73('0x11'),'attrs':{'size':'sm','variant':a41_0x5c73('0x71')}},[_0x1b8815('i',{'staticClass':a41_0x5c73('0x33')}),_0x3358a3['_v'](a41_0x5c73('0x92'))])],0x1)],0x1)],0x1);};var _0x2d8ea6=[];_0x29bb8a[a41_0x5c73('0x66')]=!![];},'./resources/js/src/views/elements/Buttons.vue':function(_0x26878c,_0xe3756f,_0xab2970){'use strict';_0xab2970['r'](_0xe3756f);var _0x5dc29f=_0xab2970('./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3&');var _0x25609c=_0xab2970(a41_0x5c73('0x46'));var _0x1bbf48={};var _0x381051=Object(_0x25609c[a41_0x5c73('0xf')])(_0x1bbf48,_0x5dc29f[a41_0x5c73('0xa3')],_0x5dc29f['staticRenderFns'],![],null,null,null);if(![]){var _0x5dd710;}_0x381051[a41_0x5c73('0x55')][a41_0x5c73('0x8e')]=a41_0x5c73('0x82');_0xe3756f['default']=_0x381051['exports'];},'./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3&':function(_0x7e9e66,_0x3be1bd,_0x196e38){'use strict';_0x196e38['r'](_0x3be1bd);var _0x397651=_0x196e38(a41_0x5c73('0x52'));_0x196e38['d'](_0x3be1bd,a41_0x5c73('0xa3'),function(){return _0x397651['render'];});_0x196e38['d'](_0x3be1bd,'staticRenderFns',function(){return _0x397651[a41_0x5c73('0x13')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[41],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Custom buttons styles to fulfill any design approach.",
+          title: "Buttons"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Button")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Styles")]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Default" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                The default button style with various colors to choose from. Prefer using 2 or max 3 button color\n                variations in your web project to make it easier and more accesible for your users.\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push-2x text-center text-sm-left" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "primary" } }, [
+                        _vm._v("Primary")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="primary"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "secondary" } }, [
+                        _vm._v("Secondary")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="secondary"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "success" } }, [
+                        _vm._v("Success")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="success"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "info" } }, [
+                        _vm._v("Info")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="info"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "warning" } }, [
+                        _vm._v("Warning")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="warning"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "danger" } }, [
+                        _vm._v("Danger")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="danger"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "dark" } }, [
+                        _vm._v("Dark")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="dark"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "light" } }, [
+                        _vm._v("Light")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="light"')])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Alternate" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                The alternate button style offers a more subtle design style.\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push-2x text-center text-sm-left" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "alt-primary" } }, [
+                        _vm._v("Primary")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="alt-primary"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "alt-secondary" } }, [
+                        _vm._v("Secondary")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="alt-secondary"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "alt-success" } }, [
+                        _vm._v("Success")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="alt-success"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "alt-info" } }, [
+                        _vm._v("Info")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="alt-info"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "alt-warning" } }, [
+                        _vm._v("Warning")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="alt-warning"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "alt-danger" } }, [
+                        _vm._v("Danger")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="alt-danger"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "alt-dark" } }, [
+                        _vm._v("Dark")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="alt-dark"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "alt-light" } }, [
+                        _vm._v("Light")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="alt-light"')])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Outline" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                Outline styles are also available for all previous color variations\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push-2x text-center text-sm-left" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { variant: "outline-primary" } },
+                        [_vm._v("Primary")]
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="primary"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { variant: "outline-secondary" } },
+                        [_vm._v("Secondary")]
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="outline-secondary"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { variant: "outline-success" } },
+                        [_vm._v("Success")]
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="outline-success"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "outline-info" } }, [
+                        _vm._v("Info")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="outline-info"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { variant: "outline-warning" } },
+                        [_vm._v("Warning")]
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="outline-warning"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "outline-danger" } }, [
+                        _vm._v("Danger")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="outline-danger"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "outline-dark" } }, [
+                        _vm._v("Dark")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="outline-dark"')])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c("b-button", { attrs: { variant: "outline-light" } }, [
+                        _vm._v("Light")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-2" }, [
+                        _c("code", [_vm._v('variant="outline-light"')])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Effects")]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Ripple" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                Inspired by Material design, adding a ripple animation on click is just an attribute away "
+                ),
+                _c("code", [_vm._v("v-click-ripple")])
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "primary" }
+                        },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "success" }
+                        },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "info" }
+                        },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "warning" }
+                        },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "danger" }
+                        },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "dark" }
+                        },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "light" }
+                        },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "alt-primary" }
+                        },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "alt-secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "alt-success" }
+                        },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "alt-info" }
+                        },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "alt-warning" }
+                        },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "alt-danger" }
+                        },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "alt-dark" }
+                        },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "alt-light" }
+                        },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "outline-primary" }
+                        },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "outline-secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "outline-success" }
+                        },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "outline-info" }
+                        },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "outline-warning" }
+                        },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "outline-danger" }
+                        },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "outline-dark" }
+                        },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            { name: "click-ripple", rawName: "v-click-ripple" }
+                          ],
+                          attrs: { variant: "outline-light" }
+                        },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Variations")]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Small Size" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v("\n                You can use "),
+                _c("code", [_vm._v('size="sm"')]),
+                _vm._v(" to make your buttons larger\n            ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "primary" } },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "secondary" } },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "success" } },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "info" } },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "warning" } },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "danger" } },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "dark" } },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "light" } },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "alt-primary" } },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "alt-secondary" } },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "alt-success" } },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "alt-info" } },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "alt-warning" } },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "alt-danger" } },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "alt-dark" } },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "alt-light" } },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "outline-primary" } },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "outline-secondary" } },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "outline-success" } },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "outline-info" } },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "outline-warning" } },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "outline-danger" } },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "outline-dark" } },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "sm", variant: "outline-light" } },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Large Size" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v("\n                You can use "),
+                _c("code", [_vm._v('size="lg"')]),
+                _vm._v(" to make your buttons larger\n            ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "primary" } },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "secondary" } },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "success" } },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "info" } },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "warning" } },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "danger" } },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "dark" } },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "light" } },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "alt-primary" } },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "alt-secondary" } },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "alt-success" } },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "alt-info" } },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "alt-warning" } },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "alt-danger" } },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "alt-dark" } },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "alt-light" } },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "outline-primary" } },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "outline-secondary" } },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "outline-success" } },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "outline-info" } },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "outline-warning" } },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "outline-danger" } },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "outline-dark" } },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { size: "lg", variant: "outline-light" } },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Square" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                You can remove border radius from your buttons if you are looking for a sharp look by using the\n                class "
+                ),
+                _c("code", [_vm._v("btn-square")])
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "primary" }
+                        },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "success" }
+                        },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "info" }
+                        },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "warning" }
+                        },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "danger" }
+                        },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "dark" }
+                        },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "light" }
+                        },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "alt-primary" }
+                        },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "alt-secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "alt-success" }
+                        },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "alt-info" }
+                        },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "alt-warning" }
+                        },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "alt-danger" }
+                        },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "alt-dark" }
+                        },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "alt-light" }
+                        },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "outline-primary" }
+                        },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "outline-secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "outline-success" }
+                        },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "outline-info" }
+                        },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "outline-warning" }
+                        },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "outline-danger" }
+                        },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "outline-dark" }
+                        },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-square",
+                          attrs: { variant: "outline-light" }
+                        },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Rounded" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                Fully rounded buttons are available for all available button styles by using the class "
+                ),
+                _c("code", [_vm._v("btn-rounded")])
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "primary" }
+                        },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "success" }
+                        },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "info" }
+                        },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "warning" }
+                        },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "danger" }
+                        },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "dark" }
+                        },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "light" }
+                        },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "alt-primary" }
+                        },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "alt-secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "alt-success" }
+                        },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "alt-info" }
+                        },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "alt-warning" }
+                        },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "alt-danger" }
+                        },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "alt-dark" }
+                        },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "alt-light" }
+                        },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "outline-primary" }
+                        },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "outline-secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "outline-success" }
+                        },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "outline-info" }
+                        },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "outline-warning" }
+                        },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "outline-danger" }
+                        },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "outline-dark" }
+                        },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn-rounded",
+                          attrs: { variant: "outline-light" }
+                        },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Disabled" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                If an action is not available in a specific state of your website/app, you can easily disable your\n                buttons\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "primary" } },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "secondary" } },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "success" } },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "info" } },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "warning" } },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "danger" } },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "dark" } },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "light" } },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "alt-primary" } },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "alt-secondary" } },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "alt-success" } },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "alt-info" } },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "alt-warning" } },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "alt-danger" } },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "alt-dark" } },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "alt-light" } },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center text-sm-left mb-4" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "outline-primary" } },
+                        [_vm._v("Primary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: { disabled: "", variant: "outline-secondary" }
+                        },
+                        [_vm._v("Secondary")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "outline-success" } },
+                        [_vm._v("Success")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "outline-info" } },
+                        [_vm._v("Info")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "outline-warning" } },
+                        [_vm._v("Warning")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "outline-danger" } },
+                        [_vm._v("Danger")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "outline-dark" } },
+                        [_vm._v("Dark")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "4" } },
+                    [
+                      _c(
+                        "b-button",
+                        { attrs: { disabled: "", variant: "outline-light" } },
+                        [_vm._v("Light")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("base-block", { attrs: { title: "Icons" } }, [
+            _c(
+              "p",
+              { staticClass: "font-size-sm text-muted" },
+              [
+                _vm._v(
+                  "\n                You can use any of the\n                "
+                ),
+                _c(
+                  "router-link",
+                  { attrs: { to: "/backend/elements/icons" } },
+                  [_vm._v("available icons")]
+                ),
+                _vm._v(
+                  "\n                in your buttons to visualize its intended action\n            "
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "mb-4" },
+              [
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "success" } },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-plus mr-1" }),
+                    _vm._v(" Add User\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "info" } },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-download mr-1" }),
+                    _vm._v(" Download\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "warning" } },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-fw fa-exclamation-triangle mr-1"
+                    }),
+                    _vm._v(" Are you sure?\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "primary" } },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-upload mr-1" }),
+                    _vm._v(" Upload\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "secondary" } },
+                  [
+                    _c("i", { staticClass: "fab fa-fw fa-bluetooth-b mr-1" }),
+                    _vm._v(" 3 Connections\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "danger" } },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-times mr-1" }),
+                    _vm._v(" Delete\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "primary" } },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-thumbs-up mr-1" }),
+                    _vm._v(" Like\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "secondary" } },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-play mr-1" }),
+                    _vm._v(" Play\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "dark" } },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-box mr-1" }),
+                    _vm._v(" 10 Products\n                ")
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "mb-4" },
+              [
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "alt-success" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-plus mr-1" }),
+                    _vm._v(" Add User\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "alt-info" } },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-download mr-1" }),
+                    _vm._v(" Download\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "alt-warning" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-fw fa-exclamation-triangle mr-1"
+                    }),
+                    _vm._v(" Are you sure?\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "alt-primary" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-upload mr-1" }),
+                    _vm._v(" Upload\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "alt-secondary" }
+                  },
+                  [
+                    _c("i", { staticClass: "fab fa-fw fa-bluetooth-b mr-1" }),
+                    _vm._v(" 3 Connections\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "alt-danger" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-times mr-1" }),
+                    _vm._v(" Delete\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "alt-primary" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-thumbs-up mr-1" }),
+                    _vm._v(" Like\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "alt-secondary" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-play mr-1" }),
+                    _vm._v(" Play\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  { staticClass: "mr-1 mb-3", attrs: { variant: "alt-dark" } },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-box mr-1" }),
+                    _vm._v(" 10 Products\n                ")
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "mb-4" },
+              [
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "outline-success" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-plus mr-1" }),
+                    _vm._v(" Add User\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "outline-info" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-download mr-1" }),
+                    _vm._v(" Download\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "outline-warning" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-fw fa-exclamation-triangle mr-1"
+                    }),
+                    _vm._v(" Are you sure?\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "outline-primary" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-upload mr-1" }),
+                    _vm._v(" Upload\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "outline-secondary" }
+                  },
+                  [
+                    _c("i", { staticClass: "fab fa-fw fa-bluetooth-b mr-1" }),
+                    _vm._v(" 3 Connections\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "outline-danger" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-times mr-1" }),
+                    _vm._v(" Delete\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "outline-primary" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-thumbs-up mr-1" }),
+                    _vm._v(" Like\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "outline-secondary" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-play mr-1" }),
+                    _vm._v(" Play\n                ")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-button",
+                  {
+                    staticClass: "mr-1 mb-3",
+                    attrs: { variant: "outline-dark" }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-fw fa-box mr-1" }),
+                    _vm._v(" 10 Products\n                ")
+                  ]
+                )
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Be Creative" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                Mix any of the available classes to create the button style you want to use in your project\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "btn-square mr-1 mb-3",
+                  attrs: { size: "lg", variant: "secondary" }
+                },
+                [
+                  _c("i", { staticClass: "fa fa-fw fa-wifi mr-1" }),
+                  _vm._v(" Wifi Available\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "btn-rounded mr-1 mb-3",
+                  attrs: { variant: "alt-danger" }
+                },
+                [
+                  _c("i", { staticClass: "fa fa-fw fa-times mr-1" }),
+                  _vm._v(" Remove\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                { staticClass: "mr-1 mb-3", attrs: { variant: "success" } },
+                [_c("i", { staticClass: "fa fa-fw fa-check" })]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "sm", variant: "warning" }
+                },
+                [_c("i", { staticClass: "fa fa-fw fa-exclamation-circle" })]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "lg", variant: "outline-primary" }
+                },
+                [
+                  _c("i", { staticClass: "fab fa-fw fa-instagram mr-1" }),
+                  _vm._v(" Post your image\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "btn-rounded mr-1 mb-3",
+                  attrs: { variant: "success" }
+                },
+                [_c("i", { staticClass: "fa fa-fw fa-pencil-alt" })]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "lg", variant: "secondary" }
+                },
+                [
+                  _c("i", { staticClass: "fab fa-fw fa-youtube mr-1" }),
+                  _vm._v(" YouTube\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "btn-square mr-1 mb-3",
+                  attrs: { size: "sm", variant: "outline-warning" }
+                },
+                [
+                  _c("i", { staticClass: "far fa-fw fa-envelope mr-1" }),
+                  _vm._v(" Messages\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "sm", variant: "dark" }
+                },
+                [
+                  _c("i", { staticClass: "fab fa-fw fa-dribbble mr-1" }),
+                  _vm._v(" Dribbble\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "sm", variant: "primary" }
+                },
+                [
+                  _c("i", { staticClass: "fa fa-fw fa-archive mr-1" }),
+                  _vm._v(" Archive\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "sm", variant: "secondary" }
+                },
+                [
+                  _c("i", { staticClass: "fa fa-fw fa-wrench mr-1" }),
+                  _vm._v(" Preferences\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "btn-square mr-1 mb-3",
+                  attrs: { size: "lg", variant: "light" }
+                },
+                [
+                  _c("i", { staticClass: "fa fa-fw fa-cog mr-1" }),
+                  _vm._v(" Options\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "lg", variant: "alt-warning" }
+                },
+                [
+                  _c("i", { staticClass: "fab fa-fw fa-instagram mr-1" }),
+                  _vm._v(" Instagram\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "sm", variant: "alt-primary" }
+                },
+                [
+                  _c("i", { staticClass: "fa fa-fw fa-rocket mr-1" }),
+                  _vm._v(" Test\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "btn-rounded mr-1 mb-3",
+                  attrs: { size: "sm", variant: "outline-dark" }
+                },
+                [
+                  _c("i", { staticClass: "fa fa-fw fa-image mr-1" }),
+                  _vm._v(" Picture\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "lg", variant: "warning" }
+                },
+                [
+                  _c("i", { staticClass: "fa fa-fw fa-tint mr-1" }),
+                  _vm._v(" Themes\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "mr-1 mb-3",
+                  attrs: { size: "sm", variant: "primary" }
+                },
+                [
+                  _c("i", { staticClass: "fa fa-fw fa-arrow-down mr-1" }),
+                  _vm._v(" Down\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "btn-rounded px-4 mr-1 mb-3",
+                  attrs: { size: "lg", variant: "alt-success" }
+                },
+                [
+                  _c("i", { staticClass: "si si-rocket mr-1" }),
+                  _vm._v(" Launch Product\n            ")
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "btn-square mr-1 mb-3",
+                  attrs: { size: "sm", variant: "info" }
+                },
+                [
+                  _c("i", { staticClass: "si si-chemistry mr-1" }),
+                  _vm._v(" Lab\n            ")
+                ]
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Buttons.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/src/views/elements/Buttons.vue ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Buttons_vue_vue_type_template_id_2d9c1ed3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Buttons.vue?vue&type=template&id=2d9c1ed3& */ "./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Buttons_vue_vue_type_template_id_2d9c1ed3___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Buttons_vue_vue_type_template_id_2d9c1ed3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Buttons.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3& ***!
+  \************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Buttons_vue_vue_type_template_id_2d9c1ed3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Buttons.vue?vue&type=template&id=2d9c1ed3& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Buttons.vue?vue&type=template&id=2d9c1ed3&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Buttons_vue_vue_type_template_id_2d9c1ed3___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Buttons_vue_vue_type_template_id_2d9c1ed3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

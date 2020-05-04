@@ -1,1 +1,862 @@
-var a92_0x3f07=['Powered\x20by\x20Cropper.js\x20plugin.','data-scale','string','crop','./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js&','Plugins','Flip\x20Vertical','b-tooltip','\x27Set\x20drag\x20mode\x20to\x20crop\x27','$createElement','Clear','imgSrc','content','Image\x20Cropper','\x27Zoom\x20Out\x27','transform','resources/js/src/views/plugins/ImageCropper.vue','primary','./node_modules/css-loader/lib/css-base.js','border-bottom\x20pb-2','Preview','.js-img-cropper-preview','zoom','./node_modules/vue-cropperjs/dist/VueCropper.js','base-page-heading','breadcrumb-alt','scaleY','Set\x20Aspect\x20Ratio','\x27Rotate\x20Right\x27','\x27Set\x20Aspect\x20Ratio\x27','relativeZoom','fa\x20fa-search-minus','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Free\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x204:3\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-breadcrumb-item','flipX','items-push','Cropper','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x202:3\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fa\x20fa-undo-alt','Crop','flipY','fa\x20fa-redo-alt','\x27Set\x20drag\x20mode\x20to\x20move\x27','reset','Zoom\x20Out','b-button-group','b-row','preventDefault','cropper','Rotate\x20Left','\x27Clear\x27','base-block','text-center','js-img-cropper-preview\x20mx-auto\x20overflow-hidden','insertInto','rotate','b-col','/images/photos/photo30@2x.jpg','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x201:1\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','setAttribute','cropData','setDragMode','scaleX','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&','fa\x20fa-check','setAspectRatio','Crop\x20Data','\x27Rotate\x20Left\x27','webpackJsonp','getCropBoxData','stringify','./node_modules/style-loader/lib/addStyles.js','Rotate\x20Right','fa\x20fa-crop','exports','./node_modules/css-loader/index.js!./node_modules/cropperjs/dist/cropper.css','\x27Flip\x20Horizontal\x27','$refs','push','Set\x20drag\x20mode\x20to\x20crop','b-textarea','b-button','./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js&','render','v-b-tooltip.hover.nofade.top','\x27Flip\x20Vertical\x27','vue-cropper','fa\x20fa-arrows-alt','staticRenderFns','fa\x20fa-times','default','extra','Source\x20Image','_self','__file','Flip\x20Horizontal','\x27Crop\x27','div'];(function(_0x44b1bb,_0x3f075d){var _0x4703e2=function(_0x5189e3){while(--_0x5189e3){_0x44b1bb['push'](_0x44b1bb['shift']());}};_0x4703e2(++_0x3f075d);}(a92_0x3f07,0x184));var a92_0x4703=function(_0x44b1bb,_0x3f075d){_0x44b1bb=_0x44b1bb-0x0;var _0x4703e2=a92_0x3f07[_0x44b1bb];return _0x4703e2;};(window['webpackJsonp']=window[a92_0x4703('0x52')]||[])['push']([['plugins-image-cropper'],{'./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js&':function(_0x45c5e0,_0x3c44f4,_0x2d8f25){'use strict';_0x2d8f25['r'](_0x3c44f4);var _0x34fa3a=_0x2d8f25(a92_0x4703('0x23'));var _0x4d31ab=_0x2d8f25['n'](_0x34fa3a);_0x3c44f4[a92_0x4703('0x4')]={'components':{'VueCropper':_0x4d31ab['a']},'data':function _0x27850d(){return{'imgSrc':a92_0x4703('0x46'),'cropData':null};},'methods':{'flipX':function _0x26bc5c(){var _0x93bc73=this[a92_0x4703('0x5b')][a92_0x4703('0x2f')];var _0x2c3732=_0x93bc73['getAttribute'](a92_0x4703('0xd'));_0x2c3732=_0x2c3732?-_0x2c3732:-0x1;this[a92_0x4703('0x5b')]['cropper'][a92_0x4703('0x4b')](_0x2c3732);_0x93bc73[a92_0x4703('0x48')]('data-scale',_0x2c3732);},'flipY':function _0x305b5d(){var _0x21fd93=this['$refs'][a92_0x4703('0x35')];var _0x4eba25=_0x21fd93['getAttribute']('data-scale');_0x4eba25=_0x4eba25?-_0x4eba25:-0x1;this[a92_0x4703('0x5b')][a92_0x4703('0x3d')][a92_0x4703('0x26')](_0x4eba25);_0x21fd93['setAttribute'](a92_0x4703('0xd'),_0x4eba25);},'zoom':function _0x186c63(_0x2db3d4){this[a92_0x4703('0x5b')][a92_0x4703('0x3d')][a92_0x4703('0x2a')](_0x2db3d4);},'rotate':function _0x982915(_0x4339df){this[a92_0x4703('0x5b')]['cropper'][a92_0x4703('0x44')](_0x4339df);},'reset':function _0x5a0ae1(){this[a92_0x4703('0x5b')][a92_0x4703('0x3d')][a92_0x4703('0x38')]();this['cropData']=null;},'setDragMode':function _0x7062a6(_0x51e7fd){this[a92_0x4703('0x5b')][a92_0x4703('0x3d')][a92_0x4703('0x4a')](_0x51e7fd);},'setAspectRatio':function _0x2f244a(_0x2f10bf){this[a92_0x4703('0x5b')][a92_0x4703('0x3d')]['setAspectRatio'](_0x2f10bf);},'getCropBoxData':function _0x1d3e4d(){this[a92_0x4703('0x49')]=JSON[a92_0x4703('0x54')](this[a92_0x4703('0x5b')][a92_0x4703('0x3d')][a92_0x4703('0x53')](),null,0x4);}}};},'./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&':function(_0x129d85,_0x39014c,_0x52c383){_0x39014c=_0x129d85[a92_0x4703('0x58')]=_0x52c383(a92_0x4703('0x1e'))(![]);_0x39014c['i'](_0x52c383(a92_0x4703('0x59')),'');_0x39014c['push']([_0x129d85['i'],'','']);},'./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&':function(_0x8b9578,_0x2c0f6d,_0x1c56f6){var _0x512912=_0x1c56f6('./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&');if(typeof _0x512912===a92_0x4703('0xe'))_0x512912=[[_0x8b9578['i'],_0x512912,'']];var _0x2731c0;var _0x4d04e4;var _0x2e70c6={'hmr':!![]};_0x2e70c6[a92_0x4703('0x1b')]=_0x2731c0;_0x2e70c6[a92_0x4703('0x43')]=undefined;var _0x330850=_0x1c56f6(a92_0x4703('0x55'))(_0x512912,_0x2e70c6);if(_0x512912['locals'])_0x8b9578['exports']=_0x512912['locals'];if(![]){}},'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b&':function(_0x2d77e8,_0x1dcc18,_0x41922a){'use strict';_0x41922a['r'](_0x1dcc18);_0x41922a['d'](_0x1dcc18,a92_0x4703('0x61'),function(){return _0x925a45;});_0x41922a['d'](_0x1dcc18,a92_0x4703('0x2'),function(){return _0x4eae38;});var _0x925a45=function(){var _0x2986a6=this;var _0x37d769=_0x2986a6[a92_0x4703('0x15')];var _0x2c63cb=_0x2986a6[a92_0x4703('0x7')]['_c']||_0x37d769;return _0x2c63cb(a92_0x4703('0xb'),[_0x2c63cb(a92_0x4703('0x24'),{'attrs':{'subtitle':a92_0x4703('0xc'),'title':'Image\x20Cropper'},'scopedSlots':_0x2986a6['_u']([{'key':a92_0x4703('0x5'),'fn':function(){return[_0x2c63cb('b-breadcrumb',{'staticClass':a92_0x4703('0x25')},[_0x2c63cb(a92_0x4703('0x2e'),{'attrs':{'href':'javascript:void(0)'}},[_0x2986a6['_v'](a92_0x4703('0x11'))]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x2e'),{'attrs':{'active':''}},[_0x2986a6['_v'](a92_0x4703('0x19'))])],0x1)];},'proxy':!![]}])}),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0xb'),{'staticClass':a92_0x4703('0x18')},[_0x2c63cb(a92_0x4703('0x40'),{'staticClass':'mb-2','attrs':{'content-class':a92_0x4703('0x41')}},[_0x2c63cb(a92_0x4703('0x3a'),{'staticClass':a92_0x4703('0x5c')},[_0x2c63cb(a92_0x4703('0x5f'),{'directives':[{'name':a92_0x4703('0x13'),'rawName':a92_0x4703('0x62'),'value':'Set\x20drag\x20mode\x20to\x20move','expression':a92_0x4703('0x37'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0x4b6c79){_0x4b6c79[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x4a')]('move');}}},[_0x2c63cb('i',{'staticClass':a92_0x4703('0x1')})]),_0x2986a6['_v']('\x20'),_0x2c63cb('b-button',{'directives':[{'name':a92_0x4703('0x13'),'rawName':a92_0x4703('0x62'),'value':a92_0x4703('0x5d'),'expression':a92_0x4703('0x14'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0x2ae953){_0x2ae953[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x4a')](a92_0x4703('0xf'));}}},[_0x2c63cb('i',{'staticClass':a92_0x4703('0x57')})])],0x1),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x3a'),{'staticClass':a92_0x4703('0x5c')},[_0x2c63cb('b-button',{'directives':[{'name':'b-tooltip','rawName':a92_0x4703('0x62'),'value':'Zoom\x20In','expression':'\x27Zoom\x20In\x27','modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0x3a4886){_0x3a4886[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x22')](0.1);}}},[_0x2c63cb('i',{'staticClass':'fa\x20fa-search-plus'})]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x5f'),{'directives':[{'name':a92_0x4703('0x13'),'rawName':a92_0x4703('0x62'),'value':a92_0x4703('0x39'),'expression':a92_0x4703('0x1a'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':'primary'},'on':{'click':function(_0x1bb469){_0x1bb469[a92_0x4703('0x3c')]();return _0x2986a6['zoom'](-0.1);}}},[_0x2c63cb('i',{'staticClass':a92_0x4703('0x2b')})])],0x1),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x3a'),{'staticClass':'push'},[_0x2c63cb(a92_0x4703('0x5f'),{'directives':[{'name':a92_0x4703('0x13'),'rawName':a92_0x4703('0x62'),'value':a92_0x4703('0x3e'),'expression':a92_0x4703('0x51'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':'primary'},'on':{'click':function(_0x33f7f4){_0x33f7f4[a92_0x4703('0x3c')]();return _0x2986a6['rotate'](-0x5a);}}},[_0x2c63cb('i',{'staticClass':a92_0x4703('0x33')})]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x5f'),{'directives':[{'name':a92_0x4703('0x13'),'rawName':'v-b-tooltip.hover.nofade.top','value':a92_0x4703('0x56'),'expression':a92_0x4703('0x28'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0x3709ac){_0x3709ac[a92_0x4703('0x3c')]();return _0x2986a6['rotate'](0x5a);}}},[_0x2c63cb('i',{'staticClass':a92_0x4703('0x36')})])],0x1),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x3a'),{'staticClass':a92_0x4703('0x5c')},[_0x2c63cb('b-button',{'directives':[{'name':a92_0x4703('0x13'),'rawName':a92_0x4703('0x62'),'value':a92_0x4703('0x9'),'expression':a92_0x4703('0x5a'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'ref':a92_0x4703('0x2f'),'attrs':{'size':'sm','variant':'primary'},'on':{'click':function(_0x354171){_0x354171['preventDefault']();return _0x2986a6[a92_0x4703('0x2f')](_0x354171);}}},[_0x2c63cb('i',{'staticClass':'fa\x20fa-arrows-alt-h'})]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x5f'),{'directives':[{'name':'b-tooltip','rawName':'v-b-tooltip.hover.nofade.top','value':a92_0x4703('0x12'),'expression':a92_0x4703('0x63'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'ref':a92_0x4703('0x35'),'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0x4b2cb2){_0x4b2cb2[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x35')](_0x4b2cb2);}}},[_0x2c63cb('i',{'staticClass':'fa\x20fa-arrows-alt-v'})])],0x1),_0x2986a6['_v']('\x20'),_0x2c63cb('b-button-group',{'staticClass':a92_0x4703('0x5c')},[_0x2c63cb(a92_0x4703('0x5f'),{'directives':[{'name':a92_0x4703('0x13'),'rawName':a92_0x4703('0x62'),'value':'Set\x20Aspect\x20Ratio','expression':a92_0x4703('0x29'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':'primary'},'on':{'click':function(_0x13d91e){_0x13d91e[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x4f')](0x10/0x9);}}},[_0x2986a6['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2016:9\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x5f'),{'directives':[{'name':'b-tooltip','rawName':a92_0x4703('0x62'),'value':a92_0x4703('0x27'),'expression':a92_0x4703('0x29'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0xa431eb){_0xa431eb[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x4f')](0x4/0x3);}}},[_0x2986a6['_v'](a92_0x4703('0x2d'))]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x5f'),{'directives':[{'name':a92_0x4703('0x13'),'rawName':a92_0x4703('0x62'),'value':a92_0x4703('0x27'),'expression':'\x27Set\x20Aspect\x20Ratio\x27','modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0x5de1cd){_0x5de1cd[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x4f')](0x1);}}},[_0x2986a6['_v'](a92_0x4703('0x47'))]),_0x2986a6['_v']('\x20'),_0x2c63cb('b-button',{'directives':[{'name':a92_0x4703('0x13'),'rawName':'v-b-tooltip.hover.nofade.top','value':a92_0x4703('0x27'),'expression':'\x27Set\x20Aspect\x20Ratio\x27','modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0x2a2038){_0x2a2038[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x4f')](0x2/0x3);}}},[_0x2986a6['_v'](a92_0x4703('0x32'))])],0x1),_0x2986a6['_v']('\x20'),_0x2c63cb('b-button',{'directives':[{'name':a92_0x4703('0x13'),'rawName':a92_0x4703('0x62'),'value':a92_0x4703('0x27'),'expression':a92_0x4703('0x29'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'staticClass':a92_0x4703('0x5c'),'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0x503cf8){_0x503cf8[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x4f')](NaN);}}},[_0x2986a6['_v'](a92_0x4703('0x2c'))]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x3a'),{'staticClass':a92_0x4703('0x5c')},[_0x2c63cb('b-button',{'directives':[{'name':'b-tooltip','rawName':'v-b-tooltip.hover.nofade.top','value':a92_0x4703('0x16'),'expression':a92_0x4703('0x3f'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':a92_0x4703('0x1d')},'on':{'click':function(_0xa20af6){_0xa20af6['preventDefault']();return _0x2986a6[a92_0x4703('0x38')](_0xa20af6);}}},[_0x2c63cb('i',{'staticClass':a92_0x4703('0x3')})]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x5f'),{'directives':[{'name':a92_0x4703('0x13'),'rawName':a92_0x4703('0x62'),'value':a92_0x4703('0x34'),'expression':a92_0x4703('0xa'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'size':'sm','variant':'primary'},'on':{'click':function(_0x1f88ae){_0x1f88ae[a92_0x4703('0x3c')]();return _0x2986a6[a92_0x4703('0x53')](_0x1f88ae);}}},[_0x2c63cb('i',{'staticClass':a92_0x4703('0x4e')})])],0x1)],0x1),_0x2986a6['_v']('\x20'),_0x2c63cb('base-block',{'attrs':{'content-full':''}},[_0x2c63cb(a92_0x4703('0x3b'),{'staticClass':a92_0x4703('0x30')},[_0x2c63cb('b-col',{'attrs':{'xl':'6'}},[_0x2c63cb('h4',{'staticClass':'border-bottom\x20pb-2'},[_0x2986a6['_v'](a92_0x4703('0x31'))]),_0x2986a6['_v']('\x20'),_0x2c63cb('div',[_0x2c63cb(a92_0x4703('0x0'),{'ref':a92_0x4703('0x3d'),'attrs':{'aspect-ratio':0x4/0x3,'src':_0x2986a6[a92_0x4703('0x17')],'alt':a92_0x4703('0x6'),'preview':a92_0x4703('0x21')}})],0x1)]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0x45'),{'attrs':{'xl':'6'}},[_0x2c63cb('h4',{'staticClass':'border-bottom\x20pb-2'},[_0x2986a6['_v'](a92_0x4703('0x20'))]),_0x2986a6['_v']('\x20'),_0x2c63cb('div',{'staticClass':'overflow-hidden\x20mb-2'},[_0x2c63cb('div',{'staticClass':a92_0x4703('0x42'),'staticStyle':{'height':'200px'}})]),_0x2986a6['_v']('\x20'),_0x2c63cb('h4',{'staticClass':a92_0x4703('0x1f')},[_0x2986a6['_v'](a92_0x4703('0x50'))]),_0x2986a6['_v']('\x20'),_0x2c63cb(a92_0x4703('0xb'),{'staticClass':'mx-md-6'},[_0x2c63cb(a92_0x4703('0x5e'),{'attrs':{'rows':'6'},'model':{'value':_0x2986a6['cropData'],'callback':function(_0x402b34){_0x2986a6['cropData']=_0x402b34;},'expression':a92_0x4703('0x49')}})],0x1)])],0x1)],0x1)],0x1)],0x1);};var _0x4eae38=[];_0x925a45['_withStripped']=!![];},'./resources/js/src/views/plugins/ImageCropper.vue':function(_0x4fd944,_0x2b5b30,_0x46ff4d){'use strict';_0x46ff4d['r'](_0x2b5b30);var _0x3f6f22=_0x46ff4d('./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b&');var _0x147d4f=_0x46ff4d(a92_0x4703('0x10'));var _0x26957e=_0x46ff4d(a92_0x4703('0x4d'));var _0x151b73=_0x46ff4d(a92_0x4703('0x4c'));var _0x481da6=Object(_0x151b73['default'])(_0x147d4f[a92_0x4703('0x4')],_0x3f6f22['render'],_0x3f6f22[a92_0x4703('0x2')],![],null,null,null);if(![]){var _0xd1ec23;}_0x481da6['options'][a92_0x4703('0x8')]=a92_0x4703('0x1c');_0x2b5b30[a92_0x4703('0x4')]=_0x481da6[a92_0x4703('0x58')];},'./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js&':function(_0x3d5d4d,_0x1b23d0,_0x44d02c){'use strict';_0x44d02c['r'](_0x1b23d0);var _0x22944e=_0x44d02c(a92_0x4703('0x60'));_0x1b23d0[a92_0x4703('0x4')]=_0x22944e['default'];},'./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&':function(_0x29f773,_0x487e89,_0x49bcbd){'use strict';_0x49bcbd['r'](_0x487e89);var _0x15974a=_0x49bcbd('./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&');var _0x30a268=_0x49bcbd['n'](_0x15974a);for(var _0x559924 in _0x15974a)if(_0x559924!==a92_0x4703('0x4'))(function(_0x44e2cb){_0x49bcbd['d'](_0x487e89,_0x44e2cb,function(){return _0x15974a[_0x44e2cb];});}(_0x559924));_0x487e89[a92_0x4703('0x4')]=_0x30a268['a'];},'./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b&':function(_0x4ce91d,_0x1a349b,_0x5adab5){'use strict';_0x5adab5['r'](_0x1a349b);var _0x2d883b=_0x5adab5('./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b&');_0x5adab5['d'](_0x1a349b,'render',function(){return _0x2d883b[a92_0x4703('0x61')];});_0x5adab5['d'](_0x1a349b,a92_0x4703('0x2'),function(){return _0x2d883b[a92_0x4703('0x2')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["plugins-image-cropper"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_cropperjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-cropperjs */ "./node_modules/vue-cropperjs/dist/VueCropper.js");
+/* harmony import */ var vue_cropperjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_cropperjs__WEBPACK_IMPORTED_MODULE_0__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Vue Cropperjs, for more info and examples you can check out https://github.com/Agontuk/vue-cropperjs
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    VueCropper: vue_cropperjs__WEBPACK_IMPORTED_MODULE_0___default.a
+  },
+  data: function data() {
+    return {
+      imgSrc: '/images/photos/photo30@2x.jpg',
+      cropData: null
+    };
+  },
+  methods: {
+    flipX: function flipX() {
+      var dom = this.$refs.flipX;
+      var scale = dom.getAttribute('data-scale');
+      scale = scale ? -scale : -1;
+      this.$refs.cropper.scaleX(scale);
+      dom.setAttribute('data-scale', scale);
+    },
+    flipY: function flipY() {
+      var dom = this.$refs.flipY;
+      var scale = dom.getAttribute('data-scale');
+      scale = scale ? -scale : -1;
+      this.$refs.cropper.scaleY(scale);
+      dom.setAttribute('data-scale', scale);
+    },
+    zoom: function zoom(percent) {
+      this.$refs.cropper.relativeZoom(percent);
+    },
+    rotate: function rotate(deg) {
+      this.$refs.cropper.rotate(deg);
+    },
+    reset: function reset() {
+      this.$refs.cropper.reset();
+      this.cropData = null;
+    },
+    setDragMode: function setDragMode(mode) {
+      this.$refs.cropper.setDragMode(mode);
+    },
+    setAspectRatio: function setAspectRatio(aspect) {
+      this.$refs.cropper.setAspectRatio(aspect);
+    },
+    getCropBoxData: function getCropBoxData() {
+      this.cropData = JSON.stringify(this.$refs.cropper.getCropBoxData(), null, 4);
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+exports.i(__webpack_require__(/*! -!../../../../../node_modules/css-loader!cropperjs/dist/cropper.css */ "./node_modules/css-loader/index.js!./node_modules/cropperjs/dist/cropper.css"), "");
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ImageCropper.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Powered by Cropper.js plugin.",
+          title: "Image Cropper"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Plugins")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Image Cropper")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { staticClass: "mb-2", attrs: { "content-class": "text-center" } },
+            [
+              _c(
+                "b-button-group",
+                { staticClass: "push" },
+                [
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Set drag mode to move",
+                          expression: "'Set drag mode to move'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.setDragMode("move")
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-arrows-alt" })]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Set drag mode to crop",
+                          expression: "'Set drag mode to crop'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.setDragMode("crop")
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-crop" })]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button-group",
+                { staticClass: "push" },
+                [
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Zoom In",
+                          expression: "'Zoom In'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.zoom(0.1)
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-search-plus" })]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Zoom Out",
+                          expression: "'Zoom Out'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.zoom(-0.1)
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-search-minus" })]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button-group",
+                { staticClass: "push" },
+                [
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Rotate Left",
+                          expression: "'Rotate Left'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.rotate(-90)
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-undo-alt" })]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Rotate Right",
+                          expression: "'Rotate Right'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.rotate(90)
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-redo-alt" })]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button-group",
+                { staticClass: "push" },
+                [
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Flip Horizontal",
+                          expression: "'Flip Horizontal'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      ref: "flipX",
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.flipX($event)
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-arrows-alt-h" })]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Flip Vertical",
+                          expression: "'Flip Vertical'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      ref: "flipY",
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.flipY($event)
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-arrows-alt-v" })]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button-group",
+                { staticClass: "push" },
+                [
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Set Aspect Ratio",
+                          expression: "'Set Aspect Ratio'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.setAspectRatio(16 / 9)
+                        }
+                      }
+                    },
+                    [_vm._v("\n                    16:9\n                ")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Set Aspect Ratio",
+                          expression: "'Set Aspect Ratio'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.setAspectRatio(4 / 3)
+                        }
+                      }
+                    },
+                    [_vm._v("\n                    4:3\n                ")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Set Aspect Ratio",
+                          expression: "'Set Aspect Ratio'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.setAspectRatio(1)
+                        }
+                      }
+                    },
+                    [_vm._v("\n                    1:1\n                ")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Set Aspect Ratio",
+                          expression: "'Set Aspect Ratio'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.setAspectRatio(2 / 3)
+                        }
+                      }
+                    },
+                    [_vm._v("\n                    2:3\n                ")]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  directives: [
+                    {
+                      name: "b-tooltip",
+                      rawName: "v-b-tooltip.hover.nofade.top",
+                      value: "Set Aspect Ratio",
+                      expression: "'Set Aspect Ratio'",
+                      modifiers: { hover: true, nofade: true, top: true }
+                    }
+                  ],
+                  staticClass: "push",
+                  attrs: { size: "sm", variant: "primary" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      return _vm.setAspectRatio(NaN)
+                    }
+                  }
+                },
+                [_vm._v("\n                Free\n            ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button-group",
+                { staticClass: "push" },
+                [
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Clear",
+                          expression: "'Clear'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.reset($event)
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-times" })]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "b-tooltip",
+                          rawName: "v-b-tooltip.hover.nofade.top",
+                          value: "Crop",
+                          expression: "'Crop'",
+                          modifiers: { hover: true, nofade: true, top: true }
+                        }
+                      ],
+                      attrs: { size: "sm", variant: "primary" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.getCropBoxData($event)
+                        }
+                      }
+                    },
+                    [_c("i", { staticClass: "fa fa-check" })]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { "content-full": "" } },
+            [
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { xl: "6" } }, [
+                    _c("h4", { staticClass: "border-bottom pb-2" }, [
+                      _vm._v("Cropper")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      [
+                        _c("vue-cropper", {
+                          ref: "cropper",
+                          attrs: {
+                            "aspect-ratio": 4 / 3,
+                            src: _vm.imgSrc,
+                            alt: "Source Image",
+                            preview: ".js-img-cropper-preview"
+                          }
+                        })
+                      ],
+                      1
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { xl: "6" } }, [
+                    _c("h4", { staticClass: "border-bottom pb-2" }, [
+                      _vm._v("Preview")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "overflow-hidden mb-2" }, [
+                      _c("div", {
+                        staticClass:
+                          "js-img-cropper-preview mx-auto overflow-hidden",
+                        staticStyle: { height: "200px" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("h4", { staticClass: "border-bottom pb-2" }, [
+                      _vm._v("Crop Data")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "mx-md-6" },
+                      [
+                        _c("b-textarea", {
+                          attrs: { rows: "6" },
+                          model: {
+                            value: _vm.cropData,
+                            callback: function($$v) {
+                              _vm.cropData = $$v
+                            },
+                            expression: "cropData"
+                          }
+                        })
+                      ],
+                      1
+                    )
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/plugins/ImageCropper.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/src/views/plugins/ImageCropper.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ImageCropper_vue_vue_type_template_id_33dd7c6b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ImageCropper.vue?vue&type=template&id=33dd7c6b& */ "./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b&");
+/* harmony import */ var _ImageCropper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImageCropper.vue?vue&type=script&lang=js& */ "./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _ImageCropper_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ImageCropper.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _ImageCropper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ImageCropper_vue_vue_type_template_id_33dd7c6b___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ImageCropper_vue_vue_type_template_id_33dd7c6b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/plugins/ImageCropper.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ImageCropper.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss& ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader!../../../../../node_modules/css-loader!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ImageCropper.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_template_id_33dd7c6b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ImageCropper.vue?vue&type=template&id=33dd7c6b& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/ImageCropper.vue?vue&type=template&id=33dd7c6b&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_template_id_33dd7c6b___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCropper_vue_vue_type_template_id_33dd7c6b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

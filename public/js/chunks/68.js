@@ -1,1 +1,772 @@
-var a68_0x3e81=['faq2-q3','staticRenderFns','faq2-q4','v-b-toggle.faq1-q3','v-b-toggle.faq3-q2','tablist','v-b-toggle.faq2-q4','v-b-toggle.faq1-q1','What\x20are\x20the\x20key\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20features?','mb-5','faq1-q2','text-muted','b-toggle','faq3-q1','_withStripped','b-breadcrumb-item','mb-1','header','\x20Payments\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','default','div','block-content','Does\x20your\x20App\x20support\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20mobile\x20devices?','b-collapse','p-sm-4\x20p-xl-7','push','Is\x20my\x20data\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20secure?','content\x20content-boxed','Welcome\x20to\x20our\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20service!','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e&','faq3-q2','faq1-q1','What\x20are\x20the\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20available\x20payment\x20options?','webpackJsonp','content','./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e&','Why\x20should\x20I\x20choose\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20your\x20service?','v-b-toggle.faq2-q2','faq2-q1','javascript:void(0)','extra','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20laoreet\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20tristique\x20lobortis\x20est\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20quis\x20dictumst\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20sit\x20varius\x20lorem\x20sit\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Who\x20are\x20we?','\x20Functionality\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Is\x20there\x20any\x20free\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20plan?','base-block','\x20Introduction\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','__file','tabpanel','FAQ','faq1','resources/js/src/views/pages/generic/Faq.vue','v-b-toggle.faq1-q2','render','Check\x20out\x20answers\x20to\x20the\x20most\x20common\x20questions.','$createElement','options','strong','faq2','v-b-toggle.faq2-q1'];(function(_0x31e216,_0x3e81f9){var _0x3cbc73=function(_0xe3c2bf){while(--_0xe3c2bf){_0x31e216['push'](_0x31e216['shift']());}};_0x3cbc73(++_0x3e81f9);}(a68_0x3e81,0x135));var a68_0x3cbc=function(_0x31e216,_0x3e81f9){_0x31e216=_0x31e216-0x0;var _0x3cbc73=a68_0x3e81[_0x31e216];return _0x3cbc73;};(window[a68_0x3cbc('0x1d')]=window['webpackJsonp']||[])[a68_0x3cbc('0x15')]([[0x44],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e&':function(_0x4a1504,_0x3b43c1,_0x46f3b0){'use strict';_0x46f3b0['r'](_0x3b43c1);_0x46f3b0['d'](_0x3b43c1,a68_0x3cbc('0x32'),function(){return _0xa1d5c0;});_0x46f3b0['d'](_0x3b43c1,a68_0x3cbc('0x3a'),function(){return _0xf4c9d1;});var _0xa1d5c0=function(){var _0x2fb266=this;var _0x41c74f=_0x2fb266[a68_0x3cbc('0x34')];var _0x21f18d=_0x2fb266['_self']['_c']||_0x41c74f;return _0x21f18d(a68_0x3cbc('0x10'),[_0x21f18d('base-page-heading',{'attrs':{'subtitle':a68_0x3cbc('0x33'),'title':a68_0x3cbc('0x2e')},'scopedSlots':_0x2fb266['_u']([{'key':a68_0x3cbc('0x24'),'fn':function(){return[_0x21f18d('b-breadcrumb',{'staticClass':'breadcrumb-alt'},[_0x21f18d(a68_0x3cbc('0xb'),{'attrs':{'href':a68_0x3cbc('0x23')}},[_0x2fb266['_v']('Generic')]),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0xb'),{'attrs':{'active':''}},[_0x2fb266['_v'](a68_0x3cbc('0x2e'))])],0x1)];},'proxy':!![]}])}),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':a68_0x3cbc('0x17')},[_0x21f18d(a68_0x3cbc('0x29'),{'attrs':{'content-full':''}},[_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':a68_0x3cbc('0x14')},[_0x21f18d('h2',{'staticClass':'h3'},[_0x21f18d('strong',[_0x2fb266['_v']('1.')]),_0x2fb266['_v'](a68_0x3cbc('0x2a'))]),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':a68_0x3cbc('0x5'),'attrs':{'role':a68_0x3cbc('0x1')}},[_0x21f18d('base-block',{'staticClass':a68_0x3cbc('0xc'),'attrs':{'bordered':'','header-bg':''},'scopedSlots':_0x2fb266['_u']([{'key':a68_0x3cbc('0xd'),'fn':function(){return[_0x21f18d('a',{'directives':[{'name':'b-toggle','rawName':a68_0x3cbc('0x3'),'modifiers':{'faq1-q1':!![]}}],'staticClass':a68_0x3cbc('0x7'),'attrs':{'href':'javascript:void(0)'}},[_0x2fb266['_v'](a68_0x3cbc('0x18'))])];},'proxy':!![]},{'key':a68_0x3cbc('0x1e'),'fn':function(){return[_0x21f18d(a68_0x3cbc('0x13'),{'attrs':{'accordion':a68_0x3cbc('0x2f'),'id':a68_0x3cbc('0x1b'),'role':a68_0x3cbc('0x2d'),'visible':''}},[_0x21f18d('div',{'staticClass':'block-content'},[_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))]),_0x2fb266['_v']('\x20'),_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))])])])];},'proxy':!![]}])}),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x29'),{'staticClass':'mb-1','attrs':{'bordered':'','header-bg':''},'scopedSlots':_0x2fb266['_u']([{'key':a68_0x3cbc('0xd'),'fn':function(){return[_0x21f18d('a',{'directives':[{'name':a68_0x3cbc('0x8'),'rawName':a68_0x3cbc('0x31'),'modifiers':{'faq1-q2':!![]}}],'staticClass':'text-muted','attrs':{'href':'javascript:void(0)'}},[_0x2fb266['_v'](a68_0x3cbc('0x26'))])];},'proxy':!![]},{'key':a68_0x3cbc('0x1e'),'fn':function(){return[_0x21f18d('b-collapse',{'attrs':{'accordion':a68_0x3cbc('0x2f'),'id':a68_0x3cbc('0x6'),'role':a68_0x3cbc('0x2d'),'visible':''}},[_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':'block-content'},[_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))]),_0x2fb266['_v']('\x20'),_0x21f18d('p',[_0x2fb266['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20laoreet\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20tristique\x20lobortis\x20est\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20quis\x20dictumst\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20sit\x20varius\x20lorem\x20sit\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])])];},'proxy':!![]}])}),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x29'),{'staticClass':a68_0x3cbc('0xc'),'attrs':{'bordered':'','header-bg':''},'scopedSlots':_0x2fb266['_u']([{'key':'header','fn':function(){return[_0x21f18d('a',{'directives':[{'name':a68_0x3cbc('0x8'),'rawName':a68_0x3cbc('0x3c'),'modifiers':{'faq1-q3':!![]}}],'staticClass':a68_0x3cbc('0x7'),'attrs':{'href':a68_0x3cbc('0x23')}},[_0x2fb266['_v']('What\x20are\x20our\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20values?')])];},'proxy':!![]},{'key':'content','fn':function(){return[_0x21f18d('b-collapse',{'attrs':{'accordion':'faq1','id':'faq1-q3','role':a68_0x3cbc('0x2d'),'visible':''}},[_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':a68_0x3cbc('0x11')},[_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))]),_0x2fb266['_v']('\x20'),_0x21f18d('p',[_0x2fb266['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20laoreet\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20tristique\x20lobortis\x20est\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20quis\x20dictumst\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20sit\x20varius\x20lorem\x20sit\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])])];},'proxy':!![]}])})],0x1),_0x2fb266['_v']('\x20'),_0x21f18d('h2',{'staticClass':'h3'},[_0x21f18d(a68_0x3cbc('0x36'),[_0x2fb266['_v']('2.')]),_0x2fb266['_v'](a68_0x3cbc('0x27'))]),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':a68_0x3cbc('0x5'),'attrs':{'role':'tablist'}},[_0x21f18d(a68_0x3cbc('0x29'),{'staticClass':'mb-1','attrs':{'bordered':'','header-bg':''},'scopedSlots':_0x2fb266['_u']([{'key':a68_0x3cbc('0xd'),'fn':function(){return[_0x21f18d('a',{'directives':[{'name':a68_0x3cbc('0x8'),'rawName':a68_0x3cbc('0x38'),'modifiers':{'faq2-q1':!![]}}],'staticClass':'text-muted','attrs':{'href':'javascript:void(0)'}},[_0x2fb266['_v'](a68_0x3cbc('0x4'))])];},'proxy':!![]},{'key':a68_0x3cbc('0x1e'),'fn':function(){return[_0x21f18d(a68_0x3cbc('0x13'),{'attrs':{'accordion':'faq2','id':a68_0x3cbc('0x22'),'role':a68_0x3cbc('0x2d'),'visible':''}},[_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':'block-content'},[_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))]),_0x2fb266['_v']('\x20'),_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))])])])];},'proxy':!![]}])}),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x29'),{'staticClass':a68_0x3cbc('0xc'),'attrs':{'bordered':'','header-bg':''},'scopedSlots':_0x2fb266['_u']([{'key':a68_0x3cbc('0xd'),'fn':function(){return[_0x21f18d('a',{'directives':[{'name':'b-toggle','rawName':a68_0x3cbc('0x21'),'modifiers':{'faq2-q2':!![]}}],'staticClass':a68_0x3cbc('0x7'),'attrs':{'href':a68_0x3cbc('0x23')}},[_0x2fb266['_v'](a68_0x3cbc('0x12'))])];},'proxy':!![]},{'key':'content','fn':function(){return[_0x21f18d(a68_0x3cbc('0x13'),{'attrs':{'accordion':a68_0x3cbc('0x37'),'id':'faq2-q2','role':a68_0x3cbc('0x2d'),'visible':''}},[_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':a68_0x3cbc('0x11')},[_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))]),_0x2fb266['_v']('\x20'),_0x21f18d('p',[_0x2fb266['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20laoreet\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20tristique\x20lobortis\x20est\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20quis\x20dictumst\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20sit\x20varius\x20lorem\x20sit\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])])];},'proxy':!![]}])}),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x29'),{'staticClass':'mb-1','attrs':{'bordered':'','header-bg':''},'scopedSlots':_0x2fb266['_u']([{'key':a68_0x3cbc('0xd'),'fn':function(){return[_0x21f18d('a',{'directives':[{'name':a68_0x3cbc('0x8'),'rawName':'v-b-toggle.faq2-q3','modifiers':{'faq2-q3':!![]}}],'staticClass':a68_0x3cbc('0x7'),'attrs':{'href':'javascript:void(0)'}},[_0x2fb266['_v'](a68_0x3cbc('0x20'))])];},'proxy':!![]},{'key':'content','fn':function(){return[_0x21f18d(a68_0x3cbc('0x13'),{'attrs':{'accordion':a68_0x3cbc('0x37'),'id':a68_0x3cbc('0x39'),'role':a68_0x3cbc('0x2d'),'visible':''}},[_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':a68_0x3cbc('0x11')},[_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))]),_0x2fb266['_v']('\x20'),_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))])])])];},'proxy':!![]}])}),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x29'),{'staticClass':a68_0x3cbc('0xc'),'attrs':{'bordered':'','header-bg':''},'scopedSlots':_0x2fb266['_u']([{'key':'header','fn':function(){return[_0x21f18d('a',{'directives':[{'name':'b-toggle','rawName':a68_0x3cbc('0x2'),'modifiers':{'faq2-q4':!![]}}],'staticClass':'text-muted','attrs':{'href':a68_0x3cbc('0x23')}},[_0x2fb266['_v'](a68_0x3cbc('0x16'))])];},'proxy':!![]},{'key':a68_0x3cbc('0x1e'),'fn':function(){return[_0x21f18d(a68_0x3cbc('0x13'),{'attrs':{'accordion':'faq2','id':a68_0x3cbc('0x3b'),'role':'tabpanel','visible':''}},[_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':a68_0x3cbc('0x11')},[_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))]),_0x2fb266['_v']('\x20'),_0x21f18d('p',[_0x2fb266['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dolor\x20posuere\x20proin\x20blandit\x20accumsan\x20senectus\x20netus\x20nullam\x20curae,\x20ornare\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20laoreet\x20adipiscing\x20luctus\x20mauris\x20adipiscing\x20pretium\x20eget\x20fermentum,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20tristique\x20lobortis\x20est\x20ut\x20metus\x20lobortis\x20tortor\x20tincidunt\x20himenaeos\x20habitant\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20quis\x20dictumst\x20proin\x20odio\x20sagittis\x20purus\x20mi,\x20nec\x20taciti\x20vestibulum\x20quis\x20in\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20sit\x20varius\x20lorem\x20sit\x20metus\x20mi.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])])];},'proxy':!![]}])})],0x1),_0x2fb266['_v']('\x20'),_0x21f18d('h2',{'staticClass':'h3'},[_0x21f18d(a68_0x3cbc('0x36'),[_0x2fb266['_v']('3.')]),_0x2fb266['_v'](a68_0x3cbc('0xe'))]),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x10'),{'attrs':{'role':a68_0x3cbc('0x1')}},[_0x21f18d(a68_0x3cbc('0x29'),{'staticClass':a68_0x3cbc('0xc'),'attrs':{'bordered':'','header-bg':''},'scopedSlots':_0x2fb266['_u']([{'key':a68_0x3cbc('0xd'),'fn':function(){return[_0x21f18d('a',{'directives':[{'name':'b-toggle','rawName':'v-b-toggle.faq3-q1','modifiers':{'faq3-q1':!![]}}],'staticClass':a68_0x3cbc('0x7'),'attrs':{'href':a68_0x3cbc('0x23')}},[_0x2fb266['_v'](a68_0x3cbc('0x28'))])];},'proxy':!![]},{'key':a68_0x3cbc('0x1e'),'fn':function(){return[_0x21f18d(a68_0x3cbc('0x13'),{'attrs':{'accordion':'faq3','id':a68_0x3cbc('0x9'),'role':a68_0x3cbc('0x2d'),'visible':''}},[_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':'block-content'},[_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))]),_0x2fb266['_v']('\x20'),_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))])])])];},'proxy':!![]}])}),_0x2fb266['_v']('\x20'),_0x21f18d(a68_0x3cbc('0x29'),{'staticClass':a68_0x3cbc('0xc'),'attrs':{'bordered':'','header-bg':''},'scopedSlots':_0x2fb266['_u']([{'key':a68_0x3cbc('0xd'),'fn':function(){return[_0x21f18d('a',{'directives':[{'name':a68_0x3cbc('0x8'),'rawName':a68_0x3cbc('0x0'),'modifiers':{'faq3-q2':!![]}}],'staticClass':a68_0x3cbc('0x7'),'attrs':{'href':a68_0x3cbc('0x23')}},[_0x2fb266['_v'](a68_0x3cbc('0x1c'))])];},'proxy':!![]},{'key':a68_0x3cbc('0x1e'),'fn':function(){return[_0x21f18d('b-collapse',{'attrs':{'accordion':'faq3','id':a68_0x3cbc('0x1a'),'role':a68_0x3cbc('0x2d'),'visible':''}},[_0x21f18d(a68_0x3cbc('0x10'),{'staticClass':a68_0x3cbc('0x11')},[_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))]),_0x2fb266['_v']('\x20'),_0x21f18d('p',[_0x2fb266['_v'](a68_0x3cbc('0x25'))])])])];},'proxy':!![]}])})],0x1)])])],0x1)],0x1);};var _0xf4c9d1=[];_0xa1d5c0[a68_0x3cbc('0xa')]=!![];},'./resources/js/src/views/pages/generic/Faq.vue':function(_0x4efe76,_0x5ea679,_0x13c2f8){'use strict';_0x13c2f8['r'](_0x5ea679);var _0x1097e0=_0x13c2f8(a68_0x3cbc('0x1f'));var _0x32a15e=_0x13c2f8(a68_0x3cbc('0x2b'));var _0xa0f759={};var _0x243efa=Object(_0x32a15e[a68_0x3cbc('0xf')])(_0xa0f759,_0x1097e0['render'],_0x1097e0[a68_0x3cbc('0x3a')],![],null,null,null);if(![]){var _0x5af604;}_0x243efa[a68_0x3cbc('0x35')][a68_0x3cbc('0x2c')]=a68_0x3cbc('0x30');_0x5ea679[a68_0x3cbc('0xf')]=_0x243efa['exports'];},'./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e&':function(_0x37e7ee,_0x33caca,_0x27f6ee){'use strict';_0x27f6ee['r'](_0x33caca);var _0x40f359=_0x27f6ee(a68_0x3cbc('0x19'));_0x27f6ee['d'](_0x33caca,a68_0x3cbc('0x32'),function(){return _0x40f359[a68_0x3cbc('0x32')];});_0x27f6ee['d'](_0x33caca,a68_0x3cbc('0x3a'),function(){return _0x40f359['staticRenderFns'];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[68],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Check out answers to the most common questions.",
+          title: "FAQ"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Generic")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("FAQ")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content content-boxed" },
+        [
+          _c("base-block", { attrs: { "content-full": "" } }, [
+            _c("div", { staticClass: "p-sm-4 p-xl-7" }, [
+              _c("h2", { staticClass: "h3" }, [
+                _c("strong", [_vm._v("1.")]),
+                _vm._v(" Introduction\n                ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "mb-5", attrs: { role: "tablist" } },
+                [
+                  _c("base-block", {
+                    staticClass: "mb-1",
+                    attrs: { bordered: "", "header-bg": "" },
+                    scopedSlots: _vm._u([
+                      {
+                        key: "header",
+                        fn: function() {
+                          return [
+                            _c(
+                              "a",
+                              {
+                                directives: [
+                                  {
+                                    name: "b-toggle",
+                                    rawName: "v-b-toggle.faq1-q1",
+                                    modifiers: { "faq1-q1": true }
+                                  }
+                                ],
+                                staticClass: "text-muted",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "Welcome to our\n                                service!"
+                                )
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      },
+                      {
+                        key: "content",
+                        fn: function() {
+                          return [
+                            _c(
+                              "b-collapse",
+                              {
+                                attrs: {
+                                  accordion: "faq1",
+                                  id: "faq1-q1",
+                                  role: "tabpanel",
+                                  visible: ""
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "block-content" }, [
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      }
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _c("base-block", {
+                    staticClass: "mb-1",
+                    attrs: { bordered: "", "header-bg": "" },
+                    scopedSlots: _vm._u([
+                      {
+                        key: "header",
+                        fn: function() {
+                          return [
+                            _c(
+                              "a",
+                              {
+                                directives: [
+                                  {
+                                    name: "b-toggle",
+                                    rawName: "v-b-toggle.faq1-q2",
+                                    modifiers: { "faq1-q2": true }
+                                  }
+                                ],
+                                staticClass: "text-muted",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [_vm._v("Who are we?")]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      },
+                      {
+                        key: "content",
+                        fn: function() {
+                          return [
+                            _c(
+                              "b-collapse",
+                              {
+                                attrs: {
+                                  accordion: "faq1",
+                                  id: "faq1-q2",
+                                  role: "tabpanel",
+                                  visible: ""
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "block-content" }, [
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      }
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _c("base-block", {
+                    staticClass: "mb-1",
+                    attrs: { bordered: "", "header-bg": "" },
+                    scopedSlots: _vm._u([
+                      {
+                        key: "header",
+                        fn: function() {
+                          return [
+                            _c(
+                              "a",
+                              {
+                                directives: [
+                                  {
+                                    name: "b-toggle",
+                                    rawName: "v-b-toggle.faq1-q3",
+                                    modifiers: { "faq1-q3": true }
+                                  }
+                                ],
+                                staticClass: "text-muted",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "What are our\n                                values?"
+                                )
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      },
+                      {
+                        key: "content",
+                        fn: function() {
+                          return [
+                            _c(
+                              "b-collapse",
+                              {
+                                attrs: {
+                                  accordion: "faq1",
+                                  id: "faq1-q3",
+                                  role: "tabpanel",
+                                  visible: ""
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "block-content" }, [
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      }
+                    ])
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("h2", { staticClass: "h3" }, [
+                _c("strong", [_vm._v("2.")]),
+                _vm._v(" Functionality\n                ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "mb-5", attrs: { role: "tablist" } },
+                [
+                  _c("base-block", {
+                    staticClass: "mb-1",
+                    attrs: { bordered: "", "header-bg": "" },
+                    scopedSlots: _vm._u([
+                      {
+                        key: "header",
+                        fn: function() {
+                          return [
+                            _c(
+                              "a",
+                              {
+                                directives: [
+                                  {
+                                    name: "b-toggle",
+                                    rawName: "v-b-toggle.faq2-q1",
+                                    modifiers: { "faq2-q1": true }
+                                  }
+                                ],
+                                staticClass: "text-muted",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "What are the key\n                                features?"
+                                )
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      },
+                      {
+                        key: "content",
+                        fn: function() {
+                          return [
+                            _c(
+                              "b-collapse",
+                              {
+                                attrs: {
+                                  accordion: "faq2",
+                                  id: "faq2-q1",
+                                  role: "tabpanel",
+                                  visible: ""
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "block-content" }, [
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      }
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _c("base-block", {
+                    staticClass: "mb-1",
+                    attrs: { bordered: "", "header-bg": "" },
+                    scopedSlots: _vm._u([
+                      {
+                        key: "header",
+                        fn: function() {
+                          return [
+                            _c(
+                              "a",
+                              {
+                                directives: [
+                                  {
+                                    name: "b-toggle",
+                                    rawName: "v-b-toggle.faq2-q2",
+                                    modifiers: { "faq2-q2": true }
+                                  }
+                                ],
+                                staticClass: "text-muted",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "Does your App support\n                                mobile devices?"
+                                )
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      },
+                      {
+                        key: "content",
+                        fn: function() {
+                          return [
+                            _c(
+                              "b-collapse",
+                              {
+                                attrs: {
+                                  accordion: "faq2",
+                                  id: "faq2-q2",
+                                  role: "tabpanel",
+                                  visible: ""
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "block-content" }, [
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      }
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _c("base-block", {
+                    staticClass: "mb-1",
+                    attrs: { bordered: "", "header-bg": "" },
+                    scopedSlots: _vm._u([
+                      {
+                        key: "header",
+                        fn: function() {
+                          return [
+                            _c(
+                              "a",
+                              {
+                                directives: [
+                                  {
+                                    name: "b-toggle",
+                                    rawName: "v-b-toggle.faq2-q3",
+                                    modifiers: { "faq2-q3": true }
+                                  }
+                                ],
+                                staticClass: "text-muted",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "Why should I choose\n                                your service?"
+                                )
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      },
+                      {
+                        key: "content",
+                        fn: function() {
+                          return [
+                            _c(
+                              "b-collapse",
+                              {
+                                attrs: {
+                                  accordion: "faq2",
+                                  id: "faq2-q3",
+                                  role: "tabpanel",
+                                  visible: ""
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "block-content" }, [
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      }
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _c("base-block", {
+                    staticClass: "mb-1",
+                    attrs: { bordered: "", "header-bg": "" },
+                    scopedSlots: _vm._u([
+                      {
+                        key: "header",
+                        fn: function() {
+                          return [
+                            _c(
+                              "a",
+                              {
+                                directives: [
+                                  {
+                                    name: "b-toggle",
+                                    rawName: "v-b-toggle.faq2-q4",
+                                    modifiers: { "faq2-q4": true }
+                                  }
+                                ],
+                                staticClass: "text-muted",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "Is my data\n                                secure?"
+                                )
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      },
+                      {
+                        key: "content",
+                        fn: function() {
+                          return [
+                            _c(
+                              "b-collapse",
+                              {
+                                attrs: {
+                                  accordion: "faq2",
+                                  id: "faq2-q4",
+                                  role: "tabpanel",
+                                  visible: ""
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "block-content" }, [
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      }
+                    ])
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("h2", { staticClass: "h3" }, [
+                _c("strong", [_vm._v("3.")]),
+                _vm._v(" Payments\n                ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { attrs: { role: "tablist" } },
+                [
+                  _c("base-block", {
+                    staticClass: "mb-1",
+                    attrs: { bordered: "", "header-bg": "" },
+                    scopedSlots: _vm._u([
+                      {
+                        key: "header",
+                        fn: function() {
+                          return [
+                            _c(
+                              "a",
+                              {
+                                directives: [
+                                  {
+                                    name: "b-toggle",
+                                    rawName: "v-b-toggle.faq3-q1",
+                                    modifiers: { "faq3-q1": true }
+                                  }
+                                ],
+                                staticClass: "text-muted",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "Is there any free\n                                plan?"
+                                )
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      },
+                      {
+                        key: "content",
+                        fn: function() {
+                          return [
+                            _c(
+                              "b-collapse",
+                              {
+                                attrs: {
+                                  accordion: "faq3",
+                                  id: "faq3-q1",
+                                  role: "tabpanel",
+                                  visible: ""
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "block-content" }, [
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      }
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _c("base-block", {
+                    staticClass: "mb-1",
+                    attrs: { bordered: "", "header-bg": "" },
+                    scopedSlots: _vm._u([
+                      {
+                        key: "header",
+                        fn: function() {
+                          return [
+                            _c(
+                              "a",
+                              {
+                                directives: [
+                                  {
+                                    name: "b-toggle",
+                                    rawName: "v-b-toggle.faq3-q2",
+                                    modifiers: { "faq3-q2": true }
+                                  }
+                                ],
+                                staticClass: "text-muted",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "What are the\n                                available payment options?"
+                                )
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      },
+                      {
+                        key: "content",
+                        fn: function() {
+                          return [
+                            _c(
+                              "b-collapse",
+                              {
+                                attrs: {
+                                  accordion: "faq3",
+                                  id: "faq3-q2",
+                                  role: "tabpanel",
+                                  visible: ""
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "block-content" }, [
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("p", [
+                                    _vm._v(
+                                      "\n                                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare\n                                        laoreet adipiscing luctus mauris adipiscing pretium eget fermentum,\n                                        tristique lobortis est ut metus lobortis tortor tincidunt himenaeos habitant\n                                        quis dictumst proin odio sagittis purus mi, nec taciti vestibulum quis in\n                                        sit varius lorem sit metus mi.\n                                    "
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        },
+                        proxy: true
+                      }
+                    ])
+                  })
+                ],
+                1
+              )
+            ])
+          ])
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/pages/generic/Faq.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/src/views/pages/generic/Faq.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Faq_vue_vue_type_template_id_3db4fc4e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Faq.vue?vue&type=template&id=3db4fc4e& */ "./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Faq_vue_vue_type_template_id_3db4fc4e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Faq_vue_vue_type_template_id_3db4fc4e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/pages/generic/Faq.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_template_id_3db4fc4e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Faq.vue?vue&type=template&id=3db4fc4e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/generic/Faq.vue?vue&type=template&id=3db4fc4e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_template_id_3db4fc4e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_template_id_3db4fc4e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

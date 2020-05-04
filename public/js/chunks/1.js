@@ -1,1 +1,1847 @@
-var a1_0x9abd=['div','8em','http://www.w3.org/2000/svg','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Comes\x20packed\x20with\x20great\x20features\x20and\x20development\x20tools,\x20based\x20on\x20dms\x20Remastered\x20design\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','mx-lg-8','font-size-lg\x20text-white-75\x20mb-6\x20mx-sm-6\x20mx-lg-9','fd350346','nonzero','px-4\x20py-2\x20mr-2\x20mt-2','dms','item\x20item-rounded\x20bg-flat-lighter\x20mx-auto\x20my-4','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Babel\x20makes\x20your\x20JS\x20code\x20compatible\x20with\x20older\x20browsers\x20and\x20webpack\x20bundles\x20your\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20asset\x20files\x20together.\x20Works\x20out-of-the-box\x20with\x20Vue\x20CLI.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','item\x20item-rounded\x20bg-amethyst-lighter\x20flex-shrink-0','getters','footer','alt-primary','./node_modules/style-loader/lib/addStyles.js','title','\x20Live\x20Preview\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','dms\x20Vue\x20Promo\x20Dashboard\x20Image','dms\x20Vue\x20Promo\x20Code\x20Image','./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&','insertInto','\x20Purchase\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','locals','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Easily\x20manipulate\x20blocks\x20and\x20layout\x20features\x20on\x20the\x20fly\x20from\x20any\x20component\x20in\x20your\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20application.\x20Either\x20with\x20buttons\x20or\x20JS\x20code.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','m44\x200h1952l-979\x201696z','./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&','BootstrapVue\x20logo','resources/js/src/views/Landing.vue','b-col','font-size-lg\x20text-muted\x20mb-6\x20text-center\x20mx-sm-6\x20mx-lg-10','font-size-lg\x20text-white-75\x20mb-0','Layout\x20Features','Bootstrap\x204','fab\x20fa-2x\x20fa-autoprefixer\x20text-smooth','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Using\x20the\x20latest\x20styles\x20from\x20dms\x20Remastered\x20version,\x20you\x20can\x20be\x20sure\x20that\x20all\x20design\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20elements\x20are\x20available\x20in\x20the\x20Vue\x20Edition\x20as\x20well.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','ml-4\x20mt-4','\x20Purchase\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bg-primary-darker\x20border-top\x20border-bottom\x20border-5x','exports','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20build\x20responsive,\x20mobile-first,\x20and\x20ARIA\x20accessible\x20projects\x20on\x20the\x20web\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20using\x20Vue.js\x20and\x20the\x20world\x27s\x20most\x20popular\x20front-end\x20CSS\x20library\x20—\x20Bootstrap\x204.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20BootstrapVue\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','h2\x20font-w700\x20mb-3','Remastered\x20Design','bg-body-light','p-3','Vue\x20Edition','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Vue\x20Edition\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','w-100\x20d-flex\x20align-items-center\x20position-relative\x20bg-landing-right','matrix(1.3333\x200\x200\x20-1.3333\x20-76.311\x20313.34)','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20The\x20latest\x20Font\x20Awesome\x20version\x20is\x20available,\x20bringing\x20you\x20over\x201300\x20freshly\x20made\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20icons\x20to\x20be\x20used\x20in\x20your\x20projects.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fa\x20fa-2x\x20fa-truck-loading\x20text-dark','fa\x20fa-2x\x20fa-columns\x20text-modern','h1\x20font-w700\x20mb-3','w-100\x20mb-5\x20mb-md-0\x20px-lg-6\x20position-relative\x20bg-landing-right','0\x200\x20261.76\x20226.69','appVersion','ml-4\x20mt-5','images/various/promo-search.png','dms\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Remastered','fa\x20fa-2x\x20fa-brush\x20text-info','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x205\x20Star\x20Ratings\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','dms\x20Vue\x20Promo\x20Search\x20Image','\x20©\x20','b-row','b-button','FontAwesome\x205','fab\x20fa-2x\x20fa-font-awesome\x20text-flat','fa\x20fa-2x\x20fa-fire\x20text-amethyst','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Elite\x20author\x20on\x20Themeforest.','push','_withStripped','\x20design!\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','item\x20item-rounded\x20bg-warning-light\x20mx-auto\x20my-4','base-block','#563d7c','webpack\x20+\x20Babel','span','dms\x20Vue\x20Promo\x20Side\x20Image','hero-inner\x20align-self-stretch\x20d-flex\x20flex-column','item\x20item-rounded\x20bg-smooth-lighter\x20mx-auto\x20my-4','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','svg','py-1\x20text-center\x20text-sm-right','options','py-1\x20text-center\x20text-sm-left','User\x20Interface','item\x20item-rounded\x20bg-danger-light\x20flex-shrink-0','font-w700\x20text-warning','#fff','https://1.envato.market/AVD6j','fa\x20fa-fw\x20fa-shopping-cart\x20mr-1','m0\x200-22.669-39.264-22.669\x2039.264h-75.491l98.16-170.02\x2098.16\x20170.02z','$store','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2020\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20by\x20','py-5\x20text-center','content\x20content-full\x20content-boxed\x20overflow-hidden','\x20is\x20one\x20of\x20the\x20Best\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Seller\x20and\x20Best\x20Rated\x20admin\x20templates\x20on\x20Themeforest.\x20Its\x20success\x20made\x20possible\x20the\x20development\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20of\x20Vue\x20Edition.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','appName','https://1.envato.market/5Noyb','item\x20item-rounded\x20bg-success-light\x20mx-auto\x20my-4','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Standard\x20tooling\x20for\x20Vue.js\x20development.\x20Out-of-the-box\x20support\x20for\x20Babel,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TypeScript,\x20ESLint,\x20PostCSS,\x20PWA,\x20Unit\x20Testing\x20&\x20End-to-end\x20Testing.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fa\x20fa-2x\x20fa-boxes\x20text-default','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20250+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','content\x20content-boxed\x20py-5','text-primary-light','ml-4','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Crafted\x20with\x20','fa\x20fa-fw\x20fa-rocket\x20mr-1','content\x20content-full\x20content-boxed','.bg-landing-left[data-v-fd350346],\x0a.bg-landing-right[data-v-fd350346]\x20{\x0a\x20\x20position:\x20relative;\x0a\x20\x20z-index:\x200;\x0a}\x0a.bg-landing-left\x20>\x20div[data-v-fd350346],\x0a.bg-landing-right\x20>\x20div[data-v-fd350346]\x20{\x0a\x20\x20z-index:\x201;\x0a}\x0a.bg-landing-left[data-v-fd350346]::before,\x0a.bg-landing-right[data-v-fd350346]::before\x20{\x0a\x20\x20position:\x20absolute;\x0a\x20\x20z-index:\x200;\x0a\x20\x20content:\x20\x22\x22;\x0a}\x0a.bg-landing-left[data-v-fd350346]::before\x20{\x0a\x20\x20top:\x20-10%;\x0a\x20\x20right:\x20-35%;\x0a\x20\x20width:\x20336px;\x0a\x20\x20height:\x20264px;\x0a\x20\x20background-image:\x20url(\x22data:image/svg+xml,%3Csvg\x20xmlns=\x27http://www.w3.org/2000/svg\x27\x20width=\x2724\x27\x20height=\x2724\x27\x20viewBox=\x270\x200\x2024\x2024\x27%3E%3Cg\x20fill=\x27%232C4E9B\x27\x20fill-opacity=\x270.05\x27%3E%3Cpolygon\x20fill-rule=\x27evenodd\x27\x20points=\x278\x204\x2012\x206\x208\x208\x206\x2012\x204\x208\x200\x206\x204\x204\x206\x200\x208\x204\x27/%3E%3C/g%3E%3C/svg%3E\x22);\x0a}\x0a.bg-landing-right[data-v-fd350346]::before\x20{\x0a\x20\x20bottom:\x20-10%;\x0a\x20\x20right:\x20-10%;\x0a\x20\x20width:\x20440px;\x0a\x20\x20height:\x20280px;\x0a\x20\x20background-image:\x20url(\x22data:image/svg+xml,%3Csvg\x20width=\x2764\x27\x20height=\x2764\x27\x20viewBox=\x270\x200\x2064\x2064\x27\x20xmlns=\x27http://www.w3.org/2000/svg\x27%3E%3Cpath\x20d=\x27M8\x2016c4.418\x200\x208-3.582\x208-8s-3.582-8-8-8-8\x203.582-8\x208\x203.582\x208\x208\x208zm0-2c3.314\x200\x206-2.686\x206-6s-2.686-6-6-6-6\x202.686-6\x206\x202.686\x206\x206\x206zm33.414-6l5.95-5.95L45.95.636\x2040\x206.586\x2034.05.636\x2032.636\x202.05\x2038.586\x208l-5.95\x205.95\x201.414\x201.414L40\x209.414l5.95\x205.95\x201.414-1.414L41.414\x208zM40\x2048c4.418\x200\x208-3.582\x208-8s-3.582-8-8-8-8\x203.582-8\x208\x203.582\x208\x208\x208zm0-2c3.314\x200\x206-2.686\x206-6s-2.686-6-6-6-6\x202.686-6\x206\x202.686\x206\x206\x206zM9.414\x2040l5.95-5.95-1.414-1.414L8\x2038.586l-5.95-5.95L.636\x2034.05\x206.586\x2040l-5.95\x205.95\x201.414\x201.414L8\x2041.414l5.95\x205.95\x201.414-1.414L9.414\x2040z\x27\x20fill=\x27%232C4E9B\x27\x20fill-opacity=\x270.1\x27\x20fill-rule=\x27evenodd\x27/%3E%3C/svg%3E\x22);\x0a}\x0a.promo-image[data-v-fd350346]\x20{\x0a\x20\x20max-width:\x20100%;\x0a\x20\x20height:\x20auto;\x0a\x20\x20border-radius:\x200.375rem;\x0a\x20\x20box-shadow:\x200\x201rem\x203rem\x20rgba(0,\x200,\x200,\x200.15);\x0a}','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sophisticated\x20Features\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Develop\x20and\x20manage\x20your\x20projects\x20through\x20an\x20accompanying\x20graphical\x20user\x20interface.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Perfect\x20for\x20managing\x20your\x20tasks\x20&\x20dependencies.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','evenodd','bg-white','fa\x20fa-2x\x20fa-table\x20text-danger','fa\x20fa-2x\x20fa-circle-notch\x20text-primary','pt-5\x20pb-3\x20text-center','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20We\x20used\x20the\x20best\x20toolkits,\x20built\x20by\x20passionate\x20people,\x20to\x20recreate\x20dms\x20from\x20scratch\x20and\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20craft\x20a\x20pure\x20Vue.js\x20based\x20version.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','d-flex\x20push','fa\x20fa-2x\x20fa-tools\x20text-success','v-click-ripple','\x20Live\x20Preview\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','default','m767\x20196h339c62\x200\x20112\x2014\x20150\x2043\x2038\x2028\x2056\x2071\x2056\x20129\x200\x2036-8\x2066-25\x2091s-42\x2044-74\x2058v2c43\x209\x2075\x2029\x2098\x2061\x2022\x2031\x2033\x2071\x2033\x20118\x200\x2028-5\x2053-15\x2077s-25\x2044-46\x2061c-21\x2018-47\x2031-80\x2041-32\x2011-71\x2016-116\x2016h-320zm122\x20292h199c29\x200\x2054-9\x2073-25\x2020-17\x2029-41\x2029-72\x200-35-8-60-26-75-17-14-43-21-76-21h-199zm0\x20305h216c37\x200\x2066-10\x2086-29s31-46\x2031-81-10-61-31-80-49-28-86-28h-216z','m0\x200-22.669-39.264-22.669\x2039.264h-36.227l58.896-102.01\x2058.896\x20102.01z','staticRenderFns','\x20ml-5\x20mt-4','appCopyright','content\x20content-full\x20flex-fill\x20d-flex\x20align-items-center\x20px-0\x20px-md-4\x20px-lg-6\x20px-xl-8\x20overflow-hidden','font-size-lg\x20mb-6\x20mx-sm-6\x20mx-lg-9','fab\x20fa-2x\x20fa-sass\x20text-danger','font-w300','images/various/promo-code-vue.png','fa\x20fa-chevron-down\x20text-black-50','Now\x20rebuilt\x20from\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20scratch\x20with\x20Vue.js.\x20Based\x20on','hero\x20bg-white\x20overflow-hidden','_self','__file','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Build\x20all\x20your\x20projects\x20with\x20one\x20super\x20flexible\x20UI\x20framework.','h1\x20font-w700\x20mb-3\x20text-white','mb-2','row-deck','img','d-none\x20d-lg-block\x20py-6','translate(178.06\x20235.01)','pixelcave','Hot\x20Reload','item\x20item-rounded\x20bg-modern-lighter\x20mx-auto\x20my-4','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20When\x20you\x20edit\x20a\x20.vue\x20file,\x20all\x20instances\x20of\x20that\x20component\x20will\x20be\x20swapped\x20in\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20without\x20reloading\x20the\x20page.\x20It\x20also\x20preserves\x20current\x20state.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x203.900+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ES6,\x20the\x20new\x20major\x20JavaScript\x20release,\x20is\x20used,\x20which\x20enables\x20us\x20writing\x20cleaner\x20and\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20better\x20code.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dms\x20Vue\x20Edition\x20was\x20carefully\x20crafted\x20for\x20all\x20your\x20projects\x20using\x20the\x20latest\x20and\x20greatest\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20technology.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','item\x20item-rounded\x20bg-city-lighter\x20mx-auto\x20my-4','images/various/promo-side.png','transform','alt-success','0\x200\x202041\x202160','font-size-sm\x20text-muted\x20text-left','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sass\x20is\x20used\x20to\x20override\x20and\x20extent\x20Bootstrap\x20in\x20an\x20intelligent\x20way\x20to\x20ensure\x20a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20perfect\x20and\x20modular\x20workflow.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&','$createElement','text-muted','#34495e','w-100','promo-image','font-size-sm','APIs','font-size-lg\x20text-muted\x20mb-3','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20The\x20latest\x20Bootstrap\x20version\x20powers\x20the\x20framework.\x20Flexbox\x20support\x20and\x20tons\x20of\x20new\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20features\x20are\x20ready\x20for\x20you\x20to\x20use.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fa\x20fa-2x\x20fa-smile-wink\x20text-success','webpackJsonp','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Peace\x20of\x20mind\x20when\x20working\x20with\x20Sass.\x20Use\x20the\x20latest\x20CSS\x20syntax\x20and\x20Autoprefixer\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20will\x20auto\x20add\x20any\x20required\x20prefixes\x20for\x20older\x20browsers.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','display-4\x20font-w700\x20text-primary-light\x20mb-0','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Free\x20Updates\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Custom\x20vital\x20components\x20are\x20available\x20to\x20be\x20used\x20in\x20your\x20Vue.js\x20templates,\x20making\x20it\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20easier\x20to\x20structure\x20your\x20page\x20content.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fa\x20fa-fw\x20fa-heart\x20text-city','text-center\x20text-lg-left\x20d-flex\x20align-items-center\x20bg-landing-left','click-ripple','render','1.1','/backend/dashboard','m1397\x20271-370\x20642-371-642h-592l963\x201667\x20962-1667z','path','d-flex\x20align-items-center','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Dark\x20header,\x20light\x20sidebar,\x20flexbox\x20based\x20layout,\x20page\x20overlay,\x20header\x20search\x20and\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20even\x20more\x20layout\x20features\x20are\x20all\x20available.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'];(function(_0x22ce42,_0x9abd7f){var _0x11d249=function(_0x14387c){while(--_0x14387c){_0x22ce42['push'](_0x22ce42['shift']());}};_0x11d249(++_0x9abd7f);}(a1_0x9abd,0x6d));var a1_0x11d2=function(_0x22ce42,_0x9abd7f){_0x22ce42=_0x22ce42-0x0;var _0x11d249=a1_0x9abd[_0x22ce42];return _0x11d249;};(window[a1_0x11d2('0x43')]=window[a1_0x11d2('0x43')]||[])[a1_0x11d2('0x99')]([[0x1],{'./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&':function(_0xc129d2,_0x1d6180,_0x4ed63e){_0x1d6180=_0xc129d2[a1_0x11d2('0x7a')]=_0x4ed63e('./node_modules/css-loader/lib/css-base.js')(![]);_0x1d6180[a1_0x11d2('0x99')]([_0xc129d2['i'],a1_0x11d2('0x3'),'']);},'./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&':function(_0x5a1d5f,_0xef3492,_0x25b1d2){var _0x26800d=_0x25b1d2(a1_0x11d2('0x38'));if(typeof _0x26800d==='string')_0x26800d=[[_0x5a1d5f['i'],_0x26800d,'']];var _0x195003;var _0x23acfc;var _0x2a724f={'hmr':!![]};_0x2a724f[a1_0x11d2('0x33')]=_0x195003;_0x2a724f[a1_0x11d2('0x68')]=undefined;var _0x94f40d=_0x25b1d2(a1_0x11d2('0x62'))(_0x26800d,_0x2a724f);if(_0x26800d[a1_0x11d2('0x6a')])_0x5a1d5f[a1_0x11d2('0x7a')]=_0x26800d[a1_0x11d2('0x6a')];if(![]){}},'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&':function(_0x10a29c,_0x5db488,_0xf2ee2b){'use strict';_0xf2ee2b['r'](_0x5db488);_0xf2ee2b['d'](_0x5db488,a1_0x11d2('0x4b'),function(){return _0x50820d;});_0xf2ee2b['d'](_0x5db488,a1_0x11d2('0x14'),function(){return _0x15327c;});var _0x50820d=function(){var _0x276316=this;var _0x436750=_0x276316[a1_0x11d2('0x39')];var _0x1c569a=_0x276316['_self']['_c']||_0x436750;return _0x1c569a(a1_0x11d2('0x52'),[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x1e')},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0xa2')},[_0x276316['_m'](0x0),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x17')},[_0x1c569a('b-row',{'staticClass':'w-100'},[_0x1c569a(a1_0x11d2('0x70'),{'staticClass':a1_0x11d2('0x49'),'attrs':{'lg':'6'}},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x3c')},[_0x1c569a('h1',{'staticClass':'display-4\x20font-w700\x20mb-3'},[_0x276316['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dms\x20'),_0x1c569a(a1_0x11d2('0xa0'),{'staticClass':a1_0x11d2('0x1a')},[_0x276316['_v'](a1_0x11d2('0x81'))])]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x40')},[_0x276316['_v'](a1_0x11d2('0x21')),_0x1c569a('br'),_0x276316['_v'](a1_0x11d2('0x1d')),_0x1c569a('br'),_0x1c569a('a',{'attrs':{'href':a1_0x11d2('0xad')}},[_0x276316['_v'](a1_0x11d2('0x8e'))]),_0x276316['_v'](a1_0x11d2('0x9b'))]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x94'),{'directives':[{'name':a1_0x11d2('0x4a'),'rawName':a1_0x11d2('0xf')}],'staticClass':a1_0x11d2('0x5a'),'attrs':{'href':'https://1.envato.market/5Noyb','variant':'alt-success'}},[_0x1c569a('i',{'staticClass':a1_0x11d2('0xae')}),_0x276316['_v'](a1_0x11d2('0x69'))]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x94'),{'directives':[{'name':a1_0x11d2('0x4a'),'rawName':a1_0x11d2('0xf')}],'staticClass':a1_0x11d2('0x5a'),'attrs':{'to':'/backend/dashboard','variant':a1_0x11d2('0x61')}},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x1')}),_0x276316['_v'](a1_0x11d2('0x64'))])],0x1)]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'staticClass':a1_0x11d2('0x26'),'attrs':{'lg':'6'}},[_0x1c569a('div',{'staticClass':a1_0x11d2('0x83')},[_0x1c569a(a1_0x11d2('0x93'),{'attrs':{'no-gutters':''}},[_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'lg':'7'}},[_0x1c569a('div',[_0x1c569a('img',{'staticClass':a1_0x11d2('0x3d'),'attrs':{'alt':a1_0x11d2('0x65'),'src':'images/various/promo-dashboard.png'}})]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x77')},[_0x1c569a(a1_0x11d2('0x25'),{'staticClass':a1_0x11d2('0x3d'),'attrs':{'alt':a1_0x11d2('0x91'),'src':a1_0x11d2('0x8d')}})])]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'lg':'5'}},[_0x1c569a('div',{'staticClass':a1_0x11d2('0x8c')},[_0x1c569a('img',{'staticClass':a1_0x11d2('0x3d'),'attrs':{'alt':a1_0x11d2('0xa1'),'src':a1_0x11d2('0x32')}})]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x15')},[_0x1c569a(a1_0x11d2('0x25'),{'staticClass':a1_0x11d2('0x3d'),'attrs':{'alt':a1_0x11d2('0x66'),'src':a1_0x11d2('0x1b')}})])])],0x1)],0x1)])],0x1)],0x1)]),_0x276316['_v']('\x20'),_0x276316['_m'](0x1)]),_0x276316['_v']('\x20'),_0x1c569a('div',{'staticClass':a1_0x11d2('0x7f')},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0xb4')},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'py-5'},[_0x1c569a('h2',{'staticClass':'h1\x20font-w700\x20mb-3\x20text-center'},[_0x276316['_v'](a1_0x11d2('0x82'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x71')},[_0x276316['_v'](a1_0x11d2('0x30'))]),_0x276316['_v']('\x20'),_0x1c569a('b-row',[_0x1c569a(a1_0x11d2('0x70'),{'staticClass':a1_0x11d2('0x50'),'attrs':{'md':'6','offset-lg':'1','order-md':'1'}},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x89')},[_0x1c569a('b-row',[_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'cols':'6','md':'12'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-shadow':'','rounded':''}},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'py-4\x20py-md-6\x20text-center'},[_0x1c569a(a1_0x11d2('0xa5'),{'attrs':{'height':a1_0x11d2('0x53'),'version':a1_0x11d2('0x4c'),'viewBox':a1_0x11d2('0x8a'),'width':'8em','xmlns':'http://www.w3.org/2000/svg'}},[_0x1c569a('g',{'attrs':{'transform':a1_0x11d2('0x84')}},[_0x1c569a('g',{'attrs':{'transform':a1_0x11d2('0x27')}},[_0x1c569a(a1_0x11d2('0x4f'),{'attrs':{'d':a1_0x11d2('0xaf'),'fill':'#41b883'}})]),_0x276316['_v']('\x20'),_0x1c569a('g',{'attrs':{'transform':'translate(178.06\x20235.01)'}},[_0x1c569a(a1_0x11d2('0x4f'),{'attrs':{'d':a1_0x11d2('0x13'),'fill':a1_0x11d2('0x3b')}})])])])])])],0x1),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'cols':'6','md':'12'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-shadow':'','rounded':''}},[_0x1c569a('div',{'staticClass':'py-4\x20py-md-6\x20text-center'},[_0x1c569a('svg',{'attrs':{'clip-rule':a1_0x11d2('0x7'),'fill-rule':a1_0x11d2('0x7'),'height':a1_0x11d2('0x53'),'viewBox':a1_0x11d2('0x35'),'width':a1_0x11d2('0x53'),'xmlns':a1_0x11d2('0x54')}},[_0x1c569a(a1_0x11d2('0x63'),{'attrs':{'data-v-555a030c':''}},[_0x276316['_v'](a1_0x11d2('0x6e'))]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x4f'),{'attrs':{'d':a1_0x11d2('0x4e'),'data-v-555a030c':'','fill':a1_0x11d2('0x3b')}}),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x4f'),{'attrs':{'d':a1_0x11d2('0x6c'),'data-v-555a030c':'','fill':a1_0x11d2('0x9e'),'fill-rule':a1_0x11d2('0x59')}}),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x4f'),{'attrs':{'d':'m1633\x20392-612\x201061-613-1061h-408l1021\x201768\x201020-1768z','data-v-555a030c':'','fill':'#41b883'}}),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x4f'),{'attrs':{'d':a1_0x11d2('0x12'),'data-v-555a030c':'','fill':a1_0x11d2('0xac')}})])])])],0x1)],0x1)],0x1)]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'lg':'5','md':'6','order-md':'0'}},[_0x1c569a('h4',{'staticClass':a1_0x11d2('0x7d')},[_0x276316['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Amazing\x20tools\x20under\x20the\x20hood\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':'font-size-lg\x20text-muted\x20mb-5'},[_0x276316['_v'](a1_0x11d2('0xc'))]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0xd')},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'item\x20item-rounded\x20bg-success-light\x20flex-shrink-0'},[_0x1c569a('i',{'staticClass':a1_0x11d2('0xe')})]),_0x276316['_v']('\x20'),_0x1c569a('div',{'staticClass':a1_0x11d2('0xbe')},[_0x1c569a('h5',{'staticClass':'h4\x20mb-2'},[_0x276316['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Vue\x20CLI\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x3a')},[_0x276316['_v'](a1_0x11d2('0xb9'))])])]),_0x276316['_v']('\x20'),_0x1c569a('div',{'staticClass':a1_0x11d2('0xd')},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0xaa')},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x9')})]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0xbe')},[_0x1c569a('h5',{'staticClass':'h4\x20mb-2'},[_0x276316['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Vuex\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':'text-muted'},[_0x276316['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20A\x20state\x20management\x20pattern\x20+\x20library\x20for\x20Vue.js\x20applications.\x20It\x20serves\x20as\x20a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20centralized\x20store\x20for\x20all\x20the\x20components\x20in\x20an\x20application,\x20with\x20rules\x20ensuring\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20that\x20the\x20state\x20can\x20only\x20be\x20mutated\x20in\x20a\x20predictable\x20fashion.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'d-flex\x20push'},[_0x1c569a('div',{'staticClass':a1_0x11d2('0x5e')},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x97')})]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0xbe')},[_0x1c569a('h5',{'staticClass':'h4\x20mb-2'},[_0x276316['_v'](a1_0x11d2('0x7c'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x3a')},[_0x276316['_v'](a1_0x11d2('0x7b'))])])])])],0x1)],0x1)])]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x8')},[_0x1c569a('div',{'staticClass':a1_0x11d2('0x2')},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0xb3')},[_0x1c569a('h2',{'staticClass':'h1\x20font-w700\x20mb-3\x20text-center'},[_0x276316['_v'](a1_0x11d2('0x4'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x71')},[_0x276316['_v'](a1_0x11d2('0x55'))]),_0x276316['_v']('\x20'),_0x1c569a('b-row',{'staticClass':a1_0x11d2('0x24')},[_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'item\x20item-rounded\x20bg-amethyst-lighter\x20mx-auto\x20my-4'},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x97')})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':a1_0x11d2('0x23')},[_0x276316['_v'](a1_0x11d2('0x74'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x36')},[_0x276316['_v'](a1_0x11d2('0x41'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'item\x20item-rounded\x20bg-danger-light\x20mx-auto\x20my-4'},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x19')})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':a1_0x11d2('0x23')},[_0x276316['_v']('Sass')]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x36')},[_0x276316['_v'](a1_0x11d2('0x37'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a('base-block',{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a('div',{'staticClass':a1_0x11d2('0x9c')},[_0x1c569a(a1_0x11d2('0xa0'),{'staticClass':a1_0x11d2('0xab')},[_0x276316['_v']('ES6')])]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':a1_0x11d2('0x23')},[_0x276316['_v']('ECMAScript\x206')]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x36')},[_0x276316['_v'](a1_0x11d2('0x2e'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a('div',{'staticClass':a1_0x11d2('0x5c')},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x96')})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':a1_0x11d2('0x23')},[_0x276316['_v'](a1_0x11d2('0x95'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':'font-size-sm\x20text-muted\x20text-left'},[_0x276316['_v'](a1_0x11d2('0x85'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a('b-col',{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a('base-block',{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a('div',{'staticClass':'item\x20item-rounded\x20bg-default-lighter\x20mx-auto\x20my-4'},[_0x1c569a('i',{'staticClass':a1_0x11d2('0xba')})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':'mb-2'},[_0x276316['_v'](a1_0x11d2('0x9f'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x36')},[_0x276316['_v'](a1_0x11d2('0x5d'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a('div',{'staticClass':a1_0x11d2('0x2a')},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x87')})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':'mb-2'},[_0x276316['_v'](a1_0x11d2('0xa9'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':'font-size-sm\x20text-muted\x20text-left'},[_0x276316['_v'](a1_0x11d2('0x6'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a('b-col',{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a('div',{'staticClass':a1_0x11d2('0x31')},[_0x1c569a('i',{'staticClass':'fa\x20fa-2x\x20fa-sync-alt\x20text-city'})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':'mb-2'},[_0x276316['_v'](a1_0x11d2('0x29'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x36')},[_0x276316['_v'](a1_0x11d2('0x2c'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0xa3')},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x75')})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':a1_0x11d2('0x23')},[_0x276316['_v']('Autoprefixer')]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':'font-size-sm\x20text-muted\x20text-left'},[_0x276316['_v'](a1_0x11d2('0x44'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a('base-block',{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'item\x20item-rounded\x20bg-gray-light\x20mx-auto\x20my-4'},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x86')})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':a1_0x11d2('0x23')},[_0x276316['_v']('Components')]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x36')},[_0x276316['_v'](a1_0x11d2('0x47'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a('b-col',{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a('base-block',{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'item\x20item-rounded\x20bg-info-light\x20mx-auto\x20my-4'},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x8f')})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':a1_0x11d2('0x23')},[_0x276316['_v'](a1_0x11d2('0x7e'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x36')},[_0x276316['_v'](a1_0x11d2('0x76'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a('div',{'staticClass':a1_0x11d2('0xb8')},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x42')})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':a1_0x11d2('0x23')},[_0x276316['_v'](a1_0x11d2('0x73'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':'font-size-sm\x20text-muted\x20text-left'},[_0x276316['_v'](a1_0x11d2('0x51'))])])],0x1),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'attrs':{'md':'4','sm':'6','xl':'3'}},[_0x1c569a(a1_0x11d2('0x9d'),{'attrs':{'content-full':'','fx-pop':'','rounded':''}},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x9c')},[_0x1c569a('i',{'staticClass':'fa\x20fa-2x\x20fa-wrench\x20text-warning'})]),_0x276316['_v']('\x20'),_0x1c569a('h4',{'staticClass':a1_0x11d2('0x23')},[_0x276316['_v'](a1_0x11d2('0x3f'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x36')},[_0x276316['_v'](a1_0x11d2('0x6b'))])])],0x1)],0x1)],0x1)])]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x79')},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0x2')},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':a1_0x11d2('0xb3')},[_0x1c569a('h2',{'staticClass':a1_0x11d2('0x22')},[_0x276316['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Trusted\x20by\x20over\x203.900\x20developers\x20and\x20teams\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x276316['_v']('\x20'),_0x276316['_m'](0x2),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x93'),{'staticClass':a1_0x11d2('0x56'),'attrs':{'no-gutters':''}},[_0x1c569a(a1_0x11d2('0x70'),{'staticClass':a1_0x11d2('0x80'),'attrs':{'sm':'4'}},[_0x1c569a('p',{'staticClass':a1_0x11d2('0x45')},[_0x276316['_v'](a1_0x11d2('0x2d'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x72')},[_0x276316['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Purchases\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'staticClass':a1_0x11d2('0x80'),'attrs':{'sm':'4'}},[_0x1c569a('p',{'staticClass':a1_0x11d2('0x45')},[_0x276316['_v'](a1_0x11d2('0xbb'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x72')},[_0x276316['_v'](a1_0x11d2('0x90'))])]),_0x276316['_v']('\x20'),_0x1c569a('b-col',{'staticClass':a1_0x11d2('0x80'),'attrs':{'sm':'4'}},[_0x1c569a('p',{'staticClass':a1_0x11d2('0x45')},[_0x276316['_v'](a1_0x11d2('0xb1'))]),_0x276316['_v']('\x20'),_0x1c569a('p',{'staticClass':a1_0x11d2('0x72')},[_0x276316['_v'](a1_0x11d2('0x46'))])])],0x1)],0x1)])]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'bg-white'},[_0x1c569a(a1_0x11d2('0x52'),{'staticClass':'content\x20content-full\x20content-boxed'},[_0x1c569a('div',{'staticClass':'py-5\x20py-md-8\x20text-center'},[_0x276316['_m'](0x3),_0x276316['_v']('\x20'),_0x276316['_m'](0x4),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x94'),{'directives':[{'name':a1_0x11d2('0x4a'),'rawName':a1_0x11d2('0xf')}],'staticClass':'px-4\x20py-2\x20mr-2\x20mt-2','attrs':{'href':a1_0x11d2('0xb7'),'variant':a1_0x11d2('0x34')}},[_0x1c569a('i',{'staticClass':'fa\x20fa-fw\x20fa-shopping-cart\x20mr-1'}),_0x276316['_v'](a1_0x11d2('0x78'))]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x94'),{'directives':[{'name':'click-ripple','rawName':a1_0x11d2('0xf')}],'staticClass':a1_0x11d2('0x5a'),'attrs':{'to':a1_0x11d2('0x4d'),'variant':a1_0x11d2('0x61')}},[_0x1c569a('i',{'staticClass':a1_0x11d2('0x1')}),_0x276316['_v'](a1_0x11d2('0x10'))])],0x1)])]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x60'),{'staticClass':a1_0x11d2('0x7f')},[_0x1c569a('div',{'staticClass':a1_0x11d2('0xbc')},[_0x1c569a(a1_0x11d2('0x93'),{'staticClass':a1_0x11d2('0x3e')},[_0x1c569a(a1_0x11d2('0x70'),{'staticClass':a1_0x11d2('0xa6'),'attrs':{'order-sm':'2','sm':'6'}},[_0x276316['_v'](a1_0x11d2('0x0')),_0x1c569a('i',{'staticClass':'fa\x20fa-heart\x20text-danger'}),_0x276316['_v'](a1_0x11d2('0xb2')),_0x1c569a('a',{'staticClass':'font-w600','attrs':{'href':a1_0x11d2('0xb7')}},[_0x276316['_v'](a1_0x11d2('0x28'))])]),_0x276316['_v']('\x20'),_0x1c569a(a1_0x11d2('0x70'),{'staticClass':a1_0x11d2('0xa8'),'attrs':{'order-sm':'1','sm':'6'}},[_0x1c569a('a',{'staticClass':'font-w600','attrs':{'href':'https://1.envato.market/5Noyb'}},[_0x276316['_v'](_0x276316['_s'](_0x276316[a1_0x11d2('0xb0')][a1_0x11d2('0x5f')][a1_0x11d2('0xb6')]+'\x20'+_0x276316[a1_0x11d2('0xb0')][a1_0x11d2('0x5f')][a1_0x11d2('0x8b')]))]),_0x276316['_v'](a1_0x11d2('0x92')+_0x276316['_s'](_0x276316[a1_0x11d2('0xb0')]['getters'][a1_0x11d2('0x16')])+a1_0x11d2('0x2b'))])],0x1)],0x1)])]);};var _0x15327c=[function(){var _0x5d1154=this;var _0x173dbf=_0x5d1154[a1_0x11d2('0x39')];var _0x1c03b1=_0x5d1154[a1_0x11d2('0x1f')]['_c']||_0x173dbf;return _0x1c03b1('div',{'staticClass':a1_0x11d2('0xb')},[_0x1c03b1('i',{'staticClass':a1_0x11d2('0xa')})]);},function(){var _0x453f8a=this;var _0x43d285=_0x453f8a[a1_0x11d2('0x39')];var _0xbe8d9=_0x453f8a[a1_0x11d2('0x1f')]['_c']||_0x43d285;return _0xbe8d9(a1_0x11d2('0x52'),{'staticClass':'hero-meta'},[_0xbe8d9('div',{'staticClass':'animated\x20slideInDown\x20infinite'},[_0xbe8d9('i',{'staticClass':a1_0x11d2('0x1c')})])]);},function(){var _0x19ea47=this;var _0x56d876=_0x19ea47[a1_0x11d2('0x39')];var _0x154068=_0x19ea47[a1_0x11d2('0x1f')]['_c']||_0x56d876;return _0x154068('p',{'staticClass':a1_0x11d2('0x57')},[_0x154068('a',{'staticClass':a1_0x11d2('0xbd'),'attrs':{'href':a1_0x11d2('0xad')}},[_0x19ea47['_v'](a1_0x11d2('0x5b'))]),_0x19ea47['_v'](a1_0x11d2('0xb5'))]);},function(){var _0x46fcc8=this;var _0x348d05=_0x46fcc8[a1_0x11d2('0x39')];var _0x271e0c=_0x46fcc8[a1_0x11d2('0x1f')]['_c']||_0x348d05;return _0x271e0c('h2',{'staticClass':a1_0x11d2('0x88')},[_0x46fcc8['_v'](a1_0x11d2('0x0')),_0x271e0c('i',{'staticClass':a1_0x11d2('0x48')}),_0x46fcc8['_v'](a1_0x11d2('0xb2')),_0x271e0c('a',{'staticClass':'link-fx','attrs':{'href':a1_0x11d2('0xb7')}},[_0x46fcc8['_v'](a1_0x11d2('0x28'))])]);},function(){var _0x4403b3=this;var _0x2c2707=_0x4403b3['$createElement'];var _0x16d481=_0x4403b3['_self']['_c']||_0x2c2707;return _0x16d481('p',{'staticClass':a1_0x11d2('0x18')},[_0x4403b3['_v'](a1_0x11d2('0x98')),_0x16d481('br'),_0x4403b3['_v']('Passionate\x20web\x20design\x20and\x20development\x20with\x20over\x2013.000\x20customers\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20worldwide.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]);}];_0x50820d[a1_0x11d2('0x9a')]=!![];},'./resources/js/src/views/Landing.vue':function(_0x535b73,_0x41d2ad,_0x5ac9f3){'use strict';_0x5ac9f3['r'](_0x41d2ad);var _0x2ccf46=_0x5ac9f3(a1_0x11d2('0x67'));var _0xec8ec4=_0x5ac9f3(a1_0x11d2('0x2f'));var _0x302af0=_0x5ac9f3(a1_0x11d2('0xa4'));var _0x88d04f={};var _0x297860=Object(_0x302af0[a1_0x11d2('0x11')])(_0x88d04f,_0x2ccf46[a1_0x11d2('0x4b')],_0x2ccf46[a1_0x11d2('0x14')],![],null,a1_0x11d2('0x58'),null);if(![]){var _0x8fd74f;}_0x297860[a1_0x11d2('0xa7')][a1_0x11d2('0x20')]=a1_0x11d2('0x6f');_0x41d2ad['default']=_0x297860['exports'];},'./resources/js/src/views/Landing.vue?vue&type=style&index=0&id=fd350346&lang=scss&scoped=true&':function(_0x5b4af1,_0x460de5,_0x2c5f28){'use strict';_0x2c5f28['r'](_0x460de5);var _0x269ff2=_0x2c5f28(a1_0x11d2('0x6d'));var _0x44d813=_0x2c5f28['n'](_0x269ff2);for(var _0x4b3ceb in _0x269ff2)if(_0x4b3ceb!=='default')(function(_0x18c9b1){_0x2c5f28['d'](_0x460de5,_0x18c9b1,function(){return _0x269ff2[_0x18c9b1];});}(_0x4b3ceb));_0x460de5['default']=_0x44d813['a'];},'./resources/js/src/views/Landing.vue?vue&type=template&id=fd350346&scoped=true&':function(_0x29fa0d,_0x573ad8,_0x2b13cc){'use strict';_0x2b13cc['r'](_0x573ad8);var _0x1cf079=_0x2b13cc(a1_0x11d2('0x5'));_0x2b13cc['d'](_0x573ad8,a1_0x11d2('0x4b'),function(){return _0x1cf079[a1_0x11d2('0x4b')];});_0x2b13cc['d'](_0x573ad8,a1_0x11d2('0x14'),function(){return _0x1cf079[a1_0x11d2('0x14')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    loadData: function loadData(ref) {
+      var _this = this;
+
+      // Set the block to loading state
+      this.$refs[ref].stateLoading(); // .. here you could load your data
+      // Set a timeout for demo purposes
+
+      setTimeout(function () {
+        // Set the block back to normal state
+        _this.$refs[ref].stateNormal();
+      }, 2000);
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Powerful way to manipulate any block you want.",
+          title: "Block API"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Blocks")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("API")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { attrs: { title: "Usage with JS code" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted mb-0" }, [
+                _vm._v(
+                  "\n                Using block API is easy. You will just have to use the ref property of your block to call the\n                related function. For example, to set the state of a block with ref set to\n                "
+                ),
+                _c("strong", [_vm._v("testBlock")]),
+                _vm._v(" to loading, you will have to call:\n            ")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c("code", [_vm._v("this.$refs.testBlock.stateLoading()")])
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { md: "6" } },
+                    [
+                      _c(
+                        "b-table-simple",
+                        {
+                          attrs: {
+                            bordered: "",
+                            responsive: "",
+                            striped: "",
+                            "table-class": "table-vcenter mb-0"
+                          }
+                        },
+                        [
+                          _c(
+                            "b-thead",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-th",
+                                    { staticStyle: { width: "25%" } },
+                                    [_vm._v("Live Test")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-th",
+                                    { staticStyle: { "min-width": "160px" } },
+                                    [_vm._v("Method")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-tbody",
+                            [
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-primary"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.contentToggle()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Toggle Content\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.contentToggle()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-primary"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.contentHide()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Hide Content\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.contentHide()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-primary"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.contentShow()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Show Content\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.contentShow()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-warning"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.stateToggle()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Toggle State\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.stateToggle()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-warning"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.stateLoading()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "State Loading\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.stateLoading()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-warning"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.stateNormal()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "State Normal\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.stateNormal()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-danger"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.fullscreenToggle()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Toggle Fullscreen\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v(
+                                        "$refs.testBlock.fullscreenToggle()"
+                                      )
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-danger"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.fullscreenOn()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Fullscreen On\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.fullscreenOn()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-danger"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.fullscreenOff()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Fullscreen Off\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.fullscreenOff()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-info"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.pinnedToggle()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Toggle Pinned\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.pinnedToggle()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-info"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.pinnedOn()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Pinned On\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.pinnedOn()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-info"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.pinnedOff()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Pinned Off\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.pinnedOff()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-dark"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.close()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n                                        Close\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.close()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-tr",
+                                [
+                                  _c(
+                                    "b-td",
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            block: "",
+                                            size: "sm",
+                                            variant: "alt-dark"
+                                          },
+                                          on: {
+                                            click: function($event) {
+                                              return _vm.$refs.testBlock.open()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n                                        Open\n                                    "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-td", [
+                                    _c("code", [
+                                      _vm._v("$refs.testBlock.open()")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { md: "6" } },
+                    [
+                      _c(
+                        "base-block",
+                        {
+                          ref: "testBlock",
+                          attrs: {
+                            bordered: "",
+                            "btn-option-content": "",
+                            "btn-option-fullscreen": "",
+                            "header-bg": "",
+                            title: "Test Block"
+                          }
+                        },
+                        [
+                          _c("p", [
+                            _vm._v(
+                              "\n                            Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad\n                            feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis\n                            ante urna molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing\n                            risus, libero condimentum venenatis sit nisl nisi ultricies sed, fames aliquet\n                            consectetur consequat nostra molestie neque nullam scelerisque neque commodo turpis\n                            quisque etiam egestas vulputate massa, curabitur tellus massa venenatis congue dolor\n                            enim integer luctus, nisi suscipit gravida fames quis vulputate nisi viverra luctus id\n                            leo dictum lorem, inceptos nibh orci.\n                        "
+                            )
+                          ])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Interactive Options")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "btn-option-content": "",
+                        title: "Toggle Content"
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "btn-option-close": "", title: "Close" } },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { "btn-option-fullscreen": "", title: "Maximize" }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "textBlock2",
+                      attrs: { title: "Refresh" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("textBlock2")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { "btn-option-pinned": "", title: "Pinned" } },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        "btn-option-content": "",
+                        "mode-content-hide": "",
+                        subtitle: "Hidden by default",
+                        title: "Content"
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "12" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "testBlock2",
+                      attrs: {
+                        "btn-option-close": "",
+                        "btn-option-content": "",
+                        "btn-option-fullscreen": "",
+                        "btn-option-pinned": "",
+                        title: "All Options"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("testBlock2")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat\n                        magna accumsan dolor, nibh molestie cras hac ac ad massa, fusce ante convallis ante urna\n                        molestie vulputate bibendum tempus ante justo arcu erat accumsan adipiscing risus, libero\n                        condimentum venenatis sit nisl nisi ultricies sed, fames aliquet consectetur consequat\n                        nostra molestie neque nullam scelerisque neque commodo turpis quisque etiam egestas\n                        vulputate massa, curabitur tellus massa venenatis congue dolor enim integer luctus, nisi\n                        suscipit gravida fames quis vulputate nisi viverra luctus id leo dictum lorem, inceptos nibh\n                        orci.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Loading Indicators")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingGog",
+                      attrs: { title: "Gog" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingGog")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingLocation",
+                      staticClass: "block-mode-loading-location",
+                      attrs: { title: "Location" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData(
+                                        "blockLoadingLocation"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingEnergy",
+                      staticClass: "block-mode-loading-energy",
+                      attrs: { title: "Energy" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingEnergy")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingRefresh",
+                      staticClass: "block-mode-loading-refresh",
+                      attrs: { title: "Refresh" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingRefresh")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingSun",
+                      staticClass: "block-mode-loading-sun",
+                      attrs: { title: "Sun" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingSun")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingRepeat",
+                      staticClass: "block-mode-loading-repeat",
+                      attrs: { title: "Repeat" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingRepeat")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingdms",
+                      staticClass: "block-mode-loading-dms",
+                      attrs: { title: "dms" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData("blockLoadingdms")
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      ref: "blockLoadingHourglass",
+                      staticClass: "block-mode-loading-hourglass",
+                      attrs: { title: "Hourglass" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "options",
+                          fn: function() {
+                            return [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn-block-option",
+                                  attrs: { type: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.loadData(
+                                        "blockLoadingHourglass"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_c("i", { staticClass: "si si-refresh" })]
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                        Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing\n                        luctus mauris adipiscing pretium eget fermentum, tristique lobortis est ut metus lobortis\n                        tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti\n                        vestibulum quis in sit varius lorem sit metus mi.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/blocks/Api.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/src/views/blocks/Api.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Api.vue?vue&type=template&id=1429d3fb& */ "./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&");
+/* harmony import */ var _Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Api.vue?vue&type=script&lang=js& */ "./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/blocks/Api.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Api.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb& ***!
+  \******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Api.vue?vue&type=template&id=1429d3fb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/blocks/Api.vue?vue&type=template&id=1429d3fb&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Api_vue_vue_type_template_id_1429d3fb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

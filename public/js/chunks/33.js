@@ -1,1 +1,958 @@
-var a33_0x389c=['div','$createElement','Notifications','this.toast(\x27Title\x27,\x20\x27Content\x27,\x20null,\x20false,\x20\x27b-toaster-bottom-center\x27)','mb-5','this.toast(\x27Title\x27,\x20\x27Content\x27,\x20null,\x20false,\x20\x27b-toaster-top-left\x27)','b-toaster-top-full','this.toast(\x27Title\x27,\x20\x27Content\x27,\x20\x27danger\x27)','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Bottom\x20Center\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&','render','alt-success','alt-secondary','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20JS\x20code:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','$bvToast','webpackJsonp','options','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Bottom\x20Left\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','danger','Bootstrap\x20Toasts','Bottom\x20Right\x20Toast','b-col','exports','toast','./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&','b-toaster-bottom-right','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&','b-toaster-top-right','items-push','b-breadcrumb-item','Position','warning','Plugins','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Top\x20Center\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','this.toast(\x27Title\x27,\x20\x27Content\x27,\x20\x27success\x27)','Append\x20Toast','info','b-toaster-bottom-full','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Success\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20A\x20nice\x20toast\x20with\x20a\x20message\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Bottom\x20Center\x20Toast','Default','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Append\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','push','this.toast(\x27Title\x27,\x20\x27Content\x27,\x20null,\x20false,\x20\x27b-toaster-top-full\x27)','this.toast(\x27Title\x27,\x20\x27Content\x27,\x20null,\x20true)','alt-primary','b-toaster-bottom-center','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20show\x20your\x20notification\x20in\x20multiple\x20screen\x20positions\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Warning\x20Toast','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Bottom\x20Full\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','code','Prepend\x20Toast','success','content','Success\x20Toast','this.toast(\x27Title\x27,\x20\x27Content\x27,\x20null,\x20false,\x20\x27b-toaster-top-right\x27)','length','this.toast(\x27Title\x27,\x20\x27Content\x27)','alt-warning','Bottom\x20Left\x20Toast','base-page-heading','default','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Top\x20Left\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','resources/js/src/views/plugins/Notifications.vue','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','border-bottom\x20pb-2','b-toaster-top-center','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Prepend\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-button','font-size-sm\x20text-muted','alt-danger','Bottom\x20Full\x20Toast','Toast\x20content','Top\x20Full\x20Toast','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Info\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Top\x20Center\x20Toast','Info\x20Toast','_withStripped','b-breadcrumb','__file','Top\x20Left\x20Toast','b-toaster-bottom-left','this.toast(\x27Title\x27,\x20\x27Content\x27,\x20null,\x20false,\x20\x27b-toaster-top-center\x27)','staticRenderFns','_self','font-w600\x20mb-0','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Warning\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-row','javascript:void(0)'];(function(_0x391c82,_0x389c45){var _0x5974d9=function(_0x1dd02b){while(--_0x1dd02b){_0x391c82['push'](_0x391c82['shift']());}};_0x5974d9(++_0x389c45);}(a33_0x389c,0x154));var a33_0x5974=function(_0x391c82,_0x389c45){_0x391c82=_0x391c82-0x0;var _0x5974d9=a33_0x389c[_0x391c82];return _0x5974d9;};(window[a33_0x5974('0x23')]=window[a33_0x5974('0x23')]||[])['push']([[0x21],{'./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&':function(_0x58b82b,_0x1227ab,_0xdac28f){'use strict';_0xdac28f['r'](_0x1227ab);_0x1227ab['default']={'methods':{'toast':function _0x5b52ee(_0x1f04be,_0x3f7114){var _0x51d6b3=arguments[a33_0x5974('0x4d')]>0x2&&arguments[0x2]!==undefined?arguments[0x2]:null;var _0x5c03bb=arguments[a33_0x5974('0x4d')]>0x3&&arguments[0x3]!==undefined?arguments[0x3]:![];var _0x1f50e4=arguments[a33_0x5974('0x4d')]>0x4&&arguments[0x4]!==undefined?arguments[0x4]:a33_0x5974('0x2f');var _0x1b7e63=arguments[a33_0x5974('0x4d')]>0x5&&arguments[0x5]!==undefined?arguments[0x5]:0x1388;this[a33_0x5974('0x22')][a33_0x5974('0x2b')](_0x3f7114,{'title':_0x1f04be,'toaster':_0x1f50e4,'variant':_0x51d6b3,'autoHideDelay':_0x1b7e63,'appendToast':_0x5c03bb});}}};},'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&':function(_0x309fdd,_0x3a4c04,_0x5e83c6){'use strict';_0x5e83c6['r'](_0x3a4c04);_0x5e83c6['d'](_0x3a4c04,'render',function(){return _0x22adb8;});_0x5e83c6['d'](_0x3a4c04,a33_0x5974('0xe'),function(){return _0x34cc9e;});var _0x22adb8=function(){var _0x3950f5=this;var _0x264971=_0x3950f5[a33_0x5974('0x15')];var _0x1b98e0=_0x3950f5[a33_0x5974('0xf')]['_c']||_0x264971;return _0x1b98e0('div',[_0x1b98e0(a33_0x5974('0x51'),{'attrs':{'subtitle':'Powerful\x20alerts\x20for\x20your\x20application.','title':a33_0x5974('0x16')},'scopedSlots':_0x3950f5['_u']([{'key':'extra','fn':function(){return[_0x1b98e0(a33_0x5974('0x9'),{'staticClass':'breadcrumb-alt'},[_0x1b98e0(a33_0x5974('0x31'),{'attrs':{'href':a33_0x5974('0x13')}},[_0x3950f5['_v'](a33_0x5974('0x34'))]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x31'),{'attrs':{'active':''}},[_0x3950f5['_v']('Notifications')])],0x1)];},'proxy':!![]}])}),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x14'),{'staticClass':a33_0x5974('0x4a')},[_0x1b98e0('base-block',{'attrs':{'title':a33_0x5974('0x27')}},[_0x1b98e0('h4',{'staticClass':a33_0x5974('0x56')},[_0x3950f5['_v'](a33_0x5974('0x3d'))]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x12'),{'staticClass':a33_0x5974('0x30')},[_0x1b98e0(a33_0x5974('0x29'),{'attrs':{'lg':'4'}},[_0x1b98e0('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x3950f5['_v'](a33_0x5974('0x3b'))])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x29'),{'attrs':{'lg':'8'}},[_0x1b98e0(a33_0x5974('0x59'),{'staticClass':'push','attrs':{'variant':a33_0x5974('0x20')},'on':{'click':function(_0x34c4c4){return _0x3950f5['toast'](a33_0x5974('0x48'),a33_0x5974('0x3'));}}},[_0x3950f5['_v'](a33_0x5974('0x58'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':'font-w600\x20mb-0'},[_0x3950f5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20JS\x20code:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':'mb-5'},[_0x1b98e0(a33_0x5974('0x47'),[_0x3950f5['_v'](a33_0x5974('0x4e'))])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x59'),{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':a33_0x5974('0x20')},'on':{'click':function(_0x289076){return _0x3950f5['toast'](a33_0x5974('0x37'),a33_0x5974('0x3'),null,!![]);}}},[_0x3950f5['_v'](a33_0x5974('0x3e'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20JS\x20code:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0(a33_0x5974('0x47'),[_0x3950f5['_v'](a33_0x5974('0x41'))])])],0x1)],0x1),_0x3950f5['_v']('\x20'),_0x1b98e0('h4',{'staticClass':a33_0x5974('0x56')},[_0x3950f5['_v'](a33_0x5974('0x32'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('b-row',{'staticClass':a33_0x5974('0x30')},[_0x1b98e0('b-col',{'attrs':{'lg':'4'}},[_0x1b98e0('p',{'staticClass':a33_0x5974('0x0')},[_0x3950f5['_v'](a33_0x5974('0x44'))])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x29'),{'attrs':{'lg':'8'}},[_0x1b98e0(a33_0x5974('0x59'),{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':a33_0x5974('0x42')},'on':{'click':function(_0x3491b8){return _0x3950f5[a33_0x5974('0x2b')]('Top\x20Right\x20Toast',a33_0x5974('0x3'),null,![],a33_0x5974('0x2f'));}}},[_0x3950f5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Top\x20Right\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0('code',[_0x3950f5['_v'](a33_0x5974('0x4c'))])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x59'),{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':'alt-primary'},'on':{'click':function(_0x5d36d1){return _0x3950f5[a33_0x5974('0x2b')](a33_0x5974('0xb'),'Toast\x20content',null,![],'b-toaster-top-left');}}},[_0x3950f5['_v'](a33_0x5974('0x53'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':'mb-5'},[_0x1b98e0(a33_0x5974('0x47'),[_0x3950f5['_v'](a33_0x5974('0x19'))])]),_0x3950f5['_v']('\x20'),_0x1b98e0('b-button',{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':'alt-primary'},'on':{'click':function(_0x16bb1e){return _0x3950f5[a33_0x5974('0x2b')](a33_0x5974('0x6'),a33_0x5974('0x3'),null,![],a33_0x5974('0x57'));}}},[_0x3950f5['_v'](a33_0x5974('0x35'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0('code',[_0x3950f5['_v'](a33_0x5974('0xd'))])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x59'),{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':a33_0x5974('0x42')},'on':{'click':function(_0x192f25){return _0x3950f5[a33_0x5974('0x2b')](a33_0x5974('0x4'),a33_0x5974('0x3'),null,![],a33_0x5974('0x1a'));}}},[_0x3950f5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Top\x20Full\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':'font-w600\x20mb-0'},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':'mb-5'},[_0x1b98e0(a33_0x5974('0x47'),[_0x3950f5['_v'](a33_0x5974('0x40'))])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x59'),{'staticClass':'push','attrs':{'variant':a33_0x5974('0x42')},'on':{'click':function(_0x4ec014){return _0x3950f5[a33_0x5974('0x2b')](a33_0x5974('0x28'),a33_0x5974('0x3'),null,![],a33_0x5974('0x2d'));}}},[_0x3950f5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Bottom\x20Right\x20Toast\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0('code',[_0x3950f5['_v']('this.toast(\x27Title\x27,\x20\x27Content\x27,\x20null,\x20false,\x20\x27b-toaster-bottom-right\x27)')])]),_0x3950f5['_v']('\x20'),_0x1b98e0('b-button',{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':'alt-primary'},'on':{'click':function(_0x5a00d3){return _0x3950f5[a33_0x5974('0x2b')](a33_0x5974('0x50'),a33_0x5974('0x3'),null,![],a33_0x5974('0xc'));}}},[_0x3950f5['_v'](a33_0x5974('0x25'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':'font-w600\x20mb-0'},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0('code',[_0x3950f5['_v']('this.toast(\x27Title\x27,\x20\x27Content\x27,\x20null,\x20false,\x20\x27b-toaster-bottom-left\x27)')])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x59'),{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':a33_0x5974('0x42')},'on':{'click':function(_0x505ad6){return _0x3950f5[a33_0x5974('0x2b')](a33_0x5974('0x3c'),'Toast\x20content',null,![],a33_0x5974('0x43'));}}},[_0x3950f5['_v'](a33_0x5974('0x1c'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0(a33_0x5974('0x47'),[_0x3950f5['_v'](a33_0x5974('0x17'))])]),_0x3950f5['_v']('\x20'),_0x1b98e0('b-button',{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':'alt-primary'},'on':{'click':function(_0x40bd4d){return _0x3950f5[a33_0x5974('0x2b')](a33_0x5974('0x2'),a33_0x5974('0x3'),null,![],a33_0x5974('0x39'));}}},[_0x3950f5['_v'](a33_0x5974('0x46'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':'font-w600\x20mb-0'},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0(a33_0x5974('0x47'),[_0x3950f5['_v']('this.toast(\x27Title\x27,\x20\x27Content\x27,\x20null,\x20false,\x20\x27b-toaster-bottom-full\x27)')])])],0x1)],0x1),_0x3950f5['_v']('\x20'),_0x1b98e0('h4',{'staticClass':a33_0x5974('0x56')},[_0x3950f5['_v']('Variants')]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x12'),{'staticClass':a33_0x5974('0x30')},[_0x1b98e0(a33_0x5974('0x29'),{'attrs':{'lg':'4'}},[_0x1b98e0('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x3950f5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20also\x20specify\x20color\x20variations\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x29'),{'attrs':{'lg':'8'}},[_0x1b98e0(a33_0x5974('0x59'),{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':a33_0x5974('0x1f')},'on':{'click':function(_0x51d008){return _0x3950f5[a33_0x5974('0x2b')](a33_0x5974('0x4b'),a33_0x5974('0x3'),a33_0x5974('0x49'));}}},[_0x3950f5['_v'](a33_0x5974('0x3a'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0(a33_0x5974('0x47'),[_0x3950f5['_v'](a33_0x5974('0x36'))])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x59'),{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':'alt-info'},'on':{'click':function(_0x4e00de){return _0x3950f5['toast'](a33_0x5974('0x7'),'Toast\x20content',a33_0x5974('0x38'));}}},[_0x3950f5['_v'](a33_0x5974('0x5'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20JS\x20code:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0('code',[_0x3950f5['_v']('this.toast(\x27Title\x27,\x20\x27Content\x27,\x20\x27info\x27)')])]),_0x3950f5['_v']('\x20'),_0x1b98e0('b-button',{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':a33_0x5974('0x4f')},'on':{'click':function(_0x8ae1e7){return _0x3950f5[a33_0x5974('0x2b')](a33_0x5974('0x45'),a33_0x5974('0x3'),a33_0x5974('0x33'));}}},[_0x3950f5['_v'](a33_0x5974('0x11'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v'](a33_0x5974('0x21'))]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0('code',[_0x3950f5['_v']('this.toast(\x27Title\x27,\x20\x27Content\x27,\x20\x27warning\x27)')])]),_0x3950f5['_v']('\x20'),_0x1b98e0(a33_0x5974('0x59'),{'staticClass':a33_0x5974('0x3f'),'attrs':{'variant':a33_0x5974('0x1')},'on':{'click':function(_0x4bb24a){return _0x3950f5[a33_0x5974('0x2b')]('Danger\x20Toast',a33_0x5974('0x3'),a33_0x5974('0x26'));}}},[_0x3950f5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Danger\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x10')},[_0x3950f5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20JS\x20code:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x3950f5['_v']('\x20'),_0x1b98e0('p',{'staticClass':a33_0x5974('0x18')},[_0x1b98e0(a33_0x5974('0x47'),[_0x3950f5['_v'](a33_0x5974('0x1b'))])])],0x1)],0x1)],0x1)],0x1)],0x1);};var _0x34cc9e=[];_0x22adb8[a33_0x5974('0x8')]=!![];},'./resources/js/src/views/plugins/Notifications.vue':function(_0x9eeb9b,_0x2c1a58,_0x553996){'use strict';_0x553996['r'](_0x2c1a58);var _0x35202e=_0x553996('./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&');var _0x3d6e57=_0x553996(a33_0x5974('0x2c'));var _0x4c493a=_0x553996(a33_0x5974('0x55'));var _0x22b6a1=Object(_0x4c493a['default'])(_0x3d6e57[a33_0x5974('0x52')],_0x35202e[a33_0x5974('0x1e')],_0x35202e[a33_0x5974('0xe')],![],null,null,null);if(![]){var _0x12ff09;}_0x22b6a1[a33_0x5974('0x24')][a33_0x5974('0xa')]=a33_0x5974('0x54');_0x2c1a58[a33_0x5974('0x52')]=_0x22b6a1[a33_0x5974('0x2a')];},'./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&':function(_0x2a6d2a,_0x81b3b6,_0x428055){'use strict';_0x428055['r'](_0x81b3b6);var _0x390d8d=_0x428055(a33_0x5974('0x1d'));_0x81b3b6[a33_0x5974('0x52')]=_0x390d8d[a33_0x5974('0x52')];},'./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&':function(_0x217e90,_0x27e91e,_0x5bb570){'use strict';_0x5bb570['r'](_0x27e91e);var _0x25d386=_0x5bb570(a33_0x5974('0x2e'));_0x5bb570['d'](_0x27e91e,a33_0x5974('0x1e'),function(){return _0x25d386[a33_0x5974('0x1e')];});_0x5bb570['d'](_0x27e91e,'staticRenderFns',function(){return _0x25d386[a33_0x5974('0xe')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[33],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    // Trigger a new toast
+    toast: function toast(title, content) {
+      var variant = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
+      var append = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
+      var toaster = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 'b-toaster-top-right';
+      var autoHideDelay = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 5000;
+      this.$bvToast.toast(content, {
+        title: title,
+        toaster: toaster,
+        variant: variant,
+        autoHideDelay: autoHideDelay,
+        appendToast: append
+      });
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Powerful alerts for your application.",
+          title: "Notifications"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Plugins")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Notifications")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { attrs: { title: "Bootstrap Toasts" } },
+            [
+              _c("h4", { staticClass: "border-bottom pb-2" }, [
+                _vm._v("Default")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n                        A nice toast with a message\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-secondary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast("Prepend Toast", "Toast content")
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Prepend Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [_vm._v("this.toast('Title', 'Content')")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-secondary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Append Toast",
+                                "Toast content",
+                                null,
+                                true
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Append Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', null, true)")
+                        ])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("h4", { staticClass: "border-bottom pb-2" }, [
+                _vm._v("Position")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n                        You can show your notification in multiple screen positions\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Top Right Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-top-right"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Top Right Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-top-right')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Top Left Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-top-left"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Top Left Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-top-left')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Top Center Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-top-center"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Top Center Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-top-center')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Top Full Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-top-full"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Top Full Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-top-full')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Bottom Right Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-bottom-right"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Bottom Right Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-bottom-right')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Bottom Left Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-bottom-left"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Bottom Left Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-bottom-left')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Bottom Center Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-bottom-center"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Bottom Center Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-bottom-center')"
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-primary" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Bottom Full Toast",
+                                "Toast content",
+                                null,
+                                false,
+                                "b-toaster-bottom-full"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Bottom Full Toast\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v(
+                            "this.toast('Title', 'Content', null, false, 'b-toaster-bottom-full')"
+                          )
+                        ])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("h4", { staticClass: "border-bottom pb-2" }, [
+                _vm._v("Variants")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push" },
+                [
+                  _c("b-col", { attrs: { lg: "4" } }, [
+                    _c("p", { staticClass: "font-size-sm text-muted" }, [
+                      _vm._v(
+                        "\n                        You can also specify color variations\n                    "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "8" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-success" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Success Toast",
+                                "Toast content",
+                                "success"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Success\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', 'success')")
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-info" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Info Toast",
+                                "Toast content",
+                                "info"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Info\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', 'info')")
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-warning" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Warning Toast",
+                                "Toast content",
+                                "warning"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Warning\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', 'warning')")
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "push",
+                          attrs: { variant: "alt-danger" },
+                          on: {
+                            click: function($event) {
+                              return _vm.toast(
+                                "Danger Toast",
+                                "Toast content",
+                                "danger"
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                        Danger\n                    "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "font-w600 mb-0" }, [
+                        _vm._v(
+                          "\n                        JS code:\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-5" }, [
+                        _c("code", [
+                          _vm._v("this.toast('Title', 'Content', 'danger')")
+                        ])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/plugins/Notifications.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/src/views/plugins/Notifications.vue ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Notifications.vue?vue&type=template&id=dafad902& */ "./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&");
+/* harmony import */ var _Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Notifications.vue?vue&type=script&lang=js& */ "./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/plugins/Notifications.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Notifications.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Notifications.vue?vue&type=template&id=dafad902& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/plugins/Notifications.vue?vue&type=template&id=dafad902&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Notifications_vue_vue_type_template_id_dafad902___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

@@ -1,1 +1,731 @@
-var a35_0x11de=['btn-block-option','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','webpackJsonp','strong','primary','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24&','options','/backend/elements/grid','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20client','\x20property.\x20This\x20way,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20the\x20table\x20will\x20be\x20horizontally\x20scrollable\x20and\x20all\x20data\x20will\x20be\x20accessible\x20on\x20smaller\x20screens.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20could\x20also\x20specify\x20a\x20value\x20to\x20apply\x20the\x20horizontal\x20scrolling\x20on\x20different\x20screen\x20widths:\x20','/images/avatars/','avatar9','15%','Full\x20Table','Access','responsive','far\x20fa-user','Responsive\x20Tables','avatar4','Trial','avatar','users','default','href','b-thead','img','avatar2','.jpg','code','\x20column\x20isn\x27t\x20visible\x20on\x20extra\x20small\x20screens.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-breadcrumb','router-link','breadcrumb-alt','b-button','Actions','_withStripped','b-tbody','VIP','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','100px','div','button','Disabled','b-tr','Name','base-page-heading','responsive\x20utility\x20CSS\x20classes',',\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20for\x20hiding\x20columns\x20in\x20various\x20screen\x20resolutions.\x20This\x20way\x20you\x20can\x20hide\x20less\x20important\x20columns\x20and\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20keep\x20the\x20most\x20valuable\x20on\x20smaller\x20screens.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20At\x20the\x20following\x20example\x20the\x20','fa\x20fa-fw\x20fa-pencil-alt','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20The\x20first\x20way\x20to\x20make\x20a\x20table\x20responsive\x20is\x20to\x20add\x20the\x20','staticRenderFns','base-block','labelVariant','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-table-simple','110px','b-breadcrumb-item','extra','Avatar','warning','font-size-sm\x20text-muted','Jesse\x20Fisher','javascript:void(0)','Business','b-badge','labelText','Betty\x20Kelley','render','Personal','b-th','Tables','Email','alt-primary','Partial\x20Table','./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24&','\x20column\x20isn\x27t\x20visible\x20on\x20small\x20and\x20extra\x20small\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20screens\x20and\x20','exports','./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js&','avatar12','d-none\x20d-sm-table-cell','@example.com','./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js&','img-avatar\x20img-avatar48','_self','Responsive','alt-danger','name','fa\x20fa-fw\x20fa-times','success','push','d-none\x20d-md-table-cell','table-vcenter','text-center','si\x20si-settings','b-td'];(function(_0x2014df,_0x11ded0){var _0x570312=function(_0x23ac2a){while(--_0x23ac2a){_0x2014df['push'](_0x2014df['shift']());}};_0x570312(++_0x11ded0);}(a35_0x11de,0xea));var a35_0x5703=function(_0x2014df,_0x11ded0){_0x2014df=_0x2014df-0x0;var _0x570312=a35_0x11de[_0x2014df];return _0x570312;};(window[a35_0x5703('0x38')]=window[a35_0x5703('0x38')]||[])[a35_0x5703('0x30')]([[0x23],{'./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js&':function(_0x1178b4,_0x4d7f13,_0x54b121){'use strict';_0x54b121['r'](_0x4d7f13);_0x4d7f13[a35_0x5703('0x4c')]={'data':function _0x3f9a1a(){return{'users':[{'id':0x1,'name':'Adam\x20McCoy','avatar':'avatar10','href':a35_0x5703('0x15'),'labelVariant':a35_0x5703('0x2f'),'labelText':a35_0x5703('0x5b')},{'id':0x2,'name':a35_0x5703('0x19'),'avatar':a35_0x5703('0x50'),'href':a35_0x5703('0x15'),'labelVariant':'info','labelText':a35_0x5703('0x16')},{'id':0x3,'name':a35_0x5703('0x14'),'avatar':a35_0x5703('0x41'),'href':a35_0x5703('0x15'),'labelVariant':a35_0x5703('0x3a'),'labelText':a35_0x5703('0x1b')},{'id':0x4,'name':'Ryan\x20Flores','avatar':a35_0x5703('0x25'),'href':a35_0x5703('0x15'),'labelVariant':a35_0x5703('0x12'),'labelText':a35_0x5703('0x49')},{'id':0x5,'name':'Alice\x20Moore','avatar':a35_0x5703('0x48'),'href':'javascript:void(0)','labelVariant':'danger','labelText':a35_0x5703('0x0')}]};}};},'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24&':function(_0x42bc8c,_0x1ba09e,_0x5ca020){'use strict';_0x5ca020['r'](_0x1ba09e);_0x5ca020['d'](_0x1ba09e,a35_0x5703('0x1a'),function(){return _0x53005d;});_0x5ca020['d'](_0x1ba09e,a35_0x5703('0x9'),function(){return _0xfafd18;});var _0x53005d=function(){var _0x155c90=this;var _0x5f1a72=_0x155c90['$createElement'];var _0x4759de=_0x155c90[a35_0x5703('0x2a')]['_c']||_0x5f1a72;return _0x4759de('div',[_0x4759de(a35_0x5703('0x3'),{'attrs':{'subtitle':'Mobile\x20friendly\x20tables\x20that\x20work\x20across\x20all\x20screen\x20sizes.','title':a35_0x5703('0x47')},'scopedSlots':_0x155c90['_u']([{'key':a35_0x5703('0x10'),'fn':function(){return[_0x4759de(a35_0x5703('0x54'),{'staticClass':a35_0x5703('0x56')},[_0x4759de(a35_0x5703('0xf'),{'attrs':{'href':'javascript:void(0)'}},[_0x155c90['_v'](a35_0x5703('0x1d'))]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0xf'),{'attrs':{'active':''}},[_0x155c90['_v'](a35_0x5703('0x2b'))])],0x1)];},'proxy':!![]}])}),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x5e'),{'staticClass':'content'},[_0x4759de(a35_0x5703('0xa'),{'attrs':{'title':a35_0x5703('0x43')},'scopedSlots':_0x155c90['_u']([{'key':'options','fn':function(){return[_0x4759de(a35_0x5703('0x5f'),{'staticClass':a35_0x5703('0x36'),'attrs':{'type':a35_0x5703('0x5f')}},[_0x4759de('i',{'staticClass':a35_0x5703('0x34')})])];},'proxy':!![]}])},[_0x155c90['_v']('\x20'),_0x4759de('p',{'staticClass':'font-size-sm\x20text-muted'},[_0x155c90['_v'](a35_0x5703('0x8')),_0x4759de(a35_0x5703('0x52'),[_0x155c90['_v'](a35_0x5703('0x45'))]),_0x155c90['_v'](a35_0x5703('0x3f')),_0x4759de(a35_0x5703('0x52'),[_0x155c90['_v']('sm')]),_0x155c90['_v'](a35_0x5703('0x5')),_0x4759de('code',[_0x155c90['_v']('md')]),_0x155c90['_v'](',\x20'),_0x4759de(a35_0x5703('0x52'),[_0x155c90['_v']('lg')]),_0x155c90['_v'](',\x20'),_0x4759de(a35_0x5703('0x52'),[_0x155c90['_v']('xl')]),_0x155c90['_v']('.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0xd'),{'attrs':{'bordered':'','responsive':'','striped':'','table-class':a35_0x5703('0x32')}},[_0x4759de(a35_0x5703('0x4e'),[_0x4759de(a35_0x5703('0x1'),[_0x4759de(a35_0x5703('0x1c'),{'staticClass':a35_0x5703('0x33'),'staticStyle':{'width':a35_0x5703('0x5d')}},[_0x4759de('i',{'staticClass':'far\x20fa-user'})]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x1c'),[_0x155c90['_v']('Name')]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x1c'),{'staticStyle':{'width':'30%'}},[_0x155c90['_v']('Email')]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x1c'),{'staticStyle':{'width':a35_0x5703('0x42')}},[_0x155c90['_v'](a35_0x5703('0x44'))]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x1c'),{'staticClass':a35_0x5703('0x33'),'staticStyle':{'min-width':'110px','width':a35_0x5703('0xe')}},[_0x155c90['_v'](a35_0x5703('0x58'))])],0x1)],0x1),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x5a'),_0x155c90['_l'](_0x155c90[a35_0x5703('0x4b')],function(_0x330123){return _0x4759de(a35_0x5703('0x1'),{'key':_0x330123['id']},[_0x4759de(a35_0x5703('0x35'),{'staticClass':'text-center'},[_0x4759de('img',{'staticClass':a35_0x5703('0x29'),'attrs':{'src':a35_0x5703('0x40')+_0x330123[a35_0x5703('0x4a')]+a35_0x5703('0x51'),'alt':a35_0x5703('0x11')}})]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x35'),{'staticClass':'font-w600\x20font-size-sm'},[_0x4759de('a',{'attrs':{'href':''+_0x330123[a35_0x5703('0x4d')]}},[_0x155c90['_v'](a35_0x5703('0xc')+_0x155c90['_s'](_0x330123['name'])+a35_0x5703('0x37'))])]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x35'),{'staticClass':'font-size-sm'},[_0x155c90['_v'](a35_0x5703('0x3e')+_0x155c90['_s'](_0x330123['id'])),_0x4759de('em',{'staticClass':'text-muted'},[_0x155c90['_v'](a35_0x5703('0x27'))])]),_0x155c90['_v']('\x20'),_0x4759de('b-td',[_0x4759de(a35_0x5703('0x17'),{'attrs':{'variant':_0x330123[a35_0x5703('0xb')]}},[_0x155c90['_v'](_0x155c90['_s'](_0x330123['labelText']))])],0x1),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x35'),{'staticClass':a35_0x5703('0x33')},[_0x4759de('b-button',{'attrs':{'size':'sm','variant':'alt-primary'}},[_0x4759de('i',{'staticClass':a35_0x5703('0x7')})]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x57'),{'attrs':{'size':'sm','variant':a35_0x5703('0x2c')}},[_0x4759de('i',{'staticClass':'fa\x20fa-fw\x20fa-times'})])],0x1)],0x1);}),0x1)],0x1)],0x1),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0xa'),{'attrs':{'title':a35_0x5703('0x20')},'scopedSlots':_0x155c90['_u']([{'key':a35_0x5703('0x3c'),'fn':function(){return[_0x4759de(a35_0x5703('0x5f'),{'staticClass':a35_0x5703('0x36'),'attrs':{'type':'button'}},[_0x4759de('i',{'staticClass':a35_0x5703('0x34')})])];},'proxy':!![]}])},[_0x155c90['_v']('\x20'),_0x4759de('p',{'staticClass':a35_0x5703('0x13')},[_0x155c90['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20The\x20second\x20way\x20is\x20to\x20use\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'),_0x4759de(a35_0x5703('0x55'),{'attrs':{'to':a35_0x5703('0x3d')}},[_0x155c90['_v'](a35_0x5703('0x4'))]),_0x155c90['_v'](a35_0x5703('0x6')),_0x4759de('strong',[_0x155c90['_v'](a35_0x5703('0x44'))]),_0x155c90['_v'](a35_0x5703('0x22')),_0x4759de(a35_0x5703('0x39'),[_0x155c90['_v'](a35_0x5703('0x1e'))]),_0x155c90['_v'](a35_0x5703('0x53'))],0x1),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0xd'),{'attrs':{'bordered':'','striped':'','table-class':a35_0x5703('0x32')}},[_0x4759de(a35_0x5703('0x4e'),[_0x4759de(a35_0x5703('0x1'),[_0x4759de('b-th',{'staticClass':'text-center','staticStyle':{'width':a35_0x5703('0x5d')}},[_0x4759de('i',{'staticClass':a35_0x5703('0x46')})]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x1c'),[_0x155c90['_v'](a35_0x5703('0x2'))]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x1c'),{'staticClass':a35_0x5703('0x26'),'staticStyle':{'width':'30%'}},[_0x155c90['_v'](a35_0x5703('0x1e'))]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x1c'),{'staticClass':a35_0x5703('0x31'),'staticStyle':{'width':a35_0x5703('0x42')}},[_0x155c90['_v'](a35_0x5703('0x44'))]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x1c'),{'staticClass':a35_0x5703('0x33'),'staticStyle':{'min-width':'110px','width':a35_0x5703('0xe')}},[_0x155c90['_v'](a35_0x5703('0x58'))])],0x1)],0x1),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x5a'),_0x155c90['_l'](_0x155c90[a35_0x5703('0x4b')],function(_0x4be15e){return _0x4759de(a35_0x5703('0x1'),{'key':_0x4be15e['id']},[_0x4759de(a35_0x5703('0x35'),{'staticClass':a35_0x5703('0x33')},[_0x4759de(a35_0x5703('0x4f'),{'staticClass':a35_0x5703('0x29'),'attrs':{'src':a35_0x5703('0x40')+_0x4be15e[a35_0x5703('0x4a')]+'.jpg','alt':'Avatar'}})]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x35'),{'staticClass':'font-w600\x20font-size-sm'},[_0x4759de('a',{'attrs':{'href':''+_0x4be15e['href']}},[_0x155c90['_v'](a35_0x5703('0xc')+_0x155c90['_s'](_0x4be15e[a35_0x5703('0x2d')])+a35_0x5703('0x37'))])]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x35'),{'staticClass':'d-none\x20d-sm-table-cell\x20font-size-sm'},[_0x155c90['_v'](a35_0x5703('0x3e')+_0x155c90['_s'](_0x4be15e['id'])),_0x4759de('em',{'staticClass':'text-muted'},[_0x155c90['_v'](a35_0x5703('0x27'))])]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x35'),{'staticClass':a35_0x5703('0x31')},[_0x4759de('b-badge',{'attrs':{'variant':_0x4be15e[a35_0x5703('0xb')]}},[_0x155c90['_v'](_0x155c90['_s'](_0x4be15e[a35_0x5703('0x18')]))])],0x1),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x35'),{'staticClass':a35_0x5703('0x33')},[_0x4759de(a35_0x5703('0x57'),{'attrs':{'size':'sm','variant':a35_0x5703('0x1f')}},[_0x4759de('i',{'staticClass':a35_0x5703('0x7')})]),_0x155c90['_v']('\x20'),_0x4759de(a35_0x5703('0x57'),{'attrs':{'size':'sm','variant':a35_0x5703('0x2c')}},[_0x4759de('i',{'staticClass':a35_0x5703('0x2e')})])],0x1)],0x1);}),0x1)],0x1)],0x1)],0x1)],0x1);};var _0xfafd18=[];_0x53005d[a35_0x5703('0x59')]=!![];},'./resources/js/src/views/tables/Responsive.vue':function(_0x4d17d2,_0x1123ad,_0x59461e){'use strict';_0x59461e['r'](_0x1123ad);var _0x5c5f06=_0x59461e(a35_0x5703('0x21'));var _0x38b564=_0x59461e(a35_0x5703('0x24'));var _0x2f933f=_0x59461e(a35_0x5703('0x5c'));var _0x2aafa0=Object(_0x2f933f[a35_0x5703('0x4c')])(_0x38b564[a35_0x5703('0x4c')],_0x5c5f06[a35_0x5703('0x1a')],_0x5c5f06[a35_0x5703('0x9')],![],null,null,null);if(![]){var _0x19e664;}_0x2aafa0[a35_0x5703('0x3c')]['__file']='resources/js/src/views/tables/Responsive.vue';_0x1123ad[a35_0x5703('0x4c')]=_0x2aafa0[a35_0x5703('0x23')];},'./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js&':function(_0x4cfda7,_0x124c90,_0x114a51){'use strict';_0x114a51['r'](_0x124c90);var _0x485766=_0x114a51(a35_0x5703('0x28'));_0x124c90['default']=_0x485766[a35_0x5703('0x4c')];},'./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24&':function(_0x3cb45f,_0x498f91,_0x572092){'use strict';_0x572092['r'](_0x498f91);var _0x491441=_0x572092(a35_0x5703('0x3b'));_0x572092['d'](_0x498f91,a35_0x5703('0x1a'),function(){return _0x491441[a35_0x5703('0x1a')];});_0x572092['d'](_0x498f91,a35_0x5703('0x9'),function(){return _0x491441['staticRenderFns'];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[35],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      users: [{
+        id: 1,
+        name: 'Adam McCoy',
+        avatar: 'avatar10',
+        href: 'javascript:void(0)',
+        labelVariant: 'success',
+        labelText: 'VIP'
+      }, {
+        id: 2,
+        name: 'Betty Kelley',
+        avatar: 'avatar2',
+        href: 'javascript:void(0)',
+        labelVariant: 'info',
+        labelText: 'Business'
+      }, {
+        id: 3,
+        name: 'Jesse Fisher',
+        avatar: 'avatar9',
+        href: 'javascript:void(0)',
+        labelVariant: 'primary',
+        labelText: 'Personal'
+      }, {
+        id: 4,
+        name: 'Ryan Flores',
+        avatar: 'avatar12',
+        href: 'javascript:void(0)',
+        labelVariant: 'warning',
+        labelText: 'Trial'
+      }, {
+        id: 5,
+        name: 'Alice Moore',
+        avatar: 'avatar4',
+        href: 'javascript:void(0)',
+        labelVariant: 'danger',
+        labelText: 'Disabled'
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Mobile friendly tables that work across all screen sizes.",
+          title: "Responsive Tables"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Tables")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Responsive")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            {
+              attrs: { title: "Full Table" },
+              scopedSlots: _vm._u([
+                {
+                  key: "options",
+                  fn: function() {
+                    return [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn-block-option",
+                          attrs: { type: "button" }
+                        },
+                        [_c("i", { staticClass: "si si-settings" })]
+                      )
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                The first way to make a table responsive is to add the "
+                ),
+                _c("code", [_vm._v("responsive")]),
+                _vm._v(
+                  " property. This way,\n                the table will be horizontally scrollable and all data will be accessible on smaller screens.\n                You could also specify a value to apply the horizontal scrolling on different screen widths: "
+                ),
+                _c("code", [_vm._v("sm")]),
+                _vm._v(",\n                "),
+                _c("code", [_vm._v("md")]),
+                _vm._v(", "),
+                _c("code", [_vm._v("lg")]),
+                _vm._v(", "),
+                _c("code", [_vm._v("xl")]),
+                _vm._v(".\n            ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-table-simple",
+                {
+                  attrs: {
+                    bordered: "",
+                    responsive: "",
+                    striped: "",
+                    "table-class": "table-vcenter"
+                  }
+                },
+                [
+                  _c(
+                    "b-thead",
+                    [
+                      _c(
+                        "b-tr",
+                        [
+                          _c(
+                            "b-th",
+                            {
+                              staticClass: "text-center",
+                              staticStyle: { width: "100px" }
+                            },
+                            [_c("i", { staticClass: "far fa-user" })]
+                          ),
+                          _vm._v(" "),
+                          _c("b-th", [_vm._v("Name")]),
+                          _vm._v(" "),
+                          _c("b-th", { staticStyle: { width: "30%" } }, [
+                            _vm._v("Email")
+                          ]),
+                          _vm._v(" "),
+                          _c("b-th", { staticStyle: { width: "15%" } }, [
+                            _vm._v("Access")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "b-th",
+                            {
+                              staticClass: "text-center",
+                              staticStyle: {
+                                "min-width": "110px",
+                                width: "110px"
+                              }
+                            },
+                            [_vm._v("Actions")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tbody",
+                    _vm._l(_vm.users, function(user) {
+                      return _c(
+                        "b-tr",
+                        { key: user.id },
+                        [
+                          _c("b-td", { staticClass: "text-center" }, [
+                            _c("img", {
+                              staticClass: "img-avatar img-avatar48",
+                              attrs: {
+                                src: "/images/avatars/" + user.avatar + ".jpg",
+                                alt: "Avatar"
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "b-td",
+                            { staticClass: "font-w600 font-size-sm" },
+                            [
+                              _c("a", { attrs: { href: "" + user.href } }, [
+                                _vm._v(
+                                  "\n                                " +
+                                    _vm._s(user.name) +
+                                    "\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("b-td", { staticClass: "font-size-sm" }, [
+                            _vm._v(
+                              "\n                            client" +
+                                _vm._s(user.id)
+                            ),
+                            _c("em", { staticClass: "text-muted" }, [
+                              _vm._v("@example.com")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "b-td",
+                            [
+                              _c(
+                                "b-badge",
+                                { attrs: { variant: user.labelVariant } },
+                                [_vm._v(_vm._s(user.labelText))]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-td",
+                            { staticClass: "text-center" },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "alt-primary" }
+                                },
+                                [
+                                  _c("i", {
+                                    staticClass: "fa fa-fw fa-pencil-alt"
+                                  })
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "alt-danger" }
+                                },
+                                [_c("i", { staticClass: "fa fa-fw fa-times" })]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    }),
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { title: "Partial Table" },
+              scopedSlots: _vm._u([
+                {
+                  key: "options",
+                  fn: function() {
+                    return [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn-block-option",
+                          attrs: { type: "button" }
+                        },
+                        [_c("i", { staticClass: "si si-settings" })]
+                      )
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "p",
+                { staticClass: "font-size-sm text-muted" },
+                [
+                  _vm._v(
+                    "\n                The second way is to use\n                "
+                  ),
+                  _c(
+                    "router-link",
+                    { attrs: { to: "/backend/elements/grid" } },
+                    [_vm._v("responsive utility CSS classes")]
+                  ),
+                  _vm._v(
+                    "\n                for hiding columns in various screen resolutions. This way you can hide less important columns and\n                keep the most valuable on smaller screens.\n                At the following example the "
+                  ),
+                  _c("strong", [_vm._v("Access")]),
+                  _vm._v(
+                    " column isn't visible on small and extra small\n                screens and "
+                  ),
+                  _c("strong", [_vm._v("Email")]),
+                  _vm._v(
+                    " column isn't visible on extra small screens.\n            "
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-table-simple",
+                {
+                  attrs: {
+                    bordered: "",
+                    striped: "",
+                    "table-class": "table-vcenter"
+                  }
+                },
+                [
+                  _c(
+                    "b-thead",
+                    [
+                      _c(
+                        "b-tr",
+                        [
+                          _c(
+                            "b-th",
+                            {
+                              staticClass: "text-center",
+                              staticStyle: { width: "100px" }
+                            },
+                            [_c("i", { staticClass: "far fa-user" })]
+                          ),
+                          _vm._v(" "),
+                          _c("b-th", [_vm._v("Name")]),
+                          _vm._v(" "),
+                          _c(
+                            "b-th",
+                            {
+                              staticClass: "d-none d-sm-table-cell",
+                              staticStyle: { width: "30%" }
+                            },
+                            [_vm._v("Email")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-th",
+                            {
+                              staticClass: "d-none d-md-table-cell",
+                              staticStyle: { width: "15%" }
+                            },
+                            [_vm._v("Access")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-th",
+                            {
+                              staticClass: "text-center",
+                              staticStyle: {
+                                "min-width": "110px",
+                                width: "110px"
+                              }
+                            },
+                            [_vm._v("Actions")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tbody",
+                    _vm._l(_vm.users, function(user) {
+                      return _c(
+                        "b-tr",
+                        { key: user.id },
+                        [
+                          _c("b-td", { staticClass: "text-center" }, [
+                            _c("img", {
+                              staticClass: "img-avatar img-avatar48",
+                              attrs: {
+                                src: "/images/avatars/" + user.avatar + ".jpg",
+                                alt: "Avatar"
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "b-td",
+                            { staticClass: "font-w600 font-size-sm" },
+                            [
+                              _c("a", { attrs: { href: "" + user.href } }, [
+                                _vm._v(
+                                  "\n                                " +
+                                    _vm._s(user.name) +
+                                    "\n                            "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-td",
+                            {
+                              staticClass: "d-none d-sm-table-cell font-size-sm"
+                            },
+                            [
+                              _vm._v(
+                                "\n                            client" +
+                                  _vm._s(user.id)
+                              ),
+                              _c("em", { staticClass: "text-muted" }, [
+                                _vm._v("@example.com")
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-td",
+                            { staticClass: "d-none d-md-table-cell" },
+                            [
+                              _c(
+                                "b-badge",
+                                { attrs: { variant: user.labelVariant } },
+                                [_vm._v(_vm._s(user.labelText))]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-td",
+                            { staticClass: "text-center" },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "alt-primary" }
+                                },
+                                [
+                                  _c("i", {
+                                    staticClass: "fa fa-fw fa-pencil-alt"
+                                  })
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { size: "sm", variant: "alt-danger" }
+                                },
+                                [_c("i", { staticClass: "fa fa-fw fa-times" })]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    }),
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/tables/Responsive.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/src/views/tables/Responsive.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Responsive_vue_vue_type_template_id_73a4bb24___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Responsive.vue?vue&type=template&id=73a4bb24& */ "./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24&");
+/* harmony import */ var _Responsive_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Responsive.vue?vue&type=script&lang=js& */ "./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Responsive_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Responsive_vue_vue_type_template_id_73a4bb24___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Responsive_vue_vue_type_template_id_73a4bb24___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/tables/Responsive.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Responsive_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Responsive.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Responsive.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Responsive_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Responsive_vue_vue_type_template_id_73a4bb24___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Responsive.vue?vue&type=template&id=73a4bb24& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/tables/Responsive.vue?vue&type=template&id=73a4bb24&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Responsive_vue_vue_type_template_id_73a4bb24___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Responsive_vue_vue_type_template_id_73a4bb24___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

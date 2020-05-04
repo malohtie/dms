@@ -24,6 +24,11 @@
     }
 }
 
+//cursor not allowed in disabled btn and input
+input[disabled], button[disabled] {
+    cursor: not-allowed;
+}
+
 // Alternate variant buttons
 .btn-alt-primary {
     @include button-alt-variant($btn-alt-primary-bg, darken(theme-color("primary"), 20%));

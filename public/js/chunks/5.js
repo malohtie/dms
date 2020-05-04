@@ -1,1 +1,4052 @@
-var a5_0x2c17=['rotateInUpRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','lightSpeedIn','content','setAnimation','div','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20rotateOut\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Rotating\x20Exits','base-page-heading','d-lg-flex\x20align-items-lg-center\x20justify-content-lg-center\x20text-center\x20pb-4','zoomEntrances','slideInLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-breadcrumb','zoomOut\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','resources/js/src/views/elements/Animations.vue','tada\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','specials','slideInLeft','rotateInDownRight','header','animated','fadeOutDown','rotateInUpRight','bounceInLeft','slideInRight','bounceOutRight','classContainer','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeOutDown\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fadeInRightBig\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','items-push','fadeOut','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeInDown\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','lightspeed','light','rotateOut','defineProperty','small','bounceInRight','flipOutX','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeOut\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','rotateOutUpLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bounceOutRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','code','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bounce\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bounceInDown\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','_self','fadeOutLeft','Flippers','bounceOut','Animations','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Active\x20CSS\x20classes:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20slideOutLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bounceInUp','rotateInDownLeft','images/various/little-monster.png','exports','rollIn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20slideInUp\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Sliding\x20Entrances','b-button','lightSpeedOut','rotateOutUpRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20zoomInDown\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','extra','slideInDown\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','rotatingEntrances','Rotating\x20Entrances','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeOutUp\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fadeInRight','__file','$createElement','Elements','fadeIn','bounceInLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','rotateOutUpLeft','./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js&','slideInDown','Sliding\x20Exits','overflow-hidden','fadeOutDownBig','fadingEntrances','slideOutLeft','Cartoon','rollIn\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bounceInRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fadeOutUpBig','push','attentionSeekers','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20slideOutRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','zoomOutDown','rotateOutDownRight','flippers','Attention\x20Seekers','slidingExits','animation','slideInRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-col','shake','hinge\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','flipOutY\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20zoomOutRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fadeInDownBig','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20shake\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','flipInX\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bounceOutUp\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','flash','bounceOutDown','fadeInDownBig\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','zoomInUp','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeOutUpBig\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','rotateOutDownLeft','zoomOutLeft','bounceOutLeft','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeOutRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','slidingEntrances','hinge','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20rotateInDownLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','zoomInRight','render','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeOutLeftBig\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','flipOutX\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Fading\x20Exits','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeInRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeInUpBig\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','rotateOutDownLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','flipInY\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','wobble','b-row','img','Bouncing\x20Exits','rotateIn','bounceInDown','img-fluid','Zoom\x20Exits','webpackJsonp','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeInUp\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','rotatingExits','options','./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js&','flip\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','rotateOutUpRight','_withStripped','Lightspeed','animated\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20zoomInRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fadeInLeft','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20lightSpeedIn\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeIn\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20slideOutUp\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','block-title','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20wobble\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bounceOutDown\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Zoom\x20Entrances','Specials','fadeOutUp','bouncingExits','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20zoomInUp\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fadingExits','fadeInDown','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20rotateIn\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fadeOutRightBig','default','bouncingEntrances','staticRenderFns','rollOut\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flash\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20pulse\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','flipInY','zoomExits','zoomInLeft','pulse','flip','bounceOutUp','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20rotateOutDownRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','content-heading','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bounceOutLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d&','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20zoomOutDown\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','flipInX','200','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20zoomInLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','javascript:void(0)','b-breadcrumb-item','base-block','zoomIn'];(function(_0x583a4c,_0x2c1703){var _0x50b05d=function(_0x3b717e){while(--_0x3b717e){_0x583a4c['push'](_0x583a4c['shift']());}};_0x50b05d(++_0x2c1703);}(a5_0x2c17,0x1d6));var a5_0x50b0=function(_0x583a4c,_0x2c1703){_0x583a4c=_0x583a4c-0x0;var _0x50b05d=a5_0x2c17[_0x583a4c];return _0x50b05d;};(window[a5_0x50b0('0x21')]=window[a5_0x50b0('0x21')]||[])[a5_0x50b0('0xaa')]([[0x5],{'./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js&':function(_0x21d8f7,_0x2b9476,_0x33c60f){'use strict';_0x33c60f['r'](_0x2b9476);function _0x7e795e(_0x56253f,_0x2cecb5,_0x43ad03){if(_0x2cecb5 in _0x56253f){Object[a5_0x50b0('0x77')](_0x56253f,_0x2cecb5,{'value':_0x43ad03,'enumerable':!![],'configurable':!![],'writable':!![]});}else{_0x56253f[_0x2cecb5]=_0x43ad03;}return _0x56253f;}_0x2b9476[a5_0x50b0('0x3c')]={'data':function _0x1f9b9d(){return{'attentionSeekers':{'animated':![],'animation':''},'bouncingEntrances':{'animated':![],'animation':''},'bouncingExits':{'animated':![],'animation':''},'fadingEntrances':{'animated':![],'animation':''},'fadingExits':{'animated':![],'animation':''},'flippers':{'animated':![],'animation':''},'lightspeed':{'animated':![],'animation':''},'rotatingEntrances':{'animated':![],'animation':''},'rotatingExits':{'animated':![],'animation':''},'slidingEntrances':{'animated':![],'animation':''},'slidingExits':{'animated':![],'animation':''},'zoomEntrances':{'animated':![],'animation':''},'zoomExits':{'animated':![],'animation':''},'specials':{'animated':![],'animation':''}};},'methods':{'setAnimation':function _0x28cd9e(_0xfa93,_0x5a99b2){this[_0x5a99b2][a5_0x50b0('0x68')]=![];this[_0x5a99b2]['animation']='';this[_0x5a99b2][a5_0x50b0('0x68')]=!![];this[_0x5a99b2][a5_0x50b0('0xb2')]=_0xfa93;},'classContainer':function _0x5d5626(_0x2f4297){return _0x7e795e({'animated':this[_0x2f4297][a5_0x50b0('0x68')]},this[_0x2f4297][a5_0x50b0('0xb2')],this[_0x2f4297][a5_0x50b0('0xb2')]);}}};},'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d&':function(_0x1d454e,_0x5983ac,_0x475e43){'use strict';_0x475e43['r'](_0x5983ac);_0x475e43['d'](_0x5983ac,a5_0x50b0('0x11'),function(){return _0x17652c;});_0x475e43['d'](_0x5983ac,a5_0x50b0('0x3e'),function(){return _0x1a7201;});var _0x17652c=function(){var _0x285baf=this;var _0x1e9bee=_0x285baf[a5_0x50b0('0x9a')];var _0x3de7fe=_0x285baf[a5_0x50b0('0x81')]['_c']||_0x1e9bee;return _0x3de7fe('div',[_0x3de7fe(a5_0x50b0('0x5c'),{'attrs':{'subtitle':'Rich\x20animation\x20library\x20will\x20bring\x20your\x20elements\x20to\x20life\x20and\x20engage\x20your\x20users.','title':a5_0x50b0('0x85')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x93'),'fn':function(){return[_0x3de7fe(a5_0x50b0('0x60'),{'staticClass':'breadcrumb-alt'},[_0x3de7fe('b-breadcrumb-item',{'attrs':{'href':a5_0x50b0('0x51')}},[_0x285baf['_v'](a5_0x50b0('0x9b'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x52'),{'attrs':{'active':''}},[_0x285baf['_v']('Animations')])],0x1)];},'proxy':!![]}])}),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x59'),{'staticClass':a5_0x50b0('0x57')},[_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v'](a5_0x50b0('0xb0'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':'block-title'},[_0x285baf['_v'](a5_0x50b0('0x86')),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0xab')][a5_0x50b0('0x68')]?'animated\x20'+_0x285baf[a5_0x50b0('0xab')][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe('b-col',{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x1127cb){return _0x285baf['setAnimation']('bounce','attentionSeekers');}}},[_0x285baf['_v'](a5_0x50b0('0x7f'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0xf4451d){return _0x285baf['setAnimation'](a5_0x50b0('0x4'),a5_0x50b0('0xab'));}}},[_0x285baf['_v'](a5_0x50b0('0x40'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x27aa04){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x46'),a5_0x50b0('0xab'));}}},[_0x285baf['_v'](a5_0x50b0('0x42'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x1df104){return _0x285baf[a5_0x50b0('0x58')]('rubberBand',a5_0x50b0('0xab'));}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20rubberBand\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x4e0eaf){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0xb5'),a5_0x50b0('0xab'));}}},[_0x285baf['_v'](a5_0x50b0('0x1'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x167da5){return _0x285baf['setAnimation']('swing',a5_0x50b0('0xab'));}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20swing\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x14a088){return _0x285baf[a5_0x50b0('0x58')]('tada',a5_0x50b0('0xab'));}}},[_0x285baf['_v'](a5_0x50b0('0x63'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x1d2c8c){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x19'),a5_0x50b0('0xab'));}}},[_0x285baf['_v'](a5_0x50b0('0x31'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')](a5_0x50b0('0xab'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':'Cartoon','src':a5_0x50b0('0x8a'),'width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v']('Bouncing\x20Entrances')]),_0x285baf['_v']('\x20'),_0x3de7fe('base-block',{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Active\x20CSS\x20classes:\x20'),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0x3d')][a5_0x50b0('0x68')]?a5_0x50b0('0x2a')+_0x285baf['bouncingEntrances'][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x10d171){return _0x285baf[a5_0x50b0('0x58')]('bounceIn',a5_0x50b0('0x3d'));}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bounceIn\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x2b26cc){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x1e'),a5_0x50b0('0x3d'));}}},[_0x285baf['_v'](a5_0x50b0('0x80'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x625fd8){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x6b'),a5_0x50b0('0x3d'));}}},[_0x285baf['_v'](a5_0x50b0('0x9d'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x22873b){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x79'),a5_0x50b0('0x3d'));}}},[_0x285baf['_v'](a5_0x50b0('0xa8'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x33c3f3){return _0x285baf['setAnimation'](a5_0x50b0('0x88'),a5_0x50b0('0x3d'));}}},[_0x285baf['_v']('bounceInUp\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'staticClass':'d-lg-flex\x20align-items-lg-center\x20justify-content-lg-center\x20text-center\x20pb-4','attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')]('bouncingEntrances')},[_0x3de7fe('img',{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':'Cartoon','src':a5_0x50b0('0x8a'),'width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v'](a5_0x50b0('0x1c'))]),_0x285baf['_v']('\x20'),_0x3de7fe('base-block',{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':'block-title'},[_0x285baf['_v'](a5_0x50b0('0x86')),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0x36')][a5_0x50b0('0x68')]?a5_0x50b0('0x2a')+_0x285baf['bouncingExits'][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':'items-push'},[_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x455a0d){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x84'),'bouncingExits');}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bounceOut\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x2abf00){return _0x285baf['setAnimation'](a5_0x50b0('0x5'),a5_0x50b0('0x36'));}}},[_0x285baf['_v'](a5_0x50b0('0x32'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x3202c0){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0xb'),a5_0x50b0('0x36'));}}},[_0x285baf['_v'](a5_0x50b0('0x4b'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x5e5054){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x6d'),'bouncingExits');}}},[_0x285baf['_v'](a5_0x50b0('0x7d'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x5d2fb9){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x48'),'bouncingExits');}}},[_0x285baf['_v'](a5_0x50b0('0x3'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe('div',{'class':_0x285baf[a5_0x50b0('0x6e')](a5_0x50b0('0x36'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':a5_0x50b0('0xa6'),'src':'images/various/little-monster.png','width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v']('Fading\x20Entrances')]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v'](a5_0x50b0('0x86')),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0xa4')][a5_0x50b0('0x68')]?a5_0x50b0('0x2a')+_0x285baf[a5_0x50b0('0xa4')][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':'items-push'},[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x1128cb){return _0x285baf['setAnimation'](a5_0x50b0('0x9c'),a5_0x50b0('0xa4'));}}},[_0x285baf['_v'](a5_0x50b0('0x2e'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x11f812){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x39'),'fadingEntrances');}}},[_0x285baf['_v'](a5_0x50b0('0x73'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x2e6909){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x0'),'fadingEntrances');}}},[_0x285baf['_v'](a5_0x50b0('0x6'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x43d57e){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x2c'),a5_0x50b0('0xa4'));}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeInLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x4a121d){return _0x285baf[a5_0x50b0('0x58')]('fadeInLeftBig',a5_0x50b0('0xa4'));}}},[_0x285baf['_v']('fadeInLeftBig\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x4355c0){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x98'),a5_0x50b0('0xa4'));}}},[_0x285baf['_v'](a5_0x50b0('0x15'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x4c3cef){return _0x285baf[a5_0x50b0('0x58')]('fadeInRightBig',a5_0x50b0('0xa4'));}}},[_0x285baf['_v'](a5_0x50b0('0x70'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x44b238){return _0x285baf[a5_0x50b0('0x58')]('fadeInUp',a5_0x50b0('0xa4'));}}},[_0x285baf['_v'](a5_0x50b0('0x22'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x23ae34){return _0x285baf['setAnimation']('fadeInUpBig',a5_0x50b0('0xa4'));}}},[_0x285baf['_v'](a5_0x50b0('0x16'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':'d-lg-flex\x20align-items-lg-center\x20justify-content-lg-center\x20text-center\x20pb-4','attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')](a5_0x50b0('0xa4'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':a5_0x50b0('0xa6'),'src':a5_0x50b0('0x8a'),'width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v'](a5_0x50b0('0x14'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':'overflow-hidden'},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v'](a5_0x50b0('0x86')),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe('code',[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0x38')]['animated']?a5_0x50b0('0x2a')+_0x285baf['fadingExits'][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe('b-col',{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x5929d6){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x72'),'fadingExits');}}},[_0x285baf['_v'](a5_0x50b0('0x7b'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x4fef0e){return _0x285baf['setAnimation'](a5_0x50b0('0x69'),a5_0x50b0('0x38'));}}},[_0x285baf['_v'](a5_0x50b0('0x6f'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x22dbac){return _0x285baf['setAnimation'](a5_0x50b0('0xa3'),a5_0x50b0('0x38'));}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeOutDownBig\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x4fb79e){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x82'),a5_0x50b0('0x38'));}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeOutLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x234656){return _0x285baf['setAnimation']('fadeOutLeftBig',a5_0x50b0('0x38'));}}},[_0x285baf['_v'](a5_0x50b0('0x12'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x32ef82){return _0x285baf[a5_0x50b0('0x58')]('fadeOutRight',a5_0x50b0('0x38'));}}},[_0x285baf['_v'](a5_0x50b0('0xc'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x133b8a){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x3b'),'fadingExits');}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fadeOutRightBig\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x52cb52){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x35'),a5_0x50b0('0x38'));}}},[_0x285baf['_v'](a5_0x50b0('0x97'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x972b96){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0xa9'),a5_0x50b0('0x38'));}}},[_0x285baf['_v'](a5_0x50b0('0x8'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')]('fadingExits')},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':a5_0x50b0('0xa6'),'src':a5_0x50b0('0x8a'),'width':'200'}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v'](a5_0x50b0('0x83'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Active\x20CSS\x20classes:\x20'),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf['flippers'][a5_0x50b0('0x68')]?a5_0x50b0('0x2a')+_0x285baf[a5_0x50b0('0xaf')]['animation']:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'lg':'6'}},[_0x3de7fe('b-row',{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x1834aa){return _0x285baf['setAnimation'](a5_0x50b0('0x47'),a5_0x50b0('0xaf'));}}},[_0x285baf['_v'](a5_0x50b0('0x26'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x2313dd){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x4e'),a5_0x50b0('0xaf'));}}},[_0x285baf['_v'](a5_0x50b0('0x2'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x1ae060){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x43'),a5_0x50b0('0xaf'));}}},[_0x285baf['_v'](a5_0x50b0('0x18'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x491a36){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x7a'),a5_0x50b0('0xaf'));}}},[_0x285baf['_v'](a5_0x50b0('0x13'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x4f4d1c){return _0x285baf[a5_0x50b0('0x58')]('flipOutY',a5_0x50b0('0xaf'));}}},[_0x285baf['_v'](a5_0x50b0('0xb7'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe('div',{'class':_0x285baf[a5_0x50b0('0x6e')]('flippers')},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':'Cartoon','src':a5_0x50b0('0x8a'),'width':'200'}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':'content-heading'},[_0x285baf['_v'](a5_0x50b0('0x29'))]),_0x285baf['_v']('\x20'),_0x3de7fe('base-block',{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Active\x20CSS\x20classes:\x20'),_0x3de7fe('small',[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0x74')][a5_0x50b0('0x68')]?a5_0x50b0('0x2a')+_0x285baf[a5_0x50b0('0x74')][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe('b-col',{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x548f46){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x56'),a5_0x50b0('0x74'));}}},[_0x285baf['_v'](a5_0x50b0('0x2d'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0xc65de7){return _0x285baf['setAnimation'](a5_0x50b0('0x90'),'lightspeed');}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20lightSpeedOut\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')](a5_0x50b0('0x74'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':'img-fluid','attrs':{'alt':'Cartoon','src':a5_0x50b0('0x8a'),'width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v'](a5_0x50b0('0x96'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v'](a5_0x50b0('0x86')),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0x95')][a5_0x50b0('0x68')]?a5_0x50b0('0x2a')+_0x285baf[a5_0x50b0('0x95')]['animation']:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe('b-col',{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x49089d){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x1d'),a5_0x50b0('0x95'));}}},[_0x285baf['_v'](a5_0x50b0('0x3a'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0xb1ee1){return _0x285baf['setAnimation'](a5_0x50b0('0x89'),a5_0x50b0('0x95'));}}},[_0x285baf['_v'](a5_0x50b0('0xf'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x2e949d){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x66'),'rotatingEntrances');}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20rotateInDownRight\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x1958a0){return _0x285baf[a5_0x50b0('0x58')]('rotateInDownLeft',a5_0x50b0('0x95'));}}},[_0x285baf['_v'](a5_0x50b0('0xf'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x57621d){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x6a'),a5_0x50b0('0x95'));}}},[_0x285baf['_v'](a5_0x50b0('0x55'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf['classContainer']('rotatingEntrances')},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':'Cartoon','src':a5_0x50b0('0x8a'),'width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v'](a5_0x50b0('0x5b'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Active\x20CSS\x20classes:\x20'),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf['rotatingExits'][a5_0x50b0('0x68')]?a5_0x50b0('0x2a')+_0x285baf[a5_0x50b0('0x23')]['animation']:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe('b-col',{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x1b0297){return _0x285baf['setAnimation'](a5_0x50b0('0x76'),a5_0x50b0('0x23'));}}},[_0x285baf['_v'](a5_0x50b0('0x5a'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x13f0ae){return _0x285baf['setAnimation'](a5_0x50b0('0x9'),'rotatingExits');}}},[_0x285baf['_v'](a5_0x50b0('0x17'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x2df1ee){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0xae'),a5_0x50b0('0x23'));}}},[_0x285baf['_v'](a5_0x50b0('0x49'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x521a6a){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x9e'),a5_0x50b0('0x23'));}}},[_0x285baf['_v'](a5_0x50b0('0x7c'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x525416){return _0x285baf['setAnimation'](a5_0x50b0('0x27'),a5_0x50b0('0x23'));}}},[_0x285baf['_v'](a5_0x50b0('0x91'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf['classContainer'](a5_0x50b0('0x23'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':a5_0x50b0('0xa6'),'src':'images/various/little-monster.png','width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v'](a5_0x50b0('0x8e'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v'](a5_0x50b0('0x86')),_0x3de7fe('small',[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0xd')][a5_0x50b0('0x68')]?a5_0x50b0('0x2a')+_0x285baf[a5_0x50b0('0xd')][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe('b-col',{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x516406){return _0x285baf['setAnimation']('slideInUp',a5_0x50b0('0xd'));}}},[_0x285baf['_v'](a5_0x50b0('0x8d'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x582b44){return _0x285baf['setAnimation'](a5_0x50b0('0xa0'),'slidingEntrances');}}},[_0x285baf['_v'](a5_0x50b0('0x94'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x4c5081){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x65'),a5_0x50b0('0xd'));}}},[_0x285baf['_v'](a5_0x50b0('0x5f'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x334a49){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x6c'),a5_0x50b0('0xd'));}}},[_0x285baf['_v'](a5_0x50b0('0xb3'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')](a5_0x50b0('0xd'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':'Cartoon','src':a5_0x50b0('0x8a'),'width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':'content-heading'},[_0x285baf['_v'](a5_0x50b0('0xa1'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Active\x20CSS\x20classes:\x20'),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0xb1')]['animated']?a5_0x50b0('0x2a')+_0x285baf[a5_0x50b0('0xb1')][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x301a44){return _0x285baf[a5_0x50b0('0x58')]('slideOutUp',a5_0x50b0('0xb1'));}}},[_0x285baf['_v'](a5_0x50b0('0x2f'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x41c614){return _0x285baf['setAnimation']('slideOutDown',a5_0x50b0('0xb1'));}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20slideOutDown\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x4d6322){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0xa5'),a5_0x50b0('0xb1'));}}},[_0x285baf['_v'](a5_0x50b0('0x87'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x1da8d1){return _0x285baf['setAnimation']('slideOutRight',a5_0x50b0('0xb1'));}}},[_0x285baf['_v'](a5_0x50b0('0xac'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')](a5_0x50b0('0xb1'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':a5_0x50b0('0xa6'),'src':a5_0x50b0('0x8a'),'width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v'](a5_0x50b0('0x33'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':'overflow-hidden'},'scopedSlots':_0x285baf['_u']([{'key':'header','fn':function(){return[_0x3de7fe('h3',{'staticClass':'block-title'},[_0x285baf['_v'](a5_0x50b0('0x86')),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0x5e')]['animated']?a5_0x50b0('0x2a')+_0x285baf[a5_0x50b0('0x5e')][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x3a7e62){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x54'),'zoomEntrances');}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20zoomIn\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x274639){return _0x285baf[a5_0x50b0('0x58')]('zoomInDown',a5_0x50b0('0x5e'));}}},[_0x285baf['_v'](a5_0x50b0('0x92'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x244fb2){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x45'),a5_0x50b0('0x5e'));}}},[_0x285baf['_v'](a5_0x50b0('0x50'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x579cdb){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x10'),a5_0x50b0('0x5e'));}}},[_0x285baf['_v'](a5_0x50b0('0x2b'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x36a45a){return _0x285baf['setAnimation'](a5_0x50b0('0x7'),a5_0x50b0('0x5e'));}}},[_0x285baf['_v'](a5_0x50b0('0x37'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')](a5_0x50b0('0x5e'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':'img-fluid','attrs':{'alt':'Cartoon','src':'images/various/little-monster.png','width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':'content-heading'},[_0x285baf['_v'](a5_0x50b0('0x20'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':'overflow-hidden'},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v'](a5_0x50b0('0x86')),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0x44')][a5_0x50b0('0x68')]?'animated\x20'+_0x285baf['zoomExits']['animation']:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x1a'),{'staticClass':a5_0x50b0('0x71')},[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x39e016){return _0x285baf[a5_0x50b0('0x58')]('zoomOut','zoomExits');}}},[_0x285baf['_v'](a5_0x50b0('0x61'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x604c06){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0xad'),a5_0x50b0('0x44'));}}},[_0x285baf['_v'](a5_0x50b0('0x4d'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x38ac56){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0xa'),a5_0x50b0('0x44'));}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20zoomOutLeft\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x441b88){return _0x285baf[a5_0x50b0('0x58')]('zoomOutRight','zoomExits');}}},[_0x285baf['_v'](a5_0x50b0('0xb8'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':'light'},'on':{'click':function(_0x3070c6){return _0x285baf[a5_0x50b0('0x58')]('zoomOutUp',a5_0x50b0('0x44'));}}},[_0x285baf['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20zoomOutUp\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'staticClass':'d-lg-flex\x20align-items-lg-center\x20justify-content-lg-center\x20text-center\x20pb-4','attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')](a5_0x50b0('0x44'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':a5_0x50b0('0x1f'),'attrs':{'alt':a5_0x50b0('0xa6'),'src':a5_0x50b0('0x8a'),'width':a5_0x50b0('0x4f')}})])])],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('h2',{'staticClass':a5_0x50b0('0x4a')},[_0x285baf['_v'](a5_0x50b0('0x34'))]),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x53'),{'attrs':{'content-class':a5_0x50b0('0xa2')},'scopedSlots':_0x285baf['_u']([{'key':a5_0x50b0('0x67'),'fn':function(){return[_0x3de7fe('h3',{'staticClass':a5_0x50b0('0x30')},[_0x285baf['_v'](a5_0x50b0('0x86')),_0x3de7fe(a5_0x50b0('0x78'),[_0x3de7fe(a5_0x50b0('0x7e'),[_0x285baf['_v'](_0x285baf['_s'](_0x285baf[a5_0x50b0('0x64')][a5_0x50b0('0x68')]?a5_0x50b0('0x2a')+_0x285baf[a5_0x50b0('0x64')][a5_0x50b0('0xb2')]:''))])])])];},'proxy':!![]}])},[_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0x1a'),[_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'lg':'6'}},[_0x3de7fe('b-row',{'staticClass':'items-push'},[_0x3de7fe('b-col',{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x3271fe){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0xe'),a5_0x50b0('0x64'));}}},[_0x285baf['_v'](a5_0x50b0('0xb6'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe('b-button',{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x4191b7){return _0x285baf[a5_0x50b0('0x58')](a5_0x50b0('0x8c'),'specials');}}},[_0x285baf['_v'](a5_0x50b0('0xa7'))])],0x1),_0x285baf['_v']('\x20'),_0x3de7fe(a5_0x50b0('0xb4'),{'attrs':{'md':'6'}},[_0x3de7fe(a5_0x50b0('0x8f'),{'attrs':{'block':'','variant':a5_0x50b0('0x75')},'on':{'click':function(_0x23d255){return _0x285baf['setAnimation']('rollOut',a5_0x50b0('0x64'));}}},[_0x285baf['_v'](a5_0x50b0('0x3f'))])],0x1)],0x1)],0x1),_0x285baf['_v']('\x20'),_0x3de7fe('b-col',{'staticClass':a5_0x50b0('0x5d'),'attrs':{'lg':'6'}},[_0x3de7fe(a5_0x50b0('0x59'),{'class':_0x285baf[a5_0x50b0('0x6e')](a5_0x50b0('0x64'))},[_0x3de7fe(a5_0x50b0('0x1b'),{'staticClass':'img-fluid','attrs':{'alt':a5_0x50b0('0xa6'),'src':a5_0x50b0('0x8a'),'width':'200'}})])])],0x1)],0x1)],0x1)],0x1);};var _0x1a7201=[];_0x17652c[a5_0x50b0('0x28')]=!![];},'./resources/js/src/views/elements/Animations.vue':function(_0x375e18,_0xf05e61,_0x39ccd5){'use strict';_0x39ccd5['r'](_0xf05e61);var _0x3601a6=_0x39ccd5(a5_0x50b0('0x4c'));var _0x366ac9=_0x39ccd5(a5_0x50b0('0x25'));var _0x2c9e0c=_0x39ccd5(a5_0x50b0('0x41'));var _0x2e829f=Object(_0x2c9e0c[a5_0x50b0('0x3c')])(_0x366ac9[a5_0x50b0('0x3c')],_0x3601a6['render'],_0x3601a6[a5_0x50b0('0x3e')],![],null,null,null);if(![]){var _0x4c5008;}_0x2e829f[a5_0x50b0('0x24')][a5_0x50b0('0x99')]=a5_0x50b0('0x62');_0xf05e61[a5_0x50b0('0x3c')]=_0x2e829f[a5_0x50b0('0x8b')];},'./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js&':function(_0x54c865,_0x30f301,_0x398034){'use strict';_0x398034['r'](_0x30f301);var _0x48417b=_0x398034(a5_0x50b0('0x9f'));_0x30f301[a5_0x50b0('0x3c')]=_0x48417b['default'];},'./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d&':function(_0x620a96,_0x304d2f,_0x343ff0){'use strict';_0x343ff0['r'](_0x304d2f);var _0x42e178=_0x343ff0('./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d&');_0x343ff0['d'](_0x304d2f,a5_0x50b0('0x11'),function(){return _0x42e178['render'];});_0x343ff0['d'](_0x304d2f,a5_0x50b0('0x3e'),function(){return _0x42e178['staticRenderFns'];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[5],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      attentionSeekers: {
+        animated: false,
+        animation: ''
+      },
+      bouncingEntrances: {
+        animated: false,
+        animation: ''
+      },
+      bouncingExits: {
+        animated: false,
+        animation: ''
+      },
+      fadingEntrances: {
+        animated: false,
+        animation: ''
+      },
+      fadingExits: {
+        animated: false,
+        animation: ''
+      },
+      flippers: {
+        animated: false,
+        animation: ''
+      },
+      lightspeed: {
+        animated: false,
+        animation: ''
+      },
+      rotatingEntrances: {
+        animated: false,
+        animation: ''
+      },
+      rotatingExits: {
+        animated: false,
+        animation: ''
+      },
+      slidingEntrances: {
+        animated: false,
+        animation: ''
+      },
+      slidingExits: {
+        animated: false,
+        animation: ''
+      },
+      zoomEntrances: {
+        animated: false,
+        animation: ''
+      },
+      zoomExits: {
+        animated: false,
+        animation: ''
+      },
+      specials: {
+        animated: false,
+        animation: ''
+      }
+    };
+  },
+  methods: {
+    setAnimation: function setAnimation(animation, section) {
+      // Remove animation classes
+      this[section]['animated'] = false;
+      this[section]['animation'] = ''; // Add them again to trigger the animation
+
+      this[section]['animated'] = true;
+      this[section]['animation'] = animation;
+    },
+    classContainer: function classContainer(section) {
+      return _defineProperty({
+        'animated': this[section]['animated']
+      }, this[section]['animation'], this[section]['animation']);
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle:
+            "Rich animation library will bring your elements to life and engage your users.",
+          title: "Animations"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Animations")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Attention Seekers")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.attentionSeekers.animated
+                                  ? "animated " + _vm.attentionSeekers.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounce",
+                                        "attentionSeekers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                bounce\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "flash",
+                                        "attentionSeekers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                flash\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "pulse",
+                                        "attentionSeekers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                pulse\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rubberBand",
+                                        "attentionSeekers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                rubberBand\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "shake",
+                                        "attentionSeekers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                shake\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "swing",
+                                        "attentionSeekers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                swing\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "tada",
+                                        "attentionSeekers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("tada\n                            ")]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "wobble",
+                                        "attentionSeekers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                wobble\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { class: _vm.classContainer("attentionSeekers") },
+                        [
+                          _c("img", {
+                            staticClass: "img-fluid",
+                            attrs: {
+                              alt: "Cartoon",
+                              src: "images/various/little-monster.png",
+                              width: "200"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Bouncing Entrances")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.bouncingEntrances.animated
+                                  ? "animated " +
+                                      _vm.bouncingEntrances.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceIn",
+                                        "bouncingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                bounceIn\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceInDown",
+                                        "bouncingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "bounceInDown\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceInLeft",
+                                        "bouncingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "bounceInLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceInRight",
+                                        "bouncingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "bounceInRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceInUp",
+                                        "bouncingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "bounceInUp\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { class: _vm.classContainer("bouncingEntrances") },
+                        [
+                          _c("img", {
+                            staticClass: "img-fluid",
+                            attrs: {
+                              alt: "Cartoon",
+                              src: "images/various/little-monster.png",
+                              width: "200"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Bouncing Exits")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.bouncingExits.animated
+                                  ? "animated " + _vm.bouncingExits.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceOut",
+                                        "bouncingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                bounceOut\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceOutDown",
+                                        "bouncingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                bounceOutDown\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceOutLeft",
+                                        "bouncingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                bounceOutLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceOutRight",
+                                        "bouncingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "bounceOutRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "bounceOutUp",
+                                        "bouncingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                bounceOutUp\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { class: _vm.classContainer("bouncingExits") },
+                        [
+                          _c("img", {
+                            staticClass: "img-fluid",
+                            attrs: {
+                              alt: "Cartoon",
+                              src: "images/various/little-monster.png",
+                              width: "200"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Fading Entrances")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.fadingEntrances.animated
+                                  ? "animated " + _vm.fadingEntrances.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeIn",
+                                        "fadingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeIn\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeInDown",
+                                        "fadingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInDown\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeInDownBig",
+                                        "fadingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "fadeInDownBig\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeInLeft",
+                                        "fadingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeInLeftBig",
+                                        "fadingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "fadeInLeftBig\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeInRight",
+                                        "fadingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeInRightBig",
+                                        "fadingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "fadeInRightBig\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeInUp",
+                                        "fadingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInUp\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeInUpBig",
+                                        "fadingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeInUpBig\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { class: _vm.classContainer("fadingEntrances") },
+                        [
+                          _c("img", {
+                            staticClass: "img-fluid",
+                            attrs: {
+                              alt: "Cartoon",
+                              src: "images/various/little-monster.png",
+                              width: "200"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Fading Exits")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.fadingExits.animated
+                                  ? "animated " + _vm.fadingExits.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeOut",
+                                        "fadingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOut\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeOutDown",
+                                        "fadingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutDown\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeOutDownBig",
+                                        "fadingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutDownBig\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeOutLeft",
+                                        "fadingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeOutLeftBig",
+                                        "fadingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutLeftBig\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeOutRight",
+                                        "fadingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeOutRightBig",
+                                        "fadingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutRightBig\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeOutUp",
+                                        "fadingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutUp\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "fadeOutUpBig",
+                                        "fadingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                fadeOutUpBig\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c("div", { class: _vm.classContainer("fadingExits") }, [
+                        _c("img", {
+                          staticClass: "img-fluid",
+                          attrs: {
+                            alt: "Cartoon",
+                            src: "images/various/little-monster.png",
+                            width: "200"
+                          }
+                        })
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Flippers")]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.flippers.animated
+                                  ? "animated " + _vm.flippers.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "flip",
+                                        "flippers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("flip\n                            ")]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "flipInX",
+                                        "flippers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "flipInX\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "flipInY",
+                                        "flippers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "flipInY\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "flipOutX",
+                                        "flippers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "flipOutX\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "flipOutY",
+                                        "flippers"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "flipOutY\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c("div", { class: _vm.classContainer("flippers") }, [
+                        _c("img", {
+                          staticClass: "img-fluid",
+                          attrs: {
+                            alt: "Cartoon",
+                            src: "images/various/little-monster.png",
+                            width: "200"
+                          }
+                        })
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Lightspeed")]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.lightspeed.animated
+                                  ? "animated " + _vm.lightspeed.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "lightSpeedIn",
+                                        "lightspeed"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                lightSpeedIn\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "lightSpeedOut",
+                                        "lightspeed"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                lightSpeedOut\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c("div", { class: _vm.classContainer("lightspeed") }, [
+                        _c("img", {
+                          staticClass: "img-fluid",
+                          attrs: {
+                            alt: "Cartoon",
+                            src: "images/various/little-monster.png",
+                            width: "200"
+                          }
+                        })
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Rotating Entrances")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.rotatingEntrances.animated
+                                  ? "animated " +
+                                      _vm.rotatingEntrances.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateIn",
+                                        "rotatingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                rotateIn\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateInDownLeft",
+                                        "rotatingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                rotateInDownLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateInDownRight",
+                                        "rotatingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                rotateInDownRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateInDownLeft",
+                                        "rotatingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                rotateInDownLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateInUpRight",
+                                        "rotatingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "rotateInUpRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { class: _vm.classContainer("rotatingEntrances") },
+                        [
+                          _c("img", {
+                            staticClass: "img-fluid",
+                            attrs: {
+                              alt: "Cartoon",
+                              src: "images/various/little-monster.png",
+                              width: "200"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Rotating Exits")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.rotatingExits.animated
+                                  ? "animated " + _vm.rotatingExits.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateOut",
+                                        "rotatingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                rotateOut\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateOutDownLeft",
+                                        "rotatingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "rotateOutDownLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateOutDownRight",
+                                        "rotatingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                rotateOutDownRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateOutUpLeft",
+                                        "rotatingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "rotateOutUpLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rotateOutUpRight",
+                                        "rotatingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "rotateOutUpRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { class: _vm.classContainer("rotatingExits") },
+                        [
+                          _c("img", {
+                            staticClass: "img-fluid",
+                            attrs: {
+                              alt: "Cartoon",
+                              src: "images/various/little-monster.png",
+                              width: "200"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Sliding Entrances")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.slidingEntrances.animated
+                                  ? "animated " + _vm.slidingEntrances.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "slideInUp",
+                                        "slidingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                slideInUp\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "slideInDown",
+                                        "slidingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "slideInDown\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "slideInLeft",
+                                        "slidingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "slideInLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "slideInRight",
+                                        "slidingEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "slideInRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { class: _vm.classContainer("slidingEntrances") },
+                        [
+                          _c("img", {
+                            staticClass: "img-fluid",
+                            attrs: {
+                              alt: "Cartoon",
+                              src: "images/various/little-monster.png",
+                              width: "200"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Sliding Exits")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.slidingExits.animated
+                                  ? "animated " + _vm.slidingExits.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "slideOutUp",
+                                        "slidingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                slideOutUp\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "slideOutDown",
+                                        "slidingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                slideOutDown\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "slideOutLeft",
+                                        "slidingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                slideOutLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "slideOutRight",
+                                        "slidingExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                slideOutRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c("div", { class: _vm.classContainer("slidingExits") }, [
+                        _c("img", {
+                          staticClass: "img-fluid",
+                          attrs: {
+                            alt: "Cartoon",
+                            src: "images/various/little-monster.png",
+                            width: "200"
+                          }
+                        })
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Zoom Entrances")
+          ]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.zoomEntrances.animated
+                                  ? "animated " + _vm.zoomEntrances.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomIn",
+                                        "zoomEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                zoomIn\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomInDown",
+                                        "zoomEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                zoomInDown\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomInLeft",
+                                        "zoomEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                zoomInLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomInRight",
+                                        "zoomEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                zoomInRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomInUp",
+                                        "zoomEntrances"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                zoomInUp\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c(
+                        "div",
+                        { class: _vm.classContainer("zoomEntrances") },
+                        [
+                          _c("img", {
+                            staticClass: "img-fluid",
+                            attrs: {
+                              alt: "Cartoon",
+                              src: "images/various/little-monster.png",
+                              width: "200"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Zoom Exits")]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.zoomExits.animated
+                                  ? "animated " + _vm.zoomExits.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomOut",
+                                        "zoomExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "zoomOut\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomOutDown",
+                                        "zoomExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                zoomOutDown\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomOutLeft",
+                                        "zoomExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                zoomOutLeft\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomOutRight",
+                                        "zoomExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                zoomOutRight\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "zoomOutUp",
+                                        "zoomExits"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                                zoomOutUp\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c("div", { class: _vm.classContainer("zoomExits") }, [
+                        _c("img", {
+                          staticClass: "img-fluid",
+                          attrs: {
+                            alt: "Cartoon",
+                            src: "images/various/little-monster.png",
+                            width: "200"
+                          }
+                        })
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Specials")]),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            {
+              attrs: { "content-class": "overflow-hidden" },
+              scopedSlots: _vm._u([
+                {
+                  key: "header",
+                  fn: function() {
+                    return [
+                      _c("h3", { staticClass: "block-title" }, [
+                        _vm._v("\n                    Active CSS classes: "),
+                        _c("small", [
+                          _c("code", [
+                            _vm._v(
+                              _vm._s(
+                                _vm.specials.animated
+                                  ? "animated " + _vm.specials.animation
+                                  : ""
+                              )
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { lg: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "items-push" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "hinge",
+                                        "specials"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("hinge\n                            ")]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rollIn",
+                                        "specials"
+                                      )
+                                    }
+                                  }
+                                },
+                                [_vm._v("rollIn\n                            ")]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { attrs: { md: "6" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  attrs: { block: "", variant: "light" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.setAnimation(
+                                        "rollOut",
+                                        "specials"
+                                      )
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "rollOut\n                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    {
+                      staticClass:
+                        "d-lg-flex align-items-lg-center justify-content-lg-center text-center pb-4",
+                      attrs: { lg: "6" }
+                    },
+                    [
+                      _c("div", { class: _vm.classContainer("specials") }, [
+                        _c("img", {
+                          staticClass: "img-fluid",
+                          attrs: {
+                            alt: "Cartoon",
+                            src: "images/various/little-monster.png",
+                            width: "200"
+                          }
+                        })
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Animations.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/src/views/elements/Animations.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Animations_vue_vue_type_template_id_4bf6a10d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Animations.vue?vue&type=template&id=4bf6a10d& */ "./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d&");
+/* harmony import */ var _Animations_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Animations.vue?vue&type=script&lang=js& */ "./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Animations_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Animations_vue_vue_type_template_id_4bf6a10d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Animations_vue_vue_type_template_id_4bf6a10d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Animations.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Animations_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Animations.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Animations.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Animations_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Animations_vue_vue_type_template_id_4bf6a10d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Animations.vue?vue&type=template&id=4bf6a10d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Animations.vue?vue&type=template&id=4bf6a10d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Animations_vue_vue_type_template_id_4bf6a10d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Animations_vue_vue_type_template_id_4bf6a10d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

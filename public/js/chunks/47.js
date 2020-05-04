@@ -1,1 +1,1215 @@
-var a47_0x55d4=['push','fa\x20fa-3x\x20fa-wrench\x20text-gray','fab\x20fa-3x\x20fa-html5\x20text-gray','default','b-breadcrumb','Learn\x20HTML5','fa\x20fa-3x\x20fa-cog\x20text-gray','Ribbons','resources/js/src/views/elements/Ribbons.vue','Bookmark\x20Ribbon','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','bg-primary','far\x20fa-3x\x20fa-copy\x20text-gray','text-center\x20py-4\x20push','far\x20fa-3x\x20fa-image\x20text-gray','_withStripped','_self','$32','glass','\x20Crystal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-breadcrumb-item','warning','$createElement','Simple\x20Ribbon','info','danger','javascript:void(0)','__file','font-w600\x20text-white\x20mb-0','Discover\x20CSS3','Awesome\x20Color','Settings','Files','/images/photos/photo25.jpg','mb-0','fa\x20fa-check\x20mr-1','fa\x20fa-fw\x20fa-heart','Photos','Awesome\x20Image','base-page-heading','b-col','render','$28','./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af&','extra','text-white\x20mb-0','base-background','div','exports','base-block','bg-black-50','staticRenderFns','ribbon','Modern\x20Ribbon','far\x20fa-heart','b-row','text-center\x20py-6\x20push','fab\x20fa-3x\x20fa-css3\x20text-gray','Options','Easily\x20add\x20cool\x20ribbons\x20to\x20your\x20blocks.','fa\x20fa-check','content-heading','success'];(function(_0x293915,_0x55d429){var _0x418aa7=function(_0x577366){while(--_0x577366){_0x293915['push'](_0x293915['shift']());}};_0x418aa7(++_0x55d429);}(a47_0x55d4,0x111));var a47_0x418a=function(_0x293915,_0x55d429){_0x293915=_0x293915-0x0;var _0x418aa7=a47_0x55d4[_0x293915];return _0x418aa7;};(window['webpackJsonp']=window['webpackJsonp']||[])[a47_0x418a('0x2a')]([[0x2f],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af&':function(_0xc540ca,_0x30d179,_0x415f7e){'use strict';_0x415f7e['r'](_0x30d179);_0x415f7e['d'](_0x30d179,a47_0x418a('0x14'),function(){return _0x25d4cb;});_0x415f7e['d'](_0x30d179,'staticRenderFns',function(){return _0x40af74;});var _0x25d4cb=function(){var _0x473ed6=this;var _0x42e6fc=_0x473ed6[a47_0x418a('0x1')];var _0x2dd731=_0x473ed6[a47_0x418a('0x3a')]['_c']||_0x42e6fc;return _0x2dd731(a47_0x418a('0x1a'),[_0x2dd731(a47_0x418a('0x12'),{'attrs':{'subtitle':a47_0x418a('0x26'),'title':a47_0x418a('0x31')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x17'),'fn':function(){return[_0x2dd731(a47_0x418a('0x2e'),{'staticClass':'breadcrumb-alt'},[_0x2dd731(a47_0x418a('0x3e'),{'attrs':{'href':a47_0x418a('0x5')}},[_0x473ed6['_v']('Elements')]),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x3e'),{'attrs':{'active':''}},[_0x473ed6['_v'](a47_0x418a('0x31'))])],0x1)];},'proxy':!![]}])}),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':'content'},[_0x2dd731('h2',{'staticClass':a47_0x418a('0x28')},[_0x473ed6['_v'](a47_0x418a('0x2'))]),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x22'),[_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731('base-block',{'attrs':{'ribbon':a47_0x418a('0x15')}},[_0x2dd731('div',{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x2c')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v']('Learn\x20HTML5')])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731('base-block',{'attrs':{'ribbon':a47_0x418a('0x15'),'ribbon-bottom':''}},[_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x2c')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x2f'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731('base-block',{'attrs':{'ribbon':a47_0x418a('0x15'),'ribbon-bottom':'','ribbon-left':''}},[_0x2dd731(a47_0x418a('0x1a'),{'staticClass':'text-center\x20py-4\x20push'},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x2c')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x2f'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':a47_0x418a('0x15'),'ribbon-left':''}},[_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':'fab\x20fa-3x\x20fa-html5\x20text-gray'})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x2f'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':a47_0x418a('0x3b'),'ribbon-variant':a47_0x418a('0x29')}},[_0x2dd731(a47_0x418a('0x1a'),{'staticClass':'text-center\x20py-4\x20push'},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x24')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x8'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':a47_0x418a('0x3b'),'ribbon-variant':a47_0x418a('0x3')}},[_0x2dd731('div',{'staticClass':'text-center\x20py-4\x20push'},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x24')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x8'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'$32','ribbon-variant':a47_0x418a('0x0')}},[_0x2dd731('div',{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x24')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x8'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':a47_0x418a('0x3b'),'ribbon-variant':a47_0x418a('0x4')}},[_0x2dd731(a47_0x418a('0x1a'),{'staticClass':'text-center\x20py-4\x20push'},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':'fab\x20fa-3x\x20fa-css3\x20text-gray'})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v']('Discover\x20CSS3')])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6'}},[_0x2dd731('base-block',{'staticClass':a47_0x418a('0x35'),'attrs':{'ribbon':'','ribbon-variant':a47_0x418a('0x3c')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':'fa\x20fa-check\x20mr-1'}),_0x473ed6['_v'](a47_0x418a('0x3d'))];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':'text-center\x20py-6\x20push'},[_0x2dd731('h4',{'staticClass':a47_0x418a('0x18')},[_0x473ed6['_v'](a47_0x418a('0x9'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6'}},[_0x2dd731(a47_0x418a('0x19'),{'attrs':{'image':'/images/photos/photo25.jpg'}},[_0x2dd731(a47_0x418a('0x1c'),{'staticClass':a47_0x418a('0x1d'),'attrs':{'ribbon':'','ribbon-variant':a47_0x418a('0x3c')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x27')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x23')},[_0x2dd731('h4',{'staticClass':a47_0x418a('0x7')},[_0x473ed6['_v'](a47_0x418a('0x11'))])])])],0x1)],0x1)],0x1),_0x473ed6['_v']('\x20'),_0x2dd731('h2',{'staticClass':'content-heading'},[_0x473ed6['_v'](a47_0x418a('0x33'))]),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x22'),[_0x2dd731('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-bookmark':''},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x30')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0xa'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-bookmark':'','ribbon-bottom':''},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731('div',{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':'fa\x20fa-3x\x20fa-cog\x20text-gray'})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v']('Settings')])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-bookmark':'','ribbon-bottom':'','ribbon-left':''},'scopedSlots':_0x473ed6['_u']([{'key':'ribbon','fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x30')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0xa'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-bookmark':'','ribbon-left':''},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731('div',{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x30')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v']('Settings')])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x2dd731('base-block',{'attrs':{'ribbon':'','ribbon-bookmark':'','ribbon-variant':'success'},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x2b')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':'mb-0'},[_0x473ed6['_v'](a47_0x418a('0x25'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-bookmark':'','ribbon-variant':a47_0x418a('0x3')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x2b')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x25'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731('base-block',{'attrs':{'ribbon':'','ribbon-bookmark':'','ribbon-variant':'warning'},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x2b')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x25'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-bookmark':'','ribbon-variant':a47_0x418a('0x4')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':'far\x20fa-heart'})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':'fa\x20fa-3x\x20fa-wrench\x20text-gray'})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':'mb-0'},[_0x473ed6['_v'](a47_0x418a('0x25'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6'}},[_0x2dd731('base-block',{'staticClass':a47_0x418a('0x35'),'attrs':{'ribbon':'','ribbon-bookmark':'','ribbon-variant':a47_0x418a('0x3c')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0xe')}),_0x473ed6['_v']('\x20Crystal\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x23')},[_0x2dd731('h4',{'staticClass':a47_0x418a('0x18')},[_0x473ed6['_v']('Awesome\x20Color')])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6'}},[_0x2dd731(a47_0x418a('0x19'),{'attrs':{'image':a47_0x418a('0xc')}},[_0x2dd731(a47_0x418a('0x1c'),{'staticClass':a47_0x418a('0x1d'),'attrs':{'ribbon':'','ribbon-bookmark':'','ribbon-variant':a47_0x418a('0x3c')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x27')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x23')},[_0x2dd731('h4',{'staticClass':a47_0x418a('0x7')},[_0x473ed6['_v'](a47_0x418a('0x11'))])])])],0x1)],0x1)],0x1),_0x473ed6['_v']('\x20'),_0x2dd731('h2',{'staticClass':'content-heading'},[_0x473ed6['_v'](a47_0x418a('0x20'))]),_0x473ed6['_v']('\x20'),_0x2dd731('b-row',[_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-modern':''},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731('div',{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':'far\x20fa-3x\x20fa-copy\x20text-gray'})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0xb'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-bottom':'','ribbon-modern':''},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731('div',{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x36')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':'mb-0'},[_0x473ed6['_v']('Files')])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731('b-col',{'attrs':{'md':'6','xl':'3'}},[_0x2dd731('base-block',{'attrs':{'ribbon':'','ribbon-bottom':'','ribbon-left':'','ribbon-modern':''},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x36')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0xb'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-left':'','ribbon-modern':''},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0x21')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':'far\x20fa-3x\x20fa-copy\x20text-gray'})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':'mb-0'},[_0x473ed6['_v'](a47_0x418a('0xb'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-modern':'','ribbon-variant':a47_0x418a('0x29')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0xf')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x38')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x10'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731('base-block',{'attrs':{'ribbon':'','ribbon-modern':'','ribbon-variant':'info'},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0xf')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':'far\x20fa-3x\x20fa-image\x20text-gray'})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':a47_0x418a('0xd')},[_0x473ed6['_v'](a47_0x418a('0x10'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-modern':'','ribbon-variant':a47_0x418a('0x0')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0xf')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x38')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':'mb-0'},[_0x473ed6['_v'](a47_0x418a('0x10'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6','xl':'3'}},[_0x2dd731(a47_0x418a('0x1c'),{'attrs':{'ribbon':'','ribbon-modern':'','ribbon-variant':a47_0x418a('0x4')},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0xf')})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x37')},[_0x2dd731('p',[_0x2dd731('i',{'staticClass':a47_0x418a('0x38')})]),_0x473ed6['_v']('\x20'),_0x2dd731('h4',{'staticClass':'mb-0'},[_0x473ed6['_v']('Photos')])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x13'),{'attrs':{'md':'6'}},[_0x2dd731(a47_0x418a('0x1c'),{'staticClass':a47_0x418a('0x35'),'attrs':{'ribbon':'','ribbon-modern':'','ribbon-variant':a47_0x418a('0x3c')},'scopedSlots':_0x473ed6['_u']([{'key':'ribbon','fn':function(){return[_0x2dd731('i',{'staticClass':a47_0x418a('0xe')}),_0x473ed6['_v'](a47_0x418a('0x3d'))];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':a47_0x418a('0x23')},[_0x2dd731('h4',{'staticClass':a47_0x418a('0x18')},[_0x473ed6['_v'](a47_0x418a('0x9'))])])])],0x1),_0x473ed6['_v']('\x20'),_0x2dd731('b-col',{'attrs':{'md':'6'}},[_0x2dd731('base-background',{'attrs':{'image':'/images/photos/photo25.jpg'}},[_0x2dd731('base-block',{'staticClass':a47_0x418a('0x1d'),'attrs':{'ribbon':'','ribbon-bottom':'','ribbon-modern':'','ribbon-variant':'glass'},'scopedSlots':_0x473ed6['_u']([{'key':a47_0x418a('0x1f'),'fn':function(){return[_0x2dd731('i',{'staticClass':'fa\x20fa-check'})];},'proxy':!![]}])},[_0x473ed6['_v']('\x20'),_0x2dd731(a47_0x418a('0x1a'),{'staticClass':'text-center\x20py-6\x20push'},[_0x2dd731('h4',{'staticClass':'font-w600\x20text-white\x20mb-0'},[_0x473ed6['_v']('Awesome\x20Image')])])])],0x1)],0x1)],0x1)],0x1)],0x1);};var _0x40af74=[];_0x25d4cb[a47_0x418a('0x39')]=!![];},'./resources/js/src/views/elements/Ribbons.vue':function(_0x34eb25,_0x40dd9a,_0x1fabf9){'use strict';_0x1fabf9['r'](_0x40dd9a);var _0x585fa7=_0x1fabf9(a47_0x418a('0x16'));var _0x3ca8e1=_0x1fabf9(a47_0x418a('0x34'));var _0x10ec94={};var _0x274bd1=Object(_0x3ca8e1[a47_0x418a('0x2d')])(_0x10ec94,_0x585fa7[a47_0x418a('0x14')],_0x585fa7[a47_0x418a('0x1e')],![],null,null,null);if(![]){var _0x3d77f0;}_0x274bd1['options'][a47_0x418a('0x6')]=a47_0x418a('0x32');_0x40dd9a[a47_0x418a('0x2d')]=_0x274bd1[a47_0x418a('0x1b')];},'./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af&':function(_0x1b62f3,_0x388c09,_0x1db597){'use strict';_0x1db597['r'](_0x388c09);var _0x43a4da=_0x1db597('./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af&');_0x1db597['d'](_0x388c09,'render',function(){return _0x43a4da[a47_0x418a('0x14')];});_0x1db597['d'](_0x388c09,a47_0x418a('0x1e'),function(){return _0x43a4da[a47_0x418a('0x1e')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[47],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Easily add cool ribbons to your blocks.",
+          title: "Ribbons"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Ribbons")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Simple Ribbon")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c("base-block", { attrs: { ribbon: "$28" } }, [
+                    _c("div", { staticClass: "text-center py-4 push" }, [
+                      _c("p", [
+                        _c("i", { staticClass: "fab fa-3x fa-html5 text-gray" })
+                      ]),
+                      _vm._v(" "),
+                      _c("h4", { staticClass: "mb-0" }, [_vm._v("Learn HTML5")])
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { ribbon: "$28", "ribbon-bottom": "" } },
+                    [
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fab fa-3x fa-html5 text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [
+                          _vm._v("Learn HTML5")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "$28",
+                        "ribbon-bottom": "",
+                        "ribbon-left": ""
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fab fa-3x fa-html5 text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [
+                          _vm._v("Learn HTML5")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { ribbon: "$28", "ribbon-left": "" } },
+                    [
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fab fa-3x fa-html5 text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [
+                          _vm._v("Learn HTML5")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { ribbon: "$32", "ribbon-variant": "success" } },
+                    [
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fab fa-3x fa-css3 text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [
+                          _vm._v("Discover CSS3")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { ribbon: "$32", "ribbon-variant": "info" } },
+                    [
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fab fa-3x fa-css3 text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [
+                          _vm._v("Discover CSS3")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { ribbon: "$32", "ribbon-variant": "warning" } },
+                    [
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fab fa-3x fa-css3 text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [
+                          _vm._v("Discover CSS3")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    { attrs: { ribbon: "$32", "ribbon-variant": "danger" } },
+                    [
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fab fa-3x fa-css3 text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [
+                          _vm._v("Discover CSS3")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      staticClass: "bg-primary",
+                      attrs: { ribbon: "", "ribbon-variant": "glass" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [
+                              _c("i", { staticClass: "fa fa-check mr-1" }),
+                              _vm._v(" Crystal\n                    ")
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-6 push" }, [
+                        _c("h4", { staticClass: "text-white mb-0" }, [
+                          _vm._v("Awesome Color")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-background",
+                    { attrs: { image: "/images/photos/photo25.jpg" } },
+                    [
+                      _c(
+                        "base-block",
+                        {
+                          staticClass: "bg-black-50",
+                          attrs: { ribbon: "", "ribbon-variant": "glass" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "ribbon",
+                              fn: function() {
+                                return [_c("i", { staticClass: "fa fa-check" })]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text-center py-6 push" }, [
+                            _c(
+                              "h4",
+                              { staticClass: "font-w600 text-white mb-0" },
+                              [_vm._v("Awesome Image")]
+                            )
+                          ])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Bookmark Ribbon")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { ribbon: "", "ribbon-bookmark": "" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", { staticClass: "fa fa-3x fa-cog text-gray" })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Settings")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bookmark": "",
+                        "ribbon-bottom": ""
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", { staticClass: "fa fa-3x fa-cog text-gray" })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Settings")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bookmark": "",
+                        "ribbon-bottom": "",
+                        "ribbon-left": ""
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", { staticClass: "fa fa-3x fa-cog text-gray" })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Settings")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bookmark": "",
+                        "ribbon-left": ""
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", { staticClass: "fa fa-3x fa-cog text-gray" })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Settings")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bookmark": "",
+                        "ribbon-variant": "success"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fa fa-3x fa-wrench text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Options")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bookmark": "",
+                        "ribbon-variant": "info"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fa fa-3x fa-wrench text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Options")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bookmark": "",
+                        "ribbon-variant": "warning"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fa fa-3x fa-wrench text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Options")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bookmark": "",
+                        "ribbon-variant": "danger"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "fa fa-3x fa-wrench text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Options")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      staticClass: "bg-primary",
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bookmark": "",
+                        "ribbon-variant": "glass"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [
+                              _c("i", { staticClass: "fa fa-check mr-1" }),
+                              _vm._v(" Crystal\n                    ")
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-6 push" }, [
+                        _c("h4", { staticClass: "text-white mb-0" }, [
+                          _vm._v("Awesome Color")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-background",
+                    { attrs: { image: "/images/photos/photo25.jpg" } },
+                    [
+                      _c(
+                        "base-block",
+                        {
+                          staticClass: "bg-black-50",
+                          attrs: {
+                            ribbon: "",
+                            "ribbon-bookmark": "",
+                            "ribbon-variant": "glass"
+                          },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "ribbon",
+                              fn: function() {
+                                return [_c("i", { staticClass: "fa fa-check" })]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text-center py-6 push" }, [
+                            _c(
+                              "h4",
+                              { staticClass: "font-w600 text-white mb-0" },
+                              [_vm._v("Awesome Image")]
+                            )
+                          ])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Modern Ribbon")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: { ribbon: "", "ribbon-modern": "" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "far fa-3x fa-copy text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Files")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bottom": "",
+                        "ribbon-modern": ""
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "far fa-3x fa-copy text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Files")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-bottom": "",
+                        "ribbon-left": "",
+                        "ribbon-modern": ""
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "far fa-3x fa-copy text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Files")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-left": "",
+                        "ribbon-modern": ""
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [_c("i", { staticClass: "far fa-heart" })]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "far fa-3x fa-copy text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Files")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-modern": "",
+                        "ribbon-variant": "success"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [
+                              _c("i", { staticClass: "fa fa-fw fa-heart" })
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "far fa-3x fa-image text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Photos")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-modern": "",
+                        "ribbon-variant": "info"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [
+                              _c("i", { staticClass: "fa fa-fw fa-heart" })
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "far fa-3x fa-image text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Photos")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-modern": "",
+                        "ribbon-variant": "warning"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [
+                              _c("i", { staticClass: "fa fa-fw fa-heart" })
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "far fa-3x fa-image text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Photos")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-modern": "",
+                        "ribbon-variant": "danger"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [
+                              _c("i", { staticClass: "fa fa-fw fa-heart" })
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-4 push" }, [
+                        _c("p", [
+                          _c("i", {
+                            staticClass: "far fa-3x fa-image text-gray"
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("h4", { staticClass: "mb-0" }, [_vm._v("Photos")])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-block",
+                    {
+                      staticClass: "bg-primary",
+                      attrs: {
+                        ribbon: "",
+                        "ribbon-modern": "",
+                        "ribbon-variant": "glass"
+                      },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "ribbon",
+                          fn: function() {
+                            return [
+                              _c("i", { staticClass: "fa fa-check mr-1" }),
+                              _vm._v(" Crystal\n                    ")
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _c("div", { staticClass: "text-center py-6 push" }, [
+                        _c("h4", { staticClass: "text-white mb-0" }, [
+                          _vm._v("Awesome Color")
+                        ])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6" } },
+                [
+                  _c(
+                    "base-background",
+                    { attrs: { image: "/images/photos/photo25.jpg" } },
+                    [
+                      _c(
+                        "base-block",
+                        {
+                          staticClass: "bg-black-50",
+                          attrs: {
+                            ribbon: "",
+                            "ribbon-bottom": "",
+                            "ribbon-modern": "",
+                            "ribbon-variant": "glass"
+                          },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "ribbon",
+                              fn: function() {
+                                return [_c("i", { staticClass: "fa fa-check" })]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("div", { staticClass: "text-center py-6 push" }, [
+                            _c(
+                              "h4",
+                              { staticClass: "font-w600 text-white mb-0" },
+                              [_vm._v("Awesome Image")]
+                            )
+                          ])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Ribbons.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/src/views/elements/Ribbons.vue ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Ribbons_vue_vue_type_template_id_4dd107af___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Ribbons.vue?vue&type=template&id=4dd107af& */ "./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Ribbons_vue_vue_type_template_id_4dd107af___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Ribbons_vue_vue_type_template_id_4dd107af___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Ribbons.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af& ***!
+  \************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ribbons_vue_vue_type_template_id_4dd107af___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Ribbons.vue?vue&type=template&id=4dd107af& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Ribbons.vue?vue&type=template&id=4dd107af&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ribbons_vue_vue_type_template_id_4dd107af___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ribbons_vue_vue_type_template_id_4dd107af___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

@@ -1,1 +1,652 @@
-var a48_0x54b3=['fade-right','breadcrumb-alt','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&','$createElement','content','nav-tabs-block\x20justify-content-end','Content\x20slides\x20up..','Generate\x20tabbed\x20interfaces\x20with\x20ease.','webpackJsonp','options','div','title','ml-auto','_withStripped','staticRenderFns','...','_self','Content\x20slides\x20in\x20to\x20the\x20left..','b-row','Settings\x20Content','Content\x20slides\x20in\x20to\x20the\x20right..','nav-tabs-alt','block','font-w400','content-heading','base-page-heading','fade-left','Profile\x20Content','fade-up','Elements','javascript:void(0)','Profile','render','Tabs\x20with\x20Animation','b-tabs','./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&','Home\x20Content','Block\x20Tabs','exports','Tabs','resources/js/src/views/elements/Tabs.vue','Content\x20fades\x20in..','nav-tabs-block','extra','b-breadcrumb-item','block-content\x20overflow-hidden','mr-auto','Home','block-content','b-tab','b-col','push','default','si\x20si-settings'];(function(_0x1fe3bf,_0x54b320){var _0x8bd6b2=function(_0x22af92){while(--_0x22af92){_0x1fe3bf['push'](_0x1fe3bf['shift']());}};_0x8bd6b2(++_0x54b320);}(a48_0x54b3,0x6c));var a48_0x8bd6=function(_0x1fe3bf,_0x54b320){_0x1fe3bf=_0x1fe3bf-0x0;var _0x8bd6b2=a48_0x54b3[_0x1fe3bf];return _0x8bd6b2;};(window[a48_0x8bd6('0x8')]=window[a48_0x8bd6('0x8')]||[])[a48_0x8bd6('0x33')]([[0x30],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&':function(_0x31dc81,_0x2b9336,_0x5366f0){'use strict';_0x5366f0['r'](_0x2b9336);_0x5366f0['d'](_0x2b9336,'render',function(){return _0x5a1fd1;});_0x5366f0['d'](_0x2b9336,a48_0x8bd6('0xe'),function(){return _0x41e938;});var _0x5a1fd1=function(){var _0xb8b8be=this;var _0x2370ff=_0xb8b8be[a48_0x8bd6('0x3')];var _0x583dc4=_0xb8b8be[a48_0x8bd6('0x10')]['_c']||_0x2370ff;return _0x583dc4('div',[_0x583dc4(a48_0x8bd6('0x19'),{'attrs':{'subtitle':a48_0x8bd6('0x7'),'title':a48_0x8bd6('0x27')},'scopedSlots':_0xb8b8be['_u']([{'key':a48_0x8bd6('0x2b'),'fn':function(){return[_0x583dc4('b-breadcrumb',{'staticClass':a48_0x8bd6('0x1')},[_0x583dc4(a48_0x8bd6('0x2c'),{'attrs':{'href':a48_0x8bd6('0x1e')}},[_0xb8b8be['_v'](a48_0x8bd6('0x1d'))]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x2c'),{'attrs':{'active':''}},[_0xb8b8be['_v']('Tabs')])],0x1)];},'proxy':!![]}])}),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0xa'),{'staticClass':a48_0x8bd6('0x4')},[_0x583dc4('h2',{'staticClass':a48_0x8bd6('0x18')},[_0xb8b8be['_v'](a48_0x8bd6('0x25'))]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x12'),[_0x583dc4('b-col',{'attrs':{'lg':'6'}},[_0x583dc4(a48_0x8bd6('0x22'),{'staticClass':'block','attrs':{'content-class':a48_0x8bd6('0x30'),'nav-class':a48_0x8bd6('0x2a')}},[_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'active':'','title':a48_0x8bd6('0x2f')}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x24'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4('b-tab',{'attrs':{'title':a48_0x8bd6('0x1f')}},[_0x583dc4('h4',{'staticClass':'font-w400'},[_0xb8b8be['_v'](a48_0x8bd6('0x1b'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'title-item-class':a48_0x8bd6('0xc')},'scopedSlots':_0xb8b8be['_u']([{'key':a48_0x8bd6('0xb'),'fn':function(){return[_0x583dc4('i',{'staticClass':a48_0x8bd6('0x35')})];},'proxy':!![]}])},[_0xb8b8be['_v']('\x20'),_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x13'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])])],0x1),_0xb8b8be['_v']('\x20'),_0x583dc4('b-tabs',{'staticClass':a48_0x8bd6('0x16'),'attrs':{'content-class':'block-content','nav-class':a48_0x8bd6('0x15')}},[_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'active':'','title':a48_0x8bd6('0x2f')}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x24'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'title':a48_0x8bd6('0x1f')}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x1b'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4('b-tab',{'attrs':{'title-item-class':a48_0x8bd6('0xc')},'scopedSlots':_0xb8b8be['_u']([{'key':a48_0x8bd6('0xb'),'fn':function(){return[_0x583dc4('i',{'staticClass':a48_0x8bd6('0x35')})];},'proxy':!![]}])},[_0xb8b8be['_v']('\x20'),_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v']('Settings\x20Content')]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])])],0x1)],0x1),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x32'),{'attrs':{'lg':'6'}},[_0x583dc4('b-tabs',{'staticClass':a48_0x8bd6('0x16'),'attrs':{'content-class':a48_0x8bd6('0x30'),'nav-class':a48_0x8bd6('0x5')}},[_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'title-item-class':a48_0x8bd6('0x2e')},'scopedSlots':_0xb8b8be['_u']([{'key':a48_0x8bd6('0xb'),'fn':function(){return[_0x583dc4('i',{'staticClass':'si\x20si-settings'})];},'proxy':!![]}])},[_0xb8b8be['_v']('\x20'),_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x13'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'title':a48_0x8bd6('0x1f')}},[_0x583dc4('h4',{'staticClass':'font-w400'},[_0xb8b8be['_v'](a48_0x8bd6('0x1b'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v']('...')])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'active':'','title':a48_0x8bd6('0x2f')}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x24'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v']('...')])])],0x1),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x22'),{'staticClass':'block','attrs':{'content-class':a48_0x8bd6('0x30'),'nav-class':'nav-tabs-alt\x20justify-content-end'}},[_0x583dc4('b-tab',{'attrs':{'title-item-class':a48_0x8bd6('0x2e')},'scopedSlots':_0xb8b8be['_u']([{'key':a48_0x8bd6('0xb'),'fn':function(){return[_0x583dc4('i',{'staticClass':a48_0x8bd6('0x35')})];},'proxy':!![]}])},[_0xb8b8be['_v']('\x20'),_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v']('Settings\x20Content')]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4('b-tab',{'attrs':{'title':a48_0x8bd6('0x1f')}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x1b'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'active':'','title':a48_0x8bd6('0x2f')}},[_0x583dc4('h4',{'staticClass':'font-w400'},[_0xb8b8be['_v'](a48_0x8bd6('0x24'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0xf'))])])],0x1)],0x1)],0x1),_0xb8b8be['_v']('\x20'),_0x583dc4('h2',{'staticClass':a48_0x8bd6('0x18')},[_0xb8b8be['_v'](a48_0x8bd6('0x21'))]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x12'),[_0x583dc4(a48_0x8bd6('0x32'),{'attrs':{'lg':'6'}},[_0x583dc4('b-tabs',{'staticClass':a48_0x8bd6('0x16'),'attrs':{'content-class':'block-content\x20overflow-hidden','nav-class':a48_0x8bd6('0x2a')}},[_0x583dc4('b-tab',{'attrs':{'active':'','title':a48_0x8bd6('0x2f')}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v']('Home\x20Content')]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0x29'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'title':'Profile'}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x1b'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0x29'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'attrs':{'title-item-class':a48_0x8bd6('0xc')},'scopedSlots':_0xb8b8be['_u']([{'key':'title','fn':function(){return[_0x583dc4('i',{'staticClass':'si\x20si-settings'})];},'proxy':!![]}])},[_0xb8b8be['_v']('\x20'),_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v']('Settings\x20Content')]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0x29'))])])],0x1),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x22'),{'staticClass':a48_0x8bd6('0x16'),'attrs':{'content-class':a48_0x8bd6('0x2d'),'nav-class':a48_0x8bd6('0x2a')}},[_0x583dc4(a48_0x8bd6('0x31'),{'staticClass':'fade-left','attrs':{'active':'','title':'Home'}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x24'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v']('Content\x20slides\x20in\x20to\x20the\x20left..')])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'staticClass':a48_0x8bd6('0x1a'),'attrs':{'title':a48_0x8bd6('0x1f')}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x1b'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0x11'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4('b-tab',{'staticClass':'fade-left','attrs':{'title-item-class':a48_0x8bd6('0xc')},'scopedSlots':_0xb8b8be['_u']([{'key':a48_0x8bd6('0xb'),'fn':function(){return[_0x583dc4('i',{'staticClass':a48_0x8bd6('0x35')})];},'proxy':!![]}])},[_0xb8b8be['_v']('\x20'),_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x13'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0x11'))])])],0x1)],0x1),_0xb8b8be['_v']('\x20'),_0x583dc4('b-col',{'attrs':{'lg':'6'}},[_0x583dc4(a48_0x8bd6('0x22'),{'staticClass':'block','attrs':{'content-class':a48_0x8bd6('0x2d'),'nav-class':a48_0x8bd6('0x2a')}},[_0x583dc4(a48_0x8bd6('0x31'),{'staticClass':a48_0x8bd6('0x1c'),'attrs':{'active':'','title':a48_0x8bd6('0x2f')}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x24'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v']('Content\x20slides\x20up..')])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'staticClass':a48_0x8bd6('0x1c'),'attrs':{'title':'Profile'}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v']('Profile\x20Content')]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0x6'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'staticClass':a48_0x8bd6('0x1c'),'attrs':{'title-item-class':a48_0x8bd6('0xc')},'scopedSlots':_0xb8b8be['_u']([{'key':a48_0x8bd6('0xb'),'fn':function(){return[_0x583dc4('i',{'staticClass':a48_0x8bd6('0x35')})];},'proxy':!![]}])},[_0xb8b8be['_v']('\x20'),_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x13'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v']('Content\x20slides\x20up..')])])],0x1),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x22'),{'staticClass':a48_0x8bd6('0x16'),'attrs':{'content-class':'block-content\x20overflow-hidden','nav-class':'nav-tabs-block'}},[_0x583dc4(a48_0x8bd6('0x31'),{'staticClass':a48_0x8bd6('0x0'),'attrs':{'active':'','title':a48_0x8bd6('0x2f')}},[_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x24'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0x14'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4(a48_0x8bd6('0x31'),{'staticClass':a48_0x8bd6('0x0'),'attrs':{'title':a48_0x8bd6('0x1f')}},[_0x583dc4('h4',{'staticClass':'font-w400'},[_0xb8b8be['_v'](a48_0x8bd6('0x1b'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v'](a48_0x8bd6('0x14'))])]),_0xb8b8be['_v']('\x20'),_0x583dc4('b-tab',{'staticClass':a48_0x8bd6('0x0'),'attrs':{'title-item-class':a48_0x8bd6('0xc')},'scopedSlots':_0xb8b8be['_u']([{'key':a48_0x8bd6('0xb'),'fn':function(){return[_0x583dc4('i',{'staticClass':a48_0x8bd6('0x35')})];},'proxy':!![]}])},[_0xb8b8be['_v']('\x20'),_0x583dc4('h4',{'staticClass':a48_0x8bd6('0x17')},[_0xb8b8be['_v'](a48_0x8bd6('0x13'))]),_0xb8b8be['_v']('\x20'),_0x583dc4('p',[_0xb8b8be['_v']('Content\x20slides\x20in\x20to\x20the\x20right..')])])],0x1)],0x1)],0x1)],0x1)],0x1);};var _0x41e938=[];_0x5a1fd1[a48_0x8bd6('0xd')]=!![];},'./resources/js/src/views/elements/Tabs.vue':function(_0x4fdd8c,_0x4678a6,_0x61adba){'use strict';_0x61adba['r'](_0x4678a6);var _0x5dc000=_0x61adba(a48_0x8bd6('0x23'));var _0x356c14=_0x61adba('./node_modules/vue-loader/lib/runtime/componentNormalizer.js');var _0x64338f={};var _0x5b9716=Object(_0x356c14[a48_0x8bd6('0x34')])(_0x64338f,_0x5dc000[a48_0x8bd6('0x20')],_0x5dc000[a48_0x8bd6('0xe')],![],null,null,null);if(![]){var _0x5cd548;}_0x5b9716[a48_0x8bd6('0x9')]['__file']=a48_0x8bd6('0x28');_0x4678a6['default']=_0x5b9716[a48_0x8bd6('0x26')];},'./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&':function(_0x112533,_0x145a97,_0x318a09){'use strict';_0x318a09['r'](_0x145a97);var _0x4130d2=_0x318a09(a48_0x8bd6('0x2'));_0x318a09['d'](_0x145a97,'render',function(){return _0x4130d2['render'];});_0x318a09['d'](_0x145a97,a48_0x8bd6('0xe'),function(){return _0x4130d2['staticRenderFns'];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[48],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Generate tabbed interfaces with ease.",
+          title: "Tabs"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Tabs")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c("h2", { staticClass: "content-heading" }, [_vm._v("Block Tabs")]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "content-class": "block-content",
+                        "nav-class": "nav-tabs-block"
+                      }
+                    },
+                    [
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("...")])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "content-class": "block-content",
+                        "nav-class": "nav-tabs-alt"
+                      }
+                    },
+                    [
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("...")])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "content-class": "block-content",
+                        "nav-class": "nav-tabs-block justify-content-end"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "mr-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("...")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "content-class": "block-content",
+                        "nav-class": "nav-tabs-alt justify-content-end"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "mr-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("...")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("...")])
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "content-heading" }, [
+            _vm._v("Tabs with Animation")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "content-class": "block-content overflow-hidden",
+                        "nav-class": "nav-tabs-block"
+                      }
+                    },
+                    [
+                      _c("b-tab", { attrs: { active: "", title: "Home" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Home Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Content fades in..")])
+                      ]),
+                      _vm._v(" "),
+                      _c("b-tab", { attrs: { title: "Profile" } }, [
+                        _c("h4", { staticClass: "font-w400" }, [
+                          _vm._v("Profile Content")
+                        ]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Content fades in..")])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content fades in..")])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "content-class": "block-content overflow-hidden",
+                        "nav-class": "nav-tabs-block"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-left",
+                          attrs: { active: "", title: "Home" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Home Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the left..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-left",
+                          attrs: { title: "Profile" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Profile Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the left..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-left",
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the left..")])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { lg: "6" } },
+                [
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "content-class": "block-content overflow-hidden",
+                        "nav-class": "nav-tabs-block"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-up",
+                          attrs: { active: "", title: "Home" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Home Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides up..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        { staticClass: "fade-up", attrs: { title: "Profile" } },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Profile Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides up..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-up",
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides up..")])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tabs",
+                    {
+                      staticClass: "block",
+                      attrs: {
+                        "content-class": "block-content overflow-hidden",
+                        "nav-class": "nav-tabs-block"
+                      }
+                    },
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-right",
+                          attrs: { active: "", title: "Home" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Home Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the right..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-right",
+                          attrs: { title: "Profile" }
+                        },
+                        [
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Profile Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the right..")])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        {
+                          staticClass: "fade-right",
+                          attrs: { "title-item-class": "ml-auto" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "title",
+                              fn: function() {
+                                return [
+                                  _c("i", { staticClass: "si si-settings" })
+                                ]
+                              },
+                              proxy: true
+                            }
+                          ])
+                        },
+                        [
+                          _vm._v(" "),
+                          _c("h4", { staticClass: "font-w400" }, [
+                            _vm._v("Settings Content")
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("Content slides in to the right..")])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Tabs.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/src/views/elements/Tabs.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tabs.vue?vue&type=template&id=08cb3c1c& */ "./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Tabs.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c& ***!
+  \*********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tabs.vue?vue&type=template&id=08cb3c1c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Tabs.vue?vue&type=template&id=08cb3c1c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tabs_vue_vue_type_template_id_08cb3c1c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

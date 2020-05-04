@@ -1,1 +1,748 @@
-var a46_0x2366=['exports','./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8&','_withStripped','v-b-popover.hover.html.nofade.left','./node_modules/vue-loader/lib/runtime/componentNormalizer.js','webpackJsonp','HTML','b-row','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20enable\x20a\x20fade\x20animation\x20to\x20your\x20popovers\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','b-breadcrumb-item','v-b-popover.hover.html.nofade.right','Animation','Top\x20Popover','resources/js/src/views/elements/Popovers.vue','b-breadcrumb','javascript:void(0)','v-b-popover.hover.html.nofade.bottom','b-popover','$createElement','staticRenderFns','b-col','default','content','Popovers','font-size-sm\x20text-muted','primary','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Show\x20popovers\x20on\x20hover\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v-b-popover.hover.right','options','This\x20is\x20example\x20content.\x20You\x20can\x20put\x20a\x20description\x20or\x20more\x20info\x20here.','v-b-popover.hover.bottom','v-b-popover.hover.nofade.top','Left\x20Popover','v-b-popover.hover.nofade.right','div','Popover\x20Title','Elements','v-b-popover.hover.top','__file','extra','base-block','Right\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v-b-popover.click.nofade.left','Click\x20Triggered','Bottom\x20Popover','secondary','_self','\x27This\x20is\x20example\x20content.\x20You\x20can\x20put\x20a\x20description\x20or\x20more\x20info\x20here.\x27','b-button','render','Bottom\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','items-push\x20text-center','base-page-heading','Left\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','breadcrumb-alt','Right\x20Popover','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20You\x20can\x20add\x20HTML\x20in\x20your\x20popovers\x20as\x20well\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','v-b-popover.click.nofade.bottom','Top\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8&','v-b-popover.hover.html.nofade.top','v-b-popover.hover.nofade.left','\x27<img\x20class=\x5c\x27img-avatar\x5c\x27\x20src=\x5c\x27/images/avatars/avatar10.jpg\x5c\x27\x20alt=\x5c\x27\x5c\x27>\x27','<img\x20class=\x27img-avatar\x27\x20src=\x27/images/avatars/avatar10.jpg\x27\x20alt=\x27\x27>'];(function(_0x29b60a,_0x23666a){var _0x2c6a5c=function(_0x130621){while(--_0x130621){_0x29b60a['push'](_0x29b60a['shift']());}};_0x2c6a5c(++_0x23666a);}(a46_0x2366,0x113));var a46_0x2c6a=function(_0x29b60a,_0x23666a){_0x29b60a=_0x29b60a-0x0;var _0x2c6a5c=a46_0x2366[_0x29b60a];return _0x2c6a5c;};(window[a46_0x2c6a('0x32')]=window[a46_0x2c6a('0x32')]||[])['push']([[0x2e],{'./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8&':function(_0x515201,_0x1b8ca7,_0xad82a){'use strict';_0xad82a['r'](_0x1b8ca7);_0xad82a['d'](_0x1b8ca7,a46_0x2c6a('0x1e'),function(){return _0x33792e;});_0xad82a['d'](_0x1b8ca7,'staticRenderFns',function(){return _0x18feb5;});var _0x33792e=function(){var _0x160ec5=this;var _0x5a31ce=_0x160ec5[a46_0x2c6a('0x3f')];var _0x21fbf5=_0x160ec5[a46_0x2c6a('0x1b')]['_c']||_0x5a31ce;return _0x21fbf5(a46_0x2c6a('0xf'),[_0x21fbf5(a46_0x2c6a('0x21'),{'attrs':{'subtitle':'Similar\x20to\x20the\x20ones\x20found\x20in\x20iOS.','title':'Popovers'},'scopedSlots':_0x160ec5['_u']([{'key':a46_0x2c6a('0x14'),'fn':function(){return[_0x21fbf5(a46_0x2c6a('0x3b'),{'staticClass':a46_0x2c6a('0x23')},[_0x21fbf5(a46_0x2c6a('0x36'),{'attrs':{'href':a46_0x2c6a('0x3c')}},[_0x160ec5['_v'](a46_0x2c6a('0x11'))]),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x36'),{'attrs':{'active':''}},[_0x160ec5['_v'](a46_0x2c6a('0x4'))])],0x1)];},'proxy':!![]}])}),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0xf'),{'staticClass':a46_0x2c6a('0x3')},[_0x21fbf5('base-block',{'attrs':{'title':'Default'}},[_0x21fbf5('p',{'staticClass':a46_0x2c6a('0x5')},[_0x160ec5['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Show\x20popovers\x20on\x20hover\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x34'),{'staticClass':a46_0x2c6a('0x20')},[_0x21fbf5('b-col',{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5('b-button',{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':a46_0x2c6a('0xc'),'value':a46_0x2c6a('0xa'),'expression':a46_0x2c6a('0x1c'),'modifiers':{'hover':!![],'nofade':!![],'top':!![]}}],'attrs':{'block':'','size':'sm','title':'Top\x20Popover','variant':a46_0x2c6a('0x6')}},[_0x160ec5['_v']('Top\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':a46_0x2c6a('0xe'),'value':'This\x20is\x20example\x20content.\x20You\x20can\x20put\x20a\x20description\x20or\x20more\x20info\x20here.','expression':'\x27This\x20is\x20example\x20content.\x20You\x20can\x20put\x20a\x20description\x20or\x20more\x20info\x20here.\x27','modifiers':{'hover':!![],'nofade':!![],'right':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x24'),'variant':a46_0x2c6a('0x6')}},[_0x160ec5['_v'](a46_0x2c6a('0x16'))])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':'b-popover','rawName':'v-b-popover.hover.nofade.bottom','value':'This\x20is\x20example\x20content.\x20You\x20can\x20put\x20a\x20description\x20or\x20more\x20info\x20here.','expression':a46_0x2c6a('0x1c'),'modifiers':{'hover':!![],'nofade':!![],'bottom':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x19'),'variant':a46_0x2c6a('0x6')}},[_0x160ec5['_v'](a46_0x2c6a('0x1f'))])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':a46_0x2c6a('0x2a'),'value':a46_0x2c6a('0xa'),'expression':a46_0x2c6a('0x1c'),'modifiers':{'hover':!![],'nofade':!![],'left':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0xd'),'variant':'primary'}},[_0x160ec5['_v'](a46_0x2c6a('0x22'))])],0x1)],0x1)],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x15'),{'attrs':{'title':a46_0x2c6a('0x18')}},[_0x21fbf5('p',{'staticClass':a46_0x2c6a('0x5')},[_0x160ec5['_v'](a46_0x2c6a('0x7'))]),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x34'),{'staticClass':a46_0x2c6a('0x20')},[_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5('b-button',{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':'v-b-popover.click.nofade.top','value':a46_0x2c6a('0xa'),'expression':a46_0x2c6a('0x1c'),'modifiers':{'click':!![],'nofade':!![],'top':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x39'),'variant':a46_0x2c6a('0x1a')}},[_0x160ec5['_v'](a46_0x2c6a('0x27'))])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5('b-button',{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':'v-b-popover.click.nofade.right','value':a46_0x2c6a('0xa'),'expression':a46_0x2c6a('0x1c'),'modifiers':{'click':!![],'nofade':!![],'right':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x24'),'variant':a46_0x2c6a('0x1a')}},[_0x160ec5['_v'](a46_0x2c6a('0x16'))])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5('b-col',{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':'b-popover','rawName':a46_0x2c6a('0x26'),'value':'This\x20is\x20example\x20content.\x20You\x20can\x20put\x20a\x20description\x20or\x20more\x20info\x20here.','expression':a46_0x2c6a('0x1c'),'modifiers':{'click':!![],'nofade':!![],'bottom':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x19'),'variant':a46_0x2c6a('0x1a')}},[_0x160ec5['_v'](a46_0x2c6a('0x1f'))])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':a46_0x2c6a('0x17'),'value':a46_0x2c6a('0xa'),'expression':a46_0x2c6a('0x1c'),'modifiers':{'click':!![],'nofade':!![],'left':!![]}}],'attrs':{'block':'','size':'sm','title':'Left\x20Popover','variant':'secondary'}},[_0x160ec5['_v'](a46_0x2c6a('0x22'))])],0x1)],0x1)],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x15'),{'attrs':{'title':a46_0x2c6a('0x38')}},[_0x21fbf5('p',{'staticClass':a46_0x2c6a('0x5')},[_0x160ec5['_v'](a46_0x2c6a('0x35'))]),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x34'),{'staticClass':a46_0x2c6a('0x20')},[_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':'b-popover','rawName':a46_0x2c6a('0x12'),'value':a46_0x2c6a('0xa'),'expression':a46_0x2c6a('0x1c'),'modifiers':{'hover':!![],'top':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x39'),'variant':'secondary'}},[_0x160ec5['_v']('Top\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':a46_0x2c6a('0x8'),'value':'This\x20is\x20example\x20content.\x20You\x20can\x20put\x20a\x20description\x20or\x20more\x20info\x20here.','expression':a46_0x2c6a('0x1c'),'modifiers':{'hover':!![],'right':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x24'),'variant':a46_0x2c6a('0x1a')}},[_0x160ec5['_v'](a46_0x2c6a('0x16'))])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':a46_0x2c6a('0xb'),'value':a46_0x2c6a('0xa'),'expression':a46_0x2c6a('0x1c'),'modifiers':{'hover':!![],'bottom':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x19'),'variant':a46_0x2c6a('0x1a')}},[_0x160ec5['_v'](a46_0x2c6a('0x1f'))])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5('b-col',{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':'v-b-popover.hover.left','value':'This\x20is\x20example\x20content.\x20You\x20can\x20put\x20a\x20description\x20or\x20more\x20info\x20here.','expression':'\x27This\x20is\x20example\x20content.\x20You\x20can\x20put\x20a\x20description\x20or\x20more\x20info\x20here.\x27','modifiers':{'hover':!![],'left':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0xd'),'variant':a46_0x2c6a('0x1a')}},[_0x160ec5['_v'](a46_0x2c6a('0x22'))])],0x1)],0x1)],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x15'),{'attrs':{'title':a46_0x2c6a('0x33')}},[_0x21fbf5('p',{'staticClass':a46_0x2c6a('0x5')},[_0x160ec5['_v'](a46_0x2c6a('0x25'))]),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x34'),{'staticClass':a46_0x2c6a('0x20')},[_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':a46_0x2c6a('0x29'),'value':a46_0x2c6a('0x2c'),'expression':a46_0x2c6a('0x2b'),'modifiers':{'hover':!![],'html':!![],'nofade':!![],'top':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x10'),'variant':'secondary'}},[_0x160ec5['_v'](a46_0x2c6a('0x27'))])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5('b-col',{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5('b-button',{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':a46_0x2c6a('0x37'),'value':a46_0x2c6a('0x2c'),'expression':'\x27<img\x20class=\x5c\x27img-avatar\x5c\x27\x20src=\x5c\x27/images/avatars/avatar10.jpg\x5c\x27\x20alt=\x5c\x27\x5c\x27>\x27','modifiers':{'hover':!![],'html':!![],'nofade':!![],'right':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x10'),'variant':a46_0x2c6a('0x1a')}},[_0x160ec5['_v']('Right\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5(a46_0x2c6a('0x1'),{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5(a46_0x2c6a('0x1d'),{'directives':[{'name':a46_0x2c6a('0x3e'),'rawName':a46_0x2c6a('0x3d'),'value':'<img\x20class=\x27img-avatar\x27\x20src=\x27/images/avatars/avatar10.jpg\x27\x20alt=\x27\x27>','expression':'\x27<img\x20class=\x5c\x27img-avatar\x5c\x27\x20src=\x5c\x27/images/avatars/avatar10.jpg\x5c\x27\x20alt=\x5c\x27\x5c\x27>\x27','modifiers':{'hover':!![],'html':!![],'nofade':!![],'bottom':!![]}}],'attrs':{'block':'','size':'sm','title':a46_0x2c6a('0x10'),'variant':'secondary'}},[_0x160ec5['_v']('Bottom\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1),_0x160ec5['_v']('\x20'),_0x21fbf5('b-col',{'attrs':{'sm':'6','xl':'3'}},[_0x21fbf5('b-button',{'directives':[{'name':'b-popover','rawName':a46_0x2c6a('0x30'),'value':a46_0x2c6a('0x2c'),'expression':a46_0x2c6a('0x2b'),'modifiers':{'hover':!![],'html':!![],'nofade':!![],'left':!![]}}],'attrs':{'block':'','size':'sm','title':'Popover\x20Title','variant':a46_0x2c6a('0x1a')}},[_0x160ec5['_v']('Left\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])],0x1)],0x1)],0x1)],0x1)],0x1);};var _0x18feb5=[];_0x33792e[a46_0x2c6a('0x2f')]=!![];},'./resources/js/src/views/elements/Popovers.vue':function(_0x524ca8,_0x134df1,_0x2a6f66){'use strict';_0x2a6f66['r'](_0x134df1);var _0x116506=_0x2a6f66(a46_0x2c6a('0x28'));var _0x34ccae=_0x2a6f66(a46_0x2c6a('0x31'));var _0x194a8d={};var _0x15277b=Object(_0x34ccae[a46_0x2c6a('0x2')])(_0x194a8d,_0x116506[a46_0x2c6a('0x1e')],_0x116506[a46_0x2c6a('0x0')],![],null,null,null);if(![]){var _0x1248cb;}_0x15277b[a46_0x2c6a('0x9')][a46_0x2c6a('0x13')]=a46_0x2c6a('0x3a');_0x134df1[a46_0x2c6a('0x2')]=_0x15277b[a46_0x2c6a('0x2d')];},'./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8&':function(_0x16d1b4,_0x1fbff5,_0x121fde){'use strict';_0x121fde['r'](_0x1fbff5);var _0x2141b7=_0x121fde(a46_0x2c6a('0x2e'));_0x121fde['d'](_0x1fbff5,a46_0x2c6a('0x1e'),function(){return _0x2141b7[a46_0x2c6a('0x1e')];});_0x121fde['d'](_0x1fbff5,a46_0x2c6a('0x0'),function(){return _0x2141b7[a46_0x2c6a('0x0')];});}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[46],{
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("base-page-heading", {
+        attrs: {
+          subtitle: "Similar to the ones found in iOS.",
+          title: "Popovers"
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "extra",
+            fn: function() {
+              return [
+                _c(
+                  "b-breadcrumb",
+                  { staticClass: "breadcrumb-alt" },
+                  [
+                    _c(
+                      "b-breadcrumb-item",
+                      { attrs: { href: "javascript:void(0)" } },
+                      [_vm._v("Elements")]
+                    ),
+                    _vm._v(" "),
+                    _c("b-breadcrumb-item", { attrs: { active: "" } }, [
+                      _vm._v("Popovers")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            },
+            proxy: true
+          }
+        ])
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "content" },
+        [
+          _c(
+            "base-block",
+            { attrs: { title: "Default" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v("\n                Show popovers on hover\n            ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.nofade.top",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                top: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Top Popover",
+                            variant: "primary"
+                          }
+                        },
+                        [_vm._v("Top\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.nofade.right",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                right: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Right Popover",
+                            variant: "primary"
+                          }
+                        },
+                        [_vm._v("Right\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.nofade.bottom",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                bottom: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Bottom Popover",
+                            variant: "primary"
+                          }
+                        },
+                        [_vm._v("Bottom\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.nofade.left",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: {
+                                hover: true,
+                                nofade: true,
+                                left: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Left Popover",
+                            variant: "primary"
+                          }
+                        },
+                        [_vm._v("Left\n                    ")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Click Triggered" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v("\n                Show popovers on hover\n            ")
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.click.nofade.top",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                top: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Top Popover",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Top\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.click.nofade.right",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                right: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Right Popover",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Right\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.click.nofade.bottom",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                bottom: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Bottom Popover",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Bottom\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.click.nofade.left",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: {
+                                click: true,
+                                nofade: true,
+                                left: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Left Popover",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Left\n                    ")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "Animation" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                You can enable a fade animation to your popovers\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.top",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: { hover: true, top: true }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Top Popover",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Top\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.right",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: { hover: true, right: true }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Right Popover",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Right\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.bottom",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: { hover: true, bottom: true }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Bottom Popover",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Bottom\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.left",
+                              value:
+                                "This is example content. You can put a description or more info here.",
+                              expression:
+                                "'This is example content. You can put a description or more info here.'",
+                              modifiers: { hover: true, left: true }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Left Popover",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Left\n                    ")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "base-block",
+            { attrs: { title: "HTML" } },
+            [
+              _c("p", { staticClass: "font-size-sm text-muted" }, [
+                _vm._v(
+                  "\n                You can add HTML in your popovers as well\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-row",
+                { staticClass: "items-push text-center" },
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.html.nofade.top",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                top: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Popover Title",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Top\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.html.nofade.right",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                right: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Popover Title",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Right\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.html.nofade.bottom",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                bottom: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Popover Title",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Bottom\n                    ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { sm: "6", xl: "3" } },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-popover",
+                              rawName: "v-b-popover.hover.html.nofade.left",
+                              value:
+                                "<img class='img-avatar' src='/images/avatars/avatar10.jpg' alt=''>",
+                              expression:
+                                "'<img class=\\'img-avatar\\' src=\\'/images/avatars/avatar10.jpg\\' alt=\\'\\'>'",
+                              modifiers: {
+                                hover: true,
+                                html: true,
+                                nofade: true,
+                                left: true
+                              }
+                            }
+                          ],
+                          attrs: {
+                            block: "",
+                            size: "sm",
+                            title: "Popover Title",
+                            variant: "secondary"
+                          }
+                        },
+                        [_vm._v("Left\n                    ")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Popovers.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/src/views/elements/Popovers.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Popovers_vue_vue_type_template_id_8a64d7e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Popovers.vue?vue&type=template&id=8a64d7e8& */ "./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Popovers_vue_vue_type_template_id_8a64d7e8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Popovers_vue_vue_type_template_id_8a64d7e8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/elements/Popovers.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popovers_vue_vue_type_template_id_8a64d7e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Popovers.vue?vue&type=template&id=8a64d7e8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/elements/Popovers.vue?vue&type=template&id=8a64d7e8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popovers_vue_vue_type_template_id_8a64d7e8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popovers_vue_vue_type_template_id_8a64d7e8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);
