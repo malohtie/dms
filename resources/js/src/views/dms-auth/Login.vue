@@ -15,9 +15,6 @@
                                 <h1 class="h4 mb-1">
                                     Sign In
                                 </h1>
-                                <h2 class="h6 font-w400 text-muted mb-3">
-                                    A perfect match for your project
-                                </h2>
                             </div>
                             <!-- END Header -->
 
@@ -25,33 +22,23 @@
                             <b-form @submit.stop.prevent="onSubmit">
                                 <div class="py-3">
                                     <div class="form-group">
-                                        <b-form-input :state="!$v.form.username.$error && null" aria-describedby="username-feedback" class="form-control-alt" id="username"
-                                                      name="username" placeholder="Username"
-                                                      size="lg"
-                                                      v-model="$v.form.username.$model"></b-form-input>
+                                        <b-form-input  id="username" name="username" placeholder="Username" size="lg"
+                                            :state="!$v.form.username.$error && null"
+                                            aria-describedby="username-feedback"
+                                            class="form-control-alt"
+                                            v-model="$v.form.username.$model" />
                                     </div>
                                     <div class="form-group">
-                                        <b-form-input :state="!$v.form.password.$error && null" aria-describedby="password-feedback" class="form-control-alt" id="password"
-                                                      name="password" placeholder="Password"
-                                                      size="lg"
-                                                      type="password"
-                                                      v-model="$v.form.password.$model"></b-form-input>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="d-md-flex align-items-md-center justify-content-md-between">
-                                            <b-form-checkbox id="remember" name="remember" switch>Remember Me
-                                            </b-form-checkbox>
-                                            <div class="py-2">
-                                                <router-link class="font-size-sm" to="/auth/reminder2">Forgot
-                                                    Password?
-                                                </router-link>
-                                            </div>
-                                        </div>
+                                        <b-form-input id="password" name="password" placeholder="Password" size="lg" type="password"
+                                                      :state="!$v.form.password.$error && null"
+                                                      aria-describedby="password-feedback"
+                                                      class="form-control-alt"
+                                                      v-model="$v.form.password.$model" />
                                     </div>
                                 </div>
                                 <b-row class="form-group row justify-content-center mb-0">
                                     <b-col md="6" xl="5">
-                                        <b-button block type="submit" variant="primary">
+                                        <b-button v-click-ripple block type="submit" variant="primary">
                                             <i class="fa fa-fw fa-sign-in-alt mr-1"></i> Sign In
                                         </b-button>
                                     </b-col>
@@ -66,8 +53,7 @@
 
             <!-- Footer -->
             <div class="font-size-sm text-center text-muted py-3">
-                <strong>{{ $store.getters.appName + ' ' + $store.getters.appVersion }}</strong> &copy; {{
-                $store.getters.appCopyright }}
+                <strong>{{ appName + ' ' + appVersion }}</strong> &copy; {{ appCopyright }}
             </div>
             <!-- END Footer -->
         </div>
@@ -76,9 +62,10 @@
 </template>
 
 <script>
-    // Vuelidate, for more info and examples you can check out https://github.com/vuelidate/vuelidate
+
     import {validationMixin} from 'vuelidate'
     import {minLength, required} from 'vuelidate/lib/validators'
+    import {mapGetters} from "vuex";
 
     export default {
         mixins: [validationMixin],
@@ -90,6 +77,13 @@
                 }
             }
         },
+        computed: {
+            ...mapGetters([
+                'appName',
+                'appVersion',
+                'appCopyright'
+            ])
+        },
         validations: {
             form: {
                 username: {
@@ -98,7 +92,7 @@
                 },
                 password: {
                     required,
-                    minLength: minLength(5)
+                    minLength: minLength(6)
                 }
             }
         },
@@ -113,6 +107,9 @@
                 // Form submit logic
                 this.$router.push('/backend')
             }
+        },
+        mounted() {
+            this.$http.get('/api');
         }
     }
 </script>

@@ -9,6 +9,7 @@ import mutations from "./mutations"
 import state from "./state"
 import actions from "./actions"
 import config from "@/../config"
+import auth from './modules/auth'
 // Register Vuex
 Vue.use(Vuex)
 
@@ -19,5 +20,7 @@ export default new Vuex.Store({
     state,
     actions,
     strict: !config.appDebug,
-    modules: {}
+    modules: {
+        auth: auth
+    }
 })

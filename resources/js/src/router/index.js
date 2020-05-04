@@ -8,6 +8,7 @@ Vue.use(Router)
 
 import landing from "./landing"
 import error from "./error"
+import auth from "./auth";
 
 // Router Configuration
 const router =new Router({
@@ -20,6 +21,7 @@ const router =new Router({
     },
     routes: [
         ...landing,
+        ...auth,
         ...error
     ]
 })
