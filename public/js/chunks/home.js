@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[3],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["home"],{
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/dms-landing/Landing.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************************************************************************************************************!*\
@@ -194,7 +194,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   },
   methods: {
     send: function send() {
-      console.log('OK, YES l');
+      console.log('OK, YES');
     }
   }
 });
@@ -481,7 +481,7 @@ var render = function() {
                   { attrs: { id: "email-feedback" } },
                   [
                     _vm._v(
-                      "\n                        Please enter your email!\n                    "
+                      "\n                        Please enter valid email address!\n                    "
                     )
                   ]
                 )

@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/chunks/" + ({}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "js/chunks/" + ({"vendors~home":"vendors~home","home":"home"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -63863,7 +63863,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _landing__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./landing */ "./resources/js/src/router/landing.js");
@@ -63890,7 +63890,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
-  base: process.env.MIX_URL_BASE,
+  base: "",
   linkActiveClass: 'active',
   linkExactActiveClass: '',
   scrollBehavior: function scrollBehavior() {
@@ -63901,7 +63901,6 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
   },
   routes: _toConsumableArray(_landing__WEBPACK_IMPORTED_MODULE_2__["default"])
 }));
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../node_modules/process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -63921,13 +63920,13 @@ __webpack_require__.r(__webpack_exports__);
   path: '/',
   redirect: '/home',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(4), __webpack_require__.e(76)]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
   },
   children: [{
     path: '/home',
     name: 'Home',
     component: function component() {
-      return Promise.all(/*! import() */[__webpack_require__.e(77), __webpack_require__.e(78)]).then(__webpack_require__.bind(null, /*! @/views/dms-landing/Landing */ "./resources/js/src/views/dms-landing/Landing.vue"));
+      return Promise.all(/*! import() | home */[__webpack_require__.e("vendors~home"), __webpack_require__.e("home")]).then(__webpack_require__.bind(null, /*! @/views/dms-landing/Landing */ "./resources/js/src/views/dms-landing/Landing.vue"));
     }
   }]
 }]);

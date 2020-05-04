@@ -98,7 +98,7 @@
                                       :state="$v.form.email.$dirty ? !$v.form.email.$error : null"
                                       aria-describedby="email-feedback"></b-form-input>
                         <b-form-invalid-feedback id="email-feedback">
-                            Please enter your email!
+                            Please enter valid email address!
                         </b-form-invalid-feedback>
                     </b-form-group>
 
@@ -182,7 +182,7 @@
         },
         methods: {
             send() {
-                console.log('OK');
+                console.log('OK, YES');
             }
         }
     }

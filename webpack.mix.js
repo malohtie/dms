@@ -12,7 +12,10 @@ require('dotenv').config();
  | file for the application as well as bundling up all the JS files.
  |
  */
-mix.js('resources/js/app.js', 'public/js');
+mix.js('resources/js/app.js', 'public/js').browserSync({
+    proxy: 'http://127.0.0.1:8000', // replace with your laravel output
+});
+
 mix.sass('resources/sass/main.scss', 'public/css');
 mix.webpackConfig(config);
 mix.setResourceRoot("/");

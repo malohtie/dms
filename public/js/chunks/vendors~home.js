@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[2],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendors~home"],{
 
 /***/ "./node_modules/vuelidate/lib/index.js":
 /*!*********************************************!*\

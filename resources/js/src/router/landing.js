@@ -10,7 +10,7 @@ export default [
             {
                 path: '/home',
                 name: 'Home',
-                component: () => import("@/views/dms-landing/Landing")
+                component: () => import(/* webpackChunkName: "home" */"@/views/dms-landing/Landing")
             }
         ]
     }
