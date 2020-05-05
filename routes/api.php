@@ -13,7 +13,15 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+Route::prefix('v1')->group(function () {
+    Route::post('/login', function (Request $request) {
+        return 'ok';
+    });
+    Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+        return $request->user();
+    });
+});
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::fallback(function(){
+    return response()->json(['error' => 'API NOT FOUND'], 404);
 });

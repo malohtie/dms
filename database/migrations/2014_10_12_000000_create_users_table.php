@@ -21,6 +21,8 @@ class CreateUsersTable extends Migration
             $table->enum('role', ['admin', 'leader', 'user'])->default('user');
             $table->boolean('is_active')->default(false);
             $table->timestamps();
+
+            $table->index('username');
         });
     }
 

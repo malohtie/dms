@@ -43,4 +43,14 @@ return [
         'verify_csrf_token' => App\Http\Middleware\VerifyCsrfToken::class,
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Sanctum Prefix
+    |--------------------------------------------------------------------------
+    |
+    |
+    */
+
+    'prefix' => strtolower(env('MIX_APP_NAME')),
+
 ];
