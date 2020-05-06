@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->enum('role', ['admin', 'leader', 'user'])->default('user');
             $table->boolean('is_active')->default(false);
+            $table->rememberToken();
             $table->timestamps();
 
             $table->index('username');

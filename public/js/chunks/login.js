@@ -83,6 +83,15 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -92,7 +101,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     return {
       form: {
         username: null,
-        password: null
+        password: null,
+        remember: false
       }
     };
   },
@@ -106,23 +116,34 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       password: {
         required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["required"],
         minLength: Object(vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["minLength"])(6)
-      }
+      },
+      remember: {}
     }
   },
   methods: {
     onSubmit: function onSubmit() {
+      var _this = this;
+
       this.$v.form.$touch();
 
       if (this.$v.form.$anyError) {
-        return;
-      } // Form submit logic
+        this.$swal({
+          icon: 'success',
+          title: 'Signed in successfully',
+          toast: true,
+          position: 'top-end',
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+          onOpen: function onOpen(toast) {
+            toast.addEventListener('mouseenter', _this.$swal.stopTimer);
+            toast.addEventListener('mouseleave', _this.$swal.resumeTimer);
+          }
+        });
+      }
 
-
-      this.$router.push('/backend');
+      console.log('ok');
     }
-  },
-  mounted: function mounted() {
-    this.$http.get('/api');
   }
 });
 
@@ -244,7 +265,42 @@ var render = function() {
                               })
                             ],
                             1
-                          )
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-md-flex align-items-md-center justify-content-md-between"
+                              },
+                              [
+                                _c(
+                                  "b-form-checkbox",
+                                  {
+                                    attrs: {
+                                      id: "remember",
+                                      name: "remember",
+                                      switch: ""
+                                    },
+                                    model: {
+                                      value: _vm.$v.form.remember.$model,
+                                      callback: function($$v) {
+                                        _vm.$set(
+                                          _vm.$v.form.remember,
+                                          "$model",
+                                          $$v
+                                        )
+                                      },
+                                      expression: "$v.form.remember.$model"
+                                    }
+                                  },
+                                  [_vm._v("Remember Me")]
+                                )
+                              ],
+                              1
+                            )
+                          ])
                         ]),
                         _vm._v(" "),
                         _c(

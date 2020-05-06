@@ -14,14 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::prefix('v1')->group(function () {
-    Route::post('/login', function (Request $request) {
-        return 'ok';
-    });
-    Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-        return $request->user();
+    Route::post('/login', 'AuthController@login');
+    Route::group(['middleware' => ['auth:sanctum']], function() {
+        Route::get('/user', 'AuthController@user');
     });
 });
 
+//fallback all requests to 404 if not found
 Route::fallback(function(){
     return response()->json(['error' => 'API NOT FOUND'], 404);
 });

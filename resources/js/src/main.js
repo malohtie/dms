@@ -21,5 +21,9 @@ Vue.config.productionTip = false
 new Vue({
     store,
     router,
-    render: h => h(App)
+    render: h => h(App),
+    created() {
+        //setup sanctum crsf cookie when creating vue instance
+        this.$http.get(`/${store.getters.appName.toLowerCase()}/crsf-cookie`);
+    }
 }).$mount('#app')

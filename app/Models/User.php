@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -30,7 +30,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password',
+        'password', 'remember_token'
     ];
 
     /**
@@ -41,4 +41,9 @@ class User extends Authenticatable
     protected $casts = [
 
     ];
+
+    public static function getUser($username)
+    {
+        return self::where('username', $username)->first();
+    }
 }

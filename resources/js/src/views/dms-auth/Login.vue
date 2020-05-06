@@ -35,6 +35,15 @@
                                                       class="form-control-alt"
                                                       v-model="$v.form.password.$model" />
                                     </div>
+                                    <div class="form-group">
+                                        <div class="d-md-flex align-items-md-center justify-content-md-between">
+                                            <b-form-checkbox
+                                                id="remember"
+                                                name="remember"
+                                                switch
+                                                v-model="$v.form.remember.$model">Remember Me</b-form-checkbox>
+                                        </div>
+                                    </div>
                                 </div>
                                 <b-row class="form-group row justify-content-center mb-0">
                                     <b-col md="6" xl="5">
@@ -73,7 +82,8 @@
             return {
                 form: {
                     username: null,
-                    password: null
+                    password: null,
+                    remember: false
                 }
             }
         },
@@ -93,6 +103,9 @@
                 password: {
                     required,
                     minLength: minLength(6)
+                },
+                remember: {
+
                 }
             }
         },
@@ -101,15 +114,27 @@
                 this.$v.form.$touch()
 
                 if (this.$v.form.$anyError) {
-                    return
+
+                    this.$swal({
+                        icon: 'success',
+                        title: 'Signed in successfully',
+                        toast: true,
+                        position: 'top-end',
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: true,
+                        onOpen: (toast) => {
+                            toast.addEventListener('mouseenter', this.$swal.stopTimer)
+                            toast.addEventListener('mouseleave', this.$swal.resumeTimer)
+                        }
+                    })
                 }
 
-                // Form submit logic
-                this.$router.push('/backend')
+
+                console.log('ok')
+
+
             }
-        },
-        mounted() {
-            this.$http.get('/api');
         }
     }
 </script>

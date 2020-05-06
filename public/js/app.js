@@ -68888,6 +68888,10 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   router: _router__WEBPACK_IMPORTED_MODULE_1__["default"],
   render: function render(h) {
     return h(_App_vue__WEBPACK_IMPORTED_MODULE_2__["default"]);
+  },
+  created: function created() {
+    //setup sanctum crsf cookie when creating vue instance
+    this.$http.get("/".concat(_store__WEBPACK_IMPORTED_MODULE_3__["default"].getters.appName.toLowerCase(), "/crsf-cookie"));
   }
 }).$mount('#app');
 

@@ -2,6 +2,7 @@
 
 namespace App\Exceptions;
 
+use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;
@@ -51,16 +52,16 @@ class Handler extends ExceptionHandler
     public function render($request, Throwable $exception)
     {
         // This will replace our 404 response with a JSON response.
-        if ($exception instanceof ModelNotFoundException) {
+        if ($exception instanceof ModelNotFoundException || $exception instanceof NotFoundHttpException) {
             return response()->json([
                 'error' => 'Resource item not found.'
             ], 404);
         }
 
-        if ($exception instanceof NotFoundHttpException) {
+        if ($exception instanceof AuthorizationException) {
             return response()->json([
-                'error' => 'Resource not found.'
-            ], 404);
+                'error' => 'This action is unauthorized.'
+            ], 403);
         }
 
         if ($exception instanceof MethodNotAllowedHttpException) {
