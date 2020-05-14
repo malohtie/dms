@@ -24,6 +24,6 @@ new Vue({
     render: h => h(App),
     created() {
         //setup sanctum crsf cookie when creating vue instance
-        this.$http.get(`/${store.getters.appName.toLowerCase()}/crsf-cookie`);
+        this.$http({ url: '/${store.getters.appName.toLowerCase()}/crsf-cookie', baseURL: '' });
     }
 }).$mount('#app')

@@ -10,7 +10,9 @@ import state from "./state"
 import actions from "./actions"
 import config from "@/../config"
 import auth from './modules/auth'
+import axios from '@/http'
 // Register Vuex
+Vuex.Store.prototype.$http = axios
 Vue.use(Vuex)
 
 // Vuex Store

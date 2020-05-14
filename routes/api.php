@@ -14,10 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::prefix('v1')->group(function () {
-    Route::post('/login', 'AuthController@login');
-    Route::group(['middleware' => ['auth:sanctum']], function() {
-        Route::get('/user', 'AuthController@user');
+    //Authentication
+    Route::prefix('auth')->group(function () {
+        Route::post('/login', 'AuthController@login');
+        Route::post('/logout', 'AuthController@logout');
+        Route::get('/user', 'AuthController@user')->middleware('auth:sanctum'); //allow only authenticated user
     });
+
 });
 
 //fallback all requests to 404 if not found

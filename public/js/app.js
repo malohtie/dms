@@ -68803,15 +68803,7 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["default"]); //sweetAlert2
 
 
-var optionsSweetAlert = {
-  buttonsStyling: false,
-  customClass: {
-    confirmButton: 'btn btn-success m-1',
-    cancelButton: 'btn btn-danger m-1',
-    input: 'form-control'
-  }
-};
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_sweetalert2__WEBPACK_IMPORTED_MODULE_2__["default"], optionsSweetAlert); //axios
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_sweetalert2__WEBPACK_IMPORTED_MODULE_2__["default"]); //axios
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.prototype.$http = _http__WEBPACK_IMPORTED_MODULE_3__["default"];
@@ -68830,9 +68822,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/store */ "./resources/js/src/store/index.js");
+var _this = undefined;
 
 
-axios__WEBPACK_IMPORTED_MODULE_0___default.a.defaults.baseURL = '';
+
+axios__WEBPACK_IMPORTED_MODULE_0___default.a.defaults.baseURL = '/api';
 axios__WEBPACK_IMPORTED_MODULE_0___default.a.defaults.withCredentials = true;
 axios__WEBPACK_IMPORTED_MODULE_0___default.a.interceptors.request.use(function (config) {
   return config;
@@ -68841,7 +68835,9 @@ axios__WEBPACK_IMPORTED_MODULE_0___default.a.interceptors.response.use(function 
   return response;
 }, function (error) {
   if (error.response.status === 401) {
-    _store__WEBPACK_IMPORTED_MODULE_1__["default"].dispatch('auth/logout');
+    _store__WEBPACK_IMPORTED_MODULE_1__["default"].dispatch('auth/logout').then(function () {
+      return _this.$router.push('/login');
+    });
   }
 
   return Promise.reject(error);
@@ -68891,7 +68887,10 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   },
   created: function created() {
     //setup sanctum crsf cookie when creating vue instance
-    this.$http.get("/".concat(_store__WEBPACK_IMPORTED_MODULE_3__["default"].getters.appName.toLowerCase(), "/crsf-cookie"));
+    this.$http({
+      url: '/${store.getters.appName.toLowerCase()}/crsf-cookie',
+      baseURL: ''
+    });
   }
 }).$mount('#app');
 
@@ -69144,6 +69143,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./actions */ "./resources/js/src/store/actions.js");
 /* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/../config */ "./resources/js/config.js");
 /* harmony import */ var _modules_auth__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/auth */ "./resources/js/src/store/modules/auth/index.js");
+/* harmony import */ var _http__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/http */ "./resources/js/src/http/index.js");
 /*
  * VueX - State Management
  */
@@ -69154,8 +69154,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
  // Register Vuex
 
+vuex__WEBPACK_IMPORTED_MODULE_1__["default"].Store.prototype.$http = _http__WEBPACK_IMPORTED_MODULE_8__["default"];
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_1__["default"]); // Vuex Store
 
 /* harmony default export */ __webpack_exports__["default"] = (new vuex__WEBPACK_IMPORTED_MODULE_1__["default"].Store({
@@ -69180,14 +69182,49 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_1__
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+var prefixUrl = '/v1/auth/';
 /* harmony default export */ __webpack_exports__["default"] = ({
-  // eslint-disable-next-line no-unused-vars
+  //login and setup user state
   login: function login(_ref, payload) {
+    var _this = this;
+
     var commit = _ref.commit;
+    return new Promise(function (resolve, reject) {
+      _this.$http.post(prefixUrl + 'login', {
+        'username': payload.username,
+        'password': payload.password,
+        'remember': payload.remember
+      }).then(function (_ref2) {
+        var data = _ref2.data;
+
+        if (data.isLogged) {
+          commit('setUserData', data.user);
+          resolve({
+            'status': true
+          });
+        }
+
+        reject({
+          'message': 'Check your credentials and try again'
+        });
+      })["catch"](function (error) {
+        reject({
+          'message': error.message
+        });
+      });
+    });
   },
-  // eslint-disable-next-line no-unused-vars
-  logout: function logout(_ref2) {
-    var commit = _ref2.commit;
+  //logout
+  logout: function logout(_ref3) {
+    var _this2 = this;
+
+    var commit = _ref3.commit;
+    return new Promise(function (resolve) {
+      _this2.$http.post(prefixUrl + 'logout')["finally"](function () {
+        commit('clearUserData');
+        resolve();
+      });
+    });
   }
 });
 
@@ -69202,7 +69239,14 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  isLogged: function isLogged(state) {
+    return !!state.user;
+  },
+  user: function user(state) {
+    return state.user;
+  }
+});
 
 /***/ }),
 
@@ -69242,7 +69286,18 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  //set user data
+  setUserData: function setUserData(state, payload) {
+    state.user = payload;
+    localStorage.setItem('user', JSON.stringify(payload));
+  },
+  //remove user data
+  clearUserData: function clearUserData(state) {
+    state.user = null;
+    localStorage.removeItem('user');
+  }
+});
 
 /***/ }),
 
@@ -69255,7 +69310,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  user: JSON.parse(localStorage.getItem('user')) // get user data from local storage if available
+
+});
 
 /***/ }),
 

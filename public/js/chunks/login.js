@@ -115,7 +115,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       },
       password: {
         required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["required"],
-        minLength: Object(vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["minLength"])(6)
+        minLength: Object(vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["minLength"])(3)
       },
       remember: {}
     }
@@ -127,22 +127,27 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       this.$v.form.$touch();
 
       if (this.$v.form.$anyError) {
-        this.$swal({
-          icon: 'success',
-          title: 'Signed in successfully',
+        this.$swal('Oops...', 'Something Missing', 'error');
+        return;
+      }
+
+      this.$store.dispatch('auth/login', this.form).then(function (res) {
+        console.log(res);
+      })["catch"](function (error) {
+        _this.$swal({
           toast: true,
-          position: 'top-end',
+          position: 'bottom-end',
           showConfirmButton: false,
           timer: 3000,
           timerProgressBar: true,
           onOpen: function onOpen(toast) {
             toast.addEventListener('mouseenter', _this.$swal.stopTimer);
             toast.addEventListener('mouseleave', _this.$swal.resumeTimer);
-          }
+          },
+          icon: 'error',
+          title: error.message
         });
-      }
-
-      console.log('ok');
+      });
     }
   }
 });

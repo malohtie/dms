@@ -71,10 +71,9 @@
 </template>
 
 <script>
-
     import {validationMixin} from 'vuelidate'
     import {minLength, required} from 'vuelidate/lib/validators'
-    import {mapGetters} from "vuex";
+    import {mapGetters} from "vuex"
 
     export default {
         mixins: [validationMixin],
@@ -102,7 +101,7 @@
                 },
                 password: {
                     required,
-                    minLength: minLength(6)
+                    minLength: minLength(3)
                 },
                 remember: {
 
@@ -114,25 +113,27 @@
                 this.$v.form.$touch()
 
                 if (this.$v.form.$anyError) {
+                    this.$swal('Oops...', 'Something Missing', 'error')
+                    return
+                }
 
+                this.$store.dispatch('auth/login', this.form).then((res) => {
+                    console.log(res);
+                }).catch((error) => {
                     this.$swal({
-                        icon: 'success',
-                        title: 'Signed in successfully',
                         toast: true,
-                        position: 'top-end',
+                        position: 'bottom-end',
                         showConfirmButton: false,
                         timer: 3000,
                         timerProgressBar: true,
                         onOpen: (toast) => {
                             toast.addEventListener('mouseenter', this.$swal.stopTimer)
                             toast.addEventListener('mouseleave', this.$swal.resumeTimer)
-                        }
+                        },
+                        icon: 'error',
+                        title: error.message
                     })
-                }
-
-
-                console.log('ok')
-
+                });
 
             }
         }
