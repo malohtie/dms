@@ -58,6 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 // Import main layout components
 
 
@@ -1131,6 +1132,8 @@ var render = function() {
     "div",
     { class: _vm.classContainer, attrs: { id: "page-container" } },
     [
+      _c("vue-progress-bar"),
+      _vm._v(" "),
       _c("div", { class: { show: _vm.loader }, attrs: { id: "page-loader" } }),
       _vm._v(" "),
       _vm.sideOverlay && _vm.pageOverlay

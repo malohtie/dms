@@ -117,9 +117,12 @@
                     return
                 }
 
+                this.$Progress.start();
                 this.$store.dispatch('auth/login', this.form).then((res) => {
+                    this.$Progress.finish();
                     console.log(res);
                 }).catch((error) => {
+                    this.$Progress.fail();
                     this.$swal({
                         toast: true,
                         position: 'bottom-end',

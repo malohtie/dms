@@ -131,9 +131,14 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         return;
       }
 
+      this.$Progress.start();
       this.$store.dispatch('auth/login', this.form).then(function (res) {
+        _this.$Progress.finish();
+
         console.log(res);
       })["catch"](function (error) {
+        _this.$Progress.fail();
+
         _this.$swal({
           toast: true,
           position: 'bottom-end',

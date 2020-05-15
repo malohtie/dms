@@ -9,7 +9,7 @@ export default {
                 'password': payload.password,
                 'remember': payload.remember
             }).then(({data}) => {
-                if (data.isLogged) {
+                if (data.status) {
                     commit('setUserData', data.user)
                     resolve({'status': true})
                 }
