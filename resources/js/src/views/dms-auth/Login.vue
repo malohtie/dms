@@ -47,7 +47,7 @@
                                 </div>
                                 <b-row class="form-group row justify-content-center mb-0">
                                     <b-col md="6" xl="5">
-                                        <b-button v-click-ripple block type="submit" variant="primary">
+                                        <b-button v-click-ripple block type="submit" variant="primary" :disabled="disabled">
                                             <i class="fa fa-fw fa-sign-in-alt mr-1"></i> Sign In
                                         </b-button>
                                     </b-col>
@@ -83,7 +83,8 @@
                     username: null,
                     password: null,
                     remember: false
-                }
+                },
+                disabled: false
             }
         },
         computed: {
@@ -109,7 +110,8 @@
             }
         },
         methods: {
-            onSubmit() {
+            onSubmit(event) {
+                console.log(event.target.name)
                 this.$v.form.$touch()
 
                 if (this.$v.form.$anyError) {
@@ -117,12 +119,19 @@
                     return
                 }
 
-                this.$Progress.start();
+                this.$Progress.start()
+                this.disabled = true
                 this.$store.dispatch('auth/login', this.form).then((res) => {
                     this.$Progress.finish();
-                    console.log(res);
+                    if(res.status) {
+                        if (this.$store.getters["auth/isAdmin"]) {
+                            this.$router.push('/admin')
+                        } else {
+                            this.$router.push('/user')
+                        }
+                    }
                 }).catch((error) => {
-                    this.$Progress.fail();
+                    this.$Progress.fail()
                     this.$swal({
                         toast: true,
                         position: 'bottom-end',
@@ -136,6 +145,8 @@
                         icon: 'error',
                         title: error.message
                     })
+                }).finally(() => {
+                    this.disabled = false
                 });
 
             }

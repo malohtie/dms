@@ -6,9 +6,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
 
+import store from "@/store"
 import landing from "./landing"
 import error from "./error"
-import auth from "./auth";
+import admin from "./admin"
+import user from "./user"
+import auth from "./auth"
 
 // Router Configuration
 const router =new Router({
@@ -22,17 +25,29 @@ const router =new Router({
     routes: [
         ...landing,
         ...auth,
+        ...admin,
+        ...user,
         ...error
     ]
 })
 
 // eslint-disable-next-line no-unused-vars
 router.beforeEach((to, from, next) => {
-    return next();
+    //show page loader
+    store.commit('pageLoader', { mode: 'on' })
+    //to admin or user section if already Logged
+    if(to.name === 'Login' && store.getters["auth/isLogged"]) {
+        if(store.getters["auth/isAdmin"]) {
+            return next("/admin")
+        }
+        return next("/user")
+    }
+    return next()
 });
 
 router.afterEach(() => {
-
+    //hide page loader
+    store.commit('pageLoader', { mode: 'off' })
 });
 
 export default router;

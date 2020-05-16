@@ -103,7 +103,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         username: null,
         password: null,
         remember: false
-      }
+      },
+      disabled: false
     };
   },
   computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_2__["mapGetters"])(['appName', 'appVersion', 'appCopyright'])),
@@ -121,9 +122,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     }
   },
   methods: {
-    onSubmit: function onSubmit() {
+    onSubmit: function onSubmit(event) {
       var _this = this;
 
+      console.log(event.target.name);
       this.$v.form.$touch();
 
       if (this.$v.form.$anyError) {
@@ -132,10 +134,17 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       }
 
       this.$Progress.start();
+      this.disabled = true;
       this.$store.dispatch('auth/login', this.form).then(function (res) {
         _this.$Progress.finish();
 
-        console.log(res);
+        if (res.status) {
+          if (_this.$store.getters["auth/isAdmin"]) {
+            _this.$router.push('/admin');
+          } else {
+            _this.$router.push('/user');
+          }
+        }
       })["catch"](function (error) {
         _this.$Progress.fail();
 
@@ -152,6 +161,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
           icon: 'error',
           title: error.message
         });
+      })["finally"](function () {
+        _this.disabled = false;
       });
     }
   }
@@ -336,7 +347,8 @@ var render = function() {
                                     attrs: {
                                       block: "",
                                       type: "submit",
-                                      variant: "primary"
+                                      variant: "primary",
+                                      disabled: _vm.disabled
                                     }
                                   },
                                   [

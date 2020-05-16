@@ -27,5 +27,18 @@ export default {
                 resolve()
             })
         })
+    },
+    //check if logged
+    check({commit}) {
+        return new Promise((resolve, reject) => {
+            this.$http.get(prefixUrl + 'user').then(({data}) => {
+                commit('setUserData', data)
+                resolve();
+            }).catch(() => {
+                commit('clearUserData')
+                reject()
+            })
+
+        })
     }
 }

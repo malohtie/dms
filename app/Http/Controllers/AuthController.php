@@ -3,15 +3,18 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\UserLoginRequest;
-use App\Models\User;
 use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
-    //
+    /**
+     * Get User Data
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function user(Request $request)
     {
-        return $request->user();
+        return response()->json($request->user());
     }
 
     /**
