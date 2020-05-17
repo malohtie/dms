@@ -9,7 +9,6 @@ class SpaTest extends TestCase
     /**
      * Index Vue Page.
      */
-
     public function testIndex()
     {
         $response = $this->get('/');
