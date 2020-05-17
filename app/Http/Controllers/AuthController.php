@@ -9,6 +9,7 @@ class AuthController extends Controller
 {
     /**
      * Get User Data
+     *
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
@@ -19,6 +20,7 @@ class AuthController extends Controller
 
     /**
      * Login User
+     *
      * @param UserLoginRequest $request
      * @return \Illuminate\Http\JsonResponse
      */
@@ -27,12 +29,13 @@ class AuthController extends Controller
         $isLogged = auth()->attempt($request->only('username', 'password'), $request->remember);
         return response()->json([
             'status' => $isLogged,
-            'user' => auth()->user()
+            'user' => auth()->user(),
         ]);
     }
 
     /**
      * Logout Connected User
+     *
      * @return \Illuminate\Http\JsonResponse
      */
     public function logout()

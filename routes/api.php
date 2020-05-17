@@ -22,7 +22,6 @@ Route::prefix('v1')->group(function () {
     });
 
 });
-
 //fallback all requests to 404 if not found
 Route::fallback(function(){
     return response()->json(['error' => 'API NOT FOUND'], 404);

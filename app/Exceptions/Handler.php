@@ -17,7 +17,7 @@ class Handler extends ExceptionHandler
      * @var array
      */
     protected $dontReport = [
-        //
+
     ];
 
     /**
@@ -35,7 +35,6 @@ class Handler extends ExceptionHandler
      *
      * @param  \Throwable  $exception
      * @return void
-     *
      * @throws \Exception
      */
     public function report(Throwable $exception)
@@ -44,6 +43,8 @@ class Handler extends ExceptionHandler
     }
 
     /**
+     * Render Error
+     *
      * @param \Illuminate\Http\Request $request
      * @param Throwable $exception
      * @return \Illuminate\Http\JsonResponse|\Illuminate\Http\Response|\Symfony\Component\HttpFoundation\Response
@@ -54,19 +55,19 @@ class Handler extends ExceptionHandler
         // This will replace our 404 response with a JSON response.
         if ($exception instanceof ModelNotFoundException || $exception instanceof NotFoundHttpException) {
             return response()->json([
-                'error' => 'Resource item not found.'
+                'error' => 'Resource item not found.',
             ], 404);
         }
 
         if ($exception instanceof AuthorizationException) {
             return response()->json([
-                'error' => 'This action is unauthorized.'
+                'error' => 'This action is unauthorized.',
             ], 403);
         }
 
         if ($exception instanceof MethodNotAllowedHttpException) {
             return response()->json([
-                'error' => 'Method not allowed.'
+                'error' => 'Method not allowed.',
             ], 405);
         }
         return parent::render($request, $exception);

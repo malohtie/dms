@@ -1,10 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "malohtie/dms",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Digital Media Solution",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "Email Marketing"
     ],
     "license": "MIT",
     "require": {

@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -21,7 +20,7 @@ class User extends Authenticatable
         'username',
         'password',
         'role',
-        'is_active'
+        'is_active',
     ];
 
     /**
@@ -30,7 +29,8 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token'
+        'password',
+        'remember_token',
     ];
 
     /**
@@ -42,6 +42,12 @@ class User extends Authenticatable
 
     ];
 
+    /**
+     * Get User By Username
+     *
+     * @param $username
+     * @return mixed
+     */
     public static function getUser($username)
     {
         return self::where('username', $username)->first();
