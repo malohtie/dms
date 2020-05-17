@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('v1')->group(function () {
     //Authentication
     Route::prefix('auth')->group(function () {
-        Route::post('/login', 'AuthController@login');
-        Route::post('/logout', 'AuthController@logout');
-        Route::get('/user', 'AuthController@user')->middleware('auth:sanctum'); //allow only authenticated user
+        Route::post('/login', 'AuthController@login')->name('auth.login');
+        Route::post('/logout', 'AuthController@logout')->name('auth.logout')->middleware('auth:sanctum');
+        Route::get('/user', 'AuthController@user')->name('auth.user')->middleware('auth:sanctum'); //allow only authenticated user
     });
 
 });

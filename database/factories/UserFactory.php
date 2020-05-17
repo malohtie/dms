@@ -2,7 +2,7 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\User;
+use App\Models\User;
 use Faker\Generator as Faker;
 use Illuminate\Support\Str;
 
@@ -19,8 +19,8 @@ use Illuminate\Support\Str;
 
 $factory->define(User::class, function (Faker $faker) {
     return [
-        'full_name' => $faker->name,
-        'username' => $faker->userName,
+        'full_name' => $faker->firstName. ' ' .$faker->lastName,
+        'username' => $faker->unique()->userName,
         'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
         'role' => $faker->randomElement(['admin', 'leader', 'user']),
         'is_active' => $faker->boolean()

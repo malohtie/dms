@@ -37,7 +37,7 @@ class AuthController extends Controller
      */
     public function logout()
     {
-        auth()->logout();
+        auth()->guard('web')->logout();
         return response()->json(null, 204);
     }
 }
