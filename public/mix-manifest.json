@@ -6,8 +6,13 @@
     "/js/app.js": "/js/app.js",
     "/css/main.css": "/css/main.css",
     "/js/chunks/home.js": "/js/chunks/home.js",
-    "/js/chunks/maintenance.js": "/js/chunks/maintenance.js",
-    "/js/chunks/vendors~home.js": "/js/chunks/vendors~home.js",
     "/js/chunks/login.js": "/js/chunks/login.js",
-    "/js/chunks/vendors~home~login.js": "/js/chunks/vendors~home~login.js"
+    "/js/chunks/maintenance.js": "/js/chunks/maintenance.js",
+    "/js/chunks/vendors~home~login.js": "/js/chunks/vendors~home~login.js",
+    "/js/chunks/vendors~layoutEmpty.js": "/js/chunks/vendors~layoutEmpty.js",
+    "/js/chunks/layoutEmpty.js": "/js/chunks/layoutEmpty.js",
+    "/js/chunks/vendors~layout~layoutEmpty.js": "/js/chunks/vendors~layout~layoutEmpty.js",
+    "/js/chunks/campaigns.js": "/js/chunks/campaigns.js",
+    "/js/chunks/layout.js": "/js/chunks/layout.js",
+    "/js/chunks/layout~layoutEmpty.js": "/js/chunks/layout~layoutEmpty.js"
 }

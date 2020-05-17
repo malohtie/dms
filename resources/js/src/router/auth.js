@@ -4,7 +4,7 @@
 export default [
     {
         path: '',
-        component: () => import("@/layouts/variations/Empty"),
+        component: () => import(/* webpackChunkName: "layoutEmpty" */"@/layouts/variations/Empty"),
         children: [
             {
                 path: '/login',

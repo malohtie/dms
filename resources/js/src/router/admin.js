@@ -3,14 +3,17 @@
  */
 export default [
     {
-        path: '/backend',
-        redirect: '/backend/dashboard',
-        component: () => import("@/layouts/variations/BackendStarter"),
+        path: '/admin',
+        redirect: '/admin/dashboard',
+        component: () => import(/* webpackChunkName: "layoutBackend" */"@/layouts/variations/BackendStarter"),
+        meta: {
+            adminOnly: true
+        },
         children: [
             {
                 path: 'dashboard',
                 name: 'Dashboard',
-                component: () => import("@/views/starter/Dashboard")
+                component: () => import(/* webpackChunkName: "dashboard" */"@/views/starter/Dashboard")
             }
         ]
     }

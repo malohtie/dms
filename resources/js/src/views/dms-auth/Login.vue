@@ -35,10 +35,19 @@
                                                       class="form-control-alt"
                                                       v-model="$v.form.password.$model" />
                                     </div>
+                                    <div class="form-group">
+                                        <div class="d-md-flex align-items-md-center justify-content-md-between">
+                                            <b-form-checkbox
+                                                id="remember"
+                                                name="remember"
+                                                switch
+                                                v-model="$v.form.remember.$model">Remember Me</b-form-checkbox>
+                                        </div>
+                                    </div>
                                 </div>
                                 <b-row class="form-group row justify-content-center mb-0">
                                     <b-col md="6" xl="5">
-                                        <b-button v-click-ripple block type="submit" variant="primary">
+                                        <b-button v-click-ripple block type="submit" variant="primary" :disabled="disabled">
                                             <i class="fa fa-fw fa-sign-in-alt mr-1"></i> Sign In
                                         </b-button>
                                     </b-col>
@@ -62,10 +71,9 @@
 </template>
 
 <script>
-
     import {validationMixin} from 'vuelidate'
     import {minLength, required} from 'vuelidate/lib/validators'
-    import {mapGetters} from "vuex";
+    import {mapGetters} from "vuex"
 
     export default {
         mixins: [validationMixin],
@@ -73,8 +81,10 @@
             return {
                 form: {
                     username: null,
-                    password: null
-                }
+                    password: null,
+                    remember: false
+                },
+                disabled: false
             }
         },
         computed: {
@@ -92,24 +102,54 @@
                 },
                 password: {
                     required,
-                    minLength: minLength(6)
+                    minLength: minLength(3)
+                },
+                remember: {
+
                 }
             }
         },
         methods: {
-            onSubmit() {
+            onSubmit(event) {
+                console.log(event.target.name)
                 this.$v.form.$touch()
 
                 if (this.$v.form.$anyError) {
+                    this.$swal('Oops...', 'Something Missing', 'error')
                     return
                 }
 
-                // Form submit logic
-                this.$router.push('/backend')
+                this.$Progress.start()
+                this.disabled = true
+                this.$store.dispatch('auth/login', this.form).then((res) => {
+                    this.$Progress.finish();
+                    if(res.status) {
+                        if (this.$store.getters["auth/isAdmin"]) {
+                            this.$router.push('/admin')
+                        } else {
+                            this.$router.push('/user')
+                        }
+                    }
+                }).catch((error) => {
+                    this.$Progress.fail()
+                    this.$swal({
+                        toast: true,
+                        position: 'bottom-end',
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: true,
+                        onOpen: (toast) => {
+                            toast.addEventListener('mouseenter', this.$swal.stopTimer)
+                            toast.addEventListener('mouseleave', this.$swal.resumeTimer)
+                        },
+                        icon: 'error',
+                        title: error.message
+                    })
+                }).finally(() => {
+                    this.disabled = false
+                });
+
             }
-        },
-        mounted() {
-            this.$http.get('/api');
         }
     }
 </script>

@@ -4,15 +4,15 @@ import BootstrapVue from 'bootstrap-vue'
 Vue.use(BootstrapVue)
 //sweetAlert2
 import SweetAlert from 'vue-sweetalert2'
-const optionsSweetAlert = {
-    buttonsStyling: false,
-    customClass: {
-        confirmButton: 'btn btn-success m-1',
-        cancelButton: 'btn btn-danger m-1',
-        input: 'form-control'
-    }
-}
-Vue.use(SweetAlert, optionsSweetAlert);
+Vue.use(SweetAlert);
 //axios
 import axios from '@/http'
 Vue.prototype.$http = axios
+//progress bar
+import VueProgressBar from 'vue-progressbar'
+const options = {
+    color: '#5c80d1',
+    failedColor: '#d26a5c',
+    thickness: '3px',
+}
+Vue.use(VueProgressBar, options)

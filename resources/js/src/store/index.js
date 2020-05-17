@@ -8,9 +8,10 @@ import getters from "./getters"
 import mutations from "./mutations"
 import state from "./state"
 import actions from "./actions"
-import config from "@/../config"
 import auth from './modules/auth'
+import axios from '@/http'
 // Register Vuex
+Vuex.Store.prototype.$http = axios
 Vue.use(Vuex)
 
 // Vuex Store
@@ -19,7 +20,7 @@ export default new Vuex.Store({
     mutations,
     state,
     actions,
-    strict: !config.appDebug,
+    strict: false,
     modules: {
         auth: auth
     }

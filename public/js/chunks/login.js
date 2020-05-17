@@ -83,6 +83,15 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -92,8 +101,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     return {
       form: {
         username: null,
-        password: null
-      }
+        password: null,
+        remember: false
+      },
+      disabled: false
     };
   },
   computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_2__["mapGetters"])(['appName', 'appVersion', 'appCopyright'])),
@@ -105,24 +116,55 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       },
       password: {
         required: vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["required"],
-        minLength: Object(vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["minLength"])(6)
-      }
+        minLength: Object(vuelidate_lib_validators__WEBPACK_IMPORTED_MODULE_1__["minLength"])(3)
+      },
+      remember: {}
     }
   },
   methods: {
-    onSubmit: function onSubmit() {
+    onSubmit: function onSubmit(event) {
+      var _this = this;
+
+      console.log(event.target.name);
       this.$v.form.$touch();
 
       if (this.$v.form.$anyError) {
+        this.$swal('Oops...', 'Something Missing', 'error');
         return;
-      } // Form submit logic
+      }
 
+      this.$Progress.start();
+      this.disabled = true;
+      this.$store.dispatch('auth/login', this.form).then(function (res) {
+        _this.$Progress.finish();
 
-      this.$router.push('/backend');
+        if (res.status) {
+          if (_this.$store.getters["auth/isAdmin"]) {
+            _this.$router.push('/admin');
+          } else {
+            _this.$router.push('/user');
+          }
+        }
+      })["catch"](function (error) {
+        _this.$Progress.fail();
+
+        _this.$swal({
+          toast: true,
+          position: 'bottom-end',
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+          onOpen: function onOpen(toast) {
+            toast.addEventListener('mouseenter', _this.$swal.stopTimer);
+            toast.addEventListener('mouseleave', _this.$swal.resumeTimer);
+          },
+          icon: 'error',
+          title: error.message
+        });
+      })["finally"](function () {
+        _this.disabled = false;
+      });
     }
-  },
-  mounted: function mounted() {
-    this.$http.get('/api');
   }
 });
 
@@ -244,7 +286,42 @@ var render = function() {
                               })
                             ],
                             1
-                          )
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-md-flex align-items-md-center justify-content-md-between"
+                              },
+                              [
+                                _c(
+                                  "b-form-checkbox",
+                                  {
+                                    attrs: {
+                                      id: "remember",
+                                      name: "remember",
+                                      switch: ""
+                                    },
+                                    model: {
+                                      value: _vm.$v.form.remember.$model,
+                                      callback: function($$v) {
+                                        _vm.$set(
+                                          _vm.$v.form.remember,
+                                          "$model",
+                                          $$v
+                                        )
+                                      },
+                                      expression: "$v.form.remember.$model"
+                                    }
+                                  },
+                                  [_vm._v("Remember Me")]
+                                )
+                              ],
+                              1
+                            )
+                          ])
                         ]),
                         _vm._v(" "),
                         _c(
@@ -270,7 +347,8 @@ var render = function() {
                                     attrs: {
                                       block: "",
                                       type: "submit",
-                                      variant: "primary"
+                                      variant: "primary",
+                                      disabled: _vm.disabled
                                     }
                                   },
                                   [

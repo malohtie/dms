@@ -1,6 +1,7 @@
 <template>
     <div :class="classContainer" id="page-container">
         <!-- Page Loader -->
+        <vue-progress-bar></vue-progress-bar>
         <div :class="{'show': loader}" id="page-loader"></div>
         <!-- END Page Loader -->
 
