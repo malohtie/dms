@@ -10,7 +10,6 @@ export default {
     appAuthorLink: process.env.MIX_AUTHTOR_LINK,
     sidebarCollapsed: true,
     currentYear: new Date().getFullYear(),
-    WindowWidth: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
     header: true,
     sidebar: true,
     sideOverlay: true,

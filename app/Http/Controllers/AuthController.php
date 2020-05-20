@@ -43,4 +43,14 @@ class AuthController extends Controller
         auth()->guard('web')->logout();
         return response()->json(null, 204);
     }
+
+    /**
+     * Check If User Is Authenticated using sanctum middleware
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function check()
+    {
+        return response()->json(null, 204);
+    }
 }

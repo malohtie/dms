@@ -5,7 +5,7 @@ export default [
     {
         path: '/admin',
         redirect: '/admin/dashboard',
-        component: () => import(/* webpackChunkName: "layoutBackend" */"@/layouts/variations/BackendStarter"),
+        component: () => import(/* webpackChunkName: "layoutBackend" */"@/layouts/variations/Admin"),
         meta: {
             adminOnly: true
         },
@@ -13,7 +13,10 @@ export default [
             {
                 path: 'dashboard',
                 name: 'Dashboard',
-                component: () => import(/* webpackChunkName: "dashboard" */"@/views/starter/Dashboard")
+                component: () => import(/* webpackChunkName: "dashboard" */"@/views/starter/Dashboard"),
+                meta: {
+                    title: 'Dashboard'
+                }
             }
         ]
     }

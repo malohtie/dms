@@ -9,7 +9,10 @@ export default [
             {
                 path: '/login',
                 name: 'Login',
-                component: () => import(/* webpackChunkName: "login" */"@/views/dms-auth/Login")
+                component: () => import(/* webpackChunkName: "login" */"@/views/dms-auth/Login"),
+                meta: {
+                    title: 'Login'
+                }
             }
         ]
     }

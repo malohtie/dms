@@ -1,6 +1,7 @@
 import axios from 'axios'
 import store from '@/store'
-axios.defaults.baseURL = '/api'
+import router from "@/router";
+axios.defaults.baseURL = '/api' //default base api url
 axios.defaults.withCredentials = true
 
 axios.interceptors.request.use(function (config) {
@@ -13,7 +14,7 @@ axios.interceptors.response.use(
     },
     error => {
         if (error.response.status === 401) {
-            store.dispatch('auth/logout').then(() => this.$router.push('/login'))
+            store.dispatch('auth/clear').then(() => router.push('/login'))
         }
         return Promise.reject(error)
     }

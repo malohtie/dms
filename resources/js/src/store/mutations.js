@@ -1,5 +1,3 @@
-import config from "@/../config";
-
 /**
  * Default mutations
  */
@@ -12,7 +10,7 @@ export default {
     },
     // Sets sidebar visibility (open, close, toggle)
     sidebar(state, payload) {
-        if (config.WindowWidth > 991) {
+        if (state.settings.windowWidth > 991) {
             if (payload.mode === 'open') {
                 state.settings.sidebarVisibleDesktop = true
             } else if (payload.mode === 'close') {
@@ -32,7 +30,7 @@ export default {
     },
     // Sets sidebar mini mode (on, off, toggle)
     sidebarMini(state, payload) {
-        if (config.WindowWidth > 991) {
+        if (state.settings.windowWidth > 991) {
             if (payload.mode === 'on') {
                 state.settings.sidebarMini = true
             } else if (payload.mode === 'off') {
@@ -167,5 +165,9 @@ export default {
         if (payload.theme) {
             document.body.classList.add('theme-' + payload.theme)
         }
+    },
+    //windows width
+    setWindowWidth(state) {
+        state.settings.windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
     }
 }

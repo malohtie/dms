@@ -18,6 +18,7 @@ Route::prefix('v1')->group(function () {
     Route::prefix('auth')->group(function () {
         Route::post('/login', 'AuthController@login')->name('auth.login');
         Route::post('/logout', 'AuthController@logout')->name('auth.logout')->middleware('auth:sanctum');
+        Route::get('/check', 'AuthController@check')->name('auth.check')->middleware('auth:sanctum');
         Route::get('/user', 'AuthController@user')->name('auth.user')->middleware('auth:sanctum'); //allow only authenticated user
     });
 

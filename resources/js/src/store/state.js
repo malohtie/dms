@@ -41,7 +41,8 @@ export default {
         pageLoader: config.pageLoader,
         rtlSupport: config.rtlSupport,
         sideTransitions: config.sideTransitions,
-        mainContent: config.mainContent
+        mainContent: config.mainContent,
+        windowWidth: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
     }
 
 }

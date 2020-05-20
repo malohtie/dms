@@ -24,5 +24,9 @@ export default {
     // Get app color theme
     appColorTheme: (state) => {
         return state.settings.colorTheme
+    },
+    //window width
+    windowWidth: (state) => {
+        return state.settings.windowWidth
     }
 }

@@ -1,5 +1,6 @@
 <template>
     <component
+         @click="$emit('visit')"
         :class="classContainer"
         :href="tag === 'a' ? '#' : false"
         :is="tag"

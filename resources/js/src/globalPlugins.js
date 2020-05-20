@@ -16,3 +16,5 @@ const options = {
     thickness: '3px',
 }
 Vue.use(VueProgressBar, options)
+
+import '@/filters'

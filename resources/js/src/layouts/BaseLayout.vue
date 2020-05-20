@@ -5,16 +5,6 @@
         <div :class="{'show': loader}" id="page-loader"></div>
         <!-- END Page Loader -->
 
-        <!-- Page Overlay -->
-        <div @click="close" id="page-overlay" v-if="sideOverlay && pageOverlay"></div>
-        <!-- END Page Overlay -->
-
-        <!-- Side Overlay -->
-        <base-side-overlay :class="layoutClasses.sideOverlay || 'font-size-sm'" v-if="sideOverlay">
-            <slot name="side-overlay"></slot>
-        </base-side-overlay>
-        <!-- END Side Overlay -->
-
         <!-- Sidebar -->
         <base-sidebar :class="layoutClasses.sidebar" v-if="sidebar">
             <slot name="sidebar"></slot>
@@ -48,7 +38,6 @@
     // Import main layout components
     import BaseHeader from '@/layouts/partials/Header'
     import BaseSidebar from '@/layouts/partials/Sidebar'
-    import BaseSideOverlay from '@/layouts/partials/SideOverlay'
     import BaseFooter from '@/layouts/partials/Footer'
 
     export default {
@@ -56,7 +45,6 @@
         components: {
             BaseHeader,
             BaseSidebar,
-            BaseSideOverlay,
             BaseFooter
         },
         props: {
@@ -71,9 +59,6 @@
             },
             pageOverlay() {
                 return this.$store.state.settings.pageOverlay
-            },
-            sideOverlay() {
-                return this.$store.state.layout.sideOverlay
             },
             sidebar() {
                 return this.$store.state.layout.sidebar
@@ -91,9 +76,9 @@
                     'sidebar-o': this.$store.state.layout.sidebar && this.$store.state.settings.sidebarVisibleDesktop,
                     'sidebar-o-xs': this.$store.state.layout.sidebar && this.$store.state.settings.sidebarVisibleMobile,
                     'sidebar-dark': this.$store.state.layout.sidebar && this.$store.state.settings.sidebarDark,
-                    'side-overlay-o': this.$store.state.layout.sideOverlay && this.$store.state.settings.sideOverlayVisible,
-                    'side-overlay-hover': this.$store.state.layout.sideOverlay && this.$store.state.settings.sideOverlayHoverable,
-                    'enable-page-overlay': this.$store.state.layout.sideOverlay && this.$store.state.settings.pageOverlay,
+                    //'side-overlay-o': this.$store.state.layout.sideOverlay && this.$store.state.settings.sideOverlayVisible,
+                    //'side-overlay-hover': this.$store.state.layout.sideOverlay && this.$store.state.settings.sideOverlayHoverable,
+                    //'enable-page-overlay': this.$store.state.layout.sideOverlay && this.$store.state.settings.pageOverlay,
                     'page-header-fixed': this.$store.state.layout.header && this.$store.state.settings.headerFixed,
                     'page-header-dark': this.$store.state.layout.header && this.$store.state.settings.headerDark,
                     'main-content-boxed': this.$store.state.settings.mainContent === 'boxed',
@@ -102,11 +87,6 @@
                     'side-trans-enabled': this.$store.state.settings.sideTransitions,
                     'side-scroll': true
                 }
-            }
-        },
-        methods: {
-            close() {
-                this.$store.commit('sideOverlay', {mode: 'close'})
             }
         },
         created() {

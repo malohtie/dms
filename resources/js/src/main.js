@@ -25,11 +25,17 @@ new Vue({
     async created() {
         //setup sanctum crsf cookie when creating vue instance
         this.$http({ url: `/${store.getters.appName.toLowerCase()}/crsf-cookie`, baseURL: '' });
-        //check auth user every 10 min if still connected
-        setInterval(function() {
+        //check auth user every 1 min if still connected
+        (function check() {
+            // check user every 1 min
             if (store.getters["auth/isLogged"]) {
-                store.dispatch('auth/check').catch(() => this.$router.push('/login'))
+                store.dispatch('auth/check').catch(() => {});
             }
-        }, 600000)
+            setTimeout(check, 60000)
+        })();
+        //add event on window resize
+        window.addEventListener('resize', () => {
+            store.commit('setWindowWidth')
+        })
     }
 }).$mount('#app')

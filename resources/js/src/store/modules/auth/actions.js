@@ -22,20 +22,41 @@ export default {
     //logout
     logout({commit}) {
         return new Promise((resolve) => {
-            this.$http.post(prefixUrl + 'logout').finally(() => {
-                commit('clearUserData')
-                resolve()
-            })
+            this.$http.post(prefixUrl + 'logout')
+                .catch(() => {
+
+                })
+                .finally(() => {
+                    commit('clearUserData')
+                    resolve()
+                })
         })
     },
-    //check if logged
-    check({commit}) {
+    //clear user data
+    clear({commit}) {
+        return new Promise((resolve) => {
+            commit('clearUserData')
+            resolve()
+        })
+    },
+    //user info
+    user({commit}) {
         return new Promise((resolve, reject) => {
             this.$http.get(prefixUrl + 'user').then(({data}) => {
                 commit('setUserData', data)
                 resolve();
             }).catch(() => {
-                commit('clearUserData')
+                reject()
+            })
+
+        })
+    },
+    //check if logged
+    check() {
+        return new Promise((resolve, reject) => {
+            this.$http.get(prefixUrl + 'check').then(() => {
+                resolve();
+            }).catch(() => {
                 reject()
             })
 

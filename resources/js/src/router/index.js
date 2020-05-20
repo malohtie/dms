@@ -31,8 +31,9 @@ const router =new Router({
     ]
 })
 
-// eslint-disable-next-line no-unused-vars
 router.beforeEach((to, from, next) => {
+    //set document title
+    document.title = `${to.meta.title} - ${store.getters['appName']}`
     //show page loader
     store.commit('pageLoader', { mode: 'on' })
     //to admin or user section if already Logged
@@ -41,6 +42,14 @@ router.beforeEach((to, from, next) => {
             return next("/admin")
         }
         return next("/user")
+    }
+    //check if page require auth and user is connected
+    if(to.matched.some(route => route.meta.auth) && !store.getters["auth/isLogged"]) {
+        return next('/401')
+    }
+    //check if page require admin user and user is admin
+    if(!store.getters["auth/isAdmin"] && to.matched.some(route => route.meta.adminOnly)) {
+        return next('/401')
     }
     return next()
 });
