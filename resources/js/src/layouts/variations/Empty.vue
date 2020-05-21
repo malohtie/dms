@@ -15,7 +15,6 @@
             this.$store.commit('setLayout', {
                 header: false,
                 sidebar: false,
-                sideOverlay: false,
                 footer: false
             })
 

@@ -283,7 +283,7 @@ var render = function() {
                     attrs: { to: "/landing" }
                   },
                   [
-                    _c("i", { staticClass: "fa fa-circle-notch text-primary" }),
+                    _c("i", { staticClass: "fab fa-dyalog text-primary" }),
                     _c(
                       "span",
                       { staticClass: "font-w700 font-size-h5 ml-1 smini-hide" },

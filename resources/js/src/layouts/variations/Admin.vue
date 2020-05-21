@@ -1,12 +1,13 @@
 <template>
-    <base-layout :layout-classes="layoutClasses"></base-layout>
+    <base-layout :layout-classes="layoutClasses" :menu="menu"></base-layout>
 </template>
 
 <script>
     import BaseLayout from '../BaseLayout'
+    import menuAdmin from "@/data/menuAdmin";
 
     export default {
-        name: 'LayoutAdmin',
+        name: 'Admin',
         components: {
             BaseLayout
         },
@@ -14,11 +15,11 @@
             return {
                 // Override and set custom CSS classes to the container of each base layout element
                 layoutClasses: {
-                    sideOverlay: '',
                     sidebar: '',
                     header: '',
                     footer: ''
-                }
+                },
+                menu: menuAdmin
             }
         },
         created() {
@@ -26,7 +27,6 @@
             this.$store.commit('setLayout', {
                 header: true,
                 sidebar: true,
-                sideOverlay: true,
                 footer: true
             })
 

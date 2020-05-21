@@ -6,7 +6,7 @@
         <!-- END Page Loader -->
 
         <!-- Sidebar -->
-        <base-sidebar :class="layoutClasses.sidebar" v-if="sidebar">
+        <base-sidebar :class="layoutClasses.sidebar" :menu="menu" v-if="sidebar">
             <slot name="sidebar"></slot>
         </base-sidebar>
         <!-- END Sidebar -->
@@ -20,8 +20,8 @@
         <!-- Main Container -->
         <div id="main-container">
             <slot name="content"></slot>
-            <transition mode="out-in" name="fade">
-                <router-view></router-view>
+            <transition name="fade" mode="out-in">
+                <router-view :key="$route.fullPath"></router-view>
             </transition>
         </div>
         <!-- END Main Container -->
@@ -48,7 +48,8 @@
             BaseFooter
         },
         props: {
-            layoutClasses: Object
+            layoutClasses: Object,
+            menu: Array
         },
         data() {
             return {}
@@ -76,9 +77,6 @@
                     'sidebar-o': this.$store.state.layout.sidebar && this.$store.state.settings.sidebarVisibleDesktop,
                     'sidebar-o-xs': this.$store.state.layout.sidebar && this.$store.state.settings.sidebarVisibleMobile,
                     'sidebar-dark': this.$store.state.layout.sidebar && this.$store.state.settings.sidebarDark,
-                    //'side-overlay-o': this.$store.state.layout.sideOverlay && this.$store.state.settings.sideOverlayVisible,
-                    //'side-overlay-hover': this.$store.state.layout.sideOverlay && this.$store.state.settings.sideOverlayHoverable,
-                    //'enable-page-overlay': this.$store.state.layout.sideOverlay && this.$store.state.settings.pageOverlay,
                     'page-header-fixed': this.$store.state.layout.header && this.$store.state.settings.headerFixed,
                     'page-header-dark': this.$store.state.layout.header && this.$store.state.settings.headerDark,
                     'main-content-boxed': this.$store.state.settings.mainContent === 'boxed',

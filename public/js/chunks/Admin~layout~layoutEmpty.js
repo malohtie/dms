@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["layout~layoutBackend~layoutEmpty"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["Admin~layout~layoutEmpty"],{
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/layouts/BaseLayout.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************************!*\

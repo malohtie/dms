@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[2],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["layoutEmpty"],{
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/layouts/variations/Empty.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************************************************************!*\
@@ -25,7 +25,6 @@ __webpack_require__.r(__webpack_exports__);
     this.$store.commit('setLayout', {
       header: false,
       sidebar: false,
-      sideOverlay: false,
       footer: false
     }); // Set various template options
 

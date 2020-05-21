@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/chunks/" + ({"0":"vendors~layout~layoutBackend~layoutEmpty","1":"layout~layoutBackend~layoutEmpty","2":"layoutEmpty","400":"400","401":"401","403":"403","404":"404","layout":"layout","layoutBackend":"layoutBackend","campaigns":"campaigns","maintenance":"maintenance","vendors~home~login":"vendors~home~login","home":"home","login":"login"}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "js/chunks/" + ({"400":"400","401":"401","403":"403","404":"404","campaigns":"campaigns","dashboard":"dashboard","maintenance":"maintenance","vendors~Admin~layout~layoutEmpty":"vendors~Admin~layout~layoutEmpty","Admin~layout~layoutEmpty":"Admin~layout~layoutEmpty","Admin":"Admin","layout":"layout","layoutEmpty":"layoutEmpty","vendors~home~login":"vendors~home~login","home":"home","login":"login"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -2734,36 +2734,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         },
         sidebarMiniToggle: function sidebarMiniToggle() {
           return _this.$store.commit('sidebarMini', {
-            mode: 'toggle'
-          });
-        },
-        sideOverlayOpen: function sideOverlayOpen() {
-          return _this.$store.commit('sideOverlay', {
-            mode: 'open'
-          });
-        },
-        sideOverlayClose: function sideOverlayClose() {
-          return _this.$store.commit('sideOverlay', {
-            mode: 'close'
-          });
-        },
-        sideOverlayToggle: function sideOverlayToggle() {
-          return _this.$store.commit('sideOverlay', {
-            mode: 'toggle'
-          });
-        },
-        sideOverlayHoverOn: function sideOverlayHoverOn() {
-          return _this.$store.commit('sideOverlayHover', {
-            mode: 'on'
-          });
-        },
-        sideOverlayHoverOff: function sideOverlayHoverOff() {
-          return _this.$store.commit('sideOverlayHover', {
-            mode: 'off'
-          });
-        },
-        sideOverlayHoverToggle: function sideOverlayHoverToggle() {
-          return _this.$store.commit('sideOverlayHover', {
             mode: 'toggle'
           });
         },
@@ -68938,7 +68908,6 @@ __webpack_require__.r(__webpack_exports__);
   currentYear: new Date().getFullYear(),
   header: true,
   sidebar: true,
-  sideOverlay: true,
   footer: true,
   colorTheme: '',
   // 'amethyst', 'city', 'flat', 'modern', 'smooth'
@@ -68947,8 +68916,6 @@ __webpack_require__.r(__webpack_exports__);
   sidebarDark: true,
   sidebarVisibleDesktop: true,
   sidebarVisibleMobile: false,
-  sideOverlayVisible: false,
-  sideOverlayHoverable: false,
   pageOverlay: true,
   headerFixed: true,
   headerDark: false,
@@ -69510,19 +69477,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.filter('truncate', function (text, length) {
-  text = text || '';
-
-  if (text.length > 0) {
+  if (text && text.length > 0) {
     return text.substring(0, length) + '...';
   }
 
   return '';
 });
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.filter('cap', function (text) {
-  text = text || '';
-  return text.split(' ').map(function (word) {
-    return word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
-  }).join(' ');
+  if (text && text.length > 0) {
+    return text.split(' ').map(function (word) {
+      return word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
+    }).join(' ');
+  }
+
+  return '';
 });
 
 /***/ }),
@@ -69762,7 +69730,7 @@ __webpack_require__.r(__webpack_exports__);
   path: '/admin',
   redirect: '/admin/dashboard',
   component: function component() {
-    return Promise.all(/*! import() | layoutBackend */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e("layoutBackend")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Admin */ "./resources/js/src/layouts/variations/Admin.vue"));
+    return Promise.all(/*! import() | Admin */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("Admin")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Admin */ "./resources/js/src/layouts/variations/Admin.vue"));
   },
   meta: {
     adminOnly: true
@@ -69771,7 +69739,7 @@ __webpack_require__.r(__webpack_exports__);
     path: 'dashboard',
     name: 'Dashboard',
     component: function component() {
-      return __webpack_require__.e(/*! import() | dashboard */ "campaigns").then(__webpack_require__.bind(null, /*! @/views/starter/Dashboard */ "./resources/js/src/views/starter/Dashboard.vue"));
+      return __webpack_require__.e(/*! import() | dashboard */ "dashboard").then(__webpack_require__.bind(null, /*! @/views/dms-admin/dashboard/Dashboard */ "./resources/js/src/views/dms-admin/dashboard/Dashboard.vue"));
     },
     meta: {
       title: 'Dashboard'
@@ -69796,7 +69764,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ([{
   path: '',
   component: function component() {
-    return Promise.all(/*! import() | layoutEmpty */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
+    return Promise.all(/*! import() | layoutEmpty */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("layoutEmpty")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
   },
   children: [{
     path: '/login',
@@ -69827,7 +69795,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ([{
   path: '',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("layoutEmpty")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
   },
   children: [{
     path: '/maintenance',
@@ -69943,10 +69911,8 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
 router.beforeEach(function (to, from, next) {
   //set document title
   document.title = "".concat(to.meta.title, " - ").concat(_store__WEBPACK_IMPORTED_MODULE_2__["default"].getters['appName']); //show page loader
-
-  _store__WEBPACK_IMPORTED_MODULE_2__["default"].commit('pageLoader', {
-    mode: 'on'
-  }); //to admin or user section if already Logged
+  //store.commit('pageLoader', { mode: 'on' })
+  //to admin or user section if already Logged
 
   if (to.name === 'Login' && _store__WEBPACK_IMPORTED_MODULE_2__["default"].getters["auth/isLogged"]) {
     if (_store__WEBPACK_IMPORTED_MODULE_2__["default"].getters["auth/isAdmin"]) {
@@ -69972,11 +69938,8 @@ router.beforeEach(function (to, from, next) {
 
   return next();
 });
-router.afterEach(function () {
-  //hide page loader
-  _store__WEBPACK_IMPORTED_MODULE_2__["default"].commit('pageLoader', {
-    mode: 'off'
-  });
+router.afterEach(function () {//hide page loader
+  //store.commit('pageLoader', { mode: 'off' })
 });
 /* harmony default export */ __webpack_exports__["default"] = (router);
 
@@ -69998,7 +69961,7 @@ __webpack_require__.r(__webpack_exports__);
   path: '/',
   redirect: '/home',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("layoutEmpty")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
   },
   children: [{
     path: '/home',
@@ -70030,7 +69993,7 @@ __webpack_require__.r(__webpack_exports__);
   path: '/user',
   redirect: '/campaigns',
   component: function component() {
-    return Promise.all(/*! import() | layout */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e("layout")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/BackendStarter */ "./resources/js/src/layouts/variations/BackendStarter.vue"));
+    return Promise.all(/*! import() | layout */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("layout")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/BackendStarter */ "./resources/js/src/layouts/variations/BackendStarter.vue"));
   },
   meta: {
     auth: true
@@ -70039,7 +70002,7 @@ __webpack_require__.r(__webpack_exports__);
     path: '/campaigns',
     name: 'Campaigns',
     component: function component() {
-      return __webpack_require__.e(/*! import() | campaigns */ "campaigns").then(__webpack_require__.bind(null, /*! @/views/starter/Dashboard */ "./resources/js/src/views/starter/Dashboard.vue"));
+      return __webpack_require__.e(/*! import() | campaigns */ "campaigns").then(__webpack_require__.bind(null, /*! @/views/dms-user/campaign/Campaigns */ "./resources/js/src/views/dms-user/campaign/Campaigns.vue"));
     },
     meta: {
       title: 'Campaigns'
@@ -70360,7 +70323,6 @@ __webpack_require__.r(__webpack_exports__);
   setLayout: function setLayout(state, payload) {
     state.layout.header = payload.header;
     state.layout.sidebar = payload.sidebar;
-    state.layout.sideOverlay = payload.sideOverlay;
     state.layout.footer = payload.footer;
   },
   // Sets sidebar visibility (open, close, toggle)
@@ -70413,26 +70375,6 @@ __webpack_require__.r(__webpack_exports__);
       state.settings.sidebarDark = false;
     } else if (payload.mode === 'toggle') {
       state.settings.sidebarDark = !state.settings.sidebarDark;
-    }
-  },
-  // Sets side overlay visibility (open, close, toggle)
-  sideOverlay: function sideOverlay(state, payload) {
-    if (payload.mode === 'open') {
-      state.settings.sideOverlayVisible = true;
-    } else if (payload.mode === 'close') {
-      state.settings.sideOverlayVisible = false;
-    } else if (payload.mode === 'toggle') {
-      state.settings.sideOverlayVisible = !state.settings.sideOverlayVisible;
-    }
-  },
-  // Sets side overlay hover mode (on, off, toggle)
-  sideOverlayHover: function sideOverlayHover(state, payload) {
-    if (payload.mode === 'on') {
-      state.settings.sideOverlayHoverable = true;
-    } else if (payload.mode === 'off') {
-      state.settings.sideOverlayHoverable = false;
-    } else if (payload.mode === 'toggle') {
-      state.settings.sideOverlayHoverable = !state.settings.sideOverlayHoverable;
     }
   },
   // Sets page overlay visibility (on, off, toggle)
@@ -70554,7 +70496,6 @@ __webpack_require__.r(__webpack_exports__);
   layout: {
     header: _config__WEBPACK_IMPORTED_MODULE_0__["default"].header,
     sidebar: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sidebar,
-    sideOverlay: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sideOverlay,
     footer: _config__WEBPACK_IMPORTED_MODULE_0__["default"].footer
   },
   // Default template settings
@@ -70566,8 +70507,6 @@ __webpack_require__.r(__webpack_exports__);
     sidebarDark: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sidebarDark,
     sidebarVisibleDesktop: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sidebarVisibleDesktop,
     sidebarVisibleMobile: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sidebarVisibleMobile,
-    sideOverlayVisible: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sideOverlayVisible,
-    sideOverlayHoverable: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sideOverlayHoverable,
     pageOverlay: _config__WEBPACK_IMPORTED_MODULE_0__["default"].pageOverlay,
     headerFixed: _config__WEBPACK_IMPORTED_MODULE_0__["default"].headerFixed,
     headerDark: _config__WEBPACK_IMPORTED_MODULE_0__["default"].headerDark,

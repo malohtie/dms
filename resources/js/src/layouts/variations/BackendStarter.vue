@@ -41,7 +41,7 @@
             <div class="content-header bg-white-5">
                 <!-- Logo -->
                 <router-link class="font-w600 text-dual" to="/landing">
-                    <i class="fa fa-circle-notch text-primary"></i><span class="font-w700 font-size-h5 ml-1 smini-hide">ne</span>
+                    <i class="fab fa-dyalog text-primary"></i><span class="font-w700 font-size-h5 ml-1 smini-hide">ne</span>
                 </router-link>
                 <!-- END Logo -->
 

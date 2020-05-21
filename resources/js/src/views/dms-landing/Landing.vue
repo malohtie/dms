@@ -4,7 +4,7 @@
         <div class="hero bg-white overflow-hidden">
             <div class="hero-inner align-self-stretch d-flex flex-column">
                 <div class="pt-5 pb-3 text-center">
-                    <i class="fa fa-2x fa-circle-notch text-primary"></i>
+                    <i class="fa fa-circle-notch fa-2x text-primary"></i>
                 </div>
                 <div class="content content-full flex-fill d-flex align-items-center px-0 px-md-4 px-lg-6 px-xl-8 overflow-hidden">
                     <b-row class="w-100">

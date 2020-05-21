@@ -8,14 +8,15 @@
     "/js/chunks/campaigns.js": "/js/chunks/campaigns.js",
     "/js/chunks/home.js": "/js/chunks/home.js",
     "/js/chunks/layout.js": "/js/chunks/layout.js",
+    "/js/chunks/layoutBackend.js": "/js/chunks/layoutBackend.js",
     "/js/chunks/layoutEmpty.js": "/js/chunks/layoutEmpty.js",
-    "/js/chunks/layout~layoutEmpty.js": "/js/chunks/layout~layoutEmpty.js",
+    "/js/chunks/layout~layoutBackend~layoutEmpty.js": "/js/chunks/layout~layoutBackend~layoutEmpty.js",
     "/js/chunks/login.js": "/js/chunks/login.js",
     "/js/chunks/maintenance.js": "/js/chunks/maintenance.js",
     "/js/chunks/vendors~home~login.js": "/js/chunks/vendors~home~login.js",
-    "/js/chunks/vendors~layout~layoutEmpty.js": "/js/chunks/vendors~layout~layoutEmpty.js",
-    "/js/chunks/vendors~home.js": "/js/chunks/vendors~home.js",
     "/js/chunks/vendors~layout~layoutBackend~layoutEmpty.js": "/js/chunks/vendors~layout~layoutBackend~layoutEmpty.js",
-    "/js/chunks/layout~layoutBackend~layoutEmpty.js": "/js/chunks/layout~layoutBackend~layoutEmpty.js",
-    "/js/chunks/layoutBackend.js": "/js/chunks/layoutBackend.js"
+    "/js/chunks/dashboard.js": "/js/chunks/dashboard.js",
+    "/js/chunks/Admin.js": "/js/chunks/Admin.js",
+    "/js/chunks/Admin~layout~layoutEmpty.js": "/js/chunks/Admin~layout~layoutEmpty.js",
+    "/js/chunks/vendors~Admin~layout~layoutEmpty.js": "/js/chunks/vendors~Admin~layout~layoutEmpty.js"
 }

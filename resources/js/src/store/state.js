@@ -18,7 +18,6 @@ export default {
     layout: {
         header: config.header,
         sidebar: config.sidebar,
-        sideOverlay: config.sideOverlay,
         footer: config.footer
     },
 
@@ -31,8 +30,6 @@ export default {
         sidebarDark: config.sidebarDark,
         sidebarVisibleDesktop: config.sidebarVisibleDesktop,
         sidebarVisibleMobile: config.sidebarVisibleMobile,
-        sideOverlayVisible: config.sideOverlayVisible,
-        sideOverlayHoverable: config.sideOverlayHoverable,
         pageOverlay: config.pageOverlay,
         headerFixed: config.headerFixed,
         headerDark: config.headerDark,

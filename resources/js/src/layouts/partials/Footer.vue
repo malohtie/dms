@@ -10,8 +10,7 @@
                                                                                    target="_blank">{{ appAuthor }}</a>
                     </b-col>
                     <b-col class="py-1 text-center text-sm-left" order-sm="1" sm="6">
-                        <a class="font-w600" href="https://1.envato.market/5Noyb" target="_blank">{{ appName + ' ' +
-                            appVersion }}</a> &copy; {{ appCopyright }}
+                        <a class="font-w600" href="javascript:void(0)">{{ appName + ' ' +appVersion }}</a> &copy; {{ appCopyright }}
                     </b-col>
                 </b-row>
             </div>
@@ -25,9 +24,6 @@
 
     export default {
         name: 'BaseFooter',
-        props: {
-            classes: String
-        },
         computed: {
             ...mapGetters([
                 'appName',

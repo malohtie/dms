@@ -10,7 +10,7 @@
                             <!-- Header -->
                             <div class="text-center">
                                 <p class="mb-2">
-                                    <i class="fa fa-2x fa-circle-notch text-primary"></i>
+                                    <i class="fa fa-circle-notch fa-2x text-primary"></i>
                                 </p>
                                 <h1 class="h4 mb-1">
                                     Sign In
@@ -110,8 +110,7 @@
             }
         },
         methods: {
-            onSubmit(event) {
-                console.log(event.target.name)
+            onSubmit() {
                 this.$v.form.$touch()
 
                 if (this.$v.form.$anyError) {
@@ -147,7 +146,7 @@
                     })
                 }).finally(() => {
                     this.disabled = false
-                });
+                })
 
             }
         }

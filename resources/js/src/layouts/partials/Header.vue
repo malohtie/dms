@@ -110,7 +110,7 @@
                  id="page-header-loader">
                 <div class="content-header">
                     <div class="w-100 text-center">
-                        <i class="fa fa-fw fa-circle-notch fa-spin"></i>
+                        <i class="fab fa-fw fa-dyalog fa-spin"></i>
                     </div>
                 </div>
             </div>

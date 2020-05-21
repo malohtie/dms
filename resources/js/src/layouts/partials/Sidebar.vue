@@ -16,11 +16,10 @@
             <!-- Side Header -->
             <div class="content-header bg-white-5">
                 <!-- Logo -->
-                <router-link class="font-w600 text-dual" to="/">
-                    <i class="fa fa-circle-notch text-primary"></i><span class="font-w700 font-size-h5 ml-1 smini-hide">ne</span>
-                </router-link>
+                <a class="font-w600 text-dual" href='javascript:void(0)'>
+                    <i class="fa fa-circle-notch text-primary"></i><span class="font-w700 font-size-h5 ml-1 smini-hide">{{ appName }}</span>
+                </a>
                 <!-- END Logo -->
-
                 <!-- Extra -->
                 <div>
                     <!-- Options -->
@@ -29,65 +28,58 @@
                         <template #button-content>
                             <i class="si si-drop"></i>
                         </template>
-                        <li>
-                            <!-- Color Themes -->
-                            <a @click.prevent="$store.commit('setColorTheme', { theme: '' })"
-                               class="dropdown-item d-flex align-items-center justify-content-between" href="#">
-                                <span>Default</span>
-                                <i class="fa fa-circle text-default"></i>
-                            </a>
-                            <a @click.prevent="$store.commit('setColorTheme', { theme: 'amethyst' })"
-                               class="dropdown-item d-flex align-items-center justify-content-between" href="#">
-                                <span>Amethyst</span>
-                                <i class="fa fa-circle text-amethyst"></i>
-                            </a>
-                            <a @click.prevent="$store.commit('setColorTheme', { theme: 'city' })"
-                               class="dropdown-item d-flex align-items-center justify-content-between" href="#">
-                                <span>City</span>
-                                <i class="fa fa-circle text-city"></i>
-                            </a>
-                            <a @click.prevent="$store.commit('setColorTheme', { theme: 'flat' })"
-                               class="dropdown-item d-flex align-items-center justify-content-between" href="#">
-                                <span>Flat</span>
-                                <i class="fa fa-circle text-flat"></i>
-                            </a>
-                            <a @click.prevent="$store.commit('setColorTheme', { theme: 'modern' })"
-                               class="dropdown-item d-flex align-items-center justify-content-between" href="#">
-                                <span>Modern</span>
-                                <i class="fa fa-circle text-modern"></i>
-                            </a>
-                            <a @click.prevent="$store.commit('setColorTheme', { theme: 'smooth' })"
-                               class="dropdown-item d-flex align-items-center justify-content-between" href="#">
-                                <span>Smooth</span>
-                                <i class="fa fa-circle text-smooth"></i>
-                            </a>
-                            <!-- END Color Themes -->
-
-                            <div class="dropdown-divider" role="separator"></div>
-
-                            <!-- Sidebar Styles -->
-                            <base-layout-modifier action="sidebarStyleLight" class="dropdown-item" tag="a">
-                                Sidebar Light
-                            </base-layout-modifier>
-                            <base-layout-modifier action="sidebarStyleDark" class="dropdown-item" tag="a">
-                                Sidebar Dark
-                            </base-layout-modifier>
-                            <!-- Sidebar Styles -->
-
-                            <div class="dropdown-divider" role="separator"></div>
-
-                            <!-- Header Styles -->
-                            <base-layout-modifier action="headerStyleLight" class="dropdown-item" tag="a">
-                                Header Light
-                            </base-layout-modifier>
-                            <base-layout-modifier action="headerStyleDark" class="dropdown-item" tag="a">
-                                Header Dark
-                            </base-layout-modifier>
-                            <!-- Header Styles -->
-                        </li>
+                        <!-- Color Themes -->
+                        <b-dropdown-item link-class="d-flex align-items-center justify-content-between"
+                                         @click="$store.commit('setColorTheme', { theme: '' })">
+                            <span>Default</span>
+                            <i class="fa fa-circle text-default"></i>
+                        </b-dropdown-item>
+                        <b-dropdown-item link-class="d-flex align-items-center justify-content-between"
+                                         @click="$store.commit('setColorTheme', { theme: 'amethyst' })">
+                            <span>Amethyst</span>
+                            <i class="fa fa-circle text-amethyst"></i>
+                        </b-dropdown-item>
+                        <b-dropdown-item link-class="d-flex align-items-center justify-content-between"
+                                         @click="$store.commit('setColorTheme', { theme: 'city' })">
+                            <span>City</span>
+                            <i class="fa fa-circle text-city"></i>
+                        </b-dropdown-item>
+                        <b-dropdown-item link-class="d-flex align-items-center justify-content-between"
+                                         @click="$store.commit('setColorTheme', { theme: 'flat' })">
+                            <span>Flat</span>
+                            <i class="fa fa-circle text-flat"></i>
+                        </b-dropdown-item>
+                        <b-dropdown-item link-class="d-flex align-items-center justify-content-between"
+                                         @click="$store.commit('setColorTheme', { theme: 'modern' })">
+                            <span>Modern</span>
+                            <i class="fa fa-circle text-modern"></i>
+                        </b-dropdown-item>
+                        <b-dropdown-item link-class="d-flex align-items-center justify-content-between"
+                                         @click="$store.commit('setColorTheme', { theme: 'smooth' })">
+                            <span>Smooth</span>
+                            <i class="fa fa-circle text-smooth"></i>
+                        </b-dropdown-item>
+                        <!-- END Color Themes -->
+                        <b-dropdown-divider />
+                        <!-- Sidebar Styles -->
+                        <base-layout-modifier action="sidebarStyleLight" class="dropdown-item" tag="a">
+                            Sidebar Light
+                        </base-layout-modifier>
+                        <base-layout-modifier action="sidebarStyleDark" class="dropdown-item" tag="a">
+                            Sidebar Dark
+                        </base-layout-modifier>
+                        <!-- Sidebar Styles -->
+                        <b-dropdown-divider />
+                        <!-- Header Styles -->
+                        <base-layout-modifier action="headerStyleLight" class="dropdown-item" tag="a">
+                            Header Light
+                        </base-layout-modifier>
+                        <base-layout-modifier action="headerStyleDark" class="dropdown-item" tag="a">
+                            Header Dark
+                        </base-layout-modifier>
+                        <!-- Header Styles -->
                     </b-dropdown>
                     <!-- Options -->
-
                     <!-- Close Sidebar, Visible only on mobile screens -->
                     <base-layout-modifier action="sidebarClose" class="d-lg-none ml-2" size="sm" variant="dual">
                         <i class="fa fa-times"></i>
@@ -97,10 +89,9 @@
                 <!-- END Extra -->
             </div>
             <!-- END Side Header -->
-
             <!-- Side Navigation -->
             <div class="content-side content-side-full">
-                <base-navigation :nodes="navigation"></base-navigation>
+                <base-navigation :nodes="menu"></base-navigation>
             </div>
             <!-- END Side Navigation -->
         </slot>
@@ -111,22 +102,21 @@
 <script>
     // SimpleBar, for more info and examples you can check out https://github.com/Grsmto/simplebar/tree/master/packages/simplebar-vue
     import simplebar from 'simplebar-vue'
-    // Get navigation data
-    import menuList from '@/data/menu'
+    import {mapGetters} from 'vuex'
 
     export default {
         name: 'BaseSidebar',
         props: {
-            classes: String
+            classes: String,
+            menu: Array
         },
         components: {
             simplebar
         },
-        data() {
-            return {
-                // Get main navigation
-                navigation: menuList.main
-            }
+        computed: {
+            ...mapGetters([
+                'appName'
+            ])
         }
     }
 </script>

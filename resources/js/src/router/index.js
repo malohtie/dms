@@ -35,7 +35,7 @@ router.beforeEach((to, from, next) => {
     //set document title
     document.title = `${to.meta.title} - ${store.getters['appName']}`
     //show page loader
-    store.commit('pageLoader', { mode: 'on' })
+    //store.commit('pageLoader', { mode: 'on' })
     //to admin or user section if already Logged
     if(to.name === 'Login' && store.getters["auth/isLogged"]) {
         if(store.getters["auth/isAdmin"]) {
@@ -56,7 +56,7 @@ router.beforeEach((to, from, next) => {
 
 router.afterEach(() => {
     //hide page loader
-    store.commit('pageLoader', { mode: 'off' })
+    //store.commit('pageLoader', { mode: 'off' })
 });
 
 export default router;

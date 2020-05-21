@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendors~layout~layoutBackend~layoutEmpty"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendors~Admin~layout~layoutEmpty"],{
 
 /***/ "./node_modules/can-use-dom/index.js":
 /*!*******************************************!*\

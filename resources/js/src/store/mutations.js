@@ -5,7 +5,6 @@ export default {
     setLayout(state, payload) {
         state.layout.header = payload.header
         state.layout.sidebar = payload.sidebar
-        state.layout.sideOverlay = payload.sideOverlay
         state.layout.footer = payload.footer
     },
     // Sets sidebar visibility (open, close, toggle)
@@ -58,26 +57,6 @@ export default {
             state.settings.sidebarDark = false
         } else if (payload.mode === 'toggle') {
             state.settings.sidebarDark = !state.settings.sidebarDark
-        }
-    },
-    // Sets side overlay visibility (open, close, toggle)
-    sideOverlay(state, payload) {
-        if (payload.mode === 'open') {
-            state.settings.sideOverlayVisible = true
-        } else if (payload.mode === 'close') {
-            state.settings.sideOverlayVisible = false
-        } else if (payload.mode === 'toggle') {
-            state.settings.sideOverlayVisible = !state.settings.sideOverlayVisible
-        }
-    },
-    // Sets side overlay hover mode (on, off, toggle)
-    sideOverlayHover(state, payload) {
-        if (payload.mode === 'on') {
-            state.settings.sideOverlayHoverable = true
-        } else if (payload.mode === 'off') {
-            state.settings.sideOverlayHoverable = false
-        } else if (payload.mode === 'toggle') {
-            state.settings.sideOverlayHoverable = !state.settings.sideOverlayHoverable
         }
     },
     // Sets page overlay visibility (on, off, toggle)

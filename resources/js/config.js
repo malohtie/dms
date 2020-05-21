@@ -12,7 +12,6 @@ export default {
     currentYear: new Date().getFullYear(),
     header: true,
     sidebar: true,
-    sideOverlay: true,
     footer: true,
     colorTheme: '', // 'amethyst', 'city', 'flat', 'modern', 'smooth'
     sidebarLeft: true,
@@ -20,8 +19,6 @@ export default {
     sidebarDark: true,
     sidebarVisibleDesktop: true,
     sidebarVisibleMobile: false,
-    sideOverlayVisible: false,
-    sideOverlayHoverable: false,
     pageOverlay: true,
     headerFixed: true,
     headerDark: false,

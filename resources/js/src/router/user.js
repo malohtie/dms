@@ -13,7 +13,7 @@ export default [
             {
                 path: '/campaigns',
                 name: 'Campaigns',
-                component: () => import(/* webpackChunkName: "campaigns" */"@/views/starter/Dashboard"),
+                component: () => import(/* webpackChunkName: "campaigns" */"@/views/dms-user/campaign/Campaigns"),
                 meta: {
                     title: 'Campaigns'
                 }

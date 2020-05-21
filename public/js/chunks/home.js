@@ -617,7 +617,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "pt-5 pb-3 text-center" }, [
-      _c("i", { staticClass: "fa fa-2x fa-circle-notch text-primary" })
+      _c("i", { staticClass: "fa fa-circle-notch fa-2x text-primary" })
     ])
   },
   function() {

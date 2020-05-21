@@ -122,10 +122,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     }
   },
   methods: {
-    onSubmit: function onSubmit(event) {
+    onSubmit: function onSubmit() {
       var _this = this;
 
-      console.log(event.target.name);
       this.$v.form.$touch();
 
       if (this.$v.form.$anyError) {
@@ -203,7 +202,7 @@ var render = function() {
                     _c("div", { staticClass: "text-center" }, [
                       _c("p", { staticClass: "mb-2" }, [
                         _c("i", {
-                          staticClass: "fa fa-2x fa-circle-notch text-primary"
+                          staticClass: "fa fa-circle-notch fa-2x text-primary"
                         })
                       ]),
                       _vm._v(" "),
