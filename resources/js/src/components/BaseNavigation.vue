@@ -2,13 +2,12 @@
     <ul :class="classContainer">
         <li
             :class="{
-        'nav-main-heading': node.heading,
-        'nav-main-item': !node.heading,
-        'open': node.sub && node.subActivePaths ? subIsActive(node.subActivePaths) : false
-      }"
+                'nav-main-heading': node.heading,
+                'nav-main-item': !node.heading,
+                'open': node.sub && node.subActivePaths ? subIsActive(node.subActivePaths) : false
+            }"
             :key="`node-${index}`"
-            v-for="(node, index) in nodes"
-        >
+            v-for="(node, index) in nodes">
             {{ node.heading ? node.name : '' }}
             <router-link
                 :active-class="(node.to && node.to !== '#') ? 'active' : ''"
@@ -21,7 +20,8 @@
             >
                 <i :class="`nav-main-link-icon ${node.icon}`" v-if="node.icon"></i>
                 <span class="nav-main-link-name" v-if="node.name">{{ node.name }}</span>
-                <span :class="node['badge-variant'] ? `badge-${node['badge-variant']}` : 'badge-primary' " class="nav-main-link-badge badge badge-pill badge-primary"
+                <span :class="node['badge-variant'] ? `badge-${node['badge-variant']}` : 'badge-primary' "
+                      class="nav-main-link-badge badge badge-pill badge-primary"
                       v-if="node.badge"
                 >{{ node.badge }}</span>
             </router-link>

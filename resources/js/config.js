@@ -19,7 +19,6 @@ export default {
     sidebarDark: true,
     sidebarVisibleDesktop: true,
     sidebarVisibleMobile: false,
-    pageOverlay: true,
     headerFixed: true,
     headerDark: false,
     headerSearch: false,

@@ -14,7 +14,7 @@ import user from "./user"
 import auth from "./auth"
 
 // Router Configuration
-const router =new Router({
+const router = new Router({
     mode: 'history',
     base: process.env.MIX_URL_BASE,
     linkActiveClass: 'active',

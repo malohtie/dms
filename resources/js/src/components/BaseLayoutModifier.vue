@@ -72,9 +72,6 @@
                     pageLoaderOn: () => this.$store.commit('pageLoader', {mode: 'on'}),
                     pageLoaderOff: () => this.$store.commit('pageLoader', {mode: 'off'}),
                     pageLoaderToggle: () => this.$store.commit('pageLoader', {mode: 'toggle'}),
-                    pageOverlayOn: () => this.$store.commit('pageOverlay', {mode: 'on'}),
-                    pageOverlayOff: () => this.$store.commit('pageOverlay', {mode: 'off'}),
-                    pageOverlayToggle: () => this.$store.commit('pageOverlaypageOverlay', {mode: 'toggle'}),
                     mainContentFull: () => this.$store.commit('mainContent', {mode: 'full'}),
                     mainContentBoxed: () => this.$store.commit('mainContent', {mode: 'boxed'}),
                     mainContentNarrow: () => this.$store.commit('mainContent', {mode: 'narrow'})

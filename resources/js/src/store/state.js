@@ -30,7 +30,6 @@ export default {
         sidebarDark: config.sidebarDark,
         sidebarVisibleDesktop: config.sidebarVisibleDesktop,
         sidebarVisibleMobile: config.sidebarVisibleMobile,
-        pageOverlay: config.pageOverlay,
         headerFixed: config.headerFixed,
         headerDark: config.headerDark,
         headerSearch: config.headerSearch,

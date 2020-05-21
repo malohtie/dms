@@ -59,16 +59,6 @@ export default {
             state.settings.sidebarDark = !state.settings.sidebarDark
         }
     },
-    // Sets page overlay visibility (on, off, toggle)
-    pageOverlay(state, payload) {
-        if (payload.mode === 'on') {
-            state.settings.pageOverlay = true
-        } else if (payload.mode === 'off') {
-            state.settings.pageOverlay = false
-        } else if (payload.mode === 'toggle') {
-            state.settings.pageOverlay = !state.settings.pageOverlay
-        }
-    },
     // Sets header mode (fixed, static, toggle)
     header(state, payload) {
         if (payload.mode === 'fixed') {

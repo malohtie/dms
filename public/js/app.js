@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/chunks/" + ({"400":"400","401":"401","403":"403","404":"404","campaigns":"campaigns","dashboard":"dashboard","maintenance":"maintenance","vendors~Admin~layout~layoutEmpty":"vendors~Admin~layout~layoutEmpty","Admin~layout~layoutEmpty":"Admin~layout~layoutEmpty","Admin":"Admin","layout":"layout","layoutEmpty":"layoutEmpty","vendors~home~login":"vendors~home~login","home":"home","login":"login"}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "js/chunks/" + ({"400":"400","401":"401","403":"403","404":"404","campaigns":"campaigns","dashboard":"dashboard","maintenance":"maintenance","vendors~Admin~User~layoutEmpty":"vendors~Admin~User~layoutEmpty","Admin~User~layoutEmpty":"Admin~User~layoutEmpty","Admin":"Admin","User":"User","layoutEmpty":"layoutEmpty","vendors~home~login":"vendors~home~login","home":"home","login":"login"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -2809,21 +2809,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         },
         pageLoaderToggle: function pageLoaderToggle() {
           return _this.$store.commit('pageLoader', {
-            mode: 'toggle'
-          });
-        },
-        pageOverlayOn: function pageOverlayOn() {
-          return _this.$store.commit('pageOverlay', {
-            mode: 'on'
-          });
-        },
-        pageOverlayOff: function pageOverlayOff() {
-          return _this.$store.commit('pageOverlay', {
-            mode: 'off'
-          });
-        },
-        pageOverlayToggle: function pageOverlayToggle() {
-          return _this.$store.commit('pageOverlaypageOverlay', {
             mode: 'toggle'
           });
         },
@@ -68916,7 +68901,6 @@ __webpack_require__.r(__webpack_exports__);
   sidebarDark: true,
   sidebarVisibleDesktop: true,
   sidebarVisibleMobile: false,
-  pageOverlay: true,
   headerFixed: true,
   headerDark: false,
   headerSearch: false,
@@ -69730,7 +69714,7 @@ __webpack_require__.r(__webpack_exports__);
   path: '/admin',
   redirect: '/admin/dashboard',
   component: function component() {
-    return Promise.all(/*! import() | Admin */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("Admin")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Admin */ "./resources/js/src/layouts/variations/Admin.vue"));
+    return Promise.all(/*! import() | Admin */[__webpack_require__.e("vendors~Admin~User~layoutEmpty"), __webpack_require__.e("Admin~User~layoutEmpty"), __webpack_require__.e("Admin")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Admin */ "./resources/js/src/layouts/variations/Admin.vue"));
   },
   meta: {
     adminOnly: true
@@ -69764,7 +69748,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ([{
   path: '',
   component: function component() {
-    return Promise.all(/*! import() | layoutEmpty */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("layoutEmpty")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
+    return Promise.all(/*! import() | layoutEmpty */[__webpack_require__.e("vendors~Admin~User~layoutEmpty"), __webpack_require__.e("Admin~User~layoutEmpty"), __webpack_require__.e("layoutEmpty")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
   },
   children: [{
     path: '/login',
@@ -69795,7 +69779,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ([{
   path: '',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("layoutEmpty")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e("vendors~Admin~User~layoutEmpty"), __webpack_require__.e("Admin~User~layoutEmpty"), __webpack_require__.e("layoutEmpty")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
   },
   children: [{
     path: '/maintenance',
@@ -69961,7 +69945,7 @@ __webpack_require__.r(__webpack_exports__);
   path: '/',
   redirect: '/home',
   component: function component() {
-    return Promise.all(/*! import() */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("layoutEmpty")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
+    return Promise.all(/*! import() */[__webpack_require__.e("vendors~Admin~User~layoutEmpty"), __webpack_require__.e("Admin~User~layoutEmpty"), __webpack_require__.e("layoutEmpty")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/Empty */ "./resources/js/src/layouts/variations/Empty.vue"));
   },
   children: [{
     path: '/home',
@@ -69993,7 +69977,7 @@ __webpack_require__.r(__webpack_exports__);
   path: '/user',
   redirect: '/campaigns',
   component: function component() {
-    return Promise.all(/*! import() | layout */[__webpack_require__.e("vendors~Admin~layout~layoutEmpty"), __webpack_require__.e("Admin~layout~layoutEmpty"), __webpack_require__.e("layout")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/BackendStarter */ "./resources/js/src/layouts/variations/BackendStarter.vue"));
+    return Promise.all(/*! import() | User */[__webpack_require__.e("vendors~Admin~User~layoutEmpty"), __webpack_require__.e("Admin~User~layoutEmpty"), __webpack_require__.e("User")]).then(__webpack_require__.bind(null, /*! @/layouts/variations/User */ "./resources/js/src/layouts/variations/User.vue"));
   },
   meta: {
     auth: true
@@ -70377,16 +70361,6 @@ __webpack_require__.r(__webpack_exports__);
       state.settings.sidebarDark = !state.settings.sidebarDark;
     }
   },
-  // Sets page overlay visibility (on, off, toggle)
-  pageOverlay: function pageOverlay(state, payload) {
-    if (payload.mode === 'on') {
-      state.settings.pageOverlay = true;
-    } else if (payload.mode === 'off') {
-      state.settings.pageOverlay = false;
-    } else if (payload.mode === 'toggle') {
-      state.settings.pageOverlay = !state.settings.pageOverlay;
-    }
-  },
   // Sets header mode (fixed, static, toggle)
   header: function header(state, payload) {
     if (payload.mode === 'fixed') {
@@ -70507,7 +70481,6 @@ __webpack_require__.r(__webpack_exports__);
     sidebarDark: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sidebarDark,
     sidebarVisibleDesktop: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sidebarVisibleDesktop,
     sidebarVisibleMobile: _config__WEBPACK_IMPORTED_MODULE_0__["default"].sidebarVisibleMobile,
-    pageOverlay: _config__WEBPACK_IMPORTED_MODULE_0__["default"].pageOverlay,
     headerFixed: _config__WEBPACK_IMPORTED_MODULE_0__["default"].headerFixed,
     headerDark: _config__WEBPACK_IMPORTED_MODULE_0__["default"].headerDark,
     headerSearch: _config__WEBPACK_IMPORTED_MODULE_0__["default"].headerSearch,

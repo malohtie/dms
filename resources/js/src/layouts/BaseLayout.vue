@@ -58,9 +58,6 @@
             loader() {
                 return this.$store.state.settings.pageLoader
             },
-            pageOverlay() {
-                return this.$store.state.settings.pageOverlay
-            },
             sidebar() {
                 return this.$store.state.layout.sidebar
             },

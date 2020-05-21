@@ -5,7 +5,7 @@ export default [
     {
         path: '/user',
         redirect: '/campaigns',
-        component: () => import(/* webpackChunkName: "layout" */"@/layouts/variations/BackendStarter"),
+        component: () => import(/* webpackChunkName: "User" */"@/layouts/variations/User"),
         meta: {
             auth: true,
         },

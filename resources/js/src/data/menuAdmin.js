@@ -2,7 +2,7 @@ export default [
     {
         name: 'Dashboard',
         to: '/admin/dashboard',
-        icon: 'si si-speedometer'
+        icon: 'fas fa-tachometer-alt'
     },
     {
         name: 'Manage Users',
