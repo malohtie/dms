@@ -289,6 +289,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'BaseHeader',
@@ -901,6 +902,8 @@ var render = function() {
                       key: "button-content",
                       fn: function() {
                         return [
+                          _c("i", { staticClass: "far fa-user" }),
+                          _vm._v(" "),
                           _c(
                             "span",
                             { staticClass: "d-none d-sm-inline-block ml-1" },

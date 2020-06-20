@@ -90,9 +90,9 @@
             </div>
             <!-- END Side Header -->
             <!-- Side Navigation -->
-            <div class="content-side content-side-full">
-                <base-navigation :nodes="menu"></base-navigation>
-            </div>
+                <div class="content-side content-side-full">
+                    <base-navigation :nodes="menu"></base-navigation>
+                </div>
             <!-- END Side Navigation -->
         </slot>
     </simplebar>

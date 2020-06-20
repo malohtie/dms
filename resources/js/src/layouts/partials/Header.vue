@@ -75,6 +75,7 @@
                     <b-dropdown class="d-inline-block ml-2" menu-class="p-0 border-0 font-size-sm" no-caret
                                 right size="sm" variant="dual">
                         <template #button-content>
+                            <i class="far fa-user"></i>
                             <span class="d-none d-sm-inline-block ml-1">{{ fullName | cap | truncate(13) }}</span>
                             <i class="fa fa-fw fa-angle-down d-none d-sm-inline-block"></i>
                         </template>
